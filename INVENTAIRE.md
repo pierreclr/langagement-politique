@@ -2,7 +2,7 @@
 
 Liste des fichiers publiés dans ce dépôt (générée automatiquement : ne pas modifier à la main).
 
-1490 fichiers, 40.5 Mo.
+1491 fichiers, 40.6 Mo.
 
 | Dossier | Fichiers | Taille (Ko) |
 |---|---|---|
@@ -52,7 +52,7 @@ Liste des fichiers publiés dans ce dépôt (générée automatiquement : ne pas
 | `outils/droit` | 7 | 117 |
 | `prototypes` | 16 | 341 |
 | `registre-anomalies` | 465 | 3022 |
-| `site` | 1 | 22 |
+| `site` | 2 | 36 |
 | `sources` | 171 | 9698 |
 | `sources/calculs` | 52 | 872 |
 
@@ -1342,6 +1342,7 @@ Ces fichiers sont cités par un lien relatif mais ne sont pas (encore) dans le d
 - `registre-anomalies/mesures.md`
 - `registre-anomalies/selection-manifeste.md`
 - `site/index.html`
+- `site/programme.html`
 - `sources/architecture-democratique.md`
 - `sources/assurances-dossier.md`
 - `sources/atlas-taux-marginaux.md`

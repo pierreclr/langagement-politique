@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Le programme · Langagement politique</title>
+<meta name="description" content="Un système plus simple et plus juste : le programme en une page (version de travail).">
+<style>
+:root{--fond:#fbfaf7;--surface:#fff;--encre:#1d1c1a;--doux:#5f5c55;--trait:#e2ded6;--accent:#1f3b8f;--accent-doux:#e9eef9;--rouge:#c8102e;--vert:#5b7a46;--vert-doux:#eef3ea;
+--serif:"Source Serif 4","Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif;--sans:"Inter",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--fond:#161514;--surface:#1f1e1c;--encre:#e9e6df;--doux:#a8a397;--trait:#34322e;--accent:#9db4ff;--accent-doux:#1b2340;--rouge:#ff6b7a;--vert:#8fb878;--vert-doux:#1f2a1b}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--fond);color:var(--encre);font-family:var(--sans);line-height:1.5}
+a{color:var(--accent)}
+.page{max-width:1080px;margin:0 auto;padding:0 16px}
+header.haut::before{content:"";display:block;height:5px;background:linear-gradient(90deg,#1f3b8f 0 33.3%,#f5f5f5 33.3% 66.6%,#c8102e 66.6%) 0 0/var(--lu,0%) 100% no-repeat,var(--trait)}
+header.haut{border-bottom:1px solid var(--trait);position:sticky;top:0;z-index:50;background:var(--fond)}
+header.haut .page{padding-top:12px;padding-bottom:12px}
+.tete1{display:flex;justify-content:space-between;align-items:center;gap:12px}
+.tete2{display:flex;align-items:center;gap:6px 16px;flex-wrap:wrap;margin-top:8px}
+nav.haut{display:flex;gap:6px 16px;flex-wrap:wrap;font-size:.9rem}nav.haut a{font-weight:700;text-decoration:none}nav.haut a[aria-current]{color:var(--rouge)}
+.marque{font-family:var(--serif);font-weight:700;font-size:1.15rem;color:var(--encre);text-decoration:none}
+.btn-github{white-space:nowrap;flex:none;display:inline-flex;align-items:center;gap:6px;padding:6px 12px;border-radius:6px;background:var(--accent);color:var(--fond)!important;font-size:.9rem;font-weight:600;text-decoration:none}.btn-github svg{width:16px;height:16px;fill:currentColor}
+.etat{font-size:.8rem;color:var(--doux);border:1px dashed var(--trait);border-radius:999px;padding:2px 10px}
+.hero{padding:56px 0 40px}
+.surtitre{font-weight:700;letter-spacing:.12em;color:var(--rouge);font-size:.9rem;margin:0 0 12px}
+.hero h1{font-family:var(--serif);font-size:clamp(2rem,5vw,3.2rem);line-height:1.1;margin:0 0 18px;max-width:18ch}
+.hero p.sous{font-size:clamp(1.05rem,2.2vw,1.3rem);color:var(--doux);max-width:60ch;margin:0 0 28px}
+.boutons{display:flex;gap:12px;flex-wrap:wrap}
+.btn{display:inline-block;padding:12px 20px;border-radius:8px;font-weight:600;text-decoration:none;border:1px solid var(--accent)}
+.btn.plein{background:var(--accent);color:var(--fond)}
+.btn.vide{color:var(--accent)}
+section{padding:36px 0;border-top:1px solid var(--trait);scroll-margin-top:64px}
+h2{font-family:var(--serif);font-size:clamp(1.4rem,3vw,1.9rem);margin:0 0 8px}
+p.intro{color:var(--doux);margin:0 0 24px;max-width:65ch}
+.chiffres{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px}
+.chiffre{background:var(--surface);border:1px solid var(--trait);border-radius:12px;padding:18px}
+.chiffre b{display:block;font-family:var(--serif);font-size:1.9rem;color:var(--rouge);line-height:1.1;margin-bottom:6px}
+.chiffre span{font-size:.92rem;color:var(--doux)}
+.axes{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px}
+.axe{background:var(--surface);border:1px solid var(--trait);border-left:4px solid var(--rouge);border-radius:12px;padding:20px}
+.axe h3{margin:0 0 4px;font-size:1.15rem}
+.axe p.pourquoi{margin:0 0 12px;color:var(--doux);font-size:.95rem}
+.axe ul{margin:0 0 12px;padding-left:18px}
+.axe li{margin:4px 0}
+.axe a.lire{font-size:.9rem;font-weight:600;text-decoration:none}
+table{width:100%;border-collapse:collapse;background:var(--surface);border:1px solid var(--trait);border-radius:12px;overflow:hidden;font-size:.95rem}
+th,td{text-align:left;padding:10px 12px;border-bottom:1px solid var(--trait)}
+td.n{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap;font-weight:600}
+td.plus{color:var(--vert)}
+.tableau{overflow-x:auto}
+.note{font-size:.85rem;color:var(--doux);margin-top:10px}
+.chapitres{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:10px}
+.chapitres a{display:block;background:var(--surface);border:1px solid var(--trait);border-radius:10px;padding:12px 14px;text-decoration:none;color:var(--encre)}
+.chapitres a small{display:block;color:var(--doux);font-size:.8rem}
+.chapitres a:hover{border-color:var(--accent)}
+.encadre{background:var(--accent-doux);border-left:4px solid var(--accent);border-radius:10px;padding:18px 20px}
+.trois{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
+.col{background:var(--surface);border:1px solid var(--trait);border-radius:12px;padding:18px 20px;border-top:4px solid var(--doux)}
+.col.moins{border-top-color:var(--rouge)}.col.reste{border-top-color:#8a8578}.col.plus{border-top-color:var(--vert)}
+.col h3{margin:0 0 8px;font-size:1.1rem}.col p{margin:0 0 10px;color:var(--doux)}.col a.lire{font-size:.9rem;font-weight:600;text-decoration:none}.col ul{margin:0;padding-left:18px}.col li{margin:5px 0}
+.logique p{max-width:72ch}.logique ol{max-width:72ch;padding-left:22px}.logique li{margin:8px 0}
+.assume{background:var(--accent-doux);border-left:4px solid var(--accent);border-radius:10px;padding:18px 20px;margin-top:20px;max-width:80ch}
+.assume h3{margin:0 0 8px}
+footer{padding:28px 0 40px;color:var(--doux);font-size:.85rem;border-top:1px solid var(--trait)}
+.lien-comparer{margin-right:12px;font-weight:700;color:var(--accent,#1f3b8f);text-decoration:none;font-size:.9rem;white-space:nowrap}.lien-comparer:hover{text-decoration:underline}
+.etat-projet{font-size:.92rem;color:var(--doux,#5f5c55);margin:18px 0 0;max-width:46em}
+.portes{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:14px}
+.porte{display:block;background:var(--surface);border:1px solid var(--trait);border-top:4px solid var(--accent);border-radius:12px;padding:18px 20px;text-decoration:none;color:var(--encre)}
+.porte:hover{border-color:var(--accent)}
+.porte b{display:block;font-family:var(--serif);font-size:1.25rem;margin-bottom:6px}
+.porte span{display:block;color:var(--doux);font-size:.95rem}
+.porte i{display:block;font-style:normal;font-weight:600;color:var(--accent);font-size:.9rem;margin-top:10px}
+.portes.petites .porte{border-top-width:1px;padding:14px 16px}.portes.petites .porte b{font-size:1.05rem}
+</style>
+</head>
+<body>
+<header class="haut"><div class="page">
+  <div class="tete1"><a class="marque" href="/">Langagement politique</a><a class="btn-github" href="https://github.com/pierreclr/langagement-politique" title="Sources, données et calculs"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>Voir sur GitHub</a></div>
+  <div class="tete2"><nav class="haut" aria-label="Navigation principale"><a href="/programme.html" aria-current="page">Le programme</a><a href="/fr/index.html">Le manifeste</a><a href="/direction/">Idéologie et direction</a><a href="/fr/chapitres/15-comparer-les-programmes.html">Comparer</a><a href="/direction/methode.html">Notre méthode</a><a href="/fr/modeles/">Les modèles</a></nav><span class="etat">Version 0.2 · document de travail</span></div>
+</div></header>
+
+<main class="page">
+  <div class="hero">
+    <p class="surtitre">LE PROGRAMME</p>
+    <h1>Le programme en une page.</h1>
+    <p class="sous">Ce que nous voulons : que personne ne tombe sous un plancher, que chacun puisse accéder à un toit même sans héritage, que les citoyens votent eux-mêmes les lois, et que l'État rende des comptes sur ce qui marche et ce qui échoue.</p>
+    <div class="boutons">
+      <a class="btn plein" href="#pour-vous">Ce que ça change pour vous</a>
+      <a class="btn vide" href="fr/index.html">Lire le manifeste complet</a>
+    </div>
+  </div>
+
+  <section class="logique">
+    <h2>La logique du programme</h2>
+    <p class="intro">Tout le programme découle de quelques idées simples. Les chapitres en donnent le détail, les chiffres et les sources.</p>
+    <ol>
+      <li><strong>Une règle commune plutôt que mille exceptions.</strong> Trois fonctions remplacent l'essentiel des impôts, cotisations et aides. Chacun peut calculer ce qu'il doit et ce qu'il reçoit, et personne ne peut s'organiser pour y échapper.</li>
+      <li><strong>Ce qui a un coût est payé une fois, par tous, à la source.</strong> Les avantages créés par la loi (mutuelle d'entreprise, titres-restaurant, chèques-vacances) profitent surtout aux salariés des grandes entreprises : leur argent devient du salaire. Ce qui doit être gratuit pour tous, comme les transports urbains, l'est vraiment. Et une aide décidée est versée automatiquement à tous ceux qui y ont droit, sans dossier à remplir.</li>
+      <li><strong>Protéger d'abord ceux qui en ont le plus besoin, automatiquement.</strong> Un plancher sous lequel personne ne descend, la Sécurité sociale qui rembourse tout le socle de soins, une garantie quand on perd son activité : sans dossier à monter.</li>
+      <li><strong>Donner un prix à ce qui abîme, plutôt qu'interdire.</strong> L'énergie gaspillée, les terres bétonnées, la pollution paient ; ce qui protège devient rentable.</li>
+      <li><strong>Un État fort qui conçoit, une proximité qui exécute.</strong> L'État écrit les règles et fournit les outils ; la mairie et l'intercommunalité accueillent, accompagnent et jugent les cas particuliers.</li>
+      <li><strong>Ce qui est stratégique reste public, et l'avenir se construit chez nous :</strong> nucléaire, barrages, données de santé, calcul pour l'intelligence artificielle.</li>
+      <li><strong>Le peuple décide, et l'État rend des comptes.</strong> Les citoyens votent les lois ; chaque euro public est publié avec ce qu'il a produit.</li>
+    </ol>
+    <div class="assume">
+      <h3>Un programme intense, et nous l'assumons</h3>
+      <p>Une règle simple bouscule ceux qui vivent de la complexité. Son coût est estimé à environ 41 milliards d'euros par an, l'équivalent de 435 000 emplois ; près de 24 milliards n'auraient plus lieu d'être avec des règles simples. Les intermédiaires des titres-restaurant, une partie du conseil fiscal et de la billettique devront se transformer.</p>
+      <p>Ceux qui y travaillent font un travail réel, et leurs compétences resteront précieuses. La bascule se fait avec une garantie de transition pour chacun et, dans le public, au rythme des départs en retraite, sans licenciement.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Ce qui disparaît, ce qui reste, ce qui est renforcé</h2>
+    <p class="intro">Réorganiser, ce n'est pas tout raser. Voici ce que le programme change dans la société, en un coup d'œil.</p>
+    <div class="trois">
+      <div class="col moins"><h3>Ce qui disparaît ou est regroupé</h3><ul>
+        <li>L'impôt sur le revenu, la CSG, les cotisations et des centaines de petites taxes, fondus dans une contribution unique</li>
+        <li>Les 465 niches fiscales et les montages qu'elles permettent</li>
+        <li>Les aides à demander (RSA, prime d'activité, aides au logement), remplacées par un versement automatique</li>
+        <li>La mutuelle d'entreprise obligatoire, les titres-restaurant, les chèques-vacances : convertis en salaire</li>
+        <li>Les départements et les régions comme collectivités : deux niveaux seulement</li>
+        <li>Le Parlement, remplacé par le vote des citoyens et une assemblée tirée au sort</li>
+        <li>Les interdictions de louer et les quotas de béton, remplacés par un prix</li>
+      </ul></div>
+      <div class="col reste"><h3>Ce qui reste</h3><ul>
+        <li>La Sécurité sociale, l'hôpital, l'école et l'université quasi gratuite</li>
+        <li>Les fonctionnaires qui soignent, enseignent, protègent et jugent</li>
+        <li>La retraite par répartition et le minimum vieillesse</li>
+        <li>Les pharmacies, la liberté d'installation des médecins</li>
+        <li>L'impôt sur les sociétés et la TVA, simplifiée à trois taux</li>
+        <li>Le droit du sol, le président élu</li>
+      </ul></div>
+      <div class="col plus"><h3>Ce qui est renforcé</h3><ul>
+        <li>La protection : plancher de 877 €, soins remboursés, garantie de transition, grand âge</li>
+        <li>La justice : plus de juges, un parquet indépendant, un contrôle indépendant de la police</li>
+        <li>La protection de l'enfance et la proximité en mairie</li>
+        <li>La démocratie : votations, jugement majoritaire, transparence</li>
+        <li>La souveraineté : nucléaire, barrages publics, entreprise d'État de la technologie</li>
+        <li>La contribution des grandes fortunes et des gros héritages</li>
+      </ul></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Nos propositions phares</h2>
+    <p class="intro">Regroupées en six directions. La simplification n'est pas une fin : elle sert un système plus juste, plus protecteur, et qui prépare l'avenir.</p>
+    <div class="axes">
+      <div class="axe">
+        <h3>Plus juste</h3>
+        <p class="pourquoi">La complexité profite à ceux qui peuvent payer pour la contourner.</p>
+        <ul>
+          <li>Une seule contribution sur tous les revenus, sans tranche ni niche.</li>
+          <li>Une contribution sur le patrimoine qui épargne les petits et fait contribuer les grandes fortunes.</li>
+          <li>L'héritage calculé sur une vie : fini les montages réservés à quelques-uns.</li>
+        </ul>
+        <a class="lire" href="fr/chapitres/03-contribuer.html">Chapitre 3 · Contribuer →</a>
+      </div>
+      <div class="axe">
+        <h3>Plus protecteur</h3>
+        <p class="pourquoi">Personne ne doit tomber, et personne ne doit remplir un dossier pour être aidé.</p>
+        <ul>
+          <li>La Sécurité sociale rembourse tout le socle de soins, sans mutuelle obligatoire.</li>
+          <li>Une garantie de transition versée automatiquement quand on perd son activité.</li>
+          <li>Le grand âge pris en charge selon les moyens de chacun, sans faire payer les enfants.</li>
+        </ul>
+        <a class="lire" href="fr/chapitres/04-proteger.html">Chapitres 4 et 5 · Protéger, vieillir →</a>
+      </div>
+      <div class="axe">
+        <h3>Plus écologique</h3>
+        <p class="pourquoi">On donne un prix à ce qui pollue plutôt que d'interdire.</p>
+        <ul>
+          <li>Un loyer maximal qui tient compte de la facture d'énergie : isoler devient rentable.</li>
+          <li>Une TVA qui oriente : 5 % sur l'essentiel, plus sur ce qui pollue.</li>
+          <li>Les transports en commun urbains gratuits, financés par la contribution commune.</li>
+          <li>Bétonner une terre agricole a un prix, qui finance la renaturation des friches.</li>
+        </ul>
+        <a class="lire" href="fr/chapitres/06-se-loger.html">Chapitre 6 · Se loger →</a>
+      </div>
+      <div class="axe">
+        <h3>Plus simple</h3>
+        <p class="pourquoi">Le temps passé à remplir et à traiter des formulaires est du temps volé.</p>
+        <ul>
+          <li>Une application unique ; les revenus connus à la source ; plus de déclaration.</li>
+          <li>Deux niveaux seulement : l'État et les intercommunalités, avec un guichet en mairie.</li>
+          <li>Chaque euro public publié, chaque organisme réévalué tous les dix ans.</li>
+        </ul>
+        <a class="lire" href="fr/chapitres/07-un-etat-qui-rend-des-comptes.html">Chapitre 7 · Un État qui rend des comptes →</a>
+      </div>
+      <div class="axe">
+        <h3>Plus démocratique</h3>
+        <p class="pourquoi">Le gouvernement du peuple, par le peuple et pour le peuple, pris au mot.</p>
+        <ul>
+          <li>Les lois votées par les citoyens ; une loi passe avec 60 % des voix.</li>
+          <li>Une assemblée tirée au sort prépare les textes et contrôle le gouvernement.</li>
+          <li>Des ministres élus pour leur compétence, des élections au jugement majoritaire.</li>
+        </ul>
+        <a class="lire" href="fr/chapitres/08-decider-ensemble.html">Chapitre 8 · Décider ensemble →</a>
+      </div>
+      <div class="axe">
+        <h3>Plus souverain</h3>
+        <p class="pourquoi">Ce qui est stratégique reste public ; l'avenir se construit chez nous.</p>
+        <ul>
+          <li>Le nucléaire vendu à son prix de revient ; les barrages gardés publics.</li>
+          <li>Un centre public de calcul pour l'intelligence artificielle, par paliers.</li>
+          <li>Une Europe plus forte, où la France pèse.</li>
+        </ul>
+        <a class="lire" href="fr/chapitres/11-construire.html">Chapitre 11 · Construire →</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="pour-vous">
+    <h2>Ce que ça change pour vous</h2>
+    <p class="intro">Revenu disponible par mois, santé comprise, comparé à aujourd'hui. L'employeur dépense exactement autant qu'avant.</p>
+    <div class="tableau"><table>
+      <tr><th>Situation</th><th>Changement par mois</th></tr>
+      <tr><td>Salarié au Smic</td><td class="n plus">+96 €</td></tr>
+      <tr><td>Couple de deux salariés au Smic, deux enfants</td><td class="n plus">+170 €</td></tr>
+      <tr><td>Couple au revenu médian</td><td class="n plus">+641 €</td></tr>
+      <tr><td>Retraité avec 1 200 € de pension</td><td class="n plus">+132 €</td></tr>
+      <tr><td>Retraité avec 3 000 € de pension</td><td class="n plus">+19 €</td></tr>
+      <tr><td>Cadre à 10 000 € brut</td><td class="n">−187 €</td></tr>
+      <tr><td>Rentier vivant de son patrimoine</td><td class="n">−858 €</td></tr>
+    </table></div>
+    <p class="note">Système arrêté du 8 novembre 2026, scénario central. Méthode, hypothèses et limites au chapitre 12.</p>
+  </section>
+
+  <section>
+    <div class="encadre">
+      <h2>Ce que nous ne promettons pas</h2>
+      <p>Ce programme ne fait pas de miracle. Il demande un effort aux plus aisés et accompagne ceux dont le métier change. La dette se stabilise progressivement, d'ici 2038. Plusieurs points restent ouverts et sont signalés comme tels dans le texte. Les chiffres sont des ordres de grandeur, pas des prédictions.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Lire le manifeste</h2>
+    <p class="intro">Cette page résume le programme. Le manifeste, lui, explique le pourquoi du comment : chaque chapitre se lit à trois niveaux (l'essentiel, simplifié ou complet), avec ses sources et les meilleures objections. Les calculs sont dans <a href="/fr/modeles/">les modèles</a>, chacun expliqué en langage courant.</p>
+    <div class="chapitres">
+      <a href="fr/index.html"><small>Ouverture</small>Introduction</a>
+      <a href="fr/chapitres/01-le-constat.html"><small>1</small>Le constat</a>
+      <a href="fr/chapitres/02-les-principes.html"><small>2</small>Les principes</a>
+      <a href="fr/chapitres/03-contribuer.html"><small>3</small>Contribuer</a>
+      <a href="fr/chapitres/04-proteger.html"><small>4</small>Protéger</a>
+      <a href="fr/chapitres/05-vieillir.html"><small>5</small>Vieillir</a>
+      <a href="fr/chapitres/06-se-loger.html"><small>6</small>Se loger</a>
+      <a href="fr/chapitres/07-un-etat-qui-rend-des-comptes.html"><small>7</small>Un État qui rend des comptes</a>
+      <a href="fr/chapitres/08-decider-ensemble.html"><small>8</small>Décider ensemble</a>
+      <a href="fr/chapitres/09-justice-securite-libertes.html"><small>9</small>Justice, sécurité, libertés</a>
+      <a href="fr/chapitres/10-soigner-et-apprendre.html"><small>10</small>Soigner et apprendre</a>
+      <a href="fr/chapitres/11-construire.html"><small>11</small>Construire</a>
+      <a href="fr/chapitres/12-les-comptes.html"><small>12</small>Les comptes</a>
+      <a href="fr/chapitres/13-la-bascule.html"><small>13</small>La bascule</a>
+      <a href="fr/chapitres/15-comparer-les-programmes.html"><small>15</small>Comparer les programmes</a>
+      <a href="fr/chapitres/14-conclusion.html"><small>Conclusion</small>Le nous a besoin de vous</a>
+    </div>
+  </section>
+
+  <section>
+    <h2>Continuer</h2>
+    <div class="portes petites">
+      <a class="porte" href="/fr/index.html"><b>Le manifeste</b><span>Le texte complet, chapitre par chapitre, à trois niveaux de lecture, avec ses sources et les meilleures objections.</span><i>Lire le manifeste →</i></a>
+      <a class="porte" href="/direction/"><b>Idéologie et direction</b><span>Où nous voulons aller, et pourquoi, en partant de ce que les machines changent au travail.</span><i>Lire la direction →</i></a>
+      <a class="porte" href="/fr/chapitres/15-comparer-les-programmes.html"><b>Comparer les programmes</b><span>Les programmes des autres partis passés dans les mêmes modèles que le nôtre, poste par poste.</span><i>Voir la comparaison →</i></a>
+      <a class="porte" href="/direction/methode.html"><b>Notre méthode</b><span>Modéliser avant d'essayer, essayer avant d'étendre. Ce qui dit succès ou abandon est écrit d'avance.</span><i>Lire la méthode →</i></a>
+      <a class="porte" href="/fr/modeles/"><b>Les modèles</b><span>Chaque chiffre vient d'un modèle ouvert, expliqué en langage courant, que chacun peut refaire.</span><i>Voir les modèles →</i></a>
+    </div>
+  </section>
+</main>
+
+<footer><div class="page">
+  Coécrit avec une intelligence artificielle (Claude, Anthropic), sous la supervision de son auteur, Pierre Clocher. Version 0.2, version de travail, ouverte à tous : texte sous licence CC BY-SA 4.0, code et données sous licence MIT. Elle contient des erreurs, dites-les-nous sur <a href="https://github.com/pierreclr/langagement-politique">GitHub</a>.
+</div></footer>
+<script>(function(){function g(){var d=document.documentElement,m=d.scrollHeight-innerHeight;d.style.setProperty('--lu',(m>0?Math.min(100,100*scrollY/m):100)+'%')}g();addEventListener('scroll',g,{passive:true});addEventListener('resize',g)})()</script>
+</body>
+</html>
