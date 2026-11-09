@@ -1,0 +1,18 @@
+cle,valeur,unite,annee,perimetre,source,statut
+budget_justice_cp,12380.3,M€,2025,mission Justice credits de paiement,Chiffres cles Justice 2026 p.5,sourcé
+budget_justice_cp_2024,11826.8,M€,2024,,Chiffres cles Justice 2026 p.5,sourcé
+budget_programme_admin_penitentiaire,4584.1,M€,2025,attribution par ordre de legende et recoupement PLF 2025 (DAP 4.1 Md hors CAS pensions),Chiffres cles Justice 2026 p.5,sourcé V6278
+budget_programme_justice_judiciaire,5183.4,M€,2025,idem (somme des six programmes = 12380.3),Chiffres cles Justice 2026 p.5,sourcé V6278
+effectifs_mission_justice_etp,93739,ETPT,2025,,Chiffres cles Justice 2026 p.4,sourcé
+cout_journee_detention_cdc,105,euros,2023,moyenne par detenu,OIP fevrier 2020 cite par amendement AN I-2965 (attribution a la Cour des comptes 2023 non etablie),⚠️ V6279
+cout_journee_detention_dap,130,euros,2025,milieu ferme,reponse ministerielle citee par resultat de recherche web,⚠️ V6279
+cout_journee_maison_arret,117,euros,,,idem,⚠️ V6279
+cout_journee_maison_centrale,252,euros,,,idem,⚠️ V6279
+cout_journee_bracelet_2013,12,euros,2013,rapport parlementaire,resultat de recherche web,⚠️ V6280
+cout_place_construction_central,270000,euros,,programme 15000 places (ordre de grandeur),memoire de Claude,⚠️ V6281 hypothese
+plan_transformation_numerique_justice,530,M€,2018-2022,PTN (cout global juge inconnu par la Cour),Cour des comptes via actu-juridique.fr,⚠️ V6282
+ppn_ftap_2021,34,M€,2021,fonds transformation action publique,Acteurs publics via resultat de recherche,⚠️ V6282
+effectif_police_gendarmerie_etp,250000,ETP,2025,ordre de grandeur,non trouve en source primaire,⚠️ V6283 hypothese
+cout_agent_charge,65000,euros,,police-gendarmerie par agent et par an,hypothese,⚠️ V6283 hypothese
+elucidation_vols_cambriolages_un_an,0.08,part,2024,<= 8 % (SSMSI),preparation-themes-manquants.md,⚠️ V6131
+elucidation_homicides,0.68,part,2024,,preparation-themes-manquants.md,⚠️ V6131

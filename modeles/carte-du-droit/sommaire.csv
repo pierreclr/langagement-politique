@@ -1,0 +1,1309 @@
+id;code;niveau0;niveau1;articles_en_vigueur
+CD00001;Code électoral;Partie législative;;762
+CD00002;Code électoral;Partie législative;Livre Ier : Election des députés,   des conseillers départementaux, des conseillers métropolitains de Lyon, des conseillers municipaux et des conseillers communautaires;384
+CD00003;Code électoral;Partie législative;Livre II : Election des sénateurs des départements;67
+CD00004;Code électoral;Partie législative;Livre III : Dispositions spécifiques aux députés élus par les Français établis hors de France;20
+CD00005;Code électoral;Partie législative;Livre IV : Election des conseillers régionaux et des conseillers à l'Assemblée de Corse;52
+CD00006;Code électoral;Partie législative;"Livre V : Dispositions applicables à la 
+Nouvelle-Calédonie, à la Polynésie française et aux îles Wallis et Futuna";79
+CD00007;Code électoral;Partie législative;Livre VI : Dispositions particulières à Mayotte, à Saint-Barthélemy, à Saint-Martin  et à Saint-Pierre-et-Miquelon;90
+CD00008;Code électoral;Partie législative;Livre VI bis : Election des conseillers à l'assemblée de Guyane et des conseillers à l'assemblée de Martinique;37
+CD00009;Code électoral;Partie législative;Livre VI ter : Dispositions applicables aux opérations référendaires;13
+CD00010;Code électoral;Partie législative;Livre VII : Dispositions applicables aux consultations organisées en application des articles 72-4 et 73 de la Constitution;9
+CD00011;Code électoral;Partie législative;Livre VIII : Procédure de modification du régime électoral et du périmètre des circonscriptions;10
+CD00012;Code électoral;Partie législative;Livre IX : Dispositions finales;1
+CD00013;Code électoral;Partie réglementaire;;477
+CD00014;Code électoral;Partie réglementaire;Livre Ier : Election des députés,   des conseillers départementaux, des conseillers métropolitains de Lyon, des conseillers municipaux et des conseillers communautaires des départements;197
+CD00015;Code électoral;Partie réglementaire;Livre II  : Election des sénateurs des départements;43
+CD00016;Code électoral;Partie réglementaire;Livre III : Dispositions spécifiques aux députés élus par les Français établis hors de France;67
+CD00017;Code électoral;Partie réglementaire;Livre IV : Election des conseillers régionaux et des conseillers à l'Assemblée de Corse;16
+CD00018;Code électoral;Partie réglementaire;Livre V : Dispositions applicables à la Nouvelle-Calédonie, à la Polynésie française et aux îles  Wallis et Futuna;93
+CD00019;Code électoral;Partie réglementaire;Livre VI : Dispositions particulières à Mayotte, Saint-Barthélemy, Saint-Martin et Saint-Pierre-et-Miquelon;49
+CD00020;Code électoral;Partie réglementaire;Livre VI bis : Election des conseillers à l'assemblée de Guyane et des conseillers à l'assemblée de Martinique;12
+CD00021;Code électoral;Annexes;;11
+CD00022;Code électoral;Annexes;Tableau des circonscriptions électorales des départements (élection des députés);1
+CD00023;Code électoral;Annexes;Tableau des circonscriptions électorales des départements (élection des députés) (1).;1
+CD00024;Code électoral;Annexes;Tableau des circonscriptions électorales de la Nouvelle-Calédonie et des collectivités d'outre-mer régies par l'article 74 de la Constitution (élection des députés).;1
+CD00025;Code électoral;Annexes;Tableau des circonscriptions électorales des français établis hors de France;1
+CD00026;Code électoral;Annexes;Tableau des secteurs pour l'élection des membres du conseil de Paris;1
+CD00027;Code électoral;Annexes;Tableau des secteurs pour l'élection des conseillers municipaux de Lyon;1
+CD00028;Code électoral;Annexes;Tableau des secteurs pour l'élection des conseillers municipaux de Marseille.;1
+CD00029;Code électoral;Annexes;Répartition des sièges de sénateurs entre les séries;1
+CD00030;Code électoral;Annexes;Election des sénateurs;1
+CD00031;Code électoral;Annexes;Effectif des conseils régionaux et nombre de candidats par section départementale;1
+CD00032;Code électoral;Annexes;Délimitation des circonscriptions métropolitaines;1
+CD00033;Code civil;Titre préliminaire : De la publication, des effets et de l'application des lois en général;;8
+CD00034;Code civil;Livre Ier : Des personnes;;830
+CD00035;Code civil;Livre Ier : Des personnes;Titre Ier : Des droits civils;25
+CD00036;Code civil;Livre Ier : Des personnes;Titre Ier bis : De la nationalité française;118
+CD00037;Code civil;Livre Ier : Des personnes;Titre II : Des actes de l'état civil;86
+CD00038;Code civil;Livre Ier : Des personnes;Titre III : Du domicile;12
+CD00039;Code civil;Livre Ier : Des personnes;Titre IV : Des absents;21
+CD00040;Code civil;Livre Ier : Des personnes;Titre V : Du mariage;94
+CD00041;Code civil;Livre Ier : Des personnes;Titre VI : Du divorce;85
+CD00042;Code civil;Livre Ier : Des personnes;Titre VII : De la filiation;61
+CD00043;Code civil;Livre Ier : Des personnes;Titre VIII : De la filiation adoptive;57
+CD00044;Code civil;Livre Ier : Des personnes;Titre IX : De l'autorité parentale;78
+CD00045;Code civil;Livre Ier : Des personnes;Titre X : De la minorité, de la tutelle et de l'émancipation;39
+CD00046;Code civil;Livre Ier : Des personnes;Titre XI : De la majorité et des majeurs protégés par la loi;111
+CD00047;Code civil;Livre Ier : Des personnes;Titre XII : De la gestion du patrimoine des mineurs et majeurs en tutelle;23
+CD00048;Code civil;Livre Ier : Des personnes;Titre XIII : Du pacte civil de solidarité et du concubinage;13
+CD00049;Code civil;Livre Ier : Des personnes;"Titre : XIV : Des mesures de protection des victimes de violences 
+
+";7
+CD00050;Code civil;Livre II : Des biens et des différentes modifications de la propriété;;194
+CD00051;Code civil;Livre II : Des biens et des différentes modifications de la propriété;Titre Ier : De la distinction des biens;25
+CD00052;Code civil;Livre II : Des biens et des différentes modifications de la propriété;Titre II : De la propriété;34
+CD00053;Code civil;Livre II : Des biens et des différentes modifications de la propriété;Titre III : De l'usufruit, de l'usage et de l'habitation;59
+CD00054;Code civil;Livre II : Des biens et des différentes modifications de la propriété;Titre IV : Des servitudes ou services fonciers;74
+CD00055;Code civil;Livre II : Des biens et des différentes modifications de la propriété;Titre V : De la publicité foncière;1
+CD00056;Code civil;Livre III : Des différentes manières dont on acquiert la propriété;;1603
+CD00057;Code civil;Livre III : Des différentes manières dont on acquiert la propriété;Dispositions générales;7
+CD00058;Code civil;Livre III : Des différentes manières dont on acquiert la propriété;Titre Ier : Des successions;267
+CD00059;Code civil;Livre III : Des différentes manières dont on acquiert la propriété;Titre II : Des libéralités;233
+CD00060;Code civil;Livre III : Des différentes manières dont on acquiert la propriété;Titre III : Des sources d'obligations;199
+CD00061;Code civil;Livre III : Des différentes manières dont on acquiert la propriété;Titre IV : Du régime général des obligations;119
+CD00062;Code civil;Livre III : Des différentes manières dont on acquiert la propriété;Titre IV bis : De la preuve des obligations;43
+CD00063;Code civil;Livre III : Des différentes manières dont on acquiert la propriété;Titre V : Du contrat de mariage et des régimes matrimoniaux;139
+CD00064;Code civil;Livre III : Des différentes manières dont on acquiert la propriété;Titre VI : De la vente;124
+CD00065;Code civil;Livre III : Des différentes manières dont on acquiert la propriété;Titre VII : De l'échange;6
+CD00066;Code civil;Livre III : Des différentes manières dont on acquiert la propriété;Titre VIII : Du contrat de louage;133
+CD00067;Code civil;Livre III : Des différentes manières dont on acquiert la propriété;Titre VIII bis : Du contrat de promotion immobilière;5
+CD00068;Code civil;Livre III : Des différentes manières dont on acquiert la propriété;Titre IX : De la société;76
+CD00069;Code civil;Livre III : Des différentes manières dont on acquiert la propriété;Titre IX bis : Des conventions relatives à l'exercice des droits indivis;18
+CD00070;Code civil;Livre III : Des différentes manières dont on acquiert la propriété;Titre X : Du prêt;41
+CD00071;Code civil;Livre III : Des différentes manières dont on acquiert la propriété;Titre XI : Du dépôt et du séquestre;48
+CD00072;Code civil;Livre III : Des différentes manières dont on acquiert la propriété;Titre XII : Des contrats aléatoires.;18
+CD00073;Code civil;Livre III : Des différentes manières dont on acquiert la propriété;Titre XIII : Du mandat;27
+CD00074;Code civil;Livre III : Des différentes manières dont on acquiert la propriété;Titre XIV : De la fiducie;21
+CD00075;Code civil;Livre III : Des différentes manières dont on acquiert la propriété;Titre XV : Des transactions;8
+CD00076;Code civil;Livre III : Des différentes manières dont on acquiert la propriété;Titre XVI : De la convention d'arbitrage;3
+CD00077;Code civil;Livre III : Des différentes manières dont on acquiert la propriété;Titre XVII : De la convention de procédure participative;7
+CD00078;Code civil;Livre III : Des différentes manières dont on acquiert la propriété;Titre XX : De la prescription extinctive;37
+CD00079;Code civil;Livre III : Des différentes manières dont on acquiert la propriété;Titre XXI : De la possession et de la prescription acquisitive;24
+CD00080;Code civil;Livre IV : Des sûretés;;223
+CD00081;Code civil;Livre IV : Des sûretés;Titre Ier : Des sûretés personnelles;40
+CD00082;Code civil;Livre IV : Des sûretés;Titre II : Des sûretés réelles;172
+CD00083;Code civil;Livre IV : Des sûretés;Titre III : De l'agent des sûretés;7
+CD00084;Code civil;Livre V : Dispositions applicables à Mayotte;;41
+CD00085;Code civil;Livre V : Dispositions applicables à Mayotte;Titre préliminaire : Dispositions relatives au titre préliminaire;1
+CD00086;Code civil;Livre V : Dispositions applicables à Mayotte;Titre Ier : Dispositions relatives au livre Ier;6
+CD00087;Code civil;Livre V : Dispositions applicables à Mayotte;Titre II : Dispositions relatives au livre II;3
+CD00088;Code civil;Livre V : Dispositions applicables à Mayotte;Titre III : Dispositions relatives au livre III;4
+CD00089;Code civil;Livre V : Dispositions applicables à Mayotte;Titre IV : Dispositions relatives à l'immatriculation des immeubles et aux droits sur les immeubles.;25
+CD00090;Code de commerce;Partie législative;;2801
+CD00091;Code de commerce;Partie législative;LIVRE Ier : Du commerce en général.;363
+CD00092;Code de commerce;Partie législative;LIVRE II : Des sociétés commerciales et des groupements d'intérêt économique.;892
+CD00093;Code de commerce;Partie législative;LIVRE III : De certaines formes de ventes et des clauses d'exclusivité.;67
+CD00094;Code de commerce;Partie législative;LIVRE IV : De la liberté des prix et de la concurrence.;177
+CD00095;Code de commerce;Partie législative;LIVRE V : Des effets de commerce et des garanties.;166
+CD00096;Code de commerce;Partie législative;LIVRE VI : Des difficultés des entreprises.;394
+CD00097;Code de commerce;Partie législative;LIVRE VII : Des juridictions commerciales et de l'organisation du commerce.;179
+CD00098;Code de commerce;Partie législative;LIVRE VIII : De quelques professions réglementées.;243
+CD00099;Code de commerce;Partie législative;LIVRE IX : Dispositions relatives à l'outre-mer.;320
+CD00100;Code de commerce;Partie réglementaire;;3616
+CD00101;Code de commerce;Partie réglementaire;LIVRE Ier : Du commerce en général.;504
+CD00102;Code de commerce;Partie réglementaire;LIVRE II : Des sociétés commerciales et des groupements d'intérêt économique.;559
+CD00103;Code de commerce;Partie réglementaire;LIVRE III : De certaines formes de ventes et des clauses d'exclusivité.;122
+CD00104;Code de commerce;Partie réglementaire;LIVRE IV : De la liberté des prix et de la concurrence.;242
+CD00105;Code de commerce;Partie réglementaire;LIVRE V : Des effets de commerce et des garanties.;108
+CD00106;Code de commerce;Partie réglementaire;LIVRE VI : Des difficultés des entreprises.;574
+CD00107;Code de commerce;Partie réglementaire;LIVRE VII : Des juridictions commerciales et de l'organisation du commerce.;724
+CD00108;Code de commerce;Partie réglementaire;LIVRE VIII : De quelques professions réglementées.;641
+CD00109;Code de commerce;Partie réglementaire;LIVRE IX : Dispositions relatives à l'outre-mer.;142
+CD00110;Code de commerce;Annexes de la partie réglementaire;;35
+CD00111;Code de commerce;Partie Arrêtés;;802
+CD00112;Code de commerce;Partie Arrêtés;LIVRE Ier : Du commerce en général.;131
+CD00113;Code de commerce;Partie Arrêtés;LIVRE II : Des sociétés commerciales et des groupements d'intérêt économique.;13
+CD00114;Code de commerce;Partie Arrêtés;LIVRE III : De certaines formes de ventes et des clauses d'exclusivité.;47
+CD00115;Code de commerce;Partie Arrêtés;LIVRE IV : De la liberté des prix et de la concurrence.;225
+CD00116;Code de commerce;Partie Arrêtés;LIVRE V : Des effets de commerce et des garanties.;8
+CD00117;Code de commerce;Partie Arrêtés;LIVRE VI : Des difficultés des entreprises.;31
+CD00118;Code de commerce;Partie Arrêtés;LIVRE VII : Des juridictions commerciales et de l'organisation du commerce.;141
+CD00119;Code de commerce;Partie Arrêtés;LIVRE VIII : De quelques professions réglementées.;206
+CD00120;Code de déontologie des architectes;Code de déontologie des architectes.;;1
+CD00121;Code de déontologie des architectes;TITRE Ier : Missions de l'architecte.;;1
+CD00122;Code de déontologie des architectes;TITRE II : Devoirs professionnels;;45
+CD00123;Code de déontologie des architectes;TITRE II : Devoirs professionnels;CHAPITRE 1er : Règles générales;31
+CD00124;Code de déontologie des architectes;TITRE II : Devoirs professionnels;CHAPITRE II : Règles particulières à chacun des modes d'exercice;13
+CD00125;Code de déontologie des architectes;TITRE II : Devoirs professionnels;CHAPITRE III : Règles relatives à la rémunération.;1
+CD00126;Code de déontologie des architectes;TITRE III : Dispositions finales.;;1
+CD00127;Code de justice administrative;Partie législative;;312
+CD00128;Code de justice administrative;Partie législative;Titre préliminaire;13
+CD00129;Code de justice administrative;Partie législative;Livre Ier : Le Conseil d'Etat;66
+CD00130;Code de justice administrative;Partie législative;Livre II : Les tribunaux administratifs et les cours administratives d'appel;96
+CD00131;Code de justice administrative;Partie législative;Livre III : La compétence;16
+CD00132;Code de justice administrative;Partie législative;Livre V : Le référé;52
+CD00133;Code de justice administrative;Partie législative;Livre VI  : L'instruction;1
+CD00134;Code de justice administrative;Partie législative;Livre VII : Le jugement;53
+CD00135;Code de justice administrative;Partie législative;Livre VIII : Les voies de recours;4
+CD00136;Code de justice administrative;Partie législative;Livre IX : L'exécution des décisions;11
+CD00137;Code de justice administrative;Partie réglementaire - Décrets en Conseil d'Etat;;967
+CD00138;Code de justice administrative;Partie réglementaire - Décrets en Conseil d'Etat;Livre Ier : Le Conseil d'Etat;140
+CD00139;Code de justice administrative;Partie réglementaire - Décrets en Conseil d'Etat;Livre II : Les tribunaux administratifs et les cours administratives d'appel;228
+CD00140;Code de justice administrative;Partie réglementaire - Décrets en Conseil d'Etat;Livre III : La compétence;63
+CD00141;Code de justice administrative;Partie réglementaire - Décrets en Conseil d'Etat;Livre IV : L'introduction de l'instance de premier ressort;48
+CD00142;Code de justice administrative;Partie réglementaire - Décrets en Conseil d'Etat;Livre V : Le référé;59
+CD00143;Code de justice administrative;Partie réglementaire - Décrets en Conseil d'Etat;Livre VI : L'instruction;110
+CD00144;Code de justice administrative;Partie réglementaire - Décrets en Conseil d'Etat;Livre VII : Le jugement;241
+CD00145;Code de justice administrative;Partie réglementaire - Décrets en Conseil d'Etat;Livre VIII : Les voies de recours.;56
+CD00146;Code de justice administrative;Partie réglementaire - Décrets en Conseil d'Etat;Livre IX : L'exécution des décisions;22
+CD00147;Code de justice militaire (nouveau);Partie législative;;620
+CD00148;Code de justice militaire (nouveau);Partie législative;TITRE PRÉLIMINAIRE.;4
+CD00149;Code de justice militaire (nouveau);Partie législative;LIVRE Ier : ORGANISATION ET COMPÉTENCE DE LA JUSTICE MILITAIRE;63
+CD00150;Code de justice militaire (nouveau);Partie législative;LIVRE II : PROCÉDURE PÉNALE MILITAIRE DISPOSITIONS PRÉLIMINAIRES;436
+CD00151;Code de justice militaire (nouveau);Partie législative;LIVRE III : DES PEINES APPLICABLES PAR LES JURIDICTIONS DES FORCES ARMÉES ET DES INFRACTIONS D'ORDRE MILITAIRE;100
+CD00152;Code de justice militaire (nouveau);Partie législative;LIVRE IV : DES PRÉVÔTÉS ET DES TRIBUNAUX PRÉVÔTAUX;17
+CD00153;Code de justice militaire (nouveau);Partie réglementaire : Décrets en Conseil d'Etat;;46
+CD00154;Code de justice militaire (nouveau);Partie réglementaire : Décrets en Conseil d'Etat;LIVRE II : PROCÉDURE PÉNALE MILITAIRE;46
+CD00155;Code de justice militaire (nouveau);Partie réglementaire : Décrets simples;;66
+CD00156;Code de justice militaire (nouveau);Partie réglementaire : Décrets simples;LIVRE Ier : ORGANISATION ET COMPETENCE DE LA JUSTICE MILITAIRE;24
+CD00157;Code de justice militaire (nouveau);Partie réglementaire : Décrets simples;LIVRE II : PROCÉDURE PÉNALE MILITAIRE;42
+CD00158;Code de l'éducation;Partie législative;;1038
+CD00159;Code de l'éducation;Partie législative;Première partie : Dispositions générales et communes;298
+CD00160;Code de l'éducation;Partie législative;Deuxième partie : Les enseignements scolaires;342
+CD00161;Code de l'éducation;Partie législative;Troisième partie : Les enseignements supérieurs et la recherche;289
+CD00162;Code de l'éducation;Partie législative;Quatrième partie : Les personnels;109
+CD00163;Code de l'éducation;Partie réglementaire;;4015
+CD00164;Code de l'éducation;Partie réglementaire;Livre Ier : Principes généraux de l'éducation.;155
+CD00165;Code de l'éducation;Partie réglementaire;Livre II : L'administration de l'éducation.;460
+CD00166;Code de l'éducation;Partie réglementaire;Livre III : L'organisation des enseignements scolaires.;812
+CD00167;Code de l'éducation;Partie réglementaire;Livre IV : Les établissements d'enseignement scolaire.;687
+CD00168;Code de l'éducation;Partie réglementaire;Livre V : La vie scolaire;207
+CD00169;Code de l'éducation;Partie réglementaire;Livre VI : L'organisation des enseignements supérieurs;681
+CD00170;Code de l'éducation;Partie réglementaire;Livre VII : Les établissements d'enseignement supérieur;455
+CD00171;Code de l'éducation;Partie réglementaire;Livre VIII : La vie universitaire;136
+CD00172;Code de l'éducation;Partie réglementaire;Livre IX : Les personnels de l'éducation.;422
+CD00173;Code de l'énergie;Partie législative;;1218
+CD00174;Code de l'énergie;Partie législative;LIVRE IER : L'ORGANISATION GÉNÉRALE  DU SECTEUR DE L'ÉNERGIE;354
+CD00175;Code de l'énergie;Partie législative;LIVRE II : LA MAÎTRISE DE LA DEMANDE D'ÉNERGIE ET LE DÉVELOPPEMENT DES ÉNERGIES RENOUVELABLES;129
+CD00176;Code de l'énergie;Partie législative;LIVRE III : LES DISPOSITIONS  RELATIVES A L'ÉLECTRICITÉ;339
+CD00177;Code de l'énergie;Partie législative;LIVRE IV : LES DISPOSITIONS RELATIVES AU GAZ;225
+CD00178;Code de l'énergie;Partie législative;LIVRE V : DISPOSITIONS RELATIVES À L'UTILISATION  DE L'ÉNERGIE HYDRAULIQUE;39
+CD00179;Code de l'énergie;Partie législative;LIVRE VI : LES DISPOSITIONS RELATIVES AU PÉTROLE, AUX BIOCARBURANTS ET BIOLIQUIDES;39
+CD00180;Code de l'énergie;Partie législative;LIVRE VII : LES DISPOSITIONS RELATIVES AUX RÉSEAUX DE CHALEUR ET DE FROID;39
+CD00181;Code de l'énergie;Partie législative;LIVRE VIII : LES DISPOSITIONS RELATIVES À L'HYDROGÈNE;54
+CD00182;Code de l'énergie;Partie réglementaire ;;2006
+CD00183;Code de l'énergie;Partie réglementaire ;LIVRE IER : L'ORGANISATION GÉNÉRALE DU SECTEUR DE L'ÉNERGIE;412
+CD00184;Code de l'énergie;Partie réglementaire ;LIVRE II : LA MAÎTRISE DE LA DEMANDE D'ÉNERGIE ET LE DÉVELOPPEMENT DES ÉNERGIES RENOUVELABLES;219
+CD00185;Code de l'énergie;Partie réglementaire ;LIVRE III : LES DISPOSITIONS RELATIVES À L'ÉLECTRICITÉ;699
+CD00186;Code de l'énergie;Partie réglementaire ;LIVRE IV : LES DISPOSITIONS RELATIVES AU GAZ;405
+CD00187;Code de l'énergie;Partie réglementaire ;LIVRE V : LES DISPOSITIONS RELATIVES À L'UTILISATION DE L'ÉNERGIE HYDRAULIQUE;94
+CD00188;Code de l'énergie;Partie réglementaire ;LIVRE VI : LES DISPOSITIONS RELATIVES AU PÉTROLE, AUX CARBURANTS ALTERNATIFS ET AUX BIOLIQUIDES;95
+CD00189;Code de l'énergie;Partie réglementaire ;LIVRE VII : LES DISPOSITIONS RELATIVES AUX RÉSEAUX DE CHALEUR ET DE FROID;53
+CD00190;Code de l'énergie;Partie réglementaire ;"LIVRE VIII : LES DISPOSITIONS RELATIVES À L'HYDROGÈNE
+";29
+CD00191;Code de l'action sociale et des familles;Partie législative;;1023
+CD00192;Code de l'action sociale et des familles;Partie législative;Livre Ier : Dispositions générales;161
+CD00193;Code de l'action sociale et des familles;Partie législative;Livre II : Différentes formes d'aide et d'action sociales;346
+CD00194;Code de l'action sociale et des familles;Partie législative;Livre III : Action sociale et médico-sociale mise en oeuvre par des établissements et des services;214
+CD00195;Code de l'action sociale et des familles;Partie législative;Livre IV : Professions et activités sociales;159
+CD00196;Code de l'action sociale et des familles;Partie législative;Livre V : Dispositions particulières applicables à certaines parties du territoire;143
+CD00197;Code de l'action sociale et des familles;Partie réglementaire;;2623
+CD00198;Code de l'action sociale et des familles;Partie réglementaire;Livre Ier : Dispositions générales;343
+CD00199;Code de l'action sociale et des familles;Partie réglementaire;Livre II : Différentes formes d'aide et d'action sociales;826
+CD00200;Code de l'action sociale et des familles;Partie réglementaire;Livre III : Action sociale et médico-sociale mise en oeuvre par des établissements et des services;946
+CD00201;Code de l'action sociale et des familles;Partie réglementaire;Livre IV : Professions et activités sociales;338
+CD00202;Code de l'action sociale et des familles;Partie réglementaire;Livre V : Dispositions particulières applicables à certaines parties du territoire;170
+CD00203;Code de l'action sociale et des familles;Annexe ;;44
+CD00204;Code de l'artisanat;Partie législative;;130
+CD00205;Code de l'artisanat;Partie législative;Livre Ier : ACTIVITÉS RELEVANT DU SECTEUR DES MÉTIERS ET DE L'ARTISANAT ET CONDITIONS DE LEUR EXERCICE;64
+CD00206;Code de l'artisanat;Partie législative;Livre II : PERSONNES RELEVANT DU SECTEUR DES MÉTIERS ET DE L'ARTISANAT;18
+CD00207;Code de l'artisanat;Partie législative;Livre III : INSTITUTIONS DU SECTEUR DES MÉTIERS ET DE L'ARTISANAT;18
+CD00208;Code de l'artisanat;Partie législative;Livre V : DISPOSITIONS PARTICULIÈRES RELATIVES À L'OUTRE-MER;30
+CD00209;Code de l'artisanat;Partie réglementaire;;263
+CD00210;Code de l'artisanat;Partie réglementaire;Livre Ier : ACTIVITÉS RELEVANT DU SECTEUR DES MÉTIERS ET DE L'ARTISANAT ET CONDITIONS DE LEUR EXERCICE;53
+CD00211;Code de l'artisanat;Partie réglementaire;Livre II : PERSONNES RELEVANT DU SECTEUR DES MÉTIERS ET DE L'ARTISANAT;30
+CD00212;Code de l'artisanat;Partie réglementaire;Livre III : INSTITUTIONS DU SECTEUR DES MÉTIERS ET DE L'ARTISANAT;151
+CD00213;Code de l'artisanat;Partie réglementaire;Livre V : DISPOSITIONS PARTICULIÈRES RELATIVES À L'OUTRE-MER;29
+CD00214;Code de l'aviation civile;Partie législative;;40
+CD00215;Code de l'aviation civile;Partie législative;LIVRE Ier : AÉRONEFS;12
+CD00216;Code de l'aviation civile;Partie législative;LIVRE II : AÉRODROMES;6
+CD00217;Code de l'aviation civile;Partie législative;LIVRE III : TRANSPORT AÉRIEN;6
+CD00218;Code de l'aviation civile;Partie législative;LIVRE IV : PERSONNEL NAVIGANT;10
+CD00219;Code de l'aviation civile;Partie législative;LIVRE V : DISPOSITIONS PARTICULIÈRES À LA FORMATION AÉRONAUTIQUE.;1
+CD00220;Code de l'aviation civile;Partie législative;LIVRE VI : IMPUTATION DES CHARGES.;2
+CD00221;Code de l'aviation civile;Partie législative;LIVRE VII : ENQUÊTE TECHNIQUE RELATIVE AUX ACCIDENTS ET INCIDENTS - PROTECTION DE L'INFORMATION.;3
+CD00222;Code de l'aviation civile;Partie réglementaire - Décrets en Conseil d'Etat;;6
+CD00223;Code de l'aviation civile;Partie réglementaire - Décrets en Conseil d'Etat;LIVRE VI : DISPOSITIONS DIVERSES.;6
+CD00224;Code de l'entrée et du séjour des étrangers et du droit d'asile;Partie législative ;;1131
+CD00225;Code de l'entrée et du séjour des étrangers et du droit d'asile;Partie législative ;Livre I : DISPOSITIONS GÉNÉRALES;66
+CD00226;Code de l'entrée et du séjour des étrangers et du droit d'asile;Partie législative ;Livre II : DISPOSITIONS APPLICABLES AUX CITOYENS DE L'UNION EUROPÉENNE ET AUX MEMBRES DE LEUR FAMILLE;63
+CD00227;Code de l'entrée et du séjour des étrangers et du droit d'asile;Partie législative ;Livre III : ENTRÉE EN FRANCE;112
+CD00228;Code de l'entrée et du séjour des étrangers et du droit d'asile;Partie législative ;Livre IV : SÉJOUR EN FRANCE;258
+CD00229;Code de l'entrée et du séjour des étrangers et du droit d'asile;Partie législative ;Livre V : DROIT D'ASILE ET AUTRES PROTECTIONS INTERNATIONALES;226
+CD00230;Code de l'entrée et du séjour des étrangers et du droit d'asile;Partie législative ;Livre VI : DÉCISIONS D'ÉLOIGNEMENT;85
+CD00231;Code de l'entrée et du séjour des étrangers et du droit d'asile;Partie législative ;Livre VII : EXÉCUTION DES DÉCISIONS D'ÉLOIGNEMENT;194
+CD00232;Code de l'entrée et du séjour des étrangers et du droit d'asile;Partie législative ;Livre VIII : CONTRÔLES ET SANCTIONS;106
+CD00233;Code de l'entrée et du séjour des étrangers et du droit d'asile;Partie législative ;Livre IX : PROCÉDURES CONTENTIEUSES DEVANT LE JUGE ADMINISTRATIF ;21
+CD00234;Code de l'entrée et du séjour des étrangers et du droit d'asile;Partie réglementaire ;;1367
+CD00235;Code de l'entrée et du séjour des étrangers et du droit d'asile;Partie réglementaire ;Livre I : DISPOSITIONS GÉNÉRALES;171
+CD00236;Code de l'entrée et du séjour des étrangers et du droit d'asile;Partie réglementaire ;Livre II : DISPOSITIONS APPLICABLES AUX CITOYENS DE L'UNION EUROPÉENNE ET AUX MEMBRES DE LEUR FAMILLE;59
+CD00237;Code de l'entrée et du séjour des étrangers et du droit d'asile;Partie réglementaire ;Livre III : ENTRÉE EN FRANCE;145
+CD00238;Code de l'entrée et du séjour des étrangers et du droit d'asile;Partie réglementaire ;Livre IV : SÉJOUR EN FRANCE;303
+CD00239;Code de l'entrée et du séjour des étrangers et du droit d'asile;Partie réglementaire ;Livre V : DROIT D'ASILE ET AUTRES PROTECTIONS INTERNATIONALES;320
+CD00240;Code de l'entrée et du séjour des étrangers et du droit d'asile;Partie réglementaire ;Livre VI : DÉCISIONS D'ÉLOIGNEMENT;75
+CD00241;Code de l'entrée et du séjour des étrangers et du droit d'asile;Partie réglementaire ;Livre VII : EXÉCUTION DES DÉCISIONS D'ÉLOIGNEMENT;188
+CD00242;Code de l'entrée et du séjour des étrangers et du droit d'asile;Partie réglementaire ;Livre VIII : CONTRÔLES ET SANCTIONS;44
+CD00243;Code de l'entrée et du séjour des étrangers et du droit d'asile;Partie réglementaire ;Livre IX : PROCÉDURES CONTENTIEUSES DEVANT LE JUGE ADMINISTRATIF;49
+CD00244;Code de l'entrée et du séjour des étrangers et du droit d'asile;Partie réglementaire ;Annexes;13
+CD00245;Code de l'environnement;Partie législative;;2256
+CD00246;Code de l'environnement;Partie législative;Livre Ier : Dispositions communes;350
+CD00247;Code de l'environnement;Partie législative;Livre II : Milieux physiques;461
+CD00248;Code de l'environnement;Partie législative;Livre III : Espaces naturels;199
+CD00249;Code de l'environnement;Partie législative;Livre IV : Patrimoine naturel;331
+CD00250;Code de l'environnement;Partie législative;Livre V : Prévention des pollutions, des risques et des nuisances;818
+CD00251;Code de l'environnement;Partie législative;Livre VI : Dispositions applicables en Nouvelle-Calédonie, en Polynésie française, à Wallis-et-Futuna, dans les Terres australes et antarctiques françaises, à Mayotte, à Saint-Martin et à Saint-Pierre-et-Miquelon;79
+CD00252;Code de l'environnement;Partie législative;Livre VII : Protection de l'environnement en Antarctique;18
+CD00253;Code de l'environnement;Partie réglementaire;;5002
+CD00254;Code de l'environnement;Partie réglementaire;Livre Ier : Dispositions communes;567
+CD00255;Code de l'environnement;Partie réglementaire;Livre II : Milieux physiques;998
+CD00256;Code de l'environnement;Partie réglementaire;Livre III : Espaces naturels;361
+CD00257;Code de l'environnement;Partie réglementaire;Livre IV : Patrimoine naturel;849
+CD00258;Code de l'environnement;Partie réglementaire;Livre V : Prévention des pollutions, des risques et des nuisances;2049
+CD00259;Code de l'environnement;Partie réglementaire;Livre VI : Dispositions applicables en Nouvelle-Calédonie, en Polynésie française, à Wallis-et-Futuna, dans les Terres Australes et Antarctiques françaises, à Mayotte et à Saint-Martin;161
+CD00260;Code de l'environnement;Partie réglementaire;Livre VII : Protection de l'environnement en Antarctique;17
+CD00261;Code de l'environnement;ANNEXES;;19
+CD00262;Code de l'expropriation pour cause d'utilité publique;Partie législative nouvelle;;164
+CD00263;Code de l'expropriation pour cause d'utilité publique;Partie législative nouvelle;LIVRE Ier : UTILITÉ PUBLIQUE;25
+CD00264;Code de l'expropriation pour cause d'utilité publique;Partie législative nouvelle;LIVRE II : JURIDICTION DE L'EXPROPRIATION, TRANSFERT JUDICIAIRE DE PROPRIÉTÉ ET PRISE DE POSSESSION;26
+CD00265;Code de l'expropriation pour cause d'utilité publique;Partie législative nouvelle;LIVRE III : INDEMNISATION;42
+CD00266;Code de l'expropriation pour cause d'utilité publique;Partie législative nouvelle;LIVRE IV : SUITES DE L'EXPROPRIATION;26
+CD00267;Code de l'expropriation pour cause d'utilité publique;Partie législative nouvelle;LIVRE V : PROCÉDURES SPÉCIALES;35
+CD00268;Code de l'expropriation pour cause d'utilité publique;Partie législative nouvelle;LIVRE VI : DISPOSITIONS RELATIVES À L'OUTRE-MER;9
+CD00269;Code de l'expropriation pour cause d'utilité publique;Partie réglementaire nouvelle;;208
+CD00270;Code de l'expropriation pour cause d'utilité publique;Partie réglementaire nouvelle;LIVRE Ier : UTILITÉ PUBLIQUE;61
+CD00271;Code de l'expropriation pour cause d'utilité publique;Partie réglementaire nouvelle;LIVRE II : JURIDICTION DE L'EXPROPRIATION, TRANSFERT JUDICIAIRE DE PROPRIÉTÉ ET PRISE DE POSSESSION;35
+CD00272;Code de l'expropriation pour cause d'utilité publique;Partie réglementaire nouvelle;LIVRE III : INDEMNISATION;61
+CD00273;Code de l'expropriation pour cause d'utilité publique;Partie réglementaire nouvelle;LIVRE IV : SUITES DE L'EXPROPRIATION;22
+CD00274;Code de l'expropriation pour cause d'utilité publique;Partie réglementaire nouvelle;LIVRE V : PROCÉDURES SPÉCIALES;13
+CD00275;Code de l'expropriation pour cause d'utilité publique;Partie réglementaire nouvelle;LIVRE VI : DISPOSITIONS RELATIVES À L'OUTRE-MER;11
+CD00276;Code de l'expropriation pour cause d'utilité publique;Partie réglementaire nouvelle;ANNEXES;5
+CD00277;Code de l'organisation judiciaire;Partie législative;;332
+CD00278;Code de l'organisation judiciaire;Partie législative;LIVRE Ier : DISPOSITIONS COMMUNES AUX JURIDICTIONS JUDICIAIRES;41
+CD00279;Code de l'organisation judiciaire;Partie législative;LIVRE II : JURIDICTIONS DU PREMIER DEGRÉ;102
+CD00280;Code de l'organisation judiciaire;Partie législative;LIVRE III : JURIDICTIONS DU SECOND DEGRÉ;32
+CD00281;Code de l'organisation judiciaire;Partie législative;LIVRE IV : LA COUR DE CASSATION;45
+CD00282;Code de l'organisation judiciaire;Partie législative;LIVRE V : DISPOSITIONS PARTICULIÈRES À SAINT-PIERRE-ET-MIQUELON, À WALLIS-ET-FUTUNA, AUX TERRES AUSTRALES ET ANTARCTIQUES FRANCAISES, À LA POLYNÉSIE FRANCAISE ET À LA NOUVELLE-CALÉDONIE;112
+CD00283;Code de l'organisation judiciaire;Partie réglementaire;;673
+CD00284;Code de l'organisation judiciaire;Partie réglementaire;LIVRE IER : DISPOSITIONS COMMUNES  AUX JURIDICTIONS JUDICIAIRES;88
+CD00285;Code de l'organisation judiciaire;Partie réglementaire;LIVRE II : JURIDICTIONS DU PREMIER DEGRE;233
+CD00286;Code de l'organisation judiciaire;Partie réglementaire;LIVRE III : JURIDICTIONS DU SECOND DEGRE;114
+CD00287;Code de l'organisation judiciaire;Partie réglementaire;LIVRE IV : LA COUR DE CASSATION;51
+CD00288;Code de l'organisation judiciaire;Partie réglementaire;LIVRE V : DISPOSITIONS PARTICULIERES A SAINT-PIERRE-ET-MIQUELON,   A WALLIS ET FUTUNA, AUX TERRES AUSTRALES ET ANTARCTIQUES FRANCAISES, A LA POLYNESIE FRANCAISE ET A LA NOUVELLE CALEDONIE;159
+CD00289;Code de l'organisation judiciaire;Partie réglementaire;Annexes;28
+CD00290;Code de l'organisation judiciaire;Partie législative ancienne;;14
+CD00291;Code de l'organisation judiciaire;Partie législative ancienne;Livre IX : Dispositions particulières;14
+CD00292;Code de l'urbanisme;Partie législative;;1107
+CD00293;Code de l'urbanisme;Partie législative;Livre Ier : Réglementation de l'urbanisme;562
+CD00294;Code de l'urbanisme;Partie législative;Livre II : Préemption et réserves foncières;120
+CD00295;Code de l'urbanisme;Partie législative;Livre III : Aménagement foncier;217
+CD00296;Code de l'urbanisme;Partie législative;Livre IV : Régime applicable aux constructions, aménagements et démolitions;146
+CD00297;Code de l'urbanisme;Partie législative;Livre V : Implantation des services, établissements et entreprises;36
+CD00298;Code de l'urbanisme;Partie législative;Livre VI : Dispositions relatives au contentieux de l'urbanisme;26
+CD00299;Code de l'urbanisme;Partie réglementaire - Décrets en Conseil d'Etat;;1245
+CD00300;Code de l'urbanisme;Partie réglementaire - Décrets en Conseil d'Etat;Livre Ier : Réglementation de l'urbanisme ;442
+CD00301;Code de l'urbanisme;Partie réglementaire - Décrets en Conseil d'Etat;Livre II : Préemption et réserves foncières;117
+CD00302;Code de l'urbanisme;Partie réglementaire - Décrets en Conseil d'Etat;Livre III : Aménagement foncier;212
+CD00303;Code de l'urbanisme;Partie réglementaire - Décrets en Conseil d'Etat;Livre IV : Régime applicable aux constructions, aménagements et démolitions;427
+CD00304;Code de l'urbanisme;Partie réglementaire - Décrets en Conseil d'Etat;Livre V : Implantation des services, établissements et entreprises;35
+CD00305;Code de l'urbanisme;Partie réglementaire - Décrets en Conseil d'Etat;Livre VI : Dispositions relatives au contentieux de l'urbanisme et dispositions diverses;12
+CD00306;Code de l'urbanisme;Partie réglementaire - Arrêtés;;105
+CD00307;Code de l'urbanisme;Partie réglementaire - Arrêtés;Livre Ier : Règles générales d'aménagement et d'urbanisme;19
+CD00308;Code de l'urbanisme;Partie réglementaire - Arrêtés;Livre  II : Préemption et réserves foncières;4
+CD00309;Code de l'urbanisme;Partie réglementaire - Arrêtés;Livre  III : Aménagement foncier;5
+CD00310;Code de l'urbanisme;Partie réglementaire - Arrêtés;Livre  IV : Régime applicable aux constructions, aménagements et démolitions;62
+CD00311;Code de l'urbanisme;Partie réglementaire - Arrêtés;Livre  V : Implantation des services, établissements et entreprises;11
+CD00312;Code de l'urbanisme;Partie réglementaire - Arrêtés;Livre  VI : Organismes consultatifs et dispositions diverses;4
+CD00313;Code de l'urbanisme;Annexes;;2
+CD00314;Code de l'urbanisme;Annexes;"Attestation du contrôleur technique établissant qu'il a fait connaître au maître d'ouvrage de la construction son avis sur la prise en compte au stade de la conception des règles parasismiques.
+";1
+CD00315;Code de l'urbanisme;Annexes;Attestation du contrôleur technique justifiant de la prise en compte de ses avis par le maître d'ouvrage de la construction sur le respect des règles de construction parasismique;1
+CD00316;Code de la Légion d'honneur, de la Médaille militaire et de l'ordre national du Mérite;Partie réglementaire - Décrets en Conseil d'Etat;;230
+CD00317;Code de la Légion d'honneur, de la Médaille militaire et de l'ordre national du Mérite;Partie réglementaire - Décrets en Conseil d'Etat;LIVRE I : Légion d'honneur;146
+CD00318;Code de la Légion d'honneur, de la Médaille militaire et de l'ordre national du Mérite;Partie réglementaire - Décrets en Conseil d'Etat;LIVRE II : Médaille militaire;22
+CD00319;Code de la Légion d'honneur, de la Médaille militaire et de l'ordre national du Mérite;Partie réglementaire - Décrets en Conseil d'Etat;LIVRE III : Ordre national du Mérite;48
+CD00320;Code de la Légion d'honneur, de la Médaille militaire et de l'ordre national du Mérite;Partie réglementaire - Décrets en Conseil d'Etat;LIVRE IV : Autorisation d'accepter et de porter des décorations étrangères;11
+CD00321;Code de la Légion d'honneur, de la Médaille militaire et de l'ordre national du Mérite;Partie réglementaire - Décrets en Conseil d'Etat;LIVRE V : Dispositions pénales;3
+CD00322;Code de la commande publique;Partie législative;;634
+CD00323;Code de la commande publique;Partie législative;Titre Préliminaire;7
+CD00324;Code de la commande publique;Partie législative;PREMIÈRE PARTIE : DÉFINITIONS ET CHAMP D'APPLICATION;48
+CD00325;Code de la commande publique;Partie législative;DEUXIÈME PARTIE : MARCHÉS PUBLICS;409
+CD00326;Code de la commande publique;Partie législative;TROISIÈME PARTIE : CONCESSIONS;170
+CD00327;Code de la commande publique;Partie réglementaire;;1176
+CD00328;Code de la commande publique;Partie réglementaire;DEUXIÈME PARTIE : MARCHÉS PUBLICS;1022
+CD00329;Code de la commande publique;Partie réglementaire;TROISIÈME PARTIE : CONCESSIONS;154
+CD00330;Code de la commande publique;Annexe;;1
+CD00331;Code de la consommation;Partie législative nouvelle;;1293
+CD00332;Code de la consommation;Partie législative nouvelle;Livre Ier : INFORMATION DES CONSOMMATEURS ET PRATIQUES COMMERCIALES;132
+CD00333;Code de la consommation;Partie législative nouvelle;Livre II : FORMATION ET ÉXECUTION DES CONTRATS;376
+CD00334;Code de la consommation;Partie législative nouvelle;Livre III : CRÉDIT;308
+CD00335;Code de la consommation;Partie législative nouvelle;Livre IV : CONFORMITÉ ET SÉCURITÉ DES PRODUITS ET SERVICES;114
+CD00336;Code de la consommation;Partie législative nouvelle;Livre V : POUVOIRS D'ENQUÊTE ET SUITES DONNÉES AUX CONTRÔLES;171
+CD00337;Code de la consommation;Partie législative nouvelle;Livre VI : RÈGLEMENT DES LITIGES;42
+CD00338;Code de la consommation;Partie législative nouvelle;Livre VII : TRAITEMENT DES SITUATIONS DE SURENDETTEMENT;136
+CD00339;Code de la consommation;Partie législative nouvelle;Livre VIII : ASSOCIATIONS AGRÉÉES DE DÉFENSE DES CONSOMMATEURS ET INSTITUTIONS DE LA CONSOMMATION;13
+CD00340;Code de la consommation;Partie réglementaire nouvelle;;811
+CD00341;Code de la consommation;Partie réglementaire nouvelle;Livre Ier : INFORMATION DES CONSOMMATEURS ET PRATIQUES COMMERCIALES;45
+CD00342;Code de la consommation;Partie réglementaire nouvelle;Livre II : FORMATION ET EXÉCUTION DES CONTRATS;142
+CD00343;Code de la consommation;Partie réglementaire nouvelle;Livre III : CRÉDIT;145
+CD00344;Code de la consommation;Partie réglementaire nouvelle;Livre IV : CONFORMITÉ ET SÉCURITÉ DES PRODUITS ET SERVICES;94
+CD00345;Code de la consommation;Partie réglementaire nouvelle;Livre V : POUVOIRS D'ENQUÊTE ET SUITES DONNÉES AUX CONTRÔLES;92
+CD00346;Code de la consommation;Partie réglementaire nouvelle;Livre VI : RÈGLEMENT DES LITIGES;40
+CD00347;Code de la consommation;Partie réglementaire nouvelle;Livre VII : TRAITEMENT DES SITUATIONS DE SURENDETTEMENT;173
+CD00348;Code de la consommation;Partie réglementaire nouvelle;Livre VIII : ASSOCIATIONS AGRÉÉES DE DÉFENSE DES CONSOMMATEURS ET INSTITUTIONS DE LA CONSOMMATION;60
+CD00349;Code de la consommation;Partie réglementaire nouvelle;Annexes;20
+CD00350;Code de la construction et de l'habitation;Partie législative;;1369
+CD00351;Code de la construction et de l'habitation;Partie législative;Livre Ier : Construction, entretien et rénovation des bâtiments;276
+CD00352;Code de la construction et de l'habitation;Partie législative;Livre II : Statut des constructeurs.;259
+CD00353;Code de la construction et de l'habitation;Partie législative;Livre III : Aides diverses à la construction d'habitations et à l'amélioration de l'habitat - Aide personnalisée au logement;238
+CD00354;Code de la construction et de l'habitation;Partie législative;Livre IV : Habitations à loyer modéré.;291
+CD00355;Code de la construction et de l'habitation;Partie législative;Livre V : Lutte contre l'habitat indigne;49
+CD00356;Code de la construction et de l'habitation;Partie législative;Livre VI : Mesures tendant à remédier à des difficultés exceptionnelles de logement.;135
+CD00357;Code de la construction et de l'habitation;Partie législative;Livre VII : Immeubles relevant du statut de la copropriété;22
+CD00358;Code de la construction et de l'habitation;Partie législative;Livre VIII : AIDES PERSONNELLES AU LOGEMENT;99
+CD00359;Code de la construction et de l'habitation;Partie réglementaire;;2700
+CD00360;Code de la construction et de l'habitation;Partie réglementaire;Livre Ier : Construction, entretien et rénovation des bâtiments;631
+CD00361;Code de la construction et de l'habitation;Partie réglementaire;Livre II : Statut des constructeurs.;205
+CD00362;Code de la construction et de l'habitation;Partie réglementaire;Livre III : Aides diverses à la construction d'habitations et à l'amélioration de l'habitat - Aide personnalisée au logement.;962
+CD00363;Code de la construction et de l'habitation;Partie réglementaire;Livre IV : Habitations à loyer modéré;519
+CD00364;Code de la construction et de l'habitation;Partie réglementaire;Livre V : Lutte contre l'habitat indigne;32
+CD00365;Code de la construction et de l'habitation;Partie réglementaire;Livre VI : Dispositions permettant de faire face à des difficultés particulières de logement.;103
+CD00366;Code de la construction et de l'habitation;Partie réglementaire;Livre VII : Immeubles relevant du statut de la copropriété;26
+CD00367;Code de la construction et de l'habitation;Partie réglementaire;Livre VIII : Aides personnelles au logement;222
+CD00368;Code de la construction et de l'habitation;Annexes;;57
+CD00369;Code de la construction et de l'habitation;Annexes;Livre Ier : Construction, entretien et rénovation des bâtiments;1
+CD00370;Code de la construction et de l'habitation;Annexes;Clauses types afférentes au contrat de construction d'une maison individuelle avec fourniture de plan rédigées en application de l'article R. 231-13;1
+CD00371;Code de la construction et de l'habitation;Annexes;Clauses types applicables aux sociétés immobilières mentionnées au 2° du I de l'article R. 313-31 qui ont pris la forme de sociétés anonymes ou de sociétés par actions simplifiées.;1
+CD00372;Code de la construction et de l'habitation;Annexes;Clauses types applicables aux sociétés immobilières mentionnées au 2° du I de l'article R. 313-31-2 qui ont pris la forme de sociétés civiles réalisant des opérations à finalité locative prévue à l'article R. 313-17.;1
+CD00373;Code de la construction et de l'habitation;Annexes;Clauses types applicables aux sociétés immobilières mentionnées au 2° du I des articles R. 313-31 et R. 313-31-2 versant la participation financière aux organismes collecteurs mentionnés aux a et b du 2° de l'article R. 313-9.;1
+CD00374;Code de la construction et de l'habitation;Annexes;Clauses types applicables aux sociétés immobilières mentionnées au 2° bis du I de l'article R. 313-31 qui bénéficient de prêts prévus au 2° du I de l'article R. 313-17 qui ne peuvent réaliser qu'une opération à finalité locative.;1
+CD00375;Code de la construction et de l'habitation;Annexes;Clauses types applicables aux sociétés immobilières mentionnées au 2° du I de l'article R. 313-31 qui réalisent des opérations prévues au b de l'article R. 313-18 (SOFAL).;1
+CD00376;Code de la construction et de l'habitation;Annexes;Clauses types applicables aux sociétés immobilières locatives mentionnées à l'article L. 313-1-2.;1
+CD00377;Code de la construction et de l'habitation;Annexes;Convention-type applicable au secteur locatif intermédiaire portant sur un logement ne bénéficiant pas de subvention pour travaux.;1
+CD00378;Code de la construction et de l'habitation;Annexes;Convention-type applicable au secteur locatif social portant sur un logement ne bénéficiant pas de subvention pour travaux.;1
+CD00379;Code de la construction et de l'habitation;Annexes;Convention-type applicable au secteur locatif intermédiaire et au secteur locatif social portant sur un immeuble ou sur un ou plusieurs logements bénéficiant de subventions pour travaux;1
+CD00380;Code de la construction et de l'habitation;Annexes;Convention-type applicable au secteur locatif intermédiaire et au secteur locatif social portant sur un logement loué dans le cadre d'un bail à ferme bénéficiant de subventions pour travaux;1
+CD00381;Code de la construction et de l'habitation;Annexes;Convention type pour les établissements de crédit consentant des prêts conventionnés.;1
+CD00382;Code de la construction et de l'habitation;Annexes;Convention type conclue en application de articles L. 351-1 et L. 831-1 (2° ou 3°)  du code de la construction et de l'habitation entre l'Etat et l'organisme d'habitations à loyer modéré.;1
+CD00383;Code de la construction et de l'habitation;Annexes;Convention type conclue en application des articles L. 353-1 et L. 831-1 (2° ou 3°) du code de la construction et de l'habitation entre l'Etat et l'organisme d'habitations à loyer modéré relative à une cité de promotion familiale.;1
+CD00384;Code de la construction et de l'habitation;Annexes;Document prévu par l'article 1er des annexes I et II à l'article R. 353-1 du code de la construction et de l'habitation lorsque le loyer maximum des logements est exprimé en surface corrigée;1
+CD00385;Code de la construction et de l'habitation;Annexes;Engagements de portée générale prévus par les annexes I et II à l'article R. 353-1.;1
+CD00386;Code de la construction et de l'habitation;Annexes;Convention type conclue entre l'Etat et M. ... (ou la société ...) en application des articles L. 353-1 et L. 831-1 (4°) du code de la construction et de l'habitation pour le programme de ... faisant l'objet de travaux d'amélioration achevés postérieurement au 4 janvier 1977, financés sans aide spécifique de l'Etat ou au moyen d'une subvention de l'agence nationale de l'habitat.;3
+CD00387;Code de la construction et de l'habitation;Annexes;Convention type conclue en application des articles L. 353-1 et L. 831-1 (2° ou 3°)  du code de la construction et de l'habitation entre l'Etat et la société d'économie mixte de construction et de gestion de logements sociaux;1
+CD00388;Code de la construction et de l'habitation;Annexes;Document prévu par l'article 1er de la présente convention.;1
+CD00389;Code de la construction et de l'habitation;Annexes;Conventions conclues entre l'Etat et les personnes physiques ou morales autres que les organismes d'HLM et les sociétés d'économie mixte pour la construction ou l'acquisition de logements à usage locatif, en application des articles L. 353-1 et L. 831-1 (3°) applicable aux logements faisant l'objet d'une décision favorable prise dans les conditions prévues aux articles R. 331-3 et R. 331-6 du code de la construction et de l'habitation.;1
+CD00390;Code de la construction et de l'habitation;Annexes;Conventions conclues entre l'Etat et les personnes physiques ou morales autres que les organismes d'HLM et les sociétés d'économie mixte en application des articles L. 353-1 et L. 831-1 (2° et 3°), à l'exception de celles relatives aux opérations de construction de logements en vue de leur vente ou d'acquisition, bénéficiant du taux de TVA réduit mentionné aux 1,2 et 3 du I de l'article 278 sexies du code général des impôts et mentionnées à l'annexe I à l'article R. 353-90;1
+CD00391;Code de la construction et de l'habitation;Annexes;Convention conclue en application des articles L. 353-1 et L. 831-1 (3°) du code de la construction et de l'habitation entre l'Etat et les personnes morales ou physiques qui bénéficient à titre principal d'un prêt conventionné pour la construction ou l'acquisition de logements non encore mis en service.;2
+CD00392;Code de la construction et de l'habitation;Annexes;Convention conclue en application des articles L. 353-1 et L. 831-1 (3°) du code de la construction et de l'habitation entre l'Etat et les personnes morales ou physiques qui bénéficient à titre principal d'un prêt conventionné pour l'amélioration des logements.;1
+CD00393;Code de la construction et de l'habitation;Annexes;Engagements de portée générale applicables à tout programme conventionné.;1
+CD00394;Code de la construction et de l'habitation;Annexes;Convention conclue entre l'Etat, l'organisme propriétaire et l'organisme gestionnaire en application de l'article L. 353-2 du code de la construction et de l'habitation et portant sur les logements-foyers accueillant des personnes âgées ou des personnes handicapées et mentionnés aux articles L. 353-1, L. 831-1 (5°) et R. 832-19 de ce code et ouvrant droit à l'aide personnalisée au logement.;1
+CD00395;Code de la construction et de l'habitation;Annexes;Convention conclue entre l'Etat, l'organisme propriétaire et l'organisme gestionnaire en application de l'article L. 353-2 du code de la construction et de l'habitation et portant sur les résidences sociales visées aux articles L. 353-1, L. 831-1 (5°) et R. 832-20 du code de la construction et de l'habitation et ouvrant droit à l'aide personnalisée au logement.;1
+CD00396;Code de la construction et de l'habitation;Annexes;Convention conclue en application des articles L. 353-1, L. 831-1 (3°) et R. 353-167 du code de la construction et de l'habitation entre l'Etat et les personnes physiques bénéficiaires d'un prêt aidé par l'Etat pour la construction, l'acquisition et l'amélioration des logements en accession à la propriété et mentionnées à l'article R. 331-41 (3°).;3
+CD00397;Code de la construction et de l'habitation;Annexes;Convention conclue en application des articles L. 353-1 et L. 831-1 (3°) entre l'Etat et les sociétés d'économie mixte ayant pour objet statutaire la rénovation urbaine et la restauration immobilière dans le cadre des opérations qui leur sont confiées par les collectivités physiques et relatives aux logements construits ou acquis et aménagés au moyen d'aides spécifiques de l'Etat.;3
+CD00398;Code de la construction et de l'habitation;Annexes;Convention conclue en application des articles L. 353-1, L. 831-1 (3) et R. 353-200 du code de la construction et de l'habitation entre l'Etat et les bailleurs de logements.;3
+CD00399;Code de la construction et de l'habitation;Annexes;Livre III : Aides diverses à la construction d'habitations et à L'amélioration de l'habitat - Aide personnalisée au logement;2
+CD00400;Code de la construction et de l'habitation;Annexes;Convention-type conclue entre l'état, l'organisme propriétaire et l'organisme gestionnaire en application de l'article L. 353-2 du code de la construction et de l'habitation portant sur les logements-foyers accueillant des personnes âgées ou des personnes handicapées, mentionnés aux articles L. 353-1, l. 831-1 (5°) et R. 832-20 (1°) de ce code, et ouvrant droit à l'aide personnalisée au logement, situés en Guadeloupe, en Guyane, en Martinique, à la réunion et à Mayotte;1
+CD00401;Code de la construction et de l'habitation;Annexes;Convention-type conclue entre l'Etat, l'organisme propriétaire et l'organisme gestionnaire en application de l'article L. 353-2 du code de la construction et de l'habitation et portant sur les résidences sociales visées aux articles L. 353-1, L. 831-1 (5°) et R. 832-20 (2°) du code de la construction et de l'habitation et ouvrant droit à l'aide personnalisée au logement, situés en Guadeloupe, en Guyane, en Martinique, à la réunion et à Mayotte;1
+CD00402;Code de la construction et de l'habitation;Annexes;Statuts types des sociétés anonymes d'habitations à loyer modéré.;1
+CD00403;Code de la construction et de l'habitation;Annexes;Statuts types des sociétés anonymes coopératives de production d'habitations à loyer modéré.;1
+CD00404;Code de la construction et de l'habitation;Annexes;Clauses types des statuts des sociétés anonymes coopératives d'intérêt collectif d'habitations à loyer modéré.;1
+CD00405;Code de la construction et de l'habitation;Annexes;Société de vente d'habitations à loyer modéré sous forme de société anonyme;2
+CD00406;Code de la construction et de l'habitation;Annexes;Statuts types des sociétés anonymes de crédit immobilier.;1
+CD00407;Code de la construction et de l'habitation;Annexes;Statuts types des sociétés anonymes coopératives d'habitations à loyer modéré pour les opérations de location-attribution.;1
+CD00408;Code de la construction et de l'habitation;Annexes;Clauses types des statuts des sociétés anonymes de coordination d'organismes d'habitations à loyer modéré.;1
+CD00409;Code de la construction et de l'habitation;Annexes;Société de coordination sous forme de société anonyme ;2
+CD00410;Code de la construction et de l'habitation;Annexes;Statuts des sociétés civiles immobilières d'accession progressive à la propriété;1
+CD00411;Code de la construction et de l'habitation;Annexes;Normes minimales d'habitabilité des logements vendus en application de l'article R. 443-11.;1
+CD00412;Code de la construction et de l'habitation;Annexes;Liste des charges;1
+CD00413;Code de la construction et de l'habitation;Annexes;Clauses types de la convention de garantie fixées en application de l'article R. 453-8.;1
+CD00414;Code de la défense;Partie législative;;731
+CD00415;Code de la défense;Partie législative;PARTIE 1 : PRINCIPES GÉNÉRAUX DE LA DÉFENSE.;133
+CD00416;Code de la défense;Partie législative;PARTIE 2 : RÉGIMES JURIDIQUES DE DÉFENSE;300
+CD00417;Code de la défense;Partie législative;PARTIE 3 : LE MINISTÈRE DE LA DÉFENSE ET LES ORGANISMES SOUS TUTELLE;44
+CD00418;Code de la défense;Partie législative;PARTIE 4 : LE PERSONNEL MILITAIRE;192
+CD00419;Code de la défense;Partie législative;PARTIE 5 : DISPOSITIONS ADMINISTRATIVES ET FINANCIÈRES;18
+CD00420;Code de la défense;Partie législative;PARTIE 6 : DISPOSITIONS RELATIVES À L'OUTRE-MER;43
+CD00421;Code de la défense;Partie réglementaire;;2704
+CD00422;Code de la défense;Partie réglementaire;PARTIE 1 : PRINCIPES GÉNÉRAUX DE LA DÉFENSE;541
+CD00423;Code de la défense;Partie réglementaire;PARTIE 2 : RÉGIMES JURIDIQUES DE DÉFENSE;484
+CD00424;Code de la défense;Partie réglementaire;PARTIE 3 : LE MINISTÈRE DE LA DÉFENSE ET LES ORGANISMES SOUS TUTELLE;775
+CD00425;Code de la défense;Partie réglementaire; PARTIE 4 : LE PERSONNEL MILITAIRE;709
+CD00426;Code de la défense;Partie réglementaire;PARTIE 5 : DISPOSITIONS ADMINISTRATIVES ET FINANCIÈRES;59
+CD00427;Code de la défense;Partie réglementaire;PARTIE 6 : DISPOSITIONS RELATIVES À L'OUTRE-MER;136
+CD00428;Code de la famille et de l'aide sociale;Titre III : Aide sociale;;9
+CD00429;Code de la famille et de l'aide sociale;Titre III : Aide sociale;Chapitre IV : Aide sociale aux familles;6
+CD00430;Code de la famille et de l'aide sociale;Titre III : Aide sociale;Chapitre V : Aide sociale aux personnes agées;2
+CD00431;Code de la famille et de l'aide sociale;Titre III : Aide sociale;Chapitre VIII : Mesures d'aide sociale en matière de logement, d'hébergement et de réadaptation sociale;1
+CD00432;Code de la famille et de l'aide sociale;Titre VI : Le service social;;3
+CD00433;Code de la famille et de l'aide sociale;Titre VI : Le service social;Chapitre Ier : Exercice des professions d'assistants, d'assistantes et d'auxiliaires de service social;3
+CD00434;Code de la justice pénale des mineurs;Partie législative ;;279
+CD00435;Code de la justice pénale des mineurs;Partie législative ;TITRE PRÉLIMINAIRE : DES PRINCIPES GÉNÉRAUX DE LA JUSTICE PÉNALE DES MINEURS;15
+CD00436;Code de la justice pénale des mineurs;Partie législative ;LIVRE Ier : DES MESURES ÉDUCATIVES ET DES PEINES;47
+CD00437;Code de la justice pénale des mineurs;Partie législative ;LIVRE II : DE LA SPÉCIALISATION DES ACTEURS;19
+CD00438;Code de la justice pénale des mineurs;Partie législative ;LIVRE III : DISPOSITIONS COMMUNES AUX DIFFÉRENTES PHASES DE LA PROCÉDURE PÉNALE;37
+CD00439;Code de la justice pénale des mineurs;Partie législative ;LIVRE IV : DE LA PROCÉDURE PRÉALABLE AU JUGEMENT;65
+CD00440;Code de la justice pénale des mineurs;Partie législative ;LIVRE V : DU JUGEMENT;49
+CD00441;Code de la justice pénale des mineurs;Partie législative ;LIVRE VI : L'APPLICATION ET L'EXÉCUTION DES MESURES ÉDUCATIVES ET DES PEINES;31
+CD00442;Code de la justice pénale des mineurs;Partie législative ;LIVRE VII : DISPOSITIONS RELATIVES À L'OUTRE-MER;15
+CD00443;Code de la justice pénale des mineurs;Partie réglementaire ;;282
+CD00444;Code de la justice pénale des mineurs;Partie réglementaire ;Titre PRELIMINAIRE : DES PRINCIPES GÉNÉRAUX DE LA JUSTICE PÉNALE DES MINEURS;3
+CD00445;Code de la justice pénale des mineurs;Partie réglementaire ;Livre I : DES MESURES ÉDUCATIVES ET DES PEINES;117
+CD00446;Code de la justice pénale des mineurs;Partie réglementaire ;Livre II : DE LA SPÉCIALISATION DES ACTEURS;42
+CD00447;Code de la justice pénale des mineurs;Partie réglementaire ;Livre III : DISPOSITIONS COMMUNES AUX DIFFÉRENTES PHASES DE LA PROCÉDURE PÉNALE;30
+CD00448;Code de la justice pénale des mineurs;Partie réglementaire ;Livre IV : DE LA PROCÉDURE PRÉALABLE AU JUGEMENT;32
+CD00449;Code de la justice pénale des mineurs;Partie réglementaire ;Livre V : DU JUGEMENT;13
+CD00450;Code de la justice pénale des mineurs;Partie réglementaire ;Livre VI : L'APPLICATION ET L'EXÉCUTION DES MESURES ÉDUCATIVES ET DES PEINES;23
+CD00451;Code de la justice pénale des mineurs;Partie réglementaire ;Livre VII : DISPOSITIONS RELATIVES À L'OUTRE-MER;22
+CD00452;Code de la justice pénale des mineurs;Annexes;;2
+CD00453;Code de la mutualité;Partie législative;;306
+CD00454;Code de la mutualité;Partie législative;Livre Ier : Règles générales applicables à l'ensemble des mutuelles, unions et fédérations.;99
+CD00455;Code de la mutualité;Partie législative;Livre II : Mutuelles et unions pratiquant des opérations d'assurance, de réassurance et de capitalisation.;181
+CD00456;Code de la mutualité;Partie législative;Livre III : Mutuelles et unions pratiquant la prévention, l'action sociale et la gestion de réalisations sanitaires et sociales.;10
+CD00457;Code de la mutualité;Partie législative;Livre IV : Relations avec l'Etat et les autres collectivités publiques.;11
+CD00458;Code de la mutualité;Partie législative;Livre V : Contrôle des mutuelles, unions et fédérations.;2
+CD00459;Code de la mutualité;Partie législative;Livre VI : Dispositions d'application.;3
+CD00460;Code de la mutualité;Partie réglementaire - Décrets en Conseil d'Etat;;161
+CD00461;Code de la mutualité;Partie réglementaire - Décrets en Conseil d'Etat;Livre Ier : Règles générales applicables à l'ensemble des mutuelles, unions et fédérations.;37
+CD00462;Code de la mutualité;Partie réglementaire - Décrets en Conseil d'Etat;Livre II : Mutuelles et unions pratiquant des opérations d'assurance et de capitalisation.;98
+CD00463;Code de la mutualité;Partie réglementaire - Décrets en Conseil d'Etat;Livre III : Ouverture des services des mutuelles et unions pratiquant la prévention, l'action sociale et la gestion de réalisations sanitaires et sociales.;1
+CD00464;Code de la mutualité;Partie réglementaire - Décrets en Conseil d'Etat;Livre IV : Relations avec l'Etat et les autres collectivités publiques.;23
+CD00465;Code de la mutualité;Partie réglementaire - Décrets en Conseil d'Etat;Livre V : Contrôle des mutuelles, unions et fédérations.;2
+CD00466;Code de la mutualité;Partie réglementaire - Décrets simples;;20
+CD00467;Code de la mutualité;Partie réglementaire - Décrets simples;Livre Ier : Règles générales applicables à l'ensemble des mutuelles, unions et fédérations.;9
+CD00468;Code de la mutualité;Partie réglementaire - Décrets simples;Livre II : Mutuelles et unions pratiquant des opérations d'assurance, de réassurance et de capitalisation.;8
+CD00469;Code de la mutualité;Partie réglementaire - Décrets simples;Livre IV : Relations avec l'Etat et les autres collectivités publiques.;3
+CD00470;Code de la mutualité;Partie réglementaire - Arrêtés;;38
+CD00471;Code de la mutualité;Partie réglementaire - Arrêtés;Livre Ier : Règles générales applicables à l'ensemble des mutuelles, unions et fédérations.;4
+CD00472;Code de la mutualité;Partie réglementaire - Arrêtés;Livre II : Mutuelles et unions pratiquant des opérations d'assurance, de réassurance et de capitalisation.;25
+CD00473;Code de la mutualité;Partie réglementaire - Arrêtés;Livre IV : Relations avec l'Etat et les autres collectivités publiques;9
+CD00474;Code de la mutualité;Annexes;;8
+CD00475;Code de la mutualité;Annexes;Annexes à l'article A211-3;3
+CD00476;Code de la mutualité;Annexes;"Annexe à l'article A212-14 
+
+";1
+CD00477;Code de la mutualité;Annexes;Annexe à l'article A223-6-1;1
+CD00478;Code de la mutualité;Annexes;Annexe à l'article A223-10-1;1
+CD00479;Code de la mutualité;Annexes;Annexe à l'article A223-10-2;1
+CD00480;Code de la mutualité;Annexes;Annexe à l'article A223-10-3;1
+CD00481;Code de la propriété intellectuelle;Partie législative;;882
+CD00482;Code de la propriété intellectuelle;Partie législative;Première partie : La propriété littéraire et artistique;431
+CD00483;Code de la propriété intellectuelle;Partie législative;Deuxième partie : La propriété industrielle;439
+CD00484;Code de la propriété intellectuelle;Partie législative;Troisième partie : Dispositions relatives à l'outre-mer;12
+CD00485;Code de la propriété intellectuelle;Partie réglementaire;;1014
+CD00486;Code de la propriété intellectuelle;Partie réglementaire;Livre Ier : Le droit d'auteur;68
+CD00487;Code de la propriété intellectuelle;Partie réglementaire;Livre II : Les droits voisins du droit d'auteur;29
+CD00488;Code de la propriété intellectuelle;Partie réglementaire;Livre III : Dispositions générales;221
+CD00489;Code de la propriété intellectuelle;Partie réglementaire;Livre IV : Organisation administrative et professionnelle;176
+CD00490;Code de la propriété intellectuelle;Partie réglementaire;Livre V : Les dessins et modèles;54
+CD00491;Code de la propriété intellectuelle;Partie réglementaire;Livre VI : Protection des inventions et des connaissances techniques;342
+CD00492;Code de la propriété intellectuelle;Partie réglementaire;Livre VII : Marques de produits ou de services et autres signes distinctifs;118
+CD00493;Code de la propriété intellectuelle;Partie réglementaire;Livre VIII : Dispositions particulières à Mayotte, à Saint-Barthélemy, à Saint-Pierre-et-Miquelon,  aux îles Wallis et Futuna, à la Nouvelle-Calédonie et aux Terres australes et antarctiques françaises;6
+CD00494;Code de la recherche;Partie législative;;202
+CD00495;Code de la recherche;Partie législative;LIVRE Ier : L'ORGANISATION GÉNÉRALE DE LA RECHERCHE ET DU DÉVELOPPEMENT TECHNOLOGIQUE;36
+CD00496;Code de la recherche;Partie législative;LIVRE II : L'EXERCICE DES ACTIVITÉS DE RECHERCHE;27
+CD00497;Code de la recherche;Partie législative;LIVRE III : LES ÉTABLISSEMENTS ET ORGANISMES DE RECHERCHE;59
+CD00498;Code de la recherche;Partie législative;LIVRE IV : LES PERSONNELS DE LA RECHERCHE;33
+CD00499;Code de la recherche;Partie législative;LIVRE V : LA VALORISATION DES RÉSULTATS DE LA RECHERCHE ET LE TRANSFERT DE TECHNOLOGIE EN DIRECTION DU MONDE ÉCONOMIQUE ET DES ASSOCIATIONS ET FONDATIONS, RECONNUES D'UTILITÉ PUBLIQUE ;47
+CD00500;Code de la recherche;Partie réglementaire;;825
+CD00501;Code de la recherche;Partie réglementaire;Livre Ier : L'ORGANISATION GÉNÉRALE DE LA RECHERCHE ET DU DÉVELOPPEMENT TECHNOLOGIQUE;75
+CD00502;Code de la recherche;Partie réglementaire;Livre II : L'EXERCICE DES ACTIVITÉS DE RECHERCHE;72
+CD00503;Code de la recherche;Partie réglementaire;Livre III : LES ÉTABLISSEMENTS ET ORGANISMES DE RECHERCHE;362
+CD00504;Code de la recherche;Partie réglementaire;Livre IV : LES PERSONNELS DE LA RECHERCHE;236
+CD00505;Code de la recherche;Partie réglementaire;Livre V : LA VALORISATION DES RÉSULTATS DE LA RECHERCHE ET LE TRANSFERT DE TECHNOLOGIE EN DIRECTION DU MONDE ÉCONOMIQUE ET DES ASSOCIATIONS ET FONDATIONS, RECONNUES D'UTILITÉ PUBLIQUE;80
+CD00506;Code de la route;Partie législative;;329
+CD00507;Code de la route;Partie législative;Livre 1er : Dispositions générales;37
+CD00508;Code de la route;Partie législative;Livre 2 : Le conducteur;126
+CD00509;Code de la route;Partie législative;Livre 3 : Le véhicule;139
+CD00510;Code de la route;Partie législative;Livre 4 : L'usage des voies;27
+CD00511;Code de la route;Partie réglementaire;;837
+CD00512;Code de la route;Partie réglementaire;Livre Ier : Dispositions générales;30
+CD00513;Code de la route;Partie réglementaire;Livre II : Le conducteur.;172
+CD00514;Code de la route;Partie réglementaire;Livre III : Le véhicule.;357
+CD00515;Code de la route;Partie réglementaire;Livre IV : L'usage des voies.;278
+CD00516;Code de la route;Partie arrêtés;;8
+CD00517;Code de la route;Partie arrêtés;Livre 1er : Dispositions générales;5
+CD00518;Code de la route;Partie arrêtés;"Livre 3 : Le véhicule
+
+";3
+CD00519;Code de la sécurité intérieure;Partie législative;;871
+CD00520;Code de la sécurité intérieure;Partie législative;LIVRE Ier : PRINCIPES GÉNÉRAUX ET ORGANISATION  DE LA SÉCURITÉ INTÉRIEURE;66
+CD00521;Code de la sécurité intérieure;Partie législative;LIVRE II : ORDRE ET SÉCURITÉ PUBLICS;153
+CD00522;Code de la sécurité intérieure;Partie législative;LIVRE III : POLICES ADMINISTRATIVES SPÉCIALES;170
+CD00523;Code de la sécurité intérieure;Partie législative;LIVRE IV : POLICE NATIONALE  ET GENDARMERIE NATIONALE;34
+CD00524;Code de la sécurité intérieure;Partie législative;LIVRE V : POLICES MUNICIPALES;53
+CD00525;Code de la sécurité intérieure;Partie législative;LIVRE VI : ACTIVITÉS PRIVÉES DE SÉCURITÉ;172
+CD00526;Code de la sécurité intérieure;Partie législative;LIVRE VII : SÉCURITÉ CIVILE;138
+CD00527;Code de la sécurité intérieure;Partie législative;LIVRE VIII : DU RENSEIGNEMENT;85
+CD00528;Code de la sécurité intérieure;Partie réglementaire;;2058
+CD00529;Code de la sécurité intérieure;Partie réglementaire;LIVRE Ier : PRINCIPES GÉNÉRAUX ET ORGANISATION  DE LA SÉCURITÉ INTÉRIEURE;174
+CD00530;Code de la sécurité intérieure;Partie réglementaire;LIVRE II : ORDRE ET SÉCURITÉ PUBLICS;299
+CD00531;Code de la sécurité intérieure;Partie réglementaire;LIVRE III : POLICES ADMINISTRATIVES SPÉCIALES;549
+CD00532;Code de la sécurité intérieure;Partie réglementaire;LIVRE IV : POLICE NATIONALE  ET GENDARMERIE NATIONALE;126
+CD00533;Code de la sécurité intérieure;Partie réglementaire;LIVRE V : POLICES MUNICIPALES;126
+CD00534;Code de la sécurité intérieure;Partie réglementaire;LIVRE VI : ACTIVITÉS PRIVÉES DE SÉCURITÉ;382
+CD00535;Code de la sécurité intérieure;Partie réglementaire;LIVRE VII : SÉCURITÉ CIVILE;352
+CD00536;Code de la sécurité intérieure;Partie réglementaire;LIVRE VIII : DU RENSEIGNEMENT;46
+CD00537;Code de la sécurité intérieure;Partie réglementaire;Annexes;4
+CD00538;Code de la sécurité sociale;Partie législative;;2197
+CD00539;Code de la sécurité sociale;Partie législative;Livre I : Généralités - Dispositions communes à tout ou partie des régimes de base;863
+CD00540;Code de la sécurité sociale;Partie législative;Livre II : Organisation du régime général, action de prévention, action sanitaire et sociale des caisses;269
+CD00541;Code de la sécurité sociale;Partie législative;Livre III : Dispositions relatives aux assurances sociales et à diverses catégories de personnes rattachées au régime général;240
+CD00542;Code de la sécurité sociale;Partie législative;Livre IV : Accidents du travail et maladies professionnelles (Dispositions propres et dispositions communes avec d'autres branches);135
+CD00543;Code de la sécurité sociale;Partie législative;Livre V : Prestations familiales et prestations assimilées;81
+CD00544;Code de la sécurité sociale;Partie législative;Livre VI : Dispositions applicables aux travailleurs indépendants;129
+CD00545;Code de la sécurité sociale;Partie législative;Livre VII : Régimes divers - Dispositions diverses;161
+CD00546;Code de la sécurité sociale;Partie législative;Livre VIII : Allocations aux personnes âgées - Allocation aux adultes handicapés - Aides à l'emploi pour la garde des jeunes enfants - Aides aux collectivités et organismes logeant à titre temporaire des personnes défavorisées ou gérant des aires d'accueil des gens du voyage - Protection complémentaire en matière de santé;100
+CD00547;Code de la sécurité sociale;Partie législative;Livre IX : Dispositions relatives à la protection sociale complémentaire et supplémentaire des salariés et non salariés et aux institutions à caractère paritaire;219
+CD00548;Code de la sécurité sociale;Partie réglementaire - Décrets en Conseil d'Etat;;3326
+CD00549;Code de la sécurité sociale;Partie réglementaire - Décrets en Conseil d'Etat;Livre I : Généralités - Dispositions communes à tout ou partie des régimes de base;1349
+CD00550;Code de la sécurité sociale;Partie réglementaire - Décrets en Conseil d'Etat;Livre II : Organisation du régime général - Action de prévention - Action sanitaire et sociale des caisses;320
+CD00551;Code de la sécurité sociale;Partie réglementaire - Décrets en Conseil d'Etat;Livre III : Dispositions relatives aux assurances sociales et à diverses catégories de personnes rattachées au régime général;369
+CD00552;Code de la sécurité sociale;Partie réglementaire - Décrets en Conseil d'Etat;Livre IV : Accidents du travail et maladies professionnelles (Dispositions propres et dispositions communes avec d'autres branches);237
+CD00553;Code de la sécurité sociale;Partie réglementaire - Décrets en Conseil d'Etat;Livre V : Prestations familiales et prestations assimilées;96
+CD00554;Code de la sécurité sociale;Partie réglementaire - Décrets en Conseil d'Etat;Livre VI : Dispositions applicables aux travailleurs indépendants;184
+CD00555;Code de la sécurité sociale;Partie réglementaire - Décrets en Conseil d'Etat;Livre VII : Régimes divers - Dispositions diverses;311
+CD00556;Code de la sécurité sociale;Partie réglementaire - Décrets en Conseil d'Etat;Livre VIII : Allocations aux personnes âgées - Allocation aux adultes handicapés - Aides à l'emploi pour la garde des jeunes enfants - Aide aux collectivités et organismes logeant à titre temporaire des personnes défavorisées ou gérant des aires d'accueil des gens du voyage - Protection complémentaire en matière de santé;177
+CD00557;Code de la sécurité sociale;Partie réglementaire - Décrets en Conseil d'Etat;Livre IX : Dispositions relatives à la protection sociale complémentaire des salariés et aux institutions à caractère paritaire;283
+CD00558;Code de la sécurité sociale;Partie réglementaire - Décrets simples;;1667
+CD00559;Code de la sécurité sociale;Partie réglementaire - Décrets simples;Livre I : Généralités - Dispositions communes à tout ou partie des régimes de base;443
+CD00560;Code de la sécurité sociale;Partie réglementaire - Décrets simples;Livre II : Organisation du régime général - Action sanitaire et sociale des caisses;243
+CD00561;Code de la sécurité sociale;Partie réglementaire - Décrets simples;Livre III : Dispositions relatives aux assurances sociales et à diverses catégories de personnes rattachées au régime général;204
+CD00562;Code de la sécurité sociale;Partie réglementaire - Décrets simples;Livre IV : Accidents du travail et maladies professionnelles (Dispositions propres et dispositions communes avec d'autres branches);194
+CD00563;Code de la sécurité sociale;Partie réglementaire - Décrets simples;Livre V : Prestations familiales et prestations assimilées;83
+CD00564;Code de la sécurité sociale;Partie réglementaire - Décrets simples;Livre VI : Dispositions applicables aux travailleurs indépendants;146
+CD00565;Code de la sécurité sociale;Partie réglementaire - Décrets simples;Livre VII : Régimes divers - Dispositions diverses;261
+CD00566;Code de la sécurité sociale;Partie réglementaire - Décrets simples;Livre VIII : Allocations aux personnes âgées - Allocation aux adultes handicapés - Aides à l'emploi pour la garde des jeunes enfants - Protection complémentaire en matière de santé;61
+CD00567;Code de la sécurité sociale;Partie réglementaire - Décrets simples;Livre IX : Dispositions relatives à la protection sociale complémentaire des salariés et aux institutions à caractère paritaire;32
+CD00568;Code de la sécurité sociale;Partie réglementaire - Arrêtés;;76
+CD00569;Code de la sécurité sociale;Partie réglementaire - Arrêtés;Livre IX : Dispositions relatives à la protection sociale complémentaire des salariés et institutions à caractère paritaire;76
+CD00570;Code de la sécurité sociale;Annexes;;163
+CD00571;Code de la sécurité sociale;Annexes;Annexe I : Barème indicatif d'invalidité (accidents du travail) (application de l'article R. 434-32);17
+CD00572;Code de la sécurité sociale;Annexes;Annexe II : Barème indicatif d'invalidité (maladies professionnelles);1
+CD00573;Code de la sécurité sociale;Annexes;Annexe II : Tableaux des maladies professionnelles prévus à l'article R. 461-3;120
+CD00574;Code de la santé publique;Partie législative;;3551
+CD00575;Code de la santé publique;Partie législative;Première partie : Protection générale de la santé;1014
+CD00576;Code de la santé publique;Partie législative;Deuxième partie : Santé sexuelle et reproductive, droits de la femme et protection de la santé de l'enfant, de l'adolescent et du jeune adulte;204
+CD00577;Code de la santé publique;Partie législative;Troisième partie : Lutte contre les maladies et dépendances;480
+CD00578;Code de la santé publique;Partie législative;Quatrième partie : Professions de santé;810
+CD00579;Code de la santé publique;Partie législative;Cinquième partie : Produits de santé;559
+CD00580;Code de la santé publique;Partie législative;Sixième partie : Etablissements et services de santé;484
+CD00581;Code de la santé publique;Partie législative ancienne;;7
+CD00582;Code de la santé publique;Partie législative ancienne;Livre IX : Personnel;7
+CD00583;Code de la santé publique;Partie réglementaire;;10077
+CD00584;Code de la santé publique;Partie réglementaire;Première partie : Protection générale de la santé;2650
+CD00585;Code de la santé publique;Partie réglementaire;Deuxième partie : Santé de la famille, de la mère et de l'enfant;454
+CD00586;Code de la santé publique;Partie réglementaire;Troisième partie : Lutte contre les maladies et dépendances;616
+CD00587;Code de la santé publique;Partie réglementaire;Quatrième partie : Professions de santé;2165
+CD00588;Code de la santé publique;Partie réglementaire;Cinquième partie : Produits de santé;1358
+CD00589;Code de la santé publique;Partie réglementaire;Sixième partie : Etablissements et services de santé;2834
+CD00590;Code de la santé publique;Partie réglementaire ancienne;;3
+CD00591;Code de la santé publique;Partie réglementaire ancienne;Livre 2 : Action sanitaire et médico-sociale en faveur de la famille, de l'enfance et de la jeunesse;1
+CD00592;Code de la santé publique;Partie réglementaire ancienne;Livre 3 : Lutte contre les fléaux sociaux;1
+CD00593;Code de la santé publique;Partie réglementaire ancienne;Livre 5 : Pharmacie;1
+CD00594;Code de la santé publique;Annexes;;29
+CD00595;Code de la santé publique;Annexes;ANNEXES DE LA PREMIÈRE PARTIE;11
+CD00596;Code de la santé publique;Annexes;ANNEXE DE LA DEUXIÈME PARTIE ;2
+CD00597;Code de la santé publique;Annexes;ANNEXES DE LA TROISIÈME PARTIE ;4
+CD00598;Code de la santé publique;Annexes;ANNEXES DE LA QUATRIÈME PARTIE;6
+CD00599;Code de la santé publique;Annexes;ANNEXE DE LA CINQUIÈME PARTIE;1
+CD00600;Code de la santé publique;Annexes;ANNEXES DE LA SIXIÈME PARTIE;5
+CD00601;Code de la voirie routière;Partie législative;;192
+CD00602;Code de la voirie routière;Partie législative;TITRE Ier : Dispositions communes aux voies du domaine public routier.;71
+CD00603;Code de la voirie routière;Partie législative;TITRE II : Voirie nationale.;49
+CD00604;Code de la voirie routière;Partie législative;TITRE III : Voirie départementale.;9
+CD00605;Code de la voirie routière;Partie législative;TITRE IV : Voirie communale.;13
+CD00606;Code de la voirie routière;Partie législative;TITRE V : Voies à statuts particuliers.;16
+CD00607;Code de la voirie routière;Partie législative;TITRE VI : Dispositions applicables aux voies n'appartenant pas au domaine public.;8
+CD00608;Code de la voirie routière;Partie législative;TITRE VII : Dispositions particulières.;26
+CD00609;Code de la voirie routière;Partie réglementaire;;254
+CD00610;Code de la voirie routière;Partie réglementaire;TITRE Ier : Dispositions communes aux voies du domaine public routier.;125
+CD00611;Code de la voirie routière;Partie réglementaire;TITRE II : Voirie nationale.;65
+CD00612;Code de la voirie routière;Partie réglementaire;TITRE III : Voirie départementale.;11
+CD00613;Code de la voirie routière;Partie réglementaire;TITRE IV : Voirie communale.;26
+CD00614;Code de la voirie routière;Partie réglementaire;TITRE V : Voies à statuts particuliers.;11
+CD00615;Code de la voirie routière;Partie réglementaire;TITRE VI : Dispositions applicables aux voies n'appartenant pas au domaine public.;5
+CD00616;Code de la voirie routière;Partie réglementaire;TITRE VII : Dispositions particulières.;11
+CD00617;Code de procédure civile;Livre Ier : Dispositions communes à toutes les juridictions;;868
+CD00618;Code de procédure civile;Livre Ier : Dispositions communes à toutes les juridictions;Titre Ier : Dispositions liminaires.;30
+CD00619;Code de procédure civile;Livre Ier : Dispositions communes à toutes les juridictions;Titre II : L'action.;4
+CD00620;Code de procédure civile;Livre Ier : Dispositions communes à toutes les juridictions;Titre III : La compétence.;20
+CD00621;Code de procédure civile;Livre Ier : Dispositions communes à toutes les juridictions;Titre IV : La demande en justice.;23
+CD00622;Code de procédure civile;Livre Ier : Dispositions communes à toutes les juridictions;Titre V : Les moyens de défense.;49
+CD00623;Code de procédure civile;Livre Ier : Dispositions communes à toutes les juridictions;Titre V bis : La question prioritaire de constitutionnalité;13
+CD00624;Code de procédure civile;Livre Ier : Dispositions communes à toutes les juridictions;Titre V ter : La procédure sur question préjudicielle de la juridiction administrative;2
+CD00625;Code de procédure civile;Livre Ier : Dispositions communes à toutes les juridictions;Titre VI : LES CONVENTIONS RELATIVES À LA MISE EN ÉTAT;23
+CD00626;Code de procédure civile;Livre Ier : Dispositions communes à toutes les juridictions;Titre VII : L'administration judiciaire de la preuve.;197
+CD00627;Code de procédure civile;Livre Ier : Dispositions communes à toutes les juridictions;Titre VIII : La pluralité des parties.;2
+CD00628;Code de procédure civile;Livre Ier : Dispositions communes à toutes les juridictions;Titre IX : L'intervention.;14
+CD00629;Code de procédure civile;Livre Ier : Dispositions communes à toutes les juridictions;Titre IX bis : L'audition de l'enfant en justice.;12
+CD00630;Code de procédure civile;Livre Ier : Dispositions communes à toutes les juridictions;Titre X : L'abstention, la récusation, le renvoi et la prise à partie.;25
+CD00631;Code de procédure civile;Livre Ier : Dispositions communes à toutes les juridictions;Titre XI : Les incidents d'instance.;45
+CD00632;Code de procédure civile;Livre Ier : Dispositions communes à toutes les juridictions;Titre XII : Représentation et assistance en justice.;10
+CD00633;Code de procédure civile;Livre Ier : Dispositions communes à toutes les juridictions;Titre XIII : Le ministère public.;9
+CD00634;Code de procédure civile;Livre Ier : Dispositions communes à toutes les juridictions;Titre XIV : Le jugement.;80
+CD00635;Code de procédure civile;Livre Ier : Dispositions communes à toutes les juridictions;Titre XIV bis : Les procédures engagées contre des personnes en raison de leur participation au débat public;3
+CD00636;Code de procédure civile;Livre Ier : Dispositions communes à toutes les juridictions;Titre XV : L'exécution du jugement.;45
+CD00637;Code de procédure civile;Livre Ier : Dispositions communes à toutes les juridictions;Titre XVI : Les voies de recours.;119
+CD00638;Code de procédure civile;Livre Ier : Dispositions communes à toutes les juridictions;Titre XVII : Délais, actes de commissaires de justice et notifications;76
+CD00639;Code de procédure civile;Livre Ier : Dispositions communes à toutes les juridictions;Titre XVIII : Les frais et les dépens.;30
+CD00640;Code de procédure civile;Livre Ier : Dispositions communes à toutes les juridictions;Titre XIX : Le greffe de la juridiction;5
+CD00641;Code de procédure civile;Livre Ier : Dispositions communes à toutes les juridictions;Titre XX : Les commissions rogatoires.;22
+CD00642;Code de procédure civile;Livre Ier : Dispositions communes à toutes les juridictions;Titre XXI : La communication par voie électronique.;9
+CD00643;Code de procédure civile;Livre Ier : Dispositions communes à toutes les juridictions;Titre XXII : Disposition finale.;1
+CD00644;Code de procédure civile;Livre II : Dispositions particulières à chaque juridiction.;;373
+CD00645;Code de procédure civile;Livre II : Dispositions particulières à chaque juridiction.;Titre Ier : Dispositions particulières au tribunal judiciaire;122
+CD00646;Code de procédure civile;Livre II : Dispositions particulières à chaque juridiction.;Titre III : Dispositions particulières au tribunal de commerce.;33
+CD00647;Code de procédure civile;Livre II : Dispositions particulières à chaque juridiction.;Titre IV : Dispositions particulières aux juridictions statuant en matière prud'homale.;1
+CD00648;Code de procédure civile;Livre II : Dispositions particulières à chaque juridiction.;Titre V : Dispositions particulières au tribunal paritaire de baux ruraux.;19
+CD00649;Code de procédure civile;Livre II : Dispositions particulières à chaque juridiction.;Titre VI : Dispositions particulières à la cour d'appel.;104
+CD00650;Code de procédure civile;Livre II : Dispositions particulières à chaque juridiction.;Titre VII : Dispositions particulières à la Cour de cassation.;87
+CD00651;Code de procédure civile;Livre II : Dispositions particulières à chaque juridiction.;Titre VIII : Dispositions particulières aux juridictions de renvoi après cassation.;7
+CD00652;Code de procédure civile;Livre III : Dispositions particulières à certaines matières;;626
+CD00653;Code de procédure civile;Livre III : Dispositions particulières à certaines matières;Titre Ier : Les personnes;405
+CD00654;Code de procédure civile;Livre III : Dispositions particulières à certaines matières;Titre II : Les biens.;35
+CD00655;Code de procédure civile;Livre III : Dispositions particulières à certaines matières;Titre III : Les régimes matrimoniaux - Les successions et les libéralités.;113
+CD00656;Code de procédure civile;Livre III : Dispositions particulières à certaines matières;Titre IV : Les obligations et les contrats.;72
+CD00657;Code de procédure civile;Livre III : Dispositions particulières à certaines matières;Titre V : La sécurité sociale et l'aide sociale;1
+CD00658;Code de procédure civile;Livre IV : L'arbitrage.;;86
+CD00659;Code de procédure civile;Livre IV : L'arbitrage.;Titre Ier : L'arbitrage interne.;62
+CD00660;Code de procédure civile;Livre IV : L'arbitrage.;Titre II : L'arbitrage international;24
+CD00661;Code de procédure civile;Livre V : LA RÉSOLUTION AMIABLE DES DIFFÉRENDS;;57
+CD00662;Code de procédure civile;Livre V : LA RÉSOLUTION AMIABLE DES DIFFÉRENDS;Titre Ier : DISPOSITIONS GÉNÉRALES;5
+CD00663;Code de procédure civile;Livre V : LA RÉSOLUTION AMIABLE DES DIFFÉRENDS;Titre II : LA CONCILIATION ET LA MÉDIATION;33
+CD00664;Code de procédure civile;Livre V : LA RÉSOLUTION AMIABLE DES DIFFÉRENDS;Titre III : LA PROCÉDURE PARTICIPATIVE AUX FINS DE RÉSOLUTION AMIABLE;7
+CD00665;Code de procédure civile;Livre V : LA RÉSOLUTION AMIABLE DES DIFFÉRENDS;"Titre IV : L'ACCORD DES PARTIES
+";12
+CD00666;Code de procédure civile;Livre VI : Dispositions relatives à l'outre-mer.;;9
+CD00667;Code de procédure civile;Livre VI : Dispositions relatives à l'outre-mer.;Titre II : Dispositions applicables aux îles Wallis et Futuna.;9
+CD00668;Code de procédure civile;Annexes;;66
+CD00669;Code de procédure civile;Annexes;Annexe du code de procédure civile relative à son application dans les départements du Bas-Rhin, du Haut-Rhin et de la Moselle.;66
+CD00670;Code de procédure pénale;Partie législative;;2502
+CD00671;Code de procédure pénale;Partie législative;Titre préliminaire : Dispositions générales;50
+CD00672;Code de procédure pénale;Partie législative;Livre Ier : De la conduite de la politique pénale, de l'exercice de l'action publique et de l'instruction;534
+CD00673;Code de procédure pénale;Partie législative;Livre II : Des juridictions de jugement;491
+CD00674;Code de procédure pénale;Partie législative;Livre III : Des voies de recours extraordinaires;80
+CD00675;Code de procédure pénale;Partie législative;Livre IV : De quelques procédures particulières;775
+CD00676;Code de procédure pénale;Partie législative;Livre V : Des procédures d'exécution;422
+CD00677;Code de procédure pénale;Partie législative;Livre VI : Dispositions relatives à l'outre-mer;149
+CD00678;Code de procédure pénale;Partie réglementaire - Décrets en Conseil d'Etat;;1184
+CD00679;Code de procédure pénale;Partie réglementaire - Décrets en Conseil d'Etat;Titre préliminaire : Dispositions générales;25
+CD00680;Code de procédure pénale;Partie réglementaire - Décrets en Conseil d'Etat;Livre Ier : De l'exercice de l'action publique et de l'instruction;406
+CD00681;Code de procédure pénale;Partie réglementaire - Décrets en Conseil d'Etat;Livre II : Des juridictions de jugement;51
+CD00682;Code de procédure pénale;Partie réglementaire - Décrets en Conseil d'Etat;Livre IV : De quelques procédures particulières;294
+CD00683;Code de procédure pénale;Partie réglementaire - Décrets en Conseil d'Etat;Livre V : Des procédures d'exécution.;244
+CD00684;Code de procédure pénale;Partie réglementaire - Décrets en Conseil d'Etat;"Livre V BIS : 
+
+ Dispositions générales";33
+CD00685;Code de procédure pénale;Partie réglementaire - Décrets en Conseil d'Etat;Livre VI : Dispositions relatives à l'outre-mer;131
+CD00686;Code de procédure pénale;Partie réglementaire - Décrets simples;;771
+CD00687;Code de procédure pénale;Partie réglementaire - Décrets simples;Titre préliminaire;32
+CD00688;Code de procédure pénale;Partie réglementaire - Décrets simples;Livre Ier : De l'exercice de l'action publique et de l'instruction;153
+CD00689;Code de procédure pénale;Partie réglementaire - Décrets simples;Livre II : Des juridictions de jugement;57
+CD00690;Code de procédure pénale;Partie réglementaire - Décrets simples;Livre IV : De quelques procédures particulières;137
+CD00691;Code de procédure pénale;Partie réglementaire - Décrets simples;Livre V : Des procédures d'exécution;385
+CD00692;Code de procédure pénale;Partie réglementaire - Décrets simples;Livre VI : Dispositions relatives à l'outre-mer;7
+CD00693;Code de procédure pénale;Partie Arrêtés;;177
+CD00694;Code de procédure pénale;Partie Arrêtés;Livre Ier : De l'exercice de l'action publique et de l'instruction;76
+CD00695;Code de procédure pénale;Partie Arrêtés;Livre II : Des juridictions de jugement;54
+CD00696;Code de procédure pénale;Partie Arrêtés;Livre III : Des mesures de sûreté;2
+CD00697;Code de procédure pénale;Partie Arrêtés;Livre IV;8
+CD00698;Code de procédure pénale;Partie Arrêtés;Livre V : Des procédures d'exécution;28
+CD00699;Code de procédure pénale;Partie Arrêtés;Livre V bis : Dispositions générales;9
+CD00700;Code des assurances;Partie législative;;946
+CD00701;Code des assurances;Partie législative;Livre Ier : Le contrat;370
+CD00702;Code des assurances;Partie législative;Livre II : Assurances obligatoires;70
+CD00703;Code des assurances;Partie législative;Livre III : Les entreprises.;337
+CD00704;Code des assurances;Partie législative;Livre IV : Organisations et régimes particuliers d'assurance;112
+CD00705;Code des assurances;Partie législative;Livre V : Distributeurs d'assurances;57
+CD00706;Code des assurances;Partie réglementaire;;1197
+CD00707;Code des assurances;Partie réglementaire;Livre Ier : Le contrat.;200
+CD00708;Code des assurances;Partie réglementaire;Livre II : Assurances obligatoires;73
+CD00709;Code des assurances;Partie réglementaire;Livre III : Les entreprises;626
+CD00710;Code des assurances;Partie réglementaire;Livre IV : Organisations et régimes particuliers d'assurance;237
+CD00711;Code des assurances;Partie réglementaire;Livre V : Distributeurs d'assurances;61
+CD00712;Code des assurances;Partie réglementaire - Arrêtés;;246
+CD00713;Code des assurances;Partie réglementaire - Arrêtés;Livre Ier : Le contrat;109
+CD00714;Code des assurances;Partie réglementaire - Arrêtés;Livre II : Assurances obligatoires;31
+CD00715;Code des assurances;Partie réglementaire - Arrêtés;Livre III : Les entreprises.;49
+CD00716;Code des assurances;Partie réglementaire - Arrêtés;Livre IV : Organisations et régimes particuliers d'assurance;45
+CD00717;Code des assurances;Partie réglementaire - Arrêtés;Livre V : Intermédiaires d'assurance;12
+CD00718;Code des communes de la Nouvelle-Calédonie;Partie législative;;424
+CD00719;Code des communes de la Nouvelle-Calédonie;Partie législative;LIVRE Ier : ORGANISATION COMMUNALE;258
+CD00720;Code des communes de la Nouvelle-Calédonie;Partie législative;LIVRE II : FINANCES COMMUNALES;88
+CD00721;Code des communes de la Nouvelle-Calédonie;Partie législative;LIVRE III : ADMINISTRATION ET SERVICES COMMUNAUX;76
+CD00722;Code des communes de la Nouvelle-Calédonie;Partie législative;LIVRE IV : PERSONNEL COMMUNAL;2
+CD00723;Code des communes de la Nouvelle-Calédonie;Partie réglementaire;;390
+CD00724;Code des communes de la Nouvelle-Calédonie;Partie réglementaire;LIVRE Ier : ORGANISATION COMMUNALE;140
+CD00725;Code des communes de la Nouvelle-Calédonie;Partie réglementaire;LIVRE II : FINANCES COMMUNALES;118
+CD00726;Code des communes de la Nouvelle-Calédonie;Partie réglementaire;LIVRE III : ADMINISTRATION ET SERVICES COMMUNAUX;131
+CD00727;Code des communes de la Nouvelle-Calédonie;Partie réglementaire;LIVRE IV : PERSONNEL COMMUNAL;1
+CD00728;Code des communes;Partie législative;;13
+CD00729;Code des communes;Partie législative;LIVRE 4 : Personnel communal;10
+CD00730;Code des communes;Partie législative;LIVRE 5 : Dispositions finales.;3
+CD00731;Code des communes;Partie réglementaire;;165
+CD00732;Code des communes;Partie réglementaire;LIVRE 2 : Finances communales;3
+CD00733;Code des communes;Partie réglementaire;LIVRE 4 : Personnel communal;162
+CD00734;Code des douanes de Mayotte;Partie législative;;328
+CD00735;Code des douanes de Mayotte;Partie législative;Titre Ier : Principes généraux du régime des douanes;21
+CD00736;Code des douanes de Mayotte;Partie législative;Titre II : Organisation et fonctionnement du service des douanes;27
+CD00737;Code des douanes de Mayotte;Partie législative;Titre III : Conduite des marchandises en douane;17
+CD00738;Code des douanes de Mayotte;Partie législative;Titre IV : Opérations de dédouanement;33
+CD00739;Code des douanes de Mayotte;Partie législative;Titre V : Régimes douaniers suspensifs, exportation temporaire;51
+CD00740;Code des douanes de Mayotte;Partie législative;Titre VI : Dépôt de douane;7
+CD00741;Code des douanes de Mayotte;Partie législative;Titre VII : Opérations privilégiées;8
+CD00742;Code des douanes de Mayotte;Partie législative;Titre VIII : Circulation et détention des marchandises à l'intérieur du territoire douanier;1
+CD00743;Code des douanes de Mayotte;Partie législative;Titre IX : Navigation;27
+CD00744;Code des douanes de Mayotte;Partie législative;Titre X : Zones franches.;2
+CD00745;Code des douanes de Mayotte;Partie législative;Titre XI : Contentieux et recouvrement;126
+CD00746;Code des douanes de Mayotte;Partie législative;Titre XIII : Contentieux des relations financières avec l'étranger;8
+CD00747;Code des douanes;Partie législative;;892
+CD00748;Code des douanes;Partie législative;Livre Ier : PRINCIPES GÉNÉRAUX ET ACTION DE L'ADMINISTRATION DES DOUANES;33
+CD00749;Code des douanes;Partie législative;Livre II : RÉGIME DOUANIER DES MARCHANDISES ET DES FLUX FINANCIERS;50
+CD00750;Code des douanes;Partie législative;Livre III : PAIEMENT ET RECOUVREMENT DES DROITS ET DES CRÉANCES;80
+CD00751;Code des douanes;Partie législative;Livre IV : POUVOIRS DE CONTRÔLE ET DE CONSTATATION;321
+CD00752;Code des douanes;Partie législative;Livre V : QUALIFICATIONS, SANCTIONS ET RESPONSABILITÉ;102
+CD00753;Code des douanes;Partie législative;Livre VI : PROCÉDURES CONSÉCUTIVES AUX CONTRÔLES ET AUX CONSTATATIONS;84
+CD00754;Code des douanes;Partie législative;Livre VII : DISPOSITIONS RELATIVES À L'OUTRE-MER;222
+CD00755;Code des douanes;Partie réglementaire;;436
+CD00756;Code des douanes;Partie réglementaire;Livre Ier : PRINCIPES GÉNÉRAUX ET ACTION DE L'ADMINISTRATION DES DOUANES;7
+CD00757;Code des douanes;Partie réglementaire;Livre II : RÉGIME DOUANIER DES MARCHANDISES ET DES FLUX FINANCIERS;56
+CD00758;Code des douanes;Partie réglementaire;Livre III : PAIEMENT ET RECOUVREMENT DES DROITS ET DES CRÉANCES;31
+CD00759;Code des douanes;Partie réglementaire;Livre IV : POUVOIRS DE CONTRÔLE ET DE CONSTATATION;106
+CD00760;Code des douanes;Partie réglementaire;Livre V : QUALIFICATIONS, SANCTIONS ET RESPONSABILITÉ;18
+CD00761;Code des douanes;Partie réglementaire;Livre VI : PROCÉDURES CONSÉCUTIVES AUX CONTRÔLES ET AUX CONSTATATIONS;33
+CD00762;Code des douanes;Partie réglementaire;Livre VII : DISPOSITIONS RELATIVES À L'OUTRE-MER;185
+CD00763;Code des douanes;Partie Arrêtés;;100
+CD00764;Code des douanes;Partie Arrêtés;Livre II : RÉGIME DOUANIER DES MARCHANDISES ET DES FLUX FINANCIERS;25
+CD00765;Code des douanes;Partie Arrêtés;Livre IV : POUVOIRS DE CONTRÔLE ET DE CONSTATATION;17
+CD00766;Code des douanes;Partie Arrêtés;Livre VI : PROCÉDURES CONSÉCUTIVES AUX CONTRÔLES ET AUX CONSTATATIONS;3
+CD00767;Code des douanes;Partie Arrêtés;Livre VII : DISPOSITIONS RELATIVES À L'OUTRE-MER;55
+CD00768;Code des impositions sur les biens et services;PARTIE LÉGISLATIVE;;1259
+CD00769;Code des impositions sur les biens et services;PARTIE LÉGISLATIVE;Livre Ier : DISPOSITIONS GÉNÉRALES;91
+CD00770;Code des impositions sur les biens et services;PARTIE LÉGISLATIVE;Livre III : ÉNERGIES, ALCOOLS ET TABACS;320
+CD00771;Code des impositions sur les biens et services;PARTIE LÉGISLATIVE;Livre IV : AUTRES IMPOSITIONS SECTORIELLES;848
+CD00772;Code des impositions sur les biens et services;PARTIE RÉGLEMENTAIRE;;504
+CD00773;Code des impositions sur les biens et services;PARTIE RÉGLEMENTAIRE;Livre Ier : DISPOSITIONS GÉNÉRALES;89
+CD00774;Code des impositions sur les biens et services;PARTIE RÉGLEMENTAIRE;Livre III : ÉNERGIES, ALCOOLS ET TABACS;32
+CD00775;Code des impositions sur les biens et services;PARTIE RÉGLEMENTAIRE;Livre IV : DISPOSITIFS SECTORIELS;383
+CD00776;Code des instruments monétaires et des médailles;Chapitre I : Monnaies et médailles;;5
+CD00777;Code des instruments monétaires et des médailles;Chapitre I : Monnaies et médailles;Section I : Fabrication des monnaies et médailles;5
+CD00778;Code des instruments monétaires et des médailles;Chapitre IV : Dispositions communes.;;1
+CD00779;Code des juridictions financières;Partie législative;;548
+CD00780;Code des juridictions financières;Partie législative;LIVRE Ier : La Cour des comptes;157
+CD00781;Code des juridictions financières;Partie législative;LIVRE II : Les chambres régionales et territoriales des comptes;370
+CD00782;Code des juridictions financières;Partie législative;LIVRE III : La cour d'appel financière;7
+CD00783;Code des juridictions financières;Partie législative;LIVRE IV : Conseil des prélèvements obligatoires;14
+CD00784;Code des juridictions financières;Partie réglementaire;;762
+CD00785;Code des juridictions financières;Partie réglementaire;LIVRE Ier : La Cour des comptes;182
+CD00786;Code des juridictions financières;Partie réglementaire;LIVRE II : Les chambres régionales et territoriales des comptes;540
+CD00787;Code des juridictions financières;Partie réglementaire;LIVRE III : Cour d'appel financière;28
+CD00788;Code des juridictions financières;Partie réglementaire;LIVRE IV : Le conseil des prélèvements obligatoires;12
+CD00789;Code des pensions civiles et militaires de retraite;Partie législative;;101
+CD00790;Code des pensions civiles et militaires de retraite;Partie législative;Livre Ier : Dispositions générales relatives au régime général des retraites.;75
+CD00791;Code des pensions civiles et militaires de retraite;Partie législative;Livre II : Dispositions particulières du régime général des retraites.;19
+CD00792;Code des pensions civiles et militaires de retraite;Partie législative;Livre III : Dispositions relatives au paiement des pensions.;7
+CD00793;Code des pensions civiles et militaires de retraite;Partie réglementaire - Décrets en Conseil d'Etat;;104
+CD00794;Code des pensions civiles et militaires de retraite;Partie réglementaire - Décrets en Conseil d'Etat;Livre Ier : Dispositions générales relatives au régime général des retraites.;74
+CD00795;Code des pensions civiles et militaires de retraite;Partie réglementaire - Décrets en Conseil d'Etat;Livre II : Dispositions particulières du régime général des retraites.;21
+CD00796;Code des pensions civiles et militaires de retraite;Partie réglementaire - Décrets en Conseil d'Etat;Livre III : Dispositions relatives au paiement des pensions.;9
+CD00797;Code des pensions civiles et militaires de retraite;Partie réglementaire - Décrets simples;;56
+CD00798;Code des pensions civiles et militaires de retraite;Partie réglementaire - Décrets simples;Livre Ier : Dispositions générales relatives au régime général des retraites.;42
+CD00799;Code des pensions civiles et militaires de retraite;Partie réglementaire - Décrets simples;Livre II : Dispositions particulières du régime général des retraites.;4
+CD00800;Code des pensions civiles et militaires de retraite;Partie réglementaire - Décrets simples;Livre III : Dispositions relatives au paiement des pensions.;10
+CD00801;Code des pensions civiles et militaires de retraite;Annexe;;1
+CD00802;Code des pensions de retraite des marins français du commerce, de pêche ou de plaisance;Partie législative;;1
+CD00803;Code des pensions de retraite des marins français du commerce, de pêche ou de plaisance;Partie législative;Titre III : Versements au profit de la caisse de retraites.;1
+CD00804;Code des pensions de retraite des marins français du commerce, de pêche ou de plaisance;Partie réglementaire - Décrets en Conseil d'Etat;;31
+CD00805;Code des pensions de retraite des marins français du commerce, de pêche ou de plaisance;Partie réglementaire - Décrets en Conseil d'Etat;Préambule;1
+CD00806;Code des pensions de retraite des marins français du commerce, de pêche ou de plaisance;Partie réglementaire - Décrets en Conseil d'Etat;Titre Ier : Pensions de retraite des marins.;21
+CD00807;Code des pensions de retraite des marins français du commerce, de pêche ou de plaisance;Partie réglementaire - Décrets en Conseil d'Etat;Titre III : Versements au profit de la caisse de retraites des marins.;6
+CD00808;Code des pensions de retraite des marins français du commerce, de pêche ou de plaisance;Partie réglementaire - Décrets en Conseil d'Etat;Titre IV : Dispositions générales.;1
+CD00809;Code des pensions de retraite des marins français du commerce, de pêche ou de plaisance;Partie réglementaire - Décrets en Conseil d'Etat;Titre V : Dispositions relatives aux salariés à temps partiel.;2
+CD00810;Code des pensions militaires d'invalidité et des victimes de guerre;Partie législative (nouvelle);;377
+CD00811;Code des pensions militaires d'invalidité et des victimes de guerre;Partie législative (nouvelle);Livre Ier : LE DROIT À PENSION;194
+CD00812;Code des pensions militaires d'invalidité et des victimes de guerre;Partie législative (nouvelle);Livre II : DROITS ANNEXES À LA PENSION;29
+CD00813;Code des pensions militaires d'invalidité et des victimes de guerre;Partie législative (nouvelle);Livre III : CARTES ET TITRES, ALLOCATION DE RECONNAISSANCE  DU COMBATTANT ET DÉCORATIONS;51
+CD00814;Code des pensions militaires d'invalidité et des victimes de guerre;Partie législative (nouvelle);Livre IV : PUPILLES DE LA NATION;27
+CD00815;Code des pensions militaires d'invalidité et des victimes de guerre;Partie législative (nouvelle);Livre V : MENTIONS À L'ÉTAT CIVIL ET SÉPULTURES;34
+CD00816;Code des pensions militaires d'invalidité et des victimes de guerre;Partie législative (nouvelle);Livre VI : INSTITUTIONS;35
+CD00817;Code des pensions militaires d'invalidité et des victimes de guerre;Partie législative (nouvelle);Livre VII : CONTENTIEUX DES PENSIONS;5
+CD00818;Code des pensions militaires d'invalidité et des victimes de guerre;Partie réglementaire (nouvelle) ;;628
+CD00819;Code des pensions militaires d'invalidité et des victimes de guerre;Partie réglementaire (nouvelle) ;Livre Ier : LE DROIT À PENSION;131
+CD00820;Code des pensions militaires d'invalidité et des victimes de guerre;Partie réglementaire (nouvelle) ;Livre II : DROITS ANNEXES À LA PENSION;66
+CD00821;Code des pensions militaires d'invalidité et des victimes de guerre;Partie réglementaire (nouvelle) ;Livre III : CARTES ET TITRES, ALLOCATION RECONNAISSANCE DU COMBATTANT ET DÉCORATIONS;206
+CD00822;Code des pensions militaires d'invalidité et des victimes de guerre;Partie réglementaire (nouvelle) ;Livre IV : PUPILLES DE LA NATION;82
+CD00823;Code des pensions militaires d'invalidité et des victimes de guerre;Partie réglementaire (nouvelle) ;Livre V : MENTIONS À L'ÉTAT CIVIL ET SEPULTURES;41
+CD00824;Code des pensions militaires d'invalidité et des victimes de guerre;Partie réglementaire (nouvelle) ;Livre VI : INSTITUTIONS;83
+CD00825;Code des pensions militaires d'invalidité et des victimes de guerre;Partie réglementaire (nouvelle) ;Livre VII : RECOURS ADMINISTRATIF PRÉALABLE OBLIGATOIRE;16
+CD00826;Code des pensions militaires d'invalidité et des victimes de guerre;Partie réglementaire (nouvelle) ;ANNEXES AU CODE DES PENSIONS MILITAIRES D'INVALIDITÉ ET DES VICTIMES DE GUERRE;3
+CD00827;Code des pensions militaires d'invalidité et des victimes de guerre;Partie législative;;41
+CD00828;Code des pensions militaires d'invalidité et des victimes de guerre;Partie législative;Livre Ier : Régime général des pensions militaires d'invalidité.;3
+CD00829;Code des pensions militaires d'invalidité et des victimes de guerre;Partie législative;Livre II : Régimes rattachés au régime général et régimes spéciaux;27
+CD00830;Code des pensions militaires d'invalidité et des victimes de guerre;Partie législative;Livre III : Droits et avantages attachés à la qualité d'ancien combattant ou de victime de guerre;10
+CD00831;Code des pensions militaires d'invalidité et des victimes de guerre;Partie législative;Livre IV : Etat civil et sépultures;1
+CD00832;Code des pensions militaires d'invalidité et des victimes de guerre;Partie réglementaire - Décrets en Conseil d'Etat;;29
+CD00833;Code des pensions militaires d'invalidité et des victimes de guerre;Partie réglementaire - Décrets en Conseil d'Etat;Livre Ier : Régime général des pensions militaires d'invalidité.;5
+CD00834;Code des pensions militaires d'invalidité et des victimes de guerre;Partie réglementaire - Décrets en Conseil d'Etat;Livre II : Régimes rattachés au régime général et régimes spéciaux.;8
+CD00835;Code des pensions militaires d'invalidité et des victimes de guerre;Partie réglementaire - Décrets en Conseil d'Etat;Livre III : Droits et avantages attachés à la qualité d'ancien combattant ou de victime de guerre.;16
+CD00836;Code des pensions militaires d'invalidité et des victimes de guerre;Partie réglementaire - Décrets simples;;29
+CD00837;Code des pensions militaires d'invalidité et des victimes de guerre;Partie réglementaire - Décrets simples;Livre Ier : Régime général des pensions militaires d'invalidité.;10
+CD00838;Code des pensions militaires d'invalidité et des victimes de guerre;Partie réglementaire - Décrets simples;Livre II : Régimes rattachés au régime général et régimes spéciaux.;6
+CD00839;Code des pensions militaires d'invalidité et des victimes de guerre;Partie réglementaire - Décrets simples;Livre III : Droits et avantages attachés à la qualité d'ancien combattant ou de victime de guerre.;11
+CD00840;Code des pensions militaires d'invalidité et des victimes de guerre;Partie réglementaire - Décrets simples;Livre IV : Etat civil et sépultures.;1
+CD00841;Code des pensions militaires d'invalidité et des victimes de guerre;Partie réglementaire - Décrets simples;Livre V : Institutions.;1
+CD00842;Code des pensions militaires d'invalidité et des victimes de guerre;Partie réglementaire - Arrêtés;;48
+CD00843;Code des pensions militaires d'invalidité et des victimes de guerre;Partie réglementaire - Arrêtés;Livre III : Droits et avantages attachés à la qualité d'ancien combattant ou de victime de guerre.;48
+CD00844;Code des pensions militaires d'invalidité et des victimes de guerre;Annexes;;27
+CD00845;Code des pensions militaires d'invalidité et des victimes de guerre;Annexes;Livre II : Régimes rattachés au régime général et régimes spéciaux.;27
+CD00846;Code des ports maritimes;Partie législative;;1
+CD00847;Code des ports maritimes;Partie législative;Livre II : Droits de port et de navigation.;1
+CD00848;Code des ports maritimes;Partie réglementaire - Décrets en Conseil d'Etat;;29
+CD00849;Code des ports maritimes;Partie réglementaire - Décrets en Conseil d'Etat;Livre Ier : Création, organisation et aménagement des ports maritimes civils relevant de la compétence de l'Etat.;29
+CD00850;Code des postes et des communications électroniques;Partie législative;;236
+CD00851;Code des postes et des communications électroniques;Partie législative;LIVRE Ier : Le service postal et les services de livraison de colis;38
+CD00852;Code des postes et des communications électroniques;Partie législative;LIVRE II : Les communications électroniques;180
+CD00853;Code des postes et des communications électroniques;Partie législative;LIVRE III : Autres services, dispositions communes et finales;18
+CD00854;Code des postes et des communications électroniques;Partie réglementaire - Décrets en Conseil d'Etat;;361
+CD00855;Code des postes et des communications électroniques;Partie réglementaire - Décrets en Conseil d'Etat;LIVRE Ier : Le service postal;53
+CD00856;Code des postes et des communications électroniques;Partie réglementaire - Décrets en Conseil d'Etat;LIVRE II : Les communications électroniques;270
+CD00857;Code des postes et des communications électroniques;Partie réglementaire - Décrets en Conseil d'Etat;LIVRE III : Autres services, dispositions communes et finales;38
+CD00858;Code des postes et des communications électroniques;Partie réglementaire - Décrets simples;;139
+CD00859;Code des postes et des communications électroniques;Partie réglementaire - Décrets simples;LIVRE Ier : Le service postal;19
+CD00860;Code des postes et des communications électroniques;Partie réglementaire - Décrets simples;LIVRE II : Les communications électroniques;84
+CD00861;Code des postes et des communications électroniques;Partie réglementaire - Décrets simples;LIVRE III : Autres services, dispositions communes et finales;36
+CD00862;Code des procédures civiles d'exécution;Partie législative;;195
+CD00863;Code des procédures civiles d'exécution;Partie législative;LIVRE Ier : DISPOSITIONS GÉNÉRALES;58
+CD00864;Code des procédures civiles d'exécution;Partie législative;LIVRE II : LES PROCÉDURES D'EXÉCUTION MOBILIÈRE;43
+CD00865;Code des procédures civiles d'exécution;Partie législative;LIVRE III : LA SAISIE IMMOBILIÈRE;33
+CD00866;Code des procédures civiles d'exécution;Partie législative;LIVRE IV : L'EXPULSION;18
+CD00867;Code des procédures civiles d'exécution;Partie législative;LIVRE V : LES MESURES CONSERVATOIRES;15
+CD00868;Code des procédures civiles d'exécution;Partie législative;LIVRE VI : DISPOSITIONS RELATIVES À L'OUTRE-MER;28
+CD00869;Code des procédures civiles d'exécution;Partie réglementaire;;560
+CD00870;Code des procédures civiles d'exécution;Partie réglementaire;LIVRE Ier : DISPOSITIONS GÉNÉRALES;87
+CD00871;Code des procédures civiles d'exécution;Partie réglementaire;LIVRE II : LES PROCÉDURES D'EXÉCUTION MOBILIÈRE;230
+CD00872;Code des procédures civiles d'exécution;Partie réglementaire;LIVRE III : LA SAISIE IMMOBILIÈRE;129
+CD00873;Code des procédures civiles d'exécution;Partie réglementaire;LIVRE IV : L'EXPULSION;25
+CD00874;Code des procédures civiles d'exécution;Partie réglementaire;LIVRE V : LES MESURES CONSERVATOIRES;64
+CD00875;Code des procédures civiles d'exécution;Partie réglementaire;LIVRE VI : DISPOSITIONS RELATIVES À L'OUTRE-MER;25
+CD00876;Code des relations entre le public et l'administration;Dispositions préliminaires;;3
+CD00877;Code des relations entre le public et l'administration;Livre Ier : LES ÉCHANGES AVEC L'ADMINISTRATION;;142
+CD00878;Code des relations entre le public et l'administration;Livre Ier : LES ÉCHANGES AVEC L'ADMINISTRATION;Titre Ier : LES DEMANDES DU PUBLIC ET LEUR TRAITEMENT;70
+CD00879;Code des relations entre le public et l'administration;Livre Ier : LES ÉCHANGES AVEC L'ADMINISTRATION;Titre II : LES PROCÉDURES PRÉALABLES A L'INTERVENTION DE CERTAINES DÉCISIONS;9
+CD00880;Code des relations entre le public et l'administration;Livre Ier : LES ÉCHANGES AVEC L'ADMINISTRATION;Titre III : L'ASSOCIATION DU PUBLIC AUX DÉCISIONS PRISES PAR L'ADMINISTRATION;63
+CD00881;Code des relations entre le public et l'administration;Livre II : LES ACTES UNILATÉRAUX PRIS PAR L'ADMINISTRATION;;54
+CD00882;Code des relations entre le public et l'administration;Livre II : LES ACTES UNILATÉRAUX PRIS PAR L'ADMINISTRATION;Titre Ier : LA MOTIVATION ET LA SIGNATURE DES ACTES ADMINISTRATIFS;11
+CD00883;Code des relations entre le public et l'administration;Livre II : LES ACTES UNILATÉRAUX PRIS PAR L'ADMINISTRATION;Titre II : L'ENTRÉE EN VIGUEUR DES ACTES ADMINISTRATIFS;19
+CD00884;Code des relations entre le public et l'administration;Livre II : LES ACTES UNILATÉRAUX PRIS PAR L'ADMINISTRATION;Titre III : LES DÉCISIONS IMPLICITES;10
+CD00885;Code des relations entre le public et l'administration;Livre II : LES ACTES UNILATÉRAUX PRIS PAR L'ADMINISTRATION;Titre IV : LA SORTIE DE VIGUEUR DES ACTES ADMINISTRATIFS;13
+CD00886;Code des relations entre le public et l'administration;Livre III : L'ACCÈS AUX DOCUMENTS ADMINISTRATIFS ET LA RÉUTILISATION DES INFORMATIONS PUBLIQUES;;133
+CD00887;Code des relations entre le public et l'administration;Livre III : L'ACCÈS AUX DOCUMENTS ADMINISTRATIFS ET LA RÉUTILISATION DES INFORMATIONS PUBLIQUES;Titre Ier : LE DROIT D'ACCÈS AUX DOCUMENTS ADMINISTRATIFS;38
+CD00888;Code des relations entre le public et l'administration;Livre III : L'ACCÈS AUX DOCUMENTS ADMINISTRATIFS ET LA RÉUTILISATION DES INFORMATIONS PUBLIQUES;Titre II : LA RÉUTILISATION DES INFORMATIONS PUBLIQUES;45
+CD00889;Code des relations entre le public et l'administration;Livre III : L'ACCÈS AUX DOCUMENTS ADMINISTRATIFS ET LA RÉUTILISATION DES INFORMATIONS PUBLIQUES;Titre III : LES PERSONNES RESPONSABLES DE L'ACCÈS AUX DOCUMENTS ADMINISTRATIFS ET DES QUESTIONS RELATIVES À LA RÉUTILISATION DES INFORMATIONS PUBLIQUES;4
+CD00890;Code des relations entre le public et l'administration;Livre III : L'ACCÈS AUX DOCUMENTS ADMINISTRATIFS ET LA RÉUTILISATION DES INFORMATIONS PUBLIQUES;Titre IV : LA COMMISSION D'ACCÈS AUX DOCUMENTS ADMINISTRATIFS;41
+CD00891;Code des relations entre le public et l'administration;Livre III : L'ACCÈS AUX DOCUMENTS ADMINISTRATIFS ET LA RÉUTILISATION DES INFORMATIONS PUBLIQUES;"Titre V : LA COMMISSION SUPÉRIEURE DE CODIFICATION
+";1
+CD00892;Code des relations entre le public et l'administration;Livre IV : LE RÈGLEMENT DES DIFFÉRENDS AVEC L'ADMINISTRATION;;32
+CD00893;Code des relations entre le public et l'administration;Livre IV : LE RÈGLEMENT DES DIFFÉRENDS AVEC L'ADMINISTRATION;Titre Ier : LES RECOURS ADMINISTRATIFS;16
+CD00894;Code des relations entre le public et l'administration;Livre IV : LE RÈGLEMENT DES DIFFÉRENDS AVEC L'ADMINISTRATION;Titre II : LES AUTRES MODES NON JURIDICTIONNELS DE RÉSOLUTION DES DIFFÉRENDS;14
+CD00895;Code des relations entre le public et l'administration;Livre IV : LE RÈGLEMENT DES DIFFÉRENDS AVEC L'ADMINISTRATION;Titre III : LES RECOURS JURIDICTIONNELS;2
+CD00896;Code des relations entre le public et l'administration;Livre V : DISPOSITIONS RELATIVES À L'OUTRE-MER;;112
+CD00897;Code des relations entre le public et l'administration;Livre V : DISPOSITIONS RELATIVES À L'OUTRE-MER;Titre Ier : DISPOSITIONS APPLICABLES EN GUADELOUPE, EN GUYANE, EN MARTINIQUE, À LA RÉUNION ET À MAYOTTE;7
+CD00898;Code des relations entre le public et l'administration;Livre V : DISPOSITIONS RELATIVES À L'OUTRE-MER;Titre II : DISPOSITIONS APPLICABLES À SAINT-BARTHÉLEMY;8
+CD00899;Code des relations entre le public et l'administration;Livre V : DISPOSITIONS RELATIVES À L'OUTRE-MER;Titre III : DISPOSITIONS APPLICABLES À SAINT-MARTIN;7
+CD00900;Code des relations entre le public et l'administration;Livre V : DISPOSITIONS RELATIVES À L'OUTRE-MER;Titre IV : DISPOSITIONS APPLICABLES À SAINT-PIERRE-ET-MIQUELON;8
+CD00901;Code des relations entre le public et l'administration;Livre V : DISPOSITIONS RELATIVES À L'OUTRE-MER;Titre V : DISPOSITIONS APPLICABLES EN POLYNÉSIE FRANÇAISE;24
+CD00902;Code des relations entre le public et l'administration;Livre V : DISPOSITIONS RELATIVES À L'OUTRE-MER;Titre VI : DISPOSITIONS APPLICABLES EN NOUVELLE-CALÉDONIE;25
+CD00903;Code des relations entre le public et l'administration;Livre V : DISPOSITIONS RELATIVES À L'OUTRE-MER;Titre VII : DISPOSITIONS APPLICABLES DANS LES ÎLES WALLIS ET FUTUNA;25
+CD00904;Code des relations entre le public et l'administration;Livre V : DISPOSITIONS RELATIVES À L'OUTRE-MER;Titre VIII : DISPOSITIONS APPLICABLES DANS LES TERRES AUSTRALES ET ANTARCTIQUES FRANÇAISES;7
+CD00905;Code des transports;PARTIE LÉGISLATIVE;;3529
+CD00906;Code des transports;PARTIE LÉGISLATIVE;PREMIÈRE PARTIE : DISPOSITIONS COMMUNES;603
+CD00907;Code des transports;PARTIE LÉGISLATIVE;DEUXIÈME PARTIE : TRANSPORT FERROVIAIRE OU GUIDÉ;346
+CD00908;Code des transports;PARTIE LÉGISLATIVE;TROISIÈME PARTIE : TRANSPORT ROUTIER;315
+CD00909;Code des transports;PARTIE LÉGISLATIVE;QUATRIÈME PARTIE : NAVIGATION INTÉRIEURE  ET TRANSPORT FLUVIAL;243
+CD00910;Code des transports;PARTIE LÉGISLATIVE;CINQUIÈME PARTIE : TRANSPORT ET NAVIGATION MARITIMES;1456
+CD00911;Code des transports;PARTIE LÉGISLATIVE;SIXIÈME PARTIE : AVIATION CIVILE;566
+CD00912;Code des transports;PARTIE RÉGLEMENTAIRE;;5194
+CD00913;Code des transports;PARTIE RÉGLEMENTAIRE;PREMIÈRE PARTIE : DISPOSITIONS COMMUNES;669
+CD00914;Code des transports;PARTIE RÉGLEMENTAIRE;"DEUXIÈME PARTIE : TRANSPORT FERROVIAIRE OU GUIDÉ
+";204
+CD00915;Code des transports;PARTIE RÉGLEMENTAIRE;TROISIÈME PARTIE : TRANSPORT ROUTIER;733
+CD00916;Code des transports;PARTIE RÉGLEMENTAIRE;QUATRIÈME PARTIE : NAVIGATION INTÉRIEURE  ET TRANSPORT FLUVIAL;723
+CD00917;Code des transports;PARTIE RÉGLEMENTAIRE;CINQUIÈME PARTIE : TRANSPORT ET NAVIGATION MARITIMES;1424
+CD00918;Code des transports;PARTIE RÉGLEMENTAIRE;SIXIÈME PARTIE : AVIATION CIVILE;1441
+CD00919;Code des transports;PARTIE RÉGLEMENTAIRE - Arrêtés ;;534
+CD00920;Code des transports;PARTIE RÉGLEMENTAIRE - Arrêtés ;DEUXIÈME PARTIE : TRANSPORT FERROVIAIRE OU GUIDÉ;85
+CD00921;Code des transports;PARTIE RÉGLEMENTAIRE - Arrêtés ;TROISIÈME PARTIE : TRANSPORT ROUTIER;15
+CD00922;Code des transports;PARTIE RÉGLEMENTAIRE - Arrêtés ;QUATRIÈME PARTIE : NAVIGATION INTÉRIEURE ET TRANSPORT FLUVIAL ;264
+CD00923;Code des transports;PARTIE RÉGLEMENTAIRE - Arrêtés ;CINQUIÈME PARTIE : TRANSPORT ET NAVIGATION MARITIMES;170
+CD00924;Code disciplinaire et pénal de la marine marchande;Partie législative;;6
+CD00925;Code disciplinaire et pénal de la marine marchande;Partie législative;Titre III : Des infractions maritimes;5
+CD00926;Code disciplinaire et pénal de la marine marchande;Partie législative;Titre V : Dispositions diverses.;1
+CD00927;Code du cinéma et de l'image animée;Partie législative;;234
+CD00928;Code du cinéma et de l'image animée;Partie législative;"Livre Ier : Organisation administrative
+";31
+CD00929;Code du cinéma et de l'image animée;Partie législative;Livre II : Professions et activités;133
+CD00930;Code du cinéma et de l'image animée;Partie législative;Livre III : Financement et fiscalité;27
+CD00931;Code du cinéma et de l'image animée;Partie législative;Livre IV : Contrôles et sanctions;41
+CD00932;Code du cinéma et de l'image animée;Partie législative;Livre V : Dispositions relatives à l'outre-mer;2
+CD00933;Code du cinéma et de l'image animée;Partie réglementaire;;441
+CD00934;Code du cinéma et de l'image animée;Partie réglementaire;Livre Ier : Organisation administrative;60
+CD00935;Code du cinéma et de l'image animée;Partie réglementaire;Livre II : Professions et activités;258
+CD00936;Code du cinéma et de l'image animée;Partie réglementaire;Livre III : Financement et fiscalité;89
+CD00937;Code du cinéma et de l'image animée;Partie réglementaire;Livre IV : Contrôles et sanctions;34
+CD00938;Code du cinéma et de l'image animée;Annexe : RÈGLEMENT GÉNÉRAL DES AIDES FINANCIÈRES DU CENTRE NATIONAL DU CINÉMA ET DE L'IMAGE ANIMÉE ;;1389
+CD00939;Code du cinéma et de l'image animée;Annexe : RÈGLEMENT GÉNÉRAL DES AIDES FINANCIÈRES DU CENTRE NATIONAL DU CINÉMA ET DE L'IMAGE ANIMÉE ;Livre I : DISPOSITIONS GÉNÉRALES;77
+CD00940;Code du cinéma et de l'image animée;Annexe : RÈGLEMENT GÉNÉRAL DES AIDES FINANCIÈRES DU CENTRE NATIONAL DU CINÉMA ET DE L'IMAGE ANIMÉE ;Livre II : SOUTIEN À LA CRÉATION CINÉMATOGRAPHIQUE ET À LA DIFFUSION EN SALLE;369
+CD00941;Code du cinéma et de l'image animée;Annexe : RÈGLEMENT GÉNÉRAL DES AIDES FINANCIÈRES DU CENTRE NATIONAL DU CINÉMA ET DE L'IMAGE ANIMÉE ;Livre III : SOUTIEN À LA CRÉATION AUDIOVISUELLE ET MULTIMÉDIA;259
+CD00942;Code du cinéma et de l'image animée;Annexe : RÈGLEMENT GÉNÉRAL DES AIDES FINANCIÈRES DU CENTRE NATIONAL DU CINÉMA ET DE L'IMAGE ANIMÉE ;Livre IV : SOUTIEN À LA DIVERSITÉ DE LA CRÉATION ET À LA DIFFUSION AUPRÈS DES PUBLICS;219
+CD00943;Code du cinéma et de l'image animée;Annexe : RÈGLEMENT GÉNÉRAL DES AIDES FINANCIÈRES DU CENTRE NATIONAL DU CINÉMA ET DE L'IMAGE ANIMÉE ;Livre V : SOUTIEN AUX ACTIONS EN FAVEUR DU PATRIMOINE CINÉMATOGRAPHIQUE;14
+CD00944;Code du cinéma et de l'image animée;Annexe : RÈGLEMENT GÉNÉRAL DES AIDES FINANCIÈRES DU CENTRE NATIONAL DU CINÉMA ET DE L'IMAGE ANIMÉE ;Livre VI : SOUTIEN À LA DIFFUSION VIDÉOGRAPHIQUE ET À L'INNOVATION TECHNOLOGIQUE;118
+CD00945;Code du cinéma et de l'image animée;Annexe : RÈGLEMENT GÉNÉRAL DES AIDES FINANCIÈRES DU CENTRE NATIONAL DU CINÉMA ET DE L'IMAGE ANIMÉE ;Livre VII : SOUTIEN À LA COOPÉRATION ET À LA DIFFUSION INTERNATIONALE ET EUROPÉENNE;89
+CD00946;Code du cinéma et de l'image animée;Annexe : RÈGLEMENT GÉNÉRAL DES AIDES FINANCIÈRES DU CENTRE NATIONAL DU CINÉMA ET DE L'IMAGE ANIMÉE ;Livre VIII : DISPOSITIONS DIVERSES;26
+CD00947;Code du cinéma et de l'image animée;Annexe : RÈGLEMENT GÉNÉRAL DES AIDES FINANCIÈRES DU CENTRE NATIONAL DU CINÉMA ET DE L'IMAGE ANIMÉE ;Livre IX : MESURES EXCEPTIONNELLES;218
+CD00948;Code du domaine de l'Etat et des collectivités publiques applicable à la collectivité territoriale de Mayotte;Partie législative;;3
+CD00949;Code du domaine de l'Etat et des collectivités publiques applicable à la collectivité territoriale de Mayotte;Partie législative;LIVRE III : Aliénation des biens domaniaux;2
+CD00950;Code du domaine de l'Etat et des collectivités publiques applicable à la collectivité territoriale de Mayotte;Partie législative;LIVRE IV : Dispositions diverses;1
+CD00951;Code du domaine de l'Etat;Partie réglementaire - Décrets en Conseil d'Etat;;327
+CD00952;Code du domaine de l'Etat;Partie réglementaire - Décrets en Conseil d'Etat;Livre Ier : Composition du domaine;53
+CD00953;Code du domaine de l'Etat;Partie réglementaire - Décrets en Conseil d'Etat;Livre II : Administration des biens domaniaux;115
+CD00954;Code du domaine de l'Etat;Partie réglementaire - Décrets en Conseil d'Etat;Livre III : Aliénation des biens domaniaux;34
+CD00955;Code du domaine de l'Etat;Partie réglementaire - Décrets en Conseil d'Etat;Livre IV : Dispositions diverses;125
+CD00956;Code du domaine de l'Etat;Partie réglementaire - Décrets simples;;19
+CD00957;Code du domaine de l'Etat;Partie réglementaire - Décrets simples;Livre Ier : Composition du domaine;1
+CD00958;Code du domaine de l'Etat;Partie réglementaire - Décrets simples;Livre II : Administration des biens domaniaux;2
+CD00959;Code du domaine de l'Etat;Partie réglementaire - Décrets simples;Livre III : Aliénation des biens domaniaux;2
+CD00960;Code du domaine de l'Etat;Partie réglementaire - Décrets simples;Livre IV : Dispositions diverses;14
+CD00961;Code du domaine de l'Etat;Partie réglementaire - Arrêtés;;127
+CD00962;Code du domaine de l'Etat;Partie réglementaire - Arrêtés;Livre Ier : Composition du domaine;14
+CD00963;Code du domaine de l'Etat;Partie réglementaire - Arrêtés;Livre II : Administration des biens domaniaux;91
+CD00964;Code du domaine de l'Etat;Partie réglementaire - Arrêtés;Livre III : Aliénation des biens domaniaux;19
+CD00965;Code du domaine de l'Etat;Partie réglementaire - Arrêtés;Livre IV : Dispositions diverses;3
+CD00966;Code du domaine public fluvial et de la navigation intérieure;Livre II : Des bateaux;;1
+CD00967;Code du domaine public fluvial et de la navigation intérieure;Livre II : Des bateaux;Titre Ier : Régime juridique des bateaux de navigation intérieure;1
+CD00968;Code du patrimoine;Partie législative;;459
+CD00969;Code du patrimoine;Partie législative;LIVRE Ier : DISPOSITIONS COMMUNES À L'ENSEMBLE DU PATRIMOINE CULTUREL;111
+CD00970;Code du patrimoine;Partie législative;LIVRE II : ARCHIVES;66
+CD00971;Code du patrimoine;Partie législative;LIVRE III : BIBLIOTHÈQUES;14
+CD00972;Code du patrimoine;Partie législative;LIVRE IV : MUSÉES;39
+CD00973;Code du patrimoine;Partie législative;LIVRE V : ARCHÉOLOGIE;99
+CD00974;Code du patrimoine;Partie législative;LIVRE VI : MONUMENTS HISTORIQUES, SITES PATRIMONIAUX REMARQUABLES ET QUALITE ARCHITECTURALE;102
+CD00975;Code du patrimoine;Partie législative;LIVRE VII : DISPOSITIONS RELATIVES À L'OUTRE-MER;27
+CD00976;Code du patrimoine;Partie réglementaire;;1178
+CD00977;Code du patrimoine;Partie réglementaire;LIVRE Ier : DISPOSITIONS COMMUNES À L'ENSEMBLE  DU PATRIMOINE CULTUREL;264
+CD00978;Code du patrimoine;Partie réglementaire;LIVRE II : ARCHIVES;123
+CD00979;Code du patrimoine;Partie réglementaire;LIVRE III : BIBLIOTHÈQUES;53
+CD00980;Code du patrimoine;Partie réglementaire;LIVRE IV : MUSÉES;105
+CD00981;Code du patrimoine;Partie réglementaire;LIVRE V : ARCHÉOLOGIE;243
+CD00982;Code du patrimoine;Partie réglementaire;LIVRE VI : MONUMENTS HISTORIQUES,  SITES PATRIMONIAUX REMARQUABLES ET QUALITÉ ARCHITECTURALE;252
+CD00983;Code du patrimoine;Partie réglementaire;LIVRE VII : DISPOSITIONS RELATIVES À L'OUTRE-MER;131
+CD00984;Code du patrimoine;Partie réglementaire;Annexes;7
+CD00985;Code du service national;Partie législative;;265
+CD00986;Code du service national;Partie législative;LIVRE Ier;97
+CD00987;Code du service national;Partie législative;LIVRE II;168
+CD00988;Code du service national;Partie réglementaire - Décrets en Conseil d'Etat;;357
+CD00989;Code du service national;Partie réglementaire - Décrets en Conseil d'Etat;LIVRE Ier : Obligations du service national.;109
+CD00990;Code du service national;Partie réglementaire - Décrets en Conseil d'Etat;LIVRE II;248
+CD00991;Code du service national;Annexes;;2
+CD00992;Code du service national;Annexes;CATÉGORIES D'ACTIVITÉS AU TITRE DESQUELLES PEUVENT ÊTRE PRONONCÉES DES AFFECTATIONS DE DÉFENSE;1
+CD00993;Code du sport;Partie législative;;457
+CD00994;Code du sport;Partie législative;LIVRE Ier : ORGANISATION DES ACTIVITÉS PHYSIQUES ET SPORTIVES;117
+CD00995;Code du sport;Partie législative;LIVRE II : ACTEURS DU SPORT;192
+CD00996;Code du sport;Partie législative;LIVRE III : PRATIQUE SPORTIVE;120
+CD00997;Code du sport;Partie législative;LIVRE IV : DISPOSITIONS DIVERSES;28
+CD00998;Code du sport;Partie réglementaire - Décrets;;937
+CD00999;Code du sport;Partie réglementaire - Décrets;LIVRE Ier : ORGANISATION DES ACTIVITÉS PHYSIQUES ET SPORTIVES;258
+CD01000;Code du sport;Partie réglementaire - Décrets;"LIVRE II : ACTEURS DU SPORT
+";486
+CD01001;Code du sport;Partie réglementaire - Décrets;LIVRE III : PRATIQUE SPORTIVE;185
+CD01002;Code du sport;Partie réglementaire - Décrets;LIVRE IV : DISPOSITIONS DIVERSES;8
+CD01003;Code du sport;Partie réglementaire - Arrêtés;;443
+CD01004;Code du sport;Partie réglementaire - Arrêtés; LIVRE Ier : ORGANISATION DES ACTIVITÉS PHYSIQUES  ET SPORTIVES;49
+CD01005;Code du sport;Partie réglementaire - Arrêtés; LIVRE II : ACTEURS DU SPORT;199
+CD01006;Code du sport;Partie réglementaire - Arrêtés; LIVRE III : PRATIQUE SPORTIVE;174
+CD01007;Code du sport;Partie réglementaire - Arrêtés; LIVRE IV : DISPOSITIONS DIVERSES;21
+CD01008;Code du sport;ANNEXES;;78
+CD01009;Code du sport;ANNEXES;Annexes partie réglementaire - Décrets;16
+CD01010;Code du sport;ANNEXES;Annexes partie réglementaire - Arrêtés;62
+CD01011;Code du tourisme;Partie législative;;256
+CD01012;Code du tourisme;Partie législative;LIVRE Ier : ORGANISATION GÉNÉRALE DU TOURISME.;72
+CD01013;Code du tourisme;Partie législative;LIVRE II : ACTIVITÉS ET PROFESSIONS DU TOURISME;35
+CD01014;Code du tourisme;Partie législative;LIVRE III : ÉQUIPEMENTS ET AMÉNAGEMENTS;100
+CD01015;Code du tourisme;Partie législative;LIVRE IV : FINANCEMENT DE L'ACCÈS AUX VACANCES ET FISCALITÉ DU TOURISME.;49
+CD01016;Code du tourisme;Partie réglementaire;;391
+CD01017;Code du tourisme;Partie réglementaire;LIVRE Ier : ORGANISATION GÉNÉRALE DU TOURISME.;69
+CD01018;Code du tourisme;Partie réglementaire;LIVRE II : ACTIVITÉS ET PROFESSIONS DU TOURISME.;73
+CD01019;Code du tourisme;Partie réglementaire;LIVRE III : ÉQUIPEMENTS ET AMÉNAGEMENTS.;192
+CD01020;Code du tourisme;Partie réglementaire;LIVRE IV : FINANCEMENT DE L'ACCÈS AUX VACANCES ET FISCALITÉ DU TOURISME.;57
+CD01021;Code du travail applicable à Mayotte;Partie législative;;7
+CD01022;Code du travail maritime;Titre 3 : Des obligations du marin envers l'armateur et de la réglementation du travail à bord des navires;;1
+CD01023;Code du travail maritime;Titre 4 : Des obligations de l'armateur envers le marin;;2
+CD01024;Code du travail maritime;Titre 4 : Des obligations de l'armateur envers le marin;Chapitre 1 : Des salaires fixes, profits éventuels et autres rémunérations;1
+CD01025;Code du travail maritime;Titre 4 : Des obligations de l'armateur envers le marin;Chapitre 2 : De la nourriture et du couchage;1
+CD01026;Code du travail maritime;Titre 9 : Dispositions diverses;;1
+CD01027;Code du travail;Partie législative  ;;4399
+CD01028;Code du travail;Partie législative  ;"Chapitre préliminaire : Dialogue social.
+
+
+";3
+CD01029;Code du travail;Partie législative  ;Première partie : Les relations individuelles de travail;905
+CD01030;Code du travail;Partie législative  ;Deuxième partie : Les relations collectives de travail  ;985
+CD01031;Code du travail;Partie législative  ;Troisième partie : Durée du travail, salaire, intéressement, participation et épargne salariale    ;694
+CD01032;Code du travail;Partie législative  ;Quatrième partie : Santé et sécurité au travail;336
+CD01033;Code du travail;Partie législative  ;Cinquième partie : L'emploi;480
+CD01034;Code du travail;Partie législative  ;Sixième partie : La formation professionnelle tout au long de la vie ;511
+CD01035;Code du travail;Partie législative  ;Septième partie : Dispositions particulières à certaines professions et activités ;321
+CD01036;Code du travail;Partie législative  ;Huitième partie : Contrôle de l'application de la législation du travail ;164
+CD01037;Code du travail;Partie réglementaire  ;;7129
+CD01038;Code du travail;Partie réglementaire  ;Première partie : Les relations individuelles de travail ;798
+CD01039;Code du travail;Partie réglementaire  ;"Deuxième partie : Les relations collectives de travail 
+
+";701
+CD01040;Code du travail;Partie réglementaire  ;Troisième partie : Durée du travail, salaire, intéressement, participation et épargne salariale ;632
+CD01041;Code du travail;Partie réglementaire  ;Quatrième partie : Santé et sécurité au travail ;2294
+CD01042;Code du travail;Partie réglementaire  ;Cinquième partie : L'emploi ;1122
+CD01043;Code du travail;Partie réglementaire  ;Sixième partie : La formation professionnelle tout au long de la vie ;906
+CD01044;Code du travail;Partie réglementaire  ;Septième partie : Dispositions particulières à certaines professions et activités ;457
+CD01045;Code du travail;Partie réglementaire  ;Huitième partie : Contrôle de l'application de la législation du travail ;219
+CD01046;Code du travail;Partie législative ancienne;;28
+CD01047;Code du travail;Partie législative ancienne;Livre Ier : Conventions relatives au travail;7
+CD01048;Code du travail;Partie législative ancienne;Livre II : Réglementation du travail;2
+CD01049;Code du travail;Partie législative ancienne;Livre III : Placement et emploi;10
+CD01050;Code du travail;Partie législative ancienne;Livre IV : Les groupements professionnels, la représentation des salariés, l'intéressement, la participation et les plans d'épargne salariale;3
+CD01051;Code du travail;Partie législative ancienne;Livre VII : Dispositions particulières à certaines professions;2
+CD01052;Code du travail;Partie législative ancienne;Livre VIII : Dispositions spéciales à l'outre-mer;3
+CD01053;Code du travail;Partie législative ancienne;Livre IX : De la formation professionnelle continue dans le cadre de la formation professionnelle tout au long de la vie.;1
+CD01054;Code du travail;Partie réglementaire ancienne - Décrets en Conseil d'Etat;;28
+CD01055;Code du travail;Partie réglementaire ancienne - Décrets en Conseil d'Etat;Livre II : Réglementation du travail;7
+CD01056;Code du travail;Partie réglementaire ancienne - Décrets en Conseil d'Etat;Livre III : Placement et emploi;1
+CD01057;Code du travail;Partie réglementaire ancienne - Décrets en Conseil d'Etat;Livre VII : Dispositions particulières à certaines professions;20
+CD01058;Code du travail;Partie réglementaire ancienne - Décrets simples;;6
+CD01059;Code du travail;Partie réglementaire ancienne - Décrets simples;Livre Ier : Conventions relatives au travail;1
+CD01060;Code du travail;Partie réglementaire ancienne - Décrets simples;Livre II : Réglementation du travail;1
+CD01061;Code du travail;Partie réglementaire ancienne - Décrets simples;Livre VII : Dispositions particulières à certaines professions;3
+CD01062;Code du travail;Partie réglementaire ancienne - Décrets simples;Livre IX : De la formation professionnelle continue dans le cadre de l'éducation permanente;1
+CD01063;Code forestier (nouveau);Partie législative;;569
+CD01064;Code forestier (nouveau);Partie législative;LIVRE Ier : DISPOSITIONS COMMUNES  À TOUS LES BOIS ET FORÊTS;254
+CD01065;Code forestier (nouveau);Partie législative;LIVRE II : BOIS ET FORÊTS  RELEVANT DU RÉGIME FORESTIER;187
+CD01066;Code forestier (nouveau);Partie législative;LIVRE III : BOIS ET FORÊTS DES PARTICULIERS;128
+CD01067;Code forestier (nouveau);Partie réglementaire;;831
+CD01068;Code forestier (nouveau);Partie réglementaire;LIVRE Ier : DISPOSITIONS COMMUNES  À TOUS LES BOIS ET FORÊTS;336
+CD01069;Code forestier (nouveau);Partie réglementaire;LIVRE II : BOIS ET FORÊTS  RELEVANT DU RÉGIME FORESTIER;276
+CD01070;Code forestier (nouveau);Partie réglementaire;LIVRE III : BOIS ET FORÊTS DES PARTICULIERS;217
+CD01071;Code forestier (nouveau);Partie réglementaire;Annexes;2
+CD01072;Code général de la fonction publique;PARTIE LÉGISLATIVE;;1302
+CD01073;Code général de la fonction publique;PARTIE LÉGISLATIVE;Chapitre liminaire : Champ d'application et définitions;9
+CD01074;Code général de la fonction publique;PARTIE LÉGISLATIVE;Livre Ier : DROITS, OBLIGATIONS ET PROTECTIONS;160
+CD01075;Code général de la fonction publique;PARTIE LÉGISLATIVE;Livre II : EXERCICE DU DROIT SYNDICAL ET DIALOGUE SOCIAL;156
+CD01076;Code général de la fonction publique;PARTIE LÉGISLATIVE;Livre III : RECRUTEMENT;204
+CD01077;Code général de la fonction publique;PARTIE LÉGISLATIVE;Livre IV : PRINCIPES D'ORGANISATION ET DE GESTION DES RESSOURCES HUMAINES;231
+CD01078;Code général de la fonction publique;PARTIE LÉGISLATIVE;Livre V : CARRIÈRE ET PARCOURS PROFESSIONNEL;279
+CD01079;Code général de la fonction publique;PARTIE LÉGISLATIVE;Livre VI : TEMPS DE TRAVAIL ET CONGÉS;89
+CD01080;Code général de la fonction publique;PARTIE LÉGISLATIVE;Livre VII : RÉMUNÉRATION ET ACTION SOCIALE;66
+CD01081;Code général de la fonction publique;PARTIE LÉGISLATIVE;Livre VIII : PRÉVENTION ET PROTECTION EN MATIÈRE DE SANTÉ ET DE SÉCURITÉ AU TRAVAIL;108
+CD01082;Code général de la fonction publique;PARTIE RÉGLEMENTAIRE ;;2942
+CD01083;Code général de la fonction publique;PARTIE RÉGLEMENTAIRE ;Livre Ier : DROITS, OBLIGATIONS ET PROTECTIONS;222
+CD01084;Code général de la fonction publique;PARTIE RÉGLEMENTAIRE ;Livre II : EXERCICE DU DROIT SYNDICAL ET DIALOGUE SOCIAL;1646
+CD01085;Code général de la fonction publique;PARTIE RÉGLEMENTAIRE ;Livre III : RECRUTEMENT;583
+CD01086;Code général de la fonction publique;PARTIE RÉGLEMENTAIRE ;Livre IV : PRINCIPES D'ORGANISATION ET DE GESTION DES RESSOURCES HUMAINES;491
+CD01087;Code général de la propriété des personnes publiques;Partie législative;;514
+CD01088;Code général de la propriété des personnes publiques;Partie législative;TITRE PRÉLIMINAIRE.;2
+CD01089;Code général de la propriété des personnes publiques;Partie législative;PREMIÈRE PARTIE : ACQUISITION;45
+CD01090;Code général de la propriété des personnes publiques;Partie législative;DEUXIÈME PARTIE : GESTION;207
+CD01091;Code général de la propriété des personnes publiques;Partie législative;TROISIÈME PARTIE : CESSION;56
+CD01092;Code général de la propriété des personnes publiques;Partie législative;QUATRIÈME PARTIE : AUTRES OPÉRATIONS IMMOBILIÈRES DES PERSONNES PUBLIQUES;9
+CD01093;Code général de la propriété des personnes publiques;Partie législative;CINQUIÈME PARTIE : DISPOSITIONS RELATIVES À L'OUTRE-MER;195
+CD01094;Code général de la propriété des personnes publiques;Partie réglementaire;;617
+CD01095;Code général de la propriété des personnes publiques;Partie réglementaire;PREMIÈRE PARTIE : ACQUISITION;68
+CD01096;Code général de la propriété des personnes publiques;Partie réglementaire;DEUXIÈME PARTIE : GESTION;270
+CD01097;Code général de la propriété des personnes publiques;Partie réglementaire;TROISIÈME PARTIE : CESSION;109
+CD01098;Code général de la propriété des personnes publiques;Partie réglementaire;QUATRIÈME PARTIE : AUTRES OPÉRATIONS IMMOBILIÈRES  DES PERSONNES PUBLIQUES;25
+CD01099;Code général de la propriété des personnes publiques;Partie réglementaire;CINQUIÈME PARTIE : DISPOSITIONS RELATIVES À L'OUTRE-MER;144
+CD01100;Code général de la propriété des personnes publiques;Partie réglementaire;"ANNEXE
+";1
+CD01101;Code général des collectivités territoriales;Partie législative;;3639
+CD01102;Code général des collectivités territoriales;Partie législative;PREMIÈRE PARTIE : DISPOSITIONS GÉNÉRALES;473
+CD01103;Code général des collectivités territoriales;Partie législative;DEUXIÈME PARTIE : LA COMMUNE;983
+CD01104;Code général des collectivités territoriales;Partie législative;TROISIEME PARTIE : LE DÉPARTEMENT;340
+CD01105;Code général des collectivités territoriales;Partie législative;QUATRIÈME PARTIE : LA RÉGION;440
+CD01106;Code général des collectivités territoriales;Partie législative;CINQUIÈME PARTIE : LA COOPÉRATION LOCALE;387
+CD01107;Code général des collectivités territoriales;Partie législative;SIXIÈME PARTIE : COLLECTIVITÉS D'OUTRE-MER RÉGIES PAR L'ARTICLE 74 DE LA CONSTITUTION;633
+CD01108;Code général des collectivités territoriales;Partie législative;SEPTIEME PARTIE : AUTRES COLLECTIVITES REGIES PAR L'ARTICLE 73 DE LA CONSTITUTION;383
+CD01109;Code général des collectivités territoriales;Partie réglementaire;;2927
+CD01110;Code général des collectivités territoriales;Partie réglementaire;PREMIERE PARTIE : DISPOSITIONS GÉNÉRALES;744
+CD01111;Code général des collectivités territoriales;Partie réglementaire;DEUXIEME PARTIE : LA COMMUNE;1085
+CD01112;Code général des collectivités territoriales;Partie réglementaire;TROISIEME PARTIE : LE DÉPARTEMENT;146
+CD01113;Code général des collectivités territoriales;Partie réglementaire;QUATRIEME PARTIE : LA RÉGION;367
+CD01114;Code général des collectivités territoriales;Partie réglementaire;CINQUIEME PARTIE : LA COOPERATION LOCALE;149
+CD01115;Code général des collectivités territoriales;Partie réglementaire;SIXIEME PARTIE : COLLECTIVITES D'OUTRE-MER REGIES PAR L'ARTICLE 74 DE LA CONSTITUTION;239
+CD01116;Code général des collectivités territoriales;Partie réglementaire;SEPTIEME PARTIE : AUTRES COLLECTIVITÉS RÉGIES PAR L'ARTICLE 73 DE LA CONSTITUTION;197
+CD01117;Code général des collectivités territoriales;Annexes;;30
+CD01118;Code général des collectivités territoriales;Annexes;Annexe I;9
+CD01119;Code général des collectivités territoriales;Annexes;Autres annexes;20
+CD01120;Code général des impôts, annexe I;Livre premier : Assiette et liquidation de l'impôt;;71
+CD01121;Code général des impôts, annexe I;Livre premier : Assiette et liquidation de l'impôt;Première partie : Impôts d'État;71
+CD01122;Code général des impôts, annexe II;Livre premier : Assiette et liquidation de l'impôt;;639
+CD01123;Code général des impôts, annexe II;Livre premier : Assiette et liquidation de l'impôt;Première partie : Impôts d'Etat;475
+CD01124;Code général des impôts, annexe II;Livre premier : Assiette et liquidation de l'impôt;Deuxième partie : Impositions perçues au profit des collectivités locales et de divers organismes;70
+CD01125;Code général des impôts, annexe II;Livre premier : Assiette et liquidation de l'impôt;Troisième partie : Dispositions communes aux première et deuxième parties;94
+CD01126;Code général des impôts, annexe II;Livre II : Recouvrement de l'impôt;;35
+CD01127;Code général des impôts, annexe II;Livre II : Recouvrement de l'impôt;Chapitre premier : Paiement de l'impôt;15
+CD01128;Code général des impôts, annexe II;Livre II : Recouvrement de l'impôt;Chapitre I bis : Pénalités;5
+CD01129;Code général des impôts, annexe II;Livre II : Recouvrement de l'impôt;Chapitre II : Procédures;2
+CD01130;Code général des impôts, annexe II;Livre II : Recouvrement de l'impôt;Chapitre II bis : Sûretés et privilèges;1
+CD01131;Code général des impôts, annexe II;Livre II : Recouvrement de l'impôt;Chapitre II ter : Dégrèvements et restitutions d'impôts;8
+CD01132;Code général des impôts, annexe II;Livre II : Recouvrement de l'impôt;Chapitre V : Compétences des fonctionnaires de la direction générale des finances publiques ou de la direction générale des douanes et droits indirects;4
+CD01133;Code général des impôts, annexe III;Livre premier : Assiette et liquidation de l'impôt;;1007
+CD01134;Code général des impôts, annexe III;Livre premier : Assiette et liquidation de l'impôt;Première partie : Impôts d'État;843
+CD01135;Code général des impôts, annexe III;Livre premier : Assiette et liquidation de l'impôt;Deuxième partie : Impositions perçues au profit des collectivités locales et de divers organismes;109
+CD01136;Code général des impôts, annexe III;Livre premier : Assiette et liquidation de l'impôt;Troisième partie : Dispositions communes aux première et deuxième parties;55
+CD01137;Code général des impôts, annexe III;Livre II : Recouvrement de l'impôt;;107
+CD01138;Code général des impôts, annexe III;Livre II : Recouvrement de l'impôt;Chapitre premier : Paiement de l'impôt;96
+CD01139;Code général des impôts, annexe III;Livre II : Recouvrement de l'impôt;Chapitre I bis : Pénalités;6
+CD01140;Code général des impôts, annexe III;Livre II : Recouvrement de l'impôt;Chapitre II : Procédures;2
+CD01141;Code général des impôts, annexe III;Livre II : Recouvrement de l'impôt;Chapitre II bis : Sûretés et privilèges;2
+CD01142;Code général des impôts, annexe III;Livre II : Recouvrement de l'impôt;Chapitre III : Dégrèvements et restitutions d'impôts;1
+CD01143;Code général des impôts, annexe IV;Livre premier : Assiette et liquidation de l'impôt;;441
+CD01144;Code général des impôts, annexe IV;Livre premier : Assiette et liquidation de l'impôt;Première partie : Impôts d'État;346
+CD01145;Code général des impôts, annexe IV;Livre premier : Assiette et liquidation de l'impôt;Deuxième partie : Impositions perçues au profit des collectivités locales et de divers organismes;36
+CD01146;Code général des impôts, annexe IV;Livre premier : Assiette et liquidation de l'impôt;Troisième partie : Dispositions communes aux première et deuxième parties;59
+CD01147;Code général des impôts, annexe IV;Livre II : Recouvrement de l'impôt;;36
+CD01148;Code général des impôts, annexe IV;Livre II : Recouvrement de l'impôt;Chapitre premier : Paiement de l'impôt;27
+CD01149;Code général des impôts, annexe IV;Livre II : Recouvrement de l'impôt;Chapitre I bis A : Sûretés et privilèges;1
+CD01150;Code général des impôts, annexe IV;Livre II : Recouvrement de l'impôt;Chapitre III : Compétence des fonctionnaires de la direction générale des finances publiques ou de la direction générale des douanes et droits indirects;8
+CD01151;Code général des impôts;Livre premier : Assiette et liquidation de l'impôt;;2149
+CD01152;Code général des impôts;Livre premier : Assiette et liquidation de l'impôt;Première Partie : Impôts d'État;1687
+CD01153;Code général des impôts;Livre premier : Assiette et liquidation de l'impôt;Deuxième Partie : Impositions perçues au profit des collectivités locales et de divers organismes;382
+CD01154;Code général des impôts;Livre premier : Assiette et liquidation de l'impôt;Troisième partie : Dispositions communes aux première et deuxième parties;80
+CD01155;Code général des impôts;Livre II : Recouvrement de l'impôt;;257
+CD01156;Code général des impôts;Livre II : Recouvrement de l'impôt;Chapitre premier : Paiement de l'impôt;95
+CD01157;Code général des impôts;Livre II : Recouvrement de l'impôt;Chapitre II : Pénalités;137
+CD01158;Code général des impôts;Livre II : Recouvrement de l'impôt;Chapitre III : Procédures;9
+CD01159;Code général des impôts;Livre II : Recouvrement de l'impôt;Chapitre IV : Privilège du Trésor et sa publicité;2
+CD01160;Code général des impôts;Livre II : Recouvrement de l'impôt;Chapitre V : Dégrèvements et restitutions d'impôts;14
+CD01161;Code minier (nouveau);PARTIE LÉGISLATIVE;;571
+CD01162;Code minier (nouveau);PARTIE LÉGISLATIVE;LIVRE IER : LE RÉGIME LÉGAL DES MINES;321
+CD01163;Code minier (nouveau);PARTIE LÉGISLATIVE;LIVRE II : LE RÉGIME LÉGAL DES STOCKAGES SOUTERRAINS;50
+CD01164;Code minier (nouveau);PARTIE LÉGISLATIVE;LIVRE III : RÉGIME LÉGAL DES CARRIÈRES;59
+CD01165;Code minier (nouveau);PARTIE LÉGISLATIVE;LIVRE IV : FOUILLES ET LEVÉS GÉOPHYSIQUES;14
+CD01166;Code minier (nouveau);PARTIE LÉGISLATIVE;LIVRE V : INFRACTIONS ET SANCTIONS PÉNALES;25
+CD01167;Code minier (nouveau);PARTIE LÉGISLATIVE;LIVRE VI : DISPOSITIONS RELATIVES À L'OUTRE MER;98
+CD01168;Code minier;Livre Ier : Régime général;;43
+CD01169;Code minier;Livre Ier : Régime général;Titre Ier : De la classification des gîtes de substances minérales.;1
+CD01170;Code minier;Livre Ier : Régime général;Titre II : Des recherches de mines.;4
+CD01171;Code minier;Livre Ier : Régime général;Titre III : De l'exploitation des mines;18
+CD01172;Code minier;Livre Ier : Régime général;Titre IV : De l'exécution des travaux de recherche et d'exploitation de mines;7
+CD01173;Code minier;Livre Ier : Régime général;Titre V : Des gîtes géothermiques à basse température.;3
+CD01174;Code minier;Livre Ier : Régime général;Titre V bis : Du stockage souterrain.;2
+CD01175;Code minier;Livre Ier : Régime général;Titre VI : Des carrières.;2
+CD01176;Code minier;Livre Ier : Régime général;Titre VI bis : Du retrait des titres de recherches et d'exploitation et de la renonciation à ces droits.;2
+CD01177;Code minier;Livre Ier : Régime général;Titre VI ter : Des mutations et amodiations des titres de recherches et d'exploitation.;1
+CD01178;Code minier;Livre Ier : Régime général;Titre VIII : Des déclarations de fouilles et de levés géophysiques.;1
+CD01179;Code minier;Livre Ier : Régime général;Titre X : De la constatation des infractions et des pénalités.;2
+CD01180;Code minier;Livre II : Régimes particuliers;;2
+CD01181;Code minier;Livre II : Régimes particuliers;Titre Ier : Des exploitations nationalisées de combustibles minéraux solides.;2
+CD01182;Code minier;Livre III : Dispositions sociales;;122
+CD01183;Code minier;Livre III : Dispositions sociales;Titre Ier : Conditions de travail et santé et sécurité au travail;34
+CD01184;Code minier;Livre III : Dispositions sociales;Titre II : Délégués mineurs;83
+CD01185;Code minier;Livre III : Dispositions sociales;Titre III : Dispositions pénales;5
+CD01186;Code monétaire et financier;Partie législative;;2914
+CD01187;Code monétaire et financier;Partie législative;Livre Ier : La monnaie;234
+CD01188;Code monétaire et financier;Partie législative;Livre II : Les produits;567
+CD01189;Code monétaire et financier;Partie législative;Livre III : Les services;201
+CD01190;Code monétaire et financier;Partie législative;Livre IV : Les marchés;122
+CD01191;Code monétaire et financier;Partie législative;Livre V : Les prestataires de services;920
+CD01192;Code monétaire et financier;Partie législative;Livre VI : Les institutions en matière bancaire et financière;402
+CD01193;Code monétaire et financier;Partie législative;Livre VII : Dispositions relatives à l'outre-mer;468
+CD01194;Code monétaire et financier;Partie réglementaire;;2399
+CD01195;Code monétaire et financier;Partie réglementaire;Livre Ier : La monnaie;185
+CD01196;Code monétaire et financier;Partie réglementaire;Livre II : Les produits;614
+CD01197;Code monétaire et financier;Partie réglementaire;Livre III : Les services;99
+CD01198;Code monétaire et financier;Partie réglementaire;Livre IV : Les marchés;49
+CD01199;Code monétaire et financier;Partie réglementaire;Livre V : Les prestataires de services;605
+CD01200;Code monétaire et financier;Partie réglementaire;Livre VI : Les institutions en matière bancaire et financière;317
+CD01201;Code monétaire et financier;Partie réglementaire;Livre VII : Dispositions relatives à l'Outre-mer;530
+CD01202;Code pénal;Partie législative;;1143
+CD01203;Code pénal;Partie législative;Livre Ier : Dispositions générales;236
+CD01204;Code pénal;Partie législative;Livre II : Des crimes et délits contre les personnes;360
+CD01205;Code pénal;Partie législative;Livre III : Des crimes et délits contre les biens;121
+CD01206;Code pénal;Partie législative;Livre IV : Des crimes et délits contre la nation, l'Etat et la paix publique;289
+CD01207;Code pénal;Partie législative;Livre IV bis : Des crimes et des délits de guerre;40
+CD01208;Code pénal;Partie législative;Livre V : Des autres crimes et délits;45
+CD01209;Code pénal;Partie législative;Livre VI : Des contraventions;1
+CD01210;Code pénal;Partie législative;Livre VII : Dispositions relatives à l'outre-mer;51
+CD01211;Code pénal;Partie réglementaire - Décrets en Conseil d'Etat;;158
+CD01212;Code pénal;Partie réglementaire - Décrets en Conseil d'Etat;Livre Ier : Dispositions générales;30
+CD01213;Code pénal;Partie réglementaire - Décrets en Conseil d'Etat;Livre II : Des crimes et délits contre les personnes;12
+CD01214;Code pénal;Partie réglementaire - Décrets en Conseil d'Etat;Livre III : Des crimes et délits contre les biens;13
+CD01215;Code pénal;Partie réglementaire - Décrets en Conseil d'Etat;Livre IV : Des crimes et délits contre la nation, l'Etat et la paix publique;8
+CD01216;Code pénal;Partie réglementaire - Décrets en Conseil d'Etat;Livre V : Des autres crimes et délits;1
+CD01217;Code pénal;Partie réglementaire - Décrets en Conseil d'Etat;Livre VI : Des contraventions;81
+CD01218;Code pénal;Partie réglementaire - Décrets en Conseil d'Etat;Livre VII : Dispositions relatives à l'outre-mer;13
+CD01219;Code pénitentiaire;PARTIE LÉGISLATIVE;;406
+CD01220;Code pénitentiaire;PARTIE LÉGISLATIVE;Titre unique : Titre PRÉLIMINAIRE;8
+CD01221;Code pénitentiaire;PARTIE LÉGISLATIVE;Livre Ier : SERVICE PUBLIC PÉNITENTIAIRE;41
+CD01222;Code pénitentiaire;PARTIE LÉGISLATIVE;Livre II : DÉTENTION EN ÉTABLISSEMENT PÉNITENTIAIRE;92
+CD01223;Code pénitentiaire;PARTIE LÉGISLATIVE;Livre III : DROITS ET OBLIGATIONS DES PERSONNES DÉTENUES;79
+CD01224;Code pénitentiaire;PARTIE LÉGISLATIVE;Livre IV : AIDE À LA RÉINSERTION DES PERSONNES DÉTENUES;89
+CD01225;Code pénitentiaire;PARTIE LÉGISLATIVE;Livre V : LIBÉRATION DES PERSONNES DÉTENUES;15
+CD01226;Code pénitentiaire;PARTIE LÉGISLATIVE;Livre VI : INTERVENTION DE L'ADMINISTRATION PÉNITENTIAIRE AUPRÈS DE PERSONNES NON DÉTENUES;13
+CD01227;Code pénitentiaire;PARTIE LÉGISLATIVE;Livre VII : DISPOSITIONS RELATIVES À L'OUTRE-MER;69
+CD01228;Code pénitentiaire;PARTIE RÉGLEMENTAIRE;;1461
+CD01229;Code pénitentiaire;PARTIE RÉGLEMENTAIRE;Livre Ier : SERVICE PUBLIC PÉNITENTIAIRE;243
+CD01230;Code pénitentiaire;PARTIE RÉGLEMENTAIRE;Livre II : DÉTENTION EN ÉTABLISSEMENT PÉNITENTIAIRE;344
+CD01231;Code pénitentiaire;PARTIE RÉGLEMENTAIRE;Livre III : DROITS ET OBLIGATIONS DES PERSONNES DÉTENUES;216
+CD01232;Code pénitentiaire;PARTIE RÉGLEMENTAIRE;Livre IV : AIDE À LA RÉINSERTION DES PERSONNES DÉTENUES;205
+CD01233;Code pénitentiaire;PARTIE RÉGLEMENTAIRE;Livre V : LIBÉRATION DES PERSONNES DÉTENUES;80
+CD01234;Code pénitentiaire;PARTIE RÉGLEMENTAIRE;Livre VI : INTERVENTION DE L'ADMINISTRATION PÉNITENTIAIRE AUPRÈS DE PERSONNES NON DÉTENUES;108
+CD01235;Code pénitentiaire;PARTIE RÉGLEMENTAIRE;Livre VII : DISPOSITIONS RELATIVES À L'OUTRE-MER;265
+CD01236;Code pénitentiaire;ANNEXE;;1
+CD01237;Code rural (ancien);Livre II : Des animaux et des végétaux;;2
+CD01238;Code rural (ancien);Livre II : Des animaux et des végétaux;Titre VIII : De l'exercice de la médecine et de la chirurgie des animaux.;1
+CD01239;Code rural (ancien);Livre II : Des animaux et des végétaux;Titre X : De la protection des végétaux.;1
+CD01240;Code rural (ancien);Livre IV : Institutions et groupements professionnels agricoles;;1
+CD01241;Code rural (ancien);Livre IV : Institutions et groupements professionnels agricoles;Titre Ier : Chambres d'agriculture;1
+CD01242;Code rural (ancien);Livre V : Crédit agricole;;52
+CD01243;Code rural (ancien);Livre V : Crédit agricole;Titre Ier : Des caisses de crédit agricole mutuel;4
+CD01244;Code rural (ancien);Livre V : Crédit agricole;Titre III : Inspection et contrôle.;3
+CD01245;Code rural (ancien);Livre V : Crédit agricole;Titre IV : Dispositions diverses;45
+CD01246;Code rural (ancien);Livre VII : Dispositions sociales;;13
+CD01247;Code rural (ancien);Livre VII : Dispositions sociales;Titre II : Mutualité sociale agricole;1
+CD01248;Code rural (ancien);Livre VII : Dispositions sociales;Titre III : Accidents du travail et risques agricoles;7
+CD01249;Code rural (ancien);Livre VII : Dispositions sociales;Titre V : Dispositions spéciales concernant les départements du Haut-Rhin, du Bas-Rhin et de la Moselle.;5
+CD01250;Code rural (ancien);Livre VIII : Formation professionnelle et recherche;;1
+CD01251;Code rural (ancien);Livre VIII : Formation professionnelle et recherche;Titre III : Recherche;1
+CD01252;Code rural et de la pêche maritime;Partie législative;;2635
+CD01253;Code rural et de la pêche maritime;Partie législative;Livre Préliminaire : Objectifs de la politique en faveur de l'agriculture, de l'alimentation et de la pêche maritime;5
+CD01254;Code rural et de la pêche maritime;Partie législative;Livre Ier : Aménagement et équipement de l'espace rural;376
+CD01255;Code rural et de la pêche maritime;Partie législative;Livre II : Alimentation, santé publique vétérinaire et protection des végétaux;463
+CD01256;Code rural et de la pêche maritime;Partie législative;Livre III : Exploitation agricole;243
+CD01257;Code rural et de la pêche maritime;Partie législative;Livre IV : Baux ruraux;226
+CD01258;Code rural et de la pêche maritime;Partie législative;Livre V : Organismes professionnels agricoles;179
+CD01259;Code rural et de la pêche maritime;Partie législative;Livre VI : Production et marchés;376
+CD01260;Code rural et de la pêche maritime;Partie législative;Livre VII : Dispositions sociales;510
+CD01261;Code rural et de la pêche maritime;Partie législative;Livre VIII : Enseignement, formation professionnelle et développement agricoles, recherche agronomique;68
+CD01262;Code rural et de la pêche maritime;Partie législative;Livre IX : Pêche maritime et aquaculture marine;189
+CD01263;Code rural et de la pêche maritime;Partie réglementaire;;7111
+CD01264;Code rural et de la pêche maritime;Partie réglementaire;Livre Ier : Aménagement et équipement de l'espace rural;695
+CD01265;Code rural et de la pêche maritime;Partie réglementaire;Livre II : Alimentation, santé publique, vétérinaire et protection des végétaux;1216
+CD01266;Code rural et de la pêche maritime;Partie réglementaire;Livre III : Exploitation agricole;571
+CD01267;Code rural et de la pêche maritime;Partie réglementaire;Livre IV : Baux ruraux;94
+CD01268;Code rural et de la pêche maritime;Partie réglementaire;Livre V : Organismes professionnels agricoles;655
+CD01269;Code rural et de la pêche maritime;Partie réglementaire;Livre VI : Production et marchés;1157
+CD01270;Code rural et de la pêche maritime;Partie réglementaire;Livre VII : Dispositions sociales;1559
+CD01271;Code rural et de la pêche maritime;Partie réglementaire;Livre VIII : Enseignement, formation professionnelle et développement agricoles, recherche agronomique;605
+CD01272;Code rural et de la pêche maritime;Partie réglementaire;Livre IX : Pêche maritime et aquaculture marine;559
+CD01273;Code rural et de la pêche maritime;Annexes;;80
+CD01274;Code rural et de la pêche maritime;Annexes;Livre II : Santé publique vétérinaire et protection des végétaux;4
+CD01275;Code rural et de la pêche maritime;Annexes;Livre III : Exploitations agricoles;2
+CD01276;Code rural et de la pêche maritime;Annexes;Livre IV;1
+CD01277;Code rural et de la pêche maritime;Annexes;Livre VI : Production et marchés;1
+CD01278;Code rural et de la pêche maritime;Annexes;Livre VII : Dispositions sociales;65
+CD01279;Code rural et de la pêche maritime;Annexes;Livre VIII : Enseignement, formation professionnelle et développement agricoles, recherche agronomique;6
+CD01280;Code rural et de la pêche maritime;Annexes;Livre IX : Pêche maritime et aquaculture marine ;1
+CD01281;Livre des procédures fiscales;Partie législative;;545
+CD01282;Livre des procédures fiscales;Partie législative;Première partie : Partie législative;545
+CD01283;Livre des procédures fiscales;Partie réglementaire - Décrets en Conseil d'Etat;;335
+CD01284;Livre des procédures fiscales;Partie réglementaire - Décrets en Conseil d'Etat;Deuxième partie : Partie réglementaire, décrets;335
+CD01285;Livre des procédures fiscales;Partie réglementaire - Arrêtés;;39
+CD01286;Livre des procédures fiscales;Partie réglementaire - Arrêtés;Troisième partie : Partie réglementaire, arrêtés;39

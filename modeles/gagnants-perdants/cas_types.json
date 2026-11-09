@@ -1,0 +1,1860 @@
+{
+ "meta": {
+  "titre": "Cas types : revenu disponible actuel et dans le système proposé (€ par mois)",
+  "tache": "T14",
+  "date": "2026-10-25",
+  "modele": "modeles/gagnants-perdants/modele.js",
+  "methode_actuel": "API OpenFisca-France 175.0.45 (législation 2026) + API Urssaf mon-entreprise (coût employeur, cotisations micro) + calculs documentés (CSG des pensions, ARE, droits de succession) : voir donnees/collecte.py et methode.md",
+  "avertissement": "Ordres de grandeur statiques : coût employeur, prix et comportements inchangés. Le système à 50 % n'est pas financé (simulateur : ≈ −196 Md€/an) ; comparer aussi avec les taux 59 % et 63 %.",
+  "formule_propose": "socle × adultes + majoration × enfants + (1 − taux) × (coûts employeur + chiffre d'affaires × (1 − charges) + dividendes + loyers nets) + compléments de retraite (règle au choix) ; chômage, RSA, prime d'activité, aides au logement, prestations familiales et ASPA supprimés ; AAH conservée"
+ },
+ "parametres_defaut": {
+  "socle": 1000,
+  "enfant": 200,
+  "taux": 0.5,
+  "retraite": "brut",
+  "isRepercute": false,
+  "tauxIS": 0.25,
+  "abattementHeritage": 0,
+  "partAAH": 0.334
+ },
+ "cas": [
+  {
+   "id": "sans_emploi_seul",
+   "libelle": "Personne seule sans emploi (RSA)",
+   "composition": {
+    "adultes": 1,
+    "enfants": 0,
+    "logement": "locataire",
+    "loyer_mois": 500
+   },
+   "entrees": {
+    "salaires_bruts_mois": [],
+    "couts_employeur_mois": [],
+    "chiffre_affaires_mois": 0,
+    "part_charges_reelles": 0,
+    "pensions_brutes_mois": [],
+    "chomage_brut_mois": 0,
+    "dividendes_an": 0,
+    "loyers_nets_an": 0,
+    "heritage": 0
+   },
+   "actuel": {
+    "methode": "OpenFisca-France 175.0.45 (API) + Urssaf mon-entreprise + calculs documentés",
+    "salaires_nets": 0,
+    "chomage_net": 0,
+    "pensions_nettes": 0,
+    "revenu_independant_net": 0,
+    "cotisations_micro": 0,
+    "capital_brut": 0,
+    "prelevements_sociaux_capital": 0,
+    "impot_revenu": 0,
+    "rsa": 572.35,
+    "prime_activite": 0,
+    "aides_logement": 304.84,
+    "aspa": 0,
+    "prestations_familiales": 0,
+    "dont_allocations_familiales": 0,
+    "dont_asf": 0,
+    "revenu_disponible": 877.19,
+    "revenu_disponible_openfisca_brut": 889.89
+   },
+   "propose": {
+    "taux_50": {
+     "propose": 1000,
+     "ecart_mois": 122.81,
+     "ecart_an": 1473.72,
+     "ecart_pct": 14
+    },
+    "taux_59": {
+     "propose": 1000,
+     "ecart_mois": 122.81,
+     "ecart_an": 1473.72,
+     "ecart_pct": 14
+    },
+    "taux_63": {
+     "propose": 1000,
+     "ecart_mois": 122.81,
+     "ecart_an": 1473.72,
+     "ecart_pct": 14
+    }
+   },
+   "variantes_ecart_mois": {},
+   "taux_point_mort": null
+  },
+  {
+   "id": "temps_partiel",
+   "libelle": "Salarié seul à mi-temps au Smic",
+   "composition": {
+    "adultes": 1,
+    "enfants": 0,
+    "logement": "locataire",
+    "loyer_mois": 500
+   },
+   "entrees": {
+    "salaires_bruts_mois": [
+     933.51
+    ],
+    "couts_employeur_mois": [
+     1003.88
+    ],
+    "chiffre_affaires_mois": 0,
+    "part_charges_reelles": 0,
+    "pensions_brutes_mois": [],
+    "chomage_brut_mois": 0,
+    "dividendes_an": 0,
+    "loyers_nets_an": 0,
+    "heritage": 0
+   },
+   "actuel": {
+    "methode": "OpenFisca-France 175.0.45 (API) + Urssaf mon-entreprise + calculs documentés",
+    "salaires_nets": 738.96,
+    "chomage_net": 0,
+    "pensions_nettes": 0,
+    "revenu_independant_net": 0,
+    "cotisations_micro": 0,
+    "capital_brut": 0,
+    "prelevements_sociaux_capital": 0,
+    "impot_revenu": 0,
+    "rsa": 0,
+    "prime_activite": 269.18,
+    "aides_logement": 209.23,
+    "aspa": 0,
+    "prestations_familiales": 0,
+    "dont_allocations_familiales": 0,
+    "dont_asf": 0,
+    "revenu_disponible": 1217.38,
+    "revenu_disponible_openfisca_brut": 1216.03
+   },
+   "propose": {
+    "taux_50": {
+     "propose": 1501.94,
+     "ecart_mois": 284.56,
+     "ecart_an": 3414.72,
+     "ecart_pct": 23.37
+    },
+    "taux_59": {
+     "propose": 1411.59,
+     "ecart_mois": 194.21,
+     "ecart_an": 2330.53,
+     "ecart_pct": 15.95
+    },
+    "taux_63": {
+     "propose": 1371.44,
+     "ecart_mois": 154.06,
+     "ecart_an": 1848.67,
+     "ecart_pct": 12.65
+    }
+   },
+   "variantes_ecart_mois": {},
+   "taux_point_mort": 0.78
+  },
+  {
+   "id": "smic",
+   "libelle": "Salarié seul au Smic à temps plein",
+   "composition": {
+    "adultes": 1,
+    "enfants": 0,
+    "logement": "locataire",
+    "loyer_mois": 500
+   },
+   "entrees": {
+    "salaires_bruts_mois": [
+     1867.02
+    ],
+    "couts_employeur_mois": [
+     1987.76
+    ],
+    "chiffre_affaires_mois": 0,
+    "part_charges_reelles": 0,
+    "pensions_brutes_mois": [],
+    "chomage_brut_mois": 0,
+    "dividendes_an": 0,
+    "loyers_nets_an": 0,
+    "heritage": 0
+   },
+   "actuel": {
+    "methode": "OpenFisca-France 175.0.45 (API) + Urssaf mon-entreprise + calculs documentés",
+    "salaires_nets": 1477.93,
+    "chomage_net": 0,
+    "pensions_nettes": 0,
+    "revenu_independant_net": 0,
+    "cotisations_micro": 0,
+    "capital_brut": 0,
+    "prelevements_sociaux_capital": 0,
+    "impot_revenu": 0,
+    "rsa": 0,
+    "prime_activite": 229.52,
+    "aides_logement": 0,
+    "aspa": 0,
+    "prestations_familiales": 0,
+    "dont_allocations_familiales": 0,
+    "dont_asf": 0,
+    "revenu_disponible": 1707.45,
+    "revenu_disponible_openfisca_brut": 1706.3
+   },
+   "propose": {
+    "taux_50": {
+     "propose": 1993.88,
+     "ecart_mois": 286.43,
+     "ecart_an": 3437.16,
+     "ecart_pct": 16.78
+    },
+    "taux_59": {
+     "propose": 1814.98,
+     "ecart_mois": 107.53,
+     "ecart_an": 1290.38,
+     "ecart_pct": 6.3
+    },
+    "taux_63": {
+     "propose": 1735.47,
+     "ecart_mois": 28.02,
+     "ecart_an": 336.25,
+     "ecart_pct": 1.64
+    }
+   },
+   "variantes_ecart_mois": {},
+   "taux_point_mort": 0.64
+  },
+  {
+   "id": "median",
+   "libelle": "Salarié seul au salaire médian (1,5 Smic brut)",
+   "composition": {
+    "adultes": 1,
+    "enfants": 0,
+    "logement": "locataire",
+    "loyer_mois": 500
+   },
+   "entrees": {
+    "salaires_bruts_mois": [
+     2800.53
+    ],
+    "couts_employeur_mois": [
+     3676.54
+    ],
+    "chiffre_affaires_mois": 0,
+    "part_charges_reelles": 0,
+    "pensions_brutes_mois": [],
+    "chomage_brut_mois": 0,
+    "dividendes_an": 0,
+    "loyers_nets_an": 0,
+    "heritage": 0
+   },
+   "actuel": {
+    "methode": "OpenFisca-France 175.0.45 (API) + Urssaf mon-entreprise + calculs documentés",
+    "salaires_nets": 2216.89,
+    "chomage_net": 0,
+    "pensions_nettes": 0,
+    "revenu_independant_net": 0,
+    "cotisations_micro": 0,
+    "capital_brut": 0,
+    "prelevements_sociaux_capital": 0,
+    "impot_revenu": 101,
+    "rsa": 0,
+    "prime_activite": 0,
+    "aides_logement": 0,
+    "aspa": 0,
+    "prestations_familiales": 0,
+    "dont_allocations_familiales": 0,
+    "dont_asf": 0,
+    "revenu_disponible": 2115.89,
+    "revenu_disponible_openfisca_brut": 2115.89
+   },
+   "propose": {
+    "taux_50": {
+     "propose": 2838.27,
+     "ecart_mois": 722.38,
+     "ecart_an": 8668.56,
+     "ecart_pct": 34.14
+    },
+    "taux_59": {
+     "propose": 2507.38,
+     "ecart_mois": 391.49,
+     "ecart_an": 4697.9,
+     "ecart_pct": 18.5
+    },
+    "taux_63": {
+     "propose": 2360.32,
+     "ecart_mois": 244.43,
+     "ecart_an": 2933.16,
+     "ecart_pct": 11.55
+    }
+   },
+   "variantes_ecart_mois": {},
+   "taux_point_mort": 0.7
+  },
+  {
+   "id": "cadre_2x",
+   "libelle": "Cadre seul, 2 fois le médian (3 Smic brut)",
+   "composition": {
+    "adultes": 1,
+    "enfants": 0,
+    "logement": "proprietaire",
+    "loyer_mois": 0
+   },
+   "entrees": {
+    "salaires_bruts_mois": [
+     5601.06
+    ],
+    "couts_employeur_mois": [
+     8034.02
+    ],
+    "chiffre_affaires_mois": 0,
+    "part_charges_reelles": 0,
+    "pensions_brutes_mois": [],
+    "chomage_brut_mois": 0,
+    "dividendes_an": 0,
+    "loyers_nets_an": 0,
+    "heritage": 0
+   },
+   "actuel": {
+    "methode": "OpenFisca-France 175.0.45 (API) + Urssaf mon-entreprise + calculs documentés",
+    "salaires_nets": 4445.2,
+    "chomage_net": 0,
+    "pensions_nettes": 0,
+    "revenu_independant_net": 0,
+    "cotisations_micro": 0,
+    "capital_brut": 0,
+    "prelevements_sociaux_capital": 0,
+    "impot_revenu": 668.58,
+    "rsa": 0,
+    "prime_activite": 0,
+    "aides_logement": 0,
+    "aspa": 0,
+    "prestations_familiales": 0,
+    "dont_allocations_familiales": 0,
+    "dont_asf": 0,
+    "revenu_disponible": 3776.62,
+    "revenu_disponible_openfisca_brut": 3776.62
+   },
+   "propose": {
+    "taux_50": {
+     "propose": 5017.01,
+     "ecart_mois": 1240.39,
+     "ecart_an": 14884.68,
+     "ecart_pct": 32.84
+    },
+    "taux_59": {
+     "propose": 4293.95,
+     "ecart_mois": 517.33,
+     "ecart_an": 6207.94,
+     "ecart_pct": 13.7
+    },
+    "taux_63": {
+     "propose": 3972.59,
+     "ecart_mois": 195.97,
+     "ecart_an": 2351.61,
+     "ecart_pct": 5.19
+    }
+   },
+   "variantes_ecart_mois": {},
+   "taux_point_mort": 0.65
+  },
+  {
+   "id": "cadre_4x",
+   "libelle": "Cadre seul, 4 fois le médian (6 Smic brut)",
+   "composition": {
+    "adultes": 1,
+    "enfants": 0,
+    "logement": "proprietaire",
+    "loyer_mois": 0
+   },
+   "entrees": {
+    "salaires_bruts_mois": [
+     11202.12
+    ],
+    "couts_employeur_mois": [
+     16044.43
+    ],
+    "chiffre_affaires_mois": 0,
+    "part_charges_reelles": 0,
+    "pensions_brutes_mois": [],
+    "chomage_brut_mois": 0,
+    "dividendes_an": 0,
+    "loyers_nets_an": 0,
+    "heritage": 0
+   },
+   "actuel": {
+    "methode": "OpenFisca-France 175.0.45 (API) + Urssaf mon-entreprise + calculs documentés",
+    "salaires_nets": 8937.8,
+    "chomage_net": 0,
+    "pensions_nettes": 0,
+    "revenu_independant_net": 0,
+    "cotisations_micro": 0,
+    "capital_brut": 0,
+    "prelevements_sociaux_capital": 0,
+    "impot_revenu": 2065.92,
+    "rsa": 0,
+    "prime_activite": 0,
+    "aides_logement": 0,
+    "aspa": 0,
+    "prestations_familiales": 0,
+    "dont_allocations_familiales": 0,
+    "dont_asf": 0,
+    "revenu_disponible": 6871.88,
+    "revenu_disponible_openfisca_brut": 6871.88
+   },
+   "propose": {
+    "taux_50": {
+     "propose": 9022.22,
+     "ecart_mois": 2150.34,
+     "ecart_an": 25804.02,
+     "ecart_pct": 31.29
+    },
+    "taux_59": {
+     "propose": 7578.22,
+     "ecart_mois": 706.34,
+     "ecart_an": 8476.04,
+     "ecart_pct": 10.28
+    },
+    "taux_63": {
+     "propose": 6936.44,
+     "ecart_mois": 64.56,
+     "ecart_an": 774.71,
+     "ecart_pct": 0.94
+    }
+   },
+   "variantes_ecart_mois": {},
+   "taux_point_mort": 0.63
+  },
+  {
+   "id": "tres_haut_salaire",
+   "libelle": "Très haut salaire (30 000 € brut par mois)",
+   "composition": {
+    "adultes": 1,
+    "enfants": 0,
+    "logement": "proprietaire",
+    "loyer_mois": 0
+   },
+   "entrees": {
+    "salaires_bruts_mois": [
+     30000
+    ],
+    "couts_employeur_mois": [
+     42334.25
+    ],
+    "chiffre_affaires_mois": 0,
+    "part_charges_reelles": 0,
+    "pensions_brutes_mois": [],
+    "chomage_brut_mois": 0,
+    "dividendes_an": 0,
+    "loyers_nets_an": 0,
+    "heritage": 0
+   },
+   "actuel": {
+    "methode": "OpenFisca-France 175.0.45 (API) + Urssaf mon-entreprise + calculs documentés",
+    "salaires_nets": 23992.43,
+    "chomage_net": 0,
+    "pensions_nettes": 0,
+    "revenu_independant_net": 0,
+    "cotisations_micro": 0,
+    "capital_brut": 0,
+    "prelevements_sociaux_capital": 0,
+    "impot_revenu": 8771.75,
+    "rsa": 0,
+    "prime_activite": 0,
+    "aides_logement": 0,
+    "aspa": 0,
+    "prestations_familiales": 0,
+    "dont_allocations_familiales": 0,
+    "dont_asf": 0,
+    "revenu_disponible": 15220.68,
+    "revenu_disponible_openfisca_brut": 15220.68
+   },
+   "propose": {
+    "taux_50": {
+     "propose": 22167.13,
+     "ecart_mois": 6946.45,
+     "ecart_an": 83357.34,
+     "ecart_pct": 45.64
+    },
+    "taux_59": {
+     "propose": 18357.04,
+     "ecart_mois": 3136.36,
+     "ecart_an": 37636.35,
+     "ecart_pct": 20.61
+    },
+    "taux_63": {
+     "propose": 16663.67,
+     "ecart_mois": 1442.99,
+     "ecart_an": 17315.91,
+     "ecart_pct": 9.48
+    }
+   },
+   "variantes_ecart_mois": {},
+   "taux_point_mort": 0.66
+  },
+  {
+   "id": "independant",
+   "libelle": "Indépendant (micro-entrepreneur libéral, 3 000 € de chiffre d'affaires par mois)",
+   "composition": {
+    "adultes": 1,
+    "enfants": 0,
+    "logement": "locataire",
+    "loyer_mois": 500
+   },
+   "entrees": {
+    "salaires_bruts_mois": [],
+    "couts_employeur_mois": [],
+    "chiffre_affaires_mois": 3000,
+    "part_charges_reelles": 0.15,
+    "pensions_brutes_mois": [],
+    "chomage_brut_mois": 0,
+    "dividendes_an": 0,
+    "loyers_nets_an": 0,
+    "heritage": 0
+   },
+   "actuel": {
+    "methode": "OpenFisca-France 175.0.45 (API) + Urssaf mon-entreprise + calculs documentés",
+    "salaires_nets": 0,
+    "chomage_net": 0,
+    "pensions_nettes": 0,
+    "revenu_independant_net": 1776,
+    "cotisations_micro": 774,
+    "capital_brut": 0,
+    "prelevements_sociaux_capital": 0,
+    "impot_revenu": 87.17,
+    "rsa": 0,
+    "prime_activite": 53.97,
+    "aides_logement": 0,
+    "aspa": 0,
+    "prestations_familiales": 0,
+    "dont_allocations_familiales": 0,
+    "dont_asf": 0,
+    "revenu_disponible": 1742.8,
+    "revenu_disponible_openfisca_brut": 1946.53
+   },
+   "propose": {
+    "taux_50": {
+     "propose": 2275,
+     "ecart_mois": 532.2,
+     "ecart_an": 6386.4,
+     "ecart_pct": 30.54
+    },
+    "taux_59": {
+     "propose": 2045.5,
+     "ecart_mois": 302.7,
+     "ecart_an": 3632.4,
+     "ecart_pct": 17.37
+    },
+    "taux_63": {
+     "propose": 1943.5,
+     "ecart_mois": 200.7,
+     "ecart_an": 2408.4,
+     "ecart_pct": 11.52
+    }
+   },
+   "variantes_ecart_mois": {},
+   "taux_point_mort": 0.71
+  },
+  {
+   "id": "intermittent",
+   "libelle": "Intermittent du spectacle (salaires + allocation, moyennes Unédic)",
+   "composition": {
+    "adultes": 1,
+    "enfants": 0,
+    "logement": "locataire",
+    "loyer_mois": 500
+   },
+   "entrees": {
+    "salaires_bruts_mois": [
+     1366
+    ],
+    "couts_employeur_mois": [
+     1960.09
+    ],
+    "chiffre_affaires_mois": 0,
+    "part_charges_reelles": 0,
+    "pensions_brutes_mois": [],
+    "chomage_brut_mois": 1117.5,
+    "dividendes_an": 0,
+    "loyers_nets_an": 0,
+    "heritage": 0
+   },
+   "actuel": {
+    "methode": "OpenFisca-France 175.0.45 (API) + Urssaf mon-entreprise + calculs documentés",
+    "salaires_nets": 1081.33,
+    "chomage_net": 1117.5,
+    "pensions_nettes": 0,
+    "revenu_independant_net": 0,
+    "cotisations_micro": 0,
+    "capital_brut": 0,
+    "prelevements_sociaux_capital": 0,
+    "impot_revenu": 86.58,
+    "rsa": 0,
+    "prime_activite": 0,
+    "aides_logement": 0,
+    "aspa": 0,
+    "prestations_familiales": 0,
+    "dont_allocations_familiales": 0,
+    "dont_asf": 0,
+    "revenu_disponible": 2112.24,
+    "revenu_disponible_openfisca_brut": 2112.24
+   },
+   "propose": {
+    "taux_50": {
+     "propose": 1980.05,
+     "ecart_mois": -132.19,
+     "ecart_an": -1586.34,
+     "ecart_pct": -6.26
+    },
+    "taux_59": {
+     "propose": 1803.64,
+     "ecart_mois": -308.6,
+     "ecart_an": -3703.24,
+     "ecart_pct": -14.61
+    },
+    "taux_63": {
+     "propose": 1725.23,
+     "ecart_mois": -387.01,
+     "ecart_an": -4644.08,
+     "ecart_pct": -18.32
+    }
+   },
+   "variantes_ecart_mois": {},
+   "taux_point_mort": 0.43
+  },
+  {
+   "id": "cadre_chomage",
+   "libelle": "Cadre au chômage indemnisé (ancien salaire 3 Smic brut)",
+   "composition": {
+    "adultes": 1,
+    "enfants": 0,
+    "logement": "proprietaire",
+    "loyer_mois": 0
+   },
+   "entrees": {
+    "salaires_bruts_mois": [],
+    "couts_employeur_mois": [],
+    "chiffre_affaires_mois": 0,
+    "part_charges_reelles": 0,
+    "pensions_brutes_mois": [],
+    "chomage_brut_mois": 3192.6,
+    "dividendes_an": 0,
+    "loyers_nets_an": 0,
+    "heritage": 0
+   },
+   "actuel": {
+    "methode": "OpenFisca-France 175.0.45 (API) + Urssaf mon-entreprise + calculs documentés",
+    "salaires_nets": 0,
+    "chomage_net": 2814.41,
+    "pensions_nettes": 0,
+    "revenu_independant_net": 0,
+    "cotisations_micro": 0,
+    "capital_brut": 0,
+    "prelevements_sociaux_capital": 0,
+    "impot_revenu": 255.17,
+    "rsa": 0,
+    "prime_activite": 0,
+    "aides_logement": 0,
+    "aspa": 0,
+    "prestations_familiales": 0,
+    "dont_allocations_familiales": 0,
+    "dont_asf": 0,
+    "revenu_disponible": 2559.24,
+    "revenu_disponible_openfisca_brut": 2727.27
+   },
+   "propose": {
+    "taux_50": {
+     "propose": 1000,
+     "ecart_mois": -1559.24,
+     "ecart_an": -18710.88,
+     "ecart_pct": -60.93
+    },
+    "taux_59": {
+     "propose": 1000,
+     "ecart_mois": -1559.24,
+     "ecart_an": -18710.88,
+     "ecart_pct": -60.93
+    },
+    "taux_63": {
+     "propose": 1000,
+     "ecart_mois": -1559.24,
+     "ecart_an": -18710.88,
+     "ecart_pct": -60.93
+    }
+   },
+   "variantes_ecart_mois": {},
+   "taux_point_mort": null
+  },
+  {
+   "id": "couple_0_enfant",
+   "libelle": "Couple, Smic + salaire médian, 0 enfant",
+   "composition": {
+    "adultes": 2,
+    "enfants": 0,
+    "logement": "locataire",
+    "loyer_mois": 650
+   },
+   "entrees": {
+    "salaires_bruts_mois": [
+     1867.02,
+     2800.53
+    ],
+    "couts_employeur_mois": [
+     1987.76,
+     3676.54
+    ],
+    "chiffre_affaires_mois": 0,
+    "part_charges_reelles": 0,
+    "pensions_brutes_mois": [],
+    "chomage_brut_mois": 0,
+    "dividendes_an": 0,
+    "loyers_nets_an": 0,
+    "heritage": 0
+   },
+   "actuel": {
+    "methode": "OpenFisca-France 175.0.45 (API) + Urssaf mon-entreprise + calculs documentés",
+    "salaires_nets": 3694.82,
+    "chomage_net": 0,
+    "pensions_nettes": 0,
+    "revenu_independant_net": 0,
+    "cotisations_micro": 0,
+    "capital_brut": 0,
+    "prelevements_sociaux_capital": 0,
+    "impot_revenu": 117.92,
+    "rsa": 0,
+    "prime_activite": 0,
+    "aides_logement": 0,
+    "aspa": 0,
+    "prestations_familiales": 0,
+    "dont_allocations_familiales": 0,
+    "dont_asf": 0,
+    "revenu_disponible": 3576.9,
+    "revenu_disponible_openfisca_brut": 3576.9
+   },
+   "propose": {
+    "taux_50": {
+     "propose": 4832.15,
+     "ecart_mois": 1255.25,
+     "ecart_an": 15063,
+     "ecart_pct": 35.09
+    },
+    "taux_59": {
+     "propose": 4322.36,
+     "ecart_mois": 745.46,
+     "ecart_an": 8945.56,
+     "ecart_pct": 20.84
+    },
+    "taux_63": {
+     "propose": 4095.79,
+     "ecart_mois": 518.89,
+     "ecart_an": 6226.69,
+     "ecart_pct": 14.51
+    }
+   },
+   "variantes_ecart_mois": {},
+   "taux_point_mort": 0.72
+  },
+  {
+   "id": "couple_1_enfant",
+   "libelle": "Couple, Smic + salaire médian, 1 enfant",
+   "composition": {
+    "adultes": 2,
+    "enfants": 1,
+    "logement": "locataire",
+    "loyer_mois": 725
+   },
+   "entrees": {
+    "salaires_bruts_mois": [
+     1867.02,
+     2800.53
+    ],
+    "couts_employeur_mois": [
+     1987.76,
+     3676.54
+    ],
+    "chiffre_affaires_mois": 0,
+    "part_charges_reelles": 0,
+    "pensions_brutes_mois": [],
+    "chomage_brut_mois": 0,
+    "dividendes_an": 0,
+    "loyers_nets_an": 0,
+    "heritage": 0
+   },
+   "actuel": {
+    "methode": "OpenFisca-France 175.0.45 (API) + Urssaf mon-entreprise + calculs documentés",
+    "salaires_nets": 3694.82,
+    "chomage_net": 0,
+    "pensions_nettes": 0,
+    "revenu_independant_net": 0,
+    "cotisations_micro": 0,
+    "capital_brut": 0,
+    "prelevements_sociaux_capital": 0,
+    "impot_revenu": 40.67,
+    "rsa": 0,
+    "prime_activite": 65.52,
+    "aides_logement": 0,
+    "aspa": 0,
+    "prestations_familiales": 0,
+    "dont_allocations_familiales": 0,
+    "dont_asf": 0,
+    "revenu_disponible": 3719.67,
+    "revenu_disponible_openfisca_brut": 3719.34
+   },
+   "propose": {
+    "taux_50": {
+     "propose": 5032.15,
+     "ecart_mois": 1312.48,
+     "ecart_an": 15749.76,
+     "ecart_pct": 35.28
+    },
+    "taux_59": {
+     "propose": 4522.36,
+     "ecart_mois": 802.69,
+     "ecart_an": 9632.32,
+     "ecart_pct": 21.58
+    },
+    "taux_63": {
+     "propose": 4295.79,
+     "ecart_mois": 576.12,
+     "ecart_an": 6913.45,
+     "ecart_pct": 15.49
+    }
+   },
+   "variantes_ecart_mois": {},
+   "taux_point_mort": 0.73
+  },
+  {
+   "id": "couple_2_enfants",
+   "libelle": "Couple, Smic + salaire médian, 2 enfants",
+   "composition": {
+    "adultes": 2,
+    "enfants": 2,
+    "logement": "locataire",
+    "loyer_mois": 800
+   },
+   "entrees": {
+    "salaires_bruts_mois": [
+     1867.02,
+     2800.53
+    ],
+    "couts_employeur_mois": [
+     1987.76,
+     3676.54
+    ],
+    "chiffre_affaires_mois": 0,
+    "part_charges_reelles": 0,
+    "pensions_brutes_mois": [],
+    "chomage_brut_mois": 0,
+    "dividendes_an": 0,
+    "loyers_nets_an": 0,
+    "heritage": 0
+   },
+   "actuel": {
+    "methode": "OpenFisca-France 175.0.45 (API) + Urssaf mon-entreprise + calculs documentés",
+    "salaires_nets": 3694.82,
+    "chomage_net": 0,
+    "pensions_nettes": 0,
+    "revenu_independant_net": 0,
+    "cotisations_micro": 0,
+    "capital_brut": 0,
+    "prelevements_sociaux_capital": 0,
+    "impot_revenu": 0,
+    "rsa": 0,
+    "prime_activite": 103.86,
+    "aides_logement": 0,
+    "aspa": 0,
+    "prestations_familiales": 151.94,
+    "dont_allocations_familiales": 152.71,
+    "dont_asf": 0,
+    "revenu_disponible": 3950.63,
+    "revenu_disponible_openfisca_brut": 3950.11
+   },
+   "propose": {
+    "taux_50": {
+     "propose": 5232.15,
+     "ecart_mois": 1281.52,
+     "ecart_an": 15378.24,
+     "ecart_pct": 32.44
+    },
+    "taux_59": {
+     "propose": 4722.36,
+     "ecart_mois": 771.73,
+     "ecart_an": 9260.8,
+     "ecart_pct": 19.53
+    },
+    "taux_63": {
+     "propose": 4495.79,
+     "ecart_mois": 545.16,
+     "ecart_an": 6541.93,
+     "ecart_pct": 13.8
+    }
+   },
+   "variantes_ecart_mois": {},
+   "taux_point_mort": 0.73
+  },
+  {
+   "id": "couple_3_enfants",
+   "libelle": "Couple, Smic + salaire médian, 3 enfants",
+   "composition": {
+    "adultes": 2,
+    "enfants": 3,
+    "logement": "locataire",
+    "loyer_mois": 875
+   },
+   "entrees": {
+    "salaires_bruts_mois": [
+     1867.02,
+     2800.53
+    ],
+    "couts_employeur_mois": [
+     1987.76,
+     3676.54
+    ],
+    "chiffre_affaires_mois": 0,
+    "part_charges_reelles": 0,
+    "pensions_brutes_mois": [],
+    "chomage_brut_mois": 0,
+    "dividendes_an": 0,
+    "loyers_nets_an": 0,
+    "heritage": 0
+   },
+   "actuel": {
+    "methode": "OpenFisca-France 175.0.45 (API) + Urssaf mon-entreprise + calculs documentés",
+    "salaires_nets": 3694.82,
+    "chomage_net": 0,
+    "pensions_nettes": 0,
+    "revenu_independant_net": 0,
+    "cotisations_micro": 0,
+    "capital_brut": 0,
+    "prelevements_sociaux_capital": 0,
+    "impot_revenu": 0,
+    "rsa": 0,
+    "prime_activite": 0,
+    "aides_logement": 0,
+    "aspa": 0,
+    "prestations_familiales": 655.03,
+    "dont_allocations_familiales": 348.37,
+    "dont_asf": 0,
+    "revenu_disponible": 4349.85,
+    "revenu_disponible_openfisca_brut": 4349.85
+   },
+   "propose": {
+    "taux_50": {
+     "propose": 5432.15,
+     "ecart_mois": 1082.3,
+     "ecart_an": 12987.6,
+     "ecart_pct": 24.88
+    },
+    "taux_59": {
+     "propose": 4922.36,
+     "ecart_mois": 572.51,
+     "ecart_an": 6870.16,
+     "ecart_pct": 13.16
+    },
+    "taux_63": {
+     "propose": 4695.79,
+     "ecart_mois": 345.94,
+     "ecart_an": 4151.29,
+     "ecart_pct": 7.95
+    }
+   },
+   "variantes_ecart_mois": {},
+   "taux_point_mort": 0.69
+  },
+  {
+   "id": "couple_4_enfants",
+   "libelle": "Couple, Smic + salaire médian, 4 enfants",
+   "composition": {
+    "adultes": 2,
+    "enfants": 4,
+    "logement": "locataire",
+    "loyer_mois": 950
+   },
+   "entrees": {
+    "salaires_bruts_mois": [
+     1867.02,
+     2800.53
+    ],
+    "couts_employeur_mois": [
+     1987.76,
+     3676.54
+    ],
+    "chiffre_affaires_mois": 0,
+    "part_charges_reelles": 0,
+    "pensions_brutes_mois": [],
+    "chomage_brut_mois": 0,
+    "dividendes_an": 0,
+    "loyers_nets_an": 0,
+    "heritage": 0
+   },
+   "actuel": {
+    "methode": "OpenFisca-France 175.0.45 (API) + Urssaf mon-entreprise + calculs documentés",
+    "salaires_nets": 3694.82,
+    "chomage_net": 0,
+    "pensions_nettes": 0,
+    "revenu_independant_net": 0,
+    "cotisations_micro": 0,
+    "capital_brut": 0,
+    "prelevements_sociaux_capital": 0,
+    "impot_revenu": 0,
+    "rsa": 0,
+    "prime_activite": 30.58,
+    "aides_logement": 0,
+    "aspa": 0,
+    "prestations_familiales": 885.28,
+    "dont_allocations_familiales": 544.02,
+    "dont_asf": 0,
+    "revenu_disponible": 4610.68,
+    "revenu_disponible_openfisca_brut": 4610.52
+   },
+   "propose": {
+    "taux_50": {
+     "propose": 5632.15,
+     "ecart_mois": 1021.47,
+     "ecart_an": 12257.64,
+     "ecart_pct": 22.15
+    },
+    "taux_59": {
+     "propose": 5122.36,
+     "ecart_mois": 511.68,
+     "ecart_an": 6140.2,
+     "ecart_pct": 11.1
+    },
+    "taux_63": {
+     "propose": 4895.79,
+     "ecart_mois": 285.11,
+     "ecart_an": 3421.33,
+     "ecart_pct": 6.18
+    }
+   },
+   "variantes_ecart_mois": {},
+   "taux_point_mort": 0.68
+  },
+  {
+   "id": "couple_monoactif_2_enfants",
+   "libelle": "Couple, un seul salaire au Smic, 2 enfants",
+   "composition": {
+    "adultes": 2,
+    "enfants": 2,
+    "logement": "locataire",
+    "loyer_mois": 800
+   },
+   "entrees": {
+    "salaires_bruts_mois": [
+     1867.02,
+     0
+    ],
+    "couts_employeur_mois": [
+     1987.76,
+     0
+    ],
+    "chiffre_affaires_mois": 0,
+    "part_charges_reelles": 0,
+    "pensions_brutes_mois": [],
+    "chomage_brut_mois": 0,
+    "dividendes_an": 0,
+    "loyers_nets_an": 0,
+    "heritage": 0
+   },
+   "actuel": {
+    "methode": "OpenFisca-France 175.0.45 (API) + Urssaf mon-entreprise + calculs documentés",
+    "salaires_nets": 1477.93,
+    "chomage_net": 0,
+    "pensions_nettes": 0,
+    "revenu_independant_net": 0,
+    "cotisations_micro": 0,
+    "capital_brut": 0,
+    "prelevements_sociaux_capital": 0,
+    "impot_revenu": 0,
+    "rsa": 0,
+    "prime_activite": 587.86,
+    "aides_logement": 293.19,
+    "aspa": 0,
+    "prestations_familiales": 225.05,
+    "dont_allocations_familiales": 152.71,
+    "dont_asf": 0,
+    "revenu_disponible": 2584.02,
+    "revenu_disponible_openfisca_brut": 2581.08
+   },
+   "propose": {
+    "taux_50": {
+     "propose": 3393.88,
+     "ecart_mois": 809.86,
+     "ecart_an": 9718.32,
+     "ecart_pct": 31.34
+    },
+    "taux_59": {
+     "propose": 3214.98,
+     "ecart_mois": 630.96,
+     "ecart_an": 7571.54,
+     "ecart_pct": 24.42
+    },
+    "taux_63": {
+     "propose": 3135.47,
+     "ecart_mois": 551.45,
+     "ecart_an": 6617.41,
+     "ecart_pct": 21.34
+    }
+   },
+   "variantes_ecart_mois": {},
+   "taux_point_mort": 0.91
+  },
+  {
+   "id": "parent_isole_1_enfant",
+   "libelle": "Parent isolé au Smic, 1 enfant",
+   "composition": {
+    "adultes": 1,
+    "enfants": 1,
+    "logement": "locataire",
+    "loyer_mois": 575
+   },
+   "entrees": {
+    "salaires_bruts_mois": [
+     1867.02
+    ],
+    "couts_employeur_mois": [
+     1987.76
+    ],
+    "chiffre_affaires_mois": 0,
+    "part_charges_reelles": 0,
+    "pensions_brutes_mois": [],
+    "chomage_brut_mois": 0,
+    "dividendes_an": 0,
+    "loyers_nets_an": 0,
+    "heritage": 0
+   },
+   "actuel": {
+    "methode": "OpenFisca-France 175.0.45 (API) + Urssaf mon-entreprise + calculs documentés",
+    "salaires_nets": 1477.93,
+    "chomage_net": 0,
+    "pensions_nettes": 0,
+    "revenu_independant_net": 0,
+    "cotisations_micro": 0,
+    "capital_brut": 0,
+    "prelevements_sociaux_capital": 0,
+    "impot_revenu": 0,
+    "rsa": 0,
+    "prime_activite": 287.69,
+    "aides_logement": 197.95,
+    "aspa": 0,
+    "prestations_familiales": 235.95,
+    "dont_allocations_familiales": 0,
+    "dont_asf": 201.38,
+    "revenu_disponible": 2199.52,
+    "revenu_disponible_openfisca_brut": 2198.08
+   },
+   "propose": {
+    "taux_50": {
+     "propose": 2193.88,
+     "ecart_mois": -5.64,
+     "ecart_an": -67.68,
+     "ecart_pct": -0.26
+    },
+    "taux_59": {
+     "propose": 2014.98,
+     "ecart_mois": -184.54,
+     "ecart_an": -2214.46,
+     "ecart_pct": -8.39
+    },
+    "taux_63": {
+     "propose": 1935.47,
+     "ecart_mois": -264.05,
+     "ecart_an": -3168.59,
+     "ecart_pct": -12
+    }
+   },
+   "variantes_ecart_mois": {},
+   "taux_point_mort": 0.5
+  },
+  {
+   "id": "parent_isole_2_enfants",
+   "libelle": "Parent isolé au Smic, 2 enfants",
+   "composition": {
+    "adultes": 1,
+    "enfants": 2,
+    "logement": "locataire",
+    "loyer_mois": 650
+   },
+   "entrees": {
+    "salaires_bruts_mois": [
+     1867.02
+    ],
+    "couts_employeur_mois": [
+     1987.76
+    ],
+    "chiffre_affaires_mois": 0,
+    "part_charges_reelles": 0,
+    "pensions_brutes_mois": [],
+    "chomage_brut_mois": 0,
+    "dividendes_an": 0,
+    "loyers_nets_an": 0,
+    "heritage": 0
+   },
+   "actuel": {
+    "methode": "OpenFisca-France 175.0.45 (API) + Urssaf mon-entreprise + calculs documentés",
+    "salaires_nets": 1477.93,
+    "chomage_net": 0,
+    "pensions_nettes": 0,
+    "revenu_independant_net": 0,
+    "cotisations_micro": 0,
+    "capital_brut": 0,
+    "prelevements_sociaux_capital": 0,
+    "impot_revenu": 0,
+    "rsa": 0,
+    "prime_activite": 182.54,
+    "aides_logement": 293.19,
+    "aspa": 0,
+    "prestations_familiales": 625.8,
+    "dont_allocations_familiales": 152.71,
+    "dont_asf": 402.77,
+    "revenu_disponible": 2579.47,
+    "revenu_disponible_openfisca_brut": 2578.55
+   },
+   "propose": {
+    "taux_50": {
+     "propose": 2393.88,
+     "ecart_mois": -185.59,
+     "ecart_an": -2227.08,
+     "ecart_pct": -7.19
+    },
+    "taux_59": {
+     "propose": 2214.98,
+     "ecart_mois": -364.49,
+     "ecart_an": -4373.86,
+     "ecart_pct": -14.13
+    },
+    "taux_63": {
+     "propose": 2135.47,
+     "ecart_mois": -444,
+     "ecart_an": -5327.99,
+     "ecart_pct": -17.21
+    }
+   },
+   "variantes_ecart_mois": {},
+   "taux_point_mort": 0.41
+  },
+  {
+   "id": "retraite_800",
+   "libelle": "Retraité seul, pension de 800 € brut par mois",
+   "composition": {
+    "adultes": 1,
+    "enfants": 0,
+    "logement": "proprietaire",
+    "loyer_mois": 0
+   },
+   "entrees": {
+    "salaires_bruts_mois": [],
+    "couts_employeur_mois": [],
+    "chiffre_affaires_mois": 0,
+    "part_charges_reelles": 0,
+    "pensions_brutes_mois": [
+     800
+    ],
+    "chomage_brut_mois": 0,
+    "dividendes_an": 0,
+    "loyers_nets_an": 0,
+    "heritage": 0
+   },
+   "actuel": {
+    "methode": "OpenFisca-France 175.0.45 (API) + Urssaf mon-entreprise + calculs documentés",
+    "salaires_nets": 0,
+    "chomage_net": 0,
+    "pensions_nettes": 800,
+    "revenu_independant_net": 0,
+    "cotisations_micro": 0,
+    "capital_brut": 0,
+    "prelevements_sociaux_capital": 0,
+    "impot_revenu": 0,
+    "rsa": 0,
+    "prime_activite": 0,
+    "aides_logement": 0,
+    "aspa": 243.59,
+    "prestations_familiales": 0,
+    "dont_allocations_familiales": 0,
+    "dont_asf": 0,
+    "revenu_disponible": 1043.6,
+    "revenu_disponible_openfisca_brut": 1043.6
+   },
+   "propose": {
+    "taux_50": {
+     "propose": 1000,
+     "ecart_mois": -43.6,
+     "ecart_an": -523.2,
+     "ecart_pct": -4.18
+    },
+    "taux_59": {
+     "propose": 1000,
+     "ecart_mois": -43.6,
+     "ecart_an": -523.2,
+     "ecart_pct": -4.18
+    },
+    "taux_63": {
+     "propose": 1000,
+     "ecart_mois": -43.6,
+     "ecart_an": -523.2,
+     "ecart_pct": -4.18
+    }
+   },
+   "variantes_ecart_mois": {
+    "retraite_net": -43.6,
+    "retraite_impose": -43.6
+   },
+   "taux_point_mort": null
+  },
+  {
+   "id": "retraite_1200",
+   "libelle": "Retraité seul, pension de 1 200 € brut par mois",
+   "composition": {
+    "adultes": 1,
+    "enfants": 0,
+    "logement": "proprietaire",
+    "loyer_mois": 0
+   },
+   "entrees": {
+    "salaires_bruts_mois": [],
+    "couts_employeur_mois": [],
+    "chiffre_affaires_mois": 0,
+    "part_charges_reelles": 0,
+    "pensions_brutes_mois": [
+     1200
+    ],
+    "chomage_brut_mois": 0,
+    "dividendes_an": 0,
+    "loyers_nets_an": 0,
+    "heritage": 0
+   },
+   "actuel": {
+    "methode": "OpenFisca-France 175.0.45 (API) + Urssaf mon-entreprise + calculs documentés",
+    "salaires_nets": 0,
+    "chomage_net": 0,
+    "pensions_nettes": 1200,
+    "revenu_independant_net": 0,
+    "cotisations_micro": 0,
+    "capital_brut": 0,
+    "prelevements_sociaux_capital": 0,
+    "impot_revenu": 0,
+    "rsa": 0,
+    "prime_activite": 0,
+    "aides_logement": 0,
+    "aspa": 0,
+    "prestations_familiales": 0,
+    "dont_allocations_familiales": 0,
+    "dont_asf": 0,
+    "revenu_disponible": 1200,
+    "revenu_disponible_openfisca_brut": 1200
+   },
+   "propose": {
+    "taux_50": {
+     "propose": 1200,
+     "ecart_mois": 0,
+     "ecart_an": 0,
+     "ecart_pct": 0
+    },
+    "taux_59": {
+     "propose": 1200,
+     "ecart_mois": 0,
+     "ecart_an": 0,
+     "ecart_pct": 0
+    },
+    "taux_63": {
+     "propose": 1200,
+     "ecart_mois": 0,
+     "ecart_an": 0,
+     "ecart_pct": 0
+    }
+   },
+   "variantes_ecart_mois": {
+    "retraite_net": 0,
+    "retraite_impose": -100
+   },
+   "taux_point_mort": 0
+  },
+  {
+   "id": "retraite_1600",
+   "libelle": "Retraité seul, pension de 1 600 € brut par mois",
+   "composition": {
+    "adultes": 1,
+    "enfants": 0,
+    "logement": "proprietaire",
+    "loyer_mois": 0
+   },
+   "entrees": {
+    "salaires_bruts_mois": [],
+    "couts_employeur_mois": [],
+    "chiffre_affaires_mois": 0,
+    "part_charges_reelles": 0,
+    "pensions_brutes_mois": [
+     1600
+    ],
+    "chomage_brut_mois": 0,
+    "dividendes_an": 0,
+    "loyers_nets_an": 0,
+    "heritage": 0
+   },
+   "actuel": {
+    "methode": "OpenFisca-France 175.0.45 (API) + Urssaf mon-entreprise + calculs documentés",
+    "salaires_nets": 0,
+    "chomage_net": 0,
+    "pensions_nettes": 1531.2,
+    "revenu_independant_net": 0,
+    "cotisations_micro": 0,
+    "capital_brut": 0,
+    "prelevements_sociaux_capital": 0,
+    "impot_revenu": 0,
+    "rsa": 0,
+    "prime_activite": 0,
+    "aides_logement": 0,
+    "aspa": 0,
+    "prestations_familiales": 0,
+    "dont_allocations_familiales": 0,
+    "dont_asf": 0,
+    "revenu_disponible": 1531.2,
+    "revenu_disponible_openfisca_brut": 1600
+   },
+   "propose": {
+    "taux_50": {
+     "propose": 1600,
+     "ecart_mois": 68.8,
+     "ecart_an": 825.6,
+     "ecart_pct": 4.49
+    },
+    "taux_59": {
+     "propose": 1600,
+     "ecart_mois": 68.8,
+     "ecart_an": 825.6,
+     "ecart_pct": 4.49
+    },
+    "taux_63": {
+     "propose": 1600,
+     "ecart_mois": 68.8,
+     "ecart_an": 825.6,
+     "ecart_pct": 4.49
+    }
+   },
+   "variantes_ecart_mois": {
+    "retraite_net": 0,
+    "retraite_impose": -231.2
+   },
+   "taux_point_mort": null
+  },
+  {
+   "id": "retraite_2500",
+   "libelle": "Retraité seul, pension de 2 500 € brut par mois",
+   "composition": {
+    "adultes": 1,
+    "enfants": 0,
+    "logement": "proprietaire",
+    "loyer_mois": 0
+   },
+   "entrees": {
+    "salaires_bruts_mois": [],
+    "couts_employeur_mois": [],
+    "chiffre_affaires_mois": 0,
+    "part_charges_reelles": 0,
+    "pensions_brutes_mois": [
+     2500
+    ],
+    "chomage_brut_mois": 0,
+    "dividendes_an": 0,
+    "loyers_nets_an": 0,
+    "heritage": 0
+   },
+   "actuel": {
+    "methode": "OpenFisca-France 175.0.45 (API) + Urssaf mon-entreprise + calculs documentés",
+    "salaires_nets": 0,
+    "chomage_net": 0,
+    "pensions_nettes": 2315,
+    "revenu_independant_net": 0,
+    "cotisations_micro": 0,
+    "capital_brut": 0,
+    "prelevements_sociaux_capital": 0,
+    "impot_revenu": 111.67,
+    "rsa": 0,
+    "prime_activite": 0,
+    "aides_logement": 0,
+    "aspa": 0,
+    "prestations_familiales": 0,
+    "dont_allocations_familiales": 0,
+    "dont_asf": 0,
+    "revenu_disponible": 2203.33,
+    "revenu_disponible_openfisca_brut": 2388.33
+   },
+   "propose": {
+    "taux_50": {
+     "propose": 2500,
+     "ecart_mois": 296.67,
+     "ecart_an": 3560.04,
+     "ecart_pct": 13.46
+    },
+    "taux_59": {
+     "propose": 2500,
+     "ecart_mois": 296.67,
+     "ecart_an": 3560.04,
+     "ecart_pct": 13.46
+    },
+    "taux_63": {
+     "propose": 2500,
+     "ecart_mois": 296.67,
+     "ecart_an": 3560.04,
+     "ecart_pct": 13.46
+    }
+   },
+   "variantes_ecart_mois": {
+    "retraite_net": 111.67,
+    "retraite_impose": -453.33
+   },
+   "taux_point_mort": null
+  },
+  {
+   "id": "retraite_4000",
+   "libelle": "Retraité seul, pension de 4 000 € brut par mois",
+   "composition": {
+    "adultes": 1,
+    "enfants": 0,
+    "logement": "proprietaire",
+    "loyer_mois": 0
+   },
+   "entrees": {
+    "salaires_bruts_mois": [],
+    "couts_employeur_mois": [],
+    "chiffre_affaires_mois": 0,
+    "part_charges_reelles": 0,
+    "pensions_brutes_mois": [
+     4000
+    ],
+    "chomage_brut_mois": 0,
+    "dividendes_an": 0,
+    "loyers_nets_an": 0,
+    "heritage": 0
+   },
+   "actuel": {
+    "methode": "OpenFisca-France 175.0.45 (API) + Urssaf mon-entreprise + calculs documentés",
+    "salaires_nets": 0,
+    "chomage_net": 0,
+    "pensions_nettes": 3636,
+    "revenu_independant_net": 0,
+    "cotisations_micro": 0,
+    "capital_brut": 0,
+    "prelevements_sociaux_capital": 0,
+    "impot_revenu": 515.33,
+    "rsa": 0,
+    "prime_activite": 0,
+    "aides_logement": 0,
+    "aspa": 0,
+    "prestations_familiales": 0,
+    "dont_allocations_familiales": 0,
+    "dont_asf": 0,
+    "revenu_disponible": 3120.67,
+    "revenu_disponible_openfisca_brut": 3484.67
+   },
+   "propose": {
+    "taux_50": {
+     "propose": 4000,
+     "ecart_mois": 879.33,
+     "ecart_an": 10551.96,
+     "ecart_pct": 28.18
+    },
+    "taux_59": {
+     "propose": 4000,
+     "ecart_mois": 879.33,
+     "ecart_an": 10551.96,
+     "ecart_pct": 28.18
+    },
+    "taux_63": {
+     "propose": 4000,
+     "ecart_mois": 879.33,
+     "ecart_an": 10551.96,
+     "ecart_pct": 28.18
+    }
+   },
+   "variantes_ecart_mois": {
+    "retraite_net": 515.33,
+    "retraite_impose": -620.67
+   },
+   "taux_point_mort": null
+  },
+  {
+   "id": "couple_retraites",
+   "libelle": "Couple de retraités, pensions de 1 600 € et 800 € brut",
+   "composition": {
+    "adultes": 2,
+    "enfants": 0,
+    "logement": "proprietaire",
+    "loyer_mois": 0
+   },
+   "entrees": {
+    "salaires_bruts_mois": [],
+    "couts_employeur_mois": [],
+    "chiffre_affaires_mois": 0,
+    "part_charges_reelles": 0,
+    "pensions_brutes_mois": [
+     1600,
+     800
+    ],
+    "chomage_brut_mois": 0,
+    "dividendes_an": 0,
+    "loyers_nets_an": 0,
+    "heritage": 0
+   },
+   "actuel": {
+    "methode": "OpenFisca-France 175.0.45 (API) + Urssaf mon-entreprise + calculs documentés",
+    "salaires_nets": 0,
+    "chomage_net": 0,
+    "pensions_nettes": 2296.8,
+    "revenu_independant_net": 0,
+    "cotisations_micro": 0,
+    "capital_brut": 0,
+    "prelevements_sociaux_capital": 0,
+    "impot_revenu": 0,
+    "rsa": 0,
+    "prime_activite": 0,
+    "aides_logement": 0,
+    "aspa": 0,
+    "prestations_familiales": 0,
+    "dont_allocations_familiales": 0,
+    "dont_asf": 0,
+    "revenu_disponible": 2296.8,
+    "revenu_disponible_openfisca_brut": 2400
+   },
+   "propose": {
+    "taux_50": {
+     "propose": 2600,
+     "ecart_mois": 303.2,
+     "ecart_an": 3638.4,
+     "ecart_pct": 13.2
+    },
+    "taux_59": {
+     "propose": 2600,
+     "ecart_mois": 303.2,
+     "ecart_an": 3638.4,
+     "ecart_pct": 13.2
+    },
+    "taux_63": {
+     "propose": 2600,
+     "ecart_mois": 303.2,
+     "ecart_an": 3638.4,
+     "ecart_pct": 13.2
+    }
+   },
+   "variantes_ecart_mois": {
+    "retraite_net": 234.4,
+    "retraite_impose": 3.2
+   },
+   "taux_point_mort": null
+  },
+  {
+   "id": "proprietaire_bailleur",
+   "libelle": "Salarié médian propriétaire bailleur (12 000 € de loyers nets par an)",
+   "composition": {
+    "adultes": 1,
+    "enfants": 0,
+    "logement": "proprietaire",
+    "loyer_mois": 0
+   },
+   "entrees": {
+    "salaires_bruts_mois": [
+     2800.53
+    ],
+    "couts_employeur_mois": [
+     3676.54
+    ],
+    "chiffre_affaires_mois": 0,
+    "part_charges_reelles": 0,
+    "pensions_brutes_mois": [],
+    "chomage_brut_mois": 0,
+    "dividendes_an": 0,
+    "loyers_nets_an": 12000,
+    "heritage": 0
+   },
+   "actuel": {
+    "methode": "OpenFisca-France 175.0.45 (API) + Urssaf mon-entreprise + calculs documentés",
+    "salaires_nets": 2216.89,
+    "chomage_net": 0,
+    "pensions_nettes": 0,
+    "revenu_independant_net": 0,
+    "cotisations_micro": 0,
+    "capital_brut": 1000,
+    "prelevements_sociaux_capital": 172,
+    "impot_revenu": 345.42,
+    "rsa": 0,
+    "prime_activite": 0,
+    "aides_logement": 0,
+    "aspa": 0,
+    "prestations_familiales": 0,
+    "dont_allocations_familiales": 0,
+    "dont_asf": 0,
+    "revenu_disponible": 2699.48,
+    "revenu_disponible_openfisca_brut": 2699.48
+   },
+   "propose": {
+    "taux_50": {
+     "propose": 3338.27,
+     "ecart_mois": 638.79,
+     "ecart_an": 7665.48,
+     "ecart_pct": 23.66
+    },
+    "taux_59": {
+     "propose": 2917.38,
+     "ecart_mois": 217.9,
+     "ecart_an": 2614.82,
+     "ecart_pct": 8.07
+    },
+    "taux_63": {
+     "propose": 2730.32,
+     "ecart_mois": 30.84,
+     "ecart_an": 370.08,
+     "ecart_pct": 1.14
+    }
+   },
+   "variantes_ecart_mois": {},
+   "taux_point_mort": 0.64
+  },
+  {
+   "id": "rentier",
+   "libelle": "Rentier : 100 000 € de dividendes par an",
+   "composition": {
+    "adultes": 1,
+    "enfants": 0,
+    "logement": "proprietaire",
+    "loyer_mois": 0
+   },
+   "entrees": {
+    "salaires_bruts_mois": [],
+    "couts_employeur_mois": [],
+    "chiffre_affaires_mois": 0,
+    "part_charges_reelles": 0,
+    "pensions_brutes_mois": [],
+    "chomage_brut_mois": 0,
+    "dividendes_an": 100000,
+    "loyers_nets_an": 0,
+    "heritage": 0
+   },
+   "actuel": {
+    "methode": "OpenFisca-France 175.0.45 (API) + Urssaf mon-entreprise + calculs documentés",
+    "salaires_nets": 0,
+    "chomage_net": 0,
+    "pensions_nettes": 0,
+    "revenu_independant_net": 0,
+    "cotisations_micro": 0,
+    "capital_brut": 8333.33,
+    "prelevements_sociaux_capital": 1550,
+    "impot_revenu": 1066.67,
+    "rsa": 0,
+    "prime_activite": 0,
+    "aides_logement": 0,
+    "aspa": 0,
+    "prestations_familiales": 0,
+    "dont_allocations_familiales": 0,
+    "dont_asf": 0,
+    "revenu_disponible": 5716.67,
+    "revenu_disponible_openfisca_brut": 5716.67
+   },
+   "propose": {
+    "taux_50": {
+     "propose": 5166.67,
+     "ecart_mois": -550,
+     "ecart_an": -6600.04,
+     "ecart_pct": -9.62
+    },
+    "taux_59": {
+     "propose": 4416.67,
+     "ecart_mois": -1300,
+     "ecart_an": -15600.04,
+     "ecart_pct": -22.74
+    },
+    "taux_63": {
+     "propose": 4083.33,
+     "ecart_mois": -1633.34,
+     "ecart_an": -19600.04,
+     "ecart_pct": -28.57
+    }
+   },
+   "variantes_ecart_mois": {
+    "is_reverse_en_dividendes": 838.89
+   },
+   "taux_point_mort": 0.43
+  },
+  {
+   "id": "heritier",
+   "libelle": "Salarié médian qui hérite de 300 000 € d'un parent",
+   "composition": {
+    "adultes": 1,
+    "enfants": 0,
+    "logement": "locataire",
+    "loyer_mois": 500
+   },
+   "entrees": {
+    "salaires_bruts_mois": [
+     2800.53
+    ],
+    "couts_employeur_mois": [
+     3676.54
+    ],
+    "chiffre_affaires_mois": 0,
+    "part_charges_reelles": 0,
+    "pensions_brutes_mois": [],
+    "chomage_brut_mois": 0,
+    "dividendes_an": 0,
+    "loyers_nets_an": 0,
+    "heritage": 300000
+   },
+   "actuel": {
+    "methode": "OpenFisca-France 175.0.45 (API) + Urssaf mon-entreprise + calculs documentés",
+    "salaires_nets": 2216.89,
+    "chomage_net": 0,
+    "pensions_nettes": 0,
+    "revenu_independant_net": 0,
+    "cotisations_micro": 0,
+    "capital_brut": 0,
+    "prelevements_sociaux_capital": 0,
+    "impot_revenu": 101,
+    "rsa": 0,
+    "prime_activite": 0,
+    "aides_logement": 0,
+    "aspa": 0,
+    "prestations_familiales": 0,
+    "dont_allocations_familiales": 0,
+    "dont_asf": 0,
+    "revenu_disponible": 2115.89,
+    "revenu_disponible_openfisca_brut": 2115.89,
+    "droits_succession": 38194.35,
+    "droits_succession_100k": 0,
+    "droits_succession_1M": 212961.95
+   },
+   "propose": {
+    "taux_50": {
+     "propose": 2838.27,
+     "ecart_mois": 722.38,
+     "ecart_an": 8668.56,
+     "ecart_pct": 34.14
+    },
+    "taux_59": {
+     "propose": 2507.38,
+     "ecart_mois": 391.49,
+     "ecart_an": 4697.9,
+     "ecart_pct": 18.5
+    },
+    "taux_63": {
+     "propose": 2360.32,
+     "ecart_mois": 244.43,
+     "ecart_an": 2933.16,
+     "ecart_pct": 11.55
+    }
+   },
+   "variantes_ecart_mois": {},
+   "taux_point_mort": 0.7,
+   "heritage": [
+    {
+     "montant": 100000,
+     "garde_actuel": 100000,
+     "garde_propose": 50000,
+     "ecart": -50000
+    },
+    {
+     "montant": 300000,
+     "garde_actuel": 261805.65,
+     "garde_propose": 150000,
+     "ecart": -111805.65
+    },
+    {
+     "montant": 1000000,
+     "garde_actuel": 787038.05,
+     "garde_propose": 500000,
+     "ecart": -287038.05
+    }
+   ]
+  }
+ ]
+}

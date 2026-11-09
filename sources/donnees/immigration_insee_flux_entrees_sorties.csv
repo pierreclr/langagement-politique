@@ -1,0 +1,23 @@
+# source: Insee Première n°2107, C. Pariset, "Flux migratoires : les entrées sur le territoire diminuent en 2024 et retrouvent leur niveau d'avant-crise sanitaire", 04/06/2026, figures 2a et 2b (https://www.insee.fr/fr/statistiques/8998082) ; date consultation: 2026-10-25
+# unite: milliers de personnes ; perimetre: France ; "non-immigrés" = personnes nées en France ou nées Françaises à l'étranger
+# note: les sorties d'immigrés sont estimées par différence (solde - entrées) et sont fragiles ; sorties et soldes 2023-2024 non disponibles ; 2020 = estimation
+annee,entrees_immigres,sorties_immigres,solde_immigres,entrees_non_immigres,sorties_non_immigres,solde_non_immigres,statut,source_url
+2006,234,71,163,92,143,-51,estimation,https://www.insee.fr/fr/statistiques/8998082
+2007,230,91,139,81,146,-66,estimation,https://www.insee.fr/fr/statistiques/8998082
+2008,235,95,140,77,161,-83,estimation,https://www.insee.fr/fr/statistiques/8998082
+2009,238,106,132,81,180,-99,estimation,https://www.insee.fr/fr/statistiques/8998082
+2010,251,109,142,113,216,-103,estimation,https://www.insee.fr/fr/statistiques/8998082
+2011,255,96,159,116,249,-132,estimation,https://www.insee.fr/fr/statistiques/8998082
+2012,278,104,174,114,216,-101,estimation,https://www.insee.fr/fr/statistiques/8998082
+2013,277,92,185,116,201,-85,estimation,https://www.insee.fr/fr/statistiques/8998082
+2014,259,65,194,118,280,-162,estimation,https://www.insee.fr/fr/statistiques/8998082
+2015,278,94,185,122,266,-145,estimation,https://www.insee.fr/fr/statistiques/8998082
+2016,287,66,222,130,287,-157,estimation,https://www.insee.fr/fr/statistiques/8998082
+2017,291,93,198,119,163,-44,estimation,https://www.insee.fr/fr/statistiques/8998082
+2018,305,83,222,126,147,-22,estimation,https://www.insee.fr/fr/statistiques/8998082
+2019,307,125,182,125,180,-55,estimation,https://www.insee.fr/fr/statistiques/8998082
+2020,246,94,152,125,136,-12,estimation,https://www.insee.fr/fr/statistiques/8998082
+2021,283,123,159,104,74,30,estimation,https://www.insee.fr/fr/statistiques/8998082
+2022,375,26,348,115,193,-78,estimation,https://www.insee.fr/fr/statistiques/8998082
+2023,347,,,120,,,estimation,https://www.insee.fr/fr/statistiques/8998082
+2024,313,,,125,,,estimation,https://www.insee.fr/fr/statistiques/8998082

@@ -1,0 +1,6 @@
+# Prix DVF 2024 (DGFiP/Etalab, ventes d'un seul logement, médianes) et loyers de la Carte des loyers 2025 (DHUP, charges comprises, médiane des communes pondérée par les ventes DVF) par secteur ; généré par code/preparer_secteurs.py
+secteur,ventes,part_ventes,prix_median_tous,prix_moyen_tous,prix_m2_app,prix_m2_mai,prix_T1,prix_T2,prix_T3,prix_T4,prix_T5,surf_T2,surf_T3,surf_T4,loyer_m2_app12,loyer_m2_app3,loyer_m2_mai,n_T2,n_T3,n_T4
+paris,25103,0.0387,384800,543112,9602,12380,202000,347800,567006,890000,1303750,38.0,62.0,88.0,33.28,30.42,24.79,8592,5350,2559
+metropoles,212308,0.3269,223500,270992,3560,3165,111000,160000,218400,270000,320000,44.0,65.0,84.0,18.37,14.42,14.92,35799,55572,53958
+villes_moyennes,275505,0.4242,159500,195947,2500,2033,79538,119000,150000,182000,207425,44.0,67.0,87.0,13.96,10.56,10.85,37769,68243,73474
+rural,136511,0.2102,135000,176825,2857,1552,90000,121570,124000,150000,167295,40.0,69.0,90.0,12.25,8.86,8.96,12698,35744,35432

@@ -1,0 +1,354 @@
+## DPE retenus paris : 24620 (besoin imputé : 22%)
+## DPE retenus lyon : 30622 (besoin imputé : 33%)
+## DPE retenus grenoble : 10472 (besoin imputé : 34%)
+## DPE retenus angers : 5443 (besoin imputé : 16%)
+## DPE retenus creuse : 5617 (besoin imputé : 4%)
+## Recalage OLL/carte (gamma) : {'paris': 0.789, 'lyon': 0.758, 'grenoble': 0.837, 'angers': 0.795, 'creuse': 0.795}
+
+## SYNTHESE par ville et scénario (alpha = 0.3)
+ville|scenario|n|part dépassant (plafond)|part dépassant (plafond neutre, sans énergie)|baisse moyenne tous €/mois|baisse moy. concernés|baisse neutre
+paris|bas|24620|8.4%|8.7%|25|291|25
+lyon|bas|30622|6.7%|6.9%|7|109|7
+grenoble|bas|10472|7.8%|8.0%|8|104|8
+angers|bas|5443|6.8%|7.0%|7|95|7
+creuse-appartement|bas|1479|7.1%|5.8%|5|68|3
+creuse-maison|bas|4138|11.4%|8.9%|12|108|8
+paris|central|24620|22.1%|22.2%|77|348|77
+lyon|central|30622|19.8%|19.5%|26|132|25
+grenoble|central|10472|20.9%|20.5%|27|128|26
+angers|central|5443|19.9%|19.6%|23|117|23
+creuse-appartement|central|1479|20.9%|18.4%|18|86|13
+creuse-maison|central|4138|26.9%|22.8%|43|160|31
+paris|haut|24620|37.8%|37.8%|163|433|162
+lyon|haut|30622|35.6%|35.3%|60|169|58
+grenoble|haut|10472|36.2%|35.6%|59|163|56
+angers|haut|5443|35.7%|35.2%|54|151|51
+creuse-appartement|haut|1479|36.8%|35.5%|43|116|33
+creuse-maison|haut|4138|41.8%|38.7%|95|228|72
+
+## SYNTHESE sans recalage (carte des loyers brute : annonces, charges comprises ; central)
+paris|part dépassant 22.1%|baisse tous 97|baisse concernés 440
+lyon|part dépassant 19.6%|baisse tous 34|baisse concernés 173
+grenoble|part dépassant 20.7%|baisse tous 31|baisse concernés 152
+angers|part dépassant 19.7%|baisse tous 29|baisse concernés 147
+creuse-appartement|part dépassant 20.0%|baisse tous 20|baisse concernés 101
+creuse-maison|part dépassant 25.5%|baisse tous 48|baisse concernés 188
+
+## ÉCART loyer+énergie (G moins D, €/mois), avant -> après, par scénario
+bas | paris T2: -52->-46 ; paris T3: -74->-64 ; lyon T2: +18->+12 ; lyon T3: +1->+1 ; grenoble T2: +10->+10 ; grenoble T3: +30->+30 ; angers T2: +9->+8 ; creuse-appartement T2: +44->+42 ; creuse-appartement T3: +126->+111 ; creuse-maison T2: +66->+65 ; creuse-maison T3: +79->+76
+central | paris T2: +19->+17 ; paris T3: +30->+27 ; lyon T2: +65->+48 ; lyon T3: +61->+41 ; grenoble T2: +52->+40 ; grenoble T3: +89->+64 ; angers T2: +50->+35 ; creuse-appartement T2: +77->+57 ; creuse-appartement T3: +177->+116 ; creuse-maison T2: +109->+90 ; creuse-maison T3: +129->+104
+haut | paris T2: +100->+56 ; paris T3: +151->+82 ; lyon T2: +122->+63 ; lyon T3: +135->+53 ; grenoble T2: +102->+47 ; grenoble T3: +162->+68 ; angers T2: +101->+39 ; creuse-appartement T2: +120->+59 ; creuse-appartement T3: +247->+108 ; creuse-maison T2: +164->+100 ; creuse-maison T3: +195->+116
+
+## PARAMETRES CALIBRES (central, k = 1,2, alpha = 0,3) : base par taille (€/mois), v (€/m²/mois), droite de marché recalée (a €/mois, v_marché €/m²)
+paris: v = 27.10 (moyenne de 20 arrondissements ; v de 20.7 à 33.0) ; bases : studio 291, T2 323, T3 357, T4 403, T5+ 536 ; marché a = 194, pente = 22.58
+lyon: v = 10.22 (moyenne de 9 arrondissements ; v de 8.4 à 12.1) ; bases : studio 310, T2 344, T3 374, T4 409, T5+ 503 ; marché a = 224, pente = 8.52
+grenoble: v = 8.58 ; bases : studio 302, T2 335, T3 363, T4 388, T5+ 508 ; marché a = 220, pente = 7.15
+angers: v = 8.76 ; bases : studio 305, T2 327, T3 349, T4 384, T5+ 473 ; marché a = 217, pente = 7.30
+creuse-appartement: v = 3.68 ; bases : studio 286, T2 314, T3 369, T4 424, T5+ 558 ; marché a = 196, pente = 3.07
+creuse-maison: v = 3.18 ; bases : studio 390, T2 466, T3 527, T4 594, T5+ 736 ; marché a = 277, pente = 2.65
+
+## PARIS (central) par classe
+classe|n|part|besoin kWh/m²|énergie réelle €/mois|déduction €/mois|plafond|loyer médian marché|% dépassant|dont neutre|baisse moy. (tous)|baisse (concernés)|marge hausse|loyer+énergie avant|après
+A|5|0.0%|39|45|59|2446|2049|27.2%|32.1%|192|708|396|2219|2026
+B|116|0.5%|30|60|65|2401|1986|26.1%|30.5%|159|608|415|2154|1995
+C|4163|16.9%|56|73|73|1727|1415|22.8%|26.3%|95|416|312|1556|1461
+D|7360|29.9%|97|108|102|1658|1367|22.6%|24.3%|91|401|291|1539|1448
+E|7661|31.1%|148|131|123|1466|1207|21.9%|21.4%|72|328|258|1390|1318
+F|3584|14.6%|200|142|132|1233|1013|20.8%|18.2%|52|252|220|1194|1142
+G|1731|7.0%|298|161|150|1011|842|21.6%|15.0%|42|194|169|1031|990
+classes : écart plafond − plafond neutre (€/mois) ; part des logements à écart ≤ −50 €/mois
+  A: +81 / 0% ; B: +87 / 0% ; C: +46 / 0% ; D: +17 / 2% ; E: -13 / 10% ; F: -33 / 20% ; G: -64 / 52%
+par taille
+studio|5713|plafond 727|médian 594|dépassant 16.5% (neutre 16.8%)|baisse conc. 91
+T2|8154|plafond 1136|médian 930|dépassant 21.1% (neutre 21.2%)|baisse conc. 181
+T3|6280|plafond 1669|médian 1376|dépassant 22.9% (neutre 22.9%)|baisse conc. 285
+T4|3345|plafond 2467|médian 2046|dépassant 30.1% (neutre 30.2%)|baisse conc. 678
+T5+|1128|plafond 4370|médian 3612|dépassant 29.6% (neutre 29.9%)|baisse conc. 1206
+écart loyer+énergie (G moins D, €/mois), avant -> après, par taille
+  T2 : +19 -> +17  (A-G, n_G=621)
+  T3 : +30 -> +27  (A-G, n_G=233)
+
+## LYON (central) par classe
+classe|n|part|besoin kWh/m²|énergie réelle €/mois|déduction €/mois|plafond|loyer médian marché|% dépassant|dont neutre|baisse moy. (tous)|baisse (concernés)|marge hausse|loyer+énergie avant|après
+A|78|0.3%|21|38|41|1114|897|18.4%|27.4%|39|210|217|967|928
+B|1841|6.0%|29|38|40|757|620|18.2%|23.7%|22|122|137|676|653
+C|12620|41.2%|47|62|60|775|633|17.7%|21.0%|23|129|142|713|691
+D|9520|31.1%|94|109|102|820|687|20.3%|19.7%|30|147|132|817|787
+E|4638|15.1%|147|133|124|723|618|21.6%|16.2%|26|123|105|767|741
+F|1379|4.5%|202|169|157|678|597|25.7%|13.5%|30|117|80|781|751
+G|546|1.8%|296|193|181|568|525|32.5%|10.6%|34|104|50|729|695
+classes : écart plafond − plafond neutre (€/mois) ; part des logements à écart ≤ −50 €/mois
+  A: +79 / 0% ; B: +35 / 0% ; C: +23 / 0% ; D: -5 / 7% ; E: -34 / 21% ; F: -69 / 55% ; G: -102 / 84%
+par taille
+studio|8109|plafond 443|médian 371|dépassant 18.7% (neutre 18.7%)|baisse conc. 54
+T2|6668|plafond 635|médian 527|dépassant 15.3% (neutre 14.9%)|baisse conc. 66
+T3|9409|plafond 841|médian 700|dépassant 18.5% (neutre 18.0%)|baisse conc. 102
+T4|5395|plafond 1128|médian 943|dépassant 27.7% (neutre 27.5%)|baisse conc. 243
+T5+|1041|plafond 1763|médian 1472|dépassant 27.2% (neutre 27.4%)|baisse conc. 386
+écart loyer+énergie (G moins D, €/mois), avant -> après, par taille
+  T2 : +65 -> +48  (A-G, n_G=227)
+  T3 : +61 -> +41  (A-G, n_G=153)
+
+## GRENOBLE (central) par classe
+classe|n|part|besoin kWh/m²|énergie réelle €/mois|déduction €/mois|plafond|loyer médian marché|% dépassant|dont neutre|baisse moy. (tous)|baisse (concernés)|marge hausse|loyer+énergie avant|après
+A|150|1.4%|20|37|40|923|741|17.9%|27.3%|30|165|182|803|773
+B|1351|12.9%|35|51|54|862|699|19.2%|25.9%|30|157|163|774|744
+C|3951|37.7%|53|61|62|695|568|17.5%|21.1%|20|115|127|645|625
+D|3140|30.0%|104|117|114|746|636|22.8%|20.3%|32|141|110|772|740
+E|1275|12.2%|143|138|128|655|568|23.7%|16.4%|27|115|87|720|693
+F|413|3.9%|204|166|158|585|529|28.8%|13.6%|32|112|58|709|677
+G|192|1.8%|292|171|160|477|446|35.5%|10.5%|28|79|34|626|598
+classes : écart plafond − plafond neutre (€/mois) ; part des logements à écart ≤ −50 €/mois
+  A: +68 / 0% ; B: +48 / 0% ; C: +20 / 0% ; D: -17 / 17% ; E: -40 / 28% ; F: -76 / 56% ; G: -93 / 80%
+par taille
+studio|2391|plafond 424|médian 355|dépassant 18.6% (neutre 18.6%)|baisse conc. 51
+T2|1895|plafond 572|médian 475|dépassant 15.6% (neutre 15.1%)|baisse conc. 59
+T3|3384|plafond 763|médian 638|dépassant 19.2% (neutre 18.5%)|baisse conc. 94
+T4|2485|plafond 978|médian 823|dépassant 28.5% (neutre 28.2%)|baisse conc. 214
+T5+|317|plafond 1410|médian 1176|dépassant 27.5% (neutre 27.4%)|baisse conc. 313
+écart loyer+énergie (G moins D, €/mois), avant -> après, par taille
+  T2 : +52 -> +40  (A-G, n_G=63)
+  T3 : +89 -> +64  (A-G, n_G=56)
+
+## ANGERS (central) par classe
+classe|n|part|besoin kWh/m²|énergie réelle €/mois|déduction €/mois|plafond|loyer médian marché|% dépassant|dont neutre|baisse moy. (tous)|baisse (concernés)|marge hausse|loyer+énergie avant|après
+A|20|0.4%|19|27|28|864|691|15.0%|25.1%|19|125|174|736|718
+B|235|4.3%|36|55|57|841|691|18.0%|23.8%|23|130|150|765|741
+C|2651|48.7%|51|66|65|753|617|17.6%|21.1%|22|125|137|700|678
+D|1543|28.3%|92|100|94|689|584|20.9%|19.2%|25|119|105|700|675
+E|701|12.9%|141|121|113|606|525|23.1%|15.9%|24|103|80|660|636
+F|208|3.8%|198|143|134|534|479|27.3%|13.2%|26|96|56|632|606
+G|85|1.6%|293|152|145|445|416|34.1%|10.7%|29|84|37|576|547
+classes : écart plafond − plafond neutre (€/mois) ; part des logements à écart ≤ −50 €/mois
+  A: +67 / 0% ; B: +36 / 0% ; C: +21 / 0% ; D: -12 / 8% ; E: -38 / 28% ; F: -65 / 47% ; G: -85 / 61%
+par taille
+studio|1131|plafond 432|médian 359|dépassant 17.8% (neutre 17.7%)|baisse conc. 52
+T2|1293|plafond 572|médian 475|dépassant 15.7% (neutre 15.3%)|baisse conc. 59
+T3|1900|plafond 769|médian 644|dépassant 19.2% (neutre 18.8%)|baisse conc. 94
+T4|994|plafond 993|médian 832|dépassant 28.0% (neutre 27.7%)|baisse conc. 215
+T5+|125|plafond 1376|médian 1149|dépassant 27.7% (neutre 27.4%)|baisse conc. 300
+écart loyer+énergie (G moins D, €/mois), avant -> après, par taille
+  T2 : +50 -> +35  (A-G, n_G=28)
+
+## CREUSE-APPARTEMENT (central) par classe
+classe|n|part|besoin kWh/m²|énergie réelle €/mois|déduction €/mois|plafond|loyer médian marché|% dépassant|dont neutre|baisse moy. (tous)|baisse (concernés)|marge hausse|loyer+énergie avant|après
+A|6|0.4%|36|58|60|765|518|7.8%|28.6%|9|112|248|596|588
+B|19|1.3%|50|59|69|592|428|9.5%|25.7%|9|91|164|502|493
+C|268|18.1%|57|68|68|466|353|11.1%|20.8%|7|61|113|431|424
+D|532|36.0%|91|109|101|463|364|14.1%|19.6%|10|69|99|482|472
+E|336|22.7%|134|144|131|429|354|19.6%|17.3%|14|73|75|508|494
+F|203|13.7%|196|209|192|405|367|33.2%|15.8%|28|84|41|587|559
+G|115|7.8%|293|304|282|317|363|60.0%|13.7%|79|131|11|678|599
+classes : écart plafond − plafond neutre (€/mois) ; part des logements à écart ≤ −50 €/mois
+  A: +168 / 0% ; B: +93 / 0% ; C: +47 / 0% ; D: +26 / 1% ; E: -5 / 8% ; F: -54 / 43% ; G: -146 / 81%
+par taille
+studio|208|plafond 310|médian 256|dépassant 17.3% (neutre 16.8%)|baisse conc. 37
+T2|397|plafond 367|médian 303|dépassant 16.1% (neutre 14.3%)|baisse conc. 41
+T3|480|plafond 444|médian 365|dépassant 20.3% (neutre 16.5%)|baisse conc. 68
+T4|328|plafond 542|médian 446|dépassant 28.4% (neutre 25.7%)|baisse conc. 129
+T5+|66|plafond 730|médian 598|dépassant 27.5% (neutre 25.5%)|baisse conc. 225
+écart loyer+énergie (G moins D, €/mois), avant -> après, par taille
+  T2 : +77 -> +57  (A-G, n_G=26)
+  T3 : +177 -> +116  (A-G, n_G=39)
+
+## CREUSE-MAISON (central) par classe
+classe|n|part|besoin kWh/m²|énergie réelle €/mois|déduction €/mois|plafond|loyer médian marché|% dépassant|dont neutre|baisse moy. (tous)|baisse (concernés)|marge hausse|loyer+énergie avant|après
+A|40|1.0%|47|59|85|979|628|6.9%|31.3%|10|147|352|715|705
+B|83|2.0%|75|91|126|908|604|8.9%|30.2%|13|143|305|722|709
+C|361|8.7%|101|151|181|851|596|11.8%|27.4%|18|152|255|773|755
+D|902|21.8%|129|211|217|778|570|14.7%|26.0%|22|147|208|806|784
+E|845|20.4%|171|276|274|710|555|19.6%|23.4%|30|151|158|854|824
+F|860|20.8%|230|349|349|629|538|29.3%|21.1%|46|157|99|910|865
+G|1047|25.3%|321|442|436|503|507|48.8%|18.4%|82|168|35|970|888
+classes : écart plafond − plafond neutre (€/mois) ; part des logements à écart ≤ −50 €/mois
+  A: +255 / 0% ; B: +205 / 0% ; C: +143 / 1% ; D: +93 / 3% ; E: +31 / 10% ; F: -44 / 37% ; G: -145 / 83%
+par taille
+studio|6|plafond 397|médian 325|dépassant 16.2% (neutre 16.0%)|baisse conc. 46
+T2|91|plafond 454|médian 366|dépassant 16.4% (neutre 11.6%)|baisse conc. 55
+T3|590|plafond 521|médian 419|dépassant 19.4% (neutre 14.1%)|baisse conc. 73
+T4|1804|plafond 620|médian 503|dépassant 28.1% (neutre 24.4%)|baisse conc. 143
+T5+|1647|plafond 803|médian 654|dépassant 29.0% (neutre 24.7%)|baisse conc. 202
+écart loyer+énergie (G moins D, €/mois), avant -> après, par taille
+  T2 : +109 -> +90  (A-G, n_G=32)
+  T3 : +129 -> +104  (A-G, n_G=213)
+
+## VARIANTES alpha (central) : part dépassant (neutre déduit) par classe G / F / E / D / A-C, et dispersion des plafonds entre énergies
+alpha=1.0|paris|G:+7%/-70€|F:+3%/-39€|E:+1%/-15€|D:-2%/+19€|C:-4%/+54€|tous 22.1%
+alpha=1.0|lyon|G:+24%/-109€|F:+13%/-75€|E:+6%/-38€|D:+1%/-6€|C:-4%/+25€|tous 19.8%
+alpha=1.0|grenoble|G:+28%/-100€|F:+17%/-83€|E:+9%/-48€|D:+3%/-18€|C:-4%/+22€|tous 20.9%
+alpha=1.0|angers|G:+25%/-89€|F:+15%/-70€|E:+8%/-42€|D:+2%/-14€|C:-4%/+24€|tous 20.0%
+alpha=1.0|creuse-appartement|G:+51%/-158€|F:+20%/-60€|E:+3%/-8€|D:-6%/+28€|C:-11%/+55€|tous 21.4%
+alpha=1.0|creuse-maison|G:+33%/-159€|F:+9%/-48€|E:-4%/+28€|D:-12%/+100€|C:-18%/+174€|tous 27.3%
+alpha=0.5|paris|G:+7%/-66€|F:+3%/-35€|E:+1%/-13€|D:-2%/+18€|C:-4%/+48€|tous 22.1%
+alpha=0.5|lyon|G:+22%/-104€|F:+13%/-71€|E:+6%/-35€|D:+1%/-5€|C:-3%/+23€|tous 19.8%
+alpha=0.5|grenoble|G:+26%/-95€|F:+16%/-78€|E:+8%/-42€|D:+3%/-18€|C:-4%/+21€|tous 20.9%
+alpha=0.5|angers|G:+24%/-86€|F:+15%/-66€|E:+7%/-39€|D:+2%/-12€|C:-4%/+22€|tous 19.9%
+alpha=0.5|creuse-appartement|G:+48%/-149€|F:+18%/-56€|E:+2%/-5€|D:-6%/+27€|C:-10%/+49€|tous 21.0%
+alpha=0.5|creuse-maison|G:+31%/-149€|F:+8%/-45€|E:-4%/+31€|D:-12%/+95€|C:-17%/+152€|tous 27.0%
+alpha=0.3|paris|G:+7%/-64€|F:+3%/-33€|E:+1%/-13€|D:-2%/+17€|C:-3%/+46€|tous 22.1%
+alpha=0.3|lyon|G:+22%/-102€|F:+12%/-69€|E:+5%/-34€|D:+1%/-5€|C:-3%/+23€|tous 19.8%
+alpha=0.3|grenoble|G:+25%/-93€|F:+15%/-76€|E:+7%/-40€|D:+3%/-17€|C:-4%/+20€|tous 20.9%
+alpha=0.3|angers|G:+23%/-85€|F:+14%/-65€|E:+7%/-38€|D:+2%/-12€|C:-4%/+21€|tous 19.9%
+alpha=0.3|creuse-appartement|G:+46%/-146€|F:+17%/-54€|E:+2%/-5€|D:-5%/+26€|C:-10%/+47€|tous 20.9%
+alpha=0.3|creuse-maison|G:+30%/-145€|F:+8%/-44€|E:-4%/+31€|D:-11%/+93€|C:-16%/+143€|tous 26.9%
+alpha=0.0|paris|G:+6%/-62€|F:+2%/-31€|E:+1%/-12€|D:-2%/+17€|C:-3%/+43€|tous 22.1%
+alpha=0.0|lyon|G:+21%/-99€|F:+12%/-66€|E:+5%/-32€|D:+1%/-5€|C:-3%/+22€|tous 19.8%
+alpha=0.0|grenoble|G:+24%/-89€|F:+14%/-73€|E:+7%/-37€|D:+3%/-17€|C:-3%/+20€|tous 20.9%
+alpha=0.0|angers|G:+23%/-83€|F:+14%/-63€|E:+7%/-36€|D:+2%/-11€|C:-3%/+20€|tous 19.9%
+alpha=0.0|creuse-appartement|G:+44%/-141€|F:+16%/-52€|E:+2%/-3€|D:-5%/+26€|C:-9%/+43€|tous 20.8%
+alpha=0.0|creuse-maison|G:+29%/-139€|F:+8%/-42€|E:-4%/+33€|D:-10%/+90€|C:-14%/+129€|tous 27.0%
+
+## ÉQUIPEMENT : à classe et taille égales, plafond moyen des logements chauffés à l'électricité moins celui des logements chauffés au gaz (€/mois) ; besoin moyen kWh/m²
+alpha=1.0: paris-E: +35 (n 3395/2711, besoin 132/149) ; paris-F: +34 (n 1750/1551, besoin 188/215) ; lyon-E: +27 (n 1903/2222, besoin 126/156) ; lyon-F: +61 (n 741/552, besoin 181/229) ; grenoble-E: +46 (n 645/479, besoin 132/155) ; grenoble-F: +54 (n 243/134, besoin 184/229) ; angers-E: +40 (n 380/269, besoin 129/155) ; angers-F: +61 (n 112/82, besoin 187/209)
+alpha=0.5: paris-E: +30 (n 3395/2711, besoin 132/149) ; paris-F: +30 (n 1750/1551, besoin 188/215) ; lyon-E: +26 (n 1903/2222, besoin 126/156) ; lyon-F: +59 (n 741/552, besoin 181/229) ; grenoble-E: +38 (n 645/479, besoin 132/155) ; grenoble-F: +51 (n 243/134, besoin 184/229) ; angers-E: +37 (n 380/269, besoin 129/155) ; angers-F: +57 (n 112/82, besoin 187/209)
+alpha=0.3: paris-E: +28 (n 3395/2711, besoin 132/149) ; paris-F: +29 (n 1750/1551, besoin 188/215) ; lyon-E: +25 (n 1903/2222, besoin 126/156) ; lyon-F: +58 (n 741/552, besoin 181/229) ; grenoble-E: +35 (n 645/479, besoin 132/155) ; grenoble-F: +50 (n 243/134, besoin 184/229) ; angers-E: +36 (n 380/269, besoin 129/155) ; angers-F: +55 (n 112/82, besoin 187/209)
+alpha=0.0: paris-E: +24 (n 3395/2711, besoin 132/149) ; paris-F: +26 (n 1750/1551, besoin 188/215) ; lyon-E: +25 (n 1903/2222, besoin 126/156) ; lyon-F: +57 (n 741/552, besoin 181/229) ; grenoble-E: +30 (n 645/479, besoin 132/155) ; grenoble-F: +48 (n 243/134, besoin 184/229) ; angers-E: +35 (n 380/269, besoin 129/155) ; angers-F: +53 (n 112/82, besoin 187/209)
+
+## RECOUPEMENT carte des loyers (annonces, charges comprises) / observatoires locaux des loyers (parc en cours, hors charges)
+ville|pièces|surface OLL|loyer médian OLL €/mois|droite de marché (carte) à cette surface, moyenne des DPE à ±4 m²|rapport carte/OLL|sigma OLL ln(D9/D1)/2,563 ou ln(Q3/Q1)/1,349
+paris|Appart 1P|25|780|938 (n 3760)|1.20|0.21
+paris|Appart 2P|43|1105|1398 (n 3244)|1.27|0.25
+paris|Appart 3P|64|1586|1998 (n 1599)|1.26|0.26
+paris|Appart 4P+|101|2286|3082 (n 449)|1.35|0.36
+lyon|Appart 1P|31|500|642 (n 2714)|1.28|0.21
+lyon|Appart 2P|47|632|811 (n 3675)|1.28|0.18
+lyon|Appart 3P|67|787|1031 (n 3208)|1.31|0.20
+lyon|Appart 4P+|92|945|1330 (n 915)|1.41|0.32
+grenoble|Appart 1P|29|424|512 (n 842)|1.21|0.20
+grenoble|Appart 2P|46|569|658 (n 952)|1.16|0.17
+grenoble|Appart 3P|66|700|828 (n 1427)|1.18|0.19
+grenoble|Appart 4P+|88|817|1010 (n 469)|1.24|0.29
+
+## SENSIBILITÉ (prix central, primes H9) : part des logements dont le loyer dépasse le plafond / baisse moyenne €/mois (tous)
+k|sigma x|paris|lyon|grenoble|angers|creuse-appartement|creuse-maison
+1.1|0.8|29% / 77|29% / 30|30% / 30|29% / 27|29% / 21|34% / 48
+1.1|1.0|33% / 114|33% / 43|34% / 44|33% / 39|32% / 28|36% / 61
+1.1|1.2|36% / 155|35% / 59|36% / 59|36% / 53|35% / 36|38% / 77
+1.2|0.8|17% / 45|15% / 15|16% / 16|15% / 13|17% / 13|24% / 31
+1.2|1.0|22% / 77|20% / 26|21% / 27|20% / 23|21% / 18|27% / 43
+1.2|1.2|26% / 114|24% / 39|25% / 40|24% / 35|24% / 25|30% / 58
+1.3|0.8|9% / 26|7% / 7|8% / 8|7% / 7|9% / 7|16% / 19
+1.3|1.0|14% / 52|11% / 15|12% / 16|11% / 14|13% / 11|19% / 30
+1.3|1.2|18% / 84|15% / 26|16% / 27|15% / 23|16% / 17|23% / 43
+1.5|0.8|3% / 9|1% / 2|2% / 2|1% / 2|3% / 3|6% / 7
+1.5|1.0|6% / 23|3% / 6|4% / 6|3% / 5|5% / 5|9% / 13
+1.5|1.2|9% / 46|6% / 12|7% / 12|6% / 10|7% / 8|12% / 23
+
+## EXEMPLES CONCRETS par ville (scénario central, alpha 0.3)
+ville|logement|surface m²|énergie chauffage|besoin kWh/m²|énergie réelle €/mois|déduction|plafond €/mois|loyer médian de marché (ce type et cette classe)|plafond moins marché|% de loyers au-dessus du plafond|n du groupe
+paris|studio classe E|20|electricite|136|56|53|721|587|+135|16%|1707
+paris|T2 classe C|33|electricite|44|43|39|1099|884|+215|19%|981
+paris|T2 classe G|33|electricite|262|147|136|1022|835|+188|21%|621
+paris|T3 classe B|61|electricite|18|57|54|1642|1362|+280|24%|47
+paris|T3 classe D|57|gaz|96|99|95|1875|1530|+345|22%|2030
+paris|T3 classe F|55|gaz|225|215|192|1358|1145|+214|26%|634
+paris|T4 classe C|83|reseau|63|92|100|2724|2243|+481|29%|1047
+paris|T4 classe G|74|gaz|329|394|363|1636|1457|+179|37%|62
+lyon|studio classe E|10|gaz|140|33|33|417|340|+76|16%|877
+lyon|T2 classe C|36|electricite|40|49|46|638|521|+117|13%|2039
+lyon|T2 classe G|34|electricite|252|146|134|535|463|+72|21%|227
+lyon|T3 classe B|54|reseau|43|51|55|831|673|+157|15%|461
+lyon|T3 classe D|58|gaz|104|116|109|877|729|+149|18%|3215
+lyon|T3 classe F|56|gaz|240|203|201|725|665|+60|33%|486
+lyon|T4 classe C|83|gaz|51|94|93|1144|934|+210|25%|2455
+lyon|T4 classe G|85|gaz|310|394|372|841|849|-8|51%|26
+grenoble|studio classe E|20|electricite|134|60|55|420|358|+63|21%|217
+grenoble|T2 classe C|35|electricite|42|46|43|590|473|+117|11%|551
+grenoble|T2 classe G|33|electricite|267|151|137|481|429|+52|26%|63
+grenoble|T3 classe B|63|reseau|34|51|55|849|691|+158|15%|441
+grenoble|T3 classe D|58|gaz|98|124|105|760|639|+121|19%|1103
+grenoble|T3 classe F|55|gaz|226|217|192|643|589|+53|33%|128
+grenoble|T4 classe C|82|gaz|41|93|88|1008|819|+189|24%|780
+angers|studio classe E|20|electricite|136|60|57|421|354|+67|19%|188
+angers|T2 classe C|35|electricite|41|47|44|590|477|+112|12%|492
+angers|T2 classe G|32|electricite|269|142|136|469|422|+47|28%|28
+angers|T3 classe B|61|reseau|40|54|57|826|682|+143|17%|147
+angers|T3 classe D|58|gaz|98|102|101|759|643|+116|20%|489
+angers|T3 classe F|55|gaz|215|196|170|659|593|+66|30%|42
+angers|T4 classe C|81|reseau|58|73|81|1012|816|+196|24%|590
+creuse-maison|T2 classe C|38|electricite|45|53|50|538|383|+155|3%|6
+creuse-maison|T2 classe G|40|electricite|361|210|208|387|361|+25|35%|32
+creuse-maison|T3 classe D|62|electricite|105|124|120|603|441|+162|6%|100
+creuse-maison|T3 classe F|58|electricite|194|179|170|541|413|+128|9%|127
+creuse-maison|T4 classe C|85|electricite|81|126|112|752|507|+245|9%|147
+creuse-maison|T4 classe G|89|fioul|319|373|392|485|482|+3|49%|451
+creuse-appartement|studio classe E|23|electricite|107|62|57|313|261|+52|18%|52
+creuse-appartement|T2 classe C|32|electricite|44|52|47|385|297|+88|8%|86
+creuse-appartement|T2 classe G|37|electricite|256|158|148|303|291|+11|42%|26
+creuse-appartement|T3 classe B|60|electricite|53|55|69|519|390|+129|8%|6
+creuse-appartement|T3 classe D|55|electricite|77|96|88|483|365|+118|8%|197
+creuse-appartement|T3 classe F|60|gaz|232|261|224|365|365|+1|50%|66
+creuse-appartement|T4 classe C|79|electricite|47|115|102|613|443|+170|14%|61
+creuse-appartement|T4 classe G|90|fioul|262|365|373|382|443|-61|69%|31
+
+### Grenoble, appartement G chauffé au gaz (calibrage refait pour alpha = 1.0)
+logement type : 51 m², classe G (EP/m² 431), chauffage Gaz naturel, besoin chauffage 297 kWh/m²/an, conso chauffage 384 kWh EF/m²/an, base 417 €, v 10.26 €/m²
+-- alpha = 1.0 (poids du coût réel de chauffage)
+cas|surface réelle|classe DPE estimée|énergie réelle €/mois|déduction €/mois|plafond (surface de référence figée)|gain de plafond €/mois|plafond si surface non figée|règle actuelle (loyer au m² × surface réelle) : variation €/mois|coût travaux €|retour simple (ans, sur le gain de plafond)|retour (surface non figée)
+sans travaux|51.4|G|239|239|705|+0|705|-0|0|jamais|jamais
+pompe à chaleur seule|51.4|D|110|110|834|+129|834|-0|4626|3.0|3.0
+isolation seule|49.3|E|143|143|802|+96|780|-18|8224|7.1|9.1
+isolation + pompe à chaleur|49.3|C|72|72|873|+167|852|-18|12850|6.4|7.3
+
+### Grenoble, appartement G chauffé au gaz (calibrage refait pour alpha = 0.5)
+logement type : 51 m², classe G (EP/m² 431), chauffage Gaz naturel, besoin chauffage 297 kWh/m²/an, conso chauffage 384 kWh EF/m²/an, base 415 €, v 10.26 €/m²
+-- alpha = 0.5 (poids du coût réel de chauffage)
+cas|surface réelle|classe DPE estimée|énergie réelle €/mois|déduction €/mois|plafond (surface de référence figée)|gain de plafond €/mois|plafond si surface non figée|règle actuelle (loyer au m² × surface réelle) : variation €/mois|coût travaux €|retour simple (ans, sur le gain de plafond)|retour (surface non figée)
+sans travaux|51.4|G|239|228|715|+0|715|-0|0|jamais|jamais
+pompe à chaleur seule|51.4|D|110|163|779|+65|779|-0|4626|6.0|6.0
+isolation seule|49.3|E|143|137|806|+91|785|-18|8224|7.5|9.8
+isolation + pompe à chaleur|49.3|C|72|101|841|+127|820|-18|12850|8.5|10.1
+
+### Grenoble, appartement G chauffé au gaz (calibrage refait pour alpha = 0.3)
+logement type : 51 m², classe G (EP/m² 431), chauffage Gaz naturel, besoin chauffage 297 kWh/m²/an, conso chauffage 384 kWh EF/m²/an, base 414 €, v 10.26 €/m²
+-- alpha = 0.3 (poids du coût réel de chauffage)
+cas|surface réelle|classe DPE estimée|énergie réelle €/mois|déduction €/mois|plafond (surface de référence figée)|gain de plafond €/mois|plafond si surface non figée|règle actuelle (loyer au m² × surface réelle) : variation €/mois|coût travaux €|retour simple (ans, sur le gain de plafond)|retour (surface non figée)
+sans travaux|51.4|G|239|223|718|+0|718|-0|0|jamais|jamais
+pompe à chaleur seule|51.4|D|110|184|757|+39|757|-0|4626|9.9|9.9
+isolation seule|49.3|E|143|134|807|+89|786|-18|8224|7.7|10.1
+isolation + pompe à chaleur|49.3|C|72|113|829|+110|808|-18|12850|9.7|12.0
+
+### Grenoble, appartement G chauffé au gaz (calibrage refait pour alpha = 0.0)
+logement type : 51 m², classe G (EP/m² 431), chauffage Gaz naturel, besoin chauffage 297 kWh/m²/an, conso chauffage 384 kWh EF/m²/an, base 413 €, v 10.26 €/m²
+-- alpha = 0.0 (poids du coût réel de chauffage)
+cas|surface réelle|classe DPE estimée|énergie réelle €/mois|déduction €/mois|plafond (surface de référence figée)|gain de plafond €/mois|plafond si surface non figée|règle actuelle (loyer au m² × surface réelle) : variation €/mois|coût travaux €|retour simple (ans, sur le gain de plafond)|retour (surface non figée)
+sans travaux|51.4|G|239|216|724|+0|724|-0|0|jamais|jamais
+pompe à chaleur seule|51.4|D|110|216|724|+0|724|-0|4626|jamais|jamais
+isolation seule|49.3|E|143|130|810|+86|789|-18|8224|8.0|10.6
+isolation + pompe à chaleur|49.3|C|72|130|810|+86|789|-18|12850|12.5|16.5
+
+### Creuse, maison G chauffée au fioul (calibrage refait pour alpha = 1.0)
+logement type : 99 m², classe G (EP/m² 392), chauffage Fioul domestique, besoin chauffage 310 kWh/m²/an, conso chauffage 344 kWh EF/m²/an, base 685 €, v 4.00 €/m²
+-- alpha = 1.0 (poids du coût réel de chauffage)
+cas|surface réelle|classe DPE estimée|énergie réelle €/mois|déduction €/mois|plafond (surface de référence figée)|gain de plafond €/mois|plafond si surface non figée|règle actuelle (loyer au m² × surface réelle) : variation €/mois|coût travaux €|retour simple (ans, sur le gain de plafond)|retour (surface non figée)
+sans travaux|98.9|F|382|382|699|+0|699|-0|0|jamais|jamais
+pompe à chaleur seule|98.9|D|213|213|868|+169|868|-0|8901|4.4|4.4
+isolation seule|94.9|D|230|230|851|+153|836|-13|15824|8.6|9.6
+isolation + pompe à chaleur|94.9|C|136|136|945|+246|929|-13|24725|8.4|8.9
+
+### Creuse, maison G chauffée au fioul (calibrage refait pour alpha = 0.5)
+logement type : 99 m², classe G (EP/m² 392), chauffage Fioul domestique, besoin chauffage 310 kWh/m²/an, conso chauffage 344 kWh EF/m²/an, base 681 €, v 4.00 €/m²
+-- alpha = 0.5 (poids du coût réel de chauffage)
+cas|surface réelle|classe DPE estimée|énergie réelle €/mois|déduction €/mois|plafond (surface de référence figée)|gain de plafond €/mois|plafond si surface non figée|règle actuelle (loyer au m² × surface réelle) : variation €/mois|coût travaux €|retour simple (ans, sur le gain de plafond)|retour (surface non figée)
+sans travaux|98.9|F|382|404|673|+0|673|-0|0|jamais|jamais
+pompe à chaleur seule|98.9|D|213|319|758|+85|758|-0|8901|8.8|8.8
+isolation seule|94.9|D|230|241|836|+163|820|-13|15824|8.1|9.0
+isolation + pompe à chaleur|94.9|C|136|195|883|+209|867|-13|24725|9.8|10.7
+
+### Creuse, maison G chauffée au fioul (calibrage refait pour alpha = 0.3)
+logement type : 99 m², classe G (EP/m² 392), chauffage Fioul domestique, besoin chauffage 310 kWh/m²/an, conso chauffage 344 kWh EF/m²/an, base 680 €, v 4.00 €/m²
+-- alpha = 0.3 (poids du coût réel de chauffage)
+cas|surface réelle|classe DPE estimée|énergie réelle €/mois|déduction €/mois|plafond (surface de référence figée)|gain de plafond €/mois|plafond si surface non figée|règle actuelle (loyer au m² × surface réelle) : variation €/mois|coût travaux €|retour simple (ans, sur le gain de plafond)|retour (surface non figée)
+sans travaux|98.9|F|382|413|663|+0|663|-0|0|jamais|jamais
+pompe à chaleur seule|98.9|D|213|362|714|+51|714|-0|8901|14.6|14.6
+isolation seule|94.9|D|230|246|830|+167|814|-13|15824|7.9|8.7
+isolation + pompe à chaleur|94.9|C|136|218|858|+195|842|-13|24725|10.6|11.5
+
+### Creuse, maison G chauffée au fioul (calibrage refait pour alpha = 0.0)
+logement type : 99 m², classe G (EP/m² 392), chauffage Fioul domestique, besoin chauffage 310 kWh/m²/an, conso chauffage 344 kWh EF/m²/an, base 678 €, v 4.00 €/m²
+-- alpha = 0.0 (poids du coût réel de chauffage)
+cas|surface réelle|classe DPE estimée|énergie réelle €/mois|déduction €/mois|plafond (surface de référence figée)|gain de plafond €/mois|plafond si surface non figée|règle actuelle (loyer au m² × surface réelle) : variation €/mois|coût travaux €|retour simple (ans, sur le gain de plafond)|retour (surface non figée)
+sans travaux|98.9|F|382|426|648|+0|648|-0|0|jamais|jamais
+pompe à chaleur seule|98.9|D|213|426|648|+0|648|-0|8901|jamais|jamais
+isolation seule|94.9|D|230|253|821|+172|805|-13|15824|7.6|8.4
+isolation + pompe à chaleur|94.9|C|136|253|821|+172|805|-13|24725|12.0|13.2

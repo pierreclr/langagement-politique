@@ -1,0 +1,27 @@
+# Hypothèses du modèle (methode.md, H1-H20). « Claude » = hypothèse de Claude sans source primaire directe. Consulté / fixé le 2026-10-25.
+hypothese,parametre,bas,central,haut,unite,origine,source_url,remarque
+H1,taux du prélèvement unique,0.5,0.5,0.5,taux,plan.md ch. 9 (auteur),,"IS de droit commun 25 % pour le crédit sur réserves anciennes"
+H2,part de plus-value latente dans les titres non cotés,0.35,0.5,0.65,part de la valeur,Claude,,"Aucune statistique du stock de bénéfices non distribués des holdings (V503) ; ⚠️ V516"
+H2,part de plus-value latente dans les titres cotés et OPC,0.2,0.3,0.4,part de la valeur,Claude,,⚠️ V516
+H2,part de plus-value latente dans l'assurance-vie,0.15,0.25,0.35,part de l'encours,Claude,,"Produits capitalisés sur des contrats souvent anciens ⚠️ V516"
+H2,part de plus-value latente dans les PEA,0.2,0.3,0.4,part de l'encours,Claude,,⚠️ V516
+H2,part de plus-value latente dans l'immobilier hors RP,0.3,0.4,0.5,part de la valeur,Claude,,⚠️ V516
+H3,rythme annuel de réalisation (non cotés / cotés / immobilier / AV / PEA),"0,03 / 0,06 / 0,03 / 0,05 / 0,06","0,04 / 0,08 / 0,035 / 0,07 / 0,08","0,06 / 0,10 / 0,045 / 0,09 / 0,10",part du stock par an,Claude,,"Ordre de grandeur : une transmission par génération (≈ 3 %/an) plus les ventes et rachats ⚠️ V517"
+H4,part des réalisations passant par une transmission (non cotés / cotés / immobilier / AV / PEA),,"0,4 / 0,3 / 0,5 / 0,35 / 0,2",,part,Claude,,⚠️ V517
+H5,part de l'immobilier des ménages hors résidence principale,0.3,0.35,0.4,part de 8 850 Md€,Claude,https://www.insee.fr/fr/statistiques/8661938,⚠️ V502
+H6,taux effectif actuel à la vente (non cotés / cotés / immobilier / AV / PEA),,"0,30 / 0,30 / 0,15 / 0,20 / 0,186",,taux sur la plus-value,Claude d'après le droit en vigueur,,"PFU 30 % (31,4 % depuis la LFSS 2026 sur certains revenus ⚠️ V514) ; immobilier : abattements pour durée ; AV : 7,5 % + 17,2 % après 8 ans et abattement ; PEA : prélèvements sociaux seuls ⚠️ V518"
+H7,taux effectif actuel à la transmission,,"0,07 (0,02 pour l'assurance-vie)",,taux sur la valeur,"DMTG 20,9 Md€ / 300 Md€ (CAE, PLF) ; 990 I : 0,458 / 44 Md€",https://www.cae-eco.fr/static/pdf/cae-note069s.pdf,Millésimes mélangés (2019-2024) ⚠️ V518
+H8,crédit d'IS sur les réserves anciennes,,0.3333,,taux sur la distribution,"Calcul : (0,50 − 0,25) / (1 − 0,25)",,"Équivaut à imposer à 50 % le bénéfice avant IS, comme le système estonien d'avant 2000 imputait l'impôt sur dividendes sur l'impôt sur les bénéfices"
+H9,réductions d'impôt restant dues après 2028 (Pinel),4,5.1,6.5,Md€,"Claude d'après Cour des comptes (10-12 Md€ jusqu'en 2038) et PLF 2026 (1,35 Md€ en 2026)",https://www.ccomptes.fr/fr/publications/laide-fiscale-linvestissement-locatif-pinel,"Décroissance linéaire supposée de 1,35 Md€ (2026) à 0 (2038) ⚠️ V506"
+H9,multiplicateur pour les autres réductions en cours,1.2,1.5,2,×,Claude,,"Girardin, Malraux, Denormandie, FIP/FCPI, SOFICA… non chiffrés ⚠️ V506"
+H10,part des donations avec réserve d'usufruit,0.15,0.3,0.45,part du flux de donations (150 Md€/an),Claude,,⚠️ V519
+H11,valeur de l'usufruit (barème art. 669) et durée restante,,"40 % ; 15 ans","10 ans (bas) ; 20 ans (haut)",,"Barème art. 669 CGI (donateur de 61 à 70 ans : usufruit 40 %) ; durée : Claude",https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006310173,barème et lien relus sur Légifrance le 31/10/2026 (V2529)
+H12,flux de grandes transmissions susceptibles d'être anticipées,75,75,75,Md€/an,Claude (≈ 25 % du flux CAE),,⚠️ V520
+H13,années de flux avancées entre l'annonce et l'entrée en vigueur,1,2,4,années,Claude,,"Délai d'une nouvelle Constitution (référendum puis lois) : 1 à 3 ans ⚠️ V520"
+H14,fuite résiduelle avec règle anti-abus datée de l'annonce,0.2,0.2,0.2,part,Claude,,"Montages antérieurs à l'annonce, contentieux ⚠️ V520"
+H15,adhésion à l'option de purge,0.1,0.25,0.4,part de la plus-value destinée à la vente,Claude,,"Les adhérents sont plutôt ceux qui allaient vendre vite (sélection, facteur 2 en sensibilité) ⚠️ V521"
+H16,taux de purge,,"15,5 % (liquide) ; 8 % (illiquide)",,taux sur la plus-value,26 U.S.C. § 965,https://www.law.cornell.edu/uscode/text/26/965,"Payé en 3 annuités (Italie) ; le § 965 étale sur 8 ans"
+H17,taux d'actualisation et horizon,,"3 % ; 30 ans",,,Claude (cf. V421),,
+H18,probabilité de censure par niveau de risque,"très faible 1 %","faible 5 % ; moyen 25 %","élevé 60 %",probabilité,Claude,,"Pure convention pour ordonner les risques ; ce n'est pas un avis juridique ⚠️ V522"
+H19,niveaux de risque par mesure,,voir MESURES dans modele.js,,,Claude d'après jurisprudence.csv,,⚠️ V522
+H20,retraites et régimes spéciaux,,non chiffré ici,,,renvoi à T13 (modeles/retraites),,

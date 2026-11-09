@@ -1,0 +1,10 @@
+# Paramètres du modèle (miroir exact des DEFAUTS de modele.js ; le test vérifie l'égalité). Hypothèses numérotées : voir methode.md. Bases : sources/recherche-donnees-simulateur.md § 3.4 (2024, Md€).
+id,nom,base,partTop,tau0Top,tau0TopCharge,tau0Reste,mobilite,eTop_bas,eTop_central,eTop_haut,eReste_bas,eReste_central,eReste_haut,recup_bas,recup_central,recup_haut,ecart_bas,ecart_central,ecart_haut,groupe,remarque
+salaires,Salaires au coût employeur,1466.5,0.07,0.61,0.61,0.45,1,0.12,0.25,0.40,0,0,0,0,0,0,0,0,0,A,"H3 H5 H6 : réaction du gros des salariés laissée à T4 (curseur masse salariale) ; ETI du haut = SSG 0,12-0,40"
+independants,Revenu des indépendants,121.9,0.15,0.55,0.55,0.45,1,0.12,0.25,0.40,0.05,0.10,0.20,0,0,0,0,0,0,A,H3 H5 H6
+loyers,Loyers réels nets,40.9,0.20,0.59,0.59,0.45,0,0.05,0.10,0.20,0.05,0.10,0.20,0,0,0,0,0,0,A,"H7 : immeuble imposé là où il se trouve, mobilité nulle"
+interets,Intérêts reçus,71.7,0.15,0.34,0.34,0.15,0.8,0.20,0.40,0.80,0.20,0.40,0.80,0,0,0,0,0,0,A,"H8 : livrets exonérés aujourd'hui, report vers logement et bénéfices réinvestis"
+dividendes,Dividendes reçus,74.9,0.85,0.34,0.505,0.30,0.75,0.50,1.00,2.00,0.50,1.00,2.00,0.5,0.3,0.1,0,0,0,A,"H9 H10 : rétention dans les sociétés (imposition à la distribution) ; charge totale actuelle avec IS 25 %"
+assurance_vie,Revenus de l'assurance-vie,67.5,0.20,0.30,0.30,0.247,0.8,0.20,0.40,0.80,0.20,0.40,0.80,0,0,0,0,0,0,A,H8
+plus_values,Plus-values réalisées,25.6,0.70,0.34,0.34,0.30,0.9,0.30,0.60,1.00,0.30,0.60,1.00,0.5,0.3,0.1,0,0,0,A,"H10 : effet de blocage, en partie récupéré à la transmission"
+transmissions,Transmissions (successions et donations),300,0.25,0.10,0.10,0.05,0.8,0.05,0.10,0.20,0.05,0.10,0.20,0,0,0,0.15,0.25,0.375,B,"H11 H12 : écart de déclaration CAE 35-40 % aujourd'hui"

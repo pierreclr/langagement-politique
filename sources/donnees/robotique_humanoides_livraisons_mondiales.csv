@@ -1,0 +1,12 @@
+# source: IFR WR2026 Service Robots, Omdia, UBS, BofA, SAG, Counterpoint, Morgan Stanley, Goldman Sachs ; unité: unités livrées/vendues ; date consultation: 2026-10-25
+# ATTENTION: périmètres hétérogènes (taille, R&D/éducation incluses ou non). Aucun chiffre audité mondial.
+periode,valeur,unite,statut,organisme,perimetre,source_url,note
+2025,7000,unités,estimation,IFR,"humanoïdes 'full-size' >140 cm, usages commerciaux/professionnels hors R&D et divertissement",https://ifr.org/ifr-press-releases/news/global-sales-of-professional-service-robots-surge-24-percent,"enquête fournisseurs (238 répondants), non extrapolée"
+2025,13000,unités,estimation,Omdia,"toutes tailles ; Agibot 5 100, Unitree 4 200, UBTech 1 000",https://technode.com/2026/01/09/chinas-agibot-leads-global-humanoid-robot-shipments-in-2025-omdia-says/,Unitree conteste (revendique >5 500)
+2025,18600,unités,estimation,UBS,non précisé,https://www.caixinglobal.com/2026-01-24/unitree-defends-robot-sales-as-rival-claims-market-crown-102407436.html,NON CONFIRMÉ (source secondaire)
+2025,20000,unités,estimation,Bank of America,non précisé ; Chine 85-90 %,https://voxbooster.com/blog/humanoid-robot-statistics-2026,NON CONFIRMÉ (source tertiaire)
+S1 2026,19100,unités,estimation,SAG,S1 2025: 5 100,https://eu.36kr.com/en/p/3982638611535750,NON CONFIRMÉ (source secondaire)
+S1 2026,22000,unités,estimation,Counterpoint Research,Agibot ~9 700,https://eu.36kr.com/en/p/3982638611535750,NON CONFIRMÉ (source secondaire)
+2035,1400000,unités,projection,Goldman Sachs (fév. 2024),"livraisons annuelles, scénario de base ; marché 38 Md$",https://www.goldmansachs.com/insights/articles/the-global-market-for-robots-could-reach-38-billion-by-2035,
+2035,13000000,unités (parc),projection,Morgan Stanley (2025),humanoïdes en service,https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/humanoid-robot-market-rising-adam-jonas-sheng-zhong,"chiffre 2035 via Barchart, non vérifié sur rapport"
+2050,1000000000,unités (parc),projection,Morgan Stanley (2025),~5 000 Md$ de marché,https://www.morganstanley.com/insights/podcasts/thoughts-on-the-market/humanoid-robot-market-rising-adam-jonas-sheng-zhong,

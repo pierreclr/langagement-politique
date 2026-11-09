@@ -1,0 +1,69 @@
+id_regle;code_fichier;num;objet
+R001;Code général des collectivités territoriales;L1111-2;libre administration, compétences des collectivités
+R002;Code général des collectivités territoriales;L1111-4;compétences partagées (culture, sport, tourisme, langues régionales, éducation populaire)
+R003;Code général des collectivités territoriales;L1111-9;chefs de file (région, département, commune)
+R004;Code général des collectivités territoriales;L1111-10;financements croisés
+R005;Code général des collectivités territoriales;L2121-29;clause générale de compétence de la commune
+R006;Code général des collectivités territoriales;L3211-1;compétences du conseil départemental
+R007;Code général des collectivités territoriales;L4221-1;compétences du conseil régional
+R008;Code général des collectivités territoriales;L5214-16;compétences obligatoires des communautés de communes
+R009;Code général des collectivités territoriales;L5216-5;compétences obligatoires des communautés d'agglomération
+R010;Code général des collectivités territoriales;L5215-20;compétences obligatoires des communautés urbaines
+R011;Code général des collectivités territoriales;L5217-2;compétences des métropoles
+R012;Code général des collectivités territoriales;L1511-2;aides aux entreprises : région seule compétente
+R013;Code général des collectivités territoriales;L4251-12;schéma régional de développement économique (SRDEII)
+R014;Code général des collectivités territoriales;L2224-13;collecte et traitement des déchets des ménages
+R015;Code général des collectivités territoriales;L2224-7-1;distribution d'eau potable
+R016;Code général des collectivités territoriales;L2224-8;assainissement
+R017;Code général des collectivités territoriales;L1424-1;services départementaux d'incendie et de secours
+R018;Code général des collectivités territoriales;L2212-2;police municipale (pouvoir du maire)
+R019;Code général des collectivités territoriales;L2122-32;maire officier d'état civil
+R020;Code général des collectivités territoriales;L1611-2-1;titres d'identité : dotation aux communes équipées
+R021;Code général des collectivités territoriales;L3211-1-1;département : solidarité territoriale
+R022;Code de l'action sociale et des familles;L121-1;département : action sociale, chef de file
+R023;Code de l'action sociale et des familles;L262-13;RSA : attribution par le président du conseil départemental
+R024;Code de l'action sociale et des familles;L262-15;RSA : instruction de la demande
+R025;Code de l'action sociale et des familles;L146-3;MDPH : groupement d'intérêt public départemental
+R026;Code de l'action sociale et des familles;L241-6;CDAPH : décisions handicap
+R027;Code de l'action sociale et des familles;L232-1;APA
+R028;Code de l'action sociale et des familles;L245-1;PCH
+R029;Code de l'action sociale et des familles;L221-1;aide sociale à l'enfance (département)
+R030;Code de l'action sociale et des familles;L123-5;CCAS
+R031;Code de la sécurité sociale;L821-1;AAH
+R032;Code de la construction et de l'habitation;L821-1;aides personnelles au logement (APL, ALF, ALS)
+R033;Code de la sécurité sociale;L521-1;allocations familiales
+R034;Code de la sécurité sociale;L841-1;prime d'activité
+R035;Code de l'éducation;L212-4;commune : écoles (charge)
+R036;Code de l'éducation;L131-5;inscription scolaire (maire)
+R037;Code de l'éducation;L213-2;département : collèges
+R038;Code de l'éducation;L214-6;région : lycées
+R039;Code de l'éducation;L531-1;bourses de collège
+R040;Code de l'éducation;L211-1;État : éducation, service public national
+R041;Code du patrimoine;L212-6;archives des collectivités territoriales
+R042;Code du patrimoine;L212-8;archives départementales
+R043;Code du patrimoine;L212-11;archives communales
+R044;Code de l'urbanisme;L422-1;autorité compétente pour le permis de construire
+R045;Code de l'urbanisme;L153-1;plan local d'urbanisme intercommunal
+R046;Code des transports;L1231-1;autorités organisatrices de la mobilité
+R047;Code des transports;L3111-1;région : transports non urbains
+R048;Code des transports;L3111-7;région : transports scolaires
+R049;Code de la voirie routière;L131-1;voirie départementale
+R050;Code de la voirie routière;L141-1;voirie communale
+R051;Code de la voirie routière;L121-1;voirie nationale
+R052;Code du travail;L6121-1;région : formation professionnelle
+R053;Code du travail;L5312-1;France Travail : missions
+R054;Code de la santé publique;L2112-1;PMI (département)
+R055;Code de la construction et de l'habitation;L302-1;programme local de l'habitat (EPCI)
+R056;Code de la construction et de l'habitation;L441-2-1;demande de logement social : enregistrement
+R057;Code électoral;L17;listes électorales (répertoire électoral unique)
+R058;Code civil;55;déclaration de naissance
+R059;Code général des collectivités territoriales;L2223-1;cimetières
+R060;Code de l'environnement;L211-7;GEMAPI
+R061;Code de l'environnement;L541-13;plan régional de prévention et de gestion des déchets
+R062;Code général des collectivités territoriales;L5211-17;transferts de compétences à l'EPCI
+R063;Code général des collectivités territoriales;L5212-1;syndicats de communes
+R064;Code de l'action sociale et des familles;L113-2;département : personnes âgées
+R065;Code général des collectivités territoriales;L1111-8;délégation de compétences entre collectivités
+R066;Code de la sécurité sociale;L161-17-1-2;répertoire de gestion des carrières unique (inter-régimes)
+R067;Code du travail;L1221-10;déclaration préalable à l'embauche
+R068;Code de commerce;L123-33;guichet unique des formalités d'entreprises

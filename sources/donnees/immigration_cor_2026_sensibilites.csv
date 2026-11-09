@@ -1,0 +1,14 @@
+# source: Conseil d'orientation des retraites, Rapport annuel juin 2026 (https://www.cor-retraites.fr/sites/default/files/2026-07/RA_2026_def_0.pdf), synthèse p.23 et partie 2 chap. 5 §1.3 ; date consultation: 2026-10-25
+# unite: points de PIB d'écart à l'horizon 2070 par rapport au scénario de référence (fécondité 1,45 ; solde migratoire +150 000/an ; productivité +0,7 %/an ; chômage 7 %)
+# lecture: valeur négative = dépenses de retraite plus faibles en part de PIB (favorable au solde) ; le COR indique que l'écart de solde est "quasiment à due concurrence"
+# limite: l'effet migratoire passe par le PIB (plus d'actifs en emploi) ; ⚠️ hypothèse de taux d'emploi des immigrés à vérifier dans l'annexe méthodologique (non lue)
+variante,hypothese,ecart_depenses_retraite_pts_PIB_2070,statut,source_url,note
+solde migratoire haut,+230000/an,-1.1,projection,https://www.cor-retraites.fr/sites/default/files/2026-07/RA_2026_def_0.pdf,"effet favorable rapide, qui s'estompe à long terme quand ces actifs partent à la retraite"
+solde migratoire bas,+70000/an,1.1,projection,https://www.cor-retraites.fr/sites/default/files/2026-07/RA_2026_def_0.pdf,
+fecondite basse,1.2 enfant/femme,1.0,projection,https://www.cor-retraites.fr/sites/default/files/2026-07/RA_2026_def_0.pdf,"sans effet notable avant le milieu des années 2040 ; écart 'de l'ordre de 1 point'"
+fecondite haute,1.7 enfant/femme,-1.0,projection,https://www.cor-retraites.fr/sites/default/files/2026-07/RA_2026_def_0.pdf,
+esperance de vie basse,gains ralentis,-1.0,projection,https://www.cor-retraites.fr/sites/default/files/2026-07/RA_2026_def_0.pdf,
+chomage 5 %,taux de chômage cible 5 %,-0.3,projection,https://www.cor-retraites.fr/sites/default/files/2026-07/RA_2026_def_0.pdf,
+chomage 10 %,taux de chômage cible 10 %,0.4,projection,https://www.cor-retraites.fr/sites/default/files/2026-07/RA_2026_def_0.pdf,
+productivite 1,0 %,gains de productivité horaire 1,0 %/an,-0.8,projection,https://www.cor-retraites.fr/sites/default/files/2026-07/RA_2026_def_0.pdf,"dépenses 14,5 % du PIB vs 15,3 % en référence"
+productivite 0,4 %,gains de productivité horaire 0,4 %/an,0.8,projection,https://www.cor-retraites.fr/sites/default/files/2026-07/RA_2026_def_0.pdf,"dépenses 16,1 % du PIB vs 15,3 % en référence"

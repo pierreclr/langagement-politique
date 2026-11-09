@@ -1,0 +1,37 @@
+# source: Conseil d'orientation des retraites, Rapport annuel « Évolutions et perspectives des retraites en France », juin 2026 ; scénario de référence (réglementation inchangée, réforme de 2023 suspendue) ; consulté 2026-10-25
+indicateur,valeur,unite,annee,perimetre,source,source_url,remarque
+depenses_retraite_pct_PIB,14.1,% du PIB,2025,Tous régimes,COR RA 2026 synthèse p. 7 (pdf p. 9),https://www.cor-retraites.fr/sites/default/files/2026-07/RA_2026_def_0.pdf,observé (provisoire)
+depenses_retraite_pct_PIB,14.2,% du PIB,2045,Tous régimes,COR RA 2026 synthèse p. 7,https://www.cor-retraites.fr/sites/default/files/2026-07/RA_2026_def_0.pdf,projection
+depenses_retraite_pct_PIB,15.3,% du PIB,2070,Tous régimes,COR RA 2026 synthèse p. 7,https://www.cor-retraites.fr/sites/default/files/2026-07/RA_2026_def_0.pdf,projection
+ressources_pct_PIB,13.9,% du PIB,2025,Tous régimes,COR RA 2026 synthèse p. 7,https://www.cor-retraites.fr/sites/default/files/2026-07/RA_2026_def_0.pdf,
+ressources_pct_PIB,12.9,% du PIB,2070,Tous régimes,COR RA 2026 synthèse p. 7,https://www.cor-retraites.fr/sites/default/files/2026-07/RA_2026_def_0.pdf,projection
+solde_pct_PIB,-0.2,% du PIB,2025,"Hors charges et produits financiers",COR RA 2026 synthèse p. 7,https://www.cor-retraites.fr/sites/default/files/2026-07/RA_2026_def_0.pdf,"−5,1 Md€"
+solde_pct_PIB,-0.2,% du PIB,2030,idem,COR RA 2026 synthèse p. 7,https://www.cor-retraites.fr/sites/default/files/2026-07/RA_2026_def_0.pdf,"−6,8 Md€ courants ; projection"
+solde_pct_PIB,-0.9,% du PIB,2045,idem,COR RA 2026 synthèse p. 7,https://www.cor-retraites.fr/sites/default/files/2026-07/RA_2026_def_0.pdf,projection
+solde_pct_PIB,-2.4,% du PIB,2070,idem,COR RA 2026 synthèse p. 7,https://www.cor-retraites.fr/sites/default/files/2026-07/RA_2026_def_0.pdf,projection
+cotisants,30.6,millions,2025,Tous régimes,COR RA 2026 p. 73 (pdf p. 75),https://www.cor-retraites.fr/sites/default/files/2026-07/RA_2026_def_0.pdf,estimation
+cotisants,28.9,millions,2070,Tous régimes,COR RA 2026 p. 73,https://www.cor-retraites.fr/sites/default/files/2026-07/RA_2026_def_0.pdf,projection
+retraites_droit_direct,17.4,millions,2025,Tous régimes,COR RA 2026 p. 73,https://www.cor-retraites.fr/sites/default/files/2026-07/RA_2026_def_0.pdf,estimation (modèle Ancêtre)
+retraites_droit_direct,22.1,millions,2070,Tous régimes,COR RA 2026 p. 73,https://www.cor-retraites.fr/sites/default/files/2026-07/RA_2026_def_0.pdf,"projection ; hausse rapide jusqu'à 2035-2040, stabilisation après 2050"
+cotisants_par_retraite,2.1,ratio,2002,Tous régimes,COR RA 2026 p. 72 (pdf p. 74),https://www.cor-retraites.fr/sites/default/files/2026-07/RA_2026_def_0.pdf,
+cotisants_par_retraite,1.8,ratio,2025,Tous régimes,COR RA 2026 p. 72,https://www.cor-retraites.fr/sites/default/files/2026-07/RA_2026_def_0.pdf,
+cotisants_par_retraite,1.3,ratio,2070,Tous régimes,COR RA 2026 p. 72,https://www.cor-retraites.fr/sites/default/files/2026-07/RA_2026_def_0.pdf,projection
+rapport_20_64_sur_65_plus,3.6,ratio,2009,France,COR RA 2026 p. 37 (pdf p. 39),https://www.cor-retraites.fr/sites/default/files/2026-07/RA_2026_def_0.pdf,
+rapport_20_64_sur_65_plus,2.5,ratio,2025,France,COR RA 2026 p. 37,https://www.cor-retraites.fr/sites/default/files/2026-07/RA_2026_def_0.pdf,provisoire
+rapport_20_64_sur_65_plus,1.62,ratio,2070,France,COR RA 2026 p. 37,https://www.cor-retraites.fr/sites/default/files/2026-07/RA_2026_def_0.pdf,"projection (1,76 dans l'exercice précédent)"
+pension_moyenne_relative_revenu_activite,54.6,%,2025,Tous régimes,COR RA 2026 p. 65 (pdf p. 67),https://www.cor-retraites.fr/sites/default/files/2026-07/RA_2026_def_0.pdf,
+pension_moyenne_relative_revenu_activite,45.3,%,2070,Tous régimes,COR RA 2026 p. 65,https://www.cor-retraites.fr/sites/default/files/2026-07/RA_2026_def_0.pdf,"projection : indexation sur les prix, baisse du rendement des complémentaires"
+age_moyen_depart,63.1,ans,2025,Tous régimes,COR RA 2026 synthèse,https://www.cor-retraites.fr/sites/default/files/2026-07/RA_2026_def_0.pdf,
+age_moyen_depart,64.6,ans,2070,Tous régimes,COR RA 2026 synthèse,https://www.cor-retraites.fr/sites/default/files/2026-07/RA_2026_def_0.pdf,projection
+niveau_vie_retraites_par_UC,2473,€/mois,2023,Ménages retraités,COR RA 2026 synthèse p. 13 (pdf p. 15),https://www.cor-retraites.fr/sites/default/files/2026-07/RA_2026_def_0.pdf,"ensemble de la population : 2 468 €"
+pension_nette_moyenne_residents_dd_et_derive,1692,€/mois,2023,Résidents en France,COR RA 2026 p. 143 note 142,https://www.cor-retraites.fr/sites/default/files/2026-07/RA_2026_def_0.pdf,"64,5 % du revenu net d'activité moyen"
+reserves_regimes_repartition,223.9,Md€,2025,"Valeur de marché, 31/12",COR RA 2026 p. 98 (pdf p. 100),https://www.cor-retraites.fr/sites/default/files/2026-07/RA_2026_def_0.pdf,"7,5 % du PIB ; 91 % dans les complémentaires"
+reserves_AGIRC_ARRCO_total,113.6,Md€,2025,"Dont réserves techniques 92,1 Md€ (≈ 11 mois de prestations)",COR RA 2026 p. 98,https://www.cor-retraites.fr/sites/default/files/2026-07/RA_2026_def_0.pdf,
+reserves_CNAVPL_complementaires,39.0,Md€,2025,Professions libérales (10 sections),COR RA 2026 p. 98,https://www.cor-retraites.fr/sites/default/files/2026-07/RA_2026_def_0.pdf,≈ 71 mois de prestations
+reserves_RCI,23.4,Md€,2025,Complémentaire des indépendants,COR RA 2026 p. 98,https://www.cor-retraites.fr/sites/default/files/2026-07/RA_2026_def_0.pdf,≈ 107 mois
+reserves_IRCANTEC,19.2,Md€,2025,,COR RA 2026 p. 98,https://www.cor-retraites.fr/sites/default/files/2026-07/RA_2026_def_0.pdf,≈ 50 mois
+reserves_Banque_de_France,13.4,Md€,2025,Régime spécial,COR RA 2026 p. 98,https://www.cor-retraites.fr/sites/default/files/2026-07/RA_2026_def_0.pdf,≈ 277 mois
+FRR_actif_net,20.7,Md€,2025,"Fonds de réserve pour les retraites, 31/12",COR RA 2026 p. 99 (pdf p. 101),https://www.cor-retraites.fr/sites/default/files/2026-07/RA_2026_def_0.pdf,"0,7 % du PIB ; verse 1,45 Md€/an à la Cades jusqu'en 2033"
+reserves_totales_repartition_y_c_FRR,244.6,Md€,2025,,COR RA 2026 p. 99,https://www.cor-retraites.fr/sites/default/files/2026-07/RA_2026_def_0.pdf,"8,2 % du PIB"
+dette_Cades_imputable_retraite,29.3,Md€,2025,,COR RA 2026 p. 99,https://www.cor-retraites.fr/sites/default/files/2026-07/RA_2026_def_0.pdf,"1,0 % du PIB"
+situation_patrimoniale_nette,215.4,Md€,2025,,COR RA 2026 p. 99,https://www.cor-retraites.fr/sites/default/files/2026-07/RA_2026_def_0.pdf,"7,2 % du PIB"

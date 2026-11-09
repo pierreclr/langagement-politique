@@ -1,0 +1,147 @@
+# Correctifs « ne perdre personne » (modeles/gagnants-perdants/correctifs.js, 03/11/2026)
+
+Coûts en Md€ par an (bas / central / haut), croisière statique. Bonus d'activité (c) : 200 €/mois au plateau (de 0,5 à 1 Smic brut), éteint à 1,6 Smic. ⚠️ H450-H459.
+
+## 1. Coûts de chaque correctif seul
+
+| correctif | chemin | coût Md€/an (bas / central / haut) | ménages concernés (central) |
+|---|---|---|---|
+| (a) aides au logement des retraités | tous | 1,3 / 1,9 / 2,6 | 0,7 M (0,5 M à 0,9 M) |
+| (b) majoration parent isolé (ASF 200,78 €/enfant ; haut : 300 €) | tous | 3,8 / 7,6 / 11,4 | 2,0 M familles (1,0 M en bas) |
+| (c) bonus d'activité 200 €, éteint à 1,6 Smic | Palier 1 | 36,5 / 40,7 / 42,7 | 25,1 M adultes |
+| (c) variante : 100 €, éteint à 1,6 Smic | Palier 1 | 18,2 / 20,3 / 21,3 | 25,1 M adultes |
+| (c) variante : 200 €, éteint à 1,3 Smic | Palier 1 | 28,7 / 35,0 / 37,4 | 20,2 M adultes |
+| (c) variante : bonus qui annule la perte du smicard (0 €) | Palier 1 | sans objet (le smicard gagne déjà) | — |
+| (c) bonus d'activité 200 €, éteint à 1,6 Smic | Chemin 4 (45 %, 400 €) | 36,5 / 40,7 / 42,7 | 25,1 M adultes |
+| (c) variante : 100 €, éteint à 1,6 Smic | Chemin 4 (45 %, 400 €) | 18,2 / 20,3 / 21,3 | 25,1 M adultes |
+| (c) variante : 200 €, éteint à 1,3 Smic | Chemin 4 (45 %, 400 €) | 28,7 / 35,0 / 37,4 | 20,2 M adultes |
+| (c) variante : bonus qui annule la perte du smicard (214 €) | Chemin 4 (45 %, 400 €) | 39,0 / 43,5 / 45,7 | 25,1 M adultes |
+| (c) variante ciblée : 200 €, réservé aux cinq premiers dixièmes de niveau de vie (ressources du ménage) | tous | 24,3 / 28,0 / 29,5 | 15,4 M adultes |
+| (d) plancher « pas moins qu'aujourd'hui », pendant la garantie | Palier 1 | 11,2 / 18,2 / 45,4 | 7,0 M ménages |
+| (d) idem, moyenne annuelle sur 10 ans d'une garantie de 3 ans | Palier 1 | 3,4 / 5,5 / 13,6 | 7,0 M ménages |
+| (d) idem, moyenne annuelle sur 10 ans d'une garantie de 5 ans | Palier 1 | 5,6 / 9,1 / 22,7 | 7,0 M ménages |
+| (d) plancher « pas moins qu'aujourd'hui », pendant la garantie | Chemin 4 (45 %, 400 €) | 46,1 / 63,7 / 103,5 | 24,4 M ménages |
+| (d) idem, moyenne annuelle sur 10 ans d'une garantie de 3 ans | Chemin 4 (45 %, 400 €) | 13,8 / 19,1 / 31,0 | 24,4 M ménages |
+| (d) idem, moyenne annuelle sur 10 ans d'une garantie de 5 ans | Chemin 4 (45 %, 400 €) | 23,1 / 31,9 / 51,7 | 24,4 M ménages |
+| (d) variante ciblée : seuls les salaires jusqu'à 1,6 Smic brut sont garantis, pendant la garantie | Palier 1 | 11,2 / 18,2 / 45,4 | 7,0 M ménages |
+| (d) variante ciblée : seuls les salaires jusqu'à 1,6 Smic brut sont garantis, pendant la garantie | Chemin 4 (45 %, 400 €) | 46,1 / 63,7 / 103,4 | 24,4 M ménages |
+
+Décomposition de (d), central, Md€/an : adultes seuls sans enfant / parents isolés / couples à un salaire avec enfants / retraités locataires
+
+| chemin | seuls | parents isolés | couples monoactifs | retraités | total |
+|---|---|---|---|---|---|
+| Palier 1 | 7,7 | 8,6 | 0,0 | 1,9 | 18,2 |
+| Chemin 4 (45 %, 400 €) | 44,1 | 12,3 | 5,3 | 1,9 | 63,7 |
+
+## 2. Combinaisons (coût en Md€/an, bas / central / haut)
+
+| combinaison | palier 1 | chemin 4 |
+|---|---|---|
+| (a) | 1,3 / 1,9 / 2,6 | 1,3 / 1,9 / 2,6 |
+| (b) | 3,8 / 7,6 / 11,4 | 3,8 / 7,6 / 11,4 |
+| (c) complet | 36,5 / 40,7 / 42,7 | 36,5 / 40,7 / 42,7 |
+| (c) ciblé D1-D5 | 24,3 / 28,0 / 29,5 | 24,3 / 28,0 / 29,5 |
+| (a) + (b) | 5,1 / 9,5 / 14,0 | 5,1 / 9,5 / 14,0 |
+| (a) + (b) + (c) ciblé | 29,4 / 37,6 / 43,5 | 29,4 / 37,6 / 43,5 |
+| (d) seul | 11,2 / 18,2 / 45,4 | 46,1 / 63,7 / 103,5 |
+| (d) seul, jusqu'à 1,6 Smic | 11,2 / 18,2 / 45,4 | 46,1 / 63,7 / 103,4 |
+| (a) + (b) + (c) ciblé + (d) résiduel jusqu'à 1,6 Smic | 30,6 / 42,0 / 64,0 | 37,3 / 52,3 / 87,7 |
+| (a) + (b) + (c) complet + (d) résiduel (tout) | 42,7 / 54,6 / 77,1 | 49,5 / 64,9 / 100,9 |
+
+Pour (c) seul, bas et haut sont les extrêmes sur trois dispersions des revenus ; pour (d) les trois scénarios font varier la dispersion, la part de locataires, les pertes des parents isolés et la part de couples à un salaire (H454-H457).
+
+## 3. Ce qu'il faut ajouter au trou de financement de chaque chemin (solde de croisière, Md€/an, bas / central / haut)
+
+Un solde négatif est un déficit à financer en plus. « Ciblé » : bonus (c) réservé aux cinq premiers dixièmes ; (d) limité aux salaires jusqu'à 1,6 Smic brut. « Tout » : bonus (c) à tous, (d) sans plafond. Les coûts (c) et (d) sont calculés au taux et au socle du chemin.
+
+| chemin | solde sans correctif | + (a) + (b) | + (a) + (b) + (c) ciblé | + (a) + (b) + (c) ciblé + (d) jusqu'à 1,6 Smic | tout (c complet, (d) sans plafond) | + (d) seul |
+|---|---|---|---|---|---|---|
+| Palier 1 seul (35 %, socle 500 €, héritage à 50 %) | −119,8 / −163,3 / −235,7 | −124,9 / −172,9 / −249,7 | −149,2 / −200,9 / −279,2 | −150,4 / −205,4 / −299,7 | −162,5 / −218,0 / −312,8 | −131,0 / −181,5 / −281,1 |
+| Chemin 1 (38 %, montée du socle) | −65,4 / −122,5 / −214,1 | −70,5 / −132,1 / −228,0 | −94,8 / −160,1 / −257,6 | −96,1 / −165,0 / −279,6 | −108,2 / −177,6 / −292,7 | −77,9 / −142,4 / −263,9 |
+| Chemin 2 (41,5 %, 400 €) | 71,0 / −15,6 / −137,3 | 65,9 / −25,2 / −151,3 | 41,6 / −53,2 / −180,8 | 36,0 / −64,7 / −218,1 | 23,8 / −77,3 / −231,3 | 36,9 / −66,1 / −225,8 |
+| Chemin 3 (chemin 2, héritage réaliste) | 65,0 / −21,6 / −143,3 | 59,9 / −31,2 / −157,3 | 35,6 / −59,2 / −186,8 | 30,0 / −70,7 / −224,1 | 17,8 / −83,3 / −237,3 | 30,9 / −72,1 / −231,8 |
+| Chemin 4 (45 %, 400 €) | 113,0 / 14,1 / −127,8 | 107,9 / 4,5 / −141,8 | 83,6 / −23,5 / −171,3 | 75,7 / −38,2 / −215,5 | 63,6 / −50,8 / −228,7 | 66,9 / −49,7 / −231,3 |
+
+Le chemin 3 emploie les paramètres du chemin 2 pour les gagnants et perdants (même taux plat et même socle : seul l'héritage diffère).
+
+## 4. Cas types avec chaque correctif (€/mois, écart au droit actuel)
+
+### Palier 1
+
+| cas type | sans | (a) | (b) | (c) | (a)+(b)+(c) | + (d) sans plafond |
+|---|---|---|---|---|---|---|
+| Personne seule au RSA (locataire, zone 2) | −13 | −13 | −13 | −13 | −13 | +0 |
+| Salarié seul au Smic à temps plein | +85 | +85 | +85 | +285 | +285 | +285 |
+| Couple, 2 enfants, deux Smic à temps plein | +461 | +461 | +461 | +861 | +861 | +861 |
+| Couple, 2 enfants, un seul Smic | +99 | +99 | +99 | +299 | +299 | +299 |
+| Retraité au minimum vieillesse (ASPA, pension 800 € brut), sans aide au logement | +0 | +0 | +0 | +0 | +0 | +0 |
+| Retraité au minimum vieillesse, locataire (avec aide au logement de 305 €) | −197 | +0 | −197 | −197 | +0 | +0 |
+| Cadre seul, 3 Smic brut (≈ 4 420 € nets) | +970 | +970 | +970 | +970 | +970 | +970 |
+| Cadre seul, 6 Smic brut (≈ 8 300 € nets) | +1 093 | +1 093 | +1 093 | +1 093 | +1 093 | +1 093 |
+| Parent isolé, 2 enfants, un Smic | −398 | −398 | +3 | −198 | +203 | +203 |
+| Parent isolé, 2 enfants, sans emploi (RSA majoré) | −496 | −496 | −94 | −496 | −94 | +0 |
+
+### Chemin 4 (45 %, 400 €)
+
+| cas type | sans | (a) | (b) | (c) | (a)+(b)+(c) | + (d) sans plafond |
+|---|---|---|---|---|---|---|
+| Personne seule au RSA (locataire, zone 2) | −13 | −13 | −13 | −13 | −13 | +0 |
+| Salarié seul au Smic à temps plein | −214 | −214 | −214 | −14 | −14 | +0 |
+| Couple, 2 enfants, deux Smic à temps plein | −137 | −137 | −137 | +263 | +263 | +263 |
+| Couple, 2 enfants, un seul Smic | −300 | −300 | −300 | −100 | −100 | +0 |
+| Retraité au minimum vieillesse (ASPA, pension 800 € brut), sans aide au logement | +0 | +0 | +0 | +0 | +0 | +0 |
+| Retraité au minimum vieillesse, locataire (avec aide au logement de 305 €) | −197 | +0 | −197 | −197 | +0 | +0 |
+| Cadre seul, 3 Smic brut (≈ 4 420 € nets) | +66 | +66 | +66 | +66 | +66 | +66 |
+| Cadre seul, 6 Smic brut (≈ 8 300 € nets) | −611 | −611 | −611 | −611 | −611 | +0 |
+| Parent isolé, 2 enfants, un Smic | −697 | −697 | −296 | −497 | −96 | +0 |
+| Parent isolé, 2 enfants, sans emploi (RSA majoré) | −496 | −496 | −94 | −496 | −94 | +0 |
+
+## 5. Dixièmes (€ par UC et par mois, central)
+
+### Palier 1
+
+| dixième | sans | (a) | (b) | (c) | (a)+(b)+(c) | + (d) |
+|---|---|---|---|---|---|---|
+| D1 | +21 | +42 | +59 | +87 | +147 | +205 |
+| D2 | +140 | +147 | +167 | +258 | +293 | +306 |
+| D3 | +232 | +233 | +248 | +335 | +353 | +356 |
+| D4 | +259 | +261 | +276 | +367 | +385 | +387 |
+| D5 | +337 | +338 | +347 | +437 | +447 | +448 |
+| D6 | +326 | +327 | +336 | +407 | +418 | +419 |
+| D7 | +388 | +388 | +394 | +453 | +459 | +459 |
+| D8 | +380 | +381 | +386 | +420 | +426 | +427 |
+| D9 | +403 | +403 | +407 | +439 | +443 | +443 |
+| D10 | −72 | −72 | −70 | −70 | −67 | −67 |
+
+### Chemin 4 (45 %, 400 €)
+
+| dixième | sans | (a) | (b) | (c) | (a)+(b)+(c) | + (d) |
+|---|---|---|---|---|---|---|
+| D1 | −81 | −60 | −42 | −15 | +45 | +190 |
+| D2 | −17 | −9 | +10 | +102 | +137 | +184 |
+| D3 | +35 | +37 | +51 | +138 | +157 | +186 |
+| D4 | +11 | +13 | +28 | +119 | +137 | +152 |
+| D5 | +46 | +46 | +56 | +145 | +156 | +162 |
+| D6 | −2 | −2 | +8 | +79 | +89 | +95 |
+| D7 | 0 | +0 | +6 | +64 | +70 | +75 |
+| D8 | −83 | −83 | −78 | −44 | −38 | −34 |
+| D9 | −176 | −175 | −172 | −140 | −136 | −133 |
+| D10 | −1 190 | −1 190 | −1 188 | −1 188 | −1 186 | −1 185 |
+
+(a) est réparti comme les aides au logement actuelles, (b) comme les prestations familiales (proxy ⚠️ H458), (c) et (d) selon la quadrature de la dispersion (H441).
+
+## 6. Taux marginal effectif d'un adulte seul sans enfant (%, par multiple du Smic brut)
+
+| configuration | 0.25 Smic | 0.5 Smic | 0.75 Smic | 1 Smic | 1.3 Smic | 1.6 Smic | 2 Smic | 3 Smic |
+|---|---|---|---|---|---|---|---|---|
+| Palier 1, sans correctif | 35 | 35 | 35 | 35 | 44 | 50 | 53 | 57 |
+| Palier 1, avec (c) 200 € éteint à 1,6 Smic | 15 | 35 | 35 | 47 | 55 | 50 | 53 | 57 |
+| Palier 1, avec (c) 200 € éteint à 1,3 Smic | 15 | 35 | 35 | 60 | 44 | 50 | 53 | 57 |
+| Chemin 4 (45 %, 400 €), sans correctif | 45 | 45 | 45 | 45 | 54 | 60 | 63 | 67 |
+| Chemin 4 (45 %, 400 €), avec (c) 200 € éteint à 1,6 Smic | 25 | 45 | 45 | 57 | 65 | 60 | 63 | 67 |
+| Chemin 4 (45 %, 400 €), avec (c) 200 € éteint à 1,3 Smic | 25 | 45 | 45 | 70 | 54 | 60 | 63 | 67 |
+
+(a) et (b) sont forfaitaires : aucun effet sur le taux marginal (l'aide au logement des retraités garde sa dégressivité actuelle ⚠️ non chiffrée). (d), s'il est calculé « pas moins qu'aujourd'hui » sur le revenu courant, vaut 100 % de taux marginal sur toute la plage de perte ;
+plage de perte d'un adulte seul sans enfant, locataire à 50 % (en multiples du Smic brut) :
+- Palier 1 : de 0,1 à 0,4 Smic
+- Chemin 4 (45 %, 400 €) : de 0,1 à 2,9 Smic

@@ -1,0 +1,74 @@
+niveau;motif;competence;note
+*;Enseignement du premier degré;C04;
+*;Hébergement et restauration scolaires;C06;
+N-DEP;Enseignement du second degré;C07;collèges
+N-REG;Enseignement du second degré;C08;lycées
+N-COM;Enseignement du second degré;C07;faible montant
+N-EPCI;Enseignement du second degré;C07;faible montant
+*;Enseignement supérieur, professionnel et continu;C36;y c. soutien à l'enseignement supérieur
+*;Autres services annexes de l'enseignement;C06;
+*;Transports scolaires;C10;
+N-REG;transports ferroviaire;C12;
+N-REG;autres transports de voyag;C12;
+N-REG;transports de marchandises;C12;
+*;Transports publics \(hors scolaire\)$;C11;
+*;Infrastructures de transport;C12;gares, ports, aéroports (rattachement grossier)
+N-COM;Routes et voiries;C13;
+N-EPCI;Routes et voiries;C13;
+N-DEP;Routes et voiries;C14;
+N-REG;Routes et voiries;C15;hypothèse : cofinancement des routes nationales (contrats de plan) ⚠️ V19013
+N-SYN;Transports, routes et voiries / Transports, routes et voiries;C11;syndicats : non ventilé (transports et voirie)
+*;déchets;C16;
+*;Propreté urbaine;C16;
+*;gestion des eaux;C18;y c. assainissement et GEMAPI (non séparés dans la nomenclature)
+*;Autres actions environnementales;C47;
+*;Autres actions envir;C47;y c. énergie
+*;Environnement / Services communs et actions transversales;C47;
+*;Incendie et secours;C42;
+*;Sécurité \(incendie\);C42;
+*;Autres interventions de protection civile;C42;
+*;Police, sécurité, justice;C43;
+*;Hygiène et salubrité publique;C43;
+*;Services communs \(sécurité\);C43;
+*;Autres sécurité et salubrité;C43;
+N-REG;Sécurité et salubrité publiques / Sécurité et salubrité publiques;C43;
+*;Culture, vie sociale, sport et jeunesse / Culture$;C39;
+*;Sports;C40;
+*;Jeunesse et loisirs;C56;
+*;Services communs et vie sociale;C56;
+N-SYN;Culture, vie sociale, sport et jeunesse / Culture, vie sociale, sport et jeunesse;C39;syndicats : non ventilé
+*;famille et enfance;C32;
+*;personnes handicapées;C30;PCH et aide sociale à l'hébergement des personnes handicapées (au-delà de la seule PCH)
+*;Action sociale \(hors APA et RSA\) / personnes âgées;C31;
+*;Personnes dépendantes \(APA\);C31;
+*;RSA et RMI;C25;
+*;Santé \(y c. PMI;C33;
+*;autres interventions sociales;C34;
+*;services communs action sociale;C34;
+*;Action sociale \(hors APA et RSA\)$;C34;communes et EPCI
+N-REG;Santé, action sociale / Action sociale$;C34;
+*;Services communs \(y compris APA et RSA\);C34;
+N-REG;Services communs \(santé, social\);C57;
+*;Santé, action sociale / Santé$;C57;
+N-SYN;Santé, action sociale / Santé, action sociale;C34;syndicats : non ventilé
+*;Habitat$;C23;
+*;Aménagement des territoires$;C21;
+*;Aménagement des territoires et habitat / Services communs et sécurité;C21;
+N-SYN;Aménagement des territoires et habitat / Aménagement des territoires et habitat;C21;syndicats : non ventilé
+*;Développement touristique;C38;
+*;Agriculture, pêche;C37;
+*;Industrie, commerce et artisanat;C37;
+*;Foires et marchés;C37;
+*;Services communs \(y compris R & D\);C37;
+N-SYN;Action économique / Action économique;C37;
+*;Coopération décentralisée;C58;
+*;Administration générale;SUPPORT;fonctions support, hors compétence
+*;Conseils, assemblée locale;SUPPORT;
+*;Opérations non ventilables;SUPPORT;
+*;Services généraux / Services généraux;SUPPORT;
+*;Charges financières;SUPPORT;intérêts de la dette
+N-DEP;Enseignement, formation et apprentissage / Services communs;C07;services communs de l'enseignement des départements, rattachés aux collèges (grossier)
+N-REG;Enseignement, formation et apprentissage / Services communs;C08;rattachés aux lycées (grossier)
+*;Enseignement, formation et apprentissage / Services communs;C04;services communs de l'enseignement, rattachés aux écoles (grossier)
+N-SYN;Enseignement, formation et apprentissage / Enseignement, formation et apprentissage;C04;syndicats : non ventilé
+*;Transports, routes et voiries / Services communs;C13;rattachement grossier

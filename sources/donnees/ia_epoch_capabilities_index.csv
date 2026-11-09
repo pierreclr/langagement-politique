@@ -1,0 +1,64 @@
+# source: Epoch AI, Epoch Capabilities Index (ECI), https://epoch.ai/benchmarks/eci ; archive https://epoch.ai/data/benchmark_data.zip (CC-BY) ; consulte 2026-10-25
+# ECI = indice composite (unite arbitraire, modele de reponse a l'item sur ~40 benchmarks) ; record glissant par date de sortie ; ic_bas/ic_haut = intervalle de confiance Epoch
+# colonne ouvert = poids ouverts (open weights) ; permet de comparer frontiere fermee vs ouverte et US vs Chine
+date_sortie,modele,organisation,pays,acces,eci,eci_ic_bas,eci_ic_haut,record_global,record_pays,statut,source_url
+2023-02-24,LLaMA-65B,Meta AI,United States of America,Open weights,109.97,100.74,114.32,1,1,mesure,https://epoch.ai/benchmarks/eci
+2023-03-14,GPT-4 (Mar 2023),OpenAI,United States of America,Closed weights,125.74,120.54,131.03,1,1,mesure,https://epoch.ai/benchmarks/eci
+2023-04-12,vicuna-13b-v1.1,,,Other,94.25,81.54,102.09,0,1,mesure,https://epoch.ai/benchmarks/eci
+2023-04-24,Falcon-7B,Technology Innovation Institute,United Arab Emirates,Open weights,94.7,82.31,102.04,0,1,mesure,https://epoch.ai/benchmarks/eci
+2023-05-17,PaLM 2-L,,,Other,114.9,106.62,128.35,0,1,mesure,https://epoch.ai/benchmarks/eci
+2023-05-25,Falcon-40B,Technology Innovation Institute,United Arab Emirates,Open weights,104.17,93.56,109.76,0,1,mesure,https://epoch.ai/benchmarks/eci
+2023-06-01,Baichuan1-7B,Baichuan,China,Open weights,90.0,75.57,98.45,0,1,mesure,https://epoch.ai/benchmarks/eci
+2023-07-20,Stable Beluga 2,Stability AI,United Kingdom,Open weights,117.02,109.56,120.11,0,1,mesure,https://epoch.ai/benchmarks/eci
+2023-09-06,Falcon-180B,Technology Innovation Institute,United Arab Emirates,Open weights,111.96,102.24,119.55,0,1,mesure,https://epoch.ai/benchmarks/eci
+2023-09-06,Baichuan2-13B,Baichuan,China,Open weights,102.9,91.82,110.11,0,1,mesure,https://epoch.ai/benchmarks/eci
+2023-09-24,Qwen-14B,Alibaba,China,Open weights,112.88,104.23,117.4,0,1,mesure,https://epoch.ai/benchmarks/eci
+2023-09-27,Mistral 7B v0.1,Mistral AI,France,Open weights,112.05,103.07,115.96,0,1,mesure,https://epoch.ai/benchmarks/eci
+2023-11-02,Yi-34B,01.AI,China,Open weights,117.33,108.94,120.6,0,1,mesure,https://epoch.ai/benchmarks/eci
+2023-12-11,Mixtral 8x7B,Mistral AI,France,Open weights,118.44,111.29,120.9,0,1,mesure,https://epoch.ai/benchmarks/eci
+2024-01-25,GPT-4 Turbo (Nov 2023),OpenAI,United States of America,Closed weights,126.43,121.25,128.46,1,1,mesure,https://epoch.ai/benchmarks/eci
+2024-02-26,Mistral Large,Mistral AI,France,Closed weights,122.12,114.75,124.74,0,1,mesure,https://epoch.ai/benchmarks/eci
+2024-02-29,Claude 3 Opus,Anthropic,United States of America,Closed weights,126.9,122.38,129.96,1,1,mesure,https://epoch.ai/benchmarks/eci
+2024-04-09,GPT-4 Turbo (Apr 2024),OpenAI,United States of America,Closed weights,127.27,122.35,128.78,1,1,mesure,https://epoch.ai/benchmarks/eci
+2024-05-07,"DeepSeek-V2 (MoE-236B, May 2024)",DeepSeek,China,Open weights,124.8,118.76,127.84,0,1,mesure,https://epoch.ai/benchmarks/eci
+2024-05-13,GPT-4o (May 2024),OpenAI,United States of America,Closed weights,128.99,124.62,131.23,1,1,mesure,https://epoch.ai/benchmarks/eci
+2024-06-07,Qwen2-72B,Alibaba,China,Open weights,125.28,119.09,126.9,0,1,mesure,https://epoch.ai/benchmarks/eci
+2024-06-20,Claude 3.5 Sonnet,Anthropic,United States of America,Closed weights,130.0,,,1,1,mesure,https://epoch.ai/benchmarks/eci
+2024-07-24,Mistral Large 2 (Jul 2024),Mistral AI,France,Open weights,127.57,122.04,129.73,0,1,mesure,https://epoch.ai/benchmarks/eci
+2024-08-30,Command R+,"Cohere,Cohere Labs (formerly Cohere for AI)",Canada,Open weights,119.2,110.3,125.03,0,1,mesure,https://epoch.ai/benchmarks/eci
+2024-09-12,o1-mini,OpenAI,United States of America,Closed weights,135.7,132.36,137.17,1,1,mesure,https://epoch.ai/benchmarks/eci
+2024-09-18,Qwen2.5-Coder-14B,,,Other,116.31,106.42,122.2,0,1,mesure,https://epoch.ai/benchmarks/eci
+2024-09-19,Qwen2.5-72B,Alibaba,China,Open weights,128.97,123.48,130.73,0,1,mesure,https://epoch.ai/benchmarks/eci
+2024-11-18,Mistral Large 2 (Nov 2024),Mistral AI,France,Open weights,128.57,124.02,130.6,0,1,mesure,https://epoch.ai/benchmarks/eci
+2024-12-17,o1,OpenAI,United States of America,Closed weights,141.72,139.71,142.94,1,1,mesure,https://epoch.ai/benchmarks/eci
+2024-12-26,DeepSeek-V3,DeepSeek,China,Open weights,132.3,128.06,135.23,0,1,mesure,https://epoch.ai/benchmarks/eci
+2025-01-20,DeepSeek-R1,DeepSeek,China,Open weights,138.82,136.04,140.21,0,1,mesure,https://epoch.ai/benchmarks/eci
+2025-03-31,Gemini 2.5 Pro (Mar 2025),Google DeepMind,United States of America,Closed weights,143.96,141.74,146.84,1,1,mesure,https://epoch.ai/benchmarks/eci
+2025-04-16,o3,OpenAI,United States of America,Closed weights,146.73,144.83,148.52,1,1,mesure,https://epoch.ai/benchmarks/eci
+2025-04-28,Qwen3-235B-A22B,Alibaba,China,Open weights,139.15,134.62,140.53,0,1,mesure,https://epoch.ai/benchmarks/eci
+2025-05-07,Mistral Medium 3,Mistral AI,France,Closed weights,134.02,130.38,135.36,0,1,mesure,https://epoch.ai/benchmarks/eci
+2025-05-28,DeepSeek-R1 (May 2025),DeepSeek,China,Open weights,141.13,139.05,142.66,0,1,mesure,https://epoch.ai/benchmarks/eci
+2025-06-10,o3-pro,OpenAI,United States of America,Closed weights,147.33,145.56,150.1,1,1,mesure,https://epoch.ai/benchmarks/eci
+2025-07-25,Qwen3-235B-A22B-Thinking (Jul 2025),Alibaba,China,Open weights,143.76,141.71,145.3,0,1,mesure,https://epoch.ai/benchmarks/eci
+2025-08-07,GPT-5,OpenAI,United States of America,Closed weights,150.0,,,1,1,mesure,https://epoch.ai/benchmarks/eci
+2025-09-29,DeepSeek-V3.2-Exp,DeepSeek,China,Open weights,144.91,142.45,146.81,0,1,mesure,https://epoch.ai/benchmarks/eci
+2025-10-07,GPT-5 Pro,OpenAI,United States of America,Closed weights,150.59,148.94,154.18,1,1,mesure,https://epoch.ai/benchmarks/eci
+2025-11-06,Kimi K2 Thinking,Moonshot,China,Open weights,145.82,143.22,147.51,0,1,mesure,https://epoch.ai/benchmarks/eci
+2025-11-18,Gemini 3 Pro,Google DeepMind,United States of America,Closed weights,153.07,151.06,155.42,1,1,mesure,https://epoch.ai/benchmarks/eci
+2025-12-01,DeepSeek-V3.2,DeepSeek,China,Open weights,146.09,144.27,147.38,0,1,mesure,https://epoch.ai/benchmarks/eci
+2025-12-11,GPT-5.2 Pro,OpenAI,United States of America,Closed weights,156.33,153.89,159.98,1,1,mesure,https://epoch.ai/benchmarks/eci
+2026-01-27,Kimi K2.5,Moonshot,China,Open weights,148.07,146.55,149.52,0,1,mesure,https://epoch.ai/benchmarks/eci
+2026-02-05,GPT-5.3 Codex,OpenAI,United States of America,Closed weights,157.09,153.56,161.38,1,1,mesure,https://epoch.ai/benchmarks/eci
+2026-03-05,GPT-5.4 Pro,OpenAI,United States of America,Closed weights,159.57,157.1,162.7,1,1,mesure,https://epoch.ai/benchmarks/eci
+2026-04-07,GLM-5.1,Z.ai (Zhipu AI),China,Open weights,149.82,147.66,151.89,0,1,mesure,https://epoch.ai/benchmarks/eci
+2026-04-20,Kimi K2.6,Moonshot,China,Open weights,150.94,149.04,152.72,0,1,mesure,https://epoch.ai/benchmarks/eci
+2026-04-23,GPT-5.5 Pro,OpenAI,United States of America,Closed weights,162.91,160.04,166.6,1,1,mesure,https://epoch.ai/benchmarks/eci
+2026-04-28,Mistral Medium 3.5,Mistral AI,France,Open weights,141.36,138.5,144.33,0,1,mesure,https://epoch.ai/benchmarks/eci
+2026-05-19,Qwen3.7-Max,Alibaba,China,Closed weights,154.04,152.3,156.5,0,1,mesure,https://epoch.ai/benchmarks/eci
+2026-06-09,Claude Fable 5,Anthropic,United States of America,Closed weights,163.42,160.53,168.18,1,1,mesure,https://epoch.ai/benchmarks/eci
+2026-07-16,Kimi K3,Moonshot,China,Open weights,157.86,155.11,160.63,0,1,mesure,https://epoch.ai/benchmarks/eci
+2026-07-24,Claude Opus 5,Anthropic,United States of America,Closed weights,163.94,161.12,168.24,1,1,mesure,https://epoch.ai/benchmarks/eci
+2026-09-01,Claude Fable 5.1,Anthropic,United States of America,Closed weights,166.49,163.47,171.35,1,1,mesure,https://epoch.ai/benchmarks/eci
+2026-09-03,GPT-6 Astra,OpenAI,United States of America,Closed weights,168.81,165.45,174.51,1,1,mesure,https://epoch.ai/benchmarks/eci
+2026-09-22,Claude Opus 5.5,Anthropic,United States of America,Closed weights,168.83,165.25,173.95,1,1,mesure,https://epoch.ai/benchmarks/eci
+2026-10-06,Mistral Large 4,Mistral AI,France,Other,150.03,146.94,152.74,0,1,mesure,https://epoch.ai/benchmarks/eci

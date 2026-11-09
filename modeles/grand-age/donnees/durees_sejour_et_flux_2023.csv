@@ -1,0 +1,16 @@
+# source : DREES, Études et Résultats n° 1351, novembre 2025, « Établissements d'hébergement pour personnes âgées : des résidents aussi âgés et autant en perte d'autonomie qu'en 2019, mais moins nombreux » (enquête EHPA 2023), https://www.drees.solidarites-sante.gouv.fr/sites/default/files/2025-11/ER%201351%20EHPA-MEL.pdf (copie : sources_pdf/drees_er1351_ehpa2023.pdf)
+# cote A ; conflits d'intérêts : aucun connu ; consulté le 2026-11-07 ; champ : France, EHPA tous types d'accueil hors accueil de jour
+indicateur,valeur,unite,annee
+personnes_accueillies_EHPA,697000,personnes,2023
+evolution_2019_2023,-0.045,part,2023
+residents_en_perte_autonomie_GIR1_4,0.85,part,2023
+age_median_des_residents,87.9,ans,2023
+sorties_definitives_Ehpad,237700,personnes,2023
+sorties_definitives_Ehpad_USLD_EHPA,256900,personnes,2023
+part_des_sorties_Ehpad_par_deces,0.71,part,2023
+sejour_moyen_Ehpad_sortants,2.25,ans,2023
+sejour_moyen_hebergement_permanent,2.75,ans,2023
+sejour_moyen_personnes_decedees_en_etablissement,2.83,ans,2023
+age_moyen_au_deces_en_etablissement,89.67,ans,2023
+part_des_arrivants_sortis_la_meme_annee,0.38,part,2023
+taux_occupation_places_Ehpad,0.94,part,2023

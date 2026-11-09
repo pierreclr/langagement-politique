@@ -1,0 +1,691 @@
+# source: Eurostat demo_gind (Population change - demographic balance and crude rates); mise a jour 2026-09-30T23:00:00+0200; date consultation: 2026-10-25
+# unite: personnes ou pour 1000 habitants; le solde migratoire inclut un ajustement statistique (residu) -> a lire comme ordre de grandeur; pour la France, INSEE publie ses propres chiffres (bilan demographique)
+annee,zone,indicateur,valeur,statut,source_url
+1990,DE,solde migratoire (avec ajustement),1032754,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1990,DE,solde naturel,13864,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1990,DE,taux solde migratoire (pour 1000),16.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1990,DE,taux solde naturel (pour 1000),0.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1990,ES,solde migratoire (avec ajustement),-40094,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1990,ES,solde naturel,68283,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1990,ES,taux solde migratoire (pour 1000),-1.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1990,ES,taux solde naturel (pour 1000),1.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1990,EU27_2020,solde migratoire (avec ajustement),696706,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1990,EU27_2020,solde naturel,770593,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1990,EU27_2020,taux solde migratoire (pour 1000),1.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1990,EU27_2020,taux solde naturel (pour 1000),1.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1990,IT,solde migratoire (avec ajustement),22250,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1990,IT,solde naturel,27509,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1990,IT,taux solde migratoire (pour 1000),0.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1990,IT,taux solde naturel (pour 1000),0.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1991,DE,solde migratoire (avec ajustement),602563,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1991,DE,solde naturel,-81226,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1991,DE,taux solde migratoire (pour 1000),7.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1991,DE,taux solde naturel (pour 1000),-1.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1991,ES,solde migratoire (avec ajustement),111622,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1991,ES,solde naturel,58298,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1991,ES,taux solde migratoire (pour 1000),2.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1991,ES,taux solde naturel (pour 1000),1.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1991,EU27_2020,solde migratoire (avec ajustement),309918,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1991,EU27_2020,solde naturel,599582,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1991,EU27_2020,taux solde migratoire (pour 1000),0.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1991,EU27_2020,taux solde naturel (pour 1000),1.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1991,IT,solde migratoire (avec ajustement),18006,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1991,IT,solde naturel,10798,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1991,IT,taux solde migratoire (pour 1000),0.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1991,IT,taux solde naturel (pour 1000),0.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1992,DE,solde migratoire (avec ajustement),776397,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1992,DE,solde naturel,-76329,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1992,DE,taux solde migratoire (pour 1000),9.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1992,DE,taux solde naturel (pour 1000),-0.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1992,ES,solde migratoire (avec ajustement),147466,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1992,ES,solde naturel,65232,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1992,ES,taux solde migratoire (pour 1000),3.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1992,ES,taux solde naturel (pour 1000),1.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1992,EU27_2020,solde migratoire (avec ajustement),965712,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1992,EU27_2020,solde naturel,533330,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1992,EU27_2020,taux solde migratoire (pour 1000),2.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1992,EU27_2020,taux solde naturel (pour 1000),1.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1992,IT,solde migratoire (avec ajustement),24195,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1992,IT,solde naturel,24132,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1992,IT,taux solde migratoire (pour 1000),0.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1992,IT,taux solde naturel (pour 1000),0.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1993,DE,solde migratoire (avec ajustement),462284,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1993,DE,solde naturel,-98823,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1993,DE,taux solde migratoire (pour 1000),5.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1993,DE,taux solde naturel (pour 1000),-1.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1993,ES,solde migratoire (avec ajustement),148330,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1993,ES,solde naturel,46125,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1993,ES,taux solde migratoire (pour 1000),3.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1993,ES,taux solde naturel (pour 1000),1.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1993,EU27_2020,solde migratoire (avec ajustement),868894,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1993,EU27_2020,solde naturel,323514,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1993,EU27_2020,taux solde migratoire (pour 1000),2.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1993,EU27_2020,taux solde naturel (pour 1000),0.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1993,IT,solde migratoire (avec ajustement),21632,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1993,IT,solde naturel,-490,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1993,IT,taux solde migratoire (pour 1000),0.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1993,IT,taux solde naturel (pour 1000),0.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1994,DE,solde migratoire (avec ajustement),315568,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1994,DE,solde naturel,-115058,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1994,DE,taux solde migratoire (pour 1000),3.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1994,DE,taux solde naturel (pour 1000),-1.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1994,ES,solde migratoire (avec ajustement),149331,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1994,ES,solde naturel,31906,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1994,ES,taux solde migratoire (pour 1000),3.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1994,ES,taux solde naturel (pour 1000),0.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1994,EU27_2020,solde migratoire (avec ajustement),607730,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1994,EU27_2020,solde naturel,247819,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1994,EU27_2020,taux solde migratoire (pour 1000),1.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1994,EU27_2020,taux solde naturel (pour 1000),0.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1994,IT,solde migratoire (avec ajustement),22977,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1994,IT,solde naturel,-20961,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1994,IT,taux solde migratoire (pour 1000),0.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1994,IT,taux solde naturel (pour 1000),-0.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1995,DE,solde migratoire (avec ajustement),398263,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1995,DE,solde naturel,-119367,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1995,DE,taux solde migratoire (pour 1000),4.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1995,DE,taux solde naturel (pour 1000),-1.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1995,ES,solde migratoire (avec ajustement),151406,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1995,ES,solde naturel,17242,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1995,ES,taux solde migratoire (pour 1000),3.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1995,ES,taux solde naturel (pour 1000),0.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1995,EU27_2020,solde migratoire (avec ajustement),587552,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1995,EU27_2020,solde naturel,93712,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1995,EU27_2020,taux solde migratoire (pour 1000),1.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1995,EU27_2020,taux solde naturel (pour 1000),0.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1995,IT,solde migratoire (avec ajustement),28503,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1995,IT,solde naturel,-28714,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1995,IT,taux solde migratoire (pour 1000),0.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1995,IT,taux solde naturel (pour 1000),-0.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1996,DE,solde migratoire (avec ajustement),281493,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1996,DE,solde naturel,-86830,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1996,DE,taux solde migratoire (pour 1000),3.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1996,DE,taux solde naturel (pour 1000),-1.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1996,ES,solde migratoire (avec ajustement),151778,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1996,ES,solde naturel,11177,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1996,ES,taux solde migratoire (pour 1000),3.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1996,ES,taux solde naturel (pour 1000),0.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1996,EU27_2020,solde migratoire (avec ajustement),539584,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1996,EU27_2020,solde naturel,92109,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1996,EU27_2020,taux solde migratoire (pour 1000),1.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1996,EU27_2020,taux solde naturel (pour 1000),0.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1996,IT,solde migratoire (avec ajustement),56392,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1996,IT,solde naturel,-24225,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1996,IT,taux solde migratoire (pour 1000),1.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1996,IT,taux solde naturel (pour 1000),-0.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1997,DE,solde migratoire (avec ajustement),93433,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1997,DE,solde naturel,-48216,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1997,DE,taux solde migratoire (pour 1000),1.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1997,DE,taux solde naturel (pour 1000),-0.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1997,ES,solde migratoire (avec ajustement),152606,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1997,ES,solde naturel,19514,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1997,ES,taux solde migratoire (pour 1000),3.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1997,ES,taux solde naturel (pour 1000),0.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1997,EU27_2020,solde migratoire (avec ajustement),443286,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1997,EU27_2020,solde naturel,130263,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1997,EU27_2020,taux solde migratoire (pour 1000),1.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1997,EU27_2020,taux solde naturel (pour 1000),0.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1997,IT,solde migratoire (avec ajustement),50427,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1997,IT,solde naturel,-22412,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1997,IT,taux solde migratoire (pour 1000),0.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1997,IT,taux solde naturel (pour 1000),-0.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1998,DE,solde migratoire (avec ajustement),46980,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1998,DE,solde naturel,-67348,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1998,DE,taux solde migratoire (pour 1000),0.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1998,DE,taux solde naturel (pour 1000),-0.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1998,ES,solde migratoire (avec ajustement),155437,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1998,ES,solde naturel,4682,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1998,ES,taux solde migratoire (pour 1000),3.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1998,ES,taux solde naturel (pour 1000),0.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1998,EU27_2020,solde migratoire (avec ajustement),423443,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1998,EU27_2020,solde naturel,91864,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1998,EU27_2020,taux solde migratoire (pour 1000),1.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1998,EU27_2020,taux solde naturel (pour 1000),0.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1998,FR,solde migratoire (avec ajustement),-1407,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1998,FR,solde naturel,225056,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1998,FR,taux solde migratoire (pour 1000),0.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1998,FR,taux solde naturel (pour 1000),3.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1998,IT,solde migratoire (avec ajustement),39666,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1998,IT,solde naturel,-34936,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1998,IT,taux solde migratoire (pour 1000),0.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1998,IT,taux solde naturel (pour 1000),-0.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1999,DE,solde migratoire (avec ajustement),202050,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1999,DE,solde naturel,-75586,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1999,DE,taux solde migratoire (pour 1000),2.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1999,DE,taux solde naturel (pour 1000),-0.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1999,ES,solde migratoire (avec ajustement),157586,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1999,ES,solde naturel,9028,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1999,ES,taux solde migratoire (pour 1000),3.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1999,ES,taux solde naturel (pour 1000),0.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1999,EU27_2020,solde migratoire (avec ajustement),778199,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1999,EU27_2020,solde naturel,87622,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1999,EU27_2020,taux solde migratoire (pour 1000),1.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1999,EU27_2020,taux solde naturel (pour 1000),0.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1999,FR,solde migratoire (avec ajustement),157318,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1999,FR,solde naturel,229171,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1999,FR,taux solde migratoire (pour 1000),2.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1999,FR,taux solde naturel (pour 1000),3.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1999,IT,solde migratoire (avec ajustement),34914,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1999,IT,solde naturel,-20499,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1999,IT,taux solde migratoire (pour 1000),0.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+1999,IT,taux solde naturel (pour 1000),-0.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2000,DE,solde migratoire (avec ajustement),167863,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2000,DE,solde naturel,-71798,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2000,DE,taux solde migratoire (pour 1000),2.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2000,DE,taux solde naturel (pour 1000),-0.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2000,ES,solde migratoire (avec ajustement),158122,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2000,ES,solde naturel,37241,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2000,ES,taux solde migratoire (pour 1000),3.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2000,ES,taux solde naturel (pour 1000),0.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2000,EU27_2020,solde migratoire (avec ajustement),689677,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2000,EU27_2020,solde naturel,220697,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2000,EU27_2020,taux solde migratoire (pour 1000),1.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2000,EU27_2020,taux solde naturel (pour 1000),0.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2000,FR,solde migratoire (avec ajustement),166761,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2000,FR,solde naturel,267532,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2000,FR,taux solde migratoire (pour 1000),2.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2000,FR,taux solde naturel (pour 1000),4.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2000,IT,solde migratoire (avec ajustement),49631,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2000,IT,solde naturel,-12463,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2000,IT,taux solde migratoire (pour 1000),0.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2000,IT,taux solde naturel (pour 1000),-0.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2001,DE,solde migratoire (avec ajustement),274835,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2001,DE,solde naturel,-94066,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2001,DE,taux solde migratoire (pour 1000),3.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2001,DE,taux solde naturel (pour 1000),-1.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2001,ES,solde migratoire (avec ajustement),322000,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2001,ES,solde naturel,47733,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2001,ES,taux solde migratoire (pour 1000),7.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2001,ES,taux solde naturel (pour 1000),1.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2001,EU27_2020,solde migratoire (avec ajustement),325512,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2001,EU27_2020,solde naturel,162647,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2001,EU27_2020,taux solde migratoire (pour 1000),0.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2001,EU27_2020,taux solde naturel (pour 1000),0.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2001,FR,solde migratoire (avec ajustement),181853,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2001,FR,solde naturel,262868,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2001,FR,taux solde migratoire (pour 1000),3.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2001,FR,taux solde naturel (pour 1000),4.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2001,IT,solde migratoire (avec ajustement),45550,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2001,IT,solde naturel,-12972,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2001,IT,taux solde migratoire (pour 1000),0.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2001,IT,taux solde naturel (pour 1000),-0.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2002,DE,solde migratoire (avec ajustement),218807,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2002,DE,solde naturel,-122436,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2002,DE,taux solde migratoire (pour 1000),2.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2002,DE,taux solde naturel (pour 1000),-1.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2002,ES,solde migratoire (avec ajustement),740918,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2002,ES,solde naturel,51642,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2002,ES,taux solde migratoire (pour 1000),17.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2002,ES,taux solde naturel (pour 1000),1.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2002,EU27_2020,solde migratoire (avec ajustement),1437212,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2002,EU27_2020,solde naturel,79939,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2002,EU27_2020,taux solde migratoire (pour 1000),3.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2002,EU27_2020,taux solde naturel (pour 1000),0.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2002,FR,solde migratoire (avec ajustement),191799,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2002,FR,solde naturel,248253,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2002,FR,taux solde migratoire (pour 1000),3.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2002,FR,taux solde naturel (pour 1000),4.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2002,IT,solde migratoire (avec ajustement),212303,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2002,IT,solde naturel,-19195,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2002,IT,taux solde migratoire (pour 1000),3.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2002,IT,taux solde naturel (pour 1000),-0.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2003,DE,solde migratoire (avec ajustement),142216,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2003,DE,solde naturel,-147225,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2003,DE,taux solde migratoire (pour 1000),1.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2003,DE,taux solde naturel (pour 1000),-1.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2003,ES,solde migratoire (avec ajustement),661537,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2003,ES,solde naturel,58076,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2003,ES,taux solde migratoire (pour 1000),15.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2003,ES,taux solde naturel (pour 1000),1.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2003,EU27_2020,solde migratoire (avec ajustement),1620807,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2003,EU27_2020,solde naturel,11266,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2003,EU27_2020,taux solde migratoire (pour 1000),3.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2003,EU27_2020,taux solde naturel (pour 1000),0.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2003,FR,solde migratoire (avec ajustement),196851,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2003,FR,solde naturel,231302,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2003,FR,taux solde migratoire (pour 1000),3.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2003,FR,taux solde naturel (pour 1000),3.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2003,IT,solde migratoire (avec ajustement),468017,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2003,IT,solde naturel,-42405,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2003,IT,taux solde migratoire (pour 1000),8.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2003,IT,taux solde naturel (pour 1000),-0.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2004,DE,solde migratoire (avec ajustement),81827,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2004,DE,solde naturel,-112649,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2004,DE,taux solde migratoire (pour 1000),1.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2004,DE,taux solde naturel (pour 1000),-1.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2004,ES,solde migratoire (avec ajustement),665279,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2004,ES,solde naturel,83608,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2004,ES,taux solde migratoire (pour 1000),15.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2004,ES,taux solde naturel (pour 1000),1.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2004,EU27_2020,solde migratoire (avec ajustement),1457501,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2004,EU27_2020,solde naturel,250257,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2004,EU27_2020,taux solde migratoire (pour 1000),3.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2004,EU27_2020,taux solde naturel (pour 1000),0.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2004,FR,solde migratoire (avec ajustement),199978,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2004,FR,solde naturel,280651,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2004,FR,taux solde migratoire (pour 1000),3.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2004,FR,taux solde naturel (pour 1000),4.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2004,IT,solde migratoire (avec ajustement),416437,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2004,IT,solde naturel,15941,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2004,IT,taux solde migratoire (pour 1000),7.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2004,IT,taux solde naturel (pour 1000),0.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2005,DE,solde migratoire (avec ajustement),81578,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2005,DE,solde naturel,-144432,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2005,DE,taux solde migratoire (pour 1000),1.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2005,DE,taux solde naturel (pour 1000),-1.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2005,ES,solde migratoire (avec ajustement),633878,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2005,ES,solde naturel,79755,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2005,ES,taux solde migratoire (pour 1000),14.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2005,ES,taux solde naturel (pour 1000),1.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2005,EU27_2020,solde migratoire (avec ajustement),1289498,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2005,EU27_2020,solde naturel,165633,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2005,EU27_2020,taux solde migratoire (pour 1000),3.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2005,EU27_2020,taux solde naturel (pour 1000),0.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2005,FR,solde migratoire (avec ajustement),187185,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2005,FR,solde naturel,269580,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2005,FR,taux solde migratoire (pour 1000),3.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2005,FR,taux solde naturel (pour 1000),4.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2005,IT,solde migratoire (avec ajustement),257910,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2005,IT,solde naturel,-13282,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2005,IT,taux solde migratoire (pour 1000),4.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2005,IT,taux solde naturel (pour 1000),-0.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2006,DE,solde migratoire (avec ajustement),25814,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2006,DE,solde naturel,-148903,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2006,DE,taux solde migratoire (pour 1000),0.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2006,DE,taux solde naturel (pour 1000),-1.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2006,ES,solde migratoire (avec ajustement),662791,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2006,ES,solde naturel,111904,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2006,ES,taux solde migratoire (pour 1000),14.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2006,ES,taux solde naturel (pour 1000),2.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2006,EU27_2020,solde migratoire (avec ajustement),1182252,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2006,EU27_2020,solde naturel,291207,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2006,EU27_2020,taux solde migratoire (pour 1000),2.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2006,EU27_2020,taux solde naturel (pour 1000),0.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2006,FR,solde migratoire (avec ajustement),112178,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2006,FR,solde naturel,303252,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2006,FR,taux solde migratoire (pour 1000),1.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2006,FR,taux solde naturel (pour 1000),4.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2006,IT,solde migratoire (avec ajustement),219611,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2006,IT,solde naturel,2118,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2006,IT,taux solde migratoire (pour 1000),3.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2006,IT,taux solde naturel (pour 1000),0.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2007,DE,solde migratoire (avec ajustement),45224,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2007,DE,solde naturel,-142293,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2007,DE,taux solde migratoire (pour 1000),0.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2007,DE,taux solde naturel (pour 1000),-1.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2007,ES,solde migratoire (avec ajustement),776384,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2007,ES,solde naturel,107889,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2007,ES,taux solde migratoire (pour 1000),17.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2007,ES,taux solde naturel (pour 1000),2.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2007,EU27_2020,solde migratoire (avec ajustement),1280359,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2007,EU27_2020,solde naturel,279444,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2007,EU27_2020,taux solde migratoire (pour 1000),2.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2007,EU27_2020,taux solde naturel (pour 1000),0.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2007,FR,solde migratoire (avec ajustement),73796,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2007,FR,solde naturel,288332,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2007,FR,taux solde migratoire (pour 1000),1.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2007,FR,taux solde naturel (pour 1000),4.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2007,IT,solde migratoire (avec ajustement),497912,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2007,IT,solde naturel,-6868,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2007,IT,taux solde migratoire (pour 1000),8.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2007,IT,taux solde naturel (pour 1000),-0.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2008,DE,solde migratoire (avec ajustement),-53556,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2008,DE,solde naturel,-161925,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2008,DE,taux solde migratoire (pour 1000),-0.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2008,DE,taux solde naturel (pour 1000),-2.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2008,ES,solde migratoire (avec ajustement),436029,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2008,ES,solde naturel,134305,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2008,ES,taux solde migratoire (pour 1000),9.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2008,ES,taux solde naturel (pour 1000),2.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2008,EU27_2020,solde migratoire (avec ajustement),1030804,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2008,EU27_2020,solde naturel,362814,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2008,EU27_2020,taux solde migratoire (pour 1000),2.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2008,EU27_2020,taux solde naturel (pour 1000),0.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2008,FR,solde migratoire (avec ajustement),56456,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2008,FR,solde naturel,286577,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2008,FR,taux solde migratoire (pour 1000),0.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2008,FR,taux solde naturel (pour 1000),4.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2008,IT,solde migratoire (avec ajustement),427290,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2008,IT,solde naturel,-8467,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2008,IT,taux solde migratoire (pour 1000),7.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2008,IT,taux solde naturel (pour 1000),-0.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2009,DE,solde migratoire (avec ajustement),-10681,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2009,DE,solde naturel,-189418,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2009,DE,taux solde migratoire (pour 1000),-0.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2009,DE,taux solde naturel (pour 1000),-2.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2009,ES,solde migratoire (avec ajustement),136838,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2009,ES,solde naturel,110508,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2009,ES,taux solde migratoire (pour 1000),3.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2009,ES,taux solde naturel (pour 1000),2.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2009,EU27_2020,solde migratoire (avec ajustement),556529,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2009,EU27_2020,solde naturel,280627,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2009,EU27_2020,taux solde migratoire (pour 1000),1.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2009,EU27_2020,taux solde naturel (pour 1000),0.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2009,FR,solde migratoire (avec ajustement),31755,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2009,FR,solde naturel,276875,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2009,FR,taux solde migratoire (pour 1000),0.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2009,FR,taux solde naturel (pour 1000),4.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2009,IT,solde migratoire (avec ajustement),292530,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2009,IT,solde naturel,-22806,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2009,IT,taux solde migratoire (pour 1000),4.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2009,IT,taux solde naturel (pour 1000),-0.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2010,DE,solde migratoire (avec ajustement),130166,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2010,DE,solde naturel,-180821,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2010,DE,taux solde migratoire (pour 1000),1.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2010,DE,taux solde naturel (pour 1000),-2.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2010,ES,solde migratoire (avec ajustement),75537,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2010,ES,solde naturel,105018,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2010,ES,taux solde migratoire (pour 1000),1.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2010,ES,taux solde naturel (pour 1000),2.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2010,EU27_2020,solde migratoire (avec ajustement),586472,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2010,EU27_2020,solde naturel,259211,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2010,EU27_2020,taux solde migratoire (pour 1000),1.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2010,EU27_2020,taux solde naturel (pour 1000),0.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2010,FR,solde migratoire (avec ajustement),37580,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2010,FR,solde naturel,282285,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2010,FR,taux solde migratoire (pour 1000),0.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2010,FR,taux solde naturel (pour 1000),4.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2010,IT,solde migratoire (avec ajustement),283725,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2010,IT,solde naturel,-25544,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2010,IT,taux solde migratoire (pour 1000),4.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2010,IT,taux solde naturel (pour 1000),-0.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2011,DE,solde migratoire (avec ajustement),295478,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2011,DE,solde naturel,-189643,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2011,DE,taux solde migratoire (pour 1000),3.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2011,DE,taux solde naturel (pour 1000),-2.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2011,ES,solde migratoire (avec ajustement),66509,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2011,ES,solde naturel,84536,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2011,ES,taux solde migratoire (pour 1000),1.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2011,ES,taux solde naturel (pour 1000),1.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2011,EU27_2020,solde migratoire (avec ajustement),640316,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2011,EU27_2020,solde naturel,139569,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2011,EU27_2020,taux solde migratoire (pour 1000),1.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2011,EU27_2020,taux solde naturel (pour 1000),0.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2011,FR,solde migratoire (avec ajustement),19220,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2011,FR,solde naturel,279042,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2011,FR,taux solde migratoire (pour 1000),0.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2011,FR,taux solde naturel (pour 1000),4.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2011,IT,solde migratoire (avec ajustement),203530,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2011,IT,solde naturel,-46842,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2011,IT,taux solde migratoire (pour 1000),3.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2011,IT,taux solde naturel (pour 1000),-0.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2012,DE,solde migratoire (avec ajustement),391884,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2012,DE,solde naturel,-196038,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2012,DE,taux solde migratoire (pour 1000),4.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2012,DE,taux solde naturel (pour 1000),-2.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2012,ES,solde migratoire (avec ajustement),-142555,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2012,ES,solde naturel,52226,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2012,ES,taux solde migratoire (pour 1000),-3.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2012,ES,taux solde naturel (pour 1000),1.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2012,EU27_2020,solde migratoire (avec ajustement),486974,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2012,EU27_2020,solde naturel,-24206,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2012,EU27_2020,taux solde migratoire (pour 1000),1.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2012,EU27_2020,taux solde naturel (pour 1000),-0.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2012,FR,solde migratoire (avec ajustement),71509,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2012,FR,solde naturel,251858,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2012,FR,taux solde migratoire (pour 1000),1.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2012,FR,taux solde naturel (pour 1000),3.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2012,IT,solde migratoire (avec ajustement),250821,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2012,IT,solde naturel,-78697,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2012,IT,taux solde migratoire (pour 1000),4.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2012,IT,taux solde naturel (pour 1000),-1.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2013,DE,solde migratoire (avec ajustement),455473,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2013,DE,solde naturel,-211756,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2013,DE,taux solde migratoire (pour 1000),5.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2013,DE,taux solde naturel (pour 1000),-2.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2013,ES,solde migratoire (avec ajustement),-252746,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2013,ES,solde naturel,35840,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2013,ES,taux solde migratoire (pour 1000),-5.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2013,ES,taux solde naturel (pour 1000),0.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2013,EU27_2020,solde migratoire (avec ajustement),435647,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2013,EU27_2020,solde naturel,-116969,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2013,EU27_2020,taux solde migratoire (pour 1000),1.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2013,EU27_2020,taux solde naturel (pour 1000),-0.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2013,FR,solde migratoire (avec ajustement),98939,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2013,FR,solde naturel,242978,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2013,FR,taux solde migratoire (pour 1000),1.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2013,FR,taux solde naturel (pour 1000),3.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2013,IT,solde migratoire (avec ajustement),155044,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2013,IT,solde naturel,-86436,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2013,IT,taux solde migratoire (pour 1000),2.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2013,IT,taux solde naturel (pour 1000),-1.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2014,DE,solde migratoire (avec ajustement),583503,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2014,DE,solde naturel,-153429,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2014,DE,taux solde migratoire (pour 1000),7.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2014,DE,taux solde naturel (pour 1000),-1.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2014,ES,solde migratoire (avec ajustement),-102364,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2014,ES,solde naturel,32342,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2014,ES,taux solde migratoire (pour 1000),-2.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2014,ES,taux solde naturel (pour 1000),0.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2014,EU27_2020,solde migratoire (avec ajustement),660097,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2014,EU27_2020,solde naturel,-12373,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2014,EU27_2020,taux solde migratoire (pour 1000),1.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2014,EU27_2020,taux solde naturel (pour 1000),0.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2014,FR,solde migratoire (avec ajustement),32280,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2014,FR,solde naturel,259893,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2014,FR,taux solde migratoire (pour 1000),0.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2014,FR,taux solde naturel (pour 1000),3.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2014,IT,solde migratoire (avec ajustement),45348,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2014,IT,solde naturel,-95768,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2014,IT,taux solde migratoire (pour 1000),0.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2014,IT,taux solde naturel (pour 1000),-1.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2015,DE,solde migratoire (avec ajustement),1165772,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2015,DE,solde naturel,-187625,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2015,DE,taux solde migratoire (pour 1000),14.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2015,DE,taux solde naturel (pour 1000),-2.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2015,ES,solde migratoire (avec ajustement),-4862,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2015,ES,solde naturel,-1976,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2015,ES,taux solde migratoire (pour 1000),-0.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2015,ES,taux solde naturel (pour 1000),0.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2015,EU27_2020,solde migratoire (avec ajustement),1362545,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2015,EU27_2020,solde naturel,-290899,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2015,EU27_2020,taux solde migratoire (pour 1000),3.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2015,EU27_2020,taux solde naturel (pour 1000),-0.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2015,FR,solde migratoire (avec ajustement),-25626,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2015,FR,solde naturel,205864,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2015,FR,taux solde migratoire (pour 1000),-0.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2015,FR,taux solde naturel (pour 1000),3.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2015,IT,solde migratoire (avec ajustement),30006,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2015,IT,solde naturel,-161791,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2015,IT,taux solde migratoire (pour 1000),0.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2015,IT,taux solde naturel (pour 1000),-2.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2016,DE,solde migratoire (avec ajustement),464730,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2016,DE,solde naturel,-118761,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2016,DE,taux solde migratoire (pour 1000),5.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2016,DE,taux solde naturel (pour 1000),-1.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2016,ES,solde migratoire (avec ajustement),78006,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2016,ES,solde naturel,503,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2016,ES,taux solde migratoire (pour 1000),1.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2016,ES,taux solde naturel (pour 1000),0.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2016,EU27_2020,solde migratoire (avec ajustement),807875,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2016,EU27_2020,solde naturel,-155760,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2016,EU27_2020,taux solde migratoire (pour 1000),1.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2016,EU27_2020,taux solde naturel (pour 1000),-0.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2016,FR,solde migratoire (avec ajustement),-18895,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2016,FR,solde naturel,190320,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2016,FR,taux solde migratoire (pour 1000),-0.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2016,FR,taux solde naturel (pour 1000),2.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2016,IT,solde migratoire (avec ajustement),44845,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2016,IT,solde naturel,-141823,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2016,IT,taux solde migratoire (pour 1000),0.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2016,IT,taux solde naturel (pour 1000),-2.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2017,DE,solde migratoire (avec ajustement),418069,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2017,DE,solde naturel,-147371,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2017,DE,taux solde migratoire (pour 1000),5.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2017,DE,taux solde naturel (pour 1000),-1.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2017,ES,solde migratoire (avec ajustement),178449,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2017,ES,solde naturel,-30772,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2017,ES,taux solde migratoire (pour 1000),3.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2017,ES,taux solde naturel (pour 1000),-0.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2017,EU27_2020,solde migratoire (avec ajustement),950849,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2017,EU27_2020,solde naturel,-333241,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2017,EU27_2020,taux solde migratoire (pour 1000),2.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2017,EU27_2020,taux solde naturel (pour 1000),-0.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2017,FR,solde migratoire (avec ajustement),52773,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2017,FR,solde naturel,163635,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2017,FR,taux solde migratoire (pour 1000),0.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2017,FR,taux solde naturel (pour 1000),2.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2017,IT,solde migratoire (avec ajustement),61945,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2017,IT,solde naturel,-190910,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2017,IT,taux solde migratoire (pour 1000),1.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2017,IT,taux solde naturel (pour 1000),-3.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2018,DE,solde migratoire (avec ajustement),394213,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2018,DE,solde naturel,-167351,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2018,DE,taux solde migratoire (pour 1000),4.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2018,DE,taux solde naturel (pour 1000),-2.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2018,ES,solde migratoire (avec ajustement),328207,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2018,ES,solde naturel,-54326,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2018,ES,taux solde migratoire (pour 1000),7.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2018,ES,taux solde naturel (pour 1000),-1.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2018,EU27_2020,solde migratoire (avec ajustement),1282214,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2018,EU27_2020,solde naturel,-449223,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2018,EU27_2020,taux solde migratoire (pour 1000),2.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2018,EU27_2020,taux solde naturel (pour 1000),-1.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2018,FR,solde migratoire (avec ajustement),114795,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2018,FR,solde naturel,149452,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2018,FR,taux solde migratoire (pour 1000),1.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2018,FR,taux solde naturel (pour 1000),2.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2018,IT,solde migratoire (avec ajustement),72290,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2018,IT,solde naturel,-193386,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2018,IT,taux solde migratoire (pour 1000),1.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2018,IT,taux solde naturel (pour 1000),-3.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2019,DE,solde migratoire (avec ajustement),308928,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2019,DE,solde naturel,-161430,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2019,DE,taux solde migratoire (pour 1000),3.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2019,DE,taux solde naturel (pour 1000),-1.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2019,ES,solde migratoire (avec ajustement),456454,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2019,ES,solde naturel,-57355,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2019,ES,taux solde migratoire (pour 1000),9.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2019,ES,taux solde naturel (pour 1000),-1.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2019,EU27_2020,solde migratoire (avec ajustement),1350272,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2019,EU27_2020,solde naturel,-486847,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2019,EU27_2020,taux solde migratoire (pour 1000),3.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2019,EU27_2020,taux solde naturel (pour 1000),-1.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2019,FR,solde migratoire (avec ajustement),42560,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2019,FR,solde naturel,140620,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2019,FR,taux solde migratoire (pour 1000),0.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2019,FR,taux solde naturel (pour 1000),2.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2019,IT,solde migratoire (avec ajustement),39148,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2019,IT,solde naturel,-214333,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2019,IT,taux solde migratoire (pour 1000),0.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2019,IT,taux solde naturel (pour 1000),-3.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2020,DE,solde migratoire (avec ajustement),200748,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2020,DE,solde naturel,-212428,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2020,DE,taux solde migratoire (pour 1000),2.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2020,DE,taux solde naturel (pour 1000),-2.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2020,ES,solde migratoire (avec ajustement),234560,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2020,ES,solde naturel,-151812,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2020,ES,taux solde migratoire (pour 1000),5.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2020,ES,taux solde naturel (pour 1000),-3.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2020,EU27_2020,solde migratoire (avec ajustement),143479,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2020,EU27_2020,solde naturel,-1115455,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2020,EU27_2020,taux solde migratoire (pour 1000),0.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2020,EU27_2020,taux solde naturel (pour 1000),-2.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2020,FR,solde migratoire (avec ajustement),188206,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2020,FR,solde naturel,66711,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2020,FR,taux solde migratoire (pour 1000),2.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2020,FR,taux solde naturel (pour 1000),1.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2020,IT,solde migratoire (avec ajustement),-69850,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2020,IT,solde naturel,-335425,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2020,IT,taux solde migratoire (pour 1000),-1.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2020,IT,taux solde naturel (pour 1000),-5.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2021,DE,solde migratoire (avec ajustement),310288,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2021,DE,solde naturel,-228195,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2021,DE,taux solde migratoire (pour 1000),3.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2021,DE,taux solde naturel (pour 1000),-2.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2021,ES,solde migratoire (avec ajustement),198371,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2021,ES,solde naturel,-112326,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2021,ES,taux solde migratoire (pour 1000),4.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2021,ES,taux solde naturel (pour 1000),-2.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2021,EU27_2020,solde migratoire (avec ajustement),1440687,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2021,EU27_2020,solde naturel,-1208839,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2021,EU27_2020,taux solde migratoire (pour 1000),3.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2021,EU27_2020,taux solde naturel (pour 1000),-2.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2021,FR,solde migratoire (avec ajustement),282312,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2021,FR,solde naturel,80823,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2021,FR,taux solde migratoire (pour 1000),4.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2021,FR,taux solde naturel (pour 1000),1.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2021,IT,solde migratoire (avec ajustement),95017,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2021,IT,solde naturel,-301097,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2021,IT,taux solde migratoire (pour 1000),1.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2021,IT,taux solde naturel (pour 1000),-5.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2022,DE,solde migratoire (avec ajustement),208899,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2022,DE,solde naturel,-327522,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2022,DE,taux solde migratoire (pour 1000),2.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2022,DE,taux solde naturel (pour 1000),-3.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2022,ES,solde migratoire (avec ajustement),731768,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2022,ES,solde naturel,-133250,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2022,ES,taux solde migratoire (pour 1000),15.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2022,ES,taux solde naturel (pour 1000),-2.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2022,EU27_2020,solde migratoire (avec ajustement),3156367,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2022,EU27_2020,solde naturel,-1274662,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2022,EU27_2020,taux solde migratoire (pour 1000),7.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2022,EU27_2020,taux solde naturel (pour 1000),-2.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2022,FR,solde migratoire (avec ajustement),293038,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2022,FR,solde naturel,51262,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2022,FR,taux solde migratoire (pour 1000),4.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2022,FR,taux solde naturel (pour 1000),0.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2022,IT,solde migratoire (avec ajustement),288812,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2022,IT,solde naturel,-321744,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2022,IT,taux solde migratoire (pour 1000),4.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2022,IT,taux solde naturel (pour 1000),-5.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2023,DE,solde migratoire (avec ajustement),672761,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2023,DE,solde naturel,-335217,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2023,DE,taux solde migratoire (pour 1000),8.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2023,DE,taux solde naturel (pour 1000),-4.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2023,ES,solde migratoire (avec ajustement),647924,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2023,ES,solde naturel,-113590,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2023,ES,taux solde migratoire (pour 1000),13.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2023,ES,taux solde naturel (pour 1000),-2.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2023,EU27_2020,solde migratoire (avec ajustement),2870715,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2023,EU27_2020,solde naturel,-1186538,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2023,EU27_2020,taux solde migratoire (pour 1000),6.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2023,EU27_2020,taux solde naturel (pour 1000),-2.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2023,FR,solde migratoire (avec ajustement),194393,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2023,FR,solde naturel,38907,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2023,FR,taux solde migratoire (pour 1000),2.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2023,FR,taux solde naturel (pour 1000),0.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2023,IT,solde migratoire (avec ajustement),265204,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2023,IT,solde naturel,-291175,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2023,IT,taux solde migratoire (pour 1000),4.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2023,IT,taux solde naturel (pour 1000),-4.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2024,DE,solde migratoire (avec ajustement),451736,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2024,DE,solde naturel,-330641,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2024,DE,taux solde migratoire (pour 1000),5.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2024,DE,taux solde naturel (pour 1000),-4.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2024,ES,solde migratoire (avec ajustement),624658,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2024,ES,solde naturel,-116056,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2024,ES,taux solde migratoire (pour 1000),12.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2024,ES,taux solde naturel (pour 1000),-2.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2024,EU27_2020,solde migratoire (avec ajustement),2416174,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2024,EU27_2020,solde naturel,-1259065,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2024,EU27_2020,taux solde migratoire (pour 1000),5.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2024,EU27_2020,taux solde naturel (pour 1000),-2.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2024,FR,solde migratoire (avec ajustement),195393,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2024,FR,solde naturel,17904,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2024,FR,taux solde migratoire (pour 1000),2.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2024,FR,taux solde naturel (pour 1000),0.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2024,IT,solde migratoire (avec ajustement),255399,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2024,IT,solde naturel,-283165,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2024,IT,taux solde migratoire (pour 1000),4.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2024,IT,taux solde naturel (pour 1000),-4.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2025,DE,solde migratoire (avec ajustement),242324,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2025,DE,solde naturel,-352347,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2025,DE,taux solde migratoire (pour 1000),2.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2025,DE,taux solde naturel (pour 1000),-4.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2025,ES,solde migratoire (avec ajustement),582896,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2025,ES,solde naturel,-121094,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2025,ES,taux solde migratoire (pour 1000),11.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2025,ES,taux solde naturel (pour 1000),-2.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2025,EU27_2020,solde migratoire (avec ajustement),2058461,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2025,EU27_2020,solde naturel,-1352705,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2025,EU27_2020,taux solde migratoire (pour 1000),4.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2025,EU27_2020,taux solde naturel (pour 1000),-3.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2025,FR,solde migratoire (avec ajustement),233329,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2025,FR,solde naturel,-3620,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2025,FR,taux solde migratoire (pour 1000),3.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2025,FR,taux solde naturel (pour 1000),-0.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2025,IT,solde migratoire (avec ajustement),295759,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2025,IT,solde naturel,-296395,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2025,IT,taux solde migratoire (pour 1000),5.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table
+2025,IT,taux solde naturel (pour 1000),-5.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/demo_gind/default/table

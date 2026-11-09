@@ -1,0 +1,11 @@
+niveau_actuel;niveau_propose;regle;statut;note
+N-COM;P-PROX;fusion des communes et de leur intercommunalité (H1) ;hypothèse;
+N-EPCI;P-PROX;H1 ;hypothèse;
+N-MET;P-PROX;H2 ;hypothèse;
+N-SYN;P-PROX;les syndicats sont absorbés par la collectivité de proximité ou deviennent ses opérateurs ;hypothèse;
+N-DEP;;à ventiler par compétence (P-REG, P-PROX, P-SECU, P-PLAT, P-ETAT) ;hypothèse;voir attributions et budgets
+N-REG;P-REG; ;hypothèse;
+N-ETAT;P-ETAT; ;hypothèse;
+N-OPE;;à ventiler par organisme (instances.csv) ;hypothèse;
+N-SECU;;à ventiler (P-SECU pour maladie et retraite, P-PLAT pour prestations et collecte) ;hypothèse;
+TIERS;TIERS; ;fait;

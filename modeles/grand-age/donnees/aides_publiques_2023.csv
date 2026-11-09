@@ -1,0 +1,31 @@
+# sources : DREES PAPH 2025 fiche 06 (APA ; tableau 1) et fiche 07 (ASH ; tableau 1), via la copie de l'édition 2025 « Le coût de la prise en charge de la perte d'autonomie » diffusée par le COR (sources_pdf/cor_doc10_cout_perte_autonomie_drees.pdf) et sources_pdf/drees_paph2025_fiche07_ash.pdf ; CNSA, Chiffres clés 2025 (sources_pdf/cnsa_chiffres_cles_2025.pdf), d'après l'annexe 7 du PLFSS 2025 ; DREES, Autonomix (modèle) via PLACSS 2025 annexe 1 (sources_pdf/placss2025_annexe1_autonomie.pdf)
+# cote A ; conflits d'intérêts : aucun connu (producteurs publics), mais l'ASH est une dépense nette de récupérations (convention DREES) ; consulté le 2026-11-07
+indicateur,valeur,unite,annee,source
+apa_beneficiaires_domicile,815800,personnes,2023,DREES fiche 06
+apa_beneficiaires_etablissement,549000,personnes,2023,DREES fiche 06
+apa_depenses_domicile,4293,M_euro,2023,DREES fiche 06
+apa_depenses_etablissement,2693,M_euro,2023,DREES fiche 06
+apa_depenses_totales,7058,M_euro,2023,DREES fiche 06
+ash_beneficiaires_etablissement_60plus,115900,personnes,2023,DREES fiche 07
+ash_depense_nette_recuperations,1204,M_euro,2023,DREES fiche 07
+ash_depense_mensuelle_moyenne_par_beneficiaire,872,euro_par_mois,2023,DREES fiche 07
+ash_part_des_places_installees,0.15,part,2023,DREES fiche 07
+ash_places_habilitees_ehpad,448000,places,2023,DREES fiche 09
+ash_recours_sur_succession_departements_toujours,0.97,part_des_departements,2018,DREES fiche 07
+ash_obligation_alimentaire_enfants_departements_toujours,1.00,part_des_departements,2018,DREES fiche 07
+ash_reste_a_vivre_minimum_euro_par_mois,115,euro_par_mois,2024,DREES fiche 07 (note de bas de page ; lecture à confirmer ⚠️)
+ash_montant_laisse_au_conjoint_domicile,961,euro_par_mois,2024,DREES fiche 07
+ash_taux_de_recours_residents_ehpad,0.20,part,2019,PLACSS 2025 annexe 1 (Autonomix)
+ash_taux_de_recours_residents_ressources_sous_910,0.46,part,2019,PLACSS 2025 annexe 1 (Autonomix)
+depense_mensuelle_residents_hebergement_dependance,2400,euro_par_mois,2019,PLACSS 2025 annexe 1 (Autonomix)
+aides_mensuelles_moyennes_residents,428,euro_par_mois,2019,Autonomix : 338 APA + 44 aides au logement + 46 reduction d'impot
+reste_a_charge_moyen_avant_ASH,1957,euro_par_mois,2019,DREES fiche 08 (Autonomix)
+residents_reste_a_charge_superieur_aux_ressources_avant_ASH,0.79,part,2019,DREES fiche 08 (Autonomix)
+residents_reste_a_charge_superieur_aux_ressources_apres_ASH,0.61,part,2019,DREES fiche 08 (Autonomix)
+reste_a_charge_annuel_moyen_ehpad_hors_gite_et_couvert,13700,euro_par_an,2020,PLACSS 2025 annexe 1 (gîte et couvert = 813 euros par mois déduits)
+couverture_publique_depense_ehpad_moyenne,0.74,part,2020,PLACSS 2025 annexe 1 (soin + dépendance + hébergement hors gîte-couvert)
+depenses_publiques_perte_autonomie_personnes_agees,29.5,Md_euro,2023,CNSA chiffres clés 2025 (PLFSS 2025 annexe 7) : 23,1 Sécurité sociale ; 5,0 départements nets CNSA ; 1,4 État
+depenses_publiques_perte_autonomie_total_PA_PH,90,Md_euro,2023,idem
+depenses_privees_perte_autonomie_PA_PH,7.5,Md_euro,2020,idem (non incluses ; estimation)
+ogd_personnes_agees_2025_prevision,17.6,Md_euro,2025,CNSA chiffres clés 2025 (ordre des séries lu sur un graphique : ⚠️)
+ogd_personnes_agees_2023,15.4,Md_euro,2023,CNSA chiffres clés 2025 (⚠️ lecture de graphique ; inclut SSIAD et accueils de jour)

@@ -1,0 +1,168 @@
+Articles et mots en vigueur (copies codes.droit.org, lues le 03/11/2026)
+
+Code                                                     articles        mots
+Code général des impôts                                      2407      792960
+Code général des impôts, annexe I                              71        6956
+Code général des impôts, annexe II                            674      115246
+Code général des impôts, annexe III                          1114      209322
+Code général des impôts, annexe IV                            477       97771
+Livre des procédures fiscales                                 919      125363
+Code de la sécurité sociale                                  7429     1210040
+Code des impositions sur les biens et services               1763      120623
+Code des douanes                                             1428      127753
+Code général des collectivités territoriales                 6596      873449
+Total hors CGCT                                             16282     2806034
+
+CGI : ventilation (Livre / Partie / Titre / Chapitre), articles en vigueur, mots
+      Chapitre premier : Impôt sur le revenu: 500 art., 255065 mots
+      Chapitre II : Impôt sur les bénéfices des sociétés et autres: 131 art., 77092 mots
+      Chapitre II bis : Imposition minimale mondiale des groupes d: 184 art., 35716 mots
+      Chapitre III : Taxes diverses: 34 art., 17575 mots
+      Chapitre IV : Dispositions communes aux impôts et taxes, rev: 154 art., 64241 mots
+    Titre premier : Impôts directs et taxes assimilées: 1003 art., 449689 mots
+      Chapitre premier : Taxe sur la valeur ajoutée: 159 art., 61057 mots
+      Chapitre II : Taxe générale sur les activités polluantes: 7 art., 2197 mots
+      Chapitre III : Taxe incitative relative à l'utilisation d'én: 1 art., 2527 mots
+      Chapitre VIII ter : Taxe sur le chiffre d'affaires des explo: 1 art., 551 mots
+      Chapitre IX : Redevance sanitaire d'abattage: 4 art., 388 mots
+      Chapitre X : Redevance sanitaire de découpage: 5 art., 503 mots
+      Chapitre X bis : Redevances sanitaires sur les produits de l: 2 art., 686 mots
+      Chapitre X ter : Redevance sanitaire pour le contrôle de cer: 1 art., 306 mots
+      Chapitre X quater : Redevance pour l'agrément des établissem: 4 art., 215 mots
+      Chapitre XI : Redevances de contrôle à l'importation: 2 art., 1015 mots
+      Chapitre XIV : Taxe additionnelle à la taxe   sur les surfac: 1 art., 451 mots
+      Chapitre XX : Prélèvements sur les jeux et paris: 9 art., 2217 mots
+    Titre II : Taxes sur le chiffre d'affaires et taxes assimilé: 196 art., 72113 mots
+      Chapitre I bis : Régimes simplifiés d'imposition: 6 art., 812 mots
+      Chapitre I ter : Détermination du prix de revient des terrai: 1 art., 79 mots
+      Chapitre III : Suppression des avantages fiscaux prévus en f: 1 art., 64 mots
+      Chapitre IV : Règles applicables aux représentants fiscaux : 1 art., 99 mots
+    Titre II bis : Dispositions communes aux impôts directs et a: 9 art., 1054 mots
+      Chapitre 0I : Alcools, boissons alcooliques et tabacs manufa: 12 art., 4113 mots
+      Chapitre premier : Boissons: 22 art., 1810 mots
+      Chapitre II : Garantie des matières d'or, d'argent et de pla: 2 art., 321 mots
+      Chapitre IV : Tabacs: 3 art., 551 mots
+    Titre III : Contributions indirectes et taxes diverses: 39 art., 6795 mots
+      Chapitre IV : Monopoles: 1 art., 44 mots
+    Titre III : Contributions indirectes et monopoles fiscaux - : 1 art., 44 mots
+      Chapitre premier : Droits d'enregistrement et taxe de public: 276 art., 36759 mots
+      Chapitre II : Droits de timbre: 18 art., 1025 mots
+      Chapitre II bis : Impôt sur la fortune immobilière : 23 art., 7171 mots
+      Chapitre III : Autres droits et taxes: 19 art., 7268 mots
+      Chapitre IV : Régimes spéciaux et exonérations de portée gén: 97 art., 8889 mots
+    Titre IV : Enregistrement, publicité foncière, timbre, impôt: 433 art., 61112 mots
+      Chapitre Ier : Mise sous condition des avantages fiscaux att: 2 art., 771 mots
+    Titre V : Dispositions communes aux titres I, II et IV: 6 art., 973 mots
+  Première Partie : Impôts d'État: 1687 art., 591780 mots
+      Chapitre premier : Impôts directs et taxes assimilées: 222 art., 70857 mots
+      Chapitre II : Contributions indirectes: 1 art., 580 mots
+      Chapitre III : Enregistrement: 3 art., 758 mots
+    Titre premier : Impositions communales: 226 art., 72195 mots
+      Chapitre premier : Impôts directs et taxes assimilées: 12 art., 6957 mots
+      Chapitre III : Enregistrement: 22 art., 4252 mots
+    Titre II : Impositions départementales: 34 art., 11209 mots
+      Chapitre premier : Impôts directs et taxes assimilées: 8 art., 3358 mots
+      Chapitre II : Enregistrement, publicité foncière et timbre: 1 art., 101 mots
+    Titre II bis : Impositions perçues au profit des régions et : 9 art., 3459 mots
+      Chapitre premier : Impôts directs et taxes assimilées: 28 art., 14032 mots
+      Chapitre I bis : Taxes sur le chiffre d'affaires et taxes di: 9 art., 3201 mots
+      Chapitre II : Contributions indirectes: 4 art., 2814 mots
+      Chapitre III : Enregistrement, publicité foncière et timbre: 13 art., 2395 mots
+      Chapitre IV : Dispositions communes: 1 art., 79 mots
+    Titre III : Impositions perçues au profit de certains établi: 55 art., 22521 mots
+      Chapitre Ier: 20 art., 4035 mots
+    Titre IV : Impositions perçues au profit des collectivités t: 20 art., 4035 mots
+      Chapitre 00I : Imposition forfaitaire sur les entreprises de: 1 art., 106 mots
+      Chapitre 0I : Champ d'application: 1 art., 105 mots
+      Chapitre 0I bis : Abattement sur les bases d'impositions dir: 1 art., 426 mots
+      Chapitre premier : Fixation des taux à retenir pour le calcu: 24 art., 18139 mots
+      Chapitre II : Frais d'assiette, de non-valeurs et de recouvr: 4 art., 1509 mots
+      Chapitre 0-II bis : Dégrèvement de la taxe foncière sur les : 1 art., 487 mots
+      Chapitre II bis : Dégrèvement de contribution économique ter: 2 art., 510 mots
+      Chapitre II ter : Cotisation foncière des entreprises : coti: 1 art., 1566 mots
+      Chapitre III : Fonds de péréquation: 2 art., 976 mots
+      Chapitre IV : Départements d'outre-mer: 1 art., 201 mots
+    Titre V : Dispositions communes aux Titres I à III bis: 38 art., 24025 mots
+  Deuxième Partie : Impositions perçues au profit des collecti: 382 art., 137444 mots
+      Chapitre premier : Obligations des contribuables: 28 art., 9341 mots
+      Chapitre I bis : Mesures de contrôle des opérations réalisée: 1 art., 147 mots
+      Chapitre 000I ter : Dispositifs spécifiques de présomption d: 2 art., 1134 mots
+      Chapitre 00I ter : Transmission des déclarations par voie él: 4 art., 1095 mots
+      Chapitre II : Casier fiscal: 1 art., 195 mots
+      Chapitre IV : Exonérations fiscales contractuelles et agréme: 3 art., 414 mots
+      Chapitre V : Départements d'outre-mer. Établissement et cons: 1 art., 232 mots
+      Chapitre VI : Règles d'arrondissement des bases d'imposition: 1 art., 24 mots
+    Titre premier : Assiette et contrôle de l'impôt: 41 art., 12582 mots
+      Chapitre premier : Commissions administratives des impôts et: 26 art., 4325 mots
+      Chapitre II : Régime de certains organismes et sociétés: 9 art., 1886 mots
+      Chapitre III : Métropole de Lyon: 1 art., 209 mots
+      Chapitre IV : Métropole du Grand Paris: 1 art., 169 mots
+      Chapitre V : Collectivité de Corse: 1 art., 90 mots
+      Chapitre VI : Ville de Paris : 1 art., 274 mots
+    Titre II : Dispositions diverses: 39 art., 6953 mots
+  Troisième partie : Dispositions communes aux première et deu: 80 art., 19535 mots
+Livre premier : Assiette et liquidation de l'impôt: 2149 art., 748759 mots
+      I : Rôles et avis d'imposition: 4 art., 568 mots
+      II : Exigibilité de l'impôt: 30 art., 7080 mots
+      III : Paiement de l'impôt: 9 art., 2489 mots
+      IV : Obligations des tiers: 6 art., 1223 mots
+      V : Solidarité entre époux et partenaires liés par un pacte : 1 art., 1007 mots
+      V bis : Autres solidarités: 1 art., 35 mots
+      VI : Décharge de paiement et dégrèvement en cas de décès du : 1 art., 223 mots
+    Section I : Impôts directs et taxes assimilées: 52 art., 12625 mots
+      I : Régime général: 1 art., 21 mots
+      II : Régime spécial des acomptes provisionnels: 1 art., 130 mots
+      II bis : Régime spécial des exploitants agricoles: 1 art., 528 mots
+      II ter : Consolidation au sein d'un groupe du paiement de la: 2 art., 894 mots
+      III bis : Régime simplifié: 1 art., 50 mots
+      IV : Dispositions applicables aux taxes à l'importation, aux: 1 art., 127 mots
+      IV ter : Paiement de la taxe sur la valeur ajoutée par virem: 2 art., 35 mots
+      V : Modalités d'application: 1 art., 16 mots
+    Section II : Taxes sur le chiffre d'affaires et taxes assimi: 10 art., 1801 mots
+    Section III : Contributions indirectes: 2 art., 131 mots
+      I : Paiement des droits: 3 art., 303 mots
+      II : Obligations des agents: 2 art., 273 mots
+      III : Obligation au paiement: 6 art., 378 mots
+      IV : Contribution au paiement: 2 art., 108 mots
+      V : Paiement en valeurs du Trésor ou en créances sur l'État: 2 art., 231 mots
+      V bis : Dation en paiement: 1 art., 415 mots
+      VI : Paiement fractionné ou différé des droits: 5 art., 323 mots
+      VII : Modes particuliers de perception des droits: 1 art., 60 mots
+      VII-0 A : Impôt sur la fortune immobilière: 1 art., 30 mots
+      VII A : Droits de timbre: 1 art., 72 mots
+    Section IV : Enregistrement, publicité foncière, impôt sur l: 24 art., 2193 mots
+    Section V : Dispositions communes: 7 art., 448 mots
+  Chapitre premier : Paiement de l'impôt: 95 art., 17198 mots
+      A : Intérêt de retard: 2 art., 1295 mots
+      B : Sanctions fiscales: 44 art., 10110 mots
+      C : Sanctions pénales: 15 art., 2466 mots
+      D : Recouvrement et contentieux des pénalités et solidarité: 1 art., 615 mots
+      E : Mesures diverses: 1 art., 210 mots
+    Section I : Dispositions communes: 63 art., 14696 mots
+      A : Impôts directs et taxes assimilées: 36 art., 5318 mots
+      B : Taxes sur le chiffre d'affaires et taxes assimilées: 11 art., 1749 mots
+      C : Contributions indirectes: 5 art., 181 mots
+      D : Enregistrement et publicité foncière: 13 art., 1514 mots
+      E : Droits de timbre, autres droits et taxes: 7 art., 309 mots
+      G : Taxes contrôlées par des organismes autres que l'adminis: 2 art., 344 mots
+    Section II : Dispositions particulières: 74 art., 9415 mots
+  Chapitre II : Pénalités: 137 art., 24111 mots
+    Section I : Impôts directs et taxes assimilées: 2 art., 97 mots
+      I : Modes de preuve - Constatation des infractions: 3 art., 203 mots
+      II : Poursuites et instances: 3 art., 302 mots
+    Section IV : Droits d'enregistrement, taxe de publicité fonc: 6 art., 505 mots
+    Section V : Dispositions communes aux impositions dont le re: 1 art., 100 mots
+  Chapitre III : Procédures: 9 art., 702 mots
+    Section I : Privilège du Trésor: 1 art., 351 mots
+    Section V : Publicité du privilège du Trésor: 1 art., 545 mots
+  Chapitre IV : Privilège du Trésor et sa publicité: 2 art., 896 mots
+      7 : Dispositions particulières aux impôts directs et taxes a: 1 art., 117 mots
+      8 : Dispositions particulières aux droits d'enregistrement, : 11 art., 1009 mots
+      9 : Dispositions particulières aux contributions indirectes: 1 art., 29 mots
+    Section II : Juridiction contentieuse: 13 art., 1155 mots
+    Section IV : Dispositions communes: 1 art., 28 mots
+  Chapitre V : Dégrèvements et restitutions d'impôts: 14 art., 1183 mots
+Livre II : Recouvrement de l'impôt: 257 art., 44090 mots
+    JURIDICTION CONTENTIEUSE.: 1 art., 111 mots
+  DEGREVEMENTS ET RESTITUTIONS D'IMPOTS: 1 art., 111 mots
+RECOUVREMENT DE L'IMPOT: 1 art., 111 mots

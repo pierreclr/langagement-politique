@@ -1,0 +1,72 @@
+== eloignements
+{
+  "part_FR_ordres_UE_pct": 28.261472555243937,
+  "ratio_renvoyes_ordonnes_pct": 13.76226826608506,
+  "forces_sur_mesures_pct": 9.056248317933075,
+  "eloignements_sur_mesures_pct": 15.089902472157787,
+  "cible_25pct": {
+    "eloignements_requis": 39014,
+    "supplementaires": 15466,
+    "cout_marginal_Md_si_cout_constant": 0.07,
+    "note": "borne basse : les cas faciles sont deja faits, le cout unitaire monte (laissez-passer consulaires, retention)"
+  },
+  "cible_50pct": {
+    "eloignements_requis": 78029,
+    "supplementaires": 54480,
+    "cout_marginal_Md_si_cout_constant": 0.24,
+    "note": "borne basse : les cas faciles sont deja faits, le cout unitaire monte (laissez-passer consulaires, retention)"
+  }
+}
+== ame
+{
+  "cout_par_beneficiaire_EUR": 2921
+}
+== emploi
+{
+  "ecart_vs_natifs_pts": 14.1,
+  "ecart_vs_moyenne_UE_pts": 5.5,
+  "bas": {
+    "emplois_supplementaires": 158625,
+    "gain_net_Md_EUR": 0.8,
+    "gain_pct_PIB": 0.03
+  },
+  "central": {
+    "emplois_supplementaires": 317250,
+    "gain_net_Md_EUR": 3.2,
+    "gain_pct_PIB": 0.11
+  },
+  "haut": {
+    "emplois_supplementaires": 634500,
+    "gain_net_Md_EUR": 9.5,
+    "gain_pct_PIB": 0.32
+  }
+}
+== fourchette_budgetaire
+{
+  "CEPII_Md": [
+    -14.7,
+    14.7
+  ],
+  "OCDE_FR_Md": [
+    -15.6,
+    29.9
+  ],
+  "OID_Md": [
+    -40.0,
+    -35.0
+  ],
+  "OID_pct_PIB_implicite": [
+    -1.19,
+    -1.36
+  ],
+  "amplitude_totale_Md": 69.9
+}
+== demographie
+{
+  "actifs_en_moins_2050_M": 1.7,
+  "actifs_en_moins_2070_M": 2.4,
+  "retraites_pts_PIB_pour_80k": 1.1,
+  "retraites_Md_pour_80k_aujourd_hui_PIB": 32.3,
+  "retraites_Md_par_tranche_de_10k_migrants": 4.0,
+  "note": "effet en 2070, au PIB actuel (illustration) ; suppose le taux d'emploi moyen pour les migrants supplementaires"
+}

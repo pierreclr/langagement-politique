@@ -1,0 +1,54 @@
+# Rétroaction de la durée du chômage (option `retroactionChomage`, H204 à H220) — généré par rapport_chomage.js
+# bas = réactions faibles, haut = réactions fortes ; + = rapporte à l'État ; Md€/an ; personnes = stock moyen d'indemnisés en moins
+
+## A. Paramètres
+bas : εD 0,15, εE 0,00, λ (part de liquidité du socle) 0,80, éviction 0,50, bornes de r [0,70 ; 1,43]
+central : εD 0,30, εE 0,10, λ (part de liquidité du socle) 0,60, éviction 0,25, bornes de r [0,70 ; 1,43]
+haut : εD 0,70, εE 0,10, λ (part de liquidité du socle) 0,40, éviction 0,00, bornes de r [0,70 ; 1,43]
+Allocation actuelle moyenne B0 = 1180 €/mois ; stock 2,62 M ; net antérieur moyen 1639 € (H93)
+
+## B. Variantes de chômage, socle 500 €/mois (structure du palier 1 : taux plat 35 %, t_max 30 %, R0 24 000 €)
+variante | complément moyen €/mois | B1 = compl. + λS (central) | r brut → retenu | bas : stock net, Md€ | central : stock micro / net, compl., recettes, Md€ | haut : stock net, Md€
+remplace | 0 | 300 | 0,25 → 0,70 (borné) | 68 k, 0,7 | 348 k / 261 k, 0,0 + 2,7 = 2,7 | 650 k, 6,7
+deg1 | 353 | 653 | 0,55 → 0,70 (borné) | 68 k, 1,0 | 348 k / 261 k, 1,1 + 2,7 = 3,8 | 650 k, 9,4
+deg2 | 353 | 653 | 0,55 → 0,70 (borné) | 68 k, 1,0 | 348 k / 261 k, 1,1 + 2,7 = 3,8 | 650 k, 9,4
+deg3 | 466 | 766 | 0,65 → 0,70 (borné) | 59 k, 0,9 | 348 k / 261 k, 1,5 + 2,7 = 4,1 | 650 k, 10,3
+differentiel | 680 | 980 | 0,83 → 0,83 | 17 k, 0,3 | 188 k / 141 k, 1,1 + 1,4 = 2,6 | 548 k, 10,1
+cumul | 1180 | 1480 | 1,25 → 1,25 | -59 k, -1,4 | -248 k / -186 k, -2,6 + -1,9 = -4,6 | -350 k, -8,5
+Recette par emploi retrouvé (impôt du modèle sur un coût du travail de 2410 €/mois) : 10257 €/an
+
+## B. Variantes de chômage, socle 650 €/mois (structure du palier 1 : taux plat 35 %, t_max 30 %, R0 24 000 €)
+variante | complément moyen €/mois | B1 = compl. + λS (central) | r brut → retenu | bas : stock net, Md€ | central : stock micro / net, compl., recettes, Md€ | haut : stock net, Md€
+remplace | 0 | 390 | 0,33 → 0,70 (borné) | 68 k, 0,7 | 348 k / 261 k, 0,0 + 2,7 = 2,7 | 650 k, 6,7
+deg1 | 307 | 697 | 0,59 → 0,70 (borné) | 68 k, 0,9 | 348 k / 261 k, 1,0 + 2,7 = 3,6 | 650 k, 9,1
+deg2 | 307 | 697 | 0,59 → 0,70 (borné) | 68 k, 0,9 | 348 k / 261 k, 1,0 + 2,7 = 3,6 | 650 k, 9,1
+deg3 | 405 | 795 | 0,67 → 0,70 (borné) | 47 k, 0,7 | 348 k / 261 k, 1,3 + 2,7 = 3,9 | 650 k, 9,8
+differentiel | 530 | 920 | 0,78 → 0,78 | 23 k, 0,4 | 248 k / 186 k, 1,2 + 1,9 = 3,1 | 650 k, 10,8
+cumul | 1180 | 1570 | 1,33 → 1,33 | -72 k, -1,8 | -317 k / -238 k, -3,4 + -2,4 = -5,8 | -452 k, -11,0
+Recette par emploi retrouvé (impôt du modèle sur un coût du travail de 2410 €/mois) : 10257 €/an
+
+## C. Palier 1 (deg2, socle 500 €, taux plat 35 %, santé, hautes pensions, plancher parents isolés)
+solde public sans rétroaction (bas / central / haut) : -119,5 / -163,1 / -235,4
+avec rétroaction alignée sur le scénario (bas → bas, …) : -118,5 / -159,3 / -226,0
+scénario central du modèle, rétroaction bas : -162,1 (écart 1,0)
+scénario central du modèle, rétroaction central : -159,3 (écart 3,8)
+scénario central du modèle, rétroaction haut : -153,6 (écart 9,4)
+taux plat nécessaire (Δ ≥ 0, central) : sans 34,5 % ; bas 34,5 % ; central 34,2 % ; haut 33,8 %
+socle finançable au taux de 35 % (central) : sans 514 € ; bas 516 € ; central 523 € ; haut 536 €
+coût marginal du socle : 0,43 Md€ par €/mois
+
+## D. Sensibilité (palier 1, deg2, 500 €, central, un paramètre à la fois)
+central tel quel : r 0,70, stock net 261 k, 3,8 Md€
+sans borne (rPlancher 0) : r 0,55, stock net 414 k, 6,0 Md€
+borne à −50 % (0,5) : r 0,55, stock net 414 k, 6,0 Md€
+λ = 0 (le socle n'allonge pas la durée ; borne atteinte de toute façon) : r 0,70, stock net 261 k, 3,8 Md€
+λ = 1 (le socle compte comme une allocation) : r 0,72, stock net 239 k, 3,5 Md€
+sans éviction : r 0,70, stock net 348 k, 5,0 Md€
+éviction 50 % : r 0,70, stock net 174 k, 2,5 Md€
+sans effet sur les entrées (εE 0) : r 0,70, stock net 199 k, 2,9 Md€
+εD 0,5 (médiane internationale des niveaux, 0,53) : r 0,70, stock net 379 k, 5,5 Md€
+
+## E. Ancienne estimation hors solde (H94, `chomageR`, socle 650 €, ε 0,3 / 0,5 / 0,8, 25 k€ par personne, sans λ ni éviction) et nouvelle (bas ; central ; haut, stock net / Md€)
+remplace : H94 429 k / +10,7 ; 675 k / +16,9 ; 994 k / +24,9 | H204-H220 68 k / 0,7 ; 261 k / 2,7 ; 650 k / 6,7
+deg1 : H94 160 k / +4,0 ; 261 k / +6,5 ; 405 k / +10,1 | H204-H220 68 k / 0,9 ; 261 k / 3,6 ; 650 k / 9,1
+deg3 : H94 87 k / +2,2 ; 143 k / +3,6 ; 225 k / +5,6 | H204-H220 47 k / 0,7 ; 261 k / 3,9 ; 650 k / 9,8

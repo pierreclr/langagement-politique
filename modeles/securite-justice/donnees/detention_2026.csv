@@ -1,0 +1,27 @@
+cle,valeur,unite,date,perimetre,source,statut
+ecroues_total,102347,personnes,2026-01-01,milieu ferme,Chiffres cles Justice 2026 p.22,sourcé
+detenus,84741,personnes,2026-01-01,condamnes detenus + prevenus,Chiffres cles Justice 2026 p.4 et p.22,sourcé
+condamnes_detenus,62610,personnes,2026-01-01,,Chiffres cles Justice 2026 p.22-23,sourcé
+prevenus_detenus,22131,personnes,2026-01-01,detention provisoire,Chiffres cles Justice 2026 p.22-23,sourcé
+non_detenus,17606,personnes,2026-01-01,surveillance electronique et placement exterieur sans hebergement,Chiffres cles Justice 2026 p.22-23,sourcé
+places,62284,places,2026-01-01,places disponibles,Chiffres cles Justice 2026 p.4,sourcé
+densite_officielle,1.361,part,2026-01-01,tous etablissements,Chiffres cles Justice 2026 p.22,sourcé
+densite_maisons_arret,1.577,part,2026-01-01,,Chiffres cles Justice 2026 p.22,sourcé
+detenus_sept_2026,90020,personnes,2026-09-01,,DAP statistique mensuelle (via sources/recherche-securite-justice-statistiques.md),sourcé
+places_sept_2026,63348,places,2026-09-01,places operationnelles,DAP statistique mensuelle (idem),sourcé
+entrants_2025,107283,personnes,2025,entrants en prison,Chiffres cles Justice 2026 p.4,sourcé
+sortants_2025,99110,personnes,2025,,Chiffres cles Justice 2026 p.4,sourcé
+duree_moyenne_ecrou_condamnes_detenus_mois,11.8,mois,2025,sortants 2025,Chiffres cles Justice 2026 p.24,sourcé
+duree_moyenne_ecrou_prevenus_mois,5.3,mois,2025,,Chiffres cles Justice 2026 p.24,sourcé
+quantum_6m_ou_moins_detenus,3027,personnes,2026-01-01,condamnes detenus par quantum ferme,Chiffres cles Justice 2026 p.23,sourcé
+quantum_6m_a_1an_detenus,8251,personnes,2026-01-01,,Chiffres cles Justice 2026 p.23,sourcé
+quantum_1_a_2ans_detenus,14995,personnes,2026-01-01,,Chiffres cles Justice 2026 p.23,sourcé
+quantum_2_a_5ans_detenus,17282,personnes,2026-01-01,,Chiffres cles Justice 2026 p.23,sourcé
+quantum_5_a_10ans_detenus,7515,personnes,2026-01-01,,Chiffres cles Justice 2026 p.23,sourcé
+quantum_10_a_20ans_detenus,7863,personnes,2026-01-01,,Chiffres cles Justice 2026 p.23,sourcé
+quantum_20_a_30ans_detenus,2221,personnes,2026-01-01,,Chiffres cles Justice 2026 p.23,sourcé
+quantum_perpetuite_detenus,486,personnes,2026-01-01,,Chiffres cles Justice 2026 p.23,sourcé
+milieu_ouvert_suivis,175782,personnes,2026-01-01,SPIP,Chiffres cles Justice 2026 p.4 et p.24,sourcé
+tig_en_cours,18322,mesures,2026-01-01,,Chiffres cles Justice 2026 p.25,sourcé
+sursis_probatoire_en_cours,147140,mesures,2026-01-01,,Chiffres cles Justice 2026 p.25,sourcé
+densite_europe_france_2024,1.24,part,2024-01-01,SPACE I 2024,Conseil de l'Europe (via preparation-themes-partiels.md),⚠️ V6275

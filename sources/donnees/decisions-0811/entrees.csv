@@ -1,0 +1,24 @@
+variable,valeur,unite,annee,source,cote,statut
+departements_fonctionnement,66.56,Md€,2025,DGCL/OFGL BIS 212 Finances des départements 2025,A,lu via résultat de recherche (PDF non lisible)
+regions_fonctionnement,NON TROUVE,Md€,2025,-,-,hypothèse 25 Md€ ⚠️
+indemnites_elus_departements_2002,123.6,M€,2002,Réponse ministérielle (Hénart),B,ancien
+indemnites_elus_regions_2002,75.2,M€,2002,Réponse ministérielle (Hénart),B,ancien
+indemnites_elus_regions_2011,58.3,M€,2011,Dosière (rapport parlementaire),B,ancien
+indemnites_region_AURA_2023,6.47,M€,2023,Lyon Capitale (presse),C,une seule région
+ase_depenses_departements,11.7,Md€,2024,DREES Dossier 138 (30/06/2026),A,courant
+cout_moyen_accueil_par_beneficiaire,42400,€/an,2024,DREES Dossier 138,A,
+enfants_accueillis,224700,personnes,fin 2024,DREES Dossier 138,A,
+jeunes_majeurs_accueillis,32600,personnes,fin 2024,DREES Dossier 138,A,
+juges_pour_100k,11.3,pour 100 000 hab.,2022,CEPEJ 2024 (via AN, USM),A,moyenne 21.9 / médiane 17.6
+personnel_non_juge_pour_100k,37.3,pour 100 000 hab.,2022,CEPEJ 2024 (via USM),A,médiane 57.9
+procureurs_pour_100k,3.2,pour 100 000 hab.,2022,CEPEJ 2024 (CP justice.gouv.fr),A,moyenne 12.2
+budget_justice_cp,12.16,Md€,2024,actu-juridique (presse),C,
+artificialisation_2023,19263,ha,2023,Cerema via recherche,A/C,
+artificialisation_2024,15119,ha,2024,Cerema via Banque des Territoires,C,
+fgti_recouvrement_auteurs,103.8,M€,2024,FGTI rapport d'activité 2024,B,
+fgti_indemnisation_proxy,830.8,M€,2024,FGTI rapport d'activité 2024,B,texte coupé, à confirmer
+sarvi_verses_victimes,42.8,M€,2023,Réponse ministérielle,B,autre chiffre cité 20.4 M€ recouvrés
+population_france,68,millions,2026,Insee (ordre de grandeur),A,arrondi
+cout_magistrat_chargé,90000,€/an,2026,HYPOTHESE,-,⚠️ à remplacer par masse salariale
+cout_greffier_charge,50000,€/an,2026,HYPOTHESE,-,⚠️ à remplacer par masse salariale
+jeune_majeur_cout,10000,€/an,2026,HYPOTHESE,-,⚠️

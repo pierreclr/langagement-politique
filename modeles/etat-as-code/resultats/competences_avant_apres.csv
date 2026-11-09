@@ -1,0 +1,62 @@
+competence;libelle;niveaux_juridiques_actuel;nb_niveaux_juridiques;niveaux_larges_actuel;chevauchement_strict;niveaux_qui_financent_2024;depense_locale_2024_md_eur;existe_propose;devient;responsable_propose
+C01;État civil (naissances, mariages, décès);N-COM;1;N-COM;non;;0.000;oui;;P-PROX
+C02;Titres d'identité (carte d'identité, passeport) : recueil et délivrance;N-ETAT;1;N-COM N-ETAT N-OPE;non;;0.000;oui;;P-ETAT
+C03;Listes électorales;N-COM;1;N-COM;non;;0.000;oui;;P-PROX
+C04;Écoles maternelles et élémentaires (bâtiments, fonctionnement);N-COM N-EPCI N-SYN;3;N-COM N-EPCI N-SYN;non;N-COM:9.98 N-DEP:0.08 N-EPCI:0.47 N-REG:0.00 N-SYN:0.51;11.048;oui;;P-PROX
+C05;Enseignement (enseignants, programmes, diplômes);N-ETAT;1;N-ETAT;non;;0.000;oui;;P-ETAT
+C06;Restauration scolaire et accueil périscolaire;N-COM N-EPCI N-SYN;3;N-COM N-EPCI N-SYN;non;N-COM:3.83 N-DEP:0.15 N-EPCI:0.34 N-REG:0.50;4.809;oui;;P-PROX
+C07;Collèges (bâtiments, fonctionnement);N-DEP N-EPCI N-MET;3;N-DEP N-EPCI N-MET;non;N-COM:0.11 N-DEP:6.24 N-EPCI:0.16;6.506;oui;;P-REG
+C08;Lycées (bâtiments, fonctionnement);N-EPCI N-REG;2;N-EPCI N-REG;non;N-REG:6.99;6.989;oui;;P-REG
+C09;Bourses de collège et de lycée;N-ETAT;1;N-ETAT;non;;0.000;oui;;P-ETAT
+C10;Transports scolaires;N-REG;1;N-REG N-SYN;non;N-COM:0.06 N-DEP:0.27 N-EPCI:0.21 N-REG:1.64;2.194;oui;;P-REG
+C11;Mobilité urbaine et locale (autorité organisatrice de la mobilité);N-EPCI N-MET N-REG N-SYN;4;N-EPCI N-MET N-REG N-SYN;oui;N-COM:0.78 N-DEP:0.66 N-EPCI:2.01 N-SYN:3.30;6.748;oui;;P-PROX
+C12;Transports régionaux non urbains et ferroviaires (TER, cars);N-REG;1;N-REG;non;N-COM:0.15 N-DEP:0.32 N-EPCI:0.40 N-REG:10.97;11.838;oui;;P-REG
+C13;Voirie communale et intercommunale;N-COM N-EPCI N-MET;3;N-COM N-EPCI N-MET;oui;N-COM:4.15 N-DEP:0.57 N-EPCI:3.88 N-REG:0.16;8.757;oui;;P-PROX
+C14;Routes départementales;N-DEP N-MET;2;N-DEP N-MET;non;N-DEP:5.18;5.178;oui;;P-REG
+C15;Routes nationales;N-DEP N-ETAT N-REG;3;N-DEP N-ETAT N-REG;non;N-REG:0.64;0.643;oui;;P-ETAT
+C16;Collecte et traitement des déchets ménagers, propreté;N-COM N-DEP N-EPCI N-MET;4;N-COM N-DEP N-EPCI N-MET N-SYN;oui;N-COM:1.73 N-DEP:0.02 N-EPCI:5.53 N-REG:0.04 N-SYN:5.48;12.807;oui;;P-PROX
+C17;Planification de la prévention et de la gestion des déchets;N-REG;1;N-REG;non;;0.000;oui;;P-REG
+C18;Eau potable;N-COM N-EPCI N-MET;3;N-COM N-EPCI N-MET N-SYN;oui;N-COM:0.18 N-DEP:0.30 N-EPCI:1.29 N-REG:0.11 N-SYN:4.65;6.538;oui;;P-PROX
+C19;Assainissement et eaux pluviales;N-COM N-EPCI N-MET;3;N-COM N-EPCI N-MET N-SYN;oui;;0.000;oui;;P-PROX
+C20;Gestion des milieux aquatiques et prévention des inondations (GEMAPI);N-EPCI N-MET;2;N-EPCI N-MET N-SYN;oui;;0.000;oui;;P-PROX
+C21;Urbanisme réglementaire et aménagement (PLU, PLUi, SCoT, opérations d'aménagement);N-COM N-EPCI N-MET;3;N-COM N-EPCI N-MET;oui;N-COM:8.81 N-DEP:1.57 N-EPCI:3.77 N-REG:1.18 N-SYN:0.87;16.206;oui;;P-PROX
+C22;Autorisations d'urbanisme (permis de construire, déclarations préalables);N-COM N-ETAT;2;N-COM N-EPCI N-ETAT;oui;;0.000;oui;;P-PROX
+C23;Habitat et logement social (PLH, aides à la pierre, attributions);N-DEP N-EPCI N-MET N-REG;4;N-COM N-DEP N-EPCI N-MET N-REG;oui;N-COM:0.72 N-DEP:0.49 N-EPCI:1.16 N-REG:0.12;2.494;oui;;P-PROX
+C24;Aides personnelles au logement (APL, ALF, ALS);N-ETAT;1;N-ETAT N-SECU;non;;0.000;non;C60;P-PLAT
+C25;Revenu de solidarité active (RSA);N-DEP;1;N-COM N-DEP N-OPE N-SECU;non;N-DEP:10.52;10.524;non;C60;P-PLAT
+C26;Prime d'activité;N-ETAT;1;N-ETAT N-SECU;non;;0.000;non;C60;P-PLAT
+C27;Allocations familiales;N-SECU;1;N-SECU;non;;0.000;non;C60;P-PLAT
+C28;Handicap : évaluation et ouverture des droits (MDPH, CDAPH);N-DEP;1;N-DEP;non;;0.000;oui;;P-SECU
+C29;Allocation aux adultes handicapés (AAH);N-DEP N-ETAT;2;N-DEP N-ETAT N-SECU;oui;;0.000;à_arbitrer;C60;à arbitrer
+C30;Prestation de compensation du handicap (PCH);N-DEP;1;N-DEP N-SECU;non;N-DEP:10.36;10.357;oui;;P-SECU
+C31;Allocation personnalisée d'autonomie (APA) et personnes âgées;N-DEP;1;N-COM N-DEP N-SECU;non;N-DEP:9.74;9.742;oui;;P-SECU
+C32;Aide sociale à l'enfance;N-DEP N-MET;2;N-DEP N-MET;non;N-DEP:11.07;11.069;oui;;P-PROX
+C33;Protection maternelle et infantile (PMI);N-DEP;1;N-DEP;non;N-DEP:1.08;1.080;oui;;P-PROX
+C34;Action sociale générale et facultative (accueil social, aides d'urgence);N-COM N-DEP N-EPCI N-MET;4;N-COM N-DEP N-EPCI N-MET;non;N-COM:8.59 N-DEP:3.63 N-EPCI:2.77 N-REG:0.42 N-SYN:0.56;15.970;oui;;P-PROX
+C35;Insertion et accompagnement vers l'emploi;N-DEP N-OPE;2;N-DEP N-OPE;oui;;0.000;oui;;P-ETAT
+C36;Formation professionnelle;N-OPE N-REG;2;N-OPE N-REG;oui;N-COM:0.19 N-DEP:0.20 N-EPCI:0.34 N-REG:4.70;5.423;oui;;P-ETAT
+C37;Développement économique et aides aux entreprises;N-EPCI N-MET N-REG;3;N-EPCI N-MET N-REG;oui;N-COM:0.73 N-DEP:0.67 N-EPCI:2.04 N-REG:2.35 N-SYN:0.26;6.064;oui;;P-REG
+C38;Tourisme;N-COM N-DEP N-EPCI N-MET N-REG;5;N-COM N-DEP N-EPCI N-MET N-REG;oui;N-COM:0.20 N-DEP:0.35 N-EPCI:0.63 N-REG:0.25;1.429;oui;;P-REG
+C39;Culture;N-COM N-DEP N-EPCI N-ETAT N-MET N-REG;6;N-COM N-DEP N-EPCI N-ETAT N-MET N-REG;oui;N-COM:5.74 N-DEP:1.13 N-EPCI:2.36 N-REG:0.82 N-SYN:0.37;10.417;oui;;P-PROX
+C40;Sport;N-COM N-DEP N-EPCI N-ETAT N-MET N-REG;6;N-COM N-DEP N-EPCI N-ETAT N-MET N-REG;oui;N-COM:4.91 N-DEP:0.60 N-EPCI:2.31 N-REG:0.42;8.237;oui;;P-PROX
+C41;Archives publiques (conservation, communication);N-COM N-DEP N-EPCI N-REG;4;N-COM N-DEP N-EPCI N-REG;oui;;0.000;oui;;P-ETAT
+C42;Incendie et secours;N-DEP N-MET;2;N-COM N-DEP N-EPCI N-MET;oui;N-COM:1.15 N-DEP:3.25 N-EPCI:1.46 N-SYN:0.04;5.898;oui;;P-REG
+C43;Police et tranquillité publique;N-COM N-ETAT;2;N-COM N-ETAT;oui;N-COM:2.62 N-DEP:0.11 N-EPCI:0.18 N-REG:0.13;3.038;oui;;P-ETAT
+C44;Cimetières;N-COM N-EPCI N-MET;3;N-COM N-EPCI N-MET;non;;0.000;oui;;P-PROX
+C45;Accueil des gens du voyage;N-EPCI N-MET;2;N-EPCI N-MET;oui;;0.000;oui;;P-PROX
+C46;Politique de la ville;N-EPCI N-MET N-REG;3;N-EPCI N-MET N-REG;oui;;0.000;oui;;P-PROX
+C47;Énergie et climat (concessions électricité et gaz, réseaux de chaleur, plan climat);N-MET N-REG;2;N-MET N-REG;non;N-COM:0.62 N-DEP:0.79 N-EPCI:0.94 N-REG:0.57 N-SYN:3.50;6.417;oui;;P-PROX
+C48;Aménagement du territoire régional (SRADDET), biodiversité;N-REG;1;N-REG;non;;0.000;oui;;P-REG
+C49;Assurance maladie (remboursement des soins);N-SECU;1;N-SECU;non;;0.000;oui;;P-SECU
+C50;Retraites (liquidation et versement);N-ETAT N-SECU;2;N-ETAT N-SECU;oui;;0.000;oui;;P-SECU
+C51;Recouvrement des cotisations sociales et déclaration d'embauche;N-SECU;1;N-SECU;non;;0.000;non;C61;P-PLAT
+C52;Impôt sur le revenu (assiette, recouvrement);N-ETAT;1;N-ETAT;non;;0.000;non;C61;P-PLAT
+C53;Formalités d'entreprises (création, modification, cessation);N-OPE;1;N-OPE;non;;0.000;oui;;P-PLAT
+C54;Immatriculation des véhicules;N-ETAT;1;N-ETAT N-OPE;non;;0.000;oui;;P-ETAT
+C55;Accueil et orientation de l'usager, accès aux droits (guichet de proximité);N-COM N-DEP N-EPCI;3;N-COM N-DEP N-EPCI N-OPE N-SECU;non;;0.000;oui;;P-PROX
+C56;Jeunesse et éducation populaire;N-COM N-DEP N-ETAT N-REG;4;N-COM N-DEP N-ETAT N-REG;oui;N-COM:4.99 N-DEP:0.56 N-EPCI:0.98 N-REG:0.13;6.667;oui;;P-PROX
+C57;Santé de proximité (centres de santé, accès aux soins);N-DEP N-ETAT N-REG;3;N-DEP N-ETAT N-REG;oui;N-COM:0.65 N-EPCI:0.17 N-REG:0.54;1.356;oui;;P-ETAT
+C58;Action internationale des collectivités (coopération décentralisée);N-COM N-DEP N-REG;3;N-COM N-DEP N-REG;oui;N-COM:0.05 N-DEP:0.10 N-EPCI:0.05 N-REG:2.84;3.045;oui;;P-REG
+C59;Systèmes d'information et sites des administrations;N-COM N-DEP N-EPCI N-ETAT N-OPE N-REG N-SECU;7;N-COM N-DEP N-EPCI N-ETAT N-OPE N-REG N-SECU;oui;;0.000;oui;;P-PLAT
+C60;Fonction des revenus, filet du ménage et montant par enfant;;0;;non;;0.000;oui;;P-PLAT
+C61;Collecte unique des prélèvements (contribution C(R), patrimoine, TVA);;0;;non;;0.000;oui;;P-PLAT

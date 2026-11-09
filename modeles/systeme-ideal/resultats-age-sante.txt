@@ -1,0 +1,103 @@
+socle de départ 500 €, santé 2025 (Sécurité sociale) 201.64 Md€, dépendance 2025 55,8 Md€
+
+## 1. Dépenses liées à l'âge (Md€ de 2025 constants) : indices et variations par rapport à 2025
+| scénario | année | décalage du profil (ans) | indice santé | indice dépendance | santé : variation | dépendance : variation | total |
+| bas | 2035 | 0,3 | 1,091 | 1,11 | +18 | +6 | **+24** |
+| bas | 2045 | 0,6 | 1,135 | 1,17 | +27 | +9 | **+37** |
+| bas | 2065 | 1,3 | 1,145 | 1,185 | +29 | +10 | **+40** |
+| central | 2035 | 0,4 | 1,081 | 1,104 | +16 | +6 | **+22** |
+| central | 2045 | 0,8 | 1,124 | 1,169 | +25 | +9 | **+34** |
+| central | 2065 | 1,7 | 1,13 | 1,198 | +26 | +11 | **+37** |
+| haut | 2035 | 0 | 1,087 | 1,12 | +18 | +7 | **+24** |
+| haut | 2045 | 0 | 1,143 | 1,214 | +29 | +12 | **+41** |
+| haut | 2065 | 0 | 1,175 | 1,305 | +35 | +17 | **+52** |
+
+## 2. Cas de base (g = 0, pensions sur les prix)
+| scénario | année | solde sans santé/dépendance | effet santé + dépendance | solde avec | socle finançable sans (€/mois) | socle finançable avec (€/mois) |
+| bas | 2035 | −122 | −24 | **−146** | 496 | 441 |
+| bas | 2045 | −132 | −37 | **−169** | 472 | 390 |
+| bas | 2065 | −154 | −40 | **−194** | 420 | 329 |
+| central | 2035 | −170 | −22 | **−192** | 484 | 434 |
+| central | 2045 | −189 | −34 | **−224** | 441 | 361 |
+| central | 2065 | −253 | −37 | **−290** | 275 | 181 |
+| haut | 2035 | −248 | −24 | **−272** | 472 | 417 |
+| haut | 2045 | −274 | −41 | **−315** | 410 | 315 |
+| haut | 2065 | −372 | −52 | **−424** | 123 | 0 |
+
+## 3. Productivité de 1 % par an, pensions sur les prix (variante B de § 17)
+| scénario | année | solde sans santé/dépendance | effet santé + dépendance | solde avec | socle finançable sans (€/mois) | socle finançable avec (€/mois) |
+| bas | 2035 | −32 | −24 | **−57** | 697 | 642 |
+| bas | 2045 | 58 | −37 | **22** | 902 | 819 |
+| bas | 2065 | 263 | −40 | **223** | 1379 | 1288 |
+| central | 2035 | −84 | −22 | **−106** | 681 | 630 |
+| central | 2045 | −7 | −34 | **−41** | 860 | 781 |
+| central | 2065 | 122 | −37 | **85** | 1219 | 1125 |
+| haut | 2035 | −166 | −24 | **−190** | 659 | 604 |
+| haut | 2045 | −103 | −41 | **−144** | 810 | 715 |
+| haut | 2065 | −44 | −52 | **−96** | 1031 | 886 |
+
+## 4. Productivité de 1 % par an, pensions sur les salaires (variante C de § 17)
+| scénario | année | solde sans santé/dépendance | effet santé + dépendance | solde avec | socle finançable sans (€/mois) | socle finançable avec (€/mois) |
+| bas | 2035 | −68 | −24 | **−93** | 616 | 561 |
+| bas | 2045 | −22 | −37 | **−59** | 721 | 638 |
+| bas | 2065 | 76 | −40 | **37** | 951 | 860 |
+| central | 2035 | −120 | −22 | **−142** | 598 | 548 |
+| central | 2045 | −89 | −34 | **−123** | 672 | 593 |
+| central | 2065 | −72 | −37 | **−109** | 731 | 637 |
+| haut | 2035 | −203 | −24 | **−227** | 576 | 520 |
+| haut | 2045 | −187 | −41 | **−228** | 615 | 519 |
+| haut | 2065 | −245 | −52 | **−297** | 475 | 330 |
+
+## 5. Hypothèse « bonne santé » : démographie centrale, part des années gagnées en bonne santé de 0 à 1
+| part | année | indice santé | indice dépendance | santé | dépendance | total | solde central avec | socle finançable avec |
+| 0 | 2035 | 1,094 | 1,123 | +19 | +7 | +26 | −196 | 426 |
+| 0 | 2045 | 1,15 | 1,208 | +30 | +12 | +42 | −231 | 345 |
+| 0 | 2065 | 1,181 | 1,277 | +37 | +15 | +52 | −305 | 144 |
+| 0.5 | 2035 | 1,081 | 1,104 | +16 | +6 | +22 | −192 | 434 |
+| 0.5 | 2045 | 1,124 | 1,169 | +25 | +9 | +34 | −224 | 361 |
+| 0.5 | 2065 | 1,13 | 1,198 | +26 | +11 | +37 | −290 | 181 |
+| 1 | 2035 | 1,069 | 1,086 | +14 | +5 | +19 | −189 | 442 |
+| 1 | 2045 | 1,099 | 1,131 | +20 | +7 | +27 | −216 | 378 |
+| 1 | 2065 | 1,079 | 1,122 | +16 | +7 | +23 | −276 | 218 |
+
+## 6. Repères : profil DREES contre Ageing Report 2024 (central, indices en euros constants, 2025 = 1)
+| année | santé : notre profil | santé : repère AR (démographique) | dépendance : notre profil | dépendance : repère AR (base, avec facteurs non démographiques) | effet santé : nous (Md€) | effet santé : repère AR (Md€) |
+| 2035 | 1,081 | 1,035 | 1,104 | 1,117 | +16 | +7 |
+| 2045 | 1,124 | 1,056 | 1,169 | 1,22 | +25 | +11 |
+| 2065 | 1,13 | 1,022 | 1,198 | 1,269 | +26 | +4 |
+
+## 7. Périmètre de la dépendance : niveau 2025 de 29,5 Md€ (CNSA, personnes âgées, 2023) au lieu de 1,9 % du PIB (central)
+| année | variation dépendance (AR, 55,8 Md€) | variation dépendance (CNSA personnes âgées, 29,5 Md€) |
+| 2035 | +6 | +3 |
+| 2045 | +9 | +5 |
+| 2065 | +11 | +6 |
+
+## 8. Profil de santé (DREES 2023, remboursement AMO par personne) et âge moyen des classes en 2025
+- âge moyen 5,1 ans : 925 €
+- âge moyen 15,5 ans : 887 €
+- âge moyen 25,4 ans : 1134 €
+- âge moyen 35,6 ans : 1477 €
+- âge moyen 45,5 ans : 1713 €
+- âge moyen 55,5 ans : 2557 €
+- âge moyen 65,4 ans : 3822 €
+- âge moyen 74,7 ans : 5587 €
+- âge moyen 86,1 ans : 7858 €
+
+## 9. Écart avec l'Ageing Report 2024 : étapes (central, santé hors dépendance, Md€ de 2025 constants)
+aplatissement lambda calé sur la Commission : 0,376
+| année | profil DREES (Insee) | variante Commission (profil aplati, Insee) | Commission, ratio × population Insee | Commission, ratio × population Eurostat | effet de structure par tête : nous | effet de structure par tête : Commission | population 2025 = 1 : Insee | Eurostat |
+| 2035 | +16 | +8 | +7 | +9 | +7 % | +2 % | 1,011 | 1,021 |
+| 2045 | +25 | +10 | +11 | +16 | +12 % | +5 % | 1,008 | 1,029 |
+| 2065 | +26 | +5 | +4 | +16 | +17 % | +6 % | 0,964 | 1,019 |
+
+## 10. Variante Commission : dépenses de santé et de dépendance, solde et socle finançable (cas de base)
+| scénario | année | santé (DREES) | santé (Commission) | total (DREES) | total (Commission) | solde avec (DREES) | solde avec (Commission) | socle (DREES) | socle (Commission) |
+| bas | 2035 | +18 | +11 | +24 | +17 | −146 | −138 | 441 | 458 |
+| bas | 2045 | +27 | +16 | +37 | +26 | −169 | −158 | 390 | 415 |
+| bas | 2065 | +29 | +16 | +40 | +27 | −194 | −181 | 329 | 359 |
+| central | 2035 | +16 | +8 | +22 | +13 | −192 | −184 | 434 | 454 |
+| central | 2045 | +25 | +10 | +34 | +20 | −224 | −209 | 361 | 395 |
+| central | 2065 | +26 | +5 | +37 | +16 | −290 | −269 | 181 | 234 |
+| haut | 2035 | +18 | +6 | +24 | +12 | −272 | −260 | 417 | 444 |
+| haut | 2045 | +29 | +7 | +41 | +19 | −315 | −293 | 315 | 366 |
+| haut | 2065 | +35 | −1 | +52 | +16 | −424 | −388 | 0 | 78 |

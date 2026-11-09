@@ -1,0 +1,61 @@
+=== CALAGES ===
+Ménages : 30.9 M ; recalage HVP → comptes nationaux ×1.4 ; patrimoine net reconstitué 14649.64 Md€ (Insee 2024 : 14953)
+Taux TF ménages (calé) 0.25 % de l'immobilier brut ; DMTO 0.17 % ; DMTG 0.17 % au-dessus de 100 k€ de patrimoine net
+Seuil d'exemption d'épargne (calé, HQ7) E = 90 765 € de patrimoine financier par ménage ; cible PS = 33.55 Md€
+Bases : actifs financiers 3683.48 Md€ ; revenus financiers 214.10 ; locatif hors RP 2411.65 Md€ ; loyers nets 48.23 ; PV 25.60 ; PS à E=0 : 49.52
+Total modèle ancien : TF 26.20 ; DMTO 17.20 ; IFI 2.68 (Insee 2.682) ; DMTG 20.82
+Taxe du patrimoine v7.4 B, statique, sans comportement : dû brut avant plancher 125.25 ; après plancher 81.05 ; payé 63.39 ; différé 17.66 (bilan : 54,52 net dont 12,43 différés)
+Revenus du capital, nouveau : prélèvement attribuable 161.51 ; ancien (PS + IR estimés) 62.46
+
+=== TRANCHES (€ par ménage et par an ; % du patrimoine net moyen de la tranche) ===
+tranche | ménages (M) | part ménages | patrimoine net moyen | ANCIEN stock (TF+DMTO+IFI) | ANCIEN transmissions DMTG | ANCIEN revenus capital | ANCIEN total | NOUVEAU taxe patrimoine (dû P') dont différé | NOUVEAU revenus capital | NOUVEAU total | écart € | écart % patrimoine
+< 10 k€ | 3.847 | 12.45 % | 4 160 | 0 | 0 | 0 | 0 (0.01 %) | 0 dont différé 0 | 49 | 49 (1.17 %) | 48 | 1.16 pt
+10-100 k€ | 7.105 | 22.99 % | 37 203 | 24 | 0 | 6 | 30 (0.08 %) | 1 dont différé 0 | 532 | 533 (1.43 %) | 503 | 1.35 pt
+100-300 k€ | 7.112 | 23.02 % | 199 771 | 691 | 168 | 70 | 929 (0.46 %) | 402 dont différé 0 | 1 463 | 2 033 (1.02 %) | 1 104 | 0.55 pt
+300 k€-1 M€ | 9.491 | 30.71 % | 563 029 | 2 011 | 779 | 1 222 | 4 012 (0.71 %) | 2 665 dont différé 67 | 4 552 | 7 997 (1.42 %) | 3 985 | 0.71 pt
+1-5 M€ | 3.158 | 10.22 % | 1 777 789 | 5 268 | 2 823 | 10 798 | 18 888 (1.06 %) | 12 330 dont différé 3 095 | 22 744 | 37 897 (2.13 %) | 19 008 | 1.07 pt
+5-20 M€ | 0.173 | 0.56 % | 8 138 814 | 18 577 | 13 525 | 65 820 | 97 921 (1.20 %) | 57 027 dont différé 29 399 | 130 889 | 201 441 (2.48 %) | 103 519 | 1.27 pt
+20-100 M€ | 0.014 | 0.04 % | 34 216 917 | 115 380 | 57 399 | 284 062 | 456 841 (1.34 %) | 240 374 dont différé 127 458 | 555 497 | 853 269 (2.49 %) | 396 428 | 1.16 pt
+> 100 M€ | 0.001 | 0.00 % | 174 019 713 | 722 996 | 292 605 | 1 450 276 | 2 465 877 (1.42 %) | 1 201 654 dont différé 627 389 | 2 831 812 | 4 326 071 (2.49 %) | 1 860 194 | 1.07 pt
+ENSEMBLE | 30.900 | 100.00 % | 474 098 | 1 491 | 674 | 2 021 | 4 186 (0.88 %) | 2 623 dont différé 571 | 5 227 | 8 524 (1.80 %) | 4 337 | 0.91 pt
+
+=== NOUVEAU « CALÉ » : dû P' × 0.673 (recette nette 54,52 ; comportement, effet de prix, exil, gestion) ===
+tranche | taxe patrimoine calée € | dont différé € | nouveau total calé € | % patrimoine | écart avec ancien € | écart % patrimoine
+< 10 k€ | 0 | 0 | 49 | 1.17 % | 48 | 1.16 pt
+10-100 k€ | 1 | 0 | 533 | 1.43 % | 503 | 1.35 pt
+100-300 k€ | 271 | 0 | 1 901 | 0.95 % | 973 | 0.49 pt
+300 k€-1 M€ | 1 793 | 48 | 7 124 | 1.27 % | 3 112 | 0.55 pt
+1-5 M€ | 8 294 | 2 179 | 33 861 | 1.90 % | 14 973 | 0.84 pt
+5-20 M€ | 38 362 | 20 698 | 182 776 | 2.25 % | 84 855 | 1.04 pt
+20-100 M€ | 161 701 | 89 734 | 774 596 | 2.26 % | 317 755 | 0.93 pt
+> 100 M€ | 808 359 | 441 699 | 3 932 776 | 2.26 % | 1 466 900 | 0.84 pt
+ENSEMBLE | 1 764 | 402 | 7 665 | 1.62 % | 3 479 | 0.73 pt
+
+=== MASSES (Md€/an) PAR TRANCHE ===
+tranche | ancien stock | ancien DMTG | ancien capital | ancien total | nouveau taxe patrimoine | nouveau capital | nouveau total | écart
+< 10 k€ | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.19 | 0.19 | 0.19
+10-100 k€ | 0.17 | 0.00 | 0.04 | 0.21 | 0.01 | 3.78 | 3.79 | 3.58
+100-300 k€ | 4.92 | 1.19 | 0.49 | 6.61 | 2.86 | 10.41 | 14.46 | 7.86
+300 k€-1 M€ | 19.09 | 7.39 | 11.60 | 38.08 | 25.30 | 43.20 | 75.90 | 37.82
+1-5 M€ | 16.64 | 8.91 | 34.10 | 59.64 | 38.93 | 71.82 | 119.67 | 60.02
+5-20 M€ | 3.22 | 2.34 | 11.40 | 16.96 | 9.88 | 22.67 | 34.89 | 17.93
+20-100 M€ | 1.56 | 0.77 | 3.83 | 6.17 | 3.25 | 7.50 | 11.52 | 5.35
+> 100 M€ | 0.50 | 0.20 | 1.00 | 1.69 | 0.82 | 1.94 | 2.97 | 1.28
+ENSEMBLE | 46.08 | 20.82 | 62.46 | 129.36 | 81.05 | 161.51 | 263.38 | 134.02
+
+=== CAS TYPES (€/an) ===
+locataire sans patrimoine (2 700 €/mois, 5 000 € d'épargne)
+   ANCIEN : TF 0 + DMTO 0 + IFI 0 = stock 0 ; revenus du capital (PS+IR) 0 ; total 0 (0.00 % du patrimoine net)
+   NOUVEAU : dû brut 0, déduit par le plancher 0, dû 0 (payé 0, différé 0) ; revenus du capital dans la fonction 66 ; total 66 (1.31 %) ; écart 66
+propriétaire de sa RP de 300 k€ (3 700 €/mois, 30 k€ d'épargne)
+   ANCIEN : TF 765 + DMTO 502 + IFI 0 = stock 1 267 ; revenus du capital (PS+IR) 0 ; total 1 267 (0.38 % du patrimoine net)
+   NOUVEAU : dû brut 1 800, déduit par le plancher 0, dû 1 800 (payé 1 800, différé 0) ; revenus du capital dans la fonction 447 ; total 2 247 (0.68 %) ; écart 980
+cadre avec 1 M€ (6 500 €/mois ; RP 500 k€, AV et actions 500 k€)
+   ANCIEN : TF 1 275 + DMTO 837 + IFI 0 = stock 2 111 ; revenus du capital (PS+IR) 3 581 ; total 5 692 (0.57 % du patrimoine net)
+   NOUVEAU : dû brut 5 896, déduit par le plancher 967, dû 4 929 (payé 4 929, différé 0) ; revenus du capital dans la fonction 9 522 ; total 14 452 (1.45 %) ; écart 8 759
+héritier avec 20 M€ (2 000 €/mois d'activité ; RP 2 M€, locatif 6 M€, titres 12 M€)
+   ANCIEN : TF 20 395 + DMTO 13 387 + IFI 65 690 = stock 99 472 ; revenus du capital (PS+IR) 203 937 ; total 303 409 (1.52 % du patrimoine net)
+   NOUVEAU : dû brut 386 473, déduit par le plancher 213 202, dû 173 272 (payé 173 272, différé 0) ; revenus du capital dans la fonction 370 279 ; total 543 550 (2.72 %) ; écart 240 142
+chef d'entreprise avec 100 M€ de titres (10 000 €/mois ; RP 2 M€ ; société à valeur de rendement 93,75 M€ ; dividendes nets 1,5 M€/an ; pas d'IFI : biens professionnels)
+   ANCIEN : TF 5 099 + DMTO 3 347 + IFI 3 200 = stock 11 645 ; revenus du capital (PS+IR) 450 000 ; total 461 645 (0.45 % du patrimoine net)
+   NOUVEAU : dû brut 1 901 102, déduit par le plancher 1 197 899, dû 703 202 (payé 327 488, différé 375 714) ; revenus du capital dans la fonction 799 727 ; total 1 502 929 (1.47 %) ; écart 1 041 284

@@ -1,0 +1,30 @@
+var Q = (typeof CD !== 'undefined') ? CD : require('./modele.js');
+var log = (typeof print === 'function') ? print : console.log;
+function ok(c, m) { if (!c) throw new Error('ECHEC : ' + m); log('ok  ' + m); }
+function proche(a, b, t) { return Math.abs(a - b) <= t; }
+ok(proche(Q.cdf(Q.invcdf(0.9)), 0.9, 1e-6) && proche(Q.invcdf(0.5), 0, 1e-9), 'loi normale : cdf(invcdf) = identité');
+var p = Q.params();
+ok(proche(Q.quantileH(p, 0.5), 70000, 50) && proche(Q.quantileH(p, 0.9), 500000, 500), 'calage CAE : médiane 70 000 et P90 500 000');
+var pz = Q.params({ p0: 0.2 });
+ok(proche(Q.quantileH(pz, 0.5), 70000, 100) && proche(Q.quantileH(pz, 0.9), 500000, 1000) && Q.quantileH(pz, 0.1) === 0, 'calage avec 20 % sans héritage : mêmes médiane et P90');
+var top1 = Q.esperance(function (h) { return h; }, p, 0.99, 1, 50000);
+ok(top1 > 3.0e6 && top1 < 5.0e6, 'top 1 % : moyenne 3-5 M€ (CAE : 4,2 M€) : ' + Math.round(top1));
+ok(proche(Q.esperance(function () { return 1; }, p), 1, 1e-9), 'espérance de 1 = 1');
+ok(proche(Q.cout('A', p, 830000), 8.3, 1e-9), 'A : 830 000 × 10 000 = 8,3 Md€');
+ok(proche(Q.cout('B', p, 800000), 20, 1e-9), 'B : 800 000 × 25 000 = 20 Md€');
+ok(Q.cout('C', p, 830000) < 830000 * 40000 / 1e9 && Q.cout('C', p, 830000) > 0, 'C : coût < universel à 40 000');
+ok(Q.cout('C100', p, 830000) < Q.cout('C', p, 830000), 'dégressivité plus forte : moins cher');
+ok(Q.cout('C', pz, 830000) > Q.cout('C', p, 830000), 'plus de jeunes sans héritage : garantie plus chère');
+ok(proche(Q.tauxImplicite('C'), 0.5, 1e-12) && proche(Q.tauxImplicite('C100'), 1, 1e-12) && Q.tauxImplicite('A') === 0, 'taux implicites 50 %, 100 %, 0');
+ok(proche(Q.partImposable(p, 0), 1, 1e-9) && Q.partImposable(p, 100000) < Q.partImposable(p, 0) && Q.partImposable(p, 1e9) < 1e-6, 'part imposable : décroît avec l\'exemption');
+ok(proche(Q.recette(p, 0, 0.5, 0.31), 103.5, 1e-9), 'recette flat 50 %, fuite 31 % = 103,5 Md€ (palier 1)');
+ok(Q.recette(p, 100000, 0.5, 0.31) < Q.recette(p, 0, 0.5, 0.31), 'exemption : recette plus basse');
+var d = Q.parDecile(p, { exemption: 0, taux: 0.5, variante: 'A' });
+ok(d.length === 10 && d[0].heritage < d[9].heritage && proche(d[0].capital, 10000, 1e-6), 'déciles : héritage croissant, capital A uniforme');
+var dc = Q.parDecile(p, { exemption: 0, taux: 0.5, variante: 'C' });
+ok(dc[0].capital > dc[9].capital && dc[9].capital === 0, 'C : capital décroissant avec l\'héritage, nul en haut');
+ok(proche(Q.esperance(function (h) { return h; }, p), d.reduce(function (a, x) { return a + x.heritage / 10; }, 0), 2000), 'moyenne des déciles = moyenne de la cohorte');
+ok(d.every(function (x) { return x.impot <= 0.5 * x.heritage + 1e-6; }), 'plafond : impôt ≤ 50 % de l\'héritage (par décile)');
+var m = Q.montants('B'); ok(m.favorable < m.central && m.central < m.defavorable, 'montants B : favorable < central < défavorable');
+var r = Q.risqueImmobilier(20, 'central'); ok(r.hausse > 0 && Q.risqueImmobilier(20, 'defavorable').hausse > r.hausse, 'risque immobilier : croît du favorable au défavorable');
+log('TOUS LES CONTRÔLES PASSENT');

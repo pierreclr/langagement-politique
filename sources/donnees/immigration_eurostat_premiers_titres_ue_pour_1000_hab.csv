@@ -1,0 +1,984 @@
+# source: Eurostat migr_resfirst (premiers titres) et demo_pjan (population au 1er janvier); mise a jour 2026-10-22T23:00:00+0200; date consultation: 2026-10-25
+# unite: personnes et titres pour 1000 habitants (ratio calcule par Claude: titres / population au 1er janvier de la meme annee x 1000)
+# perimetre: UE27 et Etats membres, 2019-2025; EU27_2020 = agregat Eurostat (certaines annees estimees)
+annee,pays,motif,premiers_titres,population_1er_janvier,titres_pour_1000_hab,statut,source_url
+2019,AT,autres (dont humanitaire/asile),18229,8858775,2.06,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,AT,etudes,4078,8858775,0.46,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,AT,familial,13481,8858775,1.52,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,AT,total,39865,8858775,4.5,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,AT,travail,4077,8858775,0.46,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,BE,autres (dont humanitaire/asile),13276,11455519,1.16,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,BE,etudes,8661,11455519,0.76,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,BE,familial,32261,11455519,2.82,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,BE,total,60312,11455519,5.26,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,BE,travail,6114,11455519,0.53,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,BG,autres (dont humanitaire/asile),5347,6664177,0.8,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,BG,etudes,1642,6664177,0.25,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,BG,familial,4097,6664177,0.61,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,BG,total,13500,6664177,2.03,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,BG,travail,2414,6664177,0.36,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,CY,autres (dont humanitaire/asile),4428,890194,4.97,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,CY,etudes,4372,890194,4.91,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,CY,familial,3839,890194,4.31,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,CY,total,23325,890194,26.2,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,CY,travail,10686,890194,12.0,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,CZ,autres (dont humanitaire/asile),9387,10649800,0.88,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,CZ,etudes,14446,10649800,1.36,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,CZ,familial,26796,10649800,2.52,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,CZ,total,117069,10649800,10.99,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,CZ,travail,66440,10649800,6.24,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,DE,autres (dont humanitaire/asile),122470,83019213,1.48,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,DE,etudes,68239,83019213,0.82,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,DE,familial,161728,83019213,1.95,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,DE,total,425072,83019213,5.12,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,DE,travail,72635,83019213,0.87,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,DK,autres (dont humanitaire/asile),2337,5806081,0.4,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,DK,etudes,12353,5806081,2.13,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,DK,familial,8882,5806081,1.53,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,DK,total,35037,5806081,6.03,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,DK,travail,11465,5806081,1.97,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,EE,autres (dont humanitaire/asile),310,1324820,0.23,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,EE,etudes,1377,1324820,1.04,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,EE,familial,2411,1324820,1.82,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,EE,total,6200,1324820,4.68,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,EE,travail,2102,1324820,1.59,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,EL,autres (dont humanitaire/asile),18560,10635213,1.75,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,EL,etudes,961,10635213,0.09,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,EL,familial,19694,10635213,1.85,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,EL,total,42348,10635213,3.98,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,EL,travail,3133,10635213,0.29,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,ES,autres (dont humanitaire/asile),67878,46918951,1.45,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,ES,etudes,45032,46918951,0.96,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,ES,familial,143860,46918951,3.07,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,ES,total,320037,46918951,6.82,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,ES,travail,63267,46918951,1.35,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,EU27_2020,autres (dont humanitaire/asile),569250,446149924,1.28,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,EU27_2020,etudes,408104,446149924,0.91,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,EU27_2020,familial,805430,446149924,1.81,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,EU27_2020,total,2985017,446149924,6.69,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,EU27_2020,travail,1202233,446149924,2.69,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,FI,autres (dont humanitaire/asile),4166,5517919,0.75,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,FI,etudes,5319,5517919,0.96,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,FI,familial,10734,5517919,1.95,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,FI,total,28447,5517919,5.16,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,FI,travail,8228,5517919,1.49,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,FR,autres (dont humanitaire/asile),58949,67290471,0.88,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,FR,etudes,90668,67290471,1.35,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,FR,familial,98174,67290471,1.46,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,FR,total,287443,67290471,4.27,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,FR,travail,39652,67290471,0.59,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,HR,autres (dont humanitaire/asile),615,3968676,0.15,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,HR,etudes,332,3968676,0.08,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,HR,familial,2921,3968676,0.74,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,HR,total,50455,3968676,12.71,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,HR,travail,46587,3968676,11.74,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,HU,autres (dont humanitaire/asile),8696,9700272,0.9,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,HU,etudes,10188,9700272,1.05,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,HU,familial,4314,9700272,0.44,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,HU,total,62073,9700272,6.4,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,HU,travail,38875,9700272,4.01,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,IE,autres (dont humanitaire/asile),8823,4940311,1.79,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,IE,etudes,34735,4940311,7.03,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,IE,familial,3671,4940311,0.74,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,IE,total,59278,4940311,12.0,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,IE,travail,12049,4940311,2.44,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,IT,autres (dont humanitaire/asile),106686,59816673,1.78,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,IT,etudes,20020,59816673,0.33,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,IT,familial,100939,59816673,1.69,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,IT,total,238714,59816673,3.99,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,IT,travail,11069,59816673,0.19,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,LT,autres (dont humanitaire/asile),539,2812200,0.19,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,LT,etudes,1337,2812200,0.48,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,LT,familial,1144,2812200,0.41,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,LT,total,21415,2812200,7.62,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,LT,travail,18395,2812200,6.54,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,LU,autres (dont humanitaire/asile),1064,613894,1.73,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,LU,etudes,632,613894,1.03,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,LU,familial,4118,613894,6.71,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,LU,total,8428,613894,13.73,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,LU,travail,2614,613894,4.26,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,LV,autres (dont humanitaire/asile),709,1919968,0.37,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,LV,etudes,2577,1919968,1.34,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,LV,familial,2410,1919968,1.26,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,LV,total,10143,1919968,5.28,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,LV,travail,4447,1919968,2.32,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,MT,autres (dont humanitaire/asile),2324,492968,4.71,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,MT,etudes,4620,492968,9.37,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,MT,familial,1577,492968,3.2,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,MT,total,21165,492968,42.93,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,MT,travail,12644,492968,25.65,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,NL,autres (dont humanitaire/asile),21271,17282163,1.23,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,NL,etudes,20178,17282163,1.17,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,NL,familial,38653,17282163,2.24,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,NL,total,102132,17282163,5.91,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,NL,travail,22030,17282163,1.27,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,PL,autres (dont humanitaire/asile),61756,37972812,1.63,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,PL,etudes,20760,37972812,0.55,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,PL,familial,16780,37972812,0.44,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,PL,total,724416,37972812,19.08,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,PL,travail,625120,37972812,16.46,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,PT,autres (dont humanitaire/asile),6917,10333496,0.67,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,PT,etudes,13356,10333496,1.29,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,PT,familial,38203,10333496,3.7,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,PT,total,93475,10333496,9.05,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,PT,travail,34999,10333496,3.39,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,RO,autres (dont humanitaire/asile),1561,19414458,0.08,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,RO,etudes,4943,19414458,0.25,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,RO,familial,4205,19414458,0.22,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,RO,total,27103,19414458,1.4,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,RO,travail,16394,19414458,0.84,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,SE,autres (dont humanitaire/asile),21277,10230185,2.08,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,SE,etudes,11720,10230185,1.15,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,SE,familial,48659,10230185,4.76,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,SE,total,107212,10230185,10.48,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,SE,travail,25556,10230185,2.5,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,SI,autres (dont humanitaire/asile),167,2080908,0.08,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,SI,etudes,2644,2080908,1.27,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,SI,familial,8350,2080908,4.01,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,SI,total,31517,2080908,15.15,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,SI,travail,20356,2080908,9.78,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,SK,autres (dont humanitaire/asile),1508,5450421,0.28,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,SK,etudes,2914,5450421,0.53,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,SK,familial,3529,5450421,0.65,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,SK,total,28836,5450421,5.29,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,SK,travail,20885,5450421,3.83,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,AT,autres (dont humanitaire/asile),17668,8901064,1.98,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,AT,etudes,2718,8901064,0.31,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,AT,familial,11634,8901064,1.31,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,AT,total,34759,8901064,3.91,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,AT,travail,2739,8901064,0.31,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,BE,autres (dont humanitaire/asile),12143,11522440,1.05,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,BE,etudes,5675,11522440,0.49,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,BE,familial,25712,11522440,2.23,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,BE,total,47640,11522440,4.13,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,BE,travail,4110,11522440,0.36,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,BG,autres (dont humanitaire/asile),3823,6569275,0.58,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,BG,etudes,1154,6569275,0.18,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,BG,familial,2902,6569275,0.44,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,BG,total,10267,6569275,1.56,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,BG,travail,2388,6569275,0.36,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,CY,autres (dont humanitaire/asile),3906,902429,4.33,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,CY,etudes,2403,902429,2.66,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,CY,familial,2704,902429,3.0,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,CY,total,16910,902429,18.74,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,CY,travail,7897,902429,8.75,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,CZ,autres (dont humanitaire/asile),4142,10693939,0.39,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,CZ,etudes,7550,10693939,0.71,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,CZ,familial,13423,10693939,1.26,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,CZ,total,54332,10693939,5.08,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,CZ,travail,29217,10693939,2.73,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,DE,autres (dont humanitaire/asile),118628,83166711,1.43,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,DE,etudes,48719,83166711,0.59,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,DE,familial,133365,83166711,1.6,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,DE,total,351735,83166711,4.23,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,DE,travail,51023,83166711,0.61,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,DK,autres (dont humanitaire/asile),1266,5822763,0.22,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,DK,etudes,6184,5822763,1.06,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,DK,familial,8053,5822763,1.38,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,DK,total,23853,5822763,4.1,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,DK,travail,8350,5822763,1.43,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,EE,autres (dont humanitaire/asile),281,1328889,0.21,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,EE,etudes,556,1328889,0.42,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,EE,familial,2120,1328889,1.6,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,EE,total,4992,1328889,3.76,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,EE,travail,2035,1328889,1.53,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,EL,autres (dont humanitaire/asile),9179,10612591,0.86,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,EL,etudes,687,10612591,0.06,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,EL,familial,8323,10612591,0.78,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,EL,total,19821,10612591,1.87,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,EL,travail,1632,10612591,0.15,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,ES,autres (dont humanitaire/asile),82909,47318050,1.75,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,ES,etudes,28550,47318050,0.6,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,ES,familial,119738,47318050,2.53,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,ES,total,312355,47318050,6.6,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,ES,travail,81158,47318050,1.72,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,EU27_2020,autres (dont humanitaire/asile),491700,447030024,1.1,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,EU27_2020,etudes,283675,447030024,0.63,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,EU27_2020,familial,621444,447030024,1.39,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,EU27_2020,total,2332051,447030024,5.22,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,EU27_2020,travail,935232,447030024,2.09,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,FI,autres (dont humanitaire/asile),3181,5525292,0.58,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,FI,etudes,3250,5525292,0.59,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,FI,familial,9387,5525292,1.7,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,FI,total,23432,5525292,4.24,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,FI,travail,7614,5525292,1.38,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,FR,autres (dont humanitaire/asile),55231,67473651,0.82,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,FR,etudes,73819,67473651,1.09,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,FR,familial,80730,67473651,1.2,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,FR,total,237134,67473651,3.51,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,FR,travail,27354,67473651,0.41,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,HR,autres (dont humanitaire/asile),610,3933511,0.16,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,HR,etudes,225,3933511,0.06,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,HR,familial,2487,3933511,0.63,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,HR,total,35138,3933511,8.93,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,HR,travail,31816,3933511,8.09,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,HU,autres (dont humanitaire/asile),10393,9689376,1.07,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,HU,etudes,8976,9689376,0.93,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,HU,familial,3626,9689376,0.37,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,HU,total,54835,9689376,5.66,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,HU,travail,31840,9689376,3.29,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,IE,autres (dont humanitaire/asile),6686,5012600,1.33,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,IE,etudes,14730,5012600,2.94,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,IE,familial,1835,5012600,0.37,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,IE,total,30382,5012600,6.06,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,IE,travail,7131,5012600,1.42,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,IT,autres (dont humanitaire/asile),62752,59641488,1.05,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,IT,etudes,8428,59641488,0.14,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,IT,familial,62274,59641488,1.04,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,IT,total,143697,59641488,2.41,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,IT,travail,10243,59641488,0.17,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,LT,autres (dont humanitaire/asile),654,2809977,0.23,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,LT,etudes,1353,2809977,0.48,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,LT,familial,970,2809977,0.35,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,LT,total,22511,2809977,8.01,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,LT,travail,19534,2809977,6.95,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,LU,autres (dont humanitaire/asile),1010,626108,1.61,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,LU,etudes,249,626108,0.4,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,LU,familial,2894,626108,4.62,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,LU,total,5707,626108,9.12,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,LU,travail,1554,626108,2.48,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,LV,autres (dont humanitaire/asile),381,1907675,0.2,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,LV,etudes,1211,1907675,0.63,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,LV,familial,1395,1907675,0.73,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,LV,total,5532,1907675,2.9,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,LV,travail,2545,1907675,1.33,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,MT,autres (dont humanitaire/asile),1595,514855,3.1,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,MT,etudes,2041,514855,3.96,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,MT,familial,879,514855,1.71,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,MT,total,11107,514855,21.57,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,MT,travail,6592,514855,12.8,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,NL,autres (dont humanitaire/asile),19650,17407585,1.13,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,NL,etudes,11644,17407585,0.67,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,NL,familial,28872,17407585,1.66,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,NL,total,73511,17407585,4.22,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,NL,travail,13345,17407585,0.77,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,PL,autres (dont humanitaire/asile),56211,37958138,1.48,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,PL,etudes,27244,37958138,0.72,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,PL,familial,12250,37958138,0.32,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,PL,total,598047,37958138,15.76,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,PL,travail,502342,37958138,13.23,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,PT,autres (dont humanitaire/asile),3711,10375395,0.36,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,PT,etudes,12285,10375395,1.18,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,PT,familial,35735,10375395,3.44,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,PT,total,84397,10375395,8.13,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,PT,travail,32666,10375395,3.15,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,RO,autres (dont humanitaire/asile),1239,19328838,0.06,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,RO,etudes,3028,19328838,0.16,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,RO,familial,2789,19328838,0.14,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,RO,total,17844,19328838,0.92,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,RO,travail,10788,19328838,0.56,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,SE,autres (dont humanitaire/asile),13364,10327589,1.29,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,SE,etudes,6834,10327589,0.66,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,SE,familial,37341,10327589,3.62,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,SE,total,74852,10327589,7.25,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,SE,travail,17313,10327589,1.68,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,SI,autres (dont humanitaire/asile),146,2095861,0.07,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,SI,etudes,1830,2095861,0.87,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,SI,familial,7105,2095861,3.39,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,SI,total,19010,2095861,9.07,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,SI,travail,9929,2095861,4.74,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,SK,autres (dont humanitaire/asile),941,5457873,0.17,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,SK,etudes,2332,5457873,0.43,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,SK,familial,2901,5457873,0.53,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,SK,total,18251,5457873,3.34,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,SK,travail,12077,5457873,2.21,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,AT,autres (dont humanitaire/asile),24797,8932664,2.78,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,AT,etudes,4703,8932664,0.53,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,AT,familial,14457,8932664,1.62,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,AT,total,47892,8932664,5.36,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,AT,travail,3935,8932664,0.44,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,BE,autres (dont humanitaire/asile),15347,11554767,1.33,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,BE,etudes,9200,11554767,0.8,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,BE,familial,32710,11554767,2.83,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,BE,total,63504,11554767,5.5,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,BE,travail,6247,11554767,0.54,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,BG,autres (dont humanitaire/asile),3769,6532117,0.58,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,BG,etudes,1326,6532117,0.2,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,BG,familial,4174,6532117,0.64,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,BG,total,11784,6532117,1.8,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,BG,travail,2515,6532117,0.39,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,CY,autres (dont humanitaire/asile),6085,914476,6.65,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,CY,etudes,3281,914476,3.59,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,CY,familial,3024,914476,3.31,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,CY,total,22190,914476,24.27,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,CY,travail,9800,914476,10.72,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,CZ,autres (dont humanitaire/asile),3491,10494836,0.33,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,CZ,etudes,12777,10494836,1.22,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,CZ,familial,16535,10494836,1.58,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,CZ,total,74395,10494836,7.09,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,CZ,travail,41592,10494836,3.96,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,DE,autres (dont humanitaire/asile),186645,83155031,2.24,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,DE,etudes,67311,83155031,0.81,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,DE,familial,190279,83155031,2.29,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,DE,total,504298,83155031,6.06,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,DE,travail,60063,83155031,0.72,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,DK,autres (dont humanitaire/asile),2369,5840045,0.41,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,DK,etudes,5587,5840045,0.96,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,DK,familial,8826,5840045,1.51,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,DK,total,28149,5840045,4.82,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,DK,travail,11367,5840045,1.95,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,EE,autres (dont humanitaire/asile),350,1330068,0.26,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,EE,etudes,1120,1330068,0.84,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,EE,familial,2789,1330068,2.1,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,EE,total,6549,1330068,4.92,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,EE,travail,2290,1330068,1.72,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,EL,autres (dont humanitaire/asile),32942,10555344,3.12,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,EL,etudes,681,10555344,0.06,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,EL,familial,11773,10555344,1.12,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,EL,total,47589,10555344,4.51,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,EL,travail,2193,10555344,0.21,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,ES,autres (dont humanitaire/asile),73318,47400798,1.55,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,ES,etudes,51090,47400798,1.08,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,ES,familial,159246,47400798,3.36,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,ES,total,371773,47400798,7.84,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,ES,travail,88119,47400798,1.86,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,EU27_2020,autres (dont humanitaire/asile),697349,445891011,1.56,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,EU27_2020,etudes,397933,445891011,0.89,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,EU27_2020,familial,816287,445891011,1.83,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,EU27_2020,total,3273875,445891011,7.34,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,EU27_2020,travail,1362306,445891011,3.06,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,FI,autres (dont humanitaire/asile),4035,5533793,0.73,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,FI,etudes,5895,5533793,1.07,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,FI,familial,11214,5533793,2.03,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,FI,total,31642,5533793,5.72,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,FI,travail,10498,5533793,1.9,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,FR,autres (dont humanitaire/asile),64436,67728568,0.95,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,FR,etudes,91100,67728568,1.35,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,FR,familial,93583,67728568,1.38,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,FR,total,287179,67728568,4.24,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,FR,travail,38060,67728568,0.56,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,HR,autres (dont humanitaire/asile),433,3893026,0.11,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,HR,etudes,244,3893026,0.06,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,HR,familial,2847,3893026,0.73,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,HR,total,33580,3893026,8.63,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,HR,travail,30056,3893026,7.72,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,HU,autres (dont humanitaire/asile),5231,9651461,0.54,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,HU,etudes,9590,9651461,0.99,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,HU,familial,4334,9651461,0.45,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,HU,total,58115,9651461,6.02,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,HU,travail,38960,9651461,4.04,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,IE,autres (dont humanitaire/asile),9706,5066893,1.92,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,IE,etudes,14611,5066893,2.88,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,IE,familial,2609,5066893,0.51,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,IE,total,34935,5066893,6.89,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,IE,travail,8009,5066893,1.58,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,IT,autres (dont humanitaire/asile),85171,59236213,1.44,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,IT,etudes,17807,59236213,0.3,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,IT,familial,120520,59236213,2.03,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,IT,total,274095,59236213,4.63,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,IT,travail,50597,59236213,0.85,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,LT,autres (dont humanitaire/asile),1426,2810761,0.51,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,LT,etudes,1722,2810761,0.61,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,LT,familial,1890,2810761,0.67,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,LT,total,20977,2810761,7.46,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,LT,travail,15939,2810761,5.67,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,LU,autres (dont humanitaire/asile),984,634730,1.55,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,LU,etudes,546,634730,0.86,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,LU,familial,3628,634730,5.72,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,LU,total,7076,634730,11.15,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,LU,travail,1918,634730,3.02,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,LV,autres (dont humanitaire/asile),927,1893223,0.49,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,LV,etudes,1380,1893223,0.73,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,LV,familial,2146,1893223,1.13,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,LV,total,8138,1893223,4.3,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,LV,travail,3685,1893223,1.95,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,MT,autres (dont humanitaire/asile),1697,516125,3.29,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,MT,etudes,2790,516125,5.41,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,MT,familial,1811,516125,3.51,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,MT,total,14358,516125,27.82,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,MT,travail,8060,516125,15.62,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,NL,autres (dont humanitaire/asile),30980,17475415,1.77,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,NL,etudes,19589,17475415,1.12,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,NL,familial,34541,17475415,1.98,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,NL,total,105879,17475415,6.06,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,NL,travail,20769,17475415,1.19,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,PL,autres (dont humanitaire/asile),120520,37073357,3.25,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,PL,etudes,45596,37073357,1.23,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,PL,familial,11159,37073357,0.3,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,PL,total,967345,37073357,26.09,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,PL,travail,790070,37073357,21.31,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,PT,autres (dont humanitaire/asile),5711,10394297,0.55,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,PT,etudes,10919,10394297,1.05,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,PT,familial,29516,10394297,2.84,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,PT,total,84805,10394297,8.16,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,PT,travail,38659,10394297,3.72,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,RO,autres (dont humanitaire/asile),2025,19201662,0.11,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,RO,etudes,4069,19201662,0.21,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,RO,familial,4145,19201662,0.22,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,RO,total,28250,19201662,1.47,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,RO,travail,18011,19201662,0.94,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,SE,autres (dont humanitaire/asile),14021,10379295,1.35,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,SE,etudes,10705,10379295,1.03,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,SE,familial,37371,10379295,3.6,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,SE,total,83212,10379295,8.02,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,SE,travail,21115,10379295,2.03,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,SI,autres (dont humanitaire/asile),146,2108977,0.07,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,SI,etudes,1573,2108977,0.75,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,SI,familial,7453,2108977,3.53,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,SI,total,27099,2108977,12.85,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,SI,travail,17927,2108977,8.5,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,SK,autres (dont humanitaire/asile),787,5459781,0.14,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,SK,etudes,2721,5459781,0.5,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,SK,familial,3707,5459781,0.68,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,SK,total,29067,5459781,5.32,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,SK,travail,21852,5459781,4.0,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,AT,autres (dont humanitaire/asile),27709,8978929,3.09,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,AT,etudes,4743,8978929,0.53,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,AT,familial,17369,8978929,1.93,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,AT,total,55258,8978929,6.15,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,AT,travail,5437,8978929,0.61,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,BE,autres (dont humanitaire/asile),17768,11617623,1.53,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,BE,etudes,9297,11617623,0.8,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,BE,familial,33313,11617623,2.87,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,BE,total,68522,11617623,5.9,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,BE,travail,8144,11617623,0.7,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,BG,autres (dont humanitaire/asile),3950,6482484,0.61,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,BG,etudes,1923,6482484,0.3,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,BG,familial,5345,6482484,0.82,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,BG,total,15839,6482484,2.44,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,BG,travail,4621,6482484,0.71,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,CY,autres (dont humanitaire/asile),9369,929764,10.08,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,CY,etudes,1956,929764,2.1,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,CY,familial,8371,929764,9.0,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,CY,total,38917,929764,41.86,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,CY,travail,19221,929764,20.67,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,CZ,autres (dont humanitaire/asile),4839,10516707,0.46,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,CZ,etudes,10128,10516707,0.96,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,CZ,familial,14250,10516707,1.35,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,CZ,total,53809,10516707,5.12,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,CZ,travail,24592,10516707,2.34,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,DE,autres (dont humanitaire/asile),228372,83237124,2.74,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,DE,etudes,83224,83237124,1.0,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,DE,familial,216925,83237124,2.61,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,DE,total,625386,83237124,7.51,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,DE,travail,96865,83237124,1.16,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,DK,autres (dont humanitaire/asile),3498,5873420,0.6,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,DK,etudes,10932,5873420,1.86,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,DK,familial,11236,5873420,1.91,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,DK,total,40467,5873420,6.89,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,DK,travail,14801,5873420,2.52,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,EE,autres (dont humanitaire/asile),2388,1331796,1.79,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,EE,etudes,579,1331796,0.43,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,EE,familial,3117,1331796,2.34,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,EE,total,8425,1331796,6.33,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,EE,travail,2341,1331796,1.76,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,EL,autres (dont humanitaire/asile),36412,10461627,3.48,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,EL,etudes,893,10461627,0.09,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,EL,familial,15935,10461627,1.52,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,EL,total,58889,10461627,5.63,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,EL,travail,5649,10461627,0.54,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,ES,autres (dont humanitaire/asile),82569,47486843,1.74,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,ES,etudes,58418,47486843,1.23,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,ES,familial,174532,47486843,3.68,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,ES,total,455553,47486843,9.59,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,ES,travail,140034,47486843,2.95,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,EU27_2020,autres (dont humanitaire/asile),902077,445972024,2.02,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,EU27_2020,etudes,470057,445972024,1.05,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,EU27_2020,familial,926921,445972024,2.08,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,EU27_2020,total,3564926,445972024,7.99,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,EU27_2020,travail,1265871,445972024,2.84,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,FI,autres (dont humanitaire/asile),3741,5548241,0.67,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,FI,etudes,8478,5548241,1.53,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,FI,familial,17086,5548241,3.08,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,FI,total,44880,5548241,8.09,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,FI,travail,15575,5548241,2.81,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,FR,autres (dont humanitaire/asile),68946,68091703,1.01,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,FR,etudes,105717,68091703,1.55,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,FR,familial,97038,68091703,1.43,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,FR,total,326948,68091703,4.8,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,FR,travail,55247,68091703,0.81,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,HR,autres (dont humanitaire/asile),821,3862305,0.21,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,HR,etudes,328,3862305,0.08,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,HR,familial,2710,3862305,0.7,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,HR,total,57330,3862305,14.84,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,HR,travail,53471,3862305,13.84,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,HU,autres (dont humanitaire/asile),5667,9610403,0.59,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,HU,etudes,10148,9610403,1.06,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,HU,familial,5485,9610403,0.57,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,HU,total,68672,9610403,7.15,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,HU,travail,47372,9610403,4.93,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,IE,autres (dont humanitaire/asile),20788,5154277,4.03,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,IE,etudes,41506,5154277,8.05,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,IE,familial,3997,5154277,0.78,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,IE,total,85793,5154277,16.65,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,IE,travail,19502,5154277,3.78,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,IT,autres (dont humanitaire/asile),114256,59030133,1.94,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,IT,etudes,25466,59030133,0.43,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,IT,familial,131275,59030133,2.22,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,IT,total,337788,59030133,5.72,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,IT,travail,66791,59030133,1.13,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,LT,autres (dont humanitaire/asile),4448,2805998,1.59,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,LT,etudes,1970,2805998,0.7,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,LT,familial,4434,2805998,1.58,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,LT,total,33199,2805998,11.83,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,LT,travail,22347,2805998,7.96,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,LU,autres (dont humanitaire/asile),1227,645397,1.9,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,LU,etudes,633,645397,0.98,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,LU,familial,4181,645397,6.48,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,LU,total,9245,645397,14.32,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,LU,travail,3204,645397,4.96,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,LV,autres (dont humanitaire/asile),1053,1875757,0.56,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,LV,etudes,1985,1875757,1.06,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,LV,familial,2203,1875757,1.17,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,LV,total,8790,1875757,4.69,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,LV,travail,3549,1875757,1.89,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,MT,autres (dont humanitaire/asile),2349,520174,4.52,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,MT,etudes,5260,520174,10.11,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,MT,familial,2693,520174,5.18,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,MT,total,37851,520174,72.77,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,MT,travail,27549,520174,52.96,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,NL,autres (dont humanitaire/asile),37336,17590672,2.12,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,NL,etudes,21871,17590672,1.24,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,NL,familial,45870,17590672,2.61,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,NL,total,137200,17590672,7.8,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,NL,travail,32123,17590672,1.83,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,PL,autres (dont humanitaire/asile),200693,36889761,5.44,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,PL,etudes,33342,36889761,0.9,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,PL,familial,19004,36889761,0.52,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,PL,total,700264,36889761,18.98,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,PL,travail,447225,36889761,12.12,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,PT,autres (dont humanitaire/asile),7176,10421117,0.69,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,PT,etudes,9712,10421117,0.93,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,PT,familial,38602,10421117,3.7,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,PT,total,108684,10421117,10.43,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,PT,travail,53194,10421117,5.1,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,RO,autres (dont humanitaire/asile),2053,19043098,0.11,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,RO,etudes,4851,19043098,0.25,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,RO,familial,4224,19043098,0.22,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,RO,total,42207,19043098,2.22,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,RO,travail,31079,19043098,1.63,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,SE,autres (dont humanitaire/asile),13613,10452326,1.3,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,SE,etudes,10928,10452326,1.05,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,SE,familial,36165,10452326,3.46,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,SE,total,84788,10452326,8.11,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,SE,travail,24082,10452326,2.3,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,SI,autres (dont humanitaire/asile),341,2107180,0.16,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,SI,etudes,2424,2107180,1.15,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,SI,familial,7499,2107180,3.56,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,SI,total,32781,2107180,15.56,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,SI,travail,22517,2107180,10.69,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,SK,autres (dont humanitaire/asile),695,5434712,0.13,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,SK,etudes,3345,5434712,0.62,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,SK,familial,4062,5434712,0.75,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,SK,total,27441,5434712,5.05,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,SK,travail,19339,5434712,3.56,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,AT,autres (dont humanitaire/asile),31293,9104772,3.44,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,AT,etudes,6275,9104772,0.69,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,AT,familial,18156,9104772,1.99,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,AT,total,62890,9104772,6.91,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,AT,travail,7166,9104772,0.79,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,BE,autres (dont humanitaire/asile),22438,11742796,1.91,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,BE,etudes,9523,11742796,0.81,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,BE,familial,33774,11742796,2.88,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,BE,total,74366,11742796,6.33,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,BE,travail,8631,11742796,0.74,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,BG,autres (dont humanitaire/asile),4443,6447710,0.69,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,BG,etudes,2306,6447710,0.36,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,BG,familial,6160,6447710,0.96,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,BG,total,19375,6447710,3.0,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,BG,travail,6466,6447710,1.0,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,CY,autres (dont humanitaire/asile),6446,949084,6.79,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,CY,etudes,2810,949084,2.96,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,CY,familial,8564,949084,9.02,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,CY,total,34694,949084,36.56,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,CY,travail,16874,949084,17.78,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,CZ,autres (dont humanitaire/asile),7848,10827529,0.72,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,CZ,etudes,9764,10827529,0.9,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,CZ,familial,12492,10827529,1.15,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,CZ,total,43792,10827529,4.04,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,CZ,travail,13688,10827529,1.26,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,DE,autres (dont humanitaire/asile),237204,83118501,2.85,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,DE,etudes,86943,83118501,1.05,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,DE,familial,236330,83118501,2.84,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,DE,total,662888,83118501,7.98,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,DE,travail,102411,83118501,1.23,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,DK,autres (dont humanitaire/asile),3675,5932654,0.62,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,DK,etudes,13049,5932654,2.2,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,DK,familial,12146,5932654,2.05,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,DK,total,42805,5932654,7.22,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,DK,travail,13935,5932654,2.35,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,EE,autres (dont humanitaire/asile),4107,1365884,3.01,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,EE,etudes,449,1365884,0.33,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,EE,familial,1838,1365884,1.35,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,EE,total,8459,1365884,6.19,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,EE,travail,2065,1365884,1.51,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,EL,autres (dont humanitaire/asile),41041,10401868,3.95,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,EL,etudes,676,10401868,0.06,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,EL,familial,17366,10401868,1.67,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,EL,total,70921,10401868,6.82,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,EL,travail,11838,10401868,1.14,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,ES,autres (dont humanitaire/asile),98793,48085361,2.05,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,ES,etudes,90922,48085361,1.89,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,ES,familial,230138,48085361,4.79,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,ES,total,548697,48085361,11.41,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,ES,travail,128844,48085361,2.68,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,EU27_2020,autres (dont humanitaire/asile),985144,447695350,2.2,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,EU27_2020,etudes,544840,447695350,1.22,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,EU27_2020,familial,1016363,447695350,2.27,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,EU27_2020,total,3821562,447695350,8.54,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,EU27_2020,travail,1275215,447695350,2.85,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,FI,autres (dont humanitaire/asile),3739,5563970,0.67,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,FI,etudes,12914,5563970,2.32,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,FI,familial,22115,5563970,3.97,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,FI,total,54178,5563970,9.74,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,FI,travail,15410,5563970,2.77,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,FR,autres (dont humanitaire/asile),74997,68277210,1.1,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,FR,etudes,112399,68277210,1.65,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,FR,familial,92719,68277210,1.36,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,FR,total,338877,68277210,4.96,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,FR,travail,58762,68277210,0.86,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,HR,autres (dont humanitaire/asile),968,3850894,0.25,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,HR,etudes,377,3850894,0.1,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,HR,familial,2461,3850894,0.64,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,HR,total,81347,3850894,21.12,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,HR,travail,77541,3850894,20.14,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,HU,autres (dont humanitaire/asile),4289,9599744,0.45,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,HU,etudes,11575,9599744,1.21,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,HU,familial,8073,9599744,0.84,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,HU,total,77479,9599744,8.07,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,HU,travail,53542,9599744,5.58,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,IE,autres (dont humanitaire/asile),20369,5271395,3.86,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,IE,etudes,39847,5271395,7.56,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,IE,familial,4461,5271395,0.85,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,IE,total,88595,5271395,16.81,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,IE,travail,23918,5271395,4.54,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,IT,autres (dont humanitaire/asile),187754,58997201,3.18,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,IT,etudes,27951,58997201,0.47,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,IT,familial,135734,58997201,2.3,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,IT,total,389542,58997201,6.6,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,IT,travail,38103,58997201,0.65,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,LT,autres (dont humanitaire/asile),2086,2857279,0.73,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,LT,etudes,4565,2857279,1.6,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,LT,familial,2502,2857279,0.88,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,LT,total,56073,2857279,19.62,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,LT,travail,46920,2857279,16.42,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,LU,autres (dont humanitaire/asile),1173,660809,1.78,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,LU,etudes,786,660809,1.19,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,LU,familial,4630,660809,7.01,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,LU,total,9740,660809,14.74,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,LU,travail,3151,660809,4.77,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,LV,autres (dont humanitaire/asile),863,1895239,0.46,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,LV,etudes,3243,1895239,1.71,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,LV,familial,2249,1895239,1.19,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,LV,total,10193,1895239,5.38,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,LV,travail,3838,1895239,2.03,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,MT,autres (dont humanitaire/asile),3685,542051,6.8,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,MT,etudes,7280,542051,13.43,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,MT,familial,3154,542051,5.82,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,MT,total,41927,542051,77.35,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,MT,travail,27808,542051,51.3,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,NL,autres (dont humanitaire/asile),36085,17811291,2.03,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,NL,etudes,22922,17811291,1.29,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,NL,familial,45339,17811291,2.55,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,NL,total,131785,17811291,7.4,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,NL,travail,27439,17811291,1.54,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,PL,autres (dont humanitaire/asile),165442,36753736,4.5,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,PL,etudes,30926,36753736,0.84,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,PL,familial,19259,36753736,0.52,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,PL,total,642789,36753736,17.49,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,PL,travail,427162,36753736,11.62,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,PT,autres (dont humanitaire/asile),12251,10516621,1.16,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,PT,etudes,23878,10516621,2.27,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,PT,familial,44617,10516621,4.24,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,PT,total,135907,10516621,12.92,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,PT,travail,55161,10516621,5.25,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,RO,autres (dont humanitaire/asile),2039,19055228,0.11,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,RO,etudes,5110,19055228,0.27,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,RO,familial,5109,19055228,0.27,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,RO,total,56920,19055228,2.99,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,RO,travail,44662,19055228,2.34,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,SE,autres (dont humanitaire/asile),11045,10521556,1.05,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,SE,etudes,11611,10521556,1.1,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,SE,familial,34938,10521556,3.32,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,SE,total,76718,10521556,7.29,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,SE,travail,19124,10521556,1.82,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,SI,autres (dont humanitaire/asile),263,2116972,0.12,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,SI,etudes,2579,2116972,1.22,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,SI,familial,8299,2116972,3.92,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,SI,total,31855,2116972,15.05,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,SI,travail,20714,2116972,9.78,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,SK,autres (dont humanitaire/asile),808,5428792,0.15,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,SK,etudes,4160,5428792,0.77,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,SK,familial,3740,5428792,0.69,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,SK,total,28750,5428792,5.3,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,SK,travail,20042,5428792,3.69,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,AT,autres (dont humanitaire/asile),31823,9158750,3.47,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,AT,etudes,6817,9158750,0.74,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,AT,familial,18710,9158750,2.04,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,AT,total,65668,9158750,7.17,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,AT,travail,8318,9158750,0.91,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,BE,autres (dont humanitaire/asile),24054,11817096,2.04,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,BE,etudes,10465,11817096,0.89,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,BE,familial,36019,11817096,3.05,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,BE,total,78828,11817096,6.67,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,BE,travail,8290,11817096,0.7,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,BG,autres (dont humanitaire/asile),3274,6445481,0.51,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,BG,etudes,2379,6445481,0.37,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,BG,familial,5356,6445481,0.83,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,BG,total,19662,6445481,3.05,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,BG,travail,8653,6445481,1.34,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,CY,autres (dont humanitaire/asile),10086,966365,10.44,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,CY,etudes,3458,966365,3.58,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,CY,familial,5638,966365,5.83,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,CY,total,40274,966365,41.68,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,CY,travail,21092,966365,21.83,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,CZ,autres (dont humanitaire/asile),7098,10900555,0.65,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,CZ,etudes,9596,10900555,0.88,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,CZ,familial,12417,10900555,1.14,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,CZ,total,45436,10900555,4.17,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,CZ,travail,16325,10900555,1.5,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,DE,autres (dont humanitaire/asile),195854,83456045,2.35,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,DE,etudes,75005,83456045,0.9,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,DE,familial,196979,83456045,2.36,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,DE,total,544987,83456045,6.53,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,DE,travail,77149,83456045,0.92,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,DK,autres (dont humanitaire/asile),3058,5961249,0.51,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,DK,etudes,14605,5961249,2.45,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,DK,familial,14184,5961249,2.38,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,DK,total,47067,5961249,7.9,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,DK,travail,15220,5961249,2.55,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,EE,autres (dont humanitaire/asile),1552,1374687,1.13,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,EE,etudes,418,1374687,0.3,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,EE,familial,1481,1374687,1.08,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,EE,total,4860,1374687,3.54,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,EE,travail,1409,1374687,1.02,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,EL,autres (dont humanitaire/asile),48724,10375764,4.7,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,EL,etudes,796,10375764,0.08,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,EL,familial,16122,10375764,1.55,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,EL,total,87932,10375764,8.47,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,EL,travail,22290,10375764,2.15,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,ES,autres (dont humanitaire/asile),90657,48619695,1.86,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,ES,etudes,117056,48619695,2.41,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,ES,familial,258192,48619695,5.31,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,ES,total,561640,48619695,11.55,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,ES,travail,95735,48619695,1.97,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,EU27_2020,autres (dont humanitaire/asile),888784,449306184,1.98,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,EU27_2020,etudes,549458,449306184,1.22,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,EU27_2020,familial,950422,449306184,2.12,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,EU27_2020,total,3504650,449306184,7.8,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,EU27_2020,travail,1115986,449306184,2.48,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,FI,autres (dont humanitaire/asile),2986,5603851,0.53,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,FI,etudes,12240,5603851,2.18,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,FI,familial,19954,5603851,3.56,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,FI,total,46512,5603851,8.3,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,FI,travail,11332,5603851,2.02,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,FR,autres (dont humanitaire/asile),83360,68669303,1.21,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,FR,etudes,112594,68669303,1.64,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,FR,familial,91030,68669303,1.33,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,FR,total,345587,68669303,5.03,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,FR,travail,58603,68669303,0.85,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,HR,autres (dont humanitaire/asile),1084,3861967,0.28,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,HR,etudes,438,3861967,0.11,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,HR,familial,2713,3861967,0.7,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,HR,total,89809,3861967,23.25,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,HR,travail,85574,3861967,22.16,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,HU,autres (dont humanitaire/asile),5140,9584627,0.54,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,HU,etudes,20512,9584627,2.14,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,HU,familial,6266,9584627,0.65,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,HU,total,87624,9584627,9.14,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,HU,travail,55706,9584627,5.81,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,IE,autres (dont humanitaire/asile),18297,5351681,3.42,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,IE,etudes,38416,5351681,7.18,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,IE,familial,4194,5351681,0.78,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,IE,total,79985,5351681,14.95,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,IE,travail,19078,5351681,3.56,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,IT,autres (dont humanitaire/asile),176549,58971230,2.99,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,IT,etudes,20679,58971230,0.35,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,IT,familial,110093,58971230,1.87,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,IT,total,346411,58971230,5.87,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,IT,travail,39090,58971230,0.66,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,LT,autres (dont humanitaire/asile),1608,2885891,0.56,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,LT,etudes,5726,2885891,1.98,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,LT,familial,2589,2885891,0.9,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,LT,total,54665,2885891,18.94,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,LT,travail,44742,2885891,15.5,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,LU,autres (dont humanitaire/asile),1373,672050,2.04,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,LU,etudes,853,672050,1.27,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,LU,familial,5163,672050,7.68,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,LU,total,9882,672050,14.7,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,LU,travail,2493,672050,3.71,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,LV,autres (dont humanitaire/asile),876,1878575,0.47,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,LV,etudes,2916,1878575,1.55,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,LV,familial,1677,1878575,0.89,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,LV,total,9027,1878575,4.81,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,LV,travail,3558,1878575,1.89,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,MT,autres (dont humanitaire/asile),4690,563443,8.32,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,MT,etudes,7548,563443,13.4,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,MT,familial,2599,563443,4.61,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,MT,total,29433,563443,52.24,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,MT,travail,14596,563443,25.91,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,NL,autres (dont humanitaire/asile),40877,17942942,2.28,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,NL,etudes,21877,17942942,1.22,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,NL,familial,42209,17942942,2.35,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,NL,total,128378,17942942,7.15,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,NL,travail,23415,17942942,1.3,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,PL,autres (dont humanitaire/asile),104038,36620970,2.84,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,PL,etudes,24390,36620970,0.67,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,PL,familial,22544,36620970,0.62,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,PL,total,488846,36620970,13.35,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,PL,travail,337874,36620970,9.23,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,PT,autres (dont humanitaire/asile),20501,10639726,1.93,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,PT,etudes,16664,10639726,1.57,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,PT,familial,24154,10639726,2.27,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,PT,total,121872,10639726,11.45,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,PT,travail,60553,10639726,5.69,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,RO,autres (dont humanitaire/asile),2095,19067576,0.11,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,RO,etudes,5398,19067576,0.28,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,RO,familial,5534,19067576,0.29,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,RO,total,57111,19067576,3.0,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,RO,travail,44084,19067576,2.31,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,SE,autres (dont humanitaire/asile),8012,10551707,0.76,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,SE,etudes,13249,10551707,1.26,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,SE,familial,32819,10551707,3.11,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,SE,total,66817,10551707,6.33,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,SE,travail,12737,10551707,1.21,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,SI,autres (dont humanitaire/asile),363,2123949,0.17,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,SI,etudes,2802,2123949,1.32,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,SI,familial,8533,2123949,4.02,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,SI,total,27378,2123949,12.89,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,SI,travail,15680,2123949,7.38,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,SK,autres (dont humanitaire/asile),755,5424687,0.14,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,SK,etudes,2561,5424687,0.47,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,SK,familial,3253,5424687,0.6,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,SK,total,18959,5424687,3.49,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,SK,travail,12390,5424687,2.28,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,AT,autres (dont humanitaire/asile),21319,9197213,2.32,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,AT,etudes,7190,9197213,0.78,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,AT,familial,19851,9197213,2.16,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,AT,total,55486,9197213,6.03,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,AT,travail,7126,9197213,0.77,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,BE,autres (dont humanitaire/asile),20312,11883495,1.71,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,BE,etudes,11066,11883495,0.93,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,BE,familial,34897,11883495,2.94,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,BE,total,73667,11883495,6.2,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,BE,travail,7392,11883495,0.62,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,BG,autres (dont humanitaire/asile),3375,6437360,0.52,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,BG,etudes,2470,6437360,0.38,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,BG,familial,5136,6437360,0.8,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,BG,total,23577,6437360,3.66,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,BG,travail,12596,6437360,1.96,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,CY,autres (dont humanitaire/asile),6031,982966,6.14,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,CY,etudes,9401,982966,9.56,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,CY,familial,5307,982966,5.4,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,CY,total,45907,982966,46.7,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,CY,travail,25168,982966,25.6,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,CZ,autres (dont humanitaire/asile),7867,10909500,0.72,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,CZ,etudes,9991,10909500,0.92,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,CZ,familial,11898,10909500,1.09,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,CZ,total,47526,10909500,4.36,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,CZ,travail,17770,10909500,1.63,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,DE,autres (dont humanitaire/asile),159110,83577140,1.9,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,DE,etudes,112500,83577140,1.35,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,DE,familial,225591,83577140,2.7,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,DE,total,605292,83577140,7.24,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,DE,travail,108091,83577140,1.29,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,DK,autres (dont humanitaire/asile),2682,5992734,0.45,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,DK,etudes,18291,5992734,3.05,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,DK,familial,12760,5992734,2.13,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,DK,total,49882,5992734,8.32,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,DK,travail,16149,5992734,2.69,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,EE,autres (dont humanitaire/asile),2394,1369995,1.75,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,EE,etudes,408,1369995,0.3,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,EE,familial,1328,1369995,0.97,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,EE,total,5228,1369995,3.82,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,EE,travail,1098,1369995,0.8,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,EL,autres (dont humanitaire/asile),38239,10372335,3.69,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,EL,etudes,808,10372335,0.08,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,EL,familial,18693,10372335,1.8,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,EL,total,69786,10372335,6.73,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,EL,travail,12046,10372335,1.16,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,ES,autres (dont humanitaire/asile),139110,49128297,2.83,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,ES,etudes,105419,49128297,2.15,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,ES,familial,275869,49128297,5.62,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,ES,total,635438,49128297,12.93,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,ES,travail,115040,49128297,2.34,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,EU27_2020,autres (dont humanitaire/asile),880869,450646971,1.95,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,EU27_2020,etudes,599081,450646971,1.33,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,EU27_2020,familial,1084363,450646971,2.41,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,EU27_2020,total,3860000,450646971,8.57,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,EU27_2020,travail,1295687,450646971,2.88,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,FI,autres (dont humanitaire/asile),3297,5635971,0.58,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,FI,etudes,10528,5635971,1.87,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,FI,familial,21555,5635971,3.82,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,FI,total,44591,5635971,7.91,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,FI,travail,9211,5635971,1.63,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,FR,autres (dont humanitaire/asile),117251,68882600,1.7,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,FR,etudes,118404,68882600,1.72,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,FR,familial,90959,68882600,1.32,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,FR,total,377462,68882600,5.48,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,FR,travail,50848,68882600,0.74,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,HR,autres (dont humanitaire/asile),676,3874350,0.17,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,HR,etudes,380,3874350,0.1,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,HR,familial,2525,3874350,0.65,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,HR,total,50963,3874350,13.15,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,HR,travail,47382,3874350,12.23,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,HU,autres (dont humanitaire/asile),6641,9539502,0.7,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,HU,etudes,21424,9539502,2.25,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,HU,familial,5249,9539502,0.55,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,HU,total,81834,9539502,8.58,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,HU,travail,48520,9539502,5.09,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,IE,autres (dont humanitaire/asile),16897,5440278,3.11,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,IE,etudes,34729,5440278,6.38,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,IE,familial,4593,5440278,0.84,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,IE,total,72978,5440278,13.41,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,IE,travail,16759,5440278,3.08,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,IT,autres (dont humanitaire/asile),162503,58943464,2.76,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,IT,etudes,36358,58943464,0.62,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,IT,familial,176876,58943464,3.0,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,IT,total,433099,58943464,7.35,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,IT,travail,57362,58943464,0.97,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,LT,autres (dont humanitaire/asile),1210,2890664,0.42,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,LT,etudes,6719,2890664,2.32,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,LT,familial,3607,2890664,1.25,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,LT,total,53566,2890664,18.53,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,LT,travail,42030,2890664,14.54,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,LU,autres (dont humanitaire/asile),1112,681973,1.63,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,LU,etudes,842,681973,1.23,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,LU,familial,5078,681973,7.45,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,LU,total,8963,681973,13.14,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,LU,travail,1931,681973,2.83,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,LV,autres (dont humanitaire/asile),574,1860565,0.31,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,LV,etudes,2981,1860565,1.6,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,LV,familial,1367,1860565,0.73,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,LV,total,9073,1860565,4.88,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,LV,travail,4151,1860565,2.23,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,MT,autres (dont humanitaire/asile),5453,574250,9.5,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,MT,etudes,8095,574250,14.1,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,MT,familial,2856,574250,4.97,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,MT,total,32693,574250,56.93,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,MT,travail,16289,574250,28.37,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,NL,autres (dont humanitaire/asile),35656,18044027,1.98,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,NL,etudes,20809,18044027,1.15,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,NL,familial,43023,18044027,2.38,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,NL,total,120161,18044027,6.66,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,NL,travail,20673,18044027,1.15,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,PL,autres (dont humanitaire/asile),86201,36497495,2.36,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,PL,etudes,21974,36497495,0.6,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,PL,familial,40953,36497495,1.12,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,PL,total,467314,36497495,12.8,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,PL,travail,318186,36497495,8.72,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,PT,autres (dont humanitaire/asile),33292,10749635,3.1,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,PT,etudes,11389,10749635,1.06,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,PT,familial,25435,10749635,2.37,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,PT,total,310639,10749635,28.9,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,PT,travail,240523,10749635,22.37,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,RO,autres (dont humanitaire/asile),1774,19043151,0.09,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,RO,etudes,5474,19043151,0.29,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,RO,familial,6576,19043151,0.35,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,RO,total,74664,19043151,3.92,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,RO,travail,60840,19043151,3.19,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,SE,autres (dont humanitaire/asile),6475,10587710,0.61,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,SE,etudes,12518,10587710,1.18,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,SE,familial,30913,10587710,2.92,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,SE,total,61196,10587710,5.78,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,SE,travail,11290,10587710,1.07,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,SI,autres (dont humanitaire/asile),306,2130850,0.14,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,SI,etudes,3068,2130850,1.44,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,SI,familial,8002,2130850,3.76,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,SI,total,25329,2130850,11.89,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,SI,travail,13953,2130850,6.55,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,SK,autres (dont humanitaire/asile),1112,5419451,0.21,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,SK,etudes,5845,5419451,1.08,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,SK,familial,3466,5419451,0.64,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,SK,total,23686,5419451,4.37,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,SK,travail,13263,5419451,2.45,mesure (ratio calcule),https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table

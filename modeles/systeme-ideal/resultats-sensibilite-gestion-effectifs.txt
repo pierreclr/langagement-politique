@@ -1,0 +1,20 @@
+## Sensibilité du solde (BASE_V5, taux plat inchangé) aux valeurs fiabilisées des mesures 20 et 21
+| cas | gestion nette fav / centr / défav | effectifs et IA fav / centr / défav | solde bas / central / haut | écart du solde central (Md€) | écart en points de taux plat |
+|---|---|---|---|---|---|
+| S0  défauts du modèle (v5) | 7,96 / 4,21 / 1,09 | 0,20 / 0,20 / −0,40 | 121,81 / 4,66 / −142,13 | +0,00 | +0,00 |
+| S1  base CAF lue (2,68 Md€ au central) et coût du socle défavorable 0,92 % (Cnav) | 7,96 / 3,96 / 0,64 | 0,20 / 0,20 / −0,40 | 121,80 / 4,40 / −142,58 | −0,25 | −0,02 |
+| S2  S1 sans les lignes à base non publiée (L1c MSA/Agirc-Arrco, L2b France Travail) | 5,03 / 2,40 / −0,07 | 0,20 / 0,20 / −0,40 | 118,87 / 2,84 / −143,29 | −1,81 | −0,17 |
+| S3a S2 + plafond des départs, retraites seules (14 849 départs en 10 ans dans les organismes) | 4,00 / 2,18 / −0,07 | 0,20 / 0,20 / −0,40 | 117,84 / 2,62 / −143,29 | −2,03 | −0,19 |
+| S3b S2 + plafond des départs avec sorties hors retraite ×1,5 (21 452) | 4,46 / 2,40 / −0,07 | 0,20 / 0,20 / −0,40 | 118,31 / 2,84 / −143,29 | −1,81 | −0,17 |
+| S4  S1 + plafond des départs (21 452), lignes non publiées conservées | 5,34 / 3,11 / 0,64 | 0,20 / 0,20 / −0,40 | 119,18 / 3,55 / −142,58 | −1,10 | −0,10 |
+| S5  effectifs et IA : gains de temps mesurés (2,5 / 6 / 15 %) | 7,96 / 4,21 / 1,09 | −0,11 / −0,11 / −0,40 | 121,50 / 4,35 / −142,13 | −0,31 | −0,03 |
+| S6  effectifs et IA : central = gain DITP sur tâches (12 %) généralisé | 7,96 / 4,21 / 1,09 | 0,08 / 0,08 / −0,40 | 121,69 / 4,54 / −142,13 | −0,12 | −0,01 |
+| S7  S3b + S5 (valeurs prudentes des deux mesures) | 4,46 / 2,40 / −0,07 | −0,11 / −0,11 / −0,40 | 118,00 / 2,53 / −143,29 | −2,12 | −0,20 |
+| S8  S3a + S5 (le plus bas) | 4,00 / 2,18 / −0,07 | −0,11 / −0,11 / −0,40 | 117,53 / 2,31 / −143,29 | −2,34 | −0,22 |
+
+## Gestion supprimée brute (L1 + L2, ordre du modèle ampleur haute / centrale / basse) et part conservée par le plafond des départs
+| défauts | brute 8,44 / 4,90 / 2,37 | plafonnée (retraites seules) 5,36 (r 0,25) / 3,41 (r 0,41) / 2,07 (r 0,77) | plafonnée (×1,5) 5,82 (r 0,36) / 3,87 (r 0,59) / 2,37 (r 1,00) |
+| base CAF lue | brute 8,44 / 4,65 / 2,11 | plafonnée (retraites seules) 5,36 (r 0,25) / 3,34 (r 0,44) / 1,99 (r 0,90) | plafonnée (×1,5) 5,82 (r 0,36) / 3,80 (r 0,64) / 2,11 (r 1,00) |
+| sans lignes non publiées | brute 5,51 / 3,09 / 1,40 | plafonnée (retraites seules) 4,48 (r 0,50) / 2,87 (r 0,83) / 1,40 (r 1,00) | plafonnée (×1,5) 4,94 (r 0,73) / 3,09 (r 1,00) / 1,40 (r 1,00) |
+
+## Vérification que les défauts sont rétablis : gestion 8.44 / 4.9 / 2.37 ; socle 0.32 / 0.64 / 1.27 ; IA 0.2 / 0.2 / -0.4

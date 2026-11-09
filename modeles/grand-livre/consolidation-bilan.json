@@ -1,0 +1,192 @@
+{
+ "avant": {
+  "budget": 647,
+  "effectifs": 1328,
+  "mission": 1898,
+  "repartition": 0,
+  "frais_personnel": 0,
+  "lignes": 2776
+ },
+ "apres": {
+  "budget": 873,
+  "effectifs": 1335,
+  "mission": 2702,
+  "repartition": 396,
+  "frais_personnel": 393,
+  "lignes": 2776
+ },
+ "operations": {
+  "operateurs_repartition": 0,
+  "ofgl_budgets": 0,
+  "ofgl_missions": 0,
+  "balances_budgets": 0,
+  "naf_missions": 0,
+  "jorf_textes": 55,
+  "doublons_operateurs": 22
+ },
+ "par_type": {
+  "EPIC local (établissement public local à caractère industriel ou commercial)": {
+   "budget_avant": 0,
+   "mission_avant": 398,
+   "lignes": 498,
+   "budget": 62,
+   "effectifs": 298,
+   "mission": 494,
+   "frais_personnel": 60
+  },
+  "GIP (groupement d'intérêt public)": {
+   "budget_avant": 10,
+   "mission_avant": 315,
+   "lignes": 755,
+   "budget": 155,
+   "effectifs": 410,
+   "mission": 746,
+   "frais_personnel": 145
+  },
+  "agence régionale": {
+   "budget_avant": 1,
+   "mission_avant": 1,
+   "lignes": 1,
+   "budget": 1,
+   "effectifs": 1,
+   "mission": 1,
+   "frais_personnel": 0
+  },
+  "association ou fondation financée par l'argent public": {
+   "budget_avant": 62,
+   "mission_avant": 79,
+   "lignes": 79,
+   "budget": 62,
+   "effectifs": 0,
+   "mission": 79,
+   "frais_personnel": 0
+  },
+  "autorité administrative ou publique indépendante": {
+   "budget_avant": 25,
+   "mission_avant": 29,
+   "lignes": 29,
+   "budget": 25,
+   "effectifs": 24,
+   "mission": 29,
+   "frais_personnel": 0
+  },
+  "autorité constitutionnelle, pouvoir public ou juridiction suprême": {
+   "budget_avant": 9,
+   "mission_avant": 16,
+   "lignes": 16,
+   "budget": 9,
+   "effectifs": 10,
+   "mission": 16,
+   "frais_personnel": 0
+  },
+  "caisse de crédit municipal": {
+   "budget_avant": 0,
+   "mission_avant": 18,
+   "lignes": 18,
+   "budget": 0,
+   "effectifs": 18,
+   "mission": 18,
+   "frais_personnel": 0
+  },
+  "chambre consulaire": {
+   "budget_avant": 1,
+   "mission_avant": 218,
+   "lignes": 218,
+   "budget": 1,
+   "effectifs": 174,
+   "mission": 218,
+   "frais_personnel": 0
+  },
+  "collectivité ou organisme local (APUL)": {
+   "budget_avant": 16,
+   "mission_avant": 16,
+   "lignes": 16,
+   "budget": 16,
+   "effectifs": 0,
+   "mission": 16,
+   "frais_personnel": 0
+  },
+  "commission ou instance consultative": {
+   "budget_avant": 316,
+   "mission_avant": 316,
+   "lignes": 316,
+   "budget": 316,
+   "effectifs": 0,
+   "mission": 316,
+   "frais_personnel": 0
+  },
+  "entreprise publique": {
+   "budget_avant": 1,
+   "mission_avant": 18,
+   "lignes": 18,
+   "budget": 1,
+   "effectifs": 0,
+   "mission": 18,
+   "frais_personnel": 0
+  },
+  "opérateur de l'État": {
+   "budget_avant": 170,
+   "mission_avant": 172,
+   "lignes": 172,
+   "budget": 170,
+   "effectifs": 171,
+   "mission": 172,
+   "frais_personnel": 169
+  },
+  "organisme de sécurité sociale": {
+   "budget_avant": 24,
+   "mission_avant": 24,
+   "lignes": 24,
+   "budget": 24,
+   "effectifs": 0,
+   "mission": 24,
+   "frais_personnel": 0
+  },
+  "régie locale à caractère industriel ou commercial": {
+   "budget_avant": 0,
+   "mission_avant": 86,
+   "lignes": 233,
+   "budget": 13,
+   "effectifs": 53,
+   "mission": 182,
+   "frais_personnel": 13
+  },
+  "service à compétence nationale ou service interministériel": {
+   "budget_avant": 8,
+   "mission_avant": 11,
+   "lignes": 11,
+   "budget": 8,
+   "effectifs": 8,
+   "mission": 11,
+   "frais_personnel": 0
+  },
+  "établissement public (institution)": {
+   "budget_avant": 0,
+   "mission_avant": 1,
+   "lignes": 1,
+   "budget": 0,
+   "effectifs": 1,
+   "mission": 1,
+   "frais_personnel": 0
+  },
+  "établissement public national (hors recensement des opérateurs)": {
+   "budget_avant": 0,
+   "mission_avant": 107,
+   "lignes": 298,
+   "budget": 6,
+   "effectifs": 167,
+   "mission": 288,
+   "frais_personnel": 6
+  },
+  "établissement public non opérateur": {
+   "budget_avant": 4,
+   "mission_avant": 73,
+   "lignes": 73,
+   "budget": 4,
+   "effectifs": 0,
+   "mission": 73,
+   "frais_personnel": 0
+  }
+ },
+ "sans_donnees": 2391
+}

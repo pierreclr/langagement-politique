@@ -1,0 +1,37 @@
+# source: Epoch AI, Notable AI Models, https://epoch.ai/data/notable-ai-models (CSV https://epoch.ai/data/notable_ai_models.csv), licence CC-BY ; consulte 2026-10-25
+# contenu: modeles qui battent le record de calcul d'entrainement a leur date de publication (record glissant), depuis 2010
+# unite: FLOP (operations en virgule flottante) ; confiance = qualification Epoch (Confident/Likely/Speculative) ; statut = estimation (la plupart des chiffres sont estimes par Epoch, peu sont declares)
+date,modele,organisation,pays,calcul_entrainement_flop,log10_flop,confiance_epoch,statut,source_url
+2010-05-13,Feedforward NN,University of Montreal / Université de Montréal,Canada,3.5e+14,14.54,Confident,estimation,https://epoch.ai/data/notable-ai-models
+2010-06-13,iCCCP,Massachusetts Institute of Technology (MIT),United States of America,1.08e+15,15.03,Confident,estimation,https://epoch.ai/data/notable-ai-models
+2010-09-15,Pooling CNN (Caltech 101),University of Bonn,Germany,1.22e+15,15.09,Confident,estimation,https://epoch.ai/data/notable-ai-models
+2010-09-15,Pooling CNN (NORB),University of Bonn,Germany,1.46e+15,15.16,Confident,estimation,https://epoch.ai/data/notable-ai-models
+2010-09-26,RNN LM,Johns Hopkins University,United States of America,5.4e+16,16.73,Speculative,estimation,https://epoch.ai/data/notable-ai-models
+2012-06-03,Dropout (ImageNet),University of Toronto,Canada,2.73e+17,17.44,Confident,estimation,https://epoch.ai/data/notable-ai-models
+2012-07-12,Unsupervised High-level Feature Learner,Google,United States of America,6e+17,17.78,Likely,estimation,https://epoch.ai/data/notable-ai-models
+2013-01-16,DistBelief NNLM,Google,United States of America,2.61e+18,18.42,Likely,estimation,https://epoch.ai/data/notable-ai-models
+2014-06-18,SPPNet,"Microsoft,Xi’an Jiaotong University,University of Science and Technology of China (USTC)","United States of America,China,China",3.41e+18,18.53,Confident,estimation,https://epoch.ai/data/notable-ai-models
+2014-09-04,VGG19,University of Oxford,United Kingdom,1.1e+19,19.04,Likely,estimation,https://epoch.ai/data/notable-ai-models
+2014-09-04,VGG16,University of Oxford,United Kingdom,1.23e+19,19.09,Confident,estimation,https://epoch.ai/data/notable-ai-models
+2014-09-10,Seq2Seq LSTM,Google,United States of America,5.6e+19,19.75,Confident,estimation,https://epoch.ai/data/notable-ai-models
+2014-12-03,SNM-skip,Google,United States of America,2.98e+20,20.47,Speculative,estimation,https://epoch.ai/data/notable-ai-models
+2015-10-01,AlphaGo Fan,DeepMind,United Kingdom,3.8e+20,20.58,Likely,estimation,https://epoch.ai/data/notable-ai-models
+2016-01-27,AlphaGo Lee,DeepMind,United Kingdom,1.9e+21,21.28,Speculative,estimation,https://epoch.ai/data/notable-ai-models
+2016-09-26,GNMT,Google,United States of America,6.62e+21,21.82,Likely,estimation,https://epoch.ai/data/notable-ai-models
+2018-05-02,ResNeXt-101 32x48d,Facebook,United States of America,8.74e+21,21.94,Confident,estimation,https://epoch.ai/data/notable-ai-models
+2019-09-17,Megatron-LM (8.3B),Nvidia,United States of America,9.1e+21,21.96,Likely,estimation,https://epoch.ai/data/notable-ai-models
+2019-09-17,Megatron-BERT,Nvidia,United States of America,2.2e+22,22.34,Confident,estimation,https://epoch.ai/data/notable-ai-models
+2019-10-23,T5-11B,Google,United States of America,3.3e+22,22.52,Confident,estimation,https://epoch.ai/data/notable-ai-models
+2019-10-30,AlphaStar,DeepMind,United Kingdom,1.08e+23,23.03,Confident,estimation,https://epoch.ai/data/notable-ai-models
+2020-01-28,Meena,Google Brain,United States of America,1.12e+23,23.05,Confident,estimation,https://epoch.ai/data/notable-ai-models
+2020-05-28,GPT-3 175B (davinci),OpenAI,United States of America,3.14e+23,23.5,Confident,estimation,https://epoch.ai/data/notable-ai-models
+2021-08-11,Jurassic-1-Jumbo,AI21 Labs,Israel,3.7e+23,23.57,Confident,estimation,https://epoch.ai/data/notable-ai-models
+2021-09-03,FLAN 137B,Google Research,United States of America,2.05e+24,24.31,Confident,estimation,https://epoch.ai/data/notable-ai-models
+2022-03-15,GPT-3.5 (davinci-002),OpenAI,United States of America,2.58e+24,24.41,Speculative,estimation,https://epoch.ai/data/notable-ai-models
+2022-06-29,Minerva (540B),Google,United States of America,2.74e+24,24.44,Confident,estimation,https://epoch.ai/data/notable-ai-models
+2023-03-15,GPT-4 (Mar 2023),OpenAI,United States of America,2.1e+25,25.32,Likely,estimation,https://epoch.ai/data/notable-ai-models
+2023-12-06,Gemini 1.0 Ultra,Google DeepMind,United States of America,5e+25,25.7,Speculative,estimation,https://epoch.ai/data/notable-ai-models
+2025-02-17,Grok 3,xAI,United States of America,3.5e+26,26.54,Likely,estimation,https://epoch.ai/data/notable-ai-models
+2025-02-27,GPT-4.5,OpenAI,United States of America,3.8e+26,26.58,Likely,estimation,https://epoch.ai/data/notable-ai-models
+2025-07-09,Grok 4,xAI,United States of America,5e+26,26.7,Speculative,estimation,https://epoch.ai/data/notable-ai-models
+2026-09-03,GPT-6 Astra,OpenAI,United States of America,9.4e+26,26.97,Likely,estimation,https://epoch.ai/data/notable-ai-models

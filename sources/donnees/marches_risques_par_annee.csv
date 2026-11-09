@@ -1,0 +1,4 @@
+annee,nb_marches,nb_proc_offres,pct_offre_unique_nb,nb_proc_offres_hors_pes,pct_offre_unique_nb_hors_pes,pct_sans_publicite_nb,pct_avec_modification_pes,pct_avec_modification_hors_pes,pct_montant_augmente_hors_pes,delai_publication_donnees_jours_median,nb_montant_symbolique,nb_montant_symbolique_accords_cadres,nb_consult_offres,pct_offre_unique_consult,nb_consult_offres_hors_pes,pct_offre_unique_consult_hors_pes,nb_consult_procedure,pct_sans_publicite_consult
+2023,215981,25993,17.5,21183,13.6,3.6,24.4,4.4,1.8,36.0,7282,2162,15042,21.5,10913,15.8,130007,4.4
+2024,239547,147709,21.4,116723,18.9,5.9,39.6,6.7,3.6,19.0,5605,1000,104411,22.7,77046,19.8,142174,7.3
+2025,257724,172408,19.8,121990,16.7,5.9,47.1,9.4,4.9,12.0,3794,794,127623,21.2,83053,18.0,163991,7.4

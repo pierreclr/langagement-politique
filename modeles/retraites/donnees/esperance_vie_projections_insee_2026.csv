@@ -1,0 +1,7 @@
+# source: Insee, projections de population 2026 (Insee Première n° 2108, juin 2026) ; hypotheses reprises par le COR, seance d'avril 2026 (03.Proj INSEE_COR_2026_V1.pdf, diapositive 12) ; lu le 2026-11-03
+# esperance de vie a 65 ans, annees ; 2025 = niveau de reference, 2070 = hypotheses ; la trajectoire entre les deux est supposee lineaire dans le modele (H62)
+sexe,annee,centrale,haute,basse
+F,2025,23.6,23.6,23.6
+F,2070,26.3,28.8,24.0
+M,2025,20.0,20.0,20.0
+M,2070,24.4,26.8,22.2

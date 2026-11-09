@@ -1,0 +1,12 @@
+# Robots agricoles : prix, débit, performance réelle ; consulté 2026-11-03. Sources constructeurs marquées « constructeur ». ⚠️ = registre V10600-V10620
+cas,grandeur,valeur,unite,annee,statut,source,url,remarque
+smic,salaire_horaire_brut,12.02,EUR par heure,01/01/2026,secondaire,info.gouv.fr / presse (résumé de recherche web),https://www.info.gouv.fr/actualite/le-smic-revalorise-au-1er-janvier-2026,"+1,18 % ; une revalorisation de juin 2026 à environ 12,30 € est signalée par des sources non concordantes ⚠️"
+cout_travail_charge,hypothese,"14 / 16 / 22",EUR par heure,2026,hypothèse,Claude,,"coût employeur d'un salarié agricole : Smic chargé après allègements, congés et temps improductifs ; non sourcé ⚠️"
+farmdroid_fd20,prix,75000-97000,EUR HT,2025,constructeur,FAO Agritech Observatory (page lue),https://agritechobservatory.review.fao.org/en/farmdroid-fd20,"RTK en supplément ; une occasion de 2023 à 45 000 € HT et un prix britannique de 59 500 £ (résumés)"
+farmdroid_fd20,debit,6.5,ha par jour,2025,constructeur,idem,idem,"0,25 ha/h ou 6 ha/jour (autre fiche) ; essai danois 2024 : 15,8 ha de betteraves, agriculteur jugeant le semis trop lent (résumé)"
+farmdroid_fd20,parc,500,robots en service,09/2025,constructeur,idem,idem,"« plus de 500 dans plus de 23 pays »"
+naio_orio_arvalis,heures_par_ha,3.7,h par ha,2023-2024,sourcé,Terre-net 04/02/2025 (Arvalis),https://www.terre-net.fr/robots/article/878139/la-robotisation-en-grandes-cultures-demeure-au-stade-de-prototype,"contre 3,5 h/ha au tracteur : aucun gain de temps dans cet essai ; marge 34 contre 167 €/ha"
+naio_oz,prix,21000-25000,EUR,2017-2019,secondaire,voir robots.csv,,"ancien ⚠️ ; redressement judiciaire de Naïo en juin 2025"
+tortuga_agtech,modele_economique,robots as a service,,2023,secondaire,résumé de recherche web,,"facturé au niveau du coût d'un cueilleur humain, par livre cueillie ; 150 robots déployés en 2023 ; aucun prix publié"
+recolte_fraises,debit,24-30,kg par heure,2020-2026,constructeur,Octinion (cible) et DailyRobotics (essais) d'après AgFunder (résumé),https://agfundernews.com/dailyrobotics-gears-up-for-commercial-launch-in-california-in-2026-with-robotic-strawberry-harvester,"contre 10-20 kg/h pour un cueilleur humain (résumé) ; vendeurs"
+courbe_apprentissage_robots_industriels,baisse_annuelle_prevue,3,% par an,2024-2028,secondaire,Interact Analysis d'après résumé de recherche web,,"robots industriels (pas agricoles) ; ARK Invest annonce un taux d'apprentissage de 50 % par doublement et −65 % d'ici 2025 : prévision d'un fonds d'investissement, non mesurée"

@@ -1,0 +1,11 @@
+# source: Alphabet (appels résultats), Waymo, TechCrunch, Reuters ; unité: trajets payants sans chauffeur par semaine (États-Unis) ; date consultation: 2026-10-25
+date,valeur,unite,statut,source_url,note
+2024-05,50000,trajets payants/semaine,mesure,https://techcrunch.com/2026/03/27/waymo-skyrocketing-ridership-in-one-chart/,"cité par Pichai (appel T2 2024, juillet 2024)"
+2024-08,100000,trajets payants/semaine,mesure,https://techcrunch.com/2024/08/20/waymo-is-now-giving-100000-robotaxi-rides-week,
+2024-10,150000,trajets payants/semaine,mesure,https://abc.xyz/investor/,NON CONFIRMÉ en ligne (appel T3 2024 d'Alphabet)
+2025-02,200000,trajets payants/semaine,mesure,https://www.nbcsandiego.com/news/business/money-report/waymo-reports-250000-paid-robotaxi-rides-per-week-in-u-s/3811293/,
+2025-04,250000,trajets payants/semaine,mesure,https://www.nbcsandiego.com/news/business/money-report/waymo-reports-250000-paid-robotaxi-rides-per-week-in-u-s/3811293/,appel T1 2025
+2026-02,400000,trajets payants/semaine,mesure,https://www.bloomberg.com/news/articles/2026-02-11/waymo-co-ceo-outlines-path-to-1-million-weekly-trips-in-2026,'plus de 400 000'
+2026-03,500000,trajets payants/semaine,mesure,https://techcrunch.com/2026/03/27/waymo-skyrocketing-ridership-in-one-chart/,10 villes
+2026-09,500000,trajets payants/semaine,mesure,https://techcrunch.com/2026/09/24/waymo-is-scaling-fast-heres-what-the-fleet-data-shows/,chiffre public le plus récent ; 15 villes ; flotte ~4 000
+2026-12,1000000,trajets payants/semaine,projection,https://www.bloomberg.com/news/articles/2026-02-11/waymo-co-ceo-outlines-path-to-1-million-weekly-trips-in-2026,objectif fin 2026 de la co-CEO

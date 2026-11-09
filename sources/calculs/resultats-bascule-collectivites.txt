@@ -1,0 +1,85 @@
+Bascule neutre des collectivités : gagnants et perdants par type de commune (v5.9, 05/11/2026) ; script sources/calculs/bascule_collectivites.py
+communes : 34863 ; population : 68.9 M ; taxe foncière perçue (TFB + coefficient correcteur + TFNB) : 40.82 Md€ ; prix manquants remplacés : 5077
+valeur de marché estimée (base nette × prix au m², échelle relative) ; prix moyen national pondéré par les bases : 3868 €/m²
+
+=== Clé : 100 % localisation de la taxe de 1 %, 0 % par habitant (sans garantie) ===
+-- par taille : groupe | communes | population (M) | TF aujourd'hui (€/hab) | après (€/hab) | écart (€/hab) | écart (M€) | part des communes perdantes | part des habitants dans une commune perdante
+1 moins de 500 | 18043 | 4.07 | 306 | 183 | -124 | -504 | 85 % | 85 %
+2 500 à 2 000 | 11255 | 11.11 | 359 | 268 | -91 | -1009 | 83 % | 83 %
+3 2 000 à 10 000 | 4519 | 18.70 | 511 | 415 | -96 | -1786 | 79 % | 79 %
+4 10 000 à 50 000 | 913 | 18.47 | 705 | 569 | -136 | -2513 | 78 % | 78 %
+5 50 000 à 200 000 | 122 | 10.44 | 770 | 730 | -40 | -418 | 72 % | 74 %
+6 plus de 200 000 (hors Paris) | 10 | 3.93 | 805 | 650 | -155 | -611 | 70 % | 65 %
+7 Paris | 1 | 2.15 | 841 | 4024 | +3183 | +6840 | 0 % | 0 %
+-- par densité : groupe | communes | population (M) | TF aujourd'hui (€/hab) | après (€/hab) | écart (€/hab) | écart (M€) | part des communes perdantes | part des habitants dans une commune perdante
+1 dense | 772 | 26.03 | 782 | 990 | +209 | +5434 | 73 % | 65 %
+2 intermédiaire | 3413 | 20.32 | 584 | 435 | -148 | -3017 | 74 % | 80 %
+3 peu dense | 18719 | 20.09 | 391 | 288 | -103 | -2072 | 84 % | 84 %
+4 très peu dense | 11951 | 2.41 | 317 | 173 | -145 | -348 | 87 % | 88 %
+? inconnu | 8 | 0.03 | 98 | 187 | +90 | +3 | 12 % | 2 %
+-- par richesse foncière (quintile de TF par habitant) : groupe | communes | population (M) | TF aujourd'hui (€/hab) | après (€/hab) | écart (€/hab) | écart (M€) | part des communes perdantes | part des habitants dans une commune perdante
+Q1 | 20406 | 13.77 | 263 | 207 | -55 | -760 | 82 % | 76 %
+Q2 | 9365 | 13.78 | 433 | 266 | -167 | -2301 | 91 % | 87 %
+Q3 | 3172 | 13.78 | 575 | 404 | -171 | -2359 | 86 % | 82 %
+Q4 | 1152 | 13.77 | 739 | 525 | -214 | -2953 | 79 % | 85 %
+Q5 | 768 | 13.78 | 954 | 1562 | +608 | +8373 | 55 % | 49 %
+-- par prix immobilier (quintile) : groupe | communes | population (M) | TF aujourd'hui (€/hab) | après (€/hab) | écart (€/hab) | écart (M€) | part des communes perdantes | part des habitants dans une commune perdante
+Q1 | 16464 | 13.77 | 415 | 144 | -272 | -3740 | 96 % | 97 %
+Q2 | 8742 | 13.79 | 491 | 242 | -249 | -3434 | 90 % | 95 %
+Q3 | 5227 | 13.76 | 574 | 376 | -198 | -2725 | 77 % | 90 %
+Q4 | 3068 | 13.79 | 641 | 530 | -111 | -1531 | 43 % | 72 %
+Q5 | 1362 | 13.77 | 842 | 1672 | +830 | +11430 | 18 % | 25 %
+-- par rurale (OFGL) : groupe | communes | population (M) | TF aujourd'hui (€/hab) | après (€/hab) | écart (€/hab) | écart (M€) | part des communes perdantes | part des habitants dans une commune perdante
+non rurale | 7567 | 54.60 | 657 | 687 | +30 | +1650 | 76 % | 73 %
+rurale | 27296 | 14.28 | 347 | 231 | -116 | -1650 | 86 % | 86 %
+-- par touristique (OFGL) : groupe | communes | population (M) | TF aujourd'hui (€/hab) | après (€/hab) | écart (€/hab) | écart (M€) | part des communes perdantes | part des habitants dans une commune perdante
+non touristique | 33295 | 54.21 | 550 | 570 | +20 | +1109 | 85 % | 78 %
+touristique | 1568 | 14.67 | 751 | 675 | -76 | -1109 | 63 % | 70 %
+-- par montagne (OFGL) : groupe | communes | population (M) | TF aujourd'hui (€/hab) | après (€/hab) | écart (€/hab) | écart (M€) | part des communes perdantes | part des habitants dans une commune perdante
+hors montagne | 28699 | 62.07 | 603 | 608 | +5 | +330 | 86 % | 76 %
+montagne | 6164 | 6.81 | 503 | 455 | -49 | -330 | 72 % | 74 %
+-- communes de 10 000 habitants ou plus : 5 plus fortes pertes (€/hab) : Grenoble -798 ; Villeneuve-sur-Lot -691 ; Nevers -667 ; Angoulême -654 ; Cahors -654
+-- 5 plus forts gains (€/hab) : Levallois-Perret +2663 ; Paris +3183 ; Courbevoie +3301 ; Puteaux +4975 ; Neuilly-sur-Seine +5550
+-- garantie individuelle nécessaire pour qu'aucune commune ne perde en 2029 : 13.03 Md€ (prélevée sur les gagnantes : même montant ; c'est un FNGIR)
+-- dispersion des écarts relatifs (écart-type, communes) : 369 %
+
+=== Clé : 50 % localisation de la taxe de 1 %, 50 % par habitant (sans garantie) ===
+-- par taille : groupe | communes | population (M) | TF aujourd'hui (€/hab) | après (€/hab) | écart (€/hab) | écart (M€) | part des communes perdantes | part des habitants dans une commune perdante
+1 moins de 500 | 18043 | 4.07 | 306 | 388 | +81 | +331 | 28 % | 26 %
+2 500 à 2 000 | 11255 | 11.11 | 359 | 430 | +72 | +795 | 29 % | 31 %
+3 2 000 à 10 000 | 4519 | 18.70 | 511 | 504 | -7 | -125 | 53 % | 57 %
+4 10 000 à 50 000 | 913 | 18.47 | 705 | 581 | -124 | -2296 | 78 % | 80 %
+5 50 000 à 200 000 | 122 | 10.44 | 770 | 661 | -109 | -1135 | 76 % | 78 %
+6 plus de 200 000 (hors Paris) | 10 | 3.93 | 805 | 621 | -184 | -723 | 90 % | 87 %
+7 Paris | 1 | 2.15 | 841 | 2308 | +1467 | +3153 | 0 % | 0 %
+-- par densité : groupe | communes | population (M) | TF aujourd'hui (€/hab) | après (€/hab) | écart (€/hab) | écart (M€) | part des communes perdantes | part des habitants dans une commune perdante
+1 dense | 772 | 26.03 | 782 | 792 | +10 | +258 | 76 % | 74 %
+2 intermédiaire | 3413 | 20.32 | 584 | 514 | -70 | -1417 | 50 % | 68 %
+3 peu dense | 18719 | 20.09 | 391 | 440 | +49 | +993 | 29 % | 39 %
+4 très peu dense | 11951 | 2.41 | 317 | 383 | +65 | +157 | 32 % | 30 %
+? inconnu | 8 | 0.03 | 98 | 390 | +292 | +9 | 0 % | 0 %
+-- par richesse foncière (quintile de TF par habitant) : groupe | communes | population (M) | TF aujourd'hui (€/hab) | après (€/hab) | écart (€/hab) | écart (M€) | part des communes perdantes | part des habitants dans une commune perdante
+Q1 | 20406 | 13.77 | 263 | 400 | +137 | +1893 | 5 % | 4 %
+Q2 | 9365 | 13.78 | 433 | 429 | -4 | -51 | 68 % | 62 %
+Q3 | 3172 | 13.78 | 575 | 498 | -77 | -1056 | 83 % | 78 %
+Q4 | 1152 | 13.77 | 739 | 559 | -181 | -2487 | 84 % | 90 %
+Q5 | 768 | 13.78 | 954 | 1077 | +123 | +1700 | 73 % | 68 %
+-- par prix immobilier (quintile) : groupe | communes | population (M) | TF aujourd'hui (€/hab) | après (€/hab) | écart (€/hab) | écart (M€) | part des communes perdantes | part des habitants dans une commune perdante
+Q1 | 16464 | 13.77 | 415 | 368 | -47 | -650 | 39 % | 60 %
+Q2 | 8742 | 13.79 | 491 | 417 | -74 | -1016 | 30 % | 63 %
+Q3 | 5227 | 13.76 | 574 | 484 | -90 | -1232 | 32 % | 71 %
+Q4 | 3068 | 13.79 | 641 | 561 | -80 | -1100 | 21 % | 64 %
+Q5 | 1362 | 13.77 | 842 | 1133 | +290 | +3998 | 21 % | 44 %
+-- par rurale (OFGL) : groupe | communes | population (M) | TF aujourd'hui (€/hab) | après (€/hab) | écart (€/hab) | écart (M€) | part des communes perdantes | part des habitants dans une commune perdante
+non rurale | 7567 | 54.60 | 657 | 640 | -17 | -930 | 47 % | 68 %
+rurale | 27296 | 14.28 | 347 | 412 | +65 | +930 | 29 % | 31 %
+-- par touristique (OFGL) : groupe | communes | population (M) | TF aujourd'hui (€/hab) | après (€/hab) | écart (€/hab) | écart (M€) | part des communes perdantes | part des habitants dans une commune perdante
+non touristique | 33295 | 54.21 | 550 | 582 | +32 | +1715 | 32 % | 56 %
+touristique | 1568 | 14.67 | 751 | 634 | -117 | -1715 | 46 % | 76 %
+-- par montagne (OFGL) : groupe | communes | population (M) | TF aujourd'hui (€/hab) | après (€/hab) | écart (€/hab) | écart (M€) | part des communes perdantes | part des habitants dans une commune perdante
+hors montagne | 28699 | 62.07 | 603 | 600 | -2 | -139 | 35 % | 62 %
+montagne | 6164 | 6.81 | 503 | 524 | +20 | +139 | 26 % | 43 %
+-- communes de 10 000 habitants ou plus : 5 plus fortes pertes (€/hab) : Grenoble -733 ; Sète -568 ; Briançon -556 ; Ormesson-sur-Marne -544 ; Sucy-en-Brie -538
+-- 5 plus forts gains (€/hab) : Boulogne-Billancourt +1050 ; Courbevoie +1435 ; Paris +1467 ; Puteaux +2193 ; Neuilly-sur-Seine +2524
+-- garantie individuelle nécessaire pour qu'aucune commune ne perde en 2029 : 7.25 Md€ (prélevée sur les gagnantes : même montant ; c'est un FNGIR)
+-- dispersion des écarts relatifs (écart-type, communes) : 672 %

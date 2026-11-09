@@ -1,0 +1,25 @@
+== Δ solde par rapport au droit actuel (solde − déficit 2024 de −169,1)
+  croisière bas     : solde  -119.8 Md€ ( -4.1 % du PIB) ; Δ =  +49.3 Md€
+  croisière central : solde  -163.3 Md€ ( -5.6 % du PIB) ; Δ =   +5.8 Md€
+  croisière haut    : solde  -235.7 Md€ ( -8.0 % du PIB) ; Δ =  -66.6 Md€
+  année 1 socle 250 € bas     : solde   -14.3 ( -0.5 %) ; Δ = +154.8
+  année 1 socle 250 € central : solde   -54.3 ( -1.9 %) ; Δ = +114.8
+  année 1 socle 250 € haut    : solde  -121.4 ( -4.1 %) ; Δ =  +47.7
+
+== Écart de taux sur la charge de la dette (dette Maastricht fin 2025, durée moyenne 8 ans ⚠️)
+   -50 pb : année 1  -2.2 Md€ ; régime plein  -17.3 Md€/an
+   +50 pb : année 1  +2.2 Md€ ; régime plein  +17.3 Md€/an
+  +100 pb : année 1  +4.3 Md€ ; régime plein  +34.6 Md€/an
+
+== Besoin de financement supplémentaire au haut (Δ négatif = dette en plus)
+  Δ haut = -66.6 Md€/an = 21 % des émissions 2026 (⚠️ 310)
+  intérêts de cette dette supplémentaire à 3.5 % : 2.3 Md€ la 1re année ; cumul sur 5 ans (sans autre action) : dette +333 Md€, intérêts de la 5e année 11.7 Md€
+
+== Leviers de sauvegarde au haut
+  taux plat : 7.3 Md€ par point au haut -> 9.1 points pour fermer Δ
+  taux plat : 12.6 Md€ par point au central
+  socle : 45.6 Md€ par 100 €/mois au haut -> 146 € de baisse (socle ≈ 354 €), linéaire ⚠️
+
+== Recette perdue en un an par un choc de confiance
+  +50 pb = 0.59 % du PIB en régime plein ; = 1.4 points de taux plat au central
+  +100 pb = 1.18 % du PIB en régime plein ; = 2.7 points de taux plat au central

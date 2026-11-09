@@ -1,0 +1,22 @@
+demarche;libelle;interlocuteurs_actuel;dont_publics_actuel;avec_facultatifs_actuel;organismes_actuel;interlocuteurs_propose;dont_publics_propose;organismes_propose;pieces_actuel;pieces_propose;france_services_actuel
+D01;Déclarer ses revenus;1;1;1;ORG-SIP;0;0;;n.c.;0;oui
+D02;Demander une aide au logement (APL);2;1;2;ORG-CAF ORG-PROPRIO;1;1;ORG-PROX;n.c.;0;oui
+D03;Demander le RSA;3;3;4;ORG-CAF ORG-DEP ORG-FT;1;1;ORG-PROX;n.c.;0;partiel
+D04;Demander la prime d'activité;1;1;1;ORG-CAF;0;0;;n.c.;0;oui
+D05;Faire reconnaître un handicap (AAH, PCH, RQTH, CMI);3;2;4;ORG-CAF ORG-MDPH ORG-MEDECIN;2;1;ORG-MEDECIN ORG-PROX;2;1;partiel
+D06;Demander l'APA (perte d'autonomie d'une personne âgée);1;1;2;ORG-DEP;1;1;ORG-PROX;3-4;0;non
+D07;Inscrire un enfant à l'école élémentaire;2;2;2;ORG-ECOLE ORG-MAIRIE;1;1;ORG-PROX;4;1;non
+D08;Demander une bourse de collège;1;1;1;ORG-ECOLE;1;1;ORG-PROX;1-2;0;non
+D09;Faire collecter ses déchets (bacs, déchèterie, redevance);2;2;2;ORG-EPCI ORG-MAIRIE;0;0;;n.c.;n.c.;non
+D10;Demander un permis de construire (maison individuelle);2;2;2;ORG-CDIF ORG-MAIRIE;1;1;ORG-PROX;n.c.;n.c.;partiel
+D11;Demander une carte d'identité (majeur, première demande);1;1;2;ORG-MAIRIE;1;1;ORG-PROX;2-3;1;non
+D12;Immatriculer un véhicule d'occasion (carte grise);3;1;3;ORG-ANTS ORG-CT ORG-PROPRIO;2;1;ORG-PLAT ORG-PROPRIO;4;2;oui
+D13;S'inscrire sur les listes électorales;1;1;1;ORG-MAIRIE;0;0;;2-3;0;non
+D14;Déclarer une naissance;3;3;4;ORG-CAF ORG-CPAM ORG-MAIRIE;1;1;ORG-PROX;2-4;2;partiel
+D15;Déclarer un décès;2;1;3;ORG-MAIRIE ORG-MEDECIN;2;1;ORG-MEDECIN ORG-PROX;2;2;non
+D16;S'inscrire comme demandeur d'emploi;1;1;1;ORG-FT;0;0;;3-8;0;oui
+D17;Prendre sa retraite (salarié du privé);1;1;1;ORG-UNIONRET;1;1;ORG-SECU;n.c.;n.c.;oui
+D18;Demander un logement social;1;0;1;ORG-BAILLEUR;1;1;ORG-PROX;n.c.;n.c.;non
+D19;Créer une micro-entreprise;3;3;4;ORG-INPI ORG-SIP ORG-URSSAF;1;1;ORG-PLAT;n.c.;n.c.;partiel
+D20;Embaucher un premier salarié;4;2;4;ORG-AGIRC ORG-ASSUREUR ORG-SPST ORG-URSSAF;2;1;ORG-PLAT ORG-SPST;n.c.;n.c.;partiel
+D21;Percevoir les allocations familiales;1;1;1;ORG-CAF;0;0;;n.c.;0;oui

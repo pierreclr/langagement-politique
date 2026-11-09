@@ -1,0 +1,113 @@
+== 1. Âge légal en vigueur au 03/11/2026 (loi n° 2025-1403, art. L161-17-2 du code de la sécurité sociale) ==
+ok  générations 1963 et 1964 : 62 ans 9 mois (la suspension supprime les 63 ans de 2023 pour 1964)
+ok  génération 1965 : 62 ans 9 mois jusqu'au 31 mars, 63 ans ensuite
+ok  générations 1966 à 1969 : 63 ans 3 mois, 6 mois, 9 mois, 64 ans
+ok  générations 1961 et 1962 : 62 ans, 62 ans 3 mois, 62 ans 6 mois
+âge légal par génération : 1960 : 62 ; 1961 : 62.08 ; 1962 : 62.5 ; 1963 : 62.75 ; 1964 : 62.75 ; 1965 : 62.94 ; 1966 : 63.25 ; 1967 : 63.5 ; 1968 : 63.75 ; 1969 : 64
+
+== 2. Espérance de vie projetée (Insee 2026) ==
+ok  e(65) en 2025 ≈ 21,8 (moyenne des sexes 23,6 et 20,0) : 21.8
+ok  e(65) en 2070, central ≈ 25,35 (26,3 femmes, 24,4 hommes) : 25.35
+ok  haute > centrale > basse > constante : 27.8 > 25.4 > 23.1 > 21.8
+ok  variante « constante » : e(60) figée
+e(60) central : 2025 : 25.9 ; 2029 : 26.24 ; 2040 : 27.16 ; 2050 : 28 ; 2060 : 28.83 ; 2070 : 29.66
+
+== 3. Trajectoire de l'âge de référence par génération ==
+ok  génération 1969 : 64 ans (loi), 1968 : 63 ans 9 mois
+ok  l'âge de référence ne baisse jamais d'une génération à l'autre (cliquet)
+ok  à l'arrondi près (1 mois), l'âge de référence gagne 2/3 de chaque année d'espérance de vie à 60 ans (écart max 0.5 mois)
+ok  espérance de vie constante : 64 ans pour toutes les générations
+ok  génération 2010 : haute > centrale > basse
+ok  plus la fraction est grande (1, 2/3, 1/2), plus l'âge de référence monte
+âge de référence (années) par génération, central / haute / basse : 
+  génération 1969 (60 ans en 2029) : 64 / 64 / 64 ; e(60) central +0 an ; avec fraction 1 : 64, fraction 1/2 : 64
+  génération 1970 (60 ans en 2030) : 64.08 / 64.08 / 64 ; e(60) central +0.08 an ; avec fraction 1 : 64.08, fraction 1/2 : 64.08
+  génération 1975 (60 ans en 2035) : 64.33 / 64.58 / 64.08 ; e(60) central +0.5 an ; avec fraction 1 : 64.5, fraction 1/2 : 64.25
+  génération 1980 (60 ans en 2040) : 64.58 / 65 / 64.25 ; e(60) central +0.92 an ; avec fraction 1 : 64.92, fraction 1/2 : 64.5
+  génération 1985 (60 ans en 2045) : 64.92 / 65.5 / 64.33 ; e(60) central +1.34 an ; avec fraction 1 : 65.33, fraction 1/2 : 64.67
+  génération 1990 (60 ans en 2050) : 65.17 / 66 / 64.42 ; e(60) central +1.76 an ; avec fraction 1 : 65.75, fraction 1/2 : 64.92
+  génération 1995 (60 ans en 2055) : 65.42 / 66.42 / 64.5 ; e(60) central +2.18 an ; avec fraction 1 : 66.17, fraction 1/2 : 65.08
+  génération 2000 (60 ans en 2060) : 65.75 / 66.92 / 64.67 ; e(60) central +2.59 an ; avec fraction 1 : 66.58, fraction 1/2 : 65.33
+  génération 2005 (60 ans en 2065) : 66 / 67.42 / 64.75 ; e(60) central +3.01 an ; avec fraction 1 : 67, fraction 1/2 : 65.5
+  génération 2010 (60 ans en 2070) : 66.25 / 67.83 / 64.83 ; e(60) central +3.43 an ; avec fraction 1 : 67.42, fraction 1/2 : 65.75
+
+== 4. Effet de l'âge de référence indexé (seul) ==
+ok  2030 : aucun effet (les générations qui partent ont moins de 64 ans de référence : la règle ne mord pas avant ~2034)
+ok  l'économie sur les pensions croît : 2040 < 2060 < 2070
+ok  favorable > central > défavorable (solde 2040)
+ok  passage nul (personne ne retarde son départ) : aucun effet
+ok  une contrepartie plus grande (pension relevée du coefficient neutre) réduit l'économie
+ok  espérance de vie constante : aucun effet
+ok  moins de retraités, plus de cotisants, meilleur rapport cotisants/retraités
+favorable 2030 : report de l'âge effectif 0 an (âge de référence de la cohorte 63.35, âge effectif 63.6) ; économie sur pensions 0 Md€ (0 pt) ; recettes 0 Md€ ; solde 0 Md€ (0 pt) ; dépense 439 → 439 Md€ (14.1 → 14.1 % du PIB) ; retraités 18.9 → 18.9 M ; cotisants 31.4 → 31.4 M ; rapport 1.66 → 1.66 ; part de l'écart de 3,0 pts : 0 % (3,6 pts : 0 %)
+favorable 2040 : report de l'âge effectif 0.49 an (âge de référence de la cohorte 64.62, âge effectif 65.09) ; économie sur pensions 8.5 Md€ (0.25 pt) ; recettes 5 Md€ ; solde 13.5 Md€ (0.4 pt) ; dépense 477 → 469 Md€ (14.15 → 13.9 % du PIB) ; retraités 20.6 → 20.22 M ; cotisants 31 → 31.28 M ; rapport 1.5 → 1.55 ; part de l'écart de 3,0 pts : 8 % (3,6 pts : 7 %)
+favorable 2060 : report de l'âge effectif 1.96 an (âge de référence de la cohorte 66.45, âge effectif 66.56) ; économie sur pensions 35.6 Md€ (0.9 pt) ; recettes 22.1 Md€ ; solde 57.8 Md€ (1.46 pt) ; dépense 588 → 552 Md€ (14.86 → 13.96 % du PIB) ; retraités 21.7 → 20.25 M ; cotisants 29.6 → 30.68 M ; rapport 1.36 → 1.52 ; part de l'écart de 3,0 pts : 30 % (3,6 pts : 25 %)
+favorable 2070 : report de l'âge effectif 2.76 an (âge de référence de la cohorte 67.45, âge effectif 67.36) ; économie sur pensions 50.4 Md€ (1.18 pt) ; recettes 31.9 Md€ ; solde 82.4 Md€ (1.92 pt) ; dépense 656 → 605 Md€ (15.3 → 14.12 % du PIB) ; retraités 22.1 → 20.15 M ; cotisants 28.9 → 30.36 M ; rapport 1.31 → 1.51 ; part de l'écart de 3,0 pts : 39 % (3,6 pts : 33 %)
+central 2030 : report de l'âge effectif 0 an (âge de référence de la cohorte 63.35, âge effectif 63.6) ; économie sur pensions 0 Md€ (0 pt) ; recettes 0 Md€ ; solde 0 Md€ (0 pt) ; dépense 439 → 439 Md€ (14.1 → 14.1 % du PIB) ; retraités 18.9 → 18.9 M ; cotisants 31.4 → 31.4 M ; rapport 1.66 → 1.66 ; part de l'écart de 3,0 pts : 0 % (3,6 pts : 0 %)
+central 2040 : report de l'âge effectif 0.18 an (âge de référence de la cohorte 64.37, âge effectif 64.78) ; économie sur pensions 3 Md€ (0.09 pt) ; recettes 1.2 Md€ ; solde 4.2 Md€ (0.13 pt) ; dépense 477 → 474 Md€ (14.15 → 14.06 % du PIB) ; retraités 20.6 → 20.46 M ; cotisants 31 → 31.07 M ; rapport 1.5 → 1.52 ; part de l'écart de 3,0 pts : 3 % (3,6 pts : 2 %)
+central 2060 : report de l'âge effectif 0.73 an (âge de référence de la cohorte 65.45, âge effectif 65.33) ; économie sur pensions 11.8 Md€ (0.3 pt) ; recettes 5.7 Md€ ; solde 17.5 Md€ (0.44 pt) ; dépense 588 → 576 Md€ (14.86 → 14.56 % du PIB) ; retraités 21.7 → 21.14 M ; cotisants 29.6 → 29.88 M ; rapport 1.36 → 1.41 ; part de l'écart de 3,0 pts : 10 % (3,6 pts : 8 %)
+central 2070 : report de l'âge effectif 1.02 an (âge de référence de la cohorte 66.03, âge effectif 65.62) ; économie sur pensions 16.6 Md€ (0.39 pt) ; recettes 8.4 Md€ ; solde 25 Md€ (0.58 pt) ; dépense 656 → 639 Md€ (15.3 → 14.91 % du PIB) ; retraités 22.1 → 21.33 M ; cotisants 28.9 → 29.28 M ; rapport 1.31 → 1.37 ; part de l'écart de 3,0 pts : 13 % (3,6 pts : 11 %)
+defavorable 2030 : report de l'âge effectif 0 an (âge de référence de la cohorte 63.35, âge effectif 63.6) ; économie sur pensions 0 Md€ (0 pt) ; recettes 0 Md€ ; solde 0 Md€ (0 pt) ; dépense 439 → 439 Md€ (14.1 → 14.1 % du PIB) ; retraités 18.9 → 18.9 M ; cotisants 31.4 → 31.4 M ; rapport 1.66 → 1.66 ; part de l'écart de 3,0 pts : 0 % (3,6 pts : 0 %)
+defavorable 2040 : report de l'âge effectif 0.04 an (âge de référence de la cohorte 64.12, âge effectif 64.64) ; économie sur pensions 0.6 Md€ (0.02 pt) ; recettes 0.2 Md€ ; solde 0.8 Md€ (0.02 pt) ; dépense 477 → 477 Md€ (14.15 → 14.13 % du PIB) ; retraités 20.6 → 20.57 M ; cotisants 31 → 31.01 M ; rapport 1.5 → 1.51 ; part de l'écart de 3,0 pts : 1 % (3,6 pts : 0 %)
+defavorable 2060 : report de l'âge effectif 0.18 an (âge de référence de la cohorte 64.53, âge effectif 64.78) ; économie sur pensions 2.4 Md€ (0.06 pt) ; recettes 1 Md€ ; solde 3.4 Md€ (0.08 pt) ; dépense 588 → 586 Md€ (14.86 → 14.8 % du PIB) ; retraités 21.7 → 21.57 M ; cotisants 29.6 → 29.65 M ; rapport 1.36 → 1.37 ; part de l'écart de 3,0 pts : 2 % (3,6 pts : 2 %)
+defavorable 2070 : report de l'âge effectif 0.25 an (âge de référence de la cohorte 64.75, âge effectif 64.85) ; économie sur pensions 3.3 Md€ (0.08 pt) ; recettes 1.5 Md€ ; solde 4.7 Md€ (0.11 pt) ; dépense 656 → 652 Md€ (15.3 → 15.22 % du PIB) ; retraités 22.1 → 21.91 M ; cotisants 28.9 → 28.97 M ; rapport 1.31 → 1.32 ; part de l'écart de 3,0 pts : 3 % (3,6 pts : 2 %)
+
+== 5. Départ sans réduction (pénibilité, carrières longues) avec âge de référence indexé ==
+ok  le surcoût est proportionnel à la part
+ok  le surcoût de la dispense croît avec le temps (montée en charge puis report de l'âge de référence)
+ok  le coût total d'un départ à 60 ans (pension versée plus tôt) dépasse la seule dispense de décote
+ok  carrière longue (âge de référence − 2 ans, 15 % des départs) coûte moins que la pénibilité à 60 ans (20 % des départs, ancien défaut)
+pénibilité (60 ans, 10 % des départs, net du droit actuel ; ancien défaut 20 %) 2030 : dispense 0.6 Md€ (0.02 pt) ; coût total 3.8 Md€ (0.12 pt) dont recettes perdues 1.5 ; 10 % : dispense 0.3 ; carrière longue (15 %, âge min 61.4) : dispense 0.4 Md€ (0.01 pt)
+pénibilité (60 ans, 10 % des départs, net du droit actuel ; ancien défaut 20 %) 2040 : dispense 3.7 Md€ (0.11 pt) ; coût total 7.9 Md€ (0.23 pt) dont recettes perdues 3.2 ; 10 % : dispense 1.9 ; carrière longue (15 %, âge min 62.4) : dispense 2.6 Md€ (0.08 pt)
+pénibilité (60 ans, 10 % des départs, net du droit actuel ; ancien défaut 20 %) 2060 : dispense 9.4 Md€ (0.24 pt) ; coût total 8.9 Md€ (0.23 pt) dont recettes perdues 4.1 ; 10 % : dispense 4.7 ; carrière longue (15 %, âge min 63.5) : dispense 5.5 Md€ (0.14 pt)
+pénibilité (60 ans, 10 % des départs, net du droit actuel ; ancien défaut 20 %) 2070 : dispense 11.2 Md€ (0.26 pt) ; coût total 9.8 Md€ (0.23 pt) dont recettes perdues 4.6 ; 10 % : dispense 5.6 ; carrière longue (15 %, âge min 64) : dispense 5.9 Md€ (0.14 pt)
+
+== 6. Bilan du dispositif complet (solde public : + améliore) ==
+ok  favorable > central > défavorable (solde 2040)
+ok  le bilan central s'améliore avec le temps (transition coûteuse, puis report de l'âge)
+ok  le dispositif coûte les premières années (âge libre, dispense de réduction)
+ok  le central ne comble pas à lui seul l'écart de 3 points avec l'Allemagne
+favorable 2030 : âge de référence 0 (+ recettes 0) ; âge libre -11.3 (recettes -5.1) ; pénibilité -0.3 ; substitution (chômage, invalidité, maladie) 0 ; indexation 4.4 ; hautes pensions 6.6 -> économie sur pensions -0.7 Md€ (-0.02 pt) ; solde public -5.7 Md€ (-0.18 pt) ; dépense 439 -> 440 Md€ (14.1 -> 14.12 %) ; part de l'écart (3,0 / 3,6 pts) -1 % / -1 % ; solde seul : -6 %
+favorable 2040 : âge de référence 8.5 (+ recettes 5) ; âge libre -5.2 (recettes -5.4) ; pénibilité -1.9 ; substitution (chômage, invalidité, maladie) -1.3 ; indexation 19.6 ; hautes pensions 6.6 -> économie sur pensions 27.5 Md€ (0.81 pt) ; solde public 25.7 Md€ (0.76 pt) ; dépense 477 -> 450 Md€ (14.15 -> 13.34 %) ; part de l'écart (3,0 / 3,6 pts) 27 % / 23 % ; solde seul : 25 %
+favorable 2060 : âge de référence 35.6 (+ recettes 22.1) ; âge libre 2.4 (recettes -6.3) ; pénibilité -5.3 ; substitution (chômage, invalidité, maladie) -5.8 ; indexation 47.5 ; hautes pensions 6.6 -> économie sur pensions 86.9 Md€ (2.19 pt) ; solde public 96.9 Md€ (2.45 pt) ; dépense 588 -> 501 Md€ (14.86 -> 12.67 %) ; part de l'écart (3,0 / 3,6 pts) 73 % / 61 % ; solde seul : 82 %
+favorable 2070 : âge de référence 50.4 (+ recettes 31.9) ; âge libre 2.8 (recettes -6.7) ; pénibilité -6.6 ; substitution (chômage, invalidité, maladie) -8.2 ; indexation 60.2 ; hautes pensions 6.6 -> économie sur pensions 113.4 Md€ (2.65 pt) ; solde public 130.4 Md€ (3.04 pt) ; dépense 656 -> 542 Md€ (15.3 -> 12.65 %) ; part de l'écart (3,0 / 3,6 pts) 88 % / 74 % ; solde seul : 101 %
+central 2030 : âge de référence 0 (+ recettes 0) ; âge libre -19.2 (recettes -8.9) ; pénibilité -0.6 ; substitution (chômage, invalidité, maladie) 0 ; indexation 1.3 ; hautes pensions 6.6 -> économie sur pensions -11.9 Md€ (-0.38 pt) ; solde public -20.8 Md€ (-0.67 pt) ; dépense 439 -> 451 Md€ (14.1 -> 14.48 %) ; part de l'écart (3,0 / 3,6 pts) -13 % / -11 % ; solde seul : -22 %
+central 2040 : âge de référence 3 (+ recettes 1.2) ; âge libre -8.9 (recettes -9.5) ; pénibilité -3.7 ; substitution (chômage, invalidité, maladie) -0.8 ; indexation 6.2 ; hautes pensions 6.6 -> économie sur pensions 3.2 Md€ (0.09 pt) ; solde public -5.9 Md€ (-0.18 pt) ; dépense 477 -> 474 Md€ (14.15 -> 14.06 %) ; part de l'écart (3,0 / 3,6 pts) 3 % / 3 % ; solde seul : -6 %
+central 2060 : âge de référence 11.8 (+ recettes 5.7) ; âge libre 4.1 (recettes -10.9) ; pénibilité -9.4 ; substitution (chômage, invalidité, maladie) -3.5 ; indexation 15.7 ; hautes pensions 6.6 -> économie sur pensions 28.8 Md€ (0.73 pt) ; solde public 20.1 Md€ (0.51 pt) ; dépense 588 -> 559 Md€ (14.86 -> 14.13 %) ; part de l'écart (3,0 / 3,6 pts) 24 % / 20 % ; solde seul : 17 %
+central 2070 : âge de référence 16.6 (+ recettes 8.4) ; âge libre 4.9 (recettes -11.7) ; pénibilité -11.2 ; substitution (chômage, invalidité, maladie) -5 ; indexation 20.3 ; hautes pensions 6.6 -> économie sur pensions 37.2 Md€ (0.87 pt) ; solde public 28.8 Md€ (0.67 pt) ; dépense 656 -> 619 Md€ (15.3 -> 14.43 %) ; part de l'écart (3,0 / 3,6 pts) 29 % / 24 % ; solde seul : 22 %
+defavorable 2030 : âge de référence 0 (+ recettes 0) ; âge libre -26.7 (recettes -12.6) ; pénibilité -1.2 ; substitution (chômage, invalidité, maladie) 0 ; indexation 0.4 ; hautes pensions 6.6 -> économie sur pensions -21 Md€ (-0.67 pt) ; solde public -33.6 Md€ (-1.08 pt) ; dépense 439 -> 460 Md€ (14.1 -> 14.77 %) ; part de l'écart (3,0 / 3,6 pts) -22 % / -19 % ; solde seul : -36 %
+defavorable 2040 : âge de référence 0.6 (+ recettes 0.2) ; âge libre -12.3 (recettes -13.6) ; pénibilité -7.1 ; substitution (chômage, invalidité, maladie) -0.2 ; indexation 1.9 ; hautes pensions 6.6 -> économie sur pensions -10.3 Md€ (-0.31 pt) ; solde public -24 Md€ (-0.71 pt) ; dépense 477 -> 488 Md€ (14.15 -> 14.46 %) ; part de l'écart (3,0 / 3,6 pts) -10 % / -9 % ; solde seul : -24 %
+defavorable 2060 : âge de référence 2.4 (+ recettes 1) ; âge libre 5.5 (recettes -15.6) ; pénibilité -16.5 ; substitution (chômage, invalidité, maladie) -1 ; indexation 4.9 ; hautes pensions 6.6 -> économie sur pensions 3 Md€ (0.08 pt) ; solde public -12.7 Md€ (-0.32 pt) ; dépense 588 -> 585 Md€ (14.86 -> 14.78 %) ; part de l'écart (3,0 / 3,6 pts) 3 % / 2 % ; solde seul : -11 %
+defavorable 2070 : âge de référence 3.3 (+ recettes 1.5) ; âge libre 6.8 (recettes -16.7) ; pénibilité -18.7 ; substitution (chômage, invalidité, maladie) -1.4 ; indexation 6.4 ; hautes pensions 6.6 -> économie sur pensions 4.4 Md€ (0.1 pt) ; solde public -12.3 Md€ (-0.29 pt) ; dépense 656 -> 651 Md€ (15.3 -> 15.2 %) ; part de l'écart (3,0 / 3,6 pts) 3 % / 3 % ; solde seul : -10 %
+  idem 2030 : âge de référence seul [0 ; 0 ; 0] ; dispositif complet [-5.7 ; -20.8 ; -33.6]
+MONTANTS POUR modeles/systeme-ideal/ (effet sur le solde public en 2040, Md€ de 2025, [favorable, central, défavorable]) :
+  âge de référence indexé seul, net de la substitution : [12.1 ; 3.4 ; 0.5] ; brut : [13.5 ; 4.2 ; 0.8] (pensions : [8.5 ; 3 ; 0.6])
+  dispositif complet (âge de référence + âge libre + pénibilité + niveau) : [25.7 ; -5.9 ; -24]
+  idem 2060 : âge de référence seul (net de la substitution) [52 ; 14 ; 2.4] ; dispositif complet [96.9 ; 20.1 ; -12.7]
+
+== 7. Pauvreté et déciles ==
+ok  parmi ceux qui retardent leur départ, au moins autant sont en emploi (50 % ; ancien : 65 %) que hors emploi
+pauvreté (taux hypothétiques : retraités 13,3 %, hors emploi 30 %, en emploi 7 %) : 2040 : 70 000 personnes hors emploi en plus, variation du nombre de pauvres 7.3 000 ; 2060 : 278 000 hors emploi, 28.9 000 pauvres de plus (0.14 pt de la population retraitée), dont 46.4 000 pour les seuls hors emploi
+ok  à report égal, le décile 1 perd plus (en % de la valeur à vie de sa pension) que le décile 10 : espérance de vie plus courte
+ok  report de 0.73 an en 2060 : 6.3 mois de retraite en moins au décile 5
+décile 1 : espérance de vie à 60 ans 23.2 ; retraite attendue à 64.6 ans : 19.5 ans ; pension moyenne 245 €/mois ; perte de valeur à vie 2.8 % ; 6.6 mois de retraite en moins
+décile 2 : espérance de vie à 60 ans 23.8 ; retraite attendue à 64.6 ans : 20.1 ans ; pension moyenne 769 €/mois ; perte de valeur à vie 2.7 % ; 6.5 mois de retraite en moins
+décile 3 : espérance de vie à 60 ans 24.4 ; retraite attendue à 64.6 ans : 20.7 ans ; pension moyenne 1110 €/mois ; perte de valeur à vie 2.6 % ; 6.5 mois de retraite en moins
+décile 4 : espérance de vie à 60 ans 25 ; retraite attendue à 64.6 ans : 21.2 ans ; pension moyenne 1380 €/mois ; perte de valeur à vie 2.5 % ; 6.4 mois de retraite en moins
+décile 5 : espérance de vie à 60 ans 25.6 ; retraite attendue à 64.6 ans : 21.8 ans ; pension moyenne 1633 €/mois ; perte de valeur à vie 2.4 % ; 6.3 mois de retraite en moins
+décile 6 : espérance de vie à 60 ans 26.2 ; retraite attendue à 64.6 ans : 22.4 ans ; pension moyenne 1879 €/mois ; perte de valeur à vie 2.3 % ; 6.3 mois de retraite en moins
+décile 7 : espérance de vie à 60 ans 26.8 ; retraite attendue à 64.6 ans : 23 ans ; pension moyenne 2151 €/mois ; perte de valeur à vie 2.3 % ; 6.2 mois de retraite en moins
+décile 8 : espérance de vie à 60 ans 27.4 ; retraite attendue à 64.6 ans : 23.5 ans ; pension moyenne 2469 €/mois ; perte de valeur à vie 2.2 % ; 6.2 mois de retraite en moins
+décile 9 : espérance de vie à 60 ans 28 ; retraite attendue à 64.6 ans : 24.1 ans ; pension moyenne 2952 €/mois ; perte de valeur à vie 2.1 % ; 6.1 mois de retraite en moins
+décile 10 : espérance de vie à 60 ans 28.7 ; retraite attendue à 64.6 ans : 24.7 ans ; pension moyenne 4380 €/mois ; perte de valeur à vie 2 % ; 6 mois de retraite en moins
+
+== 8. Pays qui lient l'âge à l'espérance de vie (OCDE, Pensions at a Glance 2025, tableaux 3.5 et 3.6) ==
+Danemark : âge normal 2024 67 -> futur (entrants 2024) 74 ; fraction 1 ; préavis 15 ans ; 1 pour 1 ; relevé par paliers de 5 ans, annoncé 15 ans à l'avance ; 70 ans en 2040 voté le 22/05/2025 (le lien pourrait être assoupli)
+Finlande : âge normal 2024 65 -> futur (entrants 2024) 68 ; fraction non vérifiée ; préavis n.d. ; âge de retraite lié à l'espérance de vie depuis la réforme de 2017 (générations nées à partir de 1965) ; coefficient d'espérance de vie sur le montant (cohorte à 62 ans)
+Pays-Bas : âge normal 2024 67 -> futur (entrants 2024) 70 ; fraction 0.67 ; préavis 5 ans ; 2/3 de la hausse de l'espérance de vie à 65 ans (loi de 2020, Staatsblad 2020, 503), âge annoncé 5 ans à l'avance
+Portugal : âge normal 2024 65.3 -> futur (entrants 2024) 68 ; fraction 0.67 ; préavis 1 ans ; âge normal ajusté chaque année selon la hausse de l'espérance de vie à 65 ans (Portaria 358/2024 : 66 ans 9 mois en 2026 ; Portaria 476/2025 : 66 ans 11 mois en 2027) ; fraction de 2/3 mentionnée par l'OCDE en 2021
+Suède : âge normal 2024 66 -> futur (entrants 2024) 70 ; fraction non vérifiée ; préavis 6 ans ; âge de référence (« riktålder ») fixé 6 ans à l'avance selon l'espérance de vie moyenne : 67 ans de 2026 à 2031 ; âge minimal d'accès 64 ans
+Norvège : âge normal 2024 67 -> futur (entrants 2024) 67 ; fraction 0.67 ; préavis n.d. ; lien en préparation : 2/3 des gains d'espérance de vie (OCDE 2025)
+France (loi 2025) : âge normal 2024 64.3 -> futur (entrants 2024) 65 ; fraction 0 ; préavis n.d. ; aucun lien : 64 ans pour la génération 1969 et suivantes ; durée d'assurance de 172 trimestres
+
+Tous les contrôles sont au vert.

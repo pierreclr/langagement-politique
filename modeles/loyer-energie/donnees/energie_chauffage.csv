@@ -1,0 +1,37 @@
+zone,energie,part
+fr,Gaz naturel,0.4244
+fr,Électricité,0.3796
+fr,Réseau de Chauffage urbain,0.1732
+fr,Fioul domestique,0.0133
+fr,GPL,0.0031
+fr,Bois – Granulés (pellets) ou briquettes,0.0026
+fr,Bois – Bûches,0.0025
+fr,Bois – Plaquettes forestières,0.0007
+fr,Propane,0.0005
+fr,Bois – Plaquettes d’industrie,0.0002
+fr,Charbon,0.0
+fr,Électricité d'origine renouvelable utilisée dans le bâtiment,0.0
+grenoble,Électricité,0.4135
+grenoble,Gaz naturel,0.3251
+grenoble,Réseau de Chauffage urbain,0.2575
+grenoble,Fioul domestique,0.0019
+grenoble,Bois – Granulés (pellets) ou briquettes,0.0011
+grenoble,Bois – Bûches,0.0006
+grenoble,GPL,0.0001
+grenoble,Bois – Plaquettes d’industrie,0.0001
+grenoble,Bois – Plaquettes forestières,0.0
+grenoble,Butane,0.0
+grenoble,Charbon,0.0
+grenoble,Électricité d'origine renouvelable utilisée dans le bâtiment,0.0
+angers,Gaz naturel,0.4244
+angers,Électricité,0.3796
+angers,Réseau de Chauffage urbain,0.1732
+angers,Fioul domestique,0.0133
+angers,GPL,0.0031
+angers,Bois – Granulés (pellets) ou briquettes,0.0026
+angers,Bois – Bûches,0.0025
+angers,Bois – Plaquettes forestières,0.0007
+angers,Propane,0.0005
+angers,Bois – Plaquettes d’industrie,0.0002
+angers,Charbon,0.0
+angers,Électricité d'origine renouvelable utilisée dans le bâtiment,0.0

@@ -1,0 +1,14 @@
+# source: Insee Première n°2108, N. Blanpain, J. Pointet, H. Thélot, "Projections de population à l'horizon 2070", 08/06/2026 (https://www.insee.fr/fr/statistiques/9004289) ; date consultation: 2026-10-25
+# unite: millions d'habitants au 1er janvier ; hypotheses scénario central: fécondité 1,45 dès 2028, solde migratoire +150 000/an dès 2026, espérance de vie 2070 F 89,5 / H 86,7 ans
+# variantes: fécondité ±0,25 (1,20 / 1,70) ; solde migratoire ±80 000 (+70 000 / +230 000) ; espérance de vie ±3 ans. Ce sont des projections conditionnelles, pas des prévisions.
+# note: le texte Insee dit que la population baisse "à partir de 2037" ; le tableau situe le pic en 2037 (69,768 M) et la baisse dès 2038.
+scenario,hypothese,population_2030,population_2050,population_2070,debut_baisse_population,statut,source_url
+central,fecondite 1.45 / solde +150000 / EV centrale,69.526,69.082,65.887,2037-2038,projection,https://www.insee.fr/fr/statistiques/9004289
+fecondite basse,fecondite 1.20,69.342,66.826,61.328,2029,projection,https://www.insee.fr/fr/statistiques/9004289
+fecondite haute,fecondite 1.70,69.804,71.438,70.836,2052,projection,https://www.insee.fr/fr/statistiques/9004289
+migration basse,solde +70000/an,68.937,66.442,60.933,2028,projection,https://www.insee.fr/fr/statistiques/9004289
+migration haute,solde +230000/an,70.114,71.723,70.841,2053,projection,https://www.insee.fr/fr/statistiques/9004289
+esperance de vie basse,EV -3 ans,,,63.821,2034,projection,https://www.insee.fr/fr/statistiques/9004289
+esperance de vie haute,EV +3 ans,,,68.027,2043,projection,https://www.insee.fr/fr/statistiques/9004289
+population basse,toutes hypotheses defavorables,,,54.639,2027,projection,https://www.insee.fr/fr/statistiques/9004289
+population haute,toutes hypotheses favorables,,,78.260,aucune baisse,projection,https://www.insee.fr/fr/statistiques/9004289

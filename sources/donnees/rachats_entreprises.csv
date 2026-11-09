@@ -1,0 +1,17 @@
+indicateur,valeur,unité,année,périmètre,source_url,remarque
+entreprises_sous_controle_etranger,19100,entreprises,2023,secteurs marchands non agricoles non financiers,https://www.insee.fr/fr/statistiques/8671743,INSEE Focus 368
+emploi_sous_controle_etranger,2.3,millions de personnes,2023,idem (13 % des effectifs),https://www.insee.fr/fr/statistiques/8671743,
+valeur_ajoutee_sous_controle_etranger,219,Md€,2023,idem (17 % du total),https://www.insee.fr/fr/statistiques/8671743,multinationales françaises 40 %
+emploi_sous_controle_etranger,2.3,millions de personnes,2022,idem,https://www.insee.fr/fr/statistiques/8285656,18 800 entreprises ; VA 209 Md€
+emploi_controle_USA,523391,emplois,2023,idem,https://www.insee.fr/fr/statistiques/8671743,Allemagne 333504 ; Suisse 263442 ; Pays-Bas 222024 ; RU 168304
+part_emploi_ETI,45,%,2023,emploi sous contrôle étranger,https://www.insee.fr/fr/statistiques/8671743,grandes 40 % ; PME 15 %
+IDE_entrants_flux,25.2,Md€,2024,Banque de France nouvelle méthode,https://www.insee.fr/fr/statistiques/2381420,2019 19.1 ; 2020 9.9 ; 2021 27.6 ; 2022 78.1 ; 2023 34.8
+IDE_sortants_flux,15.4,Md€,2024,Banque de France nouvelle méthode,https://www.insee.fr/fr/statistiques/2381420,2019 46.8 ; 2020 19.1 ; 2021 45.4 ; 2022 68.1 ; 2023 82.8
+IDE_cumul_2019_2024_entrants,194.7,Md€,2019-2024,calcul de la note,https://www.insee.fr/fr/statistiques/2381420,somme des flux annuels
+IDE_cumul_2019_2024_sortants,277.6,Md€,2019-2024,calcul de la note,https://www.insee.fr/fr/statistiques/2381420,somme des flux annuels
+IEF_dossiers,392,dossiers,2024,contrôle des IEF,https://www.tresor.economie.gouv.fr/Articles/2025/07/30/publication-du-rapport-annuel-sur-le-controle-ief-en-2024,182 autorisations ; 54 % avec conditions
+IEF_dossiers,418,dossiers,2025,contrôle des IEF,https://www.tresor.economie.gouv.fr/Articles/2026/07/28/publication-du-rapport-annuel-sur-le-controle-ief-en-2025,167 autorisations ; 49 % avec conditions ; 7 refus formels sur 4 ans
+startups_francaises_acquises,631,acquisitions,2013-T1 2023,start-up françaises,https://www.bcg.com/press/7june2023-acquisitions-de-startups-francaises-par-les-grands-groupes-du-coup-de-foudre-au-mariage-de-raison,BCG-RaiseLab
+part_acquereurs_etrangers_startups,51,%,2022,start-up françaises,https://www.bcg.com/press/7june2023-acquisitions-de-startups-francaises-par-les-grands-groupes-du-coup-de-foudre-au-mariage-de-raison,majoritaires pour la première fois
+acquisitions_PME,1076,opérations,2025,PME françaises,https://www.optionfinance.fr/actualites/le-nombre-de-fusions-acquisitions-de-pme-a-recule-de-12-en-2025.html,In Extenso Finance ; 1226 en 2024 ; résumé non lu ⚠️ À VÉRIFIER
+acquisitions_PME_par_Americains,21,opérations,2024,PME françaises,https://www.optionfinance.fr/actualites/le-nombre-de-fusions-acquisitions-de-pme-a-recule-de-12-en-2025.html,idem Allemands 21 ; résumé non lu ⚠️ À VÉRIFIER

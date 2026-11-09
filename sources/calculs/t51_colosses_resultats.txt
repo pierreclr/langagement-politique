@@ -1,0 +1,28 @@
+tests ok
+PIB ≈ 2994 Md€ ; N = 68.6 M ; 1 €/mois/habitant = 0.82 Md€/an
+
+[A] Capital nécessaire (Md€ ; % du PIB) pour un dividende réel mensuel par habitant
+    50 €/mois | r=3 % :   1372 Md€ (  46 % PIB) | r=4 % :   1029 Md€ (  34 % PIB) | r=6 % :    686 Md€ (  23 % PIB)
+   100 €/mois | r=3 % :   2744 Md€ (  92 % PIB) | r=4 % :   2058 Md€ (  69 % PIB) | r=6 % :   1372 Md€ (  46 % PIB)
+   250 €/mois | r=3 % :   6860 Md€ ( 229 % PIB) | r=4 % :   5145 Md€ ( 172 % PIB) | r=6 % :   3430 Md€ ( 115 % PIB)
+   500 €/mois | r=3 % :  13720 Md€ ( 458 % PIB) | r=4 % :  10290 Md€ ( 344 % PIB) | r=6 % :   6860 Md€ ( 229 % PIB)
+
+[B] Dividende mensuel par habitant de portefeuilles connus (rendement réel r)
+  compartiment T48 bas (170 Md€)                    | r=3 % :   6.2 €/mois | r=4 % :   8.3 €/mois | r=6 % :  12.4 €/mois
+  compartiment T48 haut (260 Md€)                   | r=3 % :   9.5 €/mois | r=4 % :  12.6 €/mois | r=6 % :  19.0 €/mois
+  portefeuille APE ≈ 180 Md€ (⚠️ valeur contestée)  | r=3 % :   6.6 €/mois | r=4 % :   8.7 €/mois | r=6 % :  13.1 €/mois
+  10 % du PIB (≈ 300 Md€)                           | r=3 % :  10.9 €/mois | r=4 % :  14.5 €/mois | r=6 % :  21.8 €/mois
+  100 % du PIB                                      | r=3 % : 109.1 €/mois | r=4 % : 145.5 €/mois | r=6 % : 218.2 €/mois
+
+[C] Années d'apports annuels (part du PIB) pour constituer le capital d'un dividende de 100 €/mois/habitant
+  apport 0.5 % du PIB (15 Md€/an) | r=3 % : 64 ans | r=4 % : 48 ans | r=6 % : 33 ans
+  apport 1.0 % du PIB (30 Md€/an) | r=3 % : 45 ans | r=4 % : 34 ans | r=6 % : 23 ans
+  apport 2.0 % du PIB (60 Md€/an) | r=3 % : 30 ans | r=4 % : 23 ans | r=6 % : 15 ans
+
+[D] Capital pour couvrir le déficit du palier 1 (180 Md€/an) par le seul revenu du portefeuille
+  r=3 % :  6000 Md€ (200 % PIB) | r=4 % :  4500 Md€ (150 % PIB) | r=6 % :  3000 Md€ (100 % PIB)
+
+[E] Dotation à la naissance (valeur à 18 ans ; coût annuel d'une cohorte)
+    1000 € | coût  0.66 Md€/an (0.02 % PIB) | r=3 % :    1702 € | r=4 % :    2026 € | r=6 % :    2854 €
+    5000 € | coût  3.30 Md€/an (0.11 % PIB) | r=3 % :    8512 € | r=4 % :   10129 € | r=6 % :   14272 €
+   10000 € | coût  6.61 Md€/an (0.22 % PIB) | r=3 % :   17024 € | r=4 % :   20258 € | r=6 % :   28543 €

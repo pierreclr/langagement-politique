@@ -1,0 +1,114 @@
+niveau_actuel;competence;libelle;montant_2024_md_eur;repreneur_propose
+N-COM;SUPPORT;SUPPORT;26.130;SUPPORT
+N-COM;NON_VENTILE;NON_VENTILE;25.573;NON_VENTILE
+N-COM;C04;Écoles maternelles et élémentaires (bâtiments, fonctionnement);9.981;P-PROX
+N-COM;C21;Urbanisme réglementaire et aménagement (PLU, PLUi, SCoT, opérations d'aménagement);8.813;P-PROX
+N-COM;C34;Action sociale générale et facultative (accueil social, aides d'urgence);8.592;P-PROX
+N-COM;C39;Culture;5.735;P-PROX
+N-COM;C56;Jeunesse et éducation populaire;4.994;P-PROX
+N-COM;C40;Sport;4.906;P-PROX
+N-COM;C13;Voirie communale et intercommunale;4.147;P-PROX
+N-COM;C06;Restauration scolaire et accueil périscolaire;3.826;P-PROX
+N-COM;C43;Police et tranquillité publique;2.618;P-ETAT
+N-COM;C16;Collecte et traitement des déchets ménagers, propreté;1.733;P-PROX
+N-COM;C42;Incendie et secours;1.146;P-REG
+N-COM;C11;Mobilité urbaine et locale (autorité organisatrice de la mobilité);0.779;P-PROX
+N-COM;C37;Développement économique et aides aux entreprises;0.735;P-REG
+N-COM;C23;Habitat et logement social (PLH, aides à la pierre, attributions);0.724;P-PROX
+N-COM;C57;Santé de proximité (centres de santé, accès aux soins);0.653;P-ETAT
+N-COM;C47;Énergie et climat (concessions électricité et gaz, réseaux de chaleur, plan climat);0.622;P-PROX
+N-COM;C38;Tourisme;0.204;P-REG
+N-COM;C36;Formation professionnelle;0.188;P-ETAT
+N-COM;C18;Eau potable;0.183;P-PROX
+N-COM;C12;Transports régionaux non urbains et ferroviaires (TER, cars);0.149;P-REG
+N-COM;C07;Collèges (bâtiments, fonctionnement);0.114;P-REG
+N-COM;C10;Transports scolaires;0.064;P-REG
+N-COM;C58;Action internationale des collectivités (coopération décentralisée);0.047;P-REG
+N-EPCI;SUPPORT;SUPPORT;10.793;SUPPORT
+N-EPCI;C16;Collecte et traitement des déchets ménagers, propreté;5.530;P-PROX
+N-EPCI;C13;Voirie communale et intercommunale;3.883;P-PROX
+N-EPCI;C21;Urbanisme réglementaire et aménagement (PLU, PLUi, SCoT, opérations d'aménagement);3.771;P-PROX
+N-EPCI;C34;Action sociale générale et facultative (accueil social, aides d'urgence);2.767;P-PROX
+N-EPCI;NON_VENTILE;NON_VENTILE;2.540;NON_VENTILE
+N-EPCI;C39;Culture;2.360;P-PROX
+N-EPCI;C40;Sport;2.312;P-PROX
+N-EPCI;C37;Développement économique et aides aux entreprises;2.041;P-REG
+N-EPCI;C11;Mobilité urbaine et locale (autorité organisatrice de la mobilité);2.014;P-PROX
+N-EPCI;C42;Incendie et secours;1.460;P-REG
+N-EPCI;C18;Eau potable;1.290;P-PROX
+N-EPCI;C23;Habitat et logement social (PLH, aides à la pierre, attributions);1.155;P-PROX
+N-EPCI;C56;Jeunesse et éducation populaire;0.983;P-PROX
+N-EPCI;C47;Énergie et climat (concessions électricité et gaz, réseaux de chaleur, plan climat);0.939;P-PROX
+N-EPCI;C38;Tourisme;0.628;P-REG
+N-EPCI;C04;Écoles maternelles et élémentaires (bâtiments, fonctionnement);0.468;P-PROX
+N-EPCI;C12;Transports régionaux non urbains et ferroviaires (TER, cars);0.402;P-REG
+N-EPCI;C36;Formation professionnelle;0.342;P-ETAT
+N-EPCI;C06;Restauration scolaire et accueil périscolaire;0.338;P-PROX
+N-EPCI;C10;Transports scolaires;0.212;P-REG
+N-EPCI;C43;Police et tranquillité publique;0.178;P-ETAT
+N-EPCI;C57;Santé de proximité (centres de santé, accès aux soins);0.166;P-ETAT
+N-EPCI;C07;Collèges (bâtiments, fonctionnement);0.156;P-REG
+N-EPCI;C58;Action internationale des collectivités (coopération décentralisée);0.052;P-REG
+N-SYN;C16;Collecte et traitement des déchets ménagers, propreté;5.480;P-PROX
+N-SYN;C18;Eau potable;4.651;P-PROX
+N-SYN;C47;Énergie et climat (concessions électricité et gaz, réseaux de chaleur, plan climat);3.496;P-PROX
+N-SYN;C11;Mobilité urbaine et locale (autorité organisatrice de la mobilité);3.296;P-PROX
+N-SYN;SUPPORT;SUPPORT;2.442;SUPPORT
+N-SYN;C21;Urbanisme réglementaire et aménagement (PLU, PLUi, SCoT, opérations d'aménagement);0.873;P-PROX
+N-SYN;C34;Action sociale générale et facultative (accueil social, aides d'urgence);0.563;P-PROX
+N-SYN;C04;Écoles maternelles et élémentaires (bâtiments, fonctionnement);0.512;P-PROX
+N-SYN;C39;Culture;0.371;P-PROX
+N-SYN;C37;Développement économique et aides aux entreprises;0.264;P-REG
+N-SYN;C42;Incendie et secours;0.039;P-REG
+N-DEP;C32;Aide sociale à l'enfance;11.069;P-PROX
+N-DEP;C25;Revenu de solidarité active (RSA);10.524;P-PLAT
+N-DEP;C30;Prestation de compensation du handicap (PCH);10.357;P-SECU
+N-DEP;C31;Allocation personnalisée d'autonomie (APA) et personnes âgées;9.742;P-SECU
+N-DEP;SUPPORT;SUPPORT;7.955;SUPPORT
+N-DEP;C07;Collèges (bâtiments, fonctionnement);6.237;P-REG
+N-DEP;C14;Routes départementales;5.178;P-REG
+N-DEP;C34;Action sociale générale et facultative (accueil social, aides d'urgence);3.632;P-PROX
+N-DEP;C42;Incendie et secours;3.253;P-REG
+N-DEP;C21;Urbanisme réglementaire et aménagement (PLU, PLUi, SCoT, opérations d'aménagement);1.573;P-PROX
+N-DEP;C39;Culture;1.128;P-PROX
+N-DEP;C33;Protection maternelle et infantile (PMI);1.080;P-PROX
+N-DEP;C47;Énergie et climat (concessions électricité et gaz, réseaux de chaleur, plan climat);0.786;P-PROX
+N-DEP;C37;Développement économique et aides aux entreprises;0.672;P-REG
+N-DEP;C11;Mobilité urbaine et locale (autorité organisatrice de la mobilité);0.659;P-PROX
+N-DEP;C40;Sport;0.603;P-PROX
+N-DEP;C13;Voirie communale et intercommunale;0.565;P-PROX
+N-DEP;C56;Jeunesse et éducation populaire;0.561;P-PROX
+N-DEP;C23;Habitat et logement social (PLH, aides à la pierre, attributions);0.494;P-PROX
+N-DEP;C38;Tourisme;0.350;P-REG
+N-DEP;C12;Transports régionaux non urbains et ferroviaires (TER, cars);0.318;P-REG
+N-DEP;C18;Eau potable;0.301;P-PROX
+N-DEP;C10;Transports scolaires;0.275;P-REG
+N-DEP;C36;Formation professionnelle;0.196;P-ETAT
+N-DEP;C06;Restauration scolaire et accueil périscolaire;0.148;P-PROX
+N-DEP;C43;Police et tranquillité publique;0.108;P-ETAT
+N-DEP;C58;Action internationale des collectivités (coopération décentralisée);0.103;P-REG
+N-DEP;C04;Écoles maternelles et élémentaires (bâtiments, fonctionnement);0.083;P-PROX
+N-DEP;C16;Collecte et traitement des déchets ménagers, propreté;0.021;P-PROX
+N-REG;C12;Transports régionaux non urbains et ferroviaires (TER, cars);10.968;P-REG
+N-REG;C08;Lycées (bâtiments, fonctionnement);6.989;P-REG
+N-REG;C36;Formation professionnelle;4.697;P-ETAT
+N-REG;SUPPORT;SUPPORT;4.120;SUPPORT
+N-REG;C58;Action internationale des collectivités (coopération décentralisée);2.844;P-REG
+N-REG;C37;Développement économique et aides aux entreprises;2.352;P-REG
+N-REG;C10;Transports scolaires;1.643;P-REG
+N-REG;C21;Urbanisme réglementaire et aménagement (PLU, PLUi, SCoT, opérations d'aménagement);1.176;P-PROX
+N-REG;C39;Culture;0.823;P-PROX
+N-REG;C15;Routes nationales;0.643;P-ETAT
+N-REG;C47;Énergie et climat (concessions électricité et gaz, réseaux de chaleur, plan climat);0.573;P-PROX
+N-REG;C57;Santé de proximité (centres de santé, accès aux soins);0.538;P-ETAT
+N-REG;C06;Restauration scolaire et accueil périscolaire;0.497;P-PROX
+N-REG;C34;Action sociale générale et facultative (accueil social, aides d'urgence);0.417;P-PROX
+N-REG;C40;Sport;0.416;P-PROX
+N-REG;C38;Tourisme;0.247;P-REG
+N-REG;C13;Voirie communale et intercommunale;0.163;P-PROX
+N-REG;C43;Police et tranquillité publique;0.134;P-ETAT
+N-REG;C56;Jeunesse et éducation populaire;0.128;P-PROX
+N-REG;C23;Habitat et logement social (PLH, aides à la pierre, attributions);0.121;P-PROX
+N-REG;C18;Eau potable;0.113;P-PROX
+N-REG;C16;Collecte et traitement des déchets ménagers, propreté;0.043;P-PROX
+N-REG;C04;Écoles maternelles et élémentaires (bâtiments, fonctionnement);0.003;P-PROX

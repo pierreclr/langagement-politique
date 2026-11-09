@@ -1,0 +1,13 @@
+PIB deduit ~ 2994 Md EUR ; 1 point de cotisation ~ 14.7 Md EUR (0.49 % du PIB)
+phi_max=3 pts r=2.0% g=0.0% | surcout max 44 Md/an (1.5 % PIB, annee 6) | surcout annuel nul des l'an 58 | cumul max 1322 Md | fonds an40 1883 Md (63 % PIB) an60 2938 Md
+phi_max=3 pts r=2.0% g=0.6% | surcout max 45 Md/an (1.4 % PIB, annee 7) | surcout annuel nul des l'an 58 | cumul max 1495 Md | fonds an40 2075 Md (55 % PIB) an60 3266 Md
+phi_max=3 pts r=3.5% g=0.0% | surcout max 44 Md/an (1.5 % PIB, annee 6) | surcout annuel nul des l'an 58 | cumul max 1322 Md | fonds an40 2662 Md (89 % PIB) an60 5470 Md
+phi_max=3 pts r=3.5% g=0.6% | surcout max 45 Md/an (1.4 % PIB, annee 7) | surcout annuel nul des l'an 58 | cumul max 1495 Md | fonds an40 2910 Md (77 % PIB) an60 6016 Md
+phi_max=3 pts r=5.0% g=0.0% | surcout max 44 Md/an (1.5 % PIB, annee 6) | surcout annuel nul des l'an 58 | cumul max 1322 Md | fonds an40 3816 Md (127 % PIB) an60 10338 Md
+phi_max=3 pts r=5.0% g=0.6% | surcout max 45 Md/an (1.4 % PIB, annee 7) | surcout annuel nul des l'an 58 | cumul max 1495 Md | fonds an40 4140 Md (109 % PIB) an60 11263 Md
+phi_max=6 pts r=2.0% g=0.0% | surcout max 83 Md/an (2.8 % PIB, annee 15) | surcout annuel nul des l'an 64 | cumul max 2638 Md | fonds an40 3298 Md (110 % PIB) an60 5386 Md
+phi_max=6 pts r=2.0% g=0.6% | surcout max 91 Md/an (2.8 % PIB, annee 15) | surcout annuel nul des l'an 64 | cumul max 3063 Md | fonds an40 3700 Md (98 % PIB) an60 6136 Md
+phi_max=6 pts r=3.5% g=0.0% | surcout max 83 Md/an (2.8 % PIB, annee 15) | surcout annuel nul des l'an 64 | cumul max 2638 Md | fonds an40 4465 Md (149 % PIB) an60 9475 Md
+phi_max=6 pts r=3.5% g=0.6% | surcout max 91 Md/an (2.8 % PIB, annee 15) | surcout annuel nul des l'an 64 | cumul max 3063 Md | fonds an40 4969 Md (131 % PIB) an60 10661 Md
+phi_max=6 pts r=5.0% g=0.0% | surcout max 83 Md/an (2.8 % PIB, annee 15) | surcout annuel nul des l'an 64 | cumul max 2638 Md | fonds an40 6134 Md (205 % PIB) an60 16994 Md
+phi_max=6 pts r=5.0% g=0.6% | surcout max 91 Md/an (2.8 % PIB, annee 15) | surcout annuel nul des l'an 64 | cumul max 3063 Md | fonds an40 6773 Md (179 % PIB) an60 18912 Md

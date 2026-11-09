@@ -1,0 +1,14 @@
+groupe,nombre_prelevements,dont_avec_montant,dont_moins_150_meur,rendement_total_meur,part_du_total_pct
+DGFiP,118,109,38,580426.0,43.63
+Urssaf,52,48,8,525051.2,39.46
+AGIRC-ARRCO,1,1,0,97571.0,7.33
+DGDDI (douanes),32,29,15,56712.4,4.26
+Caisses de sécurité sociale et de retraite (hors Urssaf/MSA),22,21,8,40533.2,3.05
+Organismes bénéficiaires (auto-collecte),58,53,41,10044.2,0.75
+Autres / non précisé,7,7,6,7606.5,0.57
+MSA,6,6,2,5815.6,0.44
+ANTS,3,3,1,3162.0,0.24
+Collectivités (régie directe),10,10,7,1574.7,0.12
+DGAC,4,3,1,1151.9,0.09
+Caisses de retraite / France Travail,1,1,0,816.0,0.06
+TOTAL,314,291,127,1330464.7,100

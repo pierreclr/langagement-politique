@@ -1,0 +1,11 @@
+# source: voir colonne statut. 'sourcé' = Chatellier (INRAE) 2025, RICA 2020-2022 (revenu et dépendance) ; 'hypothèse' = valeur stylisée de Claude, marquée ⚠️ (V6094). Population = 282 182 exploitations représentées par le RICA 2024 (Agreste, flyer RICA 2024).
+filiere,part_exploitations,rcai_moyen_keur,dependance_subventions_sur_rcai,part_sau_louee,intensite_phyto,pac_exit_part,intensite_azote,statut_part,statut_rcai,statut_dependance
+grandes_cultures,0.22,56.3,0.85,0.80,0.55,0.50,0.62,hypothèse,sourcé,hypothèse
+bovins_lait,0.10,29.5,0.90,0.80,0.04,0.50,0.1,hypothèse,sourcé,hypothèse
+bovins_viande,0.13,20.2,1.97,0.70,0.02,0.60,0.03,hypothèse,sourcé,sourcé
+ovins_caprins,0.06,18.0,1.60,0.70,0.01,0.60,0.01,hypothèse,hypothèse,sourcé
+polyculture_elevage,0.10,38.0,1.05,0.80,0.10,0.55,0.14,hypothèse,hypothèse,hypothèse
+viticulture,0.14,52.0,0.16,0.50,0.18,0.15,0.01,hypothèse,sourcé,sourcé
+maraichage_horticulture,0.05,40.0,0.15,0.50,0.06,0.15,0.03,hypothèse,hypothèse,sourcé
+hors_sol,0.05,45.0,0.20,0.30,0.00,0.15,0.03,hypothèse,hypothèse,hypothèse
+fruits_autres,0.15,35.0,0.45,0.60,0.04,0.30,0.03,hypothèse,hypothèse,hypothèse

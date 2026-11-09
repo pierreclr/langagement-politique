@@ -1,0 +1,63 @@
+source,indicateur,annee,modele,publie,ecart_pct,unite
+Eurostat EUROPOP2023 (référence),population,2030,69.23,69.39,-0.23,millions
+Eurostat EUROPOP2023 (référence),part des 65+,2030,23.5,23.5,0.0,%
+Eurostat EUROPOP2023 (référence),65+ pour 100 de 20-64,2030,43.4,43.4,0.0,pour 100
+Eurostat EUROPOP2023 (référence),population,2050,69.95,70.64,-0.98,millions
+Eurostat EUROPOP2023 (référence),part des 65+,2050,27.4,27.3,0.37,%
+Eurostat EUROPOP2023 (référence),65+ pour 100 de 20-64,2050,53.2,53.1,0.19,pour 100
+Eurostat EUROPOP2023 (référence),population,2070,68.44,69.67,-1.77,millions
+Eurostat EUROPOP2023 (référence),part des 65+,2070,29.1,29.3,-0.68,%
+Eurostat EUROPOP2023 (référence),65+ pour 100 de 20-64,2070,57.2,57.6,-0.69,pour 100
+Eurostat EUROPOP2023 (migration haute),population,2070,71.47,74.01,-3.43,millions
+Eurostat EUROPOP2023 (migration basse),population,2070,65.48,65.42,0.09,millions
+Insee 2026,population (central),2050,68.91,69.08,-0.25,millions
+Insee 2026,population (central),2070,65.37,65.89,-0.79,millions
+Insee 2026,population (population_basse),2050,64.04,63.34,1.11,millions
+Insee 2026,population (population_basse),2070,55.64,54.64,1.83,millions
+Insee 2026,population (population_haute),2050,73.9,75.26,-1.81,millions
+Insee 2026,population (population_haute),2070,75.8,78.26,-3.14,millions
+Insee 2026,population (fecondite_basse),2050,66.64,66.83,-0.28,millions
+Insee 2026,population (fecondite_basse),2070,60.75,61.33,-0.95,millions
+Insee 2026,population (fecondite_haute),2050,71.27,71.44,-0.24,millions
+Insee 2026,population (fecondite_haute),2070,70.38,70.84,-0.65,millions
+Insee 2026,population (migration_basse),2050,67.14,66.44,1.05,millions
+Insee 2026,population (migration_basse),2070,62.05,60.93,1.84,millions
+Insee 2026,population (migration_haute),2050,70.68,71.72,-1.45,millions
+Insee 2026,population (migration_haute),2070,68.69,70.84,-3.04,millions
+Insee 2026,population (esperance_vie_basse),2050,68.04,68.13,-0.13,millions
+Insee 2026,population (esperance_vie_basse),2070,63.39,63.82,-0.67,millions
+Insee 2026,population (esperance_vie_haute),2050,69.72,70.16,-0.63,millions
+Insee 2026,population (esperance_vie_haute),2070,67.28,68.03,-1.1,millions
+Insee 2026,moins de 20 ans (central),2026,15.87,15.53,2.19,millions
+Insee 2026,20-64 ans (central),2026,37.81,38.22,-1.07,millions
+Insee 2026,65 ans ou plus (central),2026,15.34,15.34,0.0,millions
+Insee 2026,80 ans ou plus (central),2026,4.29,4.32,-0.69,millions
+Insee 2026,65+ pour 100 de 20-64 (central),2026,40.6,40.1,1.25,pour 100
+Insee 2026,moins de 20 ans (central),2050,12.89,12.39,4.04,millions
+Insee 2026,20-64 ans (central),2050,36.38,37.33,-2.54,millions
+Insee 2026,65 ans ou plus (central),2050,19.64,19.37,1.39,millions
+Insee 2026,80 ans ou plus (central),2050,7.96,7.65,4.05,millions
+Insee 2026,65+ pour 100 de 20-64 (central),2050,54.0,51.9,4.05,pour 100
+Insee 2026,moins de 20 ans (central),2070,11.21,10.71,4.67,millions
+Insee 2026,20-64 ans (central),2070,33.16,34.08,-2.7,millions
+Insee 2026,65 ans ou plus (central),2070,21.0,21.1,-0.47,millions
+Insee 2026,80 ans ou plus (central),2070,9.14,8.9,2.7,millions
+Insee 2026,65+ pour 100 de 20-64 (central),2070,63.3,61.9,2.26,pour 100
+Insee 2026,65+ pour 100 de 20-64 (population_agee),2070,73.3,77.9,-5.91,pour 100
+Insee 2026,65+ pour 100 de 20-64 (population_jeune),2070,54.8,50.2,9.16,pour 100
+Insee 2026,naissances (central),2026,632583,630843,0.28,personnes
+Insee 2026,décès (central),2026,665128,659472,0.86,personnes
+Insee 2026,naissances (central),2050,585825,581515,0.74,personnes
+Insee 2026,décès (central),2050,852859,828264,2.97,personnes
+Insee 2026,naissances (central),2069,491707,477164,3.05,personnes
+Insee 2026,décès (central),2069,844099,821013,2.81,personnes
+Insee 2021-2070,population (central),2050,68.44,69.2,-1.1,millions
+Insee 2021-2070,population (central),2070,64.81,68.1,-4.83,millions
+Insee 2021-2070,population (population_basse),2050,64.59,63.9,1.08,millions
+Insee 2021-2070,population (population_basse),2070,56.96,58.0,-1.79,millions
+Insee 2021-2070,population (population_haute),2050,72.24,74.7,-3.29,millions
+Insee 2021-2070,population (population_haute),2070,72.91,79.1,-7.83,millions
+Insee 2021-2070,65 ans ou plus (central),2050,19.71,18.9,4.29,millions
+Insee 2021-2070,65+ pour 100 de 20-64 (central),2050,55.5,53.3,4.13,pour 100
+Insee 2021-2070,65 ans ou plus (central),2070,20.86,19.68,6.0,millions
+Insee 2021-2070,65+ pour 100 de 20-64 (central),2070,63.8,56.8,12.32,pour 100

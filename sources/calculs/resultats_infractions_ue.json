@@ -1,0 +1,946 @@
+{
+ "verif_officiel": {
+  "2014": [
+   891,
+   894
+  ],
+  "2015": [
+   746,
+   743
+  ],
+  "2016": [
+   986,
+   985
+  ],
+  "2017": [
+   717,
+   717
+  ],
+  "2018": [
+   645,
+   644
+  ],
+  "2019": [
+   798,
+   799
+  ],
+  "2020": [
+   904,
+   904
+  ],
+  "2021": [
+   847,
+   847
+  ],
+  "2022": [
+   551,
+   551
+  ],
+  "2023": [
+   529,
+   528
+  ]
+ },
+ "classement_2014_2023": [
+  {
+   "etat": "Cyprus",
+   "n": 396,
+   "par_million": 417.2444167218075,
+   "par_type": {
+    "Non-communication": 306,
+    "Regulations - treaties - decisions": 31,
+    "Bad application": 31,
+    "Non-conformity": 28
+   },
+   "non_comm": 306,
+   "fond": 90,
+   "fond_par_million": 94.82827652768353,
+   "renvois": 9
+  },
+  {
+   "etat": "Belgium",
+   "n": 395,
+   "par_million": 33.637644731288866,
+   "par_type": {
+    "Non-communication": 297,
+    "Bad application": 34,
+    "Non-conformity": 31,
+    "Regulations - treaties - decisions": 33
+   },
+   "non_comm": 297,
+   "fond": 98,
+   "fond_par_million": 8.345542237129896,
+   "renvois": 19
+  },
+  {
+   "etat": "Portugal",
+   "n": 372,
+   "par_million": 35.37257832149699,
+   "par_type": {
+    "Non-communication": 263,
+    "Regulations - treaties - decisions": 32,
+    "Non-conformity": 38,
+    "Bad application": 39
+   },
+   "non_comm": 263,
+   "fond": 109,
+   "fond_par_million": 10.36454579850315,
+   "renvois": 29
+  },
+  {
+   "etat": "Greece",
+   "n": 360,
+   "par_million": 34.60916827631345,
+   "par_type": {
+    "Non-communication": 233,
+    "Regulations - treaties - decisions": 41,
+    "Bad application": 51,
+    "Non-conformity": 35
+   },
+   "non_comm": 233,
+   "fond": 127,
+   "fond_par_million": 12.209345475255022,
+   "renvois": 29
+  },
+  {
+   "etat": "Bulgaria",
+   "n": 335,
+   "par_million": 51.95643104295944,
+   "par_type": {
+    "Non-communication": 226,
+    "Regulations - treaties - decisions": 25,
+    "Non-conformity": 46,
+    "Bad application": 38
+   },
+   "non_comm": 226,
+   "fond": 109,
+   "fond_par_million": 16.905226816962923,
+   "renvois": 28
+  },
+  {
+   "etat": "Spain",
+   "n": 327,
+   "par_million": 6.800406468821145,
+   "par_type": {
+    "Non-communication": 202,
+    "Non-conformity": 39,
+    "Regulations - treaties - decisions": 36,
+    "Bad application": 50
+   },
+   "non_comm": 202,
+   "fond": 125,
+   "fond_par_million": 2.599543757194627,
+   "renvois": 39
+  },
+  {
+   "etat": "Romania",
+   "n": 325,
+   "par_million": 17.055686764808062,
+   "par_type": {
+    "Non-communication": 218,
+    "Bad application": 39,
+    "Non-conformity": 34,
+    "Regulations - treaties - decisions": 34
+   },
+   "non_comm": 218,
+   "fond": 107,
+   "fond_par_million": 5.615256873336809,
+   "renvois": 16
+  },
+  {
+   "etat": "Poland",
+   "n": 313,
+   "par_million": 8.5161410529803,
+   "par_type": {
+    "Regulations - treaties - decisions": 32,
+    "Bad application": 35,
+    "Non-communication": 206,
+    "Non-conformity": 40
+   },
+   "non_comm": 206,
+   "fond": 107,
+   "fond_par_million": 2.911268666673777,
+   "renvois": 38
+  },
+  {
+   "etat": "Austria",
+   "n": 298,
+   "par_million": 32.730089232327835,
+   "par_type": {
+    "Non-communication": 217,
+    "Non-conformity": 41,
+    "Bad application": 20,
+    "Regulations - treaties - decisions": 20
+   },
+   "non_comm": 217,
+   "fond": 81,
+   "fond_par_million": 8.896433650397835,
+   "renvois": 13
+  },
+  {
+   "etat": "Czechia",
+   "n": 296,
+   "par_million": 27.337724055045246,
+   "par_type": {
+    "Non-communication": 219,
+    "Regulations - treaties - decisions": 22,
+    "Bad application": 15,
+    "Non-conformity": 40
+   },
+   "non_comm": 219,
+   "fond": 77,
+   "fond_par_million": 7.11150254134623,
+   "renvois": 14
+  },
+  {
+   "etat": "Slovenia",
+   "n": 294,
+   "par_million": 138.87760442745582,
+   "par_type": {
+    "Non-communication": 216,
+    "Non-conformity": 30,
+    "Bad application": 26,
+    "Regulations - treaties - decisions": 22
+   },
+   "non_comm": 216,
+   "fond": 78,
+   "fond_par_million": 36.84507872565154,
+   "renvois": 14
+  },
+  {
+   "etat": "Hungary",
+   "n": 284,
+   "par_million": 29.584122243259824,
+   "par_type": {
+    "Non-communication": 173,
+    "Bad application": 31,
+    "Non-conformity": 48,
+    "Regulations - treaties - decisions": 32
+   },
+   "non_comm": 173,
+   "fond": 111,
+   "fond_par_million": 11.562808341555776,
+   "renvois": 25
+  },
+  {
+   "etat": "Luxembourg",
+   "n": 274,
+   "par_million": 414.6432630306185,
+   "par_type": {
+    "Non-communication": 217,
+    "Regulations - treaties - decisions": 19,
+    "Bad application": 16,
+    "Non-conformity": 22
+   },
+   "non_comm": 217,
+   "fond": 57,
+   "fond_par_million": 86.25790508301189,
+   "renvois": 17
+  },
+  {
+   "etat": "France",
+   "n": 272,
+   "par_million": 3.9837597347636207,
+   "par_type": {
+    "Regulations - treaties - decisions": 42,
+    "Bad application": 26,
+    "Non-communication": 169,
+    "Non-conformity": 35
+   },
+   "non_comm": 169,
+   "fond": 103,
+   "fond_par_million": 1.5085560760318122,
+   "renvois": 7
+  },
+  {
+   "etat": "Germany",
+   "n": 260,
+   "par_million": 3.128064111743305,
+   "par_type": {
+    "Non-communication": 156,
+    "Regulations - treaties - decisions": 33,
+    "Bad application": 34,
+    "Non-conformity": 37
+   },
+   "non_comm": 156,
+   "fond": 104,
+   "fond_par_million": 1.251225644697322,
+   "renvois": 22
+  },
+  {
+   "etat": "Italy",
+   "n": 260,
+   "par_million": 4.406988731550163,
+   "par_type": {
+    "Non-communication": 147,
+    "Non-conformity": 39,
+    "Bad application": 40,
+    "Regulations - treaties - decisions": 34
+   },
+   "non_comm": 147,
+   "fond": 113,
+   "fond_par_million": 1.9153451025583401,
+   "renvois": 25
+  },
+  {
+   "etat": "Croatia",
+   "n": 240,
+   "par_million": 62.32319040721453,
+   "par_type": {
+    "Regulations - treaties - decisions": 23,
+    "Non-conformity": 39,
+    "Non-communication": 152,
+    "Bad application": 26
+   },
+   "non_comm": 152,
+   "fond": 88,
+   "fond_par_million": 22.85183648264533,
+   "renvois": 13
+  },
+  {
+   "etat": "Ireland",
+   "n": 234,
+   "par_million": 44.39052660633475,
+   "par_type": {
+    "Non-communication": 169,
+    "Non-conformity": 27,
+    "Regulations - treaties - decisions": 18,
+    "Bad application": 20
+   },
+   "non_comm": 169,
+   "fond": 65,
+   "fond_par_million": 12.330701835092988,
+   "renvois": 16
+  },
+  {
+   "etat": "Slovakia",
+   "n": 223,
+   "par_million": 41.07727833374349,
+   "par_type": {
+    "Non-communication": 143,
+    "Bad application": 22,
+    "Non-conformity": 27,
+    "Regulations - treaties - decisions": 31
+   },
+   "non_comm": 143,
+   "fond": 80,
+   "fond_par_million": 14.73624334842816,
+   "renvois": 14
+  },
+  {
+   "etat": "Finland",
+   "n": 220,
+   "par_million": 39.54011254553853,
+   "par_type": {
+    "Non-communication": 176,
+    "Regulations - treaties - decisions": 12,
+    "Non-conformity": 29,
+    "Bad application": 3
+   },
+   "non_comm": 176,
+   "fond": 44,
+   "fond_par_million": 7.908022509107705,
+   "renvois": 6
+  },
+  {
+   "etat": "Malta",
+   "n": 220,
+   "par_million": 405.8658687097709,
+   "par_type": {
+    "Non-communication": 152,
+    "Bad application": 26,
+    "Regulations - treaties - decisions": 19,
+    "Non-conformity": 23
+   },
+   "non_comm": 152,
+   "fond": 68,
+   "fond_par_million": 125.44945032847464,
+   "renvois": 10
+  },
+  {
+   "etat": "Latvia",
+   "n": 211,
+   "par_million": 111.33160514320357,
+   "par_type": {
+    "Non-conformity": 27,
+    "Bad application": 15,
+    "Non-communication": 154,
+    "Regulations - treaties - decisions": 15
+   },
+   "non_comm": 154,
+   "fond": 57,
+   "fond_par_million": 30.075362526836987,
+   "renvois": 6
+  },
+  {
+   "etat": "Sweden",
+   "n": 208,
+   "par_million": 19.768939118890778,
+   "par_type": {
+    "Non-communication": 149,
+    "Regulations - treaties - decisions": 17,
+    "Bad application": 11,
+    "Non-conformity": 31
+   },
+   "non_comm": 149,
+   "fond": 59,
+   "fond_par_million": 5.607535615454596,
+   "renvois": 9
+  },
+  {
+   "etat": "Denmark",
+   "n": 199,
+   "par_million": 33.54316634679858,
+   "par_type": {
+    "Non-communication": 148,
+    "Non-conformity": 21,
+    "Regulations - treaties - decisions": 18,
+    "Bad application": 12
+   },
+   "non_comm": 148,
+   "fond": 51,
+   "fond_par_million": 8.596489867772501,
+   "renvois": 7
+  },
+  {
+   "etat": "Lithuania",
+   "n": 198,
+   "par_million": 69.2966980123397,
+   "par_type": {
+    "Non-communication": 134,
+    "Bad application": 23,
+    "Non-conformity": 26,
+    "Regulations - treaties - decisions": 15
+   },
+   "non_comm": 134,
+   "fond": 64,
+   "fond_par_million": 22.39893269085728,
+   "renvois": 2
+  },
+  {
+   "etat": "Estonia",
+   "n": 182,
+   "par_million": 133.24704001218257,
+   "par_type": {
+    "Non-conformity": 31,
+    "Non-communication": 133,
+    "Bad application": 6,
+    "Regulations - treaties - decisions": 12
+   },
+   "non_comm": 133,
+   "fond": 49,
+   "fond_par_million": 35.874203080203,
+   "renvois": 3
+  },
+  {
+   "etat": "Netherlands",
+   "n": 180,
+   "par_million": 10.10594908589164,
+   "par_type": {
+    "Regulations - treaties - decisions": 17,
+    "Non-communication": 120,
+    "Non-conformity": 32,
+    "Bad application": 11
+   },
+   "non_comm": 120,
+   "fond": 60,
+   "fond_par_million": 3.368649695297213,
+   "renvois": 10
+  }
+ ],
+ "rang_par_million": [
+  "Cyprus",
+  "Luxembourg",
+  "Malta",
+  "Slovenia",
+  "Estonia",
+  "Latvia",
+  "Lithuania",
+  "Croatia",
+  "Bulgaria",
+  "Ireland",
+  "Slovakia",
+  "Finland",
+  "Portugal",
+  "Greece",
+  "Belgium",
+  "Denmark",
+  "Austria",
+  "Hungary",
+  "Czechia",
+  "Sweden",
+  "Romania",
+  "Netherlands",
+  "Poland",
+  "Spain",
+  "Italy",
+  "France",
+  "Germany"
+ ],
+ "rang_absolu": [
+  "Cyprus",
+  "Belgium",
+  "Portugal",
+  "Greece",
+  "Bulgaria",
+  "Spain",
+  "Romania",
+  "Poland",
+  "Austria",
+  "Czechia",
+  "Slovenia",
+  "Hungary",
+  "Luxembourg",
+  "France",
+  "Germany",
+  "Italy",
+  "Croatia",
+  "Ireland",
+  "Slovakia",
+  "Finland",
+  "Malta",
+  "Latvia",
+  "Sweden",
+  "Denmark",
+  "Lithuania",
+  "Estonia",
+  "Netherlands"
+ ],
+ "durees": {
+  "par_pays": {
+   "Austria": {
+    "clos": 278,
+    "moy": 21.629529490730672,
+    "med": 15.538764783180026
+   },
+   "Belgium": {
+    "clos": 363,
+    "moy": 19.873897257125066,
+    "med": 14.060446780551905
+   },
+   "Bulgaria": {
+    "clos": 303,
+    "moy": 20.798584457657327,
+    "med": 14.487516425755585
+   },
+   "Croatia": {
+    "clos": 217,
+    "moy": 21.826574298915446,
+    "med": 16.557161629434955
+   },
+   "Cyprus": {
+    "clos": 381,
+    "moy": 16.88800480097675,
+    "med": 12.3850197109067
+   },
+   "Czechia": {
+    "clos": 280,
+    "moy": 22.431833114323258,
+    "med": 16.245072273324574
+   },
+   "Denmark": {
+    "clos": 187,
+    "moy": 17.075231717343488,
+    "med": 9.921156373193167
+   },
+   "Estonia": {
+    "clos": 173,
+    "moy": 20.799943791634067,
+    "med": 16.064388961892245
+   },
+   "Finland": {
+    "clos": 212,
+    "moy": 19.32815560459177,
+    "med": 16.902102496714846
+   },
+   "France": {
+    "clos": 257,
+    "moy": 24.574719931280264,
+    "med": 16.78712220762155
+   },
+   "Germany": {
+    "clos": 232,
+    "moy": 25.444911414200913,
+    "med": 19.2838370565046
+   },
+   "Greece": {
+    "clos": 331,
+    "moy": 18.728438094255054,
+    "med": 14.947437582128778
+   },
+   "Hungary": {
+    "clos": 252,
+    "moy": 19.667235049955153,
+    "med": 11.957950065703022
+   },
+   "Ireland": {
+    "clos": 221,
+    "moy": 21.297441447012446,
+    "med": 16.294349540078844
+   },
+   "Italy": {
+    "clos": 235,
+    "moy": 20.447619313892694,
+    "med": 14.257555847568987
+   },
+   "Latvia": {
+    "clos": 197,
+    "moy": 21.84708872242641,
+    "med": 17.772667542706962
+   },
+   "Lithuania": {
+    "clos": 193,
+    "moy": 19.628692816242605,
+    "med": 14.684625492772668
+   },
+   "Luxembourg": {
+    "clos": 257,
+    "moy": 18.078685121461113,
+    "med": 14.224704336399475
+   },
+   "Malta": {
+    "clos": 208,
+    "moy": 18.486240270898616,
+    "med": 13.797634691195794
+   },
+   "Netherlands": {
+    "clos": 163,
+    "moy": 24.688616044436202,
+    "med": 18.85676741130092
+   },
+   "Poland": {
+    "clos": 276,
+    "moy": 24.42164676531642,
+    "med": 18.955321944809462
+   },
+   "Portugal": {
+    "clos": 349,
+    "moy": 18.85544958563796,
+    "med": 13.337713534822601
+   },
+   "Romania": {
+    "clos": 303,
+    "moy": 19.453949337115052,
+    "med": 14.45466491458607
+   },
+   "Slovakia": {
+    "clos": 205,
+    "moy": 23.530816319989743,
+    "med": 16.62286465177398
+   },
+   "Slovenia": {
+    "clos": 280,
+    "moy": 20.066758963769477,
+    "med": 14.914586070959263
+   },
+   "Spain": {
+    "clos": 284,
+    "moy": 24.297625437248985,
+    "med": 16.57358738501971
+   },
+   "Sweden": {
+    "clos": 191,
+    "moy": 22.325267800015133,
+    "med": 16.392904073587385
+   }
+  },
+  "ue": {
+   "clos": 6828,
+   "moy": 20.824018669357912,
+   "med": 15.210249671484888
+  }
+ },
+ "sans_contentieux": {
+  "Austria": {
+   "clos": 739,
+   "sans": 0.93234100135318
+  },
+  "Belgium": {
+   "clos": 902,
+   "sans": 0.8957871396895787
+  },
+  "Bulgaria": {
+   "clos": 579,
+   "sans": 0.9620034542314335
+  },
+  "Croatia": {
+   "clos": 221,
+   "sans": 0.9638009049773756
+  },
+  "Cyprus": {
+   "clos": 911,
+   "sans": 0.9813391877058177
+  },
+  "Czechia": {
+   "clos": 865,
+   "sans": 0.9583815028901734
+  },
+  "Denmark": {
+   "clos": 508,
+   "sans": 0.9763779527559056
+  },
+  "Estonia": {
+   "clos": 526,
+   "sans": 0.9752851711026616
+  },
+  "Finland": {
+   "clos": 706,
+   "sans": 0.953257790368272
+  },
+  "France": {
+   "clos": 828,
+   "sans": 0.9154589371980676
+  },
+  "Germany": {
+   "clos": 692,
+   "sans": 0.9161849710982659
+  },
+  "Greece": {
+   "clos": 1023,
+   "sans": 0.8983382209188661
+  },
+  "Hungary": {
+   "clos": 745,
+   "sans": 0.974496644295302
+  },
+  "Ireland": {
+   "clos": 599,
+   "sans": 0.9365609348914858
+  },
+  "Italy": {
+   "clos": 1110,
+   "sans": 0.9117117117117117
+  },
+  "Latvia": {
+   "clos": 615,
+   "sans": 0.9821138211382113
+  },
+  "Lithuania": {
+   "clos": 441,
+   "sans": 0.981859410430839
+  },
+  "Luxembourg": {
+   "clos": 715,
+   "sans": 0.9020979020979021
+  },
+  "Malta": {
+   "clos": 684,
+   "sans": 0.9678362573099415
+  },
+  "Netherlands": {
+   "clos": 507,
+   "sans": 0.9053254437869822
+  },
+  "Poland": {
+   "clos": 769,
+   "sans": 0.8985695708712613
+  },
+  "Portugal": {
+   "clos": 966,
+   "sans": 0.9151138716356108
+  },
+  "Romania": {
+   "clos": 731,
+   "sans": 0.9808481532147743
+  },
+  "Slovakia": {
+   "clos": 614,
+   "sans": 0.9706840390879479
+  },
+  "Slovenia": {
+   "clos": 692,
+   "sans": 0.9739884393063584
+  },
+  "Spain": {
+   "clos": 850,
+   "sans": 0.8776470588235294
+  },
+  "Sweden": {
+   "clos": 562,
+   "sans": 0.9483985765124555
+  },
+  "UE27": {
+   "clos": 19100,
+   "sans": 0.9385340314136126
+  }
+ },
+ "par_annee": {
+  "2004": [
+   1835,
+   806
+  ],
+  "2005": [
+   1593,
+   1939
+  ],
+  "2006": [
+   1479,
+   1424
+  ],
+  "2007": [
+   1669,
+   1433
+  ],
+  "2008": [
+   1281,
+   1295
+  ],
+  "2009": [
+   1045,
+   1149
+  ],
+  "2010": [
+   1115,
+   1221
+  ],
+  "2011": [
+   1388,
+   1250
+  ],
+  "2012": [
+   667,
+   1062
+  ],
+  "2013": [
+   730,
+   734
+  ],
+  "2014": [
+   862,
+   793
+  ],
+  "2015": [
+   721,
+   680
+  ],
+  "2016": [
+   957,
+   663
+  ],
+  "2017": [
+   685,
+   765
+  ],
+  "2018": [
+   614,
+   597
+  ],
+  "2019": [
+   769,
+   768
+  ],
+  "2020": [
+   849,
+   652
+  ],
+  "2021": [
+   846,
+   627
+  ],
+  "2022": [
+   545,
+   485
+  ],
+  "2023": [
+   528,
+   1009
+  ],
+  "2024": [
+   568,
+   525
+  ],
+  "2025": [
+   552,
+   550
+  ],
+  "2026": [
+   875,
+   368
+  ]
+ },
+ "domaines_ue": {
+  "Agriculture and Rural Development": 36,
+  "Environment": 1263,
+  "Internal Market, Industry, Entrepreneurship and SMEs": 690,
+  "Migration and Home Affairs": 552,
+  "Health and Food Safety": 539,
+  "Mobility and Transport": 1165,
+  "Justice and Consumers": 665,
+  "Employment, Social Affairs and Inclusion": 356,
+  "Competition": 50,
+  "Energy": 447,
+  "Economic and Financial Affairs": 34,
+  "Taxation and Customs Union": 378,
+  "Financial Stability, Financial Services and Capital Markets Union": 774,
+  "Budget": 8,
+  "Communications Networks, Content and Technology": 295,
+  "Legal Service": 6,
+  "Climate Action": 56,
+  "Maritime Affairs and Fisheries": 31,
+  "Enlargement and Eastern Neighbourhood": 1,
+  "Secretariat-General": 1,
+  "Defence Industry and Space": 26,
+  "Human Resources and Security": 3
+ },
+ "domaines_fr": {
+  "Agriculture and Rural Development": 3,
+  "Environment": 50,
+  "Internal Market, Industry, Entrepreneurship and SMEs": 31,
+  "Mobility and Transport": 32,
+  "Taxation and Customs Union": 21,
+  "Employment, Social Affairs and Inclusion": 22,
+  "Communications Networks, Content and Technology": 13,
+  "Health and Food Safety": 8,
+  "Energy": 13,
+  "Legal Service": 1,
+  "Financial Stability, Financial Services and Capital Markets Union": 29,
+  "Justice and Consumers": 25,
+  "Migration and Home Affairs": 13,
+  "Competition": 3,
+  "Climate Action": 2,
+  "Maritime Affairs and Fisheries": 3,
+  "Defence Industry and Space": 2,
+  "Economic and Financial Affairs": 1
+ },
+ "types_ue": {
+  "Regulations - treaties - decisions": 685,
+  "Non-communication": 5095,
+  "Non-conformity": 896,
+  "Bad application": 700
+ },
+ "types_fr": {
+  "Regulations - treaties - decisions": 42,
+  "Bad application": 26,
+  "Non-communication": 169,
+  "Non-conformity": 35
+ },
+ "ouverts": {
+  "Greece": 90,
+  "Portugal": 102,
+  "Italy": 84,
+  "Spain": 124,
+  "Ireland": 58,
+  "Belgium": 100,
+  "Poland": 109,
+  "Romania": 73,
+  "Slovakia": 70,
+  "France": 86,
+  "Hungary": 103,
+  "Czechia": 71,
+  "Bulgaria": 79,
+  "Germany": 71,
+  "Austria": 70,
+  "Finland": 47,
+  "Sweden": 52,
+  "Denmark": 36,
+  "Netherlands": 74,
+  "Luxembourg": 60,
+  "Cyprus": 77,
+  "Lithuania": 45,
+  "Malta": 71,
+  "Estonia": 54,
+  "Slovenia": 62,
+  "Latvia": 63,
+  "Croatia": 64
+ }
+}

@@ -1,0 +1,87 @@
+# Cumul des prélèvements sur le patrimoine (cumul_patrimoine.js, euros constants, ordres de grandeur sous hypothèses)
+
+Prélèvement unique 41,4 % ; taxe 1,0 % ; plafond 5,0 % du revenu sous 24000 €/UC ; E' : K = 94000 € ; créance : intérêt réel 1,0 %.
+
+## 1. Rendements réels annuels (y = revenu courant net, g = plus-value réelle)
+| actif | bas (y + g) | central | haut |
+|---|---|---|---|
+| logement | 3,0 % + 1,0 % = 4,0 % | 3,5 % + 3,0 % = 6,5 % | 4,0 % + 4,0 % = 8,0 % |
+| actions | 2,5 % + 0,8 % = 3,3 % | 3,0 % + 1,6 % = 4,6 % | 3,0 % + 3,4 % = 6,4 % |
+| entreprise | 1,5 % + 2,0 % = 3,5 % | 2,0 % + 3,0 % = 5,0 % | 3,0 % + 4,0 % = 7,0 % |
+
+## 2. Cas types, scénario central : système proposé contre droit actuel
+| cas | prélevé par an / rendement (système → actuel) | cumul de détention / rendement (système → actuel) | tout compris, droits inclus (système → actuel) | prélevé au décès / valeur transmise (système → actuel) | dont droits E' / gain / créance | revenu prélevé, max annuel (taxe payée + prélèvement) | années plafonnées | capital transmis net / valeur d'entrée |
+|---|---|---|---|---|---|---|---|---|
+| rp | 15,4 % → 6,9 % | 16,4 % → 6,9 % | 46,7 % → 21,1 % | 45,9 % → 18,0 % | 38,6 % / 0,0 % / 7,3 % | 17,7 % | 19/30 | 1,31 |
+| rpAise | 15,4 % → 6,9 % | 15,4 % → 6,9 % | 48,5 % → 21,1 % | 42,2 % → 18,0 % | 42,2 % / 0,0 % / 0,0 % | 5,9 % | 0/30 | 1,40 |
+| locatif | 37,7 % → 32,3 % | 56,8 % → 44,9 % | 56,8 % → 44,9 % | vente : 18,5 % | — | 20,8 % | 0/20 | — |
+| actions | 48,7 % → 20,5 % | 63,1 % → 50,9 % | 63,1 % → 50,9 % | vente : 11,3 % | — | 22,1 % | 0/20 | — |
+| entreprise | 36,6 % → 13,6 % | 38,8 % → 13,6 % | 83,9 % → 21,0 % | 58,6 % → 6,4 % | 39,2 % / 21,6 % / 19,4 % | 23,7 % | 0/25 | 0,87 |
+| grand | 40,1 % → 31,6 % | 41,2 % → 31,6 % | 82,0 % → 59,4 % | 54,6 % → 30,7 % | 45,1 % / 22,1 % / 9,4 % | 63,2 % | 0/30 | 0,98 |
+| fondateur | 20,1 % → 2,8 % | 58,1 % → 53,5 % | 58,1 % → 53,5 % | vente : 22,9 % | — | 115,7 % | 0/15 | — |
+| heritier | 15,4 % → 6,9 % | 15,4 % → 6,9 % | 36,6 % → 15,6 % | 28,0 % → 11,0 % | 28,0 % / 0,0 % / 0,1 % | 8,0 % | 4/30 | 1,75 |
+
+## 3. Les trois scénarios de rendement : cumul de détention / rendement réel (système → actuel) et prélevé au décès / valeur transmise (système → actuel)
+| cas | bas | central | haut |
+|---|---|---|---|
+| rp | 26,6 % → 11,2 % ; décès 41,0 % → 14,6 % | 16,4 % → 6,9 % ; décès 45,9 % → 18,0 % | 13,3 % → 5,6 % ; décès 47,4 % → 21,1 % |
+| rpAise | 25,0 % → 11,2 % ; décès 36,3 % → 14,6 % | 15,4 % → 6,9 % ; décès 42,2 % → 18,0 % | 12,5 % → 5,6 % ; décès 44,2 % → 21,1 % |
+| locatif | 66,4 % → 56,6 % | 56,8 % → 44,9 % | 53,9 % → 42,1 % |
+| actions | 72,2 % → 56,8 % | 63,1 % → 50,9 % | 57,0 % → 48,0 % |
+| entreprise | 49,7 % → 14,6 % ; décès 59,5 % → 5,4 % | 38,8 % → 13,6 % ; décès 58,6 % → 6,4 % | 33,6 % → 14,6 % ; décès 57,8 % → 7,2 % |
+| grand | 55,7 % → 40,7 % ; décès 55,4 % → 30,4 % | 41,2 % → 31,6 % ; décès 54,6 % → 30,7 % | 34,0 % → 27,1 % ; décès 53,9 % → 30,9 % |
+| fondateur | 66,4 % → 59,9 % | 58,1 % → 53,5 % | 53,9 % → 50,7 % |
+| heritier | 25,0 % → 11,2 % ; décès 15,4 % → 3,8 % | 15,4 % → 6,9 % ; décès 28,0 % → 11,0 % | 12,5 % → 5,6 % ; décès 33,2 % → 13,3 % |
+
+## 4. Franchissements (central) : plus de 50 % du rendement, plus de 100 %, plus de 50 % de la valeur transmise, plus de 75 % du revenu de l'année (analogue du plafonnement de l'ISF, 2012-662 DC cons. 93)
+| cas | cumul de détention > 50 % | > 100 % | tout compris > 100 % | transmission > 50 % | revenu > 75 % |
+|---|---|---|---|---|---|
+| rp | non | non | non | non | non |
+| rpAise | non | non | non | non | non |
+| locatif | OUI | non | non | sans objet (vente) | non |
+| actions | OUI | non | non | sans objet (vente) | non |
+| entreprise | non | non | non | OUI | non |
+| grand | non | non | non | OUI | non |
+| fondateur | OUI | non | non | sans objet (vente) | OUI |
+| heritier | non | non | non | non | non |
+
+Sur les trois scénarios, nombre de franchissements par critère (sur 24 combinaisons cas × scénario) :
+cumul de détention > 50 % : 10 ; > 100 % : 0 ; tout compris > 100 % : 2 ; transmission > 50 % : 6 ; revenu > 75 % : 3
+
+## 5. Sensibilités (central) : prélevé au décès / valeur transmise, cas qui transmettent
+| variante | rp | entreprise | grand | heritier |
+|---|---|---|---|---|
+| référence (imputation, 40,7 %, intérêt 1 %) | 45,9 % | 58,6 % | 54,6 % | 28,0 % |
+| prélèvement unique à 50 % (modules patrimoine_*.js) | 45,9 % | 58,6 % | 54,6 % | 28,0 % |
+| gain et droits cumulés (deces_realisation.js (i)) | 45,9 % | 69,4 % | 65,6 % | 28,0 % |
+| cumul et 50 % | 45,9 % | 71,7 % | 67,9 % | 28,0 % |
+| créance simplement indexée (intérêt réel 0) | 45,3 % | 57,6 % | 54,0 % | 28,0 % |
+| créance à 2 % réel | 46,7 % | 59,7 % | 55,2 % | 28,1 % |
+| sans plafond de 5 % | 42,2 % | 58,6 % | 54,6 % | 28,0 % |
+
+## 6. Règle de plafonnement proposée (détention : taxe + prélèvement annuel ≤ 75 % du revenu ; transmission : créance + gain + droits ≤ 50 % de la valeur, excédent supprimé dans l'ordre créance, gain, droits)
+| cas | revenu max avant → après | prélevé à la transmission ou à la vente avant → après | variation de la recette totale (taxe payée + prélèvements sur revenus + transmission ou vente), en € constants | taxe reportée plutôt que payée pendant la détention | capital transmis net / V0 avant → après |
+|---|---|---|---|---|---|
+| rp | 17,7 % → 17,7 % | 45,9 % → 45,9 % | 0 k€ (0,0 % de la valeur) | 0 k€ | 1,31 → 1,31 |
+| rpAise | 5,9 % → 5,9 % | 42,2 % → 42,2 % | 0 k€ (0,0 % de la valeur) | 0 k€ | 1,40 → 1,40 |
+| locatif | 20,8 % → 20,8 % | 18,5 % → 18,5 % | 0 k€ (0,0 % de la valeur) | 0 k€ | — → — |
+| actions | 22,1 % → 22,1 % | 11,3 % → 11,3 % | 0 k€ (0,0 % de la valeur) | 0 k€ | — → — |
+| entreprise | 23,7 % → 23,7 % | 58,6 % → 50,0 % | -901 k€ (-8,6 % de la valeur) | 0 k€ | 0,87 → 1,05 |
+| grand | 63,2 % → 63,2 % | 54,6 % → 50,0 % | -4 889 k€ (-4,6 % de la valeur) | 0 k€ | 0,98 → 1,07 |
+| fondateur | 115,7 % → 75,0 % | 22,9 % → 25,9 % | +31 k€ (0,1 % de la valeur) | 657 k€ | — → — |
+| heritier | 8,0 % → 8,0 % | 28,0 % → 28,0 % | 0 k€ (0,0 % de la valeur) | 0 k€ | 1,75 → 1,75 |
+
+Même règle, mode « gain et droits cumulés » (deces_realisation.js (i)) :
+| cas | prélevé avant → après | variation de la recette (transmission) |
+|---|---|---|
+| entreprise | 69,4 % → 50,0 % | -2 033 k€ (-19,4 % de la valeur) |
+| grand | 65,6 % → 50,0 % | -16 763 k€ (-15,6 % de la valeur) |
+
+## 7. Héritier modeste de 100 k€ : à la réception
+droits E' sur 100 000 € : 9295 € (actuel : 0 €) ; capital de départ : 11460 € ; solde : 2165 €.
+
+## 8. Rendement réel total à partir duquel le cumul de détention franchit 50 % ou 100 % (actions 1 M€, 20 ans, vendues ; 65 % du rendement en revenu courant, 35 % en plus-value)
+| rendement réel total | 2 % | 3 % | 4,6 % | 6 % | 8 % | 10 % |
+|---|---|---|---|---|---|---|
+| cumul de détention | 91,4 % | 74,7 % | 63,1 % | 58,1 % | 53,9 % | 51,4 % |
+Le cumul franchit 100 % du rendement sous 1,7 % de rendement réel total, et reste au-dessus de 50 % tant que le rendement est sous 11,6 %.

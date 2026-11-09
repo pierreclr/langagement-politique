@@ -1,0 +1,8 @@
+# source : Insee Premiere n° 2108, tableau complementaire « Hypotheses retenues pour les projections 2026 », https://www.insee.fr/fr/statistiques/fichier/9004289/ip2108.xlsx
+# cote A ; consulte le 2026-11-07 ; hypotheses transcrites depuis les cellules du tableau
+parametre,estime_2025,central,basse,haute
+icf,1.56,"1,45 a partir de 2028","1,20 a partir de 2030","1,70 a partir de 2030"
+age_moyen_accouchement,31.2,"33,0 en 2050 puis stable",,
+esperance_vie_femmes_2070,85.9,89.5,86.5,92.5
+esperance_vie_hommes_2070,80.3,86.7,83.7,89.7
+solde_migratoire_par_an,176 000 (moyenne 2020-2022 hors Ukraine),150000,70000,230000

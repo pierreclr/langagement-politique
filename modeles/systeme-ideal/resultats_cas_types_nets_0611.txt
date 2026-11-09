@@ -1,0 +1,169 @@
+Jeu (a) : a = 0,7096, recette 52,13 ; jeu (c) : a = 0,7028, recette 46,55
+
+#### Central, mode salaire (S), sans surcomplémentaire, sans titres-restaurant
+
+| Cas type | Revenu disponible aujourd'hui | Mutuelle payée aujourd'hui (€/mois) | Revenu net santé aujourd'hui | Base : Δ rd | Base : Δ net santé | Jeu (a) : Δ rd | Jeu (a) : Δ net santé | Jeu (c) : Δ rd | Jeu (c) : Δ net santé |
+|---|---|---|---|---|---|---|---|---|---|
+| Célibataire au Smic | 1 706 | 32 | 1 674 | +48 | +97 (+5,8 %) | +10 | **+58** (+3,4 %) | +14 | **+62** (+3,7 %) |
+| Parent isolé, 2 enfants, au Smic | 2 590 | 39 | 2 551 | +64 | +135 (+5,3 %) | +26 | **+94** (+3,7 %) | +30 | **+98** (+3,9 %) |
+| Couple sans enfant, deux Smic | 3 088 | 67 | 3 022 | +75 | +189 (+6,3 %) | −26 | **+83** (+2,8 %) | −15 | **+95** (+3,2 %) |
+| Couple, 2 enfants, deux Smic | 3 549 | 93 | 3 457 | +14 | +173 (+5,0 %) | −87 | **+65** (+1,9 %) | −76 | **+78** (+2,2 %) |
+| Couple médian, 2 enfants (2 × 2 735 € brut) | 4 424 | 117 | 4 307 | +476 | +647 (+15,0 %) | +219 | **+383** (+8,9 %) | +249 | **+413** (+9,6 %) |
+| Cadre seul à 5 000 € brut | 3 429 | 45 | 3 384 | +93 | +156 (+4,6 %) | −235 | **−174** (−5,2 %) | −197 | **−137** (−4,0 %) |
+| Cadre seul à 10 000 € brut | 6 276 | 46 | 6 230 | −232 | −168 (−2,7 %) | −987 | **−926** (−14,9 %) | −900 | **−839** (−13,5 %) |
+| Cadre seul à 20 000 € brut | 11 038 | 43 | 10 995 | −98 | −37 (−0,3 %) | −1687 | **−1629** (−14,8 %) | −1505 | **−1447** (−13,2 %) |
+| Indépendant (micro-entrepreneur libéral, 3 000 € de CA, R = 2550 €), 40 ans, contrat individuel | 1 743 | 72 | 1 670 | +217 | +290 (+17,3 %) | +158 | **+230** (+13,8 %) | +165 | **+237** (+14,2 %) |
+| Retraité seul au minimum vieillesse (ASPA, 1 044 €), 70 ans, C2S participative | 1 044 | 30 | 1 014 | 0 | +30 (+3,0 %) | 0 | **+30** (+3,0 %) | 0 | **+30** (+3,0 %) |
+| Retraité seul, 1 200 € nets de pension, 70 ans | 1 200 | 132 | 1 068 | 0 | +132 (+12,3 %) | 0 | **+132** (+12,3 %) | 0 | **+132** (+12,3 %) |
+| Retraité seul, 2 000 € nets de pension, 70 ans | 2 000 | 132 | 1 868 | 0 | +132 (+7,0 %) | 0 | **+132** (+7,0 %) | 0 | **+132** (+7,0 %) |
+| Retraité seul, 2 000 € nets de pension, 85 ans | 2 000 | 162 | 1 838 | 0 | +162 (+8,8 %) | 0 | **+162** (+8,8 %) | 0 | **+162** (+8,8 %) |
+| Retraité seul, 4 000 € nets de pension, 70 ans | 4 000 | 132 | 3 868 | 0 | +132 (+3,4 %) | −43 | **+89** (+2,3 %) | −43 | **+89** (+2,3 %) |
+
+Cible (base) : bas ≥ +20 € : revenu disponible manquée, net santé tenue (+97 / +135 / +189 / +173) ; haut −1 à −3 % : manquée (−2,7 % / −0,3 %).
+
+Cible (a) : bas ≥ +20 € : revenu disponible manquée, net santé tenue (+58 / +94 / +83 / +65) ; haut −1 à −3 % : manquée (−14,9 % / −14,8 %).
+
+Cible (c) : bas ≥ +20 € : revenu disponible manquée, net santé tenue (+62 / +98 / +95 / +78) ; haut −1 à −3 % : manquée (−13,5 % / −13,2 %).
+- Retraité seul au minimum vieillesse (ASPA, 1 044 €), 70 ans, C2S participative : R1f 0 €/mois ; si la caisse versait un brut fixe : jeu (a) −14, jeu (c) −12
+- Retraité seul, 1 200 € nets de pension, 70 ans : R1f 0 €/mois ; si la caisse versait un brut fixe : jeu (a) −22, jeu (c) −20
+- Retraité seul, 2 000 € nets de pension, 70 ans : R1f 0 €/mois ; si la caisse versait un brut fixe : jeu (a) −96, jeu (c) −85
+- Retraité seul, 2 000 € nets de pension, 85 ans : R1f 0 €/mois ; si la caisse versait un brut fixe : jeu (a) −96, jeu (c) −85
+- Retraité seul, 4 000 € nets de pension, 70 ans : R1f −43 €/mois ; si la caisse versait un brut fixe : jeu (a) −407, jeu (c) −361
+
+#### Variante : le ménage garde une surcomplémentaire hors panier (30 % de la prime actuelle)
+
+| Cas type | Revenu disponible aujourd'hui | Mutuelle payée aujourd'hui (€/mois) | Revenu net santé aujourd'hui | Base : Δ rd | Base : Δ net santé | Jeu (a) : Δ rd | Jeu (a) : Δ net santé | Jeu (c) : Δ rd | Jeu (c) : Δ net santé |
+|---|---|---|---|---|---|---|---|---|---|
+| Célibataire au Smic | 1 706 | 32 | 1 674 | +48 | +72 (+4,3 %) | +10 | **+32** (+1,9 %) | +14 | **+37** (+2,2 %) |
+| Parent isolé, 2 enfants, au Smic | 2 590 | 39 | 2 551 | +64 | +89 (+3,5 %) | +26 | **+48** (+1,9 %) | +30 | **+53** (+2,1 %) |
+| Couple sans enfant, deux Smic | 3 088 | 67 | 3 022 | +75 | +138 (+4,6 %) | −26 | **+32** (+1,1 %) | −15 | **+44** (+1,5 %) |
+| Couple, 2 enfants, deux Smic | 3 549 | 93 | 3 457 | +14 | +102 (+2,9 %) | −87 | **−6** (−0,2 %) | −76 | **+6** (+0,2 %) |
+| Couple médian, 2 enfants (2 × 2 735 € brut) | 4 424 | 117 | 4 307 | +476 | +576 (+13,4 %) | +219 | **+312** (+7,2 %) | +249 | **+342** (+7,9 %) |
+| Cadre seul à 5 000 € brut | 3 429 | 45 | 3 384 | +93 | +130 (+3,8 %) | −235 | **−200** (−5,9 %) | −197 | **−162** (−4,8 %) |
+| Cadre seul à 10 000 € brut | 6 276 | 46 | 6 230 | −232 | −194 (−3,1 %) | −987 | **−951** (−15,3 %) | −900 | **−864** (−13,9 %) |
+| Cadre seul à 20 000 € brut | 11 038 | 43 | 10 995 | −98 | −63 (−0,6 %) | −1687 | **−1655** (−15,0 %) | −1505 | **−1472** (−13,4 %) |
+| Indépendant (micro-entrepreneur libéral, 3 000 € de CA, R = 2550 €), 40 ans, contrat individuel | 1 743 | 72 | 1 670 | +217 | +268 (+16,0 %) | +158 | **+209** (+12,5 %) | +165 | **+215** (+12,9 %) |
+| Retraité seul au minimum vieillesse (ASPA, 1 044 €), 70 ans, C2S participative | 1 044 | 30 | 1 014 | 0 | +21 (+2,1 %) | 0 | **+21** (+2,1 %) | 0 | **+21** (+2,1 %) |
+| Retraité seul, 1 200 € nets de pension, 70 ans | 1 200 | 132 | 1 068 | 0 | +92 (+8,6 %) | 0 | **+92** (+8,6 %) | 0 | **+92** (+8,6 %) |
+| Retraité seul, 2 000 € nets de pension, 70 ans | 2 000 | 132 | 1 868 | 0 | +92 (+4,9 %) | 0 | **+92** (+4,9 %) | 0 | **+92** (+4,9 %) |
+| Retraité seul, 2 000 € nets de pension, 85 ans | 2 000 | 162 | 1 838 | 0 | +113 (+6,2 %) | 0 | **+113** (+6,2 %) | 0 | **+113** (+6,2 %) |
+| Retraité seul, 4 000 € nets de pension, 70 ans | 4 000 | 132 | 3 868 | 0 | +92 (+2,4 %) | −43 | **+49** (+1,3 %) | −43 | **+49** (+1,3 %) |
+
+Cible (base) : bas ≥ +20 € : revenu disponible manquée, net santé tenue (+72 / +89 / +138 / +102) ; haut −1 à −3 % : manquée (−3,1 % / −0,6 %).
+
+Cible (a) : bas ≥ +20 € : revenu disponible manquée, net santé manquée (+32 / +48 / +32 / −6) ; haut −1 à −3 % : manquée (−15,3 % / −15,0 %).
+
+Cible (c) : bas ≥ +20 € : revenu disponible manquée, net santé manquée (+37 / +53 / +44 / +6) ; haut −1 à −3 % : manquée (−13,9 % / −13,4 %).
+
+#### Variante : contribution employeur santé au budget commun (C), la part employeur ne va pas au salaire
+
+| Cas type | Revenu disponible aujourd'hui | Mutuelle payée aujourd'hui (€/mois) | Revenu net santé aujourd'hui | Base : Δ rd | Base : Δ net santé | Jeu (a) : Δ rd | Jeu (a) : Δ net santé | Jeu (c) : Δ rd | Jeu (c) : Δ net santé |
+|---|---|---|---|---|---|---|---|---|---|
+| Célibataire au Smic | 1 706 | 32 | 1 674 | +48 | +80 (+4,8 %) | +10 | **+42** (+2,5 %) | +14 | **+46** (+2,7 %) |
+| Parent isolé, 2 enfants, au Smic | 2 590 | 39 | 2 551 | +64 | +103 (+4,0 %) | +26 | **+65** (+2,5 %) | +30 | **+69** (+2,7 %) |
+| Couple sans enfant, deux Smic | 3 088 | 67 | 3 022 | +75 | +142 (+4,7 %) | −26 | **+40** (+1,3 %) | −15 | **+52** (+1,7 %) |
+| Couple, 2 enfants, deux Smic | 3 549 | 93 | 3 457 | +14 | +107 (+3,1 %) | −87 | **+5** (+0,2 %) | −76 | **+17** (+0,5 %) |
+| Couple médian, 2 enfants (2 × 2 735 € brut) | 4 424 | 117 | 4 307 | +476 | +592 (+13,8 %) | +219 | **+336** (+7,8 %) | +249 | **+365** (+8,5 %) |
+| Cadre seul à 5 000 € brut | 3 429 | 45 | 3 384 | +93 | +138 (+4,1 %) | −235 | **−189** (−5,6 %) | −197 | **−152** (−4,5 %) |
+| Cadre seul à 10 000 € brut | 6 276 | 46 | 6 230 | −232 | −186 (−3,0 %) | −987 | **−940** (−15,1 %) | −900 | **−854** (−13,7 %) |
+| Cadre seul à 20 000 € brut | 11 038 | 43 | 10 995 | −98 | −55 (−0,5 %) | −1687 | **−1644** (−14,9 %) | −1505 | **−1462** (−13,3 %) |
+| Indépendant (micro-entrepreneur libéral, 3 000 € de CA, R = 2550 €), 40 ans, contrat individuel | 1 743 | 72 | 1 670 | +217 | +290 (+17,3 %) | +158 | **+230** (+13,8 %) | +165 | **+237** (+14,2 %) |
+| Retraité seul au minimum vieillesse (ASPA, 1 044 €), 70 ans, C2S participative | 1 044 | 30 | 1 014 | 0 | +30 (+3,0 %) | 0 | **+30** (+3,0 %) | 0 | **+30** (+3,0 %) |
+| Retraité seul, 1 200 € nets de pension, 70 ans | 1 200 | 132 | 1 068 | 0 | +132 (+12,3 %) | 0 | **+132** (+12,3 %) | 0 | **+132** (+12,3 %) |
+| Retraité seul, 2 000 € nets de pension, 70 ans | 2 000 | 132 | 1 868 | 0 | +132 (+7,0 %) | 0 | **+132** (+7,0 %) | 0 | **+132** (+7,0 %) |
+| Retraité seul, 2 000 € nets de pension, 85 ans | 2 000 | 162 | 1 838 | 0 | +162 (+8,8 %) | 0 | **+162** (+8,8 %) | 0 | **+162** (+8,8 %) |
+| Retraité seul, 4 000 € nets de pension, 70 ans | 4 000 | 132 | 3 868 | 0 | +132 (+3,4 %) | −43 | **+89** (+2,3 %) | −43 | **+89** (+2,3 %) |
+
+Cible (base) : bas ≥ +20 € : revenu disponible manquée, net santé tenue (+80 / +103 / +142 / +107) ; haut −1 à −3 % : manquée (−3,0 % / −0,5 %).
+
+Cible (a) : bas ≥ +20 € : revenu disponible manquée, net santé manquée (+42 / +65 / +40 / +5) ; haut −1 à −3 % : manquée (−15,1 % / −14,9 %).
+
+Cible (c) : bas ≥ +20 € : revenu disponible manquée, net santé manquée (+46 / +69 / +52 / +17) ; haut −1 à −3 % : manquée (−13,7 % / −13,3 %).
+
+#### Variante : chaque salarié a des titres-restaurant aujourd'hui (76 €/mois de part employeur, convertis en salaire)
+
+| Cas type | Revenu disponible aujourd'hui | Mutuelle payée aujourd'hui (€/mois) | Revenu net santé aujourd'hui | Base : Δ rd | Base : Δ net santé | Jeu (a) : Δ rd | Jeu (a) : Δ net santé | Jeu (c) : Δ rd | Jeu (c) : Δ net santé |
+|---|---|---|---|---|---|---|---|---|---|
+| Célibataire au Smic | 1 706 | 32 | 1 751 | +48 | +48 (+2,7 %) | +10 | **+6** (+0,3 %) | +14 | **+10** (+0,6 %) |
+| Parent isolé, 2 enfants, au Smic | 2 590 | 39 | 2 627 | +64 | +85 (+3,2 %) | +26 | **+41** (+1,6 %) | +30 | **+46** (+1,8 %) |
+| Couple sans enfant, deux Smic | 3 088 | 67 | 3 175 | +75 | +108 (+3,4 %) | −26 | **−5** (−0,2 %) | −15 | **+8** (+0,2 %) |
+| Couple, 2 enfants, deux Smic | 3 549 | 93 | 3 609 | +14 | +91 (+2,5 %) | −87 | **−23** (−0,6 %) | −76 | **−10** (−0,3 %) |
+| Couple médian, 2 enfants (2 × 2 735 € brut) | 4 424 | 117 | 4 460 | +476 | +554 (+12,4 %) | +219 | **+282** (+6,3 %) | +249 | **+313** (+7,0 %) |
+| Cadre seul à 5 000 € brut | 3 429 | 45 | 3 460 | +93 | +106 (+3,1 %) | −235 | **−228** (−6,6 %) | −197 | **−190** (−5,5 %) |
+| Cadre seul à 10 000 € brut | 6 276 | 46 | 6 306 | −232 | −218 (−3,5 %) | −987 | **−980** (−15,5 %) | −900 | **−893** (−14,2 %) |
+| Cadre seul à 20 000 € brut | 11 038 | 43 | 11 071 | −98 | −87 (−0,8 %) | −1687 | **−1683** (−15,2 %) | −1505 | **−1500** (−13,6 %) |
+| Indépendant (micro-entrepreneur libéral, 3 000 € de CA, R = 2550 €), 40 ans, contrat individuel | 1 743 | 72 | 1 670 | +217 | +290 (+17,3 %) | +158 | **+230** (+13,8 %) | +165 | **+237** (+14,2 %) |
+| Retraité seul au minimum vieillesse (ASPA, 1 044 €), 70 ans, C2S participative | 1 044 | 30 | 1 014 | 0 | +30 (+3,0 %) | 0 | **+30** (+3,0 %) | 0 | **+30** (+3,0 %) |
+| Retraité seul, 1 200 € nets de pension, 70 ans | 1 200 | 132 | 1 068 | 0 | +132 (+12,3 %) | 0 | **+132** (+12,3 %) | 0 | **+132** (+12,3 %) |
+| Retraité seul, 2 000 € nets de pension, 70 ans | 2 000 | 132 | 1 868 | 0 | +132 (+7,0 %) | 0 | **+132** (+7,0 %) | 0 | **+132** (+7,0 %) |
+| Retraité seul, 2 000 € nets de pension, 85 ans | 2 000 | 162 | 1 838 | 0 | +162 (+8,8 %) | 0 | **+162** (+8,8 %) | 0 | **+162** (+8,8 %) |
+| Retraité seul, 4 000 € nets de pension, 70 ans | 4 000 | 132 | 3 868 | 0 | +132 (+3,4 %) | −43 | **+89** (+2,3 %) | −43 | **+89** (+2,3 %) |
+
+Cible (base) : bas ≥ +20 € : revenu disponible manquée, net santé tenue (+48 / +85 / +108 / +91) ; haut −1 à −3 % : manquée (−3,5 % / −0,8 %).
+
+Cible (a) : bas ≥ +20 € : revenu disponible manquée, net santé manquée (+6 / +41 / −5 / −23) ; haut −1 à −3 % : manquée (−15,5 % / −15,2 %).
+
+Cible (c) : bas ≥ +20 € : revenu disponible manquée, net santé manquée (+10 / +46 / +8 / −10) ; haut −1 à −3 % : manquée (−14,2 % / −13,6 %).
+
+#### Scénario bas (prime 2023 non indexée, part employeur 60 %, sans forfait social)
+
+| Cas type | Revenu disponible aujourd'hui | Mutuelle payée aujourd'hui (€/mois) | Revenu net santé aujourd'hui | Base : Δ rd | Base : Δ net santé | Jeu (a) : Δ rd | Jeu (a) : Δ net santé | Jeu (c) : Δ rd | Jeu (c) : Δ net santé |
+|---|---|---|---|---|---|---|---|---|---|
+| Célibataire au Smic | 1 706 | 25 | 1 681 | +48 | +89 (+5,3 %) | +10 | **+49** (+2,9 %) | +14 | **+54** (+3,2 %) |
+| Parent isolé, 2 enfants, au Smic | 2 590 | 31 | 2 559 | +64 | +123 (+4,8 %) | +26 | **+83** (+3,2 %) | +30 | **+87** (+3,4 %) |
+| Couple sans enfant, deux Smic | 3 088 | 52 | 3 036 | +75 | +170 (+5,6 %) | −26 | **+64** (+2,1 %) | −15 | **+76** (+2,5 %) |
+| Couple, 2 enfants, deux Smic | 3 549 | 73 | 3 477 | +14 | +146 (+4,2 %) | −87 | **+39** (+1,1 %) | −76 | **+51** (+1,5 %) |
+| Couple médian, 2 enfants (2 × 2 735 € brut) | 4 424 | 96 | 4 328 | +476 | +620 (+14,3 %) | +219 | **+357** (+8,2 %) | +249 | **+387** (+8,9 %) |
+| Cadre seul à 5 000 € brut | 3 429 | 38 | 3 391 | +93 | +147 (+4,3 %) | −235 | **−183** (−5,4 %) | −197 | **−145** (−4,3 %) |
+| Cadre seul à 10 000 € brut | 6 276 | 40 | 6 236 | −232 | −176 (−2,8 %) | −987 | **−934** (−15,0 %) | −900 | **−847** (−13,6 %) |
+| Cadre seul à 20 000 € brut | 11 038 | 37 | 11 001 | −98 | −45 (−0,4 %) | −1687 | **−1636** (−14,9 %) | −1505 | **−1454** (−13,2 %) |
+| Indépendant (micro-entrepreneur libéral, 3 000 € de CA, R = 2550 €), 40 ans, contrat individuel | 1 743 | 63 | 1 679 | +217 | +281 (+16,7 %) | +158 | **+222** (+13,2 %) | +165 | **+228** (+13,6 %) |
+| Retraité seul au minimum vieillesse (ASPA, 1 044 €), 70 ans, C2S participative | 1 044 | 30 | 1 014 | 0 | +30 (+3,0 %) | 0 | **+30** (+3,0 %) | 0 | **+30** (+3,0 %) |
+| Retraité seul, 1 200 € nets de pension, 70 ans | 1 200 | 116 | 1 085 | 0 | +116 (+10,7 %) | 0 | **+116** (+10,7 %) | 0 | **+116** (+10,7 %) |
+| Retraité seul, 2 000 € nets de pension, 70 ans | 2 000 | 116 | 1 885 | 0 | +116 (+6,1 %) | 0 | **+116** (+6,1 %) | 0 | **+116** (+6,1 %) |
+| Retraité seul, 2 000 € nets de pension, 85 ans | 2 000 | 142 | 1 858 | 0 | +142 (+7,6 %) | 0 | **+142** (+7,6 %) | 0 | **+142** (+7,6 %) |
+| Retraité seul, 4 000 € nets de pension, 70 ans | 4 000 | 116 | 3 885 | 0 | +116 (+3,0 %) | −43 | **+73** (+1,9 %) | −43 | **+73** (+1,9 %) |
+
+Cible (base) : bas ≥ +20 € : revenu disponible manquée, net santé tenue (+89 / +123 / +170 / +146) ; haut −1 à −3 % : manquée (−2,8 % / −0,4 %).
+
+Cible (a) : bas ≥ +20 € : revenu disponible manquée, net santé tenue (+49 / +83 / +64 / +39) ; haut −1 à −3 % : manquée (−15,0 % / −14,9 %).
+
+Cible (c) : bas ≥ +20 € : revenu disponible manquée, net santé tenue (+54 / +87 / +76 / +51) ; haut −1 à −3 % : manquée (−13,6 % / −13,2 %).
+
+#### Scénario haut (prime +20 %, part employeur 50 %)
+
+| Cas type | Revenu disponible aujourd'hui | Mutuelle payée aujourd'hui (€/mois) | Revenu net santé aujourd'hui | Base : Δ rd | Base : Δ net santé | Jeu (a) : Δ rd | Jeu (a) : Δ net santé | Jeu (c) : Δ rd | Jeu (c) : Δ net santé |
+|---|---|---|---|---|---|---|---|---|---|
+| Célibataire au Smic | 1 706 | 37 | 1 669 | +48 | +102 (+6,1 %) | +10 | **+62** (+3,7 %) | +14 | **+67** (+4,0 %) |
+| Parent isolé, 2 enfants, au Smic | 2 590 | 46 | 2 544 | +64 | +140 (+5,5 %) | +26 | **+99** (+3,9 %) | +30 | **+104** (+4,1 %) |
+| Couple sans enfant, deux Smic | 3 088 | 76 | 3 012 | +75 | +197 (+6,5 %) | −26 | **+91** (+3,0 %) | −15 | **+103** (+3,4 %) |
+| Couple, 2 enfants, deux Smic | 3 549 | 107 | 3 442 | +14 | +185 (+5,4 %) | −87 | **+77** (+2,2 %) | −76 | **+90** (+2,6 %) |
+| Couple médian, 2 enfants (2 × 2 735 € brut) | 4 424 | 131 | 4 293 | +476 | +659 (+15,4 %) | +219 | **+396** (+9,2 %) | +249 | **+426** (+9,9 %) |
+| Cadre seul à 5 000 € brut | 3 429 | 49 | 3 380 | +93 | +159 (+4,7 %) | −235 | **−171** (−5,1 %) | −197 | **−133** (−3,9 %) |
+| Cadre seul à 10 000 € brut | 6 276 | 49 | 6 227 | −232 | −166 (−2,7 %) | −987 | **−923** (−14,8 %) | −900 | **−837** (−13,4 %) |
+| Cadre seul à 20 000 € brut | 11 038 | 46 | 10 992 | −98 | −36 (−0,3 %) | −1687 | **−1627** (−14,8 %) | −1505 | **−1445** (−13,1 %) |
+| Indépendant (micro-entrepreneur libéral, 3 000 € de CA, R = 2550 €), 40 ans, contrat individuel | 1 743 | 76 | 1 667 | +217 | +293 (+17,6 %) | +158 | **+234** (+14,1 %) | +165 | **+241** (+14,5 %) |
+| Retraité seul au minimum vieillesse (ASPA, 1 044 €), 70 ans, C2S participative | 1 044 | 30 | 1 014 | 0 | +30 (+3,0 %) | 0 | **+30** (+3,0 %) | 0 | **+30** (+3,0 %) |
+| Retraité seul, 1 200 € nets de pension, 70 ans | 1 200 | 139 | 1 061 | 0 | +139 (+13,1 %) | 0 | **+139** (+13,1 %) | 0 | **+139** (+13,1 %) |
+| Retraité seul, 2 000 € nets de pension, 70 ans | 2 000 | 139 | 1 861 | 0 | +139 (+7,4 %) | 0 | **+139** (+7,4 %) | 0 | **+139** (+7,4 %) |
+| Retraité seul, 2 000 € nets de pension, 85 ans | 2 000 | 170 | 1 830 | 0 | +170 (+9,3 %) | 0 | **+170** (+9,3 %) | 0 | **+170** (+9,3 %) |
+| Retraité seul, 4 000 € nets de pension, 70 ans | 4 000 | 139 | 3 861 | 0 | +139 (+3,6 %) | −43 | **+96** (+2,5 %) | −43 | **+96** (+2,5 %) |
+
+Cible (base) : bas ≥ +20 € : revenu disponible manquée, net santé tenue (+102 / +140 / +197 / +185) ; haut −1 à −3 % : manquée (−2,7 % / −0,3 %).
+
+Cible (a) : bas ≥ +20 € : revenu disponible manquée, net santé tenue (+62 / +99 / +91 / +77) ; haut −1 à −3 % : manquée (−14,8 % / −14,8 %).
+
+Cible (c) : bas ≥ +20 € : revenu disponible manquée, net santé tenue (+67 / +104 / +103 / +90) ; haut −1 à −3 % : manquée (−13,4 % / −13,1 %).
+
+#### Manque à financer (Md€/an, macro de référence ; prudente ; favorable)
+
+| Convention | Référence | Prudente | Favorable |
+|---|---|---|---|
+| Officiel (base de travail) | 52,1 | 81,1 | 28,4 |
+| (S) part employeur hors de D121, convertie en salaire taxé à 0,50 | 45,6 | 74,6 | 21,8 |
+| (C) contribution employeur santé (13,1 Md€) au budget commun | 39,0 | 68,0 | 15,3 |
+| PO élargis : la Sécu à 100 % nette (25,5) ne compte pas comme prélèvement nouveau | 26,6 | 55,6 | 2,8 |
+| PO élargis + contribution employeur | 13,5 | 42,5 | 0,0 |
+
+Selon les lignes (favorable / central / défavorable) : officiel 32,5 / 52,1 / 62,1 ; PO élargis 12,4 / 26,6 / 33,9
+Part employeur macro : 11,90 / 13,09 / 14,28 ; Sécu nette : 20,16 / 25,55 / 28,20 ; contrats collectifs disparus : 23,25 / 34,88 / 46,50 ; primes du panier : 32,48 ; Δ PO élargis jeu (a) : 17,26

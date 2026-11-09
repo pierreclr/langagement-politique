@@ -1,0 +1,204 @@
+# Base DPE ADEME (dpe03existant), extraits de modeles/loyers-energie/donnees (téléchargés le 08/11/2026) ; généré par donnees/preparer_dpe.py ; flux de DPE, pas le parc
+zone,type_batiment,tranche_surface,classe,n_dpe,surface_moyenne
+angers,appartement,100 m² et plus,A,1,120.0
+angers,appartement,100 m² et plus,B,8,116.2
+angers,appartement,100 m² et plus,C,99,115.7
+angers,appartement,100 m² et plus,D,72,124.1
+angers,appartement,100 m² et plus,E,21,123.5
+angers,appartement,100 m² et plus,F,3,108.5
+angers,appartement,100 m² et plus,G,1,121.0
+angers,appartement,30-45 m²,A,2,42.2
+angers,appartement,30-45 m²,B,22,37.5
+angers,appartement,30-45 m²,C,409,37.7
+angers,appartement,30-45 m²,D,349,37.1
+angers,appartement,30-45 m²,E,180,37.0
+angers,appartement,30-45 m²,F,61,36.4
+angers,appartement,30-45 m²,G,20,36.1
+angers,appartement,45-70 m²,A,13,58.9
+angers,appartement,45-70 m²,B,147,61.3
+angers,appartement,45-70 m²,C,1015,58.3
+angers,appartement,45-70 m²,D,489,57.4
+angers,appartement,45-70 m²,E,186,55.9
+angers,appartement,45-70 m²,F,42,55.9
+angers,appartement,45-70 m²,G,8,61.1
+angers,appartement,70-100 m²,A,3,76.8
+angers,appartement,70-100 m²,B,43,81.7
+angers,appartement,70-100 m²,C,546,82.2
+angers,appartement,70-100 m²,D,234,81.3
+angers,appartement,70-100 m²,E,71,80.1
+angers,appartement,70-100 m²,F,16,83.4
+angers,appartement,70-100 m²,G,2,84.5
+angers,appartement,moins de 30 m²,A,1,23.7
+angers,appartement,moins de 30 m²,B,15,22.0
+angers,appartement,moins de 30 m²,C,582,20.3
+angers,appartement,moins de 30 m²,D,400,22.0
+angers,appartement,moins de 30 m²,E,243,21.8
+angers,appartement,moins de 30 m²,F,86,20.9
+angers,appartement,moins de 30 m²,G,54,20.7
+creuse,appartement,100 m² et plus,A,3,135.9
+creuse,appartement,100 m² et plus,B,5,111.5
+creuse,appartement,100 m² et plus,C,7,117.4
+creuse,appartement,100 m² et plus,D,34,119.0
+creuse,appartement,100 m² et plus,E,23,121.8
+creuse,appartement,100 m² et plus,F,24,131.3
+creuse,appartement,100 m² et plus,G,9,153.1
+creuse,appartement,30-45 m²,A,1,43.3
+creuse,appartement,30-45 m²,B,2,42.0
+creuse,appartement,30-45 m²,C,70,38.0
+creuse,appartement,30-45 m²,D,125,36.5
+creuse,appartement,30-45 m²,E,75,37.0
+creuse,appartement,30-45 m²,F,41,37.9
+creuse,appartement,30-45 m²,G,18,37.6
+creuse,appartement,45-70 m²,A,1,48.8
+creuse,appartement,45-70 m²,B,6,57.5
+creuse,appartement,45-70 m²,C,63,56.4
+creuse,appartement,45-70 m²,D,197,55.8
+creuse,appartement,45-70 m²,E,108,55.9
+creuse,appartement,45-70 m²,F,66,58.8
+creuse,appartement,45-70 m²,G,39,60.1
+creuse,appartement,70-100 m²,A,1,90.0
+creuse,appartement,70-100 m²,B,4,79.0
+creuse,appartement,70-100 m²,C,58,80.6
+creuse,appartement,70-100 m²,D,92,81.6
+creuse,appartement,70-100 m²,E,64,79.8
+creuse,appartement,70-100 m²,F,43,78.8
+creuse,appartement,70-100 m²,G,28,81.3
+creuse,appartement,moins de 30 m²,B,2,29.2
+creuse,appartement,moins de 30 m²,C,70,23.8
+creuse,appartement,moins de 30 m²,D,84,22.7
+creuse,appartement,moins de 30 m²,E,66,20.7
+creuse,appartement,moins de 30 m²,F,30,21.6
+creuse,appartement,moins de 30 m²,G,20,21.6
+creuse,maison,100 m² et plus,A,28,140.5
+creuse,maison,100 m² et plus,B,55,144.5
+creuse,maison,100 m² et plus,C,231,155.4
+creuse,maison,100 m² et plus,D,475,144.7
+creuse,maison,100 m² et plus,E,469,150.0
+creuse,maison,100 m² et plus,F,455,144.3
+creuse,maison,100 m² et plus,G,472,137.1
+creuse,maison,30-45 m²,C,5,41.2
+creuse,maison,30-45 m²,D,12,38.2
+creuse,maison,30-45 m²,E,17,38.8
+creuse,maison,30-45 m²,F,17,40.2
+creuse,maison,30-45 m²,G,31,39.3
+creuse,maison,45-70 m²,A,2,54.8
+creuse,maison,45-70 m²,B,3,61.2
+creuse,maison,45-70 m²,C,29,57.8
+creuse,maison,45-70 m²,D,101,59.9
+creuse,maison,45-70 m²,E,116,58.6
+creuse,maison,45-70 m²,F,127,59.0
+creuse,maison,45-70 m²,G,213,59.1
+creuse,maison,70-100 m²,A,10,87.9
+creuse,maison,70-100 m²,B,29,84.4
+creuse,maison,70-100 m²,C,110,84.6
+creuse,maison,70-100 m²,D,324,86.4
+creuse,maison,70-100 m²,E,272,86.4
+creuse,maison,70-100 m²,F,276,85.5
+creuse,maison,70-100 m²,G,343,84.7
+creuse,maison,moins de 30 m²,C,1,28.0
+creuse,maison,moins de 30 m²,D,3,23.6
+creuse,maison,moins de 30 m²,E,5,23.1
+creuse,maison,moins de 30 m²,F,5,27.2
+creuse,maison,moins de 30 m²,G,1,28.9
+grenoble,appartement,100 m² et plus,A,2,108.3
+grenoble,appartement,100 m² et plus,B,54,109.9
+grenoble,appartement,100 m² et plus,C,164,125.6
+grenoble,appartement,100 m² et plus,D,213,125.4
+grenoble,appartement,100 m² et plus,E,54,124.5
+grenoble,appartement,100 m² et plus,F,14,151.6
+grenoble,appartement,30-45 m²,A,20,42.1
+grenoble,appartement,30-45 m²,B,60,38.8
+grenoble,appartement,30-45 m²,C,464,37.3
+grenoble,appartement,30-45 m²,D,568,37.1
+grenoble,appartement,30-45 m²,E,331,36.9
+grenoble,appartement,30-45 m²,F,115,37.1
+grenoble,appartement,30-45 m²,G,50,35.8
+grenoble,appartement,45-70 m²,A,57,60.0
+grenoble,appartement,45-70 m²,B,441,60.6
+grenoble,appartement,45-70 m²,C,1137,58.1
+grenoble,appartement,45-70 m²,D,1103,58.1
+grenoble,appartement,45-70 m²,E,462,56.4
+grenoble,appartement,45-70 m²,F,128,56.4
+grenoble,appartement,45-70 m²,G,56,56.0
+grenoble,appartement,70-100 m²,A,71,82.2
+grenoble,appartement,70-100 m²,B,573,82.9
+grenoble,appartement,70-100 m²,C,724,81.1
+grenoble,appartement,70-100 m²,D,733,81.1
+grenoble,appartement,70-100 m²,E,165,80.5
+grenoble,appartement,70-100 m²,F,37,80.2
+grenoble,appartement,70-100 m²,G,3,76.7
+grenoble,appartement,moins de 30 m²,B,222,18.3
+grenoble,appartement,moins de 30 m²,C,1466,18.5
+grenoble,appartement,moins de 30 m²,D,524,22.0
+grenoble,appartement,moins de 30 m²,E,263,21.6
+grenoble,appartement,moins de 30 m²,F,119,21.3
+grenoble,appartement,moins de 30 m²,G,83,20.2
+lyon,appartement,100 m² et plus,A,9,141.4
+lyon,appartement,100 m² et plus,B,91,126.9
+lyon,appartement,100 m² et plus,C,622,126.3
+lyon,appartement,100 m² et plus,D,720,130.5
+lyon,appartement,100 m² et plus,E,193,130.8
+lyon,appartement,100 m² et plus,F,31,133.7
+lyon,appartement,100 m² et plus,G,6,129.8
+lyon,appartement,30-45 m²,A,8,39.5
+lyon,appartement,30-45 m²,B,166,40.0
+lyon,appartement,30-45 m²,C,1792,37.9
+lyon,appartement,30-45 m²,D,1978,37.4
+lyon,appartement,30-45 m²,E,1327,37.5
+lyon,appartement,30-45 m²,F,408,37.1
+lyon,appartement,30-45 m²,G,189,36.2
+lyon,appartement,45-70 m²,A,25,63.8
+lyon,appartement,45-70 m²,B,462,58.3
+lyon,appartement,45-70 m²,C,3490,58.0
+lyon,appartement,45-70 m²,D,3215,57.1
+lyon,appartement,45-70 m²,E,1579,55.4
+lyon,appartement,45-70 m²,F,486,55.4
+lyon,appartement,45-70 m²,G,153,53.2
+lyon,appartement,70-100 m²,A,30,86.2
+lyon,appartement,70-100 m²,B,281,81.1
+lyon,appartement,70-100 m²,C,2206,81.7
+lyon,appartement,70-100 m²,D,1603,81.9
+lyon,appartement,70-100 m²,E,511,81.2
+lyon,appartement,70-100 m²,F,135,81.2
+lyon,appartement,70-100 m²,G,22,81.0
+lyon,appartement,moins de 30 m²,A,6,22.2
+lyon,appartement,moins de 30 m²,B,843,18.5
+lyon,appartement,moins de 30 m²,C,4518,17.8
+lyon,appartement,moins de 30 m²,D,2015,18.6
+lyon,appartement,moins de 30 m²,E,1031,18.1
+lyon,appartement,moins de 30 m²,F,318,22.4
+lyon,appartement,moins de 30 m²,G,174,21.9
+paris,appartement,100 m² et plus,A,1,194.3
+paris,appartement,100 m² et plus,B,20,164.5
+paris,appartement,100 m² et plus,C,328,129.2
+paris,appartement,100 m² et plus,D,706,145.6
+paris,appartement,100 m² et plus,E,450,139.9
+paris,appartement,100 m² et plus,F,117,147.1
+paris,appartement,100 m² et plus,G,24,141.4
+paris,appartement,30-45 m²,A,1,34.0
+paris,appartement,30-45 m²,B,9,37.8
+paris,appartement,30-45 m²,C,765,36.8
+paris,appartement,30-45 m²,D,1737,37.2
+paris,appartement,30-45 m²,E,2203,37.5
+paris,appartement,30-45 m²,F,1191,37.1
+paris,appartement,30-45 m²,G,482,36.2
+paris,appartement,45-70 m²,B,47,59.9
+paris,appartement,45-70 m²,C,1286,57.1
+paris,appartement,45-70 m²,D,2030,55.9
+paris,appartement,45-70 m²,E,2050,55.6
+paris,appartement,45-70 m²,F,634,54.8
+paris,appartement,45-70 m²,G,233,53.3
+paris,appartement,70-100 m²,A,2,74.6
+paris,appartement,70-100 m²,B,39,82.3
+paris,appartement,70-100 m²,C,932,82.6
+paris,appartement,70-100 m²,D,997,82.9
+paris,appartement,70-100 m²,E,696,81.6
+paris,appartement,70-100 m²,F,179,80.9
+paris,appartement,70-100 m²,G,57,81.3
+paris,appartement,moins de 30 m²,A,1,28.2
+paris,appartement,moins de 30 m²,B,3,23.2
+paris,appartement,moins de 30 m²,C,853,22.0
+paris,appartement,moins de 30 m²,D,1914,20.8
+paris,appartement,moins de 30 m²,E,2240,22.0
+paris,appartement,moins de 30 m²,F,1437,22.2
+paris,appartement,moins de 30 m²,G,915,19.8

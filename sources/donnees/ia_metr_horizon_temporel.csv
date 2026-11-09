@@ -1,0 +1,30 @@
+# source: METR, Time Horizon 1.1, https://metr.org/time-horizons/ ; donnees brutes https://metr.org/assets/benchmark_results_1_1.yaml ; page mise a jour 2026-09-08 ; consulte 2026-10-25
+# horizon_50 = duree (temps d'un expert humain) des taches que l'agent reussit avec 50% de probabilite ; horizon_80 idem a 80% ; unite: minutes ; IC 95% bootstrap
+# taches: surtout genie logiciel, ML, cybersecurite. METR: mesures > 16 h peu fiables avec la suite actuelle. Doublement estime (METR): 128.7 j depuis 2023 (IC 104-158 j) ; 187.8 j sur toute la periode
+date_sortie,modele,etat_de_lart_metr,horizon_50_min,horizon_50_ic_bas_min,horizon_50_ic_haut_min,horizon_80_min,horizon_50_heures,statut,source_url
+2019-02-14,gpt2,true,0.05,0.01,0.14,0.01,0.001,mesure,https://metr.org/time-horizons/
+2020-05-28,davinci_002,true,0.14,0.09,0.22,0.06,0.002,mesure,https://metr.org/time-horizons/
+2022-03-15,gpt_3_5_turbo_instruct,true,0.6,0.26,1.12,0.26,0.01,mesure,https://metr.org/time-horizons/
+2023-03-14,gpt_4,true,3.99,1.93,8.0,0.89,0.066,mesure,https://metr.org/time-horizons/
+2023-11-06,gpt_4_1106,true,4.04,1.87,8.44,0.78,0.067,mesure,https://metr.org/time-horizons/
+2024-03-04,claude_3_opus,false,3.95,1.71,8.76,0.64,0.066,mesure,https://metr.org/time-horizons/
+2024-04-09,gpt_4_turbo,false,3.73,1.98,6.74,0.93,0.062,mesure,https://metr.org/time-horizons/
+2024-05-13,gpt_4o,true,6.99,4.0,12.91,1.27,0.117,mesure,https://metr.org/time-horizons/
+2024-06-20,claude_3_5_sonnet_20240620,true,11.4,5.49,22.38,1.67,0.19,mesure,https://metr.org/time-horizons/
+2024-09-12,o1_preview,true,20.33,11.72,33.38,4.42,0.339,mesure,https://metr.org/time-horizons/
+2024-10-22,claude_3_5_sonnet_20241022,true,20.52,10.14,40.82,2.6,0.342,mesure,https://metr.org/time-horizons/
+2024-12-05,o1,true,38.83,21.16,64.95,7.09,0.647,mesure,https://metr.org/time-horizons/
+2025-02-24,claude_3_7_sonnet,true,60.39,33.01,104.23,12.09,1.006,mesure,https://metr.org/time-horizons/
+2025-04-16,o3,true,119.73,74.62,190.94,29.98,1.996,mesure,https://metr.org/time-horizons/
+2025-05-22,claude_4_opus,false,100.37,59.99,163.45,20.43,1.673,mesure,https://metr.org/time-horizons/
+2025-08-05,claude_4_1_opus,false,100.47,59.27,159.45,23.46,1.675,mesure,https://metr.org/time-horizons/
+2025-08-07,gpt_5_2025_08_07,true,203.01,112.64,405.55,38.31,3.384,mesure,https://metr.org/time-horizons/
+2025-11-18,gemini_3_pro,true,224.33,139.57,379.24,54.14,3.739,mesure,https://metr.org/time-horizons/
+2025-11-19,gpt_5_1_codex_max,false,223.71,134.31,396.21,50.63,3.729,mesure,https://metr.org/time-horizons/
+2025-11-24,claude_opus_4_5,true,292.99,161.72,623.7,49.43,4.883,mesure,https://metr.org/time-horizons/
+2025-12-11,gpt_5_2,true,352.25,198.07,815.18,66.0,5.871,mesure,https://metr.org/time-horizons/
+2026-02-05,claude_opus_4_6,true,718.81,316.69,3633.79,69.87,11.98,mesure,https://metr.org/time-horizons/
+2026-02-05,gpt_5_3_codex,false,349.53,194.91,816.35,54.74,5.826,mesure,https://metr.org/time-horizons/
+2026-02-19,gemini_3_1_pro,false,384.15,233.5,694.75,89.8,6.402,mesure,https://metr.org/time-horizons/
+2026-03-05,gpt_5_4,false,341.74,186.58,768.78,53.88,5.696,mesure,https://metr.org/time-horizons/
+2026-04-07,claude_mythos_preview_early,true,1044.78,508.88,3304.26,185.91,17.413,mesure,https://metr.org/time-horizons/

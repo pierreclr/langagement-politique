@@ -1,0 +1,21 @@
+Mesure | classe | bas / central / haut (10 ans) | central 3 ans | central 1 an
+A1 | A | 2.20 / 4.50 / 4.90 | 1.8 | 0.3 | Collectivités : effectifs (Cour 4,1) + temps de travail (Cour 1,3), recouvrement déduit
+A2 | A | 2.00 / 3.50 / 5.00 | 1.8 | 0.6 | Achats des collectivités (Cour : 10 % ≈ 5 Md€)
+A3 | A | 1.00 / 2.00 / 3.00 | 1.0 | 0.3 | Logement social (IGF : 1 à 3 Md€)
+A4 | A | 0.50 / 1.50 / 3.00 | 0.8 | 0.3 | Sport, jeunesse, vie associative (IGF-IGESR 2025 : 1 à 3 Md€)
+A5 | A | 0.10 / 0.20 / 0.20 | 0.2 | 0.1 | CPF : ticket modéré (IGF 2024 : 0,19 Md€)
+B1 | B | 0.30 / 1.00 / 2.60 | 0.4 | 0.05 | Gestion devenue inutile (prélèvement unique, socle) : fourchette prudente de T47
+B2 | B | 0.10 / 1.10 / 4.60 | 0.1 | 0.0 | Masse salariale d'administration : numérique, départs non remplacés
+B3 | B | 0.50 / 1.50 / 2.70 | 0.9 | 0.3 | Dépenses qui interrogent (conseil, France Travail, culture, outre-mer)
+B4 | B | 0.14 / 0.66 / 1.78 | 0.2 | 0.05 | Immobilier de bureaux de l'État (densification)
+B5 | B | 0.40 / 0.80 / 1.50 | 0.4 | 0.1 | Achats de l'État et des opérateurs
+Total A : 5.8 / 11.7 / 16.1 ; 3 ans 5.6 ; 1 an 1.60
+Total B : 1.4 / 5.1 / 13.2 ; 3 ans 2.0 ; 1 an 0.50
+Total A+B : 7.2 / 16.8 / 29.3 ; 3 ans 7.6 ; 1 an 2.10
+Central A+B en points de taux plat (12,7 Md€/pt) : 1.32 ; en € de socle (0,430 Md€/€) : 39 ; en % du déficit 163,3 : 10.3
+Ordre du modèle (favorable, central, défavorable) A seul : [16.1, 11.7, 5.8]
+Ordre du modèle (favorable, central, défavorable) A+B   : [29.3, 16.8, 7.2]
+Éducation, variante économie (10 ans) : {'bas': 2.24, 'central': 3.93, 'haut': 5.46} ; 3 ans central 1.18 ; 1 an 0.39
+Tuteur : licence+matériel {'bas': 0.18, 'central': 1.59, 'haut': 4.12} ; accompagnateurs {'bas': 0.0, 'central': 4.12, 'haut': 8.25} ; couverture par les 109 138 ETP {'bas': 4.47, 'central': 4.91, 'haut': 5.46}
+Niches hors assiette : accises 7.53 Md€, TVA ciblée 4.74 Md€ ; retenu accises {'bas': 1.5, 'central': 3.0, 'haut': 4.9}, TVA {'bas': 0.9, 'central': 1.7, 'haut': 3.6}
+Surface bureaux libérable (central, Mm²) : 6.63

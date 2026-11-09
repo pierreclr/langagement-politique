@@ -1,0 +1,787 @@
+{
+ "_note": "Paramètres de modeles/fonciere-afflux (écrit par Claude, IA d'Anthropic, pour l'auteur, 09/11/2026). Un seul fichier, lu par code/afflux.py (hypotheses()). Convention : 'bas' = faible afflux et faible hausse des prix (favorable), 'haut' = fort afflux et forte hausse (défavorable). statut : fait | estimation | hypothese | provisoire ; les paramètres de prix sont repris du dossier sources/prix-immobilier-effets-mesures.md (dossier de preuves du 09/11/2026, section « Ce que le modèle peut en tirer » ; fourchettes = interprétation de son auteur, pas des estimations publiées : plages de sensibilité). Consultation des sources : 09/11/2026 sauf mention.",
+ "parametres": {
+  "cohorte": {
+   "hyp": "H-FA1",
+   "bas": 830000,
+   "central": 830000,
+   "haut": 830000,
+   "unite": "personnes par génération",
+   "statut": "estimation",
+   "source": "modeles/capital-de-depart-options/methode.md H-CO1 (Eurostat demo_pjan, A, via capital-de-depart H1)",
+   "cote": "A"
+  },
+  "ages_groupes": {
+   "hyp": "H-FA2",
+   "central": [
+    22,
+    25,
+    28,
+    31,
+    34
+   ],
+   "unite": "âge représentatif des tranches ≤23, 24-26, 27-29, 30-32, 33-35 ans",
+   "statut": "hypothese",
+   "source": "découpage de Claude"
+  },
+  "ages_parts": {
+   "hyp": "H-FA2",
+   "bas": [
+    0.3,
+    0.3,
+    0.14,
+    0.07,
+    0.05
+   ],
+   "central": [
+    0.4,
+    0.3,
+    0.1,
+    0.05,
+    0.03
+   ],
+   "haut": [
+    0.45,
+    0.3,
+    0.08,
+    0.04,
+    0.03
+   ],
+   "unite": "part d'une génération dont le premier emploi stable (EDI) tombe dans la tranche ; le reste n'en a pas avant 36 ans (central 12 %)",
+   "statut": "estimation",
+   "source": "Calée par Claude sur : âge moyen de sortie de formation initiale 22 ans (Céreq, Bref n° 422, mai 2022, https://hal.science/hal-03666641v1/document, A) ; délai moyen d'accès au premier EDI 19 mois (supérieur 15, CAP-BEP 25, sans diplôme 34) et 84 % ayant occupé un EDI environ 6 ans après la sortie (Insee, Formations et emploi 2025, fiche 2.12, https://www.insee.fr/fr/statistiques/fichier/8305534/BFE2025-F18.pdf, A) ; Génération 2021 : 47 % en EDI à 3 ans (Céreq, Bref n° 487-488, juillet 2026, https://www.cereq.fr/sites/default/files/2026-07/Bref_487-488_OK.pdf, A). Aucune distribution publiée de l'âge au premier emploi stable : c'est une inférence (âge moyen ≈ 24,6 ans au central). Le chiffre « 27 ans au premier CDI » (CESE, 2012) n'a pas de source primaire : non utilisé.",
+   "cote": "A (sources) / estimation (distribution)"
+  },
+  "revenu_median": {
+   "hyp": "H-FA3",
+   "bas": 1800,
+   "central": 1800,
+   "haut": 1800,
+   "unite": "€ nets par mois, 2026, premier emploi stable, médiane",
+   "statut": "estimation",
+   "source": "Céreq Génération 2017 : médiane à 3 ans 1 600 € nets (octobre 2020) × hausse des prix 2020-2026 (≈ +16 %, ⚠️ indice non relu) ≈ 1 860 € ; Génération 2021 : médiane à l'embauche du premier emploi 1 530 € (tous emplois, temps partiel compris). Un emploi stable paie plus qu'un premier emploi : 1 800 € retenu. Remplace H-CO3 (non sourcée).",
+   "cote": "A (sources) / estimation"
+  },
+  "revenu_sigma": {
+   "hyp": "H-FA3",
+   "bas": 0.3,
+   "central": 0.3,
+   "haut": 0.3,
+   "unite": "écart-type du logarithme du revenu (loi log-normale)",
+   "statut": "estimation",
+   "source": "Insee, salaires du secteur privé 2024, tous âges : D1 1 490 €, médiane 2 190 €, D9 4 330 € (σ ≈ 0,42 ; https://www.insee.fr/fr/statistiques/8733089, A) ; pas de déciles par âge publiés : dispersion plus faible chez les jeunes (plancher du Smic), 0,30 retenu ⚠️",
+   "cote": "A / hypothèse"
+  },
+  "revenu_plancher": {
+   "hyp": "H-FA3",
+   "central": 1100,
+   "unite": "€ nets par mois",
+   "statut": "hypothese",
+   "source": "emploi stable à temps partiel en bas de distribution ; Smic net à temps plein 1 478 € (F15 de la foncière)"
+  },
+  "k_revenu": {
+   "hyp": "H-FA3",
+   "bas": 0.9,
+   "central": 1.0,
+   "haut": 1.1,
+   "unite": "multiplicateur des revenus",
+   "statut": "hypothese",
+   "source": "fourchette de Claude autour de l'estimation"
+  },
+  "revenu_facteur_age": {
+   "hyp": "H-FA4",
+   "central": {
+    "22": 0.95,
+    "25": 1.0,
+    "28": 1.07,
+    "31": 1.13,
+    "34": 1.18
+   },
+   "unite": "revenu relatif selon l'âge au premier emploi stable",
+   "statut": "estimation",
+   "source": "Insee, salaire net moyen EQTP 2024 : moins de 25 ans 1 620 €, 25-39 ans 2 550 € (https://www.insee.fr/fr/statistiques/8733089, A) ; pente atténuée parce que l'écart mêle expérience et diplôme ⚠️",
+   "cote": "A / estimation"
+  },
+  "rho": {
+   "hyp": "H-FA5",
+   "central": 0.3,
+   "unite": "corrélation de rang héritage-revenu",
+   "statut": "hypothese",
+   "source": "H-CO4 (capital-de-depart-options) ⚠️"
+  },
+  "p0": {
+   "hyp": "H-FA5",
+   "central": 0.1,
+   "unite": "part sans héritage",
+   "statut": "estimation",
+   "source": "H-CO2 (CAE note 69, B ; capital-de-depart H2-H3 ⚠️ V7802)"
+  },
+  "types_menage": {
+   "hyp": "H-FA9",
+   "central": {
+    "22": [
+     0.7,
+     0.25,
+     0.05
+    ],
+    "25": [
+     0.55,
+     0.35,
+     0.1
+    ],
+    "28": [
+     0.45,
+     0.35,
+     0.2
+    ],
+    "31": [
+     0.35,
+     0.3,
+     0.35
+    ],
+    "34": [
+     0.3,
+     0.25,
+     0.45
+    ]
+   },
+   "unite": "parts seul (T2) / couple (T3) / couple avec enfants (T4) à l'âge d'entrée",
+   "statut": "hypothese",
+   "source": "ordre de grandeur de Claude ⚠️ (vie en couple par âge : Insee, non relu ici)"
+  },
+  "coef_couple": {
+   "hyp": "H-FA9",
+   "central": 1.8,
+   "unite": "revenu du ménage / revenu individuel",
+   "statut": "hypothese",
+   "source": "⚠️ deux revenus, le second un peu plus faible"
+  },
+  "part_secteur": {
+   "hyp": "H-FA7",
+   "bas": {
+    "paris": 0.0387,
+    "metropoles": 0.3269,
+    "villes_moyennes": 0.4242,
+    "rural": 0.2102
+   },
+   "central": {
+    "paris": 0.0387,
+    "metropoles": 0.3269,
+    "villes_moyennes": 0.4242,
+    "rural": 0.2102
+   },
+   "haut": {
+    "paris": 0.07,
+    "metropoles": 0.42,
+    "villes_moyennes": 0.35,
+    "rural": 0.16
+   },
+   "unite": "part des jeunes par secteur",
+   "statut": "estimation",
+   "source": "central : ventes DVF 2024 (H-CO6, fonciere-usufruit/donnees/secteurs.csv, A) ; haut : variante « jeunes plus urbains » ⚠️"
+  },
+  "W": {
+   "hyp": "H-FA11",
+   "bas": 0.5,
+   "central": 0.6,
+   "haut": 0.7,
+   "unite": "part qui veut se fixer à son premier emploi stable",
+   "statut": "hypothese",
+   "source": "H-CO10 ⚠️"
+  },
+  "prec": {
+   "hyp": "H-FA12",
+   "bas": 0.35,
+   "central": 0.5,
+   "haut": 0.65,
+   "unite": "multiplicateur du refus bancaire pour précarité (30 % en D1 à 5 % en D10 dans H-CO9)",
+   "statut": "hypothese",
+   "source": "H-CO9, réduit de moitié parce que le déclencheur est un emploi stable ⚠️"
+  },
+  "taux_banque": {
+   "hyp": "H-FA16",
+   "central": 0.0332,
+   "unite": "taux moyen des crédits nouveaux à l'habitat",
+   "statut": "fait",
+   "source": "Banque de France, septembre 2026 (F21 de la foncière), https://www.banque-france.fr/fr/statistiques/credit/credits-aux-particuliers-2026-09",
+   "cote": "A"
+  },
+  "effort_max": {
+   "hyp": "H-FA10",
+   "central": 0.35,
+   "unite": "taux d'effort maximal",
+   "statut": "fait",
+   "source": "HCSF, décision D-HCSF-2021-7 (H-CO8)",
+   "cote": "A"
+  },
+  "r_np": {
+   "hyp": "H-FA13",
+   "bas": 0.035,
+   "central": 0.025,
+   "haut": 0.015,
+   "unite": "taux net auquel le jeune évalue la nue-propriété abandonnée (bas = la nue-propriété compte peu = plus d'afflux)",
+   "statut": "hypothese",
+   "source": "H-CO12 ⚠️ ; attention : ici 'bas' de la convention (faible afflux) correspond à r_np haut, d'où l'ordre inversé des valeurs ; voir 'phi'",
+   "inverse": true
+  },
+  "phi": {
+   "hyp": "H-FA13",
+   "bas": 0.15,
+   "central": 0.1,
+   "haut": 0.05,
+   "unite": "prime de liberté (revendre, léguer), part du prix",
+   "statut": "hypothese",
+   "source": "H-CO12 ⚠️"
+  },
+  "v_parts": {
+   "hyp": "H-FA13",
+   "central": 0.6,
+   "unite": "valeur subjective d'un euro de parts à vie",
+   "statut": "hypothese",
+   "source": "H-CO14 ⚠️"
+  },
+  "appel": {
+   "hyp": "H-FA16",
+   "bas": 0.05,
+   "central": 0.1,
+   "haut": 0.2,
+   "unite": "part de ceux qui ne voulaient pas se fixer qui entrent si la foncière coûte moins que le loyer",
+   "statut": "hypothese",
+   "source": "d'après H-CO13 (10/20/30 %), réduit : le capital non utilisé n'est pas perdu (moitié en parts à vie) ⚠️"
+  },
+  "adh": {
+   "hyp": "H-FA16",
+   "bas": 0.01,
+   "central": 0.03,
+   "haut": 0.05,
+   "unite": "part des bancarisés qui choisissent la foncière par conviction",
+   "statut": "hypothese",
+   "source": "H-CO16 = H-FU47 ⚠️"
+  },
+  "montee": {
+   "hyp": "H-FA14",
+   "bas": 0.25,
+   "central": 0.5,
+   "haut": 0.75,
+   "unite": "part de ceux qui le peuvent qui prennent la taille au-dessus",
+   "statut": "hypothese",
+   "source": "⚠️ non sourcé"
+  },
+  "effort_montee": {
+   "hyp": "H-FA14",
+   "central": 0.3,
+   "unite": "effort maximal accepté pour monter en gamme",
+   "statut": "hypothese",
+   "source": "⚠️ marge sous les 35 % du HCSF"
+  },
+  "plafond_mixte": {
+   "hyp": "H-FA15",
+   "central": 1.0,
+   "unite": "plafond du financement foncière = f × prix du T3 médian du secteur × ce coefficient ; au-delà, prêt bancaire",
+   "statut": "hypothese",
+   "source": "règle simple proposée par Claude"
+  },
+  "ecart_banque_usufruit": {
+   "hyp": "H-FA15",
+   "bas": 0.0,
+   "central": 0.005,
+   "haut": 0.015,
+   "unite": "surcoût du prêt bancaire adossé à un usufruit viager (garantie qui s'éteint au décès)",
+   "statut": "hypothese",
+   "source": "⚠️ non sourcé ; l'usufruit immobilier est hypothécable mais la garantie s'éteint au décès (Code civil, non relu)"
+  },
+  "charges": {
+   "hyp": "H-FA10",
+   "central": 0.0075,
+   "unite": "charges et entretien du propriétaire, part de la valeur par an",
+   "statut": "hypothese",
+   "source": "H-FU39 ⚠️"
+  },
+  "alpha": {
+   "hyp": "H-FA17",
+   "bas": 0.2,
+   "central": 0.3,
+   "haut": 0.5,
+   "unite": "demande additionnelle d'un entrant qui avait accès à la banque",
+   "statut": "hypothese",
+   "source": "H-CO17 (capital-de-depart H12-H13, ⚠️ V7803)"
+  },
+  "k_ret": {
+   "hyp": "H-FA45",
+   "bas": 1.2,
+   "central": 1.0,
+   "haut": 0.8,
+   "unite": "revenu à la fin du remboursement / revenu d'entrée",
+   "statut": "hypothese",
+   "source": "H-CO31"
+  },
+  "transactions": {
+   "hyp": "H-FA20",
+   "bas": 1200000,
+   "central": 1100000,
+   "haut": 1000000,
+   "unite": "ventes de logements par an (anciens et neufs)",
+   "statut": "estimation",
+   "source": "H-FU28 ; Insee, 951 000 ventes de logements anciens sur 12 mois fin 2025 (Informations rapides n° 47, 26/02/2026, A) ; 1 002 000 en 2025 (Banque de France, F6 de la foncière)"
+  },
+  "part_rest_T1": {
+   "hyp": "H-FA20",
+   "central": 0.5,
+   "unite": "part des ventes hors T2-T4 (DVF) qui sont des T1 (le reste : T5 et plus)",
+   "statut": "hypothese",
+   "source": "⚠️"
+  },
+  "reponse_prix": {
+   "hyp": "H-FA21",
+   "bas": {
+    "paris": 0.855,
+    "metropoles": 0.758,
+    "villes_moyennes": 0.68,
+    "rural": 0.375
+   },
+   "central": {
+    "paris": 1.031,
+    "metropoles": 0.935,
+    "villes_moyennes": 0.855,
+    "rural": 0.599
+   },
+   "haut": {
+    "paris": 1.299,
+    "metropoles": 1.149,
+    "villes_moyennes": 1.031,
+    "rural": 0.68
+   },
+   "unite": "% de hausse du prix pour +1 % de demande = 1 / (élasticité de l'offre + |élasticité de la demande|) (calculé depuis elasticite_offre et elasticite_demande)",
+   "statut": "estimation",
+   "source": "calcul ; remplace H-FU40 de fonciere-usufruit (élasticités 1 à 4, non recalées) qui sous-estimait l'effet prix d'un facteur 1,5 à 2,5"
+  },
+  "ecart_taille": {
+   "hyp": "H-FA22",
+   "bas": 0.4,
+   "central": 0.2,
+   "haut": 0.0,
+   "unite": "réponse du prix des T1-T2 plus faible de x, celle des T4 et plus plus forte de x",
+   "statut": "hypothese (provisoire ⚠️)",
+   "source": "qualitatif : l'offre de 1-2 pièces s'ajuste, l'effet des aides au logement sur leurs loyers disparaît après 2000, pas pour les 3 pièces et plus (Grislain-Letrémy et Trevien, Bloc-notes Éco BdF n° 302, 2023, B) ; amplitude ⚠️"
+  },
+  "sigma_substitution": {
+   "hyp": "H-FA22",
+   "bas": 0.7,
+   "central": 0.5,
+   "haut": 0.3,
+   "unite": "part de la pression d'un segment qui se diffuse aux autres tailles du secteur",
+   "statut": "hypothese",
+   "source": "⚠️ non sourcé"
+  },
+  "taux_dmto": {
+   "hyp": "H-FA23",
+   "central": 0.058,
+   "unite": "droits de mutation sur un logement ancien, part du prix",
+   "statut": "fait",
+   "source": "5,81 % au taux départemental de 4,5 % ; 6,32 % dans les 80 départements qui ont relevé le taux à 5 % du 01/04/2025 au 31/03/2028, hausse non applicable à une première acquisition de résidence principale (loi de finances 2025, art. 116 ; DGCL, note REI 2025, A ; Banque des Territoires, 06/05/2025, B)",
+   "cote": "A"
+  },
+  "recette_dmto_md": {
+   "hyp": "H-FA23",
+   "central": 14.7,
+   "unite": "Md€, 2024",
+   "statut": "fait",
+   "source": "chapitres-v02/06-se-loger.md (Insee, comptes nationaux 2024) ; l'OFGL donne 9,9 Md€ pour les seuls départements (périmètre constant) : écart de périmètre",
+   "cote": "A"
+  },
+  "kappa_dmto": {
+   "hyp": "H-FA24",
+   "bas": 0.4,
+   "central": 0.7,
+   "haut": 1.0,
+   "unite": "part de la suppression des droits de mutation capitalisée dans le prix de vente",
+   "statut": "plage de sensibilité",
+   "source": "sources/prix-immobilier-effets-mesures.md (dossier de preuves du 09/11/2026, section « Ce que le modèle peut en tirer » ; fourchettes = interprétation de son auteur, pas des estimations publiées : plages de sensibilité) : ≈ 40 % (Besley, Meads et Surico 2014, résumé) ; ≈ 70 % (milieu de fourchette, sans étude) ; ≈ 100 % (Dachis, Duranton et Turner 2012, Toronto, lu). Études sur des hausses ou des suspensions, pas sur une abolition permanente ; la contribution de 0,25 % remplace la taxe foncière d'un niveau voisin (chapitre 3 : 0,27 % aujourd'hui), donc la taxe annuelle n'est pas un coût nouveau pour l'occupant (calcul de Claude)"
+  },
+  "mu_dmto": {
+   "hyp": "H-FA24",
+   "bas": 0.25,
+   "central": 0.1,
+   "haut": 0.0,
+   "unite": "hausse durable du nombre de ventes après suppression des droits (mobilité)",
+   "statut": "hypothèse ⚠️",
+   "source": "Best et Kleven (REStud 2018, lu en page) : +20 % d'activité à court terme pour une taxe de 1 % suspendue, moins de la moitié inversée ensuite ; Bérard et Trannoy (Économie et Statistique 2018, lu) : pas d'effet durable sur les volumes en France après la hausse de 2014 ; Van Ommeren (résumé) : +1 % de coût de transaction, −8 % de mobilité. Extrapolation à 5,8 points très incertaine ⚠️"
+  },
+  "elasticite_credit": {
+   "hyp": "H-FA25",
+   "bas": 0.4,
+   "central": 0.55,
+   "haut": 0.7,
+   "unite": "élasticité du prix au volume de crédit",
+   "statut": "recoupement",
+   "source": "Labonne et Welter-Nicol (ACPR), « Cheap Credit, Expensive Houses? », 2015, diapositives lues (https://acpr.banque-france.fr/system/files/import/acpr/medias/documents/20150930-fuzzi.pdf, B) : 0,4 à 0,7. Semi-élasticité au taux déduite : capacité d'emprunt à mensualité donnée −11 % par point de taux (calcul) × élasticité",
+   "cote": "B"
+  },
+  "parc_locatif_prive": {
+   "hyp": "H-FA30",
+   "central": 8301000,
+   "unite": "résidences principales louées vides ou meublées par un bailleur privé, 01/01/2025, France métropolitaine",
+   "statut": "fait",
+   "source": "SDES/ONRE, « Le parc de logements par classe de performance énergétique au 1er janvier 2025 », 12/11/2025, Tableau 2 (donnees/brutes/dpe-parc/onre-parc-dpe-2025-donnees.xlsx, https://www.statistiques.developpement-durable.gouv.fr/le-parc-de-logements-par-classe-de-performance-energetique-au-1er-janvier-2025), extrait dans donnees/parc_dpe_surface.csv",
+   "cote": "A"
+  },
+  "rotation": {
+   "hyp": "H-FA31",
+   "bas": 0.23,
+   "central": 0.21,
+   "haut": 0.19,
+   "unite": "part des logements loués qui changent de locataire chaque année",
+   "statut": "estimation",
+   "source": "SDES, Chiffres clés du logement 2022 : mobilité des locataires du privé 23 % (A-/B, source non précisée) ; 19 % en 2023 selon une question écrite (n° 6458, JO du 06/05/2025, C) ; OLAP Paris 18,4 % (C)"
+  },
+  "v_vente": {
+   "hyp": "H-FA33",
+   "bas": 0.3,
+   "central": 0.15,
+   "haut": 0.05,
+   "unite": "part des bailleurs qui vendent quand leur revenu locatif net baisse de 15 % (règle linéaire : probabilité = v × perte relative / 15 %, au plus 1), appliquée au plafond de loyer à la relocation et à la suppression des avantages fiscaux",
+   "statut": "hypothese (provisoire ⚠️)",
+   "source": "⚠️ non sourcé : aucune étude ne mesure la part des bailleurs qui vendent sous plafond (sources/prix-immobilier-effets-mesures.md (dossier de preuves du 09/11/2026, section « Ce que le modèle peut en tirer » ; fourchettes = interprétation de son auteur, pas des estimations publiées : plages de sensibilité), § 5.4). Repères qui mesurent un retrait d'offre locative, pas des ventes : 0 % (Paris, APUR 2025, conflit d'intérêts AVIV), ≈ 10 % (Catalogne), 15 % (San Francisco, Diamond et al.) ; intentions déclarées 40 % (Guy Hoquet 2025, D). Fourchette large ; 'bas' (favorable aux prix) = beaucoup de ventes"
+  },
+  "s_interdiction": {
+   "hyp": "H-FA35",
+   "bas": 0.1,
+   "central": 0.1,
+   "haut": 0.1,
+   "unite": "part des logements interdits à la location (G 2025, F 2028, E 2034) qui sont vendus à la relocation, en droit actuel",
+   "statut": "hypothese",
+   "source": "≈ 15 % de sorties parmi les non rénovés (modeles/loyer-energie, V10218) × environ deux tiers de non rénovés ⚠️"
+  },
+  "taux_imposition_fonciers": {
+   "hyp": "H-FA40",
+   "bas": 0.3,
+   "central": 0.4,
+   "haut": 0.47,
+   "unite": "impôt sur le revenu + prélèvements sociaux (17,2 %) sur un euro de revenu foncier net",
+   "statut": "hypothese",
+   "source": "⚠️ taux marginal moyen non publié ; revenus fonciers déclarés en 2024 : 30 Md€ (DGFiP via Moneyvox, C)"
+  },
+  "decote_passoire": {
+   "hyp": "H-FA50",
+   "central": {
+    "appartement": 0.12,
+    "maison": 0.25
+   },
+   "unite": "décote d'un G par rapport à un D, ventes 2024",
+   "statut": "fait (relais)",
+   "source": "Notaires de France, « La valeur verte des logements en France sur les transactions 2024 », page du 07/01/2026 (PDF non téléchargeable, chiffres relayés par un office notarial, B/C ; profession intéressée aux volumes)"
+  },
+  "cout_renovation_m2": {
+   "hyp": "H-FA50",
+   "bas": 350,
+   "central": 450,
+   "haut": 600,
+   "unite": "€ par m², petit logement de G ou F vers D",
+   "statut": "estimation ⚠️",
+   "source": "SDES/ONRE, rénovations d'ampleur aidées par l'Anah en 2024 : 22 343 € par logement en copropriété (A) ; 22 500 € pour un 55 m² de G à D à Lyon selon un acteur commercial (Bevouac, D) ; H-FU49 retenait 500 €/m²"
+  },
+  "i_fonciere": {
+   "hyp": "H-FA41",
+   "bas": 0.035,
+   "central": 0.035,
+   "haut": 0.053,
+   "unite": "coût de l'argent de la foncière",
+   "statut": "estimation",
+   "source": "3,5 % : central de fonciere-usufruit (H-FU11) ; 4,7 % : OAT exogène, 5,3 % : OAT 2032 endogène centrale (modeles/taux-endogene/resultats.md, effort 0)"
+  },
+  "cout_public_max_md": {
+   "hyp": "H-FA60",
+   "central": 14.7,
+   "unite": "Md€ par an : coût du capital de départ du chapitre 3 (option D)",
+   "statut": "estimation",
+   "source": "H-CO24"
+  },
+  "surpaiement": {
+   "hyp": "H-FA52",
+   "central": [
+    0.01,
+    0.03,
+    0.05
+   ],
+   "unite": "surpaiement moyen par rapport au prix de marché",
+   "statut": "hypothese",
+   "source": "demande de l'auteur (09/11)"
+  },
+  "sigma_reference": {
+   "hyp": "H-FA52",
+   "central": 0.1,
+   "unite": "écart-type du logarithme entre prix réel et valeur de référence indépendante (DVF des biens comparables)",
+   "statut": "hypothese",
+   "source": "⚠️ ordre de grandeur des modèles d'estimation automatique, non sourcé"
+  },
+  "niches": {
+   "hyp": "H-FA34",
+   "central": {
+    "defiscalisation": {
+     "logements": 546000,
+     "avantage_an": 3300,
+     "repartition_secteur": {
+      "paris": 0.05,
+      "metropoles": 0.6,
+      "villes_moyennes": 0.3,
+      "rural": 0.05
+     },
+     "repartition_taille": {
+      "T1-T2": 0.55,
+      "T3": 0.35,
+      "T4+": 0.1
+     }
+    },
+    "lmnp": {
+     "logements": 1370000,
+     "avantage_an": 300,
+     "repartition_secteur": {
+      "paris": 0.08,
+      "metropoles": 0.45,
+      "villes_moyennes": 0.35,
+      "rural": 0.12
+     },
+     "repartition_taille": {
+      "T1-T2": 0.7,
+      "T3": 0.22,
+      "T4+": 0.08
+     }
+    }
+   },
+   "unite": "logements sous avantage fiscal et avantage moyen perdu par an (€) ; étalement des ventes sur 5 ans",
+   "statut": "estimation (logements, avantage) / hypothèse (répartitions ⚠️)",
+   "source": "Évaluation des voies et moyens, tome II, PLF 2026 (https://www.assemblee-nationale.fr/dyn/dyn/contenu/visualisation/1087933/file/Voies_et_moyens_Tome_2_2026.pdf, A) : Pinel-Duflot 1 349 M€ en 2026 pour 384 000 ménages, Scellier (3 lignes) 251 M€ pour 105 585, Censi-Bouvard 37 M€ pour 25 367, Denormandie 7 M€, Cosse et Loc'Avantages 27 M€ pour 28 947 : ≈ 546 000 ménages, ≈ 3 300 € par an (ménages comptés comme logements ⚠️). LMNP : 1,02 million de loueurs en 2021 à 1,37 million de foyers en 2026, coût de « l'exception meublé » 330 à 380 M€ par an (IGF 2016), via un relais de presse (JeChange, 16/10/2026, C ⚠️ rapport Le Meur non lu) : ≈ 300 € par foyer et par an ; un logement par foyer ⚠️. Non chiffrés par le PLF (règle normale de l'impôt) : micro-foncier (1,43 million de foyers), déficit foncier de droit commun (747 000 foyers), amortissement au réel du LMNP. Répartitions par secteur et taille : hypothèses de Claude ⚠️ (Pinel concentré dans les zones tendues, petites surfaces).",
+   "cote": "A / C"
+  },
+  "loyer_annuel_niche": {
+   "hyp": "H-FA34",
+   "central": {
+    "defiscalisation": 9000,
+    "lmnp": 7200
+   },
+   "unite": "€ par an, loyer d'un logement sous dispositif",
+   "statut": "hypothese",
+   "source": "⚠️ ordre de grandeur (T2 de métropole, carte des loyers 2025)"
+  },
+  "rendement_net": {
+   "hyp": "H-FA34",
+   "central": 0.7,
+   "unite": "revenu net / loyer (charges, taxe foncière, vacance)",
+   "statut": "hypothese",
+   "source": "⚠️ non sourcé ; sert à exprimer la perte en part du revenu net"
+  },
+  "elasticite_offre": {
+   "hyp": "H-FA21",
+   "bas": {
+    "paris": 0.5,
+    "metropoles": 0.65,
+    "villes_moyennes": 0.8,
+    "rural": 2.0
+   },
+   "central": {
+    "paris": 0.3,
+    "metropoles": 0.4,
+    "villes_moyennes": 0.5,
+    "rural": 1.0
+   },
+   "haut": {
+    "paris": 0.1,
+    "metropoles": 0.2,
+    "villes_moyennes": 0.3,
+    "rural": 0.8
+   },
+   "unite": "élasticité de long terme de l'offre au prix",
+   "statut": "plage de sensibilité",
+   "source": "sources/prix-immobilier-effets-mesures.md (dossier de preuves du 09/11/2026, section « Ce que le modèle peut en tirer » ; fourchettes = interprétation de son auteur, pas des estimations publiées : plages de sensibilité) : zones tendues 0,1/0,3/0,5 (Paris) ; intermédiaires 0,3/0,5/0,8 (villes moyennes) ; détendues 0,8/1,0/2,0 (rural) ; métropoles : moyenne de Claude entre tendues et intermédiaires. La ventilation par zone est le choix de l'auteur du dossier : aucune étude ne la donne ; France entière ≈ 0,5 (OCDE WP 1589, 2019, France 0,49 ; Chapelle, Eyméoud et Wolf, THEMA 2023-08). Offre française parmi les plus inélastiques de l'OCDE.",
+   "cote": "B"
+  },
+  "elasticite_demande": {
+   "hyp": "H-FA21",
+   "central": 0.67,
+   "unite": "|élasticité-prix de la demande de logement|",
+   "statut": "estimation",
+   "source": "Friggit (CGEDD, mars 2021) : élasticité du prix au nombre de logements −1,5 pour la France (Chauvin et Muellbauer), soit une élasticité de la demande ≈ −0,67",
+   "cote": "B"
+  },
+  "semi_taux": {
+   "hyp": "H-FA25",
+   "bas": -0.025,
+   "central": -0.05,
+   "haut": -0.09,
+   "unite": "variation du prix pour +1 point de taux des crédits",
+   "statut": "plage de sensibilité",
+   "source": "sources/prix-immobilier-effets-mesures.md (dossier de preuves du 09/11/2026, section « Ce que le modèle peut en tirer » ; fourchettes = interprétation de son auteur, pas des estimations publiées : plages de sensibilité) : −2,5 (France 2022-2024, brut nominal, calcul de l'auteur du dossier sur Eurostat et BCE) ; −5 (BCE, Economic Bulletin 6/2022, linéaire, deux ans) ; −9 (BCE, non linéaire à taux bas) ; moyenne de la littérature ≈ −3 (BCE WP 2789). Recoupement de Claude : élasticité au crédit de Labonne et Welter-Nicol (0,4-0,7) × baisse de 10 % de la capacité d'emprunt par point ≈ −4 à −7",
+   "cote": "B"
+  },
+  "capitalisation_aide": {
+   "hyp": "H-FA26",
+   "bas": 0.0,
+   "central": 0.3,
+   "haut": 0.65,
+   "unite": "part d'une aide à l'achat capitalisée dans les prix (% de sa valeur faciale) : méthode de recoupement",
+   "statut": "plage de sensibilité",
+   "source": "sources/prix-immobilier-effets-mesures.md (dossier de preuves du 09/11/2026, section « Ce que le modèle peut en tirer » ; fourchettes = interprétation de son auteur, pas des estimations publiées : plages de sensibilité) : 0 % (offre élastique, Carozzi, Hilber, Yu, frontière anglo-galloise) ; ≈ 30 % (Londres, Help to Buy) ; 50-80 % (Fack : aides au logement absorbées par les loyers)",
+   "cote": "A/B"
+  },
+  "niches_retroactif": {
+   "hyp": "H-FA34",
+   "bas": 1.0,
+   "central": 0.5,
+   "haut": 0.0,
+   "unite": "part du parc sous dispositif fiscal qui perd l'avantage en cours (suppression appliquée aux engagements en cours)",
+   "statut": "hypothese ⚠️",
+   "source": "choix de Claude : supprimer un avantage en cours d'engagement se heurte à la protection des situations légalement acquises (Conseil constitutionnel, non relu) ; 0 = suppression pour les seuls nouveaux investissements (aucune vente provoquée)"
+  },
+  "experimentation": {
+   "hyp": "H-FA70 à H-FA78",
+   "bas": {
+    "chantier": 0.5,
+    "revenu_sortie": 1480,
+    "cout_formation": 5000,
+    "part_materiaux": 0.5,
+    "gestion": 1200,
+    "impayes": 0.002
+   },
+   "central": {
+    "age_formation": 20,
+    "chantier": 1.0,
+    "revenu_sortie": 1360,
+    "cout_formation": 34000,
+    "part_materiaux": 0.6,
+    "surface": 40,
+    "decote": 0.12,
+    "cout_reno_m2": 450,
+    "gestion": 1800,
+    "impayes": 0.005,
+    "frais_acq": 0.01,
+    "charges": 0.0075,
+    "valeur_travaux": 1.0,
+    "frais_revente": 0.05,
+    "croissance_revenu": 0.035,
+    "croissance_prix": 0.025,
+    "sigma_prix_commune": 0.06,
+    "defaut_annuel": 0.01,
+    "emploi_sortie": 0.65,
+    "achevement": 0.7
+   },
+   "haut": {
+    "chantier": 1.5,
+    "revenu_sortie": 1260,
+    "cout_formation": 92000,
+    "part_materiaux": 0.8,
+    "gestion": 2500,
+    "impayes": 0.01
+   },
+   "unite": "chantier : années entre l'entrée en formation (20 ans) et l'entrée dans le logement ; revenu_sortie : € nets par mois à la sortie de formation ; cout_formation : € par jeune ; part_materiaux : part du coût de rénovation payée (le jeune fournit la main-d'œuvre) ; gestion : € par contrat et par an (gestion 300 € + accompagnement de chantier) ; sigma_prix_commune : écart-type de l'évolution annuelle des prix entre communes",
+   "statut": "hypothèses ⚠️ sauf revenu_sortie",
+   "source": "revenu_sortie (après l'alternance, ouvrier qualifié) : médiane du premier emploi des sortants de CAP-BEP, 1 360 € nets (Génération 2021, Céreq, Bref n° 487-488, juillet 2026, A) ; bas = Smic net (1 478 €, F15 de la foncière), haut = sans diplôme (1 260 €). cout_formation : coût net par formé de modeles/batisseurs-et-repas (34 k€ [5 ; 92], valeur des travaux des alternants déduite), d'où la rénovation comptée en matériaux seulement. cout_reno_m2 et decote : H-FA50. gestion : 300 € (H-FU25) + accompagnement ⚠️. sigma_prix_commune, defaut_annuel, emploi_sortie, achevement : ⚠️ ordres de grandeur non sourcés (taux de rupture des contrats d'apprentissage et insertion à 6 mois : Dares, non relus)."
+  },
+  "alternance": {
+   "hyp": "H-FA73",
+   "central": {
+    "smic_brut": 1867.02,
+    "pct_20_an1": 0.43,
+    "pct_21_an2": 0.61,
+    "pct_21_an3": 0.78,
+    "duree_formation": 1.5
+   },
+   "unite": "part du Smic brut mensuel (rémunération minimale de l'apprenti) ; durée de la formation en années",
+   "statut": "fait (barème) / estimation (durée)",
+   "source": "Service-public.gouv.fr, fiche F2918, « vérifié le 08 septembre 2026 », consultée le 09/11/2026 (A) : 18-20 ans 43 % / 51 % / 67 %, 21-25 ans 53 % / 61 % / 78 % du Smic (1 867,02 € brut) ; contrats depuis le 01/03/2025 : exonération de cotisations salariales et de CSG-CRDS jusqu'à 50 % du Smic. Durée de la formation : 18 mois (H7 de modeles/batisseurs-et-repas, 12 / 18 / 24 mois)",
+   "cote": "A"
+  },
+  "filiere": {
+   "hyp": "H-FA80 à H-FA83",
+   "bas": {
+    "etp_par_renovation": 0.28,
+    "maintien": 0.7,
+    "departs": 0.05,
+    "part_a_renover": 0.15,
+    "cout_net_formation": 5000
+   },
+   "central": {
+    "etp_par_renovation": 0.35,
+    "maintien": 0.6,
+    "departs": 0.08,
+    "part_a_renover": 0.4,
+    "cout_net_formation": 34000,
+    "cout_brut_formation": 67000,
+    "valeur_travaux_formation": 33000
+   },
+   "haut": {
+    "etp_par_renovation": 0.45,
+    "maintien": 0.45,
+    "departs": 0.12,
+    "part_a_renover": 0.5,
+    "cout_net_formation": 92000
+   },
+   "unite": "années-ETP par rénovation d'ampleur ; part des formés encore dans la filière un an après ; départs annuels ensuite ; part des logements entrants à rénover ; coût de formation par personne (€)",
+   "statut": "hypothèses reprises",
+   "source": "modeles/batisseurs-et-repas/methode.md : H5 (0,28 / 0,35 / 0,45 année-ETP par rénovation d'ampleur, 📐 ⚠️ V32308, recoupé par le chiffre d'affaires par ETP et Métiers 2030) ; H14 (maintien 70 / 60 / 45 %) ; H15 (départs 5 / 8 / 12 %) ; resultats.md : coût par formé 67 k€ dont 33 k€ de valeur des travaux réalisés, coût net 34 k€ [5 ; 92]. Part des logements à rénover : 40 % des ventes d'anciens sont E, F ou G (bilan notarial 2024, relayé, C ⚠️) ; 15 % de F-G (notaires, T2 2025, B). Le coût net de formation compte déjà la main-d'œuvre des alternants sur les chantiers : la rénovation n'est comptée qu'en matériaux (pas de double compte)."
+  },
+  "compagnons": {
+   "hyp": "H-FA84",
+   "central": {
+    "jeunes_formes_an": 11000,
+    "nouveaux_contrats_an": 2552
+   },
+   "unite": "jeunes formés par an par les Compagnons du Devoir, tous métiers (35 métiers, pas seulement le bâtiment) ; nouveaux contrats d'apprentissage signés (juin 2024)",
+   "statut": "fait (source d'acteur)",
+   "source": "Compagnons du Devoir, plaquette institutionnelle 2026 (https://compagnons-du-devoir.com/wp-content/uploads/2026/03/Plaquette-Institutionnelle-2026.pdf) : plus de 11 000 jeunes formés par an ; rapport annuel 2019 : 10 062 ; lettre du conseil n° 88 (septembre 2024) : 2 552 jeunes ayant signé un contrat avec une entreprise en juin 2024 (lus via un moteur de recherche, non ouverts, C : acteur intéressé). Part du bâtiment non publiée dans ces extraits. Fédération compagnonnique et Union compagnonnique : effectifs non trouvés ⚠️. Ne pas confondre avec l'association Compagnons Bâtisseurs (auto-réhabilitation accompagnée).",
+   "cote": "C"
+  },
+  "regimes_revenu": {
+   "hyp": "H-FA75",
+   "central": {
+    "plancher": 877,
+    "apl_locataire": 180,
+    "apl_accession": 0
+   },
+   "bas": {
+    "apl_locataire": 220
+   },
+   "haut": {
+    "apl_locataire": 140
+   },
+   "unite": "€ par mois : plancher du système proposé (part logement de 250 € comprise) ; aide au logement d'un locataire de 21 ans en alternance (droit actuel) ; aide d'un accédant (droit actuel)",
+   "statut": "donnée de l'auteur (plancher) / hypothèse (montant d'APL) / fait (accession)",
+   "source": "plancher de 877 € : chapitre 4 (donnée transmise par l'auteur, chapitre absent de la copie) ; part logement maintenue pendant l'accession : § 14 de la note de conception de la foncière (atelier, non publiée) ; retrait de la part logement avec le revenu : H-CO31 (capital-de-depart-options). APL accession supprimée pour les prêts signés depuis le 01/01/2018, sauf logements anciens en zone 3 jusqu'au 31/12/2019 (F14 de fonciere-usufruit, réponses ministérielles, B) ; un usufruit acquis n'ouvre a priori pas droit à l'APL locative (⚠️ à vérifier). APL moyenne en locatif hors foyers 222 €/mois en 2023 (DHUP, brochure du barème 2024, A) ; 180 € pour un alternant de 21 ans seul : ⚠️ hypothèse non calculée au barème"
+  },
+  "villes_types": {
+   "hyp": "H-FA76",
+   "central": {
+    "metropole_regionale": {
+     "ventes": 2338,
+     "residences_principales": 87000,
+     "secteur": "metropoles",
+     "nom": "Grenoble"
+    },
+    "ville_moyenne": {
+     "ventes": 1500,
+     "residences_principales": 30000,
+     "secteur": "villes_moyennes"
+    },
+    "petite_ville": {
+     "ventes": 300,
+     "residences_principales": 6000,
+     "secteur": "rural"
+    }
+   },
+   "unite": "ventes de logements par an et résidences principales de la commune",
+   "statut": "hypothese ⚠️",
+   "source": "Grenoble (exemple chiffré ; la ville de l'expérimentation n'est pas choisie) : ventes d'un seul logement DVF 2024 de la commune (donnees/grenoble.csv, A) ; résidences principales ≈ 87 000 (ordre de grandeur du recensement, ⚠️ non relu). Ville moyenne et petite ville : ordres de grandeur de Claude (une ville de 60 000 habitants, une de 12 000) ⚠️, à remplacer par les données de la ville choisie. Part E-F-G : 30 % des résidences principales (SDES, H1 de batisseurs-et-repas) ; à Grenoble, part mesurée dans les DPE d'appartements (donnees/dpe_classe_surface.csv)"
+  },
+  "copropriete": {
+   "hyp": "H-FA77",
+   "central": {
+    "gain_iti": 0.45,
+    "cout_iti_m2": 160,
+    "cout_renovation_copro": 22343,
+    "lots_immeuble": 20
+   },
+   "unite": "baisse du besoin de chauffage par isolation intérieure ; coût de l'isolation intérieure (€/m²) ; coût moyen d'une rénovation d'ampleur en copropriété (€/logement) ; lots d'un immeuble type",
+   "statut": "hypothèses reprises / fait",
+   "source": "modeles/loyers-energie (H12 : isolation intérieure −45 % du besoin, −4 % de surface ; H13 : 160 €/m², ⚠️ V29007) ; SDES/ONRE, rénovations d'ampleur aidées par l'Anah en 2024, MaPrimeRénov' Copropriété : 22 343 € par logement (A) ; immeuble de 20 lots : hypothèse ⚠️"
+  }
+ }
+}

@@ -1,0 +1,123 @@
+Dossiers actifs UE27 : 1995 ; médiane 71 ; moyenne 73.9
+1 Espagne 124 {'Saisine de la Cour': 23, 'Mise en demeure': 66, 'Avis motivé': 35} retard transposition 27
+2 Pologne 109 {'Mise en demeure': 64, 'Avis motivé': 30, 'Saisine de la Cour': 15} retard transposition 21
+3 Hongrie 103 {'Mise en demeure': 64, 'Avis motivé': 22, 'Saisine de la Cour': 17} retard transposition 11
+4 Portugal 102 {'Mise en demeure': 64, 'Saisine de la Cour': 12, 'Avis motivé': 26} retard transposition 20
+5 Belgique 100 {'Saisine de la Cour': 6, 'Mise en demeure': 63, 'Avis motivé': 31} retard transposition 17
+6 Grèce 90 {'Saisine de la Cour': 19, 'Mise en demeure': 55, 'Avis motivé': 16} retard transposition 10
+7 France 86 {'Saisine de la Cour': 9, 'Mise en demeure': 59, 'Avis motivé': 18} retard transposition 11
+8 Italie 84 {'Saisine de la Cour': 14, 'Mise en demeure': 51, 'Avis motivé': 19} retard transposition 13
+9 Bulgarie 79 {'Saisine de la Cour': 15, 'Mise en demeure': 44, 'Avis motivé': 20} retard transposition 13
+10 Chypre 77 {'Saisine de la Cour': 3, 'Mise en demeure': 54, 'Avis motivé': 20} retard transposition 10
+11 Pays-Bas 74 {'Mise en demeure': 52, 'Avis motivé': 19, 'Saisine de la Cour': 3} retard transposition 14
+12 Roumanie 73 {'Saisine de la Cour': 6, 'Mise en demeure': 47, 'Avis motivé': 20} retard transposition 10
+13 Tchéquie 71 {'Avis motivé': 19, 'Mise en demeure': 49, 'Saisine de la Cour': 3} retard transposition 9
+14 Allemagne 71 {'Mise en demeure': 53, 'Saisine de la Cour': 6, 'Avis motivé': 12} retard transposition 11
+15 Malte 71 {'Mise en demeure': 55, 'Saisine de la Cour': 4, 'Avis motivé': 12} retard transposition 6
+16 Autriche 70 {'Mise en demeure': 53, 'Avis motivé': 16, 'Saisine de la Cour': 1} retard transposition 15
+17 Slovaquie 70 {'Saisine de la Cour': 6, 'Mise en demeure': 48, 'Avis motivé': 16} retard transposition 5
+18 Croatie 64 {'Saisine de la Cour': 1, 'Avis motivé': 19, 'Mise en demeure': 44} retard transposition 9
+19 Lettonie 63 {'Avis motivé': 15, 'Mise en demeure': 48} retard transposition 12
+20 Slovénie 62 {'Mise en demeure': 51, 'Saisine de la Cour': 2, 'Avis motivé': 9} retard transposition 8
+21 Luxembourg 60 {'Mise en demeure': 50, 'Avis motivé': 8, 'Saisine de la Cour': 2} retard transposition 18
+22 Irlande 58 {'Saisine de la Cour': 8, 'Mise en demeure': 40, 'Avis motivé': 10} retard transposition 7
+23 Estonie 54 {'Mise en demeure': 40, 'Saisine de la Cour': 2, 'Avis motivé': 12} retard transposition 13
+24 Suède 52 {'Mise en demeure': 40, 'Avis motivé': 7, 'Saisine de la Cour': 5} retard transposition 9
+25 Finlande 47 {'Mise en demeure': 35, 'Saisine de la Cour': 2, 'Avis motivé': 10} retard transposition 6
+26 Lituanie 45 {'Mise en demeure': 41, 'Avis motivé': 3, 'Saisine de la Cour': 1} retard transposition 6
+27 Danemark 36 {'Mise en demeure': 27, 'Avis motivé': 7, 'Saisine de la Cour': 2} retard transposition 5
+
+France : 86 {'Saisine de la Cour': 9, 'Mise en demeure': 59, 'Avis motivé': 18}
+Par domaine : [('Environnement', 17), ('Services financiers', 13), ('Justice et consommateurs', 11), ('Énergie', 9), ('Migration et affaires intérieures', 9), ('Autres', 7), ('Transports', 6), ('Marché intérieur', 6), ('Fiscalité et douane', 5), ('Emploi et affaires sociales', 3)]
+Par motif : [('Non-communication', 42), ('Non-conformity', 19), ('Bad application', 13), ('Regulations - treaties - decisions', 12)]
+Dont non-communication avec sanctions possibles (art. 260(3)) : 39
+Ouverts en 2026 (première décision) : 40 ; avant 2010 : 1
+
+Liste France :
+INFR(2008)2190 | Saisine de la Cour | 30/10/2020 | Environnement | AIR - AIR QUALITY: PM10 LIMIT VALUES EXCEEDANCES
+INFR(2010)2062 | Mise en demeure | 29/09/2011 | Competition | FAILURE TO COMPLY WITH THE COMMISSION'S DECISION OF 16/12/2008 ON AID SCHEME FOR THE TAKEO
+INFR(2010)2066 | Mise en demeure | 28/10/2010 | Transports | Non-conformity of the bilateral Air Services Agreement between France and the Russian Fede
+INFR(2013)2006 | Saisine de la Cour | 25/07/2024 | Environnement | AIR - NOISE - BRUIT - Mise en œuvre de la directive 2002/49/CE du 25 juin 2002 relative à 
+INFR(2015)2074 | Mise en demeure | 7/02/2024 | Environnement | AIR - Violation par la France de la Directive 2008/50/CE concernant la qualité de l'air am
+INFR(2017)2125 | Saisine de la Cour | 9/06/2021 | Environnement | EAU - MAUVAISE APPLICATION DE LA DIRECTIVE  91/271/CEE RELATIVE AU TRAITEMENT  DES EAUX UR
+INFR(2018)2232 | Mise en demeure | 7/05/2025 | Emploi et affaires sociales | Non-conformity of French legislation with the Directive 2014/67/EU on the enforcement of D
+INFR(2019)2021 | Avis motivé | 15/07/2022 | Environnement | IMPACT - Non-conformity of French legislation with the EIA Directive 2011/92/EU as amended
+INFR(2019)2151 | Saisine de la Cour | 8/07/2026 | Environnement | NATURE - Mauvaise application de la directive oiseaux concernant les conditions de chasses
+INFR(2020)2273 | Saisine de la Cour | 25/07/2024 | Environnement | EAU - Mauvaise application par la France de la directive (UE) 2020/2184 du 16/12/2020 rela
+INFR(2020)4036 | Avis motivé | 15/07/2022 | Environnement | NATURE - Mauvaise application du droit de l'UE (Directive habitats) relatif à la protectio
+INFR(2021)2176 | Avis motivé | 7/05/2025 | Transports | Failure to comply with Union law of the French legislation introducing a ban on spending d
+INFR(2022)0305 | Avis motivé | 30/01/2026 | Justice et consommateurs | Lack of complete transposition of the European Accessibility Act by France
+INFR(2022)2103 | Avis motivé | 3/10/2024 | Énergie | Partial transposition by France of Directive (EU) 2019/944 on common rules for the interna
+INFR(2022)4028 | Saisine de la Cour | 17/07/2025 | Marché intérieur | Possible breach of Treaty rules by France due to mandatory labelling on packaging of house
+INFR(2023)2130 | Mise en demeure | 20/12/2023 | Migration et affaires intérieures | Incorrect transposition and lack of implementation by France of certain provisions of the 
+INFR(2023)2164 | Avis motivé | 12/02/2025 | Services financiers | Incorrect transposition of the Mortgage Credit Directive by France
+INFR(2023)2188 | Mise en demeure | 24/04/2024 | Services financiers | Incorrect transposition of the 5th Anti-Money Laundering Directive by France
+INFR(2024)0058 | Avis motivé | 1/10/2026 | Migration et affaires intérieures | Lack of transposition of the Blue Card Directive by France
+INFR(2024)0061 | Mise en demeure | 24/01/2024 | Climate Action | Lack of transposition of Directive (EU) 2023/959 on emission trading system (ETS) - first 
+INFR(2024)0188 | Mise en demeure | 24/07/2024 | Climate Action | Lack of transposition of Directive (EU) 2023/959 on emission trading system (ETS) – second
+INFR(2024)0227 | Avis motivé | 30/01/2026 | Énergie | Partial transposition by France of the permitting provisions of Directive (EU) 2023/2413 o
+INFR(2024)0274 | Saisine de la Cour | 8/07/2026 | Communications Networks, Content and Technology | Lack of transposition of Directive (EU) 2022/2555 on measures for a high common level of c
+INFR(2024)0275 | Saisine de la Cour | 29/04/2026 | Migration et affaires intérieures | Lack of transposition of the Directive on the resilience of critical entities by  France
+INFR(2024)2017 | Avis motivé | 7/05/2025 | Environnement | WASTE – Déchets – Transposition non conforme par la France de la directive (UE) 2018/851 m
+INFR(2024)2020 | Mise en demeure | 24/04/2024 | Transports | Incorrect application by France of legal provisions governing the performance and charging
+INFR(2024)2096 | Mise en demeure | 3/10/2024 | Environnement | WASTE – Non-conform transposition by France of Directive (EU) 2019/904 on the reduction of
+INFR(2024)2108 | Mise en demeure | 16/12/2024 | Emploi et affaires sociales | Failure by France to comply with the freedom to provide services due to unjustified prior 
+INFR(2024)2141 | Mise en demeure | 25/07/2024 | Environnement | Waste - Bad application by France of the Waste Framework Directive and Waste Electrical an
+INFR(2024)2249 | Mise en demeure | 16/12/2024 | Marché intérieur | Incompatibility with European Union Law of the French Certification scheme for energy effi
+INFR(2024)2267 | Mise en demeure | 12/02/2025 | Environnement | WASTE- Transposition incorrecte par la France de la Directive 1999/31/CE concernant la mis
+INFR(2024)4005 | Saisine de la Cour | 4/06/2026 | Marché intérieur | Failure by France to comply with the freedom of establishment and freedom to provide servi
+INFR(2025)0054 | Avis motivé | 11/03/2026 | Migration et affaires intérieures | Lack of transposition of the Directive on information exchange by France
+INFR(2025)0140 | Avis motivé | 11/12/2025 | Services financiers | Lack of transposition of Directive on digital operational resilience for the financial sec
+INFR(2025)0141 | Mise en demeure | 26/03/2025 | Énergie | Partial transposition by France of Directive (EU) 2024/1711 as regards improving the Union
+INFR(2025)0220 | Avis motivé | 11/12/2025 | Énergie | Lack of transposition by France of Directive (EU) 2023/2413 as regards the promotion of en
+INFR(2025)0221 | Avis motivé | 4/06/2026 | Justice et consommateurs | Partial transposition of Directive 2024/1226
+INFR(2025)0271 | Mise en demeure | 24/09/2025 | Services financiers | Non- transposition of the European Single Access Point (ESAP) Directive by France in relat
+INFR(2025)0326 | Mise en demeure | 20/11/2025 | Énergie | Lack of transposition by France of the recast Directive (EU) 2023/1791 on energy efficienc
+INFR(2025)0327 | Mise en demeure | 20/11/2025 | Services financiers | Non-transposition of the Directive on Consolidated tape amending MiFID 2 by France
+INFR(2025)2003 | Mise en demeure | 12/03/2025 | Justice et consommateurs | FR - non-conformity - transposition of the Package Travel Directive (EU) 2015/2302 concern
+INFR(2025)2060 | Avis motivé | 1/10/2026 | Fiscalité et douane | Late implementation of UCC IT system by France –  Automated Export System
+INFR(2025)2105 | Mise en demeure | 17/07/2025 | Environnement | WATER - Non-conform transposition of the Drinking Water Directive by France
+INFR(2025)2150 | Avis motivé | 8/07/2026 | Fiscalité et douane | TVA - fonctionnalités informatiques nécessaires au régime particulier des petites entrepri
+INFR(2025)2158 | Mise en demeure | 8/10/2025 | Migration et affaires intérieures | Incorrect transposition of firearms legislation by France
+INFR(2025)2180 | Avis motivé | 1/10/2026 | Transports | Infringement of Regulation 2017/352 and of Article 49 TFEU - national flag requirements fo
+INFR(2025)4012 | Mise en demeure | 18/06/2025 | Emploi et affaires sociales | Incorrect transposition of Article 7 of Directive 2003/88/EC concerning certain aspects of
+INFR(2025)4014 | Mise en demeure | 11/03/2026 | Fiscalité et douane | France - Possible violation de la Directive mère-filiale 2011/96/UE
+INFR(2026)0069 | Avis motivé | 1/10/2026 | Justice et consommateurs | Lack of transposition of Directive on credit agreements for consumers (2023/2225) by Franc
+INFR(2026)0070 | Mise en demeure | 29/01/2026 | Transports | Lack of transposition of Directive (EU) 2023/2661 on  the deployment of Intelligent Transp
+INFR(2026)0071 | Mise en demeure | 29/01/2026 | Economic and Financial Affairs | Lack of transposition of Directive 32024L1265 by France
+INFR(2026)0072 | Mise en demeure | 29/01/2026 | Agriculture and Rural Development | Non-communication of transposition measures of Directive (EU) 2024/1438 by France
+INFR(2026)0175 | Mise en demeure | 26/03/2026 | Justice et consommateurs | Lack of transposition of Directive 32023L1544 by France
+INFR(2026)0176 | Mise en demeure | 26/03/2026 | Services financiers | Non-transposition of the Directive on the European Single Access Point (ESAP) by France in
+INFR(2026)0177 | Mise en demeure | 26/03/2026 | Services financiers | Non-transposition of the Sixth Capital Requirements Directive by France
+INFR(2026)0241 | Mise en demeure | 27/05/2026 | Justice et consommateurs | Lack of transposition of Directive 32024L0825 by France
+INFR(2026)0242 | Mise en demeure | 27/05/2026 | Services financiers | Non-transposition of the Directive amending AIFMD and UCITS Directives by France
+INFR(2026)0369 | Mise en demeure | 14/07/2026 | Justice et consommateurs | Lack of transposition of Directive 32024L1203 by France
+INFR(2026)0370 | Mise en demeure | 14/07/2026 | Migration et affaires intérieures | Lack of transposition of Directive 32024L1233 by France
+INFR(2026)0371 | Mise en demeure | 14/07/2026 | Énergie | Lack of transposition of Directive (EU) 2024/1275 on the energy performance of buildings b
+INFR(2026)0372 | Mise en demeure | 14/07/2026 | Migration et affaires intérieures | Lack of transposition of Directive 32024L1346 by France
+INFR(2026)0373 | Mise en demeure | 14/07/2026 | Justice et consommateurs | Lack of transposition of Directive 32024L1499 by France
+INFR(2026)0374 | Mise en demeure | 14/07/2026 | Justice et consommateurs | Lack of transposition of Directive 32024L1500 by France
+INFR(2026)0375 | Mise en demeure | 14/07/2026 | Marché intérieur | Lack of transposition of Directive (EU) 2024/2749 by France
+INFR(2026)0376 | Mise en demeure | 14/07/2026 | Services financiers | Non-transposition of the Listing Act Directive by France
+INFR(2026)0377 | Mise en demeure | 14/07/2026 | Services financiers | Non-transposition of the EMIR targeted review by France
+INFR(2026)0378 | Mise en demeure | 14/07/2026 | Defence Industry and Space | Lack of communication by France of national transposition measures for Directive (EU) 2026
+INFR(2026)0580 | Mise en demeure | 24/09/2026 | Services financiers | Non-transposition of the 6th Anti-Money Laundering Directive (Art. 11, 12, 13 and 15) by F
+INFR(2026)0581 | Mise en demeure | 24/09/2026 | Énergie | Lack of transposition of Directive 32024L1711 by France
+INFR(2026)0582 | Mise en demeure | 24/09/2026 | Migration et affaires intérieures | Lack of transposition of Directive 32024L1712 by France
+INFR(2026)0583 | Mise en demeure | 24/09/2026 | Environnement | Lack of transposition of Directive 1785/2024 on industrial emissions by France
+INFR(2026)0584 | Mise en demeure | 24/09/2026 | Énergie | Lack of transposition of Directive (EU) 2024/1788 on common rules for the internal markets
+INFR(2026)0585 | Mise en demeure | 24/09/2026 | Justice et consommateurs | Lack of transposition of Directive 32024L1799 by France
+INFR(2026)0586 | Mise en demeure | 24/09/2026 | Justice et consommateurs | Lack of transposition of Directive 32026L0074 by France
+INFR(2026)2011 | Mise en demeure | 11/03/2026 | Environnement | WATER - Mauvaise transposition par la France de la directive-cadre eau (2000/60/CE)
+INFR(2026)2042 | Mise en demeure | 29/04/2026 | Migration et affaires intérieures | Incorrect transposition of Directive 2018/1673 on combating money laundering by criminal l
+INFR(2026)2048 | Mise en demeure | 29/04/2026 | Transports | Incorrect application by France of Directive 2008/96/EC on road infrastructure safety mana
+INFR(2026)2077 | Mise en demeure | 4/06/2026 | Services financiers | Lack of notification of implementing measures introduced by the Instant Payment Regulation
+INFR(2026)2087 | Mise en demeure | 8/07/2026 | Fiscalité et douane | Taxation of dividends received by parent companies resident in France from subsidiaries re
+INFR(2026)2102 | Mise en demeure | 8/07/2026 | Environnement | WATER - Mauvaise application de la Directive 91/271 relative au traitement des eaux résidu
+INFR(2026)2142 | Mise en demeure | 8/07/2026 | Services financiers | Lack of notification of implementing measures introduced by the Digital Operational Resili
+INFR(2026)2165 | Mise en demeure | 1/10/2026 | Fiscalité et douane | Late implementation by France of the Centralised Clearance for Import (CCI) system
+INFR(2026)2192 | Mise en demeure | 1/10/2026 | Énergie | Failure by France to notify the updated risk-preparedness plan under Regulation (EU) 2019/
+INFR(2026)4002 | Mise en demeure | 29/04/2026 | Marché intérieur | Breach of EU Treaty rules on free movement of goods in relation to a certificate-based sup
+INFR(2026)4017 | Mise en demeure | 1/10/2026 | Marché intérieur | Access restrictions for mandatory standards on the AFNOR website for users located outside
+INFR(2026)6000 | Avis motivé | 21/10/2026 | Environnement | Art. 259 TFEU - BELGIUM v FRANCE - Development of an offshore wind farm by France under th
+écrit $DONNEES/resultats/europe/infractions_ue_2026.png

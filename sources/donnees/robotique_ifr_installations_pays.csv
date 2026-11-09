@@ -1,0 +1,32 @@
+# source: IFR World Robotics 2022, 2024, 2025, 2026 (communiqués/exec. summaries) ; unité: robots industriels installés dans l'année ; date consultation: 2026-10-25
+# note: lignes statut=estimation pour 2023 = valeurs reconstituées à partir des variations publiées dans WR2025 (non publiées telles quelles dans les sources consultées).
+annee,pays,valeur,unite,statut,source_url,note
+2021,Chine,268195,unités,mesure,https://ifr.org/img/worldrobotics/Executive_Summary_WR_Industrial_Robots_2022.pdf,
+2021,Japon,47182,unités,mesure,https://ifr.org/img/worldrobotics/Executive_Summary_WR_Industrial_Robots_2022.pdf,
+2021,Etats-Unis,34987,unités,mesure,https://ifr.org/img/worldrobotics/Executive_Summary_WR_Industrial_Robots_2022.pdf,
+2021,Coree du Sud,31083,unités,mesure,https://ifr.org/img/worldrobotics/Executive_Summary_WR_Industrial_Robots_2022.pdf,
+2021,Allemagne,23777,unités,mesure,https://ifr.org/img/worldrobotics/Executive_Summary_WR_Industrial_Robots_2022.pdf,
+2021,Italie,14083,unités,mesure,https://ifr.org/img/worldrobotics/Executive_Summary_WR_Industrial_Robots_2022.pdf,
+2021,France,5945,unités,mesure,https://ifr.org/img/worldrobotics/Executive_Summary_WR_Industrial_Robots_2022.pdf,
+2022,France,7380,unités,mesure,https://www.businesswire.com/news/home/20230926883250/en/,record historique France (WR2023)
+2023,Chine,276288,unités,mesure,https://ifr.org/downloads/press2018/2024-SEP-24_IFR_press_release_World_Robotics_2024_-_China.pdf,51 % du total mondial
+2023,Japon,46350,unités,estimation,https://ifr.org/ifr-press-releases/news/global-robot-demand-in-factories-doubles-over-10-years,"dérivé de 44 500 / 0,96"
+2023,Etats-Unis,37600,unités,estimation,https://ifr.org/ifr-press-releases/news/global-robot-demand-in-factories-doubles-over-10-years,"dérivé de 34 200 / 0,91"
+2023,Coree du Sud,31550,unités,estimation,https://ifr.org/ifr-press-releases/news/global-robot-demand-in-factories-doubles-over-10-years,"dérivé de 30 600 / 0,97"
+2023,Allemagne,28400,unités,estimation,https://ifr.org/ifr-press-releases/news/global-robot-demand-in-factories-doubles-over-10-years,"dérivé de 26 982 / 0,95"
+2023,France,6450,unités,estimation,https://ifr.org/ifr-press-releases/news/global-robot-demand-in-factories-doubles-over-10-years,"dérivé de 4 900 / 0,76"
+2024,Chine,295000,unités,mesure,https://ifr.org/ifr-press-releases/news/global-robot-demand-in-factories-doubles-over-10-years,54 % du total mondial
+2024,Japon,44500,unités,mesure,https://ifr.org/ifr-press-releases/news/global-robot-demand-in-factories-doubles-over-10-years,-4 %
+2024,Etats-Unis,34200,unités,mesure,https://ifr.org/ifr-press-releases/news/global-robot-demand-in-factories-doubles-over-10-years,-9 %
+2024,Coree du Sud,30600,unités,mesure,https://ifr.org/ifr-press-releases/news/global-robot-demand-in-factories-doubles-over-10-years,-3 %
+2024,Allemagne,26982,unités,mesure,https://ifr.org/ifr-press-releases/news/global-robot-demand-in-factories-doubles-over-10-years,-5 %
+2024,Italie,8783,unités,mesure,https://ifr.org/ifr-press-releases/news/global-robot-demand-in-factories-doubles-over-10-years,-16 %
+2024,France,4900,unités,mesure,https://ifr.org/ifr-press-releases/news/global-robot-demand-in-factories-doubles-over-10-years,-24 %
+2025,Chine,354226,unités,mesure,https://ifr.org/img/worldrobotics/Executive_Summary_WR_2026_-_Industrial_Robots.pdf,+20 % ; 59 % du total mondial
+2025,Etats-Unis,38428,unités,mesure,https://ifr.org/img/worldrobotics/Executive_Summary_WR_2026_-_Industrial_Robots.pdf,+12 %
+2025,Japon,36219,unités,mesure,https://thenextweb.com/news/industrial-robots-world-robotics-2026-china-59-eu-falls,-19 % ; communiqué IFR US: 36 200
+2025,Coree du Sud,30200,unités,mesure,https://thenextweb.com/news/industrial-robots-world-robotics-2026-china-59-eu-falls,≈ -1 % ; valeur lue sur graphique IFR reproduit par TNW
+2025,Allemagne,24842,unités,mesure,https://thenextweb.com/news/industrial-robots-world-robotics-2026-china-59-eu-falls,-8 % ; communiqué IFR UE: 24 800
+2025,Italie,7824,unités,mesure,https://thenextweb.com/news/industrial-robots-world-robotics-2026-china-59-eu-falls,-11 % ; communiqué IFR UE: 7 800
+2025,France,4474,unités,mesure,https://thenextweb.com/news/industrial-robots-world-robotics-2026-china-59-eu-falls,-8 % ; communiqué IFR UE: 4 500
+2025,Espagne,4300,unités,mesure,https://ifr.org/downloads/press_docs/EN-2026-SEP-14-IFR_Press_Release_WR-EU-27.pdf,-15 %

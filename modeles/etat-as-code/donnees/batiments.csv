@@ -1,0 +1,4 @@
+id;etat;type;proprietaire_niveau;nombre;annee;surface_m2;cout_entretien_md_eur;source;cote;statut;note
+B-FS;actuel;Structures France services (accueil multi-services);N-OPE;3076;2026;;;ANCT, liste des structures labellisées France services (data.gouv.fr, fichier liste-fs-20261105.csv du 05/11/2026) : 2 928 structures principales et 148 antennes, dans 2 795 communes ;A;fait;locaux portés par des collectivités, La Poste ou des associations ; le label est national
+B-MAIRIE;actuel;Mairies;N-COM;34932;2024;;;une mairie par commune (CGCT) ; nombre de communes : OFGL 2024 ;A;fait;les mairies annexes ne sont pas comptées
+B-ETAT;actuel;Parc immobilier de l'État;N-ETAT;;;;;modeles/grand-livre/agents-publics.md (surfaces par ministère non lues, V18810) ;A;⚠️;à compléter

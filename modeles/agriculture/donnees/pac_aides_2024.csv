@@ -1,0 +1,13 @@
+# source: Chatellier (INRAE), présentation Académie d'agriculture, 27/05/2026, diapo 9 (données MASA/ASP, fonds européens et nationaux, hors Corse et DROM) ; via sources/pac-france-europe.md § 1.2 ; consulté 2026-11-03
+poste,montant_meur,annee,perimetre,source_url,remarque
+total,8479,2024,France métropolitaine hors Corse/DROM,https://www.academie-agriculture.fr/system/files_force/seances-colloques/20260527presentation3.pdf?download=1,271 803 bénéficiaires
+aide_de_base,3083,2024,1er pilier découplé,idem,
+ecoregime,1744,2024,1er pilier découplé,idem,251 201 bénéficiaires
+paiement_redistributif,657,2024,1er pilier découplé,idem,
+jeunes_agriculteurs,133,2024,1er pilier découplé,idem,28 696 bénéficiaires
+couplees_animales,777,2024,1er pilier couplé,idem,
+couplees_vegetales,206,2024,1er pilier couplé,idem,
+ichn,1043,2024,2e pilier,idem,79 457 bénéficiaires
+maec,269,2024,2e pilier,idem,
+bio,201,2024,2e pilier,idem,
+assurance_recolte,366,2024,2e pilier,idem,67 856 bénéficiaires

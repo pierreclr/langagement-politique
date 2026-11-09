@@ -1,0 +1,11 @@
+groupe,nombre_prelevements,dont_avec_montant,dont_moins_150_meur,rendement_total_meur,part_du_total_pct
+absorbé,69,60,8,704170.0,52.93
+maintenu,44,41,13,297560.4,22.37
+à trancher,64,60,26,186104.6,13.99
+supprimé,107,104,62,129010.9,9.7
+converti en redevance incitative,1,1,0,8996.0,0.68
+supprimé avec les impôts locaux,1,1,0,2127.0,0.16
+converti en redevance pour service rendu ⚠️ proposition,24,20,15,1960.3,0.15
+maintenu ou converti en redevance pour service rendu,1,1,0,520.0,0.04
+converti en redevance pour service rendu,3,3,3,15.5,0.0
+TOTAL,314,291,127,1330464.7,100

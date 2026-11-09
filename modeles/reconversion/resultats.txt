@@ -1,0 +1,92 @@
+# Modèle de reconversion — généré par rapport.js (Md€ de 2024 non actualisés sauf mention ; personnes)
+# Hypothèses et ordres de grandeur, jamais des prédictions.
+
+## A. Calibrage (cohorte de 40-49 ans) : perte de revenu du travail par rapport à avant la séparation
+marché | année 1 | année 2 | année 5 | année 10 | non-emploi à 5 ans | VA 20 ans à 5 % (années de revenu)
+favorable | 67 % | 25 % | 8 % | 5 % | 2 % | 1,6
+central | 78 % | 42 % | 16 % | 11 % | 7 % | 2,6
+defavorable | 86 % | 58 % | 28 % | 18 % | 15 % | 3,8
+repères : Bertheau et al. (2023), France : −20 % (t+1), −12 % (t+5), non-emploi ≈ 10 % à 5 ans ; contre témoins toujours employés −25 % / −25,5 % ; Davis et von Wachter (2011), États-Unis : 1,4 an (chômage < 6 %), 2,8 ans (> 8 %)
+
+## B. Scénarios principaux, calendrier rapide (bascule 2029-2032)
+scénario (taille T6 × marché) | postes | absorbés | redéployés | déplacés | retour 1 / 2 / 5 ans | retraite sans retour | pic non-emploi | production manquante cumulée (actualisée 2,5 %) | budget net moyen 2029-2035 | pic (année) | cumul brut / net | dont allocations (plancher) | formation | perte des personnes (années de salaire par déplacé)
+favorable (bas × favorable) | 107 k | 107 k | 0 k | 0 k | 0 % / 0 % / 0 % | 0 k | 0 k | 0,0 (0,0) | 0,00 | 0,00 (null) | 0,0 / 0,0 | 0,0 (0,0) | 0,0 | 0,0 Md€ (0,0)
+central (central × central) | 260 k | 95 k | 58 k | 106 k | 47 % / 69 % / 83 % | 8 k | 41 k | 28,4 (23,6) | 0,54 | 0,88 (2032) | 7,2 / 5,5 | 1,1 (0,4) | 0,5 | 8,2 Md€ (3,1)
+défavorable (haut × defavorable) | 479 k | 46 k | 74 k | 359 k | 33 % / 53 % / 73 % | 48 k | 178 k | 143,4 (116,3) | 3,30 | 5,13 (2032) | 38,1 / 38,1 | 5,8 (3,4) | 4,2 | 40,8 Md€ (4,5)
+
+Retour par âge (scénario central, rapide) : classe | déplacés | en emploi à 1 / 2 / 5 ans | retraite sans retour
+20-29 | 17 k | 57 % / 81 % / 94 % | 0 %
+30-39 | 27 k | 54 % / 79 % / 94 % | 0 %
+40-49 | 28 k | 53 % / 78 % / 93 % | 1 %
+50-54 | 14 k | 43 % / 68 % / 89 % | 4 %
+55-59 | 14 k | 29 % / 51 % / 63 % | 16 %
+60-63 | 7 k | 11 % / 15 % / 0 % | 72 %
+
+Gain net pour la société (Md€) selon la convention de valorisation : convention | 2029 | première année positive | cumul positif dès | cumul 2029-2040 | croisière (2045) | T6 gain réel net
+favorable | v1 | 1,7 | 2029 | 2029 | 71,0 | 6,8 | 3,5
+favorable | v2 | 0,9 | 2029 | 2029 | 36,3 | 3,5 | 3,5
+favorable | prudente | 0,0 | 2029 | 2029 | 1,6 | 0,2 | 3,5
+central | v1 | 3,6 | 2029 | 2029 | 179,1 | 18,7 | 15,1
+central | v2 | 1,7 | 2029 | 2029 | 97,8 | 10,7 | 15,1
+central | prudente | -0,1 | 2032 | 2033 | 16,4 | 2,7 | 15,1
+défavorable | v1 | 4,2 | 2029 | 2029 | 279,2 | 33,9 | 32,9
+défavorable | v2 | 1,0 | 2029 | 2029 | 138,5 | 19,5 | 32,9
+défavorable | prudente | -2,1 | 2035 | 2041 | -2,2 | 5,0 | 32,9
+
+## B. Scénarios principaux, calendrier lent (2029-2038, non-remplacement et attrition)
+scénario (taille T6 × marché) | postes | absorbés | redéployés | déplacés | retour 1 / 2 / 5 ans | retraite sans retour | pic non-emploi | production manquante cumulée (actualisée 2,5 %) | budget net moyen 2029-2035 | pic (année) | cumul brut / net | dont allocations (plancher) | formation | perte des personnes (années de salaire par déplacé)
+favorable (bas × favorable) | 107 k | 107 k | 0 k | 0 k | 0 % / 0 % / 0 % | 0 k | 0 k | 0,0 (0,0) | 0,00 | 0,00 (null) | 0,0 / 0,0 | 0,0 (0,0) | 0,0 | 0,0 Md€ (0,0)
+central (central × central) | 260 k | 235 k | 9 k | 16 k | 47 % / 69 % / 83 % | 1 k | 5 k | 4,2 (3,2) | 0,03 | 0,10 (2038) | 1,1 / 0,8 | 0,2 (0,1) | 0,1 | 1,2 Md€ (3,0)
+défavorable (haut × defavorable) | 479 k | 112 k | 62 k | 304 k | 33 % / 53 % / 73 % | 40 k | 86 k | 119,7 (90,9) | 1,58 | 2,50 (2038) | 31,9 / 31,9 | 4,9 (2,9) | 3,5 | 34,0 Md€ (4,4)
+
+Retour par âge (scénario central, lent) : classe | déplacés | en emploi à 1 / 2 / 5 ans | retraite sans retour
+20-29 | 3 k | 57 % / 81 % / 94 % | 0 %
+30-39 | 4 k | 54 % / 79 % / 94 % | 0 %
+40-49 | 4 k | 53 % / 78 % / 93 % | 1 %
+50-54 | 2 k | 43 % / 68 % / 89 % | 4 %
+55-59 | 2 k | 29 % / 51 % / 63 % | 16 %
+60-63 | 1 k | 11 % / 15 % / 0 % | 72 %
+
+Gain net pour la société (Md€) selon la convention de valorisation : convention | 2029 | première année positive | cumul positif dès | cumul 2029-2040 | croisière (2045) | T6 gain réel net
+favorable | v1 | 0,7 | 2029 | 2029 | 50,7 | 6,8 | 3,5
+favorable | v2 | 0,3 | 2029 | 2029 | 25,9 | 3,5 | 3,5
+favorable | prudente | 0,0 | 2029 | 2029 | 1,1 | 0,2 | 3,5
+central | v1 | 1,9 | 2029 | 2029 | 140,8 | 19,0 | 15,1
+central | v2 | 1,1 | 2029 | 2029 | 80,8 | 11,0 | 15,1
+central | prudente | 0,3 | 2029 | 2029 | 20,8 | 3,0 | 15,1
+défavorable | v1 | 2,0 | 2029 | 2029 | 200,2 | 33,5 | 32,9
+défavorable | v2 | 0,7 | 2029 | 2029 | 99,5 | 19,1 | 32,9
+défavorable | prudente | -0,5 | 2037 | 2041 | -1,2 | 4,8 | 32,9
+
+## C. Grille taille T6 × marché (calendrier rapide) : déplacés ; budget net moyen 2029-2035 (Md€/an) ; production manquante cumulée (Md€) ; gain net cumulé 2029-2040, convention prudente (Md€)
+taille \ marché | favorable | central | defavorable
+bas | 0 k ; 0,00 ; 0,0 ; 1,6 | 5 k ; 0,02 ; 1,3 ; 0,9 | 46 k ; 0,42 ; 18,4 ; -8,0
+central | 50 k ; 0,15 ; 8,1 ; 27,2 | 106 k ; 0,54 ; 28,4 ; 16,4 | 175 k ; 1,61 ; 69,8 ; -4,7
+haut | 154 k ; 0,45 ; 25,3 ; 58,3 | 251 k ; 1,27 ; 67,2 ; 36,5 | 359 k ; 3,30 ; 143,4 ; -2,2
+
+## D. Politiques (taille et marché centraux, calendrier rapide sauf « étalement »)
+politique | déplacés | production manquante cumulée | budget net cumulé (dont coût de la politique) | perte des personnes | retraite sans retour
+aucune / rapide | 106 k | 28,4 (0,0) | 5,5 (0,5) | 8,2 | 8 k
+formationCiblee / rapide | 106 k | 28,2 (-0,2) | 5,7 (0,7) | 8,1 | 8 k
+mobilite / rapide | 106 k | 28,1 (-0,3) | 5,5 (0,6) | 8,1 | 8 k
+toutes / rapide | 106 k | 27,9 (-0,6) | 5,7 (0,8) | 8,0 | 8 k
+aucune / lent | 16 k | 4,2 (-24,2) | 0,8 (0,1) | 1,2 | 1 k
+aucune / tres-lent | 0 k | 0,0 (-28,4) | 0,0 (0,0) | 0,0 | 0 k
+toutes / lent | 16 k | 4,2 (-24,3) | 0,8 (0,1) | 1,2 | 1 k
+
+## E. Montants à intégrer dans systeme-ideal [favorable, central, défavorable] (Md€/an, coût budgétaire net, + = coût ; calendrier de la bascule)
+coût net moyen 2029-2035 : [0,00 ; 0,54 ; 3,30]
+coût brut moyen 2029-2035 (sans récupération sur les économies des clients) : [0,00 ; 0,68 ; 3,30]
+pic annuel net : [0,00 (null) ; 0,88 (2032) ; 5,13 (2032)]
+coût net en 2040 (traîne) : [0,00 ; 0,10 ; 0,91]
+série annuelle nette 2029-2040 :
+  favorable : 0,00 ; 0,00 ; 0,00 ; 0,00 ; 0,00 ; 0,00 ; 0,00 ; 0,00 ; 0,00 ; 0,00 ; 0,00 ; 0,00
+  central : 0,41 ; 0,64 ; 0,78 ; 0,88 ; 0,51 ; 0,32 ; 0,24 ; 0,19 ; 0,16 ; 0,13 ; 0,12 ; 0,10
+  défavorable : 2,28 ; 3,55 ; 4,44 ; 5,13 ; 3,31 ; 2,46 ; 1,95 ; 1,60 ; 1,35 ; 1,16 ; 1,02 ; 0,91
+variante choc lent, coût net moyen 2029-2035 : [0,00 ; 0,03 ; 1,58] ; pic : [0,00 ; 0,10 ; 2,50]
+
+## F. Agents publics (sources/economies-effectifs-publics-ia.md) : non-remplacement, aucun licenciement
+bas : 4 k postes non remplacés sur 10 ans = 3 % des départs du vivier (source) ; déplacés : 0
+central : 33 k postes non remplacés sur 10 ans = 25 % des départs du vivier (source) ; déplacés : 0
+haut : 197 k postes non remplacés sur 10 ans = 84 % des départs du vivier (source) ; déplacés : 0
+note : la source écrit aussi « ≈ 14 000 départs par an dans le vivier » (140 k sur 10 ans), incompatible avec 197 k = 84 % des départs (≈ 235 k) : à éclaircir (V9912).

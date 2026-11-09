@@ -1,0 +1,26 @@
+== 3. Réactions D1-D9 déjà comptées (écart avec / sans réactions)
+500 / 0.35 : bas : revenus D1-D9 0.5 %, recettes -4.6 Md€ | central : revenus D1-D9 0.2 %, recettes -16.7 Md€ | haut : revenus D1-D9 1.4 %, recettes -30.2 Md€ | 
+    smic : taux de participation système 54.0 %, actuel 58.2 %
+    median : taux de participation système 49.0 %, actuel 66.3 %
+500 / 0.52 : bas : revenus D1-D9 -2.3 %, recettes -24.8 Md€ | central : revenus D1-D9 -4.6 %, recettes -54.4 Md€ | haut : revenus D1-D9 -7.7 %, recettes -99.5 Md€ | 
+    smic : taux de participation système 71.0 %, actuel 58.2 %
+    median : taux de participation système 64.1 %, actuel 66.3 %
+780 / 0.35 : bas : revenus D1-D9 0.1 %, recettes -6.6 Md€ | central : revenus D1-D9 -1.0 %, recettes -22.6 Md€ | haut : revenus D1-D9 -0.9 %, recettes -42.0 Md€ | 
+    smic : taux de participation système 39.9 %, actuel 58.2 %
+    median : taux de participation système 41.4 %, actuel 66.3 %
+780 / 0.52 : bas : revenus D1-D9 -2.7 %, recettes -27.1 Md€ | central : revenus D1-D9 -5.8 %, recettes -61.5 Md€ | haut : revenus D1-D9 -10.0 %, recettes -113.6 Md€ | 
+    smic : taux de participation système 56.9 %, actuel 58.2 %
+    median : taux de participation système 56.5 %, actuel 66.3 %
+== 6. Option offreTravail sur P1 à P8 (dette/PIB 2065)
+P1 520 € / 40 % : aucune 115.5 % stable | bas 103.3 % stable | central 121.6 % non | haut 133.8 % non | rupture à 0.04 point(s)
+P2 595 € / 44 % : aucune 115.6 % stable | bas 100.9 % stable | central 122.9 % non | haut 137.6 % non | rupture à 0.02 point(s)
+P3 680 € / 48 % : aucune 113.7 % stable | bas 96.0 % stable | central 122.5 % non | haut 140.1 % non | rupture à 0.23 point(s)
+P6 715 € / 50 % : aucune 115.2 % stable | bas 96.1 % stable | central 124.7 % non | haut 143.8 % non | rupture à 0.05 point(s)
+P4 780 € / 52 % : aucune 114.9 % stable | bas 93.8 % stable | central 125.4 % non | haut 146.5 % non | rupture à 0.08 point(s)
+P5 820 € / 54 % : aucune 112.5 % stable | bas 90.0 % stable | central 123.8 % non | haut 146.4 % non | rupture à 0.28 point(s)
+P7 880 € / 56.99999999999999 % : aucune 112.4 % stable | bas 87.5 % stable | central 124.8 % non | haut 149.7 % non | rupture à 0.13 point(s)
+P8 925 € / 60 % : aucune 111.5 % stable | bas 84.6 % stable | central 124.9 % non | haut 151.7 % non | rupture à 0.06 point(s)
+frontière offreTravail=aucune : 523 points, taux plat minimal 0.39 (socle 495), socle maximal par taux plat {"0.4":520,"0.44":615,"0.48":710,"0.5":760,"0.52":805,"0.54":845,"0.57":900,"0.6":950}
+frontière offreTravail=bas : 1380 points, taux plat minimal 0.37 (socle 460), socle maximal par taux plat {"0.4":540,"0.44":640,"0.48":740,"0.5":790,"0.52":835,"0.54":880,"0.57":935,"0.6":980}
+frontière offreTravail=central : 238 points, taux plat minimal 0.41 (socle 535), socle maximal par taux plat {"0.4":"-","0.44":605,"0.48":700,"0.5":745,"0.52":785,"0.54":830,"0.57":885,"0.6":930}
+frontière offreTravail=haut : 15 points, taux plat minimal 0.49 (socle 695), socle maximal par taux plat {"0.4":"-","0.44":"-","0.48":"-","0.5":715,"0.52":755,"0.54":795,"0.57":"-","0.6":"-"}

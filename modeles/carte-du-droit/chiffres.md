@@ -1,0 +1,8 @@
+# Le volume du droit codifié en vigueur (calcul du 06/11/2026)
+
+Source : XML de codes.droit.org (base LEGI de la DILA, mise à jour locale du 03/11/2026 ; `$DONNEES/sources/legi/codes-droit-org/`), 78 codes ; articles à l'état « VIGUEUR ». Calcul : `modeles/carte-du-droit/sommaire.py` et comptage des préfixes de numéro (L = partie législative, votée par le Parlement ; R et D = partie réglementaire, décrets ; A = arrêtés). Cote A (texte officiel).
+
+- **165 657 articles en vigueur**, soit **21,6 millions de mots** : environ 1 440 heures de lecture à 250 mots par minute, près d'une année de travail à temps plein pour une seule lecture, sans relire ni comprendre.
+- Répartition : 52 909 articles législatifs (L), 72 019 réglementaires en Conseil d'État (R), 20 706 décrets simples (D), 2 854 arrêtés (A), 17 169 sans préfixe (dont les 2 407 articles du Code général des impôts, numérotés sans lettre).
+- Les plus gros codes : santé publique 13 667 articles (3 558 L, 8 177 R, 1 902 D) ; travail 11 590 (4 426 L, 5 605 R, 1 552 D) ; rural et pêche maritime 9 826 ; transports 9 257 ; sécurité sociale 7 429 (2 155 L, 3 321 R, 1 671 D) ; environnement 7 277 ; commerce 7 254 ; collectivités territoriales 6 596 ; monétaire et financier 5 313 ; éducation 5 053.
+- **Ce que ce chiffre ne compte pas** : les lois et décrets non codifiés, les circulaires, la doctrine fiscale (BOFiP), les conventions collectives de branche (base KALI), les règlements européens, la jurisprudence. Le droit réellement applicable est donc nettement plus volumineux. ⚠️ À chiffrer pour comparaison (et à comparer avec d'autres pays avant d'en tirer une conclusion : le volume seul ne prouve pas l'incohérence).

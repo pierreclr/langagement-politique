@@ -1,0 +1,192 @@
+ok  seuils du DPE en énergie primaire
+ok  parts du parc locatif privé : somme 1, F + G = 13,8 %
+ok  grenoble bas : le plafond ne mord pas sur A
+ok  grenoble bas : le plafond ne mord pas sur B
+ok  grenoble bas : le plafond ne mord pas sur C
+ok  grenoble bas : le plafond ne mord pas sur D
+ok  grenoble bas : le plafond ne mord pas sur E
+ok  grenoble bas : la baisse croît avec la classe
+ok  grenoble central : le plafond ne mord pas sur A
+ok  grenoble central : le plafond ne mord pas sur B
+ok  grenoble central : le plafond ne mord pas sur C
+ok  grenoble central : le plafond ne mord pas sur D
+ok  grenoble central : la baisse croît avec la classe
+ok  grenoble haut : le plafond ne mord pas sur A
+ok  grenoble haut : le plafond ne mord pas sur B
+ok  grenoble haut : le plafond ne mord pas sur C
+ok  grenoble haut : la baisse croît avec la classe
+ok  angers bas : le plafond ne mord pas sur A
+ok  angers bas : le plafond ne mord pas sur B
+ok  angers bas : le plafond ne mord pas sur C
+ok  angers bas : le plafond ne mord pas sur D
+ok  angers bas : le plafond ne mord pas sur E
+ok  angers bas : la baisse croît avec la classe
+ok  angers central : le plafond ne mord pas sur A
+ok  angers central : le plafond ne mord pas sur B
+ok  angers central : le plafond ne mord pas sur C
+ok  angers central : le plafond ne mord pas sur D
+ok  angers central : la baisse croît avec la classe
+ok  angers haut : le plafond ne mord pas sur A
+ok  angers haut : le plafond ne mord pas sur B
+ok  angers haut : le plafond ne mord pas sur C
+ok  angers haut : la baisse croît avec la classe
+ok  fr bas : le plafond ne mord pas sur A
+ok  fr bas : le plafond ne mord pas sur B
+ok  fr bas : le plafond ne mord pas sur C
+ok  fr bas : le plafond ne mord pas sur D
+ok  fr bas : le plafond ne mord pas sur E
+ok  fr bas : la baisse croît avec la classe
+ok  fr central : le plafond ne mord pas sur A
+ok  fr central : le plafond ne mord pas sur B
+ok  fr central : le plafond ne mord pas sur C
+ok  fr central : le plafond ne mord pas sur D
+ok  fr central : la baisse croît avec la classe
+ok  fr haut : le plafond ne mord pas sur A
+ok  fr haut : le plafond ne mord pas sur B
+ok  fr haut : le plafond ne mord pas sur C
+ok  fr haut : la baisse croît avec la classe
+ok  plafond(G) = plafond(A) - déduction(G)
+ok  sous le plafond, loyer + énergie conventionnelle = plafond(A) : le locataire paie la même chose quelle que soit la classe
+ok  part des logements mordus croissante du bas au haut
+ok  baisse moyenne croissante du bas au haut
+ok  base hybride : bornes [50 %, 150 %] du 3CL
+ok  normalisation par les degrés-jours
+ok  avec le coefficient 2,3, la PAC seule ne sort pas de F, l'isolation sort en E
+ok  avec 1,9, la PAC atteint E pour moins cher : le bailleur la choisit
+ok  formule euros + besoin, surface figée : le bailleur isole
+=== Tableau par classe (appartement 50 m², loyer de marché 1-2 pièces, scénario central) ===
+
+--- grenoble : k = 1.132, plafond A = 887 €/mois (17.75 €/m²), prix moyen 0.154 €/kWh ---
+classe | part | EF kWh/m²/an | déduction €/mois | plafond | marché | baisse | meilleure rénovation (cible, coût net, gain/an, retour ans)
+A | 0.8 % | 50 | 32 | 855 | 815 | 0 | -
+B | 6.9 % | 80 | 51 | 836 | 807 | 0 | A, 4500, 94, 47.9
+C | 34.3 % | 112 | 72 | 815 | 791 | 0 | B, 4500, 188, 23.9
+D | 33.5 % | 162 | 104 | 784 | 784 | 0 | B, 9000, 282, 31.9
+E | 17 % | 217 | 139 | 749 | 768 | 19 | D, 4500, 420, 10.7
+F | 5.2 % | 280 | 179 | 708 | 752 | 44 | E, 4500, 486, 9.2
+G | 2.3 % | 341 | 218 | 669 | 736 | 67 | E, 9000, 952, 9.5
+part mordue 24.5 % ; baisse moyenne (tous) 7.1 €/mois ; (concernés) 29 €/mois
+
+--- angers : k = 1.122, plafond A = 930 €/mois (18.59 €/m²), prix moyen 0.153 €/kWh ---
+classe | part | EF kWh/m²/an | déduction €/mois | plafond | marché | baisse | meilleure rénovation (cible, coût net, gain/an, retour ans)
+A | 1.1 % | 38 | 24 | 906 | 862 | 0 | -
+B | 6.2 % | 79 | 50 | 879 | 853 | 0 | A, 4500, 99, 45.3
+C | 47.1 % | 103 | 65 | 864 | 837 | 0 | B, 4500, 199, 22.6
+D | 28.2 % | 159 | 101 | 829 | 829 | 0 | B, 9000, 298, 30.2
+E | 12 % | 224 | 143 | 787 | 812 | 25 | D, 4500, 498, 9
+F | 3.5 % | 292 | 186 | 744 | 795 | 51 | E, 4500, 518, 8.7
+G | 1.8 % | 381 | 243 | 687 | 779 | 92 | F, 4500, 686, 6.6
+part mordue 17.4 % ; baisse moyenne (tous) 6.5 €/mois ; (concernés) 37.3 €/mois
+
+--- fr : k = 1.171, plafond A = 701 €/mois (14.01 €/m²), prix moyen 0.153 €/kWh ---
+classe | part | EF kWh/m²/an | déduction €/mois | plafond | marché | baisse | meilleure rénovation (cible, coût net, gain/an, retour ans)
+A | 3.3 % | 32 | 20 | 680 | 622 | 0 | -
+B | 5.2 % | 64 | 41 | 660 | 616 | 0 | A, 4500, 72, 62.7
+C | 26.9 % | 100 | 64 | 637 | 604 | 0 | B, 4500, 144, 31.3
+D | 33.3 % | 160 | 102 | 599 | 599 | 0 | B, 9000, 215, 41.8
+E | 17.6 % | 225 | 143 | 557 | 587 | 29 | D, 4500, 496, 9.1
+F | 8.1 % | 292 | 186 | 515 | 575 | 60 | E, 4500, 511, 8.8
+G | 5.7 % | 413 | 263 | 438 | 563 | 125 | F, 4500, 921, 4.9
+part mordue 31.4 % ; baisse moyenne (tous) 17.1 €/mois ; (concernés) 54.6 €/mois
+
+=== Trois scénarios ===
+grenoble bas : k 1.13, plafond A 17.71 €/m², mordus 7.5 %, baisse moyenne 1.8 €/mois (concernés 24)
+grenoble central : k 1.132, plafond A 17.75 €/m², mordus 24.5 %, baisse moyenne 7.1 €/mois (concernés 29)
+grenoble haut : k 1.125, plafond A 17.62 €/m², mordus 58 %, baisse moyenne 28.8 €/mois (concernés 49.6)
+angers bas : k 1.126, plafond A 18.66 €/m², mordus 5.3 %, baisse moyenne 1.7 €/mois (concernés 30.9)
+angers central : k 1.122, plafond A 18.59 €/m², mordus 17.4 %, baisse moyenne 6.5 €/mois (concernés 37.3)
+angers haut : k 1.109, plafond A 18.37 €/m², mordus 45.6 %, baisse moyenne 25.6 €/mois (concernés 56.2)
+fr bas : k 1.184, plafond A 14.17 €/m², mordus 13.8 %, baisse moyenne 6.4 €/mois (concernés 46.2)
+fr central : k 1.171, plafond A 14.01 €/m², mordus 31.4 %, baisse moyenne 17.1 €/mois (concernés 54.6)
+fr haut : k 1.143, plafond A 13.68 €/m², mordus 64.7 %, baisse moyenne 50.1 €/mois (concernés 77.5)
+
+=== Plafond A proposé par l'auteur : 1 000 € pour 50 m² (20 €/m²) à Grenoble ===
+k = 1.276 ; mordus 0 % ; baisse sur G 0 €/mois ; plafond(G) 782 contre marché 736
+Avec l'hypothèse de l'auteur (G = 400 kWh/m²/an à 0,25 €/kWh) : déduction 417 €/mois, plafond(G) 583
+
+=== Balayage de k, Grenoble central (plafond A en €/m²) ===
+k 1 (15.67 €/m²) : mordus 100 %, baisse moyenne 100.3 €/mois
+k 1.05 (16.45 €/m²) : mordus 100 %, baisse moyenne 61.1 €/mois
+k 1.1 (17.24 €/m²) : mordus 92.2 %, baisse moyenne 22.3 €/mois
+k 1.132 (17.74 €/m²) : mordus 58 %, baisse moyenne 7.3 €/mois
+k 1.2 (18.8 €/m²) : mordus 2.3 %, baisse moyenne 0.3 €/mois
+k 1.28 (20.06 €/m²) : mordus 0 %, baisse moyenne 0 €/mois
+k 1.4 (21.94 €/m²) : mordus 0 %, baisse moyenne 0 €/mois
+
+=== Comparaison avec l'interdiction, pour 100 000 logements locatifs privés ===
+grenoble bas | formule : rénovés 7482, coût net 25.4 M€, restants avec loyer réduit 0, perte de loyer 0 M€/an, retirés 0 | interdiction E-F-G : rénovés 23251, coût 84.5 M€, retirés 1224
+grenoble central | formule : rénovés 24475, coût net 120.4 M€, restants avec loyer réduit 0, perte de loyer 0 M€/an, retirés 0 | interdiction E-F-G : rénovés 20804, coût 130.9 M€, retirés 3671
+grenoble haut | formule : rénovés 0, coût net 0 M€, restants avec loyer réduit 43480, perte de loyer 25.88 M€/an, retirés 14493 | interdiction E-F-G : rénovés 18356, coût 231 M€, retirés 6119
+fr bas | formule : rénovés 13800, coût net 35.9 M€, restants avec loyer réduit 0, perte de loyer 0 M€/an, retirés 0 | interdiction E-F-G : rénovés 29807, coût 125.6 M€, retirés 1569
+fr central | formule : rénovés 31376, coût net 141.2 M€, restants avec loyer réduit 0, perte de loyer 0 M€/an, retirés 0 | interdiction E-F-G : rénovés 26669, coût 194.5 M€, retirés 4706
+fr haut | formule : rénovés 5683, coût net 51.1 M€, restants avec loyer réduit 44226, perte de loyer 34.5 M€/an, retirés 14742 | interdiction E-F-G : rénovés 23532, coût 343.3 M€, retirés 7844
+
+=== Deux cas types : G de 50 m² à Grenoble, besoin utile 299 kWh/m²/an, gaz 340 + ECS 60 + élec 30 kWh EF/m²/an ===
+actuel {} : choix = pac | initial classe G (EP 457, EF 430, facture 242 €/mois) loyer 736 | iti classe E (EP 304, EF 277, facture 159 €/mois) loyer 737, capex 6000, gain 8 €/an, retour 797.7 ans | pac classe E (EP 287, EF 180, facture 132 €/mois) loyer 768, capex 4500, gain 376 €/an, retour 12 ans
+actuel {"coefElec":2.3} : choix = iti | initial classe G (EP 469, EF 430, facture 242 €/mois) loyer 736 | iti classe E (EP 316, EF 277, facture 159 €/mois) loyer 737, capex 6000, gain 8 €/an, retour 797.7 ans | pac classe F (EP 335, EF 180, facture 132 €/mois) loyer 752, capex 4500, gain 188 €/an, retour 23.9 ans
+euros {} : choix = pac | initial classe G (EP 457, EF 430, facture 242 €/mois) loyer 646 | iti classe E (EP 304, EF 277, facture 159 €/mois) loyer 693, capex 6000, gain 569 €/an, retour 10.6 ans | pac classe E (EP 287, EF 180, facture 132 €/mois) loyer 755, capex 4500, gain 1313 €/an, retour 3.4 ans
+euros {"surfaceFigee":true} : choix = pac | initial classe G (EP 457, EF 430, facture 242 €/mois) loyer 646 | iti classe E (EP 304, EF 277, facture 159 €/mois) loyer 728, capex 6000, gain 994 €/an, retour 6 ans | pac classe E (EP 287, EF 180, facture 132 €/mois) loyer 755, capex 4500, gain 1313 €/an, retour 3.4 ans
+euros+besoin {} : choix = pac | initial classe G (EP 457, EF 430, facture 242 €/mois) loyer 673 | iti classe E (EP 304, EF 277, facture 159 €/mois) loyer 720, capex 6000, gain 567 €/an, retour 10.6 ans | pac classe E (EP 287, EF 180, facture 132 €/mois) loyer 723, capex 4500, gain 600 €/an, retour 7.5 ans
+euros+besoin {"surfaceFigee":true} : choix = iti | initial classe G (EP 457, EF 430, facture 242 €/mois) loyer 673 | iti classe E (EP 304, EF 277, facture 159 €/mois) loyer 756, capex 6000, gain 992 €/an, retour 6 ans | pac classe E (EP 287, EF 180, facture 132 €/mois) loyer 723, capex 4500, gain 600 €/an, retour 7.5 ans
+
+Poids de la part « besoin » (w) qui fait basculer le choix, surface figée / non figée :
+w 0 : surface réelle -> pac ; surface figée -> pac
+w 0.2 : surface réelle -> pac ; surface figée -> pac
+w 0.3 : surface réelle -> pac ; surface figée -> pac
+w 0.4 : surface réelle -> pac ; surface figée -> iti
+w 0.5 : surface réelle -> pac ; surface figée -> iti
+w 0.6 : surface réelle -> pac ; surface figée -> iti
+w 0.7 : surface réelle -> iti ; surface figée -> iti
+w 0.9 : surface réelle -> iti ; surface figée -> iti
+Perte de valeur vénale de 2 m² d'isolation intérieure à 2 800 €/m² : 5600 € (hors loyer)
+
+=== Économie réelle du locataire si G -> D (écart conventionnel 115 €/mois), avec 1/6 réalisé (CAE) ===
+réel ≈ 19 €/mois ; à 0,4 réalisé : 46 €/mois
+
+Parc locatif privé estimé : 7.97 M de logements ; part G 5.7 %
+ok  option sanitaire : désactivée par défaut, renvoie null
+ok  grenoble bas sanitaire : le total des logements concernés est celui du paramètre
+ok  grenoble bas sanitaire : la part concernée croît avec la classe
+ok  grenoble bas sanitaire : mordus + non mordus = total
+ok  grenoble bas sanitaire : réparés + retirés = total
+ok  grenoble central sanitaire : le total des logements concernés est celui du paramètre
+ok  grenoble central sanitaire : la part concernée croît avec la classe
+ok  grenoble central sanitaire : mordus + non mordus = total
+ok  grenoble central sanitaire : réparés + retirés = total
+ok  grenoble haut sanitaire : le total des logements concernés est celui du paramètre
+ok  grenoble haut sanitaire : la part concernée croît avec la classe
+ok  grenoble haut sanitaire : mordus + non mordus = total
+ok  grenoble haut sanitaire : réparés + retirés = total
+ok  angers bas sanitaire : le total des logements concernés est celui du paramètre
+ok  angers bas sanitaire : la part concernée croît avec la classe
+ok  angers bas sanitaire : mordus + non mordus = total
+ok  angers bas sanitaire : réparés + retirés = total
+ok  angers central sanitaire : le total des logements concernés est celui du paramètre
+ok  angers central sanitaire : la part concernée croît avec la classe
+ok  angers central sanitaire : mordus + non mordus = total
+ok  angers central sanitaire : réparés + retirés = total
+ok  angers haut sanitaire : le total des logements concernés est celui du paramètre
+ok  angers haut sanitaire : la part concernée croît avec la classe
+ok  angers haut sanitaire : mordus + non mordus = total
+ok  angers haut sanitaire : réparés + retirés = total
+ok  fr bas sanitaire : le total des logements concernés est celui du paramètre
+ok  fr bas sanitaire : la part concernée croît avec la classe
+ok  fr bas sanitaire : mordus + non mordus = total
+ok  fr bas sanitaire : réparés + retirés = total
+ok  fr central sanitaire : le total des logements concernés est celui du paramètre
+ok  fr central sanitaire : la part concernée croît avec la classe
+ok  fr central sanitaire : mordus + non mordus = total
+ok  fr central sanitaire : réparés + retirés = total
+ok  fr haut sanitaire : le total des logements concernés est celui du paramètre
+ok  fr haut sanitaire : la part concernée croît avec la classe
+ok  fr haut sanitaire : mordus + non mordus = total
+ok  fr haut sanitaire : réparés + retirés = total
+ok  sanitaire : logements et coût croissent du bas au haut
+ok  sanitaire : retour sanitaire de plus en plus long quand le périmètre s'élargit
+ok  sanitaire : activable par OPTIONS.sanitaire.actif
+ok  sanitaire : le calibrage du plafond est inchangé par l'option
+
+=== Option sanitaire (04/11) : parc locatif privé français, 7.97 M de logements ===
+bas : 24949 logements (0.31 % du parc) dont 12040 déjà touchés par le plafond du scénario ; G : 1.6 % des G, F : 0.8 % des F, D : 0.2 % | interdiction ciblée : travaux 0.14 Md€, retirés 1247, loyers perdus pendant travaux 0.09 Md€ | loyer zéro : 0.18 Md€/an | travaux d'office : avance 0.15 Md€, perte 0.04 Md€ | santé évitée 0.51 Md€/an, retour 0.3 ans
+central : 215217 logements (2.7 % du parc) dont 150710 déjà touchés par le plafond du scénario ; G : 13.4 % des G, F : 6.7 % des F, D : 1.7 % | interdiction ciblée : travaux 1.46 Md€, retirés 32283, loyers perdus pendant travaux 0.77 Md€ | loyer zéro : 1.55 Md€/an | travaux d'office : avance 1.72 Md€, perte 0.52 Md€ | santé évitée 0.88 Md€/an, retour 2 ans
+haut : 597826 logements (7.5 % du parc) dont 541826 déjà touchés par le plafond du scénario ; G : 37.2 % des G, F : 18.6 % des F, D : 4.6 % | interdiction ciblée : travaux 4.86 Md€, retirés 149457, loyers perdus pendant travaux 2.15 Md€ | loyer zéro : 4.29 Md€/an | travaux d'office : avance 6.48 Md€, perte 1.94 Md€ | santé évitée 0.5 Md€/an, retour 13 ans

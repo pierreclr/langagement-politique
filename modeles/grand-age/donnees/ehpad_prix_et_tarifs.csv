@@ -1,0 +1,22 @@
+# sources : (a) DREES PAPH 2025 fiche 09 (tarifs 2023, copie sources_pdf/drees_paph2025_fiche09_etab.pdf) ; (b) CNSA, Repères statistiques n° 27, « Prix EHPAD 2024 », https://www.cnsa.fr/sites/default/files/2026-04/PUB_RS-n27_Prix-EHPAD_2024_vf.pdf (copie : sources_pdf/cnsa_rs27_prix_ehpad_2024.pdf) ; (c) CNSA, Repères statistiques n° 25, coûts à la place 2017-2023, https://www.cnsa.fr/sites/default/files/2025-05/PUB-RS-25-Couts-a-la-place-ESMS-2017-2023-VF.pdf (copie : sources_pdf/cnsa_rs25_couts_a_la_place_2017_2023.pdf)
+# cote A (statistique et données administratives d'organismes publics) ; conflits d'intérêts : la CNSA est l'organisme payeur ; les EHPAD commerciaux sont exclus du coût à la place (c) ; consulté le 2026-11-07
+indicateur,valeur,unite,annee,source,perimetre
+tarif_hebergement_moyen_jour,71.00,euro_TTC_par_jour,2023,a,Ehpad
+tarif_hebergement_jour_place_habilitee_ASH,63.44,euro_par_jour,2023,a,Ehpad
+tarif_hebergement_jour_place_non_habilitee,92.58,euro_par_jour,2023,a,Ehpad
+tarif_dependance_jour_GIR5_6,6.12,euro_par_jour,2023,a,Ehpad
+tarif_dependance_jour_GIR1_2,22.76,euro_par_jour,2023,a,Ehpad
+prix_reference_jour_place_ASH,66.00,euro_par_jour,2024,b,chambre individuelle hebergement permanent
+prix_reference_jour_place_non_ASH,98.25,euro_par_jour,2024,b,idem
+prix_reference_jour_prive_lucratif_non_ASH,105.50,euro_par_jour,2024,b,idem
+prix_reference_jour_public_ASH,64.64,euro_par_jour,2024,b,idem
+prix_reference_jour_public_non_ASH,69.46,euro_par_jour,2024,b,idem
+prix_reference_jour_prive_non_lucratif_ASH,68.63,euro_par_jour,2024,b,idem
+prix_mensuel_hebergement_plus_dependance_GIR5_6_place_ASH,2164,euro_par_mois,2024,b,Ehpad
+prix_mensuel_hebergement_plus_dependance_GIR5_6_place_non_ASH,3128,euro_par_mois,2024,b,Ehpad
+cout_de_revient_place_ehpad_public_et_non_lucratif,54684,euro_par_place_et_par_an,2023,c,Ehpad publics et prives non lucratifs ; tous financeurs ; hors elements exceptionnels
+cout_de_revient_place_ehpad_2017,41423,euro_par_place_et_par_an,2017,c,idem
+cout_de_revient_place_ehpad_2019,43556,euro_par_place_et_par_an,2019,c,idem
+cout_de_revient_place_ehpad_2020,46220,euro_par_place_et_par_an,2020,c,idem
+cout_de_revient_place_ehpad_2021,49124,euro_par_place_et_par_an,2021,c,idem
+cout_de_revient_place_ehpad_2022,51547,euro_par_place_et_par_an,2022,c,idem

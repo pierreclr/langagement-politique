@@ -1,0 +1,15 @@
+# Annexe « mesures » du registre des anomalies (T55)
+
+*Dépôt privé : rien n'est publié.* Ce sont des **statistiques** sur le texte (longueur, chaîne d'exceptions, effet d'incitation calculé), pas des anomalies : elles ne désignent pas une incohérence ni une impasse, elles mesurent. Elles ont été retirées du registre le 03/11/2026 (T55) ; les anciens numéros AN015, AN026 et AN048 ne sont pas réattribués. Ce qui est mesuré ne devient anomalie que s'il fait échouer l'application de la règle (renvoi mort, saut, taux supérieur à 100 %).
+
+## M1 — Articles très longs (ex-AN015)
+
+Source : `outils/droit/revue_code.py` (voir `sources/revue-droit-pilote-plus-values-baux.md` §1), versions en vigueur au 02/11/2026. Loi n° 89-462 art. 40 : 1 160 mots, 93 renvois, 13 marqueurs d'exception (score relatif 131, indice sans unité). CGI 150 U : 2 267 mots, 35 alinéas, 9 régimes d'exonération (II 1° à 9°) dont trois à échéance, une phrase de 313 mots. Loi de 1989 art. 24 : phrase de 270 mots. CGI 151 septies : phrase de 339 mots. Limite : l'outil traite une liste comme une seule phrase ; longueur et complexité ne sont pas des défauts de droit en soi. Pistes : un article par exonération et un tableau des conditions. Liens : [loi de 1989](https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000509310), [CGI 150 U](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000053544910), [CGI 151 septies](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000051216302).
+
+## M2 — Plus longue chaîne d'exceptions du corpus (ex-AN048)
+
+Source : `chaines_exceptions.csv` (`python3 -I outils/droit/analyse_corpus.py`). Chaîne de 8 maillons sur deux codes : CGI 218 (« sous réserve des dispositions [...] de l'article 219 ») → 219 (« sans préjudice de [...] 38 bis A ») → 38 bis A (« par dérogation à l'article 38 ») → ... → CMF L214-28 (« par dérogation à l'article L. 214-24-34 ») → L214-24-34 (« sous réserve de l'article L. 214-24-41 ») → L214-24-41 (« par dérogation à l'article L. 214-24-48 »). Six sauts sur sept relus ; le saut du nœud circulaire {38, voisin} vers le Code monétaire et financier n'est pas relu (⚠️ V4327). Une chaîne d'exceptions est la forme normale d'un droit fiscal spécialisé et les renvois sont corrects : mesure de complexité, pas défaut.
+
+## M3 — Effet de verrouillage des abattements pour durée (ex-AN026)
+
+Source : `python3 outils/droit/loi_executable/analyse.py` (section I), `outils/droit/loi_executable/resultats.txt`. Les abattements croissants (CGI 150 VC I ; CSS L136-7 II 2°) conduisent à une exonération totale de l'impôt sur le revenu à 22 ans et des prélèvements sociaux à 30 ans. Attendre un an de plus baisse l'impôt de 1,26 à 1,37 % du gain nominal par an (environ 2 750 € sur 200 000 € de gain) de la 6e à la 30e année, et de 8 983 € de la 5e à la 6e année. L'effet est voulu : l'abattement pour durée vise à encourager la détention longue. Aucune étude sur l'effet de verrouillage n'a été lue (⚠️ V4045). Écartée du registre comme choix de politique, voir [ecartes.md](ecartes.md).

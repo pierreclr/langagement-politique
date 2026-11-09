@@ -1,0 +1,12 @@
+# source : Insee Première n° 2108 (projections de population 2026, scénario central), extrait de modeles/demographie/donnees/insee_projections_2026_age_central.csv ; cote A ; consulté le 2026-11-07 ; unité : millions de personnes de 80 ans ou plus au 1er janvier
+annee,population_80_plus_M
+2023,4.115
+2025,4.248
+2026,4.323
+2028,4.765
+2030,5.216
+2035,6.088
+2040,6.708
+2050,7.648
+2060,8.203
+2070,8.902

@@ -1,0 +1,18 @@
+# source : DREES, Études et Résultats n° 1264, avril 2023, « La moitié des seniors en institution ont un niveau de vie compris entre 1 100 et 1 900 euros par mois » (enquête CARE-Institutions 2016 appariée aux données sociofiscales) ; copie texte lue dans l'outil de lecture, URL https://drees.solidarites-sante.gouv.fr/sites/default/files/2023-04/ER1264.pdf
+# cote A ; conflits d'intérêts : aucun connu ; consulté le 2026-11-07 ; champ : 600 000 résidents de 60 ans ou plus en EHPAD, EHPA, USLD, 2016 ; niveau de vie = revenu disponible par unité de consommation, euros par mois
+statistique,valeur,unite,annee
+niveau_de_vie_moyen,1700,euro_par_mois,2016
+niveau_de_vie_mediane,1400,euro_par_mois,2016
+niveau_de_vie_quartile_1,1100,euro_par_mois,2016
+niveau_de_vie_quartile_3,1920,euro_par_mois,2016
+niveau_de_vie_mediane_moins_de_75_ans,1150,euro_par_mois,2016
+niveau_de_vie_mediane_veufs_hommes,1850,euro_par_mois,2016
+niveau_de_vie_quartile_3_veufs_hommes,2540,euro_par_mois,2016
+part_pensions_retraite_dans_niveau_de_vie,0.82,part,2016
+part_revenus_patrimoine_dans_niveau_de_vie,0.19,part,2016
+part_prestations_sociales,0.05,part,2016
+part_impots_negative,-0.07,part,2016
+# source : Insee, Revenus et patrimoine des ménages, édition 2024, fiche 2.4 (enquête Patrimoine 2021), https://www.insee.fr/fr/statistiques/fichier/7941421/RPM2024-F26.pdf (copie : sources_pdf/insee_rpm2024_f26.pdf) ; cote A ; consulté le 2026-11-07
+patrimoine_brut_median_menages_70_ans_et_plus_hors_institution,211500,euro,2021
+patrimoine_brut_median_tous_menages,177200,euro,2021
+patrimoine_brut_moyen_tous_menages,317100,euro,2021

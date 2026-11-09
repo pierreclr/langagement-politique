@@ -1,0 +1,95 @@
+MODELE DU GRAND AGE - euros 2026, Md EUR par an en croisiere sauf mention
+bas = hypotheses favorables aux finances publiques ; haut = defavorables
+
+== 1. Prix public unique par resident et par mois (euros 2026)
+bas      total 4265 | hebergement 2021 | dependance 524 | soin 1720
+central  total 4922 | hebergement 2332 | dependance 605 | soin 1984
+haut     total 5614 | hebergement 2661 | dependance 690 | soin 2264
+
+== 2. Cout public actuel (residents en hebergement permanent 2023, euros 2026)
+bas      soin 12.0 | APA 2.8 | ASH nette 1.3 | AL+RI 0.7 | total 16.7
+central  soin 13.8 | APA 2.9 | ASH nette 1.3 | AL+RI 0.7 | total 18.7
+haut     soin 15.7 | APA 3.0 | ASH nette 1.3 | AL+RI 0.7 | total 20.8
+
+== 2 bis. Cout public actuel recale sur la couverture publique de 74 % (DREES), hors gite et couvert
+bas      17.1 Md (reconstitution ci-dessus : 16.7) ; recuperations ASH actuelles supposees 0.67 Md
+central  20.5 Md (reconstitution ci-dessus : 18.7) ; recuperations ASH actuelles supposees 0.43 Md
+haut     24.1 Md (reconstitution ci-dessus : 20.8) ; recuperations ASH actuelles supposees 0.24 Md
+
+== 3. Proposition, regime de croisiere pour les residents de 2023
+recuperation de l'avance hebergement seule (regle centrale)
+-- abattement de reprise 0 EUR
+bas      participation 11.0 (1588 EUR/mois en moyenne) | depense publique brute 18.6 | reprises 1.8 | nette 16.8 | perte de droits de transmission 0.04 | nette apres droits 16.9 | actuel 16.7 | ecart (nette apres droits - actuel) +0.2
+central  participation 11.0 (1586 EUR/mois en moyenne) | depense publique brute 23.2 | reprises 3.0 | nette 20.2 | perte de droits de transmission 0.03 | nette apres droits 20.2 | actuel 18.7 | ecart (nette apres droits - actuel) +1.6
+haut     participation 10.7 (1542 EUR/mois en moyenne) | depense publique brute 28.3 | reprises 3.7 | nette 24.6 | perte de droits de transmission 0.01 | nette apres droits 24.6 | actuel 20.8 | ecart (nette apres droits - actuel) +3.8
+-- abattement de reprise 100,000 EUR
+bas      participation 11.0 (1588 EUR/mois en moyenne) | depense publique brute 18.6 | reprises 1.0 | nette 17.6 | perte de droits de transmission 0.04 | nette apres droits 17.6 | actuel 16.7 | ecart (nette apres droits - actuel) +1.0
+central  participation 11.0 (1586 EUR/mois en moyenne) | depense publique brute 23.2 | reprises 1.3 | nette 21.8 | perte de droits de transmission 0.03 | nette apres droits 21.9 | actuel 18.7 | ecart (nette apres droits - actuel) +3.2
+haut     participation 10.7 (1542 EUR/mois en moyenne) | depense publique brute 28.3 | reprises 1.1 | nette 27.2 | perte de droits de transmission 0.01 | nette apres droits 27.3 | actuel 20.8 | ecart (nette apres droits - actuel) +6.5
+-- abattement de reprise 300,000 EUR
+bas      participation 11.0 (1588 EUR/mois en moyenne) | depense publique brute 18.6 | reprises 0.4 | nette 18.2 | perte de droits de transmission 0.04 | nette apres droits 18.3 | actuel 16.7 | ecart (nette apres droits - actuel) +1.6
+central  participation 11.0 (1586 EUR/mois en moyenne) | depense publique brute 23.2 | reprises 0.4 | nette 22.8 | perte de droits de transmission 0.03 | nette apres droits 22.8 | actuel 18.7 | ecart (nette apres droits - actuel) +4.2
+haut     participation 10.7 (1542 EUR/mois en moyenne) | depense publique brute 28.3 | reprises 0.2 | nette 28.2 | perte de droits de transmission 0.01 | nette apres droits 28.2 | actuel 20.8 | ecart (nette apres droits - actuel) +7.4
+
+Indicateurs de structure (central) :
+abattement 0 : 82 % des residents ont une avance a reprendre ; 82 % des successions de residents sont touchees ; reprise moyenne quand touchee 19,937 EUR ; avance annuelle 5.2 Md
+abattement 100,000 : 82 % des residents ont une avance a reprendre ; 32 % des successions de residents sont touchees ; reprise moyenne quand touchee 22,846 EUR ; avance annuelle 5.2 Md
+abattement 300,000 : 82 % des residents ont une avance a reprendre ; 10 % des successions de residents sont touchees ; reprise moyenne quand touchee 20,089 EUR ; avance annuelle 5.2 Md
+
+== 3 bis. Variante : reprise sur toute la difference (soin et dependance compris), central
+abattement 0 : reprises 11.6 | nette 11.6 | perte de droits 0.26
+abattement 100,000 : reprises 6.7 | nette 16.5 | perte de droits 0.26
+abattement 300,000 : reprises 2.4 | nette 20.7 | perte de droits 0.26
+
+== 4. Projection (central, abattement 100 000 EUR), nombre de residents et depense nette apres droits
+2023 : 579,200 residents | depense totale 34.2 | brute 23.2 | nette apres droits 21.9
+2028 : 654,089 residents | depense totale 38.6 | brute 26.2 | nette apres droits 24.7
+2035 : 806,882 residents | depense totale 47.7 | brute 32.3 | nette apres droits 30.5
+2040 : 867,049 residents | depense totale 51.2 | brute 34.7 | nette apres droits 32.7
+2050 : 940,220 residents | depense totale 55.5 | brute 37.6 | nette apres droits 35.5
+
+== 4 bis. Projection 2040 selon scenario (abattement 100 000)
+bas      795,884 residents | depense totale 40.7 | nette apres droits 24.2
+central  867,049 residents | depense totale 51.2 | nette apres droits 32.7
+haut     944,173 residents | depense totale 63.6 | nette apres droits 44.4
+
+== 5. Cas types (central, abattement de reprise 100 000 EUR, sejour de 34 mois)
+pension | patrimoine | Y | actuel: manque/mois, prelevement patrimoine | proposition: participation, poche, reprise | ecart transmis | ecart poche/mois
+ 1000 |       0 |  1000 |  1539,       0 |   880,  120,       0 |        0 |     0
+ 1000 | 100,000 |  1000 |  1539,  52,255 |   880,  120,       0 |   52,255 |     0
+ 1000 | 300,000 |  1000 |  1539,  52,255 |   880,  120,  49,321 |    2,934 |     0
+ 1000 | 600,000 |  1000 |  1539,  52,255 |   880,  120,  49,321 |    2,934 |     0
+ 2000 |       0 |  2000 |   619,       0 |  1800,  200,       0 |        0 |     0
+ 2000 | 100,000 |  2000 |   619,  21,012 |  1800,  200,       0 |   21,012 |     0
+ 2000 | 300,000 |  2000 |   619,  21,012 |  1800,  200,  18,078 |    2,934 |     0
+ 2000 | 600,000 |  2000 |   619,  21,012 |  1800,  200,  18,078 |    2,934 |     0
+ 3000 |       0 |  2921 |     0,       0 |  2332,  589,       0 |        0 |    86
+ 3000 | 100,000 |  2921 |     0,       0 |  2332,  589,       0 |        0 |    86
+ 3000 | 300,000 |  2921 |     0,       0 |  2332,  589,       0 |        0 |    86
+ 3000 | 600,000 |  2921 |     0,       0 |  2332,  589,       0 |        0 |    86
+
+== 5 bis. Couple qui entre ensemble (pensions 1 000 + 3 000, patrimoine 200 000, abattement 100 000)
+{'participations': (880, 2332), 'poche': (120, 589), 'avance_par_mois': 1452, 'reprise': 49322, 'transmis': 150678}
+Conjoint a domicile : pension du resident 2 000, conjoint sans revenu -> participation 923 (contre 1800 sans conjoint)
+
+== 6. Aide a domicile : APA a domicile 4,293 Md (2023) -> euros 2026, hausse de volume prioritaire
+hausse de volume 10 % : 4.6 -> 5.1 (surcout 0.5)
+hausse de volume 20 % : 4.6 -> 5.6 (surcout 0.9)
+hausse de volume 40 % : 4.6 -> 6.5 (surcout 1.9)
+Depense publique annuelle d'une personne en GIR 1 hors gite-couvert (2020) : domicile 32,301 EUR, etablissement 29,444 EUR
+
+== 7. Sensibilite (central, abattement 100 000) : un parametre a la fois, depense nette apres droits (Md)
+reference 21.9
+cout_place_facteur               0.9      -> 19.2 (-2.7)
+cout_place_facteur               1.1      -> 24.6 (+2.8)
+ressources_uplift_2016_2026      1.15     -> 22.2 (+0.3)
+ressources_uplift_2016_2026      1.3      -> 21.5 (-0.3)
+duree_sejour_deces               2.4      -> 22.0 (+0.2)
+duree_sejour_deces               3.3      -> 21.7 (-0.2)
+part_proprietaires               0.4      -> 22.3 (+0.4)
+part_proprietaires               0.65     -> 21.6 (-0.3)
+correlation_revenu_patrimoine    0.3      -> 21.6 (-0.2)
+correlation_revenu_patrimoine    0.7      -> 22.1 (+0.2)
+argent_de_poche_min              200.0    -> 22.1 (+0.2)
+taux_participation               1.0      -> 21.7 (-0.1)
+taux_participation               0.8      -> 22.5 (+0.6)

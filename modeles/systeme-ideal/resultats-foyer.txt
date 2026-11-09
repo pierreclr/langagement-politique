@@ -1,0 +1,34 @@
+## A. Ménages types (€/mois : loi actuelle approchée, puis écart de chaque régime du palier 1 à la loi actuelle)
+| Ménage | Loi actuelle | Individualisé | Palier 1 publié | Familial | Socle familial + impôt individuel | Quotient d'enfants |
+| Couple, un Smic et un conjoint sans emploi | 2035 | 2292 (+257) | 2292 (+257) | 2042 (+7) | 2042 (+7) | 2292 (+257) |
+| Couple, deux Smic | 3113 | 3584 (+471) | 3584 (+471) | 3334 (+221) | 3334 (+221) | 3584 (+471) |
+| Couple, un cadre à 8 000 € nets et un conjoint sans emploi | 6910 | 7946 (+1036) | 8912 (+2001) | 8662 (+1751) | 7696 (+786) | 7946 (+1036) |
+| Couple, un cadre à 8 000 € nets et un Smic | 7975 | 9238 (+1264) | 9760 (+1785) | 9510 (+1535) | 8988 (+1014) | 9238 (+1264) |
+| Parent isolé au Smic, 1 enfant | 1909 | 1992 (+83) | 1992 (+83) | 1992 (+83) | 1992 (+83) | 1792 (−117) |
+| Parent isolé au Smic, 2 enfants | 2249 | 2192 (−57) | 2192 (−57) | 2192 (−57) | 2192 (−57) | 1792 (−457) |
+| Couple, 2 enfants, un salaire médian et un Smic | 4040 | 4944 (+904) | 5000 (+960) | 4750 (+710) | 4694 (+654) | 4682 (+642) |
+
+## B. Taux de participation du conjoint qui entre à un Smic (coût employeur du premier apporteur, €/mois ; 0 enfant)
+| 0 | conjugalisé 35 % | individuel 35 % |
+| 1988 | conjugalisé 35 % | individuel 35 % |
+| 3677 | conjugalisé 39,1 % | individuel 35 % |
+| 8000 | conjugalisé 51,6 % | individuel 35 % |
+| 14600 | conjugalisé 57,3 % | individuel 35 % |
+| 27400 | conjugalisé 60,8 % | individuel 35 % |
+
+## C. Effet sur le solde public (Md€/an ; + = rapporte à l'État ; un point de taux plat = 12,6 Md€ au palier 1, 13 retenu)
+| Cas | Conjugalisation (par rapport à l'impôt individuel) | Socle familial | Quotient : coût / supplément économisé | Participation | Individualiser l'impôt (net) |
+| central (12 M couples, 15 % monoactifs, homogamie 30 %, élasticité 0,5) | -14,5 | 36 | -21,9 / 33,3 | 1,1 | 15,6 |
+| 10 M de couples | -12,1 | 30 | -21,9 / 33,3 | 0,9 | 13 |
+| 13 M de couples | -15,8 | 39 | -21,9 / 33,3 | 1,2 | 16,9 |
+| monoactifs 10 % | -13,2 | 36 | -21,9 / 33,3 | 0,7 | 13,9 |
+| monoactifs 25 % | -17,3 | 36 | -21,9 / 33,3 | 1,8 | 19,1 |
+| homogamie 0 % (appariement indépendant) | -17,5 | 36 | -21,9 / 33,3 | 1,1 | 18,6 |
+| homogamie 60 % | -11,6 | 36 | -21,9 / 33,3 | 1,1 | 12,7 |
+| élasticité 0,2 | -14,5 | 36 | -21,9 / 33,3 | 0,4 | 15 |
+| élasticité 1 | -14,5 | 36 | -21,9 / 33,3 | 2,1 | 16,7 |
+| élasticité 2 (borne haute de Carbonnier) | -14,5 | 36 | -21,9 / 33,3 | 4,3 | 18,8 |
+| t_max 15 % | -7,7 | 36 | -11,5 / 33,3 | 0,5 | 8,2 |
+
+détail central : conjugalisation biactifs -8,8, monoactifs -5,7 ; entrants 127523 ; coût moyen du quotient par enfant 1582 €/an ; quotient net 11,3
+en points de taux plat (13 Md€) : conjugalisation -1,1 ; socleFamilial 2,8 ; quotientNet 0,9 ; participation 0,1 ; individualiseVsPalier1 1,2 ; familialVsPalier1 2,8

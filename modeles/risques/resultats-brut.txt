@@ -1,0 +1,253 @@
+# Tests de résistance : sortie brute
+
+## Trajectoires sans choc (solde public Md€, dette/PIB ; année 1 = premier plein régime ; dette de départ 3 460,5 Md€ = 115,7 % du PIB 2025)
+| architecture | scénario | solde an 1 | an 5 | an 10 | dette/PIB an 5 | an 10 |
+|---|---|---|---|---|---|---|
+| ACTUEL | bas | −218,9 | −276,8 | −359,6 | 139 % | 157 % |
+| ACTUEL | central | −218,9 | −276,8 | −359,6 | 139 % | 157 % |
+| ACTUEL | haut | −218,9 | −276,8 | −359,6 | 139 % | 157 % |
+| P1N | bas | −71,9 | −45,7 | −21,3 | 114 % | 102 % |
+| P1N | central | −162,9 | −175,5 | −202,5 | 128 % | 133 % |
+| P1N | haut | −291,9 | −334,3 | −431,2 | 147 % | 171 % |
+| C40 | bas | 90,9 | 158,1 | 250,1 | 90 % | 54 % |
+| C40 | central | −43,9 | −26,5 | −4,2 | 111 % | 97 % |
+| C40 | haut | −222,3 | −247,2 | −315,3 | 137 % | 150 % |
+| C40N | bas | 65,9 | 126,8 | 208,4 | 94 % | 61 % |
+| C40N | central | −67,9 | −56,5 | −44,1 | 114 % | 104 % |
+| C40N | haut | −243,7 | −274,0 | −351,0 | 140 % | 157 % |
+
+## Leviers de garde-fou (Md€/an, croisière)
+| architecture | scénario | 1 point de taux plat | marge de ± 2 points | 100 € de socle | coupe max du socle (150 €) |
+|---|---|---|---|---|---|
+| P1N | bas | 15,5 | 31,0 | 43,1 | 64,7 |
+| P1N | central | 12,6 | 25,2 | 43,1 | 64,7 |
+| P1N | haut | 7,3 | 14,7 | 43,1 | 64,7 |
+| C40 | bas | 14,3 | 28,6 | 43,3 | 65,0 |
+| C40 | central | 11,1 | 22,1 | 43,3 | 65,0 |
+| C40 | haut | 5,5 | 11,1 | 43,3 | 65,0 |
+| C40N | bas | 14,3 | 28,6 | 43,3 | 65,0 |
+| C40N | central | 11,1 | 22,1 | 43,3 | 65,0 |
+| C40N | haut | 5,5 | 11,1 | 43,3 | 65,0 |
+
+## Chocs, scénario central (solde an 1 / an 5 / an 10 ; dette/PIB an 5 / an 10 ; manque cumulé 10 ans ; réserve 3 ans = manque cumulé des trois premières années ; avec garde-fous : dette/PIB an 10, marge de taux utilisée max (pts), coupe du socle max (€), manque résiduel cumulé)
+| choc | archi | solde 1 / 5 / 10 | dette/PIB 5 / 10 | sans choc 5 / 10 | manque cumulé 10 ans | réserve 3 ans | pic dette/PIB | garde-fous : dette/PIB 10 | marge pts | coupe socle € | manque résiduel |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| 1a. Création de valeur : sans la ligne E (croissance par l'IA) | P1N | −165,0 / −188,1 / −234,3 | 129 % / 136 % | 128 % / 133 % | 154 | 13 | 136 % | 133 % | 1,4 | 0 | 29 |
+| 1a. Création de valeur : sans la ligne E (croissance par l'IA) | C40 | −46,0 / −39,2 / −36,1 | 112 % / 101 % | 111 % / 97 % | 154 | 13 | 121 % | 98 % | 1,5 | 0 | 29 |
+| 1a. Création de valeur : sans la ligne E (croissance par l'IA) | C40N | −70,0 / −69,2 / −76,0 | 115 % / 108 % | 114 % / 104 % | 154 | 13 | 122 % | 105 % | 1,5 | 0 | 29 |
+| 1b. Création de valeur : aucune (A à E à zéro) | P1N | −165,7 / −196,1 / −252,2 | 130 % / 138 % | 128 % / 133 % | 245 | 23 | 138 % | 134 % | 2,0 | 3 | 45 |
+| 1b. Création de valeur : aucune (A à E à zéro) | C40 | −46,8 / −47,1 / −54,0 | 112 % / 103 % | 111 % / 97 % | 245 | 23 | 121 % | 98 % | 2,0 | 11 | 45 |
+| 1b. Création de valeur : aucune (A à E à zéro) | C40N | −70,7 / −77,1 / −93,9 | 116 % / 110 % | 114 % / 104 % | 245 | 23 | 122 % | 105 % | 2,0 | 11 | 45 |
+| 2. Récession type 2009 (PIB −3 %, écart −4,1 %) | ACTUEL | −305,9 / −284,2 / −369,1 | 146 % / 164 % | 139 % / 157 % | 307 | 222 | 164 % | 164 % | 0,0 | 0 | 307 |
+| 2. Récession type 2009 (PIB −3 %, écart −4,1 %) | P1N | −236,0 / −181,8 / −210,4 | 134 % / 138 % | 128 % / 133 % | 258 | 187 | 138 % | 133 % | 2,0 | 88 | 0 |
+| 2. Récession type 2009 (PIB −3 %, écart −4,1 %) | C40 | −117,1 / −32,8 / −12,2 | 117 % / 103 % | 111 % / 97 % | 258 | 187 | 129 % | 97 % | 2,0 | 95 | 0 |
+| 2. Récession type 2009 (PIB −3 %, écart −4,1 %) | C40N | −141,0 / −62,8 / −52,1 | 120 % / 110 % | 114 % / 104 % | 258 | 187 | 129 % | 104 % | 2,0 | 95 | 0 |
+| 3a. Taux +100 pb | ACTUEL | −224,0 / −302,8 / −417,3 | 141 % / 164 % | 139 % / 157 % | 299 | 30 | 164 % | 164 % | 0,0 | 0 | 299 |
+| 3a. Taux +100 pb | P1N | −167,9 / −200,0 / −252,6 | 130 % / 139 % | 128 % / 133 % | 272 | 30 | 139 % | 134 % | 2,0 | 4 | 43 |
+| 3a. Taux +100 pb | C40 | −49,0 / −48,4 / −43,1 | 113 % / 102 % | 111 % / 97 % | 231 | 29 | 121 % | 98 % | 1,9 | 0 | 33 |
+| 3a. Taux +100 pb | C40N | −72,9 / −78,9 / −85,3 | 116 % / 110 % | 114 % / 104 % | 239 | 29 | 122 % | 105 % | 2,0 | 0 | 35 |
+| 3b. Taux +200 pb | ACTUEL | −229,0 / −329,4 / −478,9 | 143 % / 171 % | 139 % / 157 % | 610 | 61 | 171 % | 171 % | 0,0 | 0 | 610 |
+| 3b. Taux +200 pb | P1N | −172,9 / −225,0 / −306,4 | 132 % / 145 % | 128 % / 133 % | 556 | 60 | 145 % | 135 % | 2,0 | 66 | 87 |
+| 3b. Taux +200 pb | C40 | −54,0 / −70,8 / −85,2 | 114 % / 108 % | 111 % / 97 % | 471 | 58 | 122 % | 99 % | 2,0 | 47 | 66 |
+| 3b. Taux +200 pb | C40N | −78,0 / −101,9 / −129,8 | 118 % / 115 % | 114 % / 104 % | 488 | 58 | 122 % | 106 % | 2,0 | 52 | 70 |
+| 4a. Krach immobilier −20 % (3 ans) | P1N | −194,2 / −190,9 / −207,5 | 132 % / 136 % | 128 % / 133 % | 163 | 99 | 136 % | 133 % | 2,0 | 6 | 0 |
+| 4a. Krach immobilier −20 % (3 ans) | C40 | −75,2 / −41,9 / −9,2 | 114 % / 101 % | 111 % / 97 % | 163 | 99 | 122 % | 97 % | 2,0 | 13 | 0 |
+| 4a. Krach immobilier −20 % (3 ans) | C40N | −99,2 / −71,9 / −49,2 | 118 % / 108 % | 114 % / 104 % | 163 | 99 | 123 % | 104 % | 2,0 | 13 | 0 |
+| 4b. Krach boursier −30 % | P1N | −170,3 / −175,8 / −202,9 | 129 % / 133 % | 128 % / 133 % | 15 | 12 | 133 % | 133 % | 0,5 | 0 | 0 |
+| 4b. Krach boursier −30 % | C40 | −51,4 / −26,9 / −4,7 | 111 % / 98 % | 111 % / 97 % | 15 | 12 | 121 % | 97 % | 0,6 | 0 | 0 |
+| 4b. Krach boursier −30 % | C40N | −75,4 / −56,9 / −44,6 | 115 % / 105 % | 114 % / 104 % | 15 | 12 | 122 % | 104 % | 0,6 | 0 | 0 |
+| 5. Exil des grands patrimoines doublé par rapport au haut | P1N | −239,4 / −271,4 / −330,1 | 140 % / 155 % | 128 % / 133 % | 1001 | 243 | 155 % | 135 % | 2,0 | 99 | 103 |
+| 5. Exil des grands patrimoines doublé par rapport au haut | C40 | −130,4 / −134,9 / −148,4 | 124 % / 123 % | 111 % / 97 % | 1131 | 275 | 124 % | 100 % | 2,0 | 127 | 116 |
+| 5. Exil des grands patrimoines doublé par rapport au haut | C40N | −154,3 / −164,8 / −188,3 | 127 % / 130 % | 114 % / 104 % | 1130 | 274 | 130 % | 107 % | 2,0 | 126 | 116 |
+| 6a. Échec du système d'information : un an de recettes du bloc 1 perdu | P1N | −684,8 / −177,1 / −204,5 | 130 % / 134 % | 128 % / 133 % | 65 | 53 | 140 % | 133 % | 0,4 | 0 | 0 |
+| 6a. Échec du système d'information : un an de recettes du bloc 1 perdu | C40 | −626,3 / −28,3 / −6,4 | 112 % / 99 % | 111 % / 97 % | 73 | 59 | 139 % | 97 % | 0,4 | 0 | 0 |
+| 6a. Échec du système d'information : un an de recettes du bloc 1 perdu | C40N | −650,2 / −58,3 / −46,4 | 116 % / 106 % | 114 % / 104 % | 73 | 59 | 139 % | 104 % | 0,4 | 0 | 0 |
+| 6b. Échec du système d'information : un mois de recettes du bloc 1 | P1N | −206,4 / −175,6 / −202,6 | 129 % / 133 % | 128 % / 133 % | 5 | 4 | 133 % | 133 % | 0,4 | 0 | 0 |
+| 6b. Échec du système d'information : un mois de recettes du bloc 1 | C40 | −92,4 / −26,7 / −4,4 | 111 % / 97 % | 111 % / 97 % | 6 | 5 | 123 % | 97 % | 0,4 | 0 | 0 |
+| 6b. Échec du système d'information : un mois de recettes du bloc 1 | C40N | −116,4 / −56,7 / −44,3 | 114 % / 104 % | 114 % / 104 % | 6 | 5 | 123 % | 104 % | 0,4 | 0 | 0 |
+| 7. Démographie : 1,1 cotisant par retraité en 2060 | ACTUEL | −228,2 / −300,3 / −410,7 | 141 % / 163 % | 139 % / 157 % | 275 | 37 | 163 % | 163 % | 0,0 | 0 | 275 |
+| 7. Démographie : 1,1 cotisant par retraité en 2060 | P1N | −172,1 / −199,0 / −253,5 | 131 % / 139 % | 128 % / 133 % | 275 | 37 | 139 % | 134 % | 2,0 | 5 | 45 |
+| 7. Démographie : 1,1 cotisant par retraité en 2060 | C40 | −53,2 / −50,1 / −55,3 | 113 % / 103 % | 111 % / 97 % | 275 | 37 | 121 % | 98 % | 2,0 | 12 | 45 |
+| 7. Démographie : 1,1 cotisant par retraité en 2060 | C40N | −77,1 / −80,1 / −95,2 | 116 % / 111 % | 114 % / 104 % | 275 | 37 | 122 % | 105 % | 2,0 | 12 | 45 |
+| 8a. Combinaison : récession + taux +100 pb | ACTUEL | −310,9 / −311,6 / −429,4 | 148 % / 171 % | 139 % / 157 % | 619 | 253 | 171 % | 171 % | 0,0 | 0 | 619 |
+| 8a. Combinaison : récession + taux +100 pb | P1N | −241,1 / −207,4 / −262,8 | 136 % / 145 % | 128 % / 133 % | 542 | 217 | 145 % | 134 % | 2,0 | 98 | 43 |
+| 8a. Combinaison : récession + taux +100 pb | C40 | −122,1 / −55,8 / −53,3 | 119 % / 109 % | 111 % / 97 % | 500 | 216 | 129 % | 98 % | 2,0 | 105 | 33 |
+| 8a. Combinaison : récession + taux +100 pb | C40N | −146,1 / −86,3 / −95,5 | 122 % / 116 % | 114 % / 104 % | 508 | 216 | 130 % | 105 % | 2,0 | 105 | 35 |
+| 8b. Combinaison : récession + krach immobilier −20 % | P1N | −267,3 / −197,2 / −215,5 | 138 % / 142 % | 128 % / 133 % | 422 | 286 | 142 % | 133 % | 2,0 | 150 | 0 |
+| 8b. Combinaison : récession + krach immobilier −20 % | C40 | −148,4 / −48,2 / −17,2 | 120 % / 107 % | 111 % / 97 % | 422 | 286 | 130 % | 97 % | 2,0 | 150 | 4 |
+| 8b. Combinaison : récession + krach immobilier −20 % | C40N | −172,3 / −78,2 / −57,1 | 124 % / 114 % | 114 % / 104 % | 422 | 286 | 130 % | 104 % | 2,0 | 150 | 4 |
+
+## Chocs, scénario haut (solde an 1 / an 5 / an 10 ; dette/PIB an 5 / an 10 ; manque cumulé 10 ans ; réserve 3 ans = manque cumulé des trois premières années ; avec garde-fous : dette/PIB an 10, marge de taux utilisée max (pts), coupe du socle max (€), manque résiduel cumulé)
+| choc | archi | solde 1 / 5 / 10 | dette/PIB 5 / 10 | sans choc 5 / 10 | manque cumulé 10 ans | réserve 3 ans | pic dette/PIB | garde-fous : dette/PIB 10 | marge pts | coupe socle € | manque résiduel |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| 1a. Création de valeur : sans la ligne E (croissance par l'IA) | P1N | −292,6 / −338,5 / −441,8 | 147 % / 172 % | 147 % / 171 % | 51 | 4 | 172 % | 171 % | 0,8 | 0 | 10 |
+| 1a. Création de valeur : sans la ligne E (croissance par l'IA) | C40 | −223,1 / −251,4 / −325,9 | 137 % / 152 % | 137 % / 150 % | 51 | 4 | 152 % | 151 % | 1,0 | 0 | 10 |
+| 1a. Création de valeur : sans la ligne E (croissance par l'IA) | C40N | −244,4 / −278,2 / −361,5 | 140 % / 158 % | 140 % / 157 % | 51 | 4 | 158 % | 157 % | 1,0 | 0 | 10 |
+| 1b. Création de valeur : aucune (A à E à zéro) | P1N | −292,7 / −338,6 / −441,9 | 147 % / 172 % | 147 % / 171 % | 52 | 5 | 172 % | 171 % | 0,8 | 0 | 10 |
+| 1b. Création de valeur : aucune (A à E à zéro) | C40 | −223,2 / −251,5 / −326,0 | 137 % / 152 % | 137 % / 150 % | 52 | 5 | 152 % | 151 % | 1,0 | 0 | 10 |
+| 1b. Création de valeur : aucune (A à E à zéro) | C40N | −244,5 / −278,3 / −361,7 | 140 % / 158 % | 140 % / 157 % | 52 | 5 | 158 % | 157 % | 1,0 | 0 | 10 |
+| 2. Récession type 2009 (PIB −3 %, écart −4,1 %) | ACTUEL | −287,9 / −282,7 / −367,1 | 145 % / 163 % | 139 % / 157 % | 244 | 176 | 163 % | 163 % | 0,0 | 0 | 244 |
+| 2. Récession type 2009 (PIB −3 %, écart −4,1 %) | P1N | −355,4 / −339,8 / −438,1 | 152 % / 176 % | 147 % / 171 % | 224 | 162 | 176 % | 171 % | 2,0 | 93 | 0 |
+| 2. Récession type 2009 (PIB −3 %, écart −4,1 %) | C40 | −285,8 / −252,7 / −322,2 | 142 % / 156 % | 137 % / 150 % | 224 | 162 | 156 % | 150 % | 2,0 | 101 | 0 |
+| 2. Récession type 2009 (PIB −3 %, écart −4,1 %) | C40N | −307,2 / −279,4 / −357,9 | 145 % / 162 % | 140 % / 157 % | 224 | 162 | 162 % | 157 % | 2,0 | 101 | 0 |
+| 3a. Taux +100 pb | ACTUEL | −224,0 / −302,8 / −417,3 | 141 % / 164 % | 139 % / 157 % | 299 | 30 | 164 % | 164 % | 0,0 | 0 | 299 |
+| 3a. Taux +100 pb | P1N | −296,9 / −361,5 / −493,4 | 149 % / 178 % | 147 % / 171 % | 317 | 31 | 178 % | 172 % | 2,0 | 42 | 54 |
+| 3a. Taux +100 pb | C40 | −227,4 / −272,9 / −371,0 | 139 % / 157 % | 137 % / 150 % | 292 | 30 | 157 % | 152 % | 2,0 | 43 | 48 |
+| 3a. Taux +100 pb | C40N | −248,8 / −300,2 / −408,6 | 142 % / 164 % | 140 % / 157 % | 300 | 31 | 164 % | 158 % | 2,0 | 45 | 50 |
+| 3b. Taux +200 pb | ACTUEL | −229,0 / −329,4 / −478,9 | 143 % / 171 % | 139 % / 157 % | 610 | 61 | 171 % | 171 % | 0,0 | 0 | 610 |
+| 3b. Taux +200 pb | P1N | −302,0 / −389,3 / −559,8 | 151 % / 186 % | 147 % / 171 % | 646 | 62 | 186 % | 174 % | 2,0 | 120 | 109 |
+| 3b. Taux +200 pb | C40 | −232,4 / −299,2 / −430,5 | 141 % / 164 % | 137 % / 150 % | 597 | 61 | 164 % | 153 % | 2,0 | 112 | 97 |
+| 3b. Taux +200 pb | C40N | −253,8 / −326,9 / −470,2 | 144 % / 171 % | 140 % / 157 % | 612 | 61 | 171 % | 159 % | 2,0 | 117 | 101 |
+| 4a. Krach immobilier −20 % (3 ans) | P1N | −316,7 / −346,5 / −435,2 | 150 % / 174 % | 147 % / 171 % | 130 | 79 | 174 % | 171 % | 2,0 | 17 | 0 |
+| 4a. Krach immobilier −20 % (3 ans) | C40 | −247,2 / −259,4 / −319,3 | 139 % / 153 % | 137 % / 150 % | 130 | 79 | 153 % | 150 % | 2,0 | 25 | 0 |
+| 4a. Krach immobilier −20 % (3 ans) | C40N | −268,5 / −286,2 / −355,0 | 143 % / 160 % | 140 % / 157 % | 130 | 79 | 160 % | 157 % | 2,0 | 25 | 0 |
+| 4b. Krach boursier −30 % | P1N | −297,1 / −334,5 / −431,6 | 147 % / 171 % | 147 % / 171 % | 10 | 8 | 171 % | 171 % | 0,6 | 0 | 0 |
+| 4b. Krach boursier −30 % | C40 | −227,5 / −247,4 / −315,6 | 137 % / 151 % | 137 % / 150 % | 10 | 8 | 151 % | 150 % | 0,8 | 0 | 0 |
+| 4b. Krach boursier −30 % | C40N | −248,9 / −274,2 / −351,3 | 140 % / 157 % | 140 % / 157 % | 10 | 8 | 157 % | 157 % | 0,8 | 0 | 0 |
+| 5. Exil des grands patrimoines doublé par rapport au haut | P1N | −329,6 / −381,6 / −494,1 | 152 % / 182 % | 147 % / 171 % | 493 | 120 | 182 % | 172 % | 2,0 | 44 | 51 |
+| 5. Exil des grands patrimoines doublé par rapport au haut | C40 | −265,4 / −301,2 / −387,2 | 143 % / 163 % | 137 % / 150 % | 563 | 137 | 163 % | 152 % | 2,0 | 63 | 58 |
+| 5. Exil des grands patrimoines doublé par rapport au haut | C40N | −286,7 / −327,9 / −422,7 | 146 % / 170 % | 140 % / 157 % | 562 | 137 | 170 % | 158 % | 2,0 | 63 | 58 |
+| 6a. Échec du système d'information : un an de recettes du bloc 1 perdu | P1N | −813,8 / −335,9 / −433,2 | 148 % / 173 % | 147 % / 171 % | 65 | 53 | 173 % | 171 % | 1,7 | 0 | 0 |
+| 6a. Échec du système d'information : un an de recettes du bloc 1 perdu | C40 | −804,7 / −249,0 / −317,6 | 138 % / 152 % | 137 % / 150 % | 73 | 59 | 152 % | 150 % | 2,0 | 4 | 0 |
+| 6a. Échec du système d'information : un an de recettes du bloc 1 perdu | C40N | −826,1 / −275,7 / −353,2 | 141 % / 159 % | 140 % / 157 % | 73 | 59 | 159 % | 157 % | 2,0 | 4 | 0 |
+| 6b. Échec du système d'information : un mois de recettes du bloc 1 | P1N | −335,4 / −334,4 / −431,4 | 147 % / 171 % | 147 % / 171 % | 5 | 4 | 171 % | 171 % | 1,7 | 0 | 0 |
+| 6b. Échec du système d'information : un mois de recettes du bloc 1 | C40 | −270,9 / −247,3 / −315,5 | 137 % / 151 % | 137 % / 150 % | 6 | 5 | 151 % | 150 % | 2,0 | 4 | 0 |
+| 6b. Échec du système d'information : un mois de recettes du bloc 1 | C40N | −292,3 / −274,1 / −351,2 | 140 % / 157 % | 140 % / 157 % | 6 | 5 | 157 % | 157 % | 2,0 | 4 | 0 |
+| 7. Démographie : 1,1 cotisant par retraité en 2060 | ACTUEL | −228,2 / −300,3 / −410,7 | 141 % / 163 % | 139 % / 157 % | 275 | 37 | 163 % | 163 % | 0,0 | 0 | 275 |
+| 7. Démographie : 1,1 cotisant par retraité en 2060 | P1N | −301,2 / −357,8 / −482,3 | 149 % / 177 % | 147 % / 171 % | 275 | 37 | 177 % | 172 % | 2,0 | 29 | 45 |
+| 7. Démographie : 1,1 cotisant par retraité en 2060 | C40 | −231,6 / −270,7 / −366,4 | 139 % / 157 % | 137 % / 150 % | 275 | 37 | 157 % | 152 % | 2,0 | 37 | 45 |
+| 7. Démographie : 1,1 cotisant par retraité en 2060 | C40N | −253,0 / −297,5 / −402,0 | 142 % / 163 % | 140 % / 157 % | 275 | 37 | 163 % | 158 % | 2,0 | 37 | 45 |
+| 8a. Combinaison : récession + taux +100 pb | ACTUEL | −293,0 / −309,8 / −426,9 | 147 % / 170 % | 139 % / 157 % | 553 | 207 | 170 % | 170 % | 0,0 | 0 | 553 |
+| 8a. Combinaison : récession + taux +100 pb | P1N | −360,4 / −368,0 / −502,2 | 154 % / 184 % | 147 % / 171 % | 551 | 194 | 184 % | 172 % | 2,0 | 103 | 54 |
+| 8a. Combinaison : récession + taux +100 pb | C40 | −290,9 / −279,3 / −379,8 | 144 % / 162 % | 137 % / 150 % | 526 | 193 | 162 % | 152 % | 2,0 | 111 | 48 |
+| 8a. Combinaison : récession + taux +100 pb | C40N | −312,3 / −306,6 / −417,4 | 147 % / 169 % | 140 % / 157 % | 534 | 193 | 169 % | 158 % | 2,0 | 111 | 50 |
+| 8b. Combinaison : récession + krach immobilier −20 % | P1N | −380,2 / −352,0 / −442,1 | 155 % / 179 % | 147 % / 171 % | 354 | 241 | 179 % | 171 % | 2,0 | 143 | 0 |
+| 8b. Combinaison : récession + krach immobilier −20 % | C40 | −310,7 / −264,9 / −326,2 | 145 % / 159 % | 137 % / 150 % | 354 | 241 | 159 % | 150 % | 2,0 | 150 | 0 |
+| 8b. Combinaison : récession + krach immobilier −20 % | C40N | −332,0 / −291,6 / −361,9 | 148 % / 165 % | 140 % / 157 % | 354 | 241 | 165 % | 157 % | 2,0 | 150 | 0 |
+
+## Clause de sauvegarde sur le solde structurel (le manque dû au cycle seul ne déclenche pas la coupe)
+| choc | archi | scénario | clause sur solde constaté : coupe max du socle (€), dette/PIB 10 | clause sur solde structurel : coupe max (€), dette/PIB 10, pic dette/PIB |
+|---|---|---|---|---|
+| 2. Récession | C40N | central | 95 €, 104 % | 0 €, 109 %, 129 % |
+| 2. Récession | C40N | haut | 101 €, 157 % | 0 €, 161 %, 161 % |
+| 8a. Récession + taux +100 pb | C40N | central | 105 €, 105 % | 13 €, 110 %, 130 % |
+| 8a. Récession + taux +100 pb | C40N | haut | 111 €, 158 % | 56 €, 162 %, 162 % |
+| 8b. Récession + krach immobilier | C40N | central | 150 €, 104 % | 20 €, 109 %, 130 % |
+| 8b. Récession + krach immobilier | C40N | haut | 150 €, 157 % | 31 €, 161 %, 161 % |
+
+## Détails
+Exil doublé (C40N, central) : revenus −10,4, transmissions −51,0, taxe −15,4, total −76,8 ; mobil ajusté 0.83 ; perte du haut 5,6
+  exil2 C40N central : −76,8 (revenus −10,4, transmissions −51,0, taxe −15,4)
+  exil2 C40N haut : −38,2 (revenus −5,6, transmissions −25,5, taxe −7,2)
+Krach P1N central : immo taxe −15,6, transmissions −12,2 (part immobilière 59 %) ; bourse taxe −2,6, transmissions −4,1
+Krach C40 central : immo taxe −15,6, transmissions −12,2 (part immobilière 59 %) ; bourse taxe −2,6, transmissions −4,1
+Krach C40N central : immo taxe −15,6, transmissions −12,2 (part immobilière 59 %) ; bourse taxe −2,6, transmissions −4,1
+Bloc 1 (recettes annuelles, C40N) : 517 Md€ = 17,3 % du PIB
+Surcoût d'intérêts +100 pb : {"an1":4.325625,"plein":34.605}
+Récession, effet sur le solde (central) : droit actuel an 1 87,0, cumul 4 ans 256,1 ; C40N an 1 73,1, cumul 4 ans 215,5
+Lissage de l'indice sur 5 ans, krach −20 % trois ans (niveaux relatifs, pic) : 0.04 ; 0.08 ; 0.12 ; 0.147 ; 0.16 ; 0.12 ; 0.08 ; 0.04 ; 0.013 ; 0
+
+## Synthèse (C40N au central et au haut ; P1N et C40 au central pour les soldes)
+| choc | C40N central : solde an 10 | dette/PIB 5 / 10 ans | écart de dette/PIB à 10 ans vs sans choc | réserve 3 ans | C40N haut : solde an 10 | dette/PIB 10 ans | P1N central : solde an 10 | C40 central : solde an 10 |
+|---|---|---|---|---|---|---|---|---|
+| Sans choc | −44,1 | 114 % / 104 % | 0 | 0 | −351,0 | 157 % | −202,5 | −4,2 |
+| 1a. Création de valeur : sans la ligne E (croissance par l'IA) | −76,0 | 115 % / 108 % | 3,5 pts | 13 | −361,5 | 158 % | −234,3 | −36,1 |
+| 1b. Création de valeur : aucune (A à E à zéro) | −93,9 | 116 % / 110 % | 5,6 pts | 23 | −361,7 | 158 % | −252,2 | −54,0 |
+| 2. Récession type 2009 (PIB −3 %, écart −4,1 %) | −52,1 | 120 % / 110 % | 5,9 pts | 187 | −357,9 | 162 % | −210,4 | −12,2 |
+| 3a. Taux +100 pb | −85,3 | 116 % / 110 % | 5,4 pts | 29 | −408,6 | 164 % | −252,6 | −43,1 |
+| 3b. Taux +200 pb | −129,8 | 118 % / 115 % | 11,1 pts | 58 | −470,2 | 171 % | −306,4 | −85,2 |
+| 4a. Krach immobilier −20 % (3 ans) | −49,2 | 118 % / 108 % | 3,7 pts | 99 | −355,0 | 160 % | −207,5 | −9,2 |
+| 4b. Krach boursier −30 % | −44,6 | 115 % / 105 % | 0,3 pts | 12 | −351,3 | 157 % | −202,9 | −4,7 |
+| 5. Exil des grands patrimoines doublé par rapport au haut | −188,3 | 127 % / 130 % | 25,7 pts | 274 | −422,7 | 170 % | −330,1 | −148,4 |
+| 6a. Échec du système d'information : un an de recettes du bloc 1 perdu | −46,4 | 116 % / 106 % | 1,7 pts | 59 | −353,2 | 159 % | −204,5 | −6,4 |
+| 6b. Échec du système d'information : un mois de recettes du bloc 1 | −44,3 | 114 % / 104 % | 0,1 pts | 5 | −351,2 | 157 % | −202,6 | −4,4 |
+| 7. Démographie : 1,1 cotisant par retraité en 2060 | −95,2 | 116 % / 111 % | 6,3 pts | 37 | −402,0 | 163 % | −253,5 | −55,3 |
+| 8a. Combinaison : récession + taux +100 pb | −95,5 | 122 % / 116 % | 11,6 pts | 216 | −417,4 | 169 % | −262,8 | −53,3 |
+| 8b. Combinaison : récession + krach immobilier −20 % | −57,1 | 124 % / 114 % | 9,6 pts | 286 | −361,9 | 165 % | −215,5 | −17,2 |
+
+Écart de taux plat entre C40 et C40N (an 1, central) : 24,0 Md€ = 1,9 points de taux plat
+Démographie 2060 (régime établi) : surcoût de pensions pour garder le taux de remplacement = 3,8 % du PIB = 113 Md€ de 2025 ; baisse du taux de remplacement si on ne paie pas : 22,0 %
+
+## Architecture finale v2 (R31-R34) : Architecture finale v2 (41.5 %, socle 350 €, taxe 1 % plafonnée, héritage reçu à vie, capital C, PPA 100 %, sortie « plat », exil défendable)
+Solde de croisière (Optimum.solde, Md€) bas / central / haut : 117,6 / 1,5 / −149,2 ; leviers : 1 point de taux plat 11,0 (central) / 4,9 (haut), 100 € de socle 44,0.
+
+### Trajectoires sans choc (v2)
+| scénario | solde an 1 | an 5 | an 10 | dette/PIB an 5 | an 10 | pic dette/PIB |
+|---|---|---|---|---|---|---|
+| bas | 84,7 | 150,4 | 239,8 | 91 % | 56 % | 117 % |
+| central | −50,7 | −35,1 | −15,6 | 112 % | 99 % | 121 % |
+| haut | −230,1 | −257,0 | −328,3 | 138 % | 153 % | 153 % |
+
+### Chocs, v2, scénario central (mêmes colonnes que ci-dessus)
+| choc | solde 1 / 5 / 10 | dette/PIB 5 / 10 | écart dette/PIB 10 vs sans choc | manque cumulé 10 ans | réserve 3 ans | pic dette/PIB | garde-fous : dette/PIB 10 | marge pts | coupe socle € | manque résiduel |
+|---|---|---|---|---|---|---|---|---|---|---|
+| 1a. IA à zéro (sans la ligne E) | −52,9 / −47,7 / −47,4 | 113 % / 103 % | 3,5 pts | 154 | 13 | 121 % | 100 % | 1,6 | 0 | 29 |
+| 1b. Création de valeur : aucune | −53,6 / −55,6 / −65,3 | 113 % / 105 % | 5,6 pts | 245 | 23 | 122 % | 100 % | 2,0 | 11 | 45 |
+| 2. Récession type 2009 | −123,9 / −41,3 / −23,5 | 118 % / 105 % | 5,9 pts | 258 | 187 | 129 % | 99 % | 2,0 | 94 | 0 |
+| 3a. Taux +100 pb | −55,8 / −57,1 / −55,2 | 114 % / 105 % | 5,3 pts | 233 | 29 | 122 % | 100 % | 1,9 | 0 | 33 |
+| 3b. Taux +200 pb | −60,8 / −79,6 / −97,9 | 115 % / 110 % | 10,8 pts | 476 | 58 | 122 % | 101 % | 2,0 | 48 | 67 |
+| 4a. Krach immobilier −20 % (3 ans) | −76,2 / −47,6 / −19,7 | 115 % / 102 % | 3,0 pts | 133 | 81 | 122 % | 99 % | 2,0 | 1 | 0 |
+| 5b. Exil au haut de la fourchette défendable (R34) | −78,6 / −69,9 / −62,0 | 116 % / 108 % | 8,3 pts | 364 | 88 | 122 % | 100 % | 2,0 | 6 | 37 |
+| 5. Exil doublé (ancien stress R19, pour comparaison) | −122,0 / −124,3 / −134,4 | 122 % / 120 % | 21,2 pts | 932 | 226 | 124 % | 101 % | 2,0 | 94 | 96 |
+| 8a. Récession + taux +100 pb | −128,9 / −64,5 / −65,3 | 120 % / 111 % | 11,4 pts | 502 | 216 | 129 % | 100 % | 2,0 | 104 | 33 |
+| 8b. Récession + krach immobilier | −149,3 / −53,9 / −27,6 | 121 % / 108 % | 8,9 pts | 391 | 268 | 130 % | 99 % | 2,0 | 144 | 0 |
+
+### Chocs, v2, scénario haut (mêmes colonnes que ci-dessus)
+| choc | solde 1 / 5 / 10 | dette/PIB 5 / 10 | écart dette/PIB 10 vs sans choc | manque cumulé 10 ans | réserve 3 ans | pic dette/PIB | garde-fous : dette/PIB 10 | marge pts | coupe socle € | manque résiduel |
+|---|---|---|---|---|---|---|---|---|---|---|
+| 1a. IA à zéro (sans la ligne E) | −230,8 / −261,2 / −338,8 | 138 % / 154 % | 1,2 pts | 51 | 4 | 154 % | 153 % | 1,1 | 0 | 10 |
+| 1b. Création de valeur : aucune | −230,9 / −261,3 / −339,0 | 138 % / 154 % | 1,2 pts | 52 | 5 | 154 % | 153 % | 1,2 | 0 | 10 |
+| 2. Récession type 2009 | −293,6 / −262,4 / −335,2 | 143 % / 158 % | 5,1 pts | 224 | 162 | 158 % | 153 % | 2,0 | 102 | 0 |
+| 3a. Taux +100 pb | −235,2 / −282,8 / −384,7 | 140 % / 160 % | 6,7 pts | 295 | 30 | 160 % | 154 % | 2,0 | 46 | 49 |
+| 3b. Taux +200 pb | −240,2 / −309,2 / −445,0 | 142 % / 167 % | 13,7 pts | 602 | 61 | 167 % | 155 % | 2,0 | 115 | 98 |
+| 4a. Krach immobilier −20 % (3 ans) | −249,8 / −266,6 / −331,5 | 140 % / 155 % | 2,3 pts | 102 | 62 | 155 % | 153 % | 2,0 | 17 | 0 |
+| 5b. Exil au haut de la fourchette défendable (R34) | −230,1 / −257,0 / −328,3 | 138 % / 153 % | 0,0 pts | 0 | 0 | 153 % | 153 % | 0,0 | 0 | 0 |
+| 5. Exil doublé (ancien stress R19, pour comparaison) | −266,4 / −302,4 / −388,8 | 143 % / 164 % | 10,8 pts | 474 | 115 | 164 % | 154 % | 2,0 | 51 | 49 |
+| 8a. Récession + taux +100 pb | −298,7 / −289,3 / −393,5 | 145 % / 165 % | 12,0 pts | 529 | 193 | 165 % | 154 % | 2,0 | 112 | 49 |
+| 8b. Récession + krach immobilier | −313,3 / −272,1 / −338,4 | 145 % / 160 % | 7,4 pts | 327 | 224 | 160 % | 153 % | 2,0 | 141 | 0 |
+
+Exil au haut de la fourchette (v2, central, Md€/an de croisière) : revenus −5,1, transmissions −16,9, taxe −2,8, total −24,7 ; ancien stress « doublé » sur la v2 : −63,3 (transmissions −33,8) ; même choc sur C40N (depuis les valeurs des modules, 31 % / 40 %) : −37,7.
+Krach immobilier −20 % (v2, central) : taxe −15,6, droits −7,1 (droits perçus après exemption et conjoint : 59,6 Md€/an).
+Clause de sauvegarde, récession (v2, central) : solde constaté : coupe max 94 €, dette/PIB 10 99 % ; solde structurel : coupe max 0 €, dette/PIB 10 104 %.
+
+## Architecture finale v3 (H609) : Architecture v3 (41.7 %, socle 350 €, allocation unique α 25 %, taxe 1 % plafonnée, héritage reçu à vie par fonction continue, capital de départ continu, exil défendable)
+Solde de croisière (Optimum.solde, Md€) bas / central / haut : 118,8 / 0,8 / −150,5 ; leviers : 1 point de taux plat 10,5 (central) / 4,5 (haut), 100 € de socle 44,0.
+
+### Trajectoires sans choc (v3)
+| scénario | solde an 1 | an 5 | an 10 | dette/PIB an 5 | an 10 | pic dette/PIB |
+|---|---|---|---|---|---|---|
+| bas | 86,2 | 152,2 | 242,2 | 91 % | 55 % | 117 % |
+| central | −51,5 | −36,0 | −16,9 | 112 % | 99 % | 121 % |
+| haut | −231,7 | −258,9 | −330,8 | 138 % | 153 % | 153 % |
+
+### Chocs, v3, scénario central (mêmes colonnes que ci-dessus)
+| choc | solde 1 / 5 / 10 | dette/PIB 5 / 10 | écart dette/PIB 10 vs sans choc | manque cumulé 10 ans | réserve 3 ans | pic dette/PIB | garde-fous : dette/PIB 10 | marge pts | coupe socle € | manque résiduel |
+|---|---|---|---|---|---|---|---|---|---|---|
+| 1a. IA à zéro (sans la ligne E) | −53,6 / −48,7 / −48,7 | 113 % / 103 % | 3,5 pts | 154 | 13 | 122 % | 100 % | 1,6 | 0 | 29 |
+| 1b. Création de valeur : aucune | −54,4 / −56,6 / −66,7 | 113 % / 105 % | 5,6 pts | 245 | 23 | 122 % | 101 % | 2,0 | 13 | 45 |
+| 2. Récession type 2009 | −124,7 / −42,3 / −24,8 | 118 % / 105 % | 5,9 pts | 258 | 187 | 129 % | 99 % | 2,0 | 96 | 0 |
+| 3a. Taux +100 pb | −56,6 / −58,1 / −56,5 | 114 % / 105 % | 5,3 pts | 233 | 29 | 122 % | 100 % | 2,0 | 1 | 33 |
+| 3b. Taux +200 pb | −61,6 / −80,7 / −99,4 | 116 % / 110 % | 10,9 pts | 477 | 58 | 122 % | 101 % | 2,0 | 50 | 67 |
+| 4a. Krach immobilier −20 % (3 ans) | −77,0 / −48,5 / −21,0 | 115 % / 103 % | 3,0 pts | 133 | 81 | 122 % | 99 % | 2,0 | 4 | 0 |
+| 5b. Exil au haut de la fourchette défendable (R34) | −79,5 / −71,1 / −63,6 | 116 % / 108 % | 8,3 pts | 366 | 89 | 122 % | 100 % | 2,0 | 9 | 38 |
+| 5. Exil doublé (ancien stress R19, pour comparaison) | −123,2 / −125,8 / −136,4 | 123 % / 121 % | 21,3 pts | 937 | 228 | 124 % | 102 % | 2,0 | 97 | 97 |
+| 8a. Récession + taux +100 pb | −129,7 / −65,5 / −66,7 | 120 % / 111 % | 11,4 pts | 503 | 216 | 129 % | 100 % | 2,0 | 106 | 33 |
+| 8b. Récession + krach immobilier | −150,1 / −54,8 / −28,9 | 121 % / 108 % | 8,9 pts | 391 | 268 | 130 % | 99 % | 2,0 | 146 | 0 |
+
+### Chocs, v3, scénario haut (mêmes colonnes que ci-dessus)
+| choc | solde 1 / 5 / 10 | dette/PIB 5 / 10 | écart dette/PIB 10 vs sans choc | manque cumulé 10 ans | réserve 3 ans | pic dette/PIB | garde-fous : dette/PIB 10 | marge pts | coupe socle € | manque résiduel |
+|---|---|---|---|---|---|---|---|---|---|---|
+| 1a. IA à zéro (sans la ligne E) | −232,4 / −263,1 / −341,4 | 138 % / 154 % | 1,2 pts | 51 | 4 | 154 % | 153 % | 1,3 | 0 | 10 |
+| 1b. Création de valeur : aucune | −232,5 / −263,2 / −341,5 | 138 % / 154 % | 1,2 pts | 52 | 5 | 154 % | 153 % | 1,3 | 0 | 10 |
+| 2. Récession type 2009 | −295,1 / −264,3 / −337,7 | 143 % / 158 % | 5,1 pts | 224 | 162 | 158 % | 153 % | 2,0 | 104 | 0 |
+| 3a. Taux +100 pb | −236,7 / −284,8 / −387,4 | 140 % / 160 % | 6,7 pts | 296 | 30 | 160 % | 154 % | 2,0 | 48 | 49 |
+| 3b. Taux +200 pb | −241,7 / −311,2 / −447,8 | 142 % / 167 % | 13,7 pts | 603 | 61 | 167 % | 155 % | 2,0 | 117 | 98 |
+| 4a. Krach immobilier −20 % (3 ans) | −251,3 / −268,5 / −334,0 | 140 % / 156 % | 2,3 pts | 102 | 62 | 156 % | 153 % | 2,0 | 19 | 0 |
+| 5b. Exil au haut de la fourchette défendable (R34) | −231,7 / −258,9 / −330,8 | 138 % / 153 % | 0,0 pts | 0 | 0 | 153 % | 153 % | 0,0 | 0 | 0 |
+| 5. Exil doublé (ancien stress R19, pour comparaison) | −268,2 / −304,6 / −391,7 | 143 % / 164 % | 10,9 pts | 477 | 116 | 164 % | 154 % | 2,0 | 53 | 49 |
+| 8a. Récession + taux +100 pb | −300,2 / −291,2 / −396,2 | 145 % / 165 % | 12,1 pts | 529 | 193 | 165 % | 154 % | 2,0 | 114 | 49 |
+| 8b. Récession + krach immobilier | −314,8 / −274,0 / −340,9 | 145 % / 161 % | 7,4 pts | 327 | 224 | 161 % | 153 % | 2,0 | 143 | 0 |
+
+Exil au haut de la fourchette (v3, central, Md€/an de croisière) : revenus −5,2, transmissions −16,9, taxe −2,8, total −24,9 ; ancien stress « doublé » sur la v3 : −63,7 (transmissions −33,8) ; même choc sur C40N (depuis les valeurs des modules, 31 % / 40 %) : −37,7.
+Krach immobilier −20 % (v3, central) : taxe −15,6, droits −7,0 (droits perçus après exemption et conjoint : 59,5 Md€/an).
+Clause de sauvegarde, récession (v3, central) : solde constaté : coupe max 96 €, dette/PIB 10 99 % ; solde structurel : coupe max 0 €, dette/PIB 10 104 %.

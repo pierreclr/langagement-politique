@@ -1,0 +1,62 @@
+id;libelle;domaine;regles;existe_propose;devient;note
+C01;État civil (naissances, mariages, décès);citoyenneté;R019,R058;oui;;
+C02;Titres d'identité (carte d'identité, passeport) : recueil et délivrance;citoyenneté;R020;oui;;
+C03;Listes électorales;citoyenneté;R057;oui;;
+C04;Écoles maternelles et élémentaires (bâtiments, fonctionnement);éducation;R035;oui;;
+C05;Enseignement (enseignants, programmes, diplômes);éducation;R040;oui;;
+C06;Restauration scolaire et accueil périscolaire;éducation;;oui;;compétence facultative de la commune (aucun article extrait)
+C07;Collèges (bâtiments, fonctionnement);éducation;R037;oui;;
+C08;Lycées (bâtiments, fonctionnement);éducation;R038;oui;;
+C09;Bourses de collège et de lycée;éducation;R039;oui;;
+C10;Transports scolaires;mobilité;R048;oui;;
+C11;Mobilité urbaine et locale (autorité organisatrice de la mobilité);mobilité;R046;oui;;
+C12;Transports régionaux non urbains et ferroviaires (TER, cars);mobilité;R047;oui;;
+C13;Voirie communale et intercommunale;mobilité;R050;oui;;
+C14;Routes départementales;mobilité;R049;oui;;
+C15;Routes nationales;mobilité;R051;oui;;
+C16;Collecte et traitement des déchets ménagers, propreté;environnement;R014;oui;;
+C17;Planification de la prévention et de la gestion des déchets;environnement;R061;oui;;
+C18;Eau potable;environnement;R015;oui;;
+C19;Assainissement et eaux pluviales;environnement;R016;oui;;
+C20;Gestion des milieux aquatiques et prévention des inondations (GEMAPI);environnement;R060;oui;;
+C21;Urbanisme réglementaire et aménagement (PLU, PLUi, SCoT, opérations d'aménagement);aménagement;R045;oui;;
+C22;Autorisations d'urbanisme (permis de construire, déclarations préalables);aménagement;R044;oui;;
+C23;Habitat et logement social (PLH, aides à la pierre, attributions);logement;R055,R056;oui;;
+C24;Aides personnelles au logement (APL, ALF, ALS);solidarités;R032;non;C60;remplacées par la fonction des revenus et le filet (systeme-en-une-page.md § 1)
+C25;Revenu de solidarité active (RSA);solidarités;R023,R024;non;C60;remplacé par la fonction des revenus et le filet
+C26;Prime d'activité;solidarités;R034;non;C60;remplacée par la fonction des revenus
+C27;Allocations familiales;solidarités;R033;non;C60;remplacées par le montant par enfant (200 €, + 250 € pour un parent seul)
+C28;Handicap : évaluation et ouverture des droits (MDPH, CDAPH);autonomie;R025,R026;oui;;
+C29;Allocation aux adultes handicapés (AAH);autonomie;R031;à_arbitrer;C60;sort non tranché : fondue dans la fonction des revenus ou gardée comme prestation de compensation ⚠️ V19010
+C30;Prestation de compensation du handicap (PCH);autonomie;R028;oui;;
+C31;Allocation personnalisée d'autonomie (APA) et personnes âgées;autonomie;R027,R064;oui;;
+C32;Aide sociale à l'enfance;solidarités;R029;oui;;
+C33;Protection maternelle et infantile (PMI);santé;R054;oui;;
+C34;Action sociale générale et facultative (accueil social, aides d'urgence);solidarités;R022,R030,R003;oui;;
+C35;Insertion et accompagnement vers l'emploi;emploi;R053;oui;;
+C36;Formation professionnelle;emploi;R052;oui;;
+C37;Développement économique et aides aux entreprises;économie;R012,R013;oui;;
+C38;Tourisme;économie;R002;oui;;compétence partagée par la loi (L1111-4)
+C39;Culture;culture;R002;oui;;compétence partagée par la loi (L1111-4)
+C40;Sport;culture;R002;oui;;compétence partagée par la loi (L1111-4)
+C41;Archives publiques (conservation, communication);culture;R041,R042,R043;oui;;
+C42;Incendie et secours;sécurité;R017;oui;;
+C43;Police et tranquillité publique;sécurité;R018;oui;;
+C44;Cimetières;services locaux;R059;oui;;
+C45;Accueil des gens du voyage;services locaux;R008;oui;;
+C46;Politique de la ville;aménagement;R009;oui;;
+C47;Énergie et climat (concessions électricité et gaz, réseaux de chaleur, plan climat);environnement;R003,R011;oui;;
+C48;Aménagement du territoire régional (SRADDET), biodiversité;aménagement;R003;oui;;
+C49;Assurance maladie (remboursement des soins);santé;;oui;;
+C50;Retraites (liquidation et versement);retraite;R066;oui;;plusieurs régimes aujourd'hui
+C51;Recouvrement des cotisations sociales et déclaration d'embauche;prélèvements;R067;non;C61;collecte unique par l'État-plateforme (systeme-en-une-page.md § 1)
+C52;Impôt sur le revenu (assiette, recouvrement);prélèvements;;non;C61;remplacé par la contribution C(R) prélevée à la source
+C53;Formalités d'entreprises (création, modification, cessation);économie;R068;oui;;
+C54;Immatriculation des véhicules;citoyenneté;;oui;;
+C55;Accueil et orientation de l'usager, accès aux droits (guichet de proximité);accueil;R003,R006;oui;;L1111-9 IV 2° (services publics de proximité) et L3211-1 (accès aux droits)
+C56;Jeunesse et éducation populaire;culture;R002,R003;oui;;région chef de file de la jeunesse (L1111-9 II 4°)
+C57;Santé de proximité (centres de santé, accès aux soins);santé;R006,R007;oui;;
+C58;Action internationale des collectivités (coopération décentralisée);international;;oui;;
+C59;Systèmes d'information et sites des administrations;numérique;;oui;;compétence de fait : chaque administration gère ses systèmes (registre des positions de l'auteur (non publié), 28/10, « Agence nationale du cyberespace »)
+C60;Fonction des revenus, filet du ménage et montant par enfant;solidarités;;oui;;nouvelle compétence du système proposé (systeme-en-une-page.md § 1)
+C61;Collecte unique des prélèvements (contribution C(R), patrimoine, TVA);prélèvements;;oui;;nouvelle compétence du système proposé

@@ -1,0 +1,53 @@
+Validation : modele par composantes contre Insee Premiere 2108 (projections 2026, scenario central et variantes)
+indicateur                                                         modele      Insee  ecart % tol. %
+population totale central 2040 (M)                                  70.06      69.73     +0.5    3.0
+population totale central 2070 (M)                                  66.44      65.89     +0.8    3.0
+population totale fecondite_basse 2040 (M)                          68.87      68.51     +0.5    3.0
+population totale fecondite_basse 2070 (M)                          61.91      61.33     +1.0    3.0
+population totale fecondite_haute 2040 (M)                          71.35      71.05     +0.4    3.0
+population totale fecondite_haute 2070 (M)                          71.34      70.84     +0.7    3.0
+population totale migration_basse 2040 (M)                          68.81      68.17     +0.9    3.0
+population totale migration_basse 2070 (M)                          62.13      60.93     +2.0    3.0
+population totale migration_haute 2040 (M)                          71.31      71.29     +0.0    3.0
+population totale migration_haute 2070 (M)                          70.74      70.84     -0.1    3.0
+population totale ev_basse 2040 (M)                                 69.66      69.27     +0.6    3.0
+population totale ev_basse 2070 (M)                                 64.40      63.82     +0.9    3.0
+population totale ev_haute 2040 (M)                                 70.45      70.24     +0.3    3.0
+population totale ev_haute 2070 (M)                                 68.43      68.03     +0.6    3.0
+population totale population_basse 2040 (M)                         67.24      66.52     +1.1    3.0
+population totale population_basse 2070 (M)                         55.81      54.64     +2.1    3.0
+population totale population_haute 2040 (M)                         73.01      73.15     -0.2    3.0
+population totale population_haute 2070 (M)                         77.88      78.26     -0.5    3.0
+65 ans ou plus central 2030 (M)                                     16.56      16.45     +0.6    3.0
+moins de 20 ans central 2030 (M)                                    14.70      14.78     -0.6    3.0
+rapport de dependance 65+/20-64 central 2030 (%)                    43.22      42.97     +0.6    3.5
+80 ans ou plus central 2030 (M)                                      5.32       5.22     +2.1    8.0
+65 ans ou plus central 2040 (M)                                     18.94      18.57     +2.0    3.0
+moins de 20 ans central 2040 (M)                                    12.87      12.97     -0.8    3.0
+rapport de dependance 65+/20-64 central 2040 (%)                    49.51      48.63     +1.8    3.5
+80 ans ou plus central 2040 (M)                                      7.12       6.71     +6.1    8.0
+65 ans ou plus central 2050 (M)                                     19.88      19.37     +2.6    3.0
+moins de 20 ans central 2050 (M)                                    12.56      12.39     +1.4    3.0
+rapport de dependance 65+/20-64 central 2050 (%)                    53.45      51.89     +3.0    3.5
+80 ans ou plus central 2050 (M)                                      8.25       7.65     +7.9    8.0
+65 ans ou plus central 2060 (M)                                     20.60      20.21     +1.9    3.0
+moins de 20 ans central 2060 (M)                                    11.98      11.82     +1.3    3.0
+rapport de dependance 65+/20-64 central 2060 (%)                    57.69      56.55     +2.0    3.5
+80 ans ou plus central 2060 (M)                                      8.83       8.20     +7.6    8.0
+65 ans ou plus central 2070 (M)                                     21.22      21.10     +0.6    3.0
+moins de 20 ans central 2070 (M)                                    10.85      10.71     +1.3    3.0
+rapport de dependance 65+/20-64 central 2070 (%)                    61.76      61.92     -0.3    3.5
+80 ans ou plus central 2070 (M)                                      9.51       8.90     +6.8    8.0
+rapport de dependance population_agee 2070 (%)                      74.91      77.88     -3.8    4.5
+rapport de dependance population_jeune 2070 (%)                     51.35      50.17     +2.4    3.0
+rapport de dependance ev_constante 2070 (%)                         53.22      54.03     -1.5    3.0
+rapport de dependance ev_basse 2070 (%)                             56.66      56.86     -0.4    3.0
+rapport de dependance ev_haute 2070 (%)                             66.85      67.43     -0.9    3.0
+naissances central 2030 (milliers)                                 596.90     601.42     -0.8    4.0
+deces central 2030 (milliers)                                      658.55     690.75     -4.7    7.0
+naissances central 2040 (milliers)                                 612.89     607.75     +0.8    4.0
+deces central 2040 (milliers)                                      763.95     789.19     -3.2    7.0
+naissances central 2050 (milliers)                                 582.14     581.51     +0.1    4.0
+deces central 2050 (milliers)                                      824.14     828.26     -0.5    7.0
+naissances central 2069 (milliers)                                 487.42     477.16     +2.1    4.0
+deces central 2069 (milliers)                                      820.65     821.01     -0.0    7.0

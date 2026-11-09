@@ -1,0 +1,122 @@
+# Capitalisation progressive : cohortes réelles, épargne et taux (resultats.md § 20)
+Euros constants de 2025, Md€ par an sauf mention. 3 points (φ_max = 3, +1 point tous les 3 ans), réforme en 2027, conversion en rente à 64 ans. Ordres de grandeur, jamais des prédictions.
+
+## 1. Démographie embarquée (prospective-demographie, Insee 2026, emploi calé sur le COR)
+| scénario | cotisants / retraités 2025 | 2040 | 2070 | cotisants 2027 (M) | 2070 (M) | espérance de vie à 64 ans, cohorte qui part en 2030 | 2050 | 2067 |
+|---|---|---|---|---|---|---|---|---|
+| bas (population jeune) | 1,76 | 1,63 | 1,46 | 30,7 | 31,6 | 22,9 | 23,5 | 23,7 |
+| central | 1,76 | 1,59 | 1,27 | 30,6 | 28,5 | 24,1 | 25,6 | 26,0 |
+| haut (population âgée) | 1,76 | 1,56 | 1,10 | 30,6 | 25,5 | 25,5 | 27,9 | 28,5 |
+Variante stylisée : masse salariale qui croît à g, 40 générations égales, rente de 22 ans à 65 ans.
+
+## 2. Double charge année par année, démographie centrale, rendement central (r 3,5 %, g 0,6 %, i 1,5 %), financement par la dette
+| année | points | versé au fonds | pensions de répartition évitées | rentes du fonds | double charge | dette de transition | dette / PIB | fonds | double charge (stylisée) | dette (stylisée) |
+|---|---|---|---|---|---|---|---|---|---|---|
+| 2027 | 1 | 15 | 0 | 0 | 15 | 15 | 0,5 % | 15 | 15 | 15 |
+| 2030 | 2 | 30 | 0 | 0 | 30 | 76 | 2,4 % | 81 | 30 | 75 |
+| 2035 | 3 | 48 | 1 | 1 | 47 | 289 | 8,8 % | 317 | 45 | 282 |
+| 2040 | 3 | 49 | 2 | 4 | 47 | 555 | 16,3 % | 634 | 44 | 534 |
+| 2050 | 3 | 51 | 9 | 17 | 42 | 1127 | 31,8 % | 1392 | 38 | 1063 |
+| 2060 | 3 | 52 | 21 | 42 | 32 | 1702 | 47,1 % | 2240 | 27 | 1580 |
+| 2070 | 3 | 53 | 36 | 84 | 17 | 2234 | 61,3 % | 3041 | 15 | 2053 |
+
+## 3. Durée du double paiement (simulation prolongée jusqu'en 2150, démographie figée après 2070)
+| démographie | rendement | pic (Md€) | année du pic | dette 2070 (Md€) | dette 2070 / PIB | double charge < 0,1 % du PIB dès | double charge négative dès | durée (ans depuis 2027) |
+|---|---|---|---|---|---|---|---|---|
+| bas (population jeune) | central (central) | 48 | 2038 | 2288 | 56,6 % | 2085 | 2126 | 99 |
+| bas (population jeune) | apparié (haut) | 50 | 2041 | 2182 | 45,2 % | 2084 | 2125 | 98 |
+| central | central (central) | 47 | 2038 | 2234 | 61,3 % | 2081 | 2086 | 59 |
+| haut (population âgée) | central (central) | 47 | 2037 | 2181 | 66,8 % | 2079 | 2082 | 55 |
+| haut (population âgée) | apparié (bas) | 45 | 2033 | 2246 | 90,1 % | 2079 | 2083 | 56 |
+| stylisée | central | 45 | 2034 | 2053 | 52,4 % | 2081 | 2094 | 67 |
+
+## 4. Effet sur le solde et le socle, base « palier 1 » (soldeBase et socleBase de capitalisation.js : création de valeur prolongée sans plafond, H119, démographie de 2025), 3 points, financement par la dette
+| scénario | année | solde sans | solde avec | socle sans (€/mois) | socle avec | double charge | dette de transition | dette / PIB |
+|---|---|---|---|---|---|---|---|---|
+| bas | 2030 | −91 | −123 | 546 | 474 | 31 | 76 | 2,4 % |
+| bas | 2035 | −67 | −119 | 593 | 474 | 49 | 292 | 8,5 % |
+| bas | 2040 | −47 | −102 | 639 | 512 | 50 | 560 | 15,3 % |
+| bas | 2050 | −6 | −63 | 732 | 599 | 47 | 1130 | 28,1 % |
+| bas | 2060 | 37 | −17 | 848 | 722 | 38 | 1690 | 38,1 % |
+| bas | 2070 | 82 | 38 | 941 | 838 | 23 | 2182 | 45,2 % |
+| central | 2030 | −152 | −183 | 500 | 428 | 30 | 76 | 2,4 % |
+| central | 2035 | −136 | −187 | 546 | 429 | 47 | 289 | 8,8 % |
+| central | 2040 | −124 | −179 | 570 | 443 | 47 | 555 | 16,3 % |
+| central | 2050 | −102 | −160 | 616 | 481 | 42 | 1127 | 31,8 % |
+| central | 2060 | −78 | −135 | 686 | 555 | 32 | 1702 | 47,1 % |
+| central | 2070 | −54 | −104 | 732 | 617 | 17 | 2234 | 61,3 % |
+| haut | 2030 | −233 | −264 | 500 | 429 | 30 | 76 | 2,5 % |
+| haut | 2035 | −230 | −279 | 500 | 386 | 45 | 284 | 9,3 % |
+| haut | 2040 | −227 | −280 | 500 | 377 | 43 | 542 | 17,7 % |
+| haut | 2050 | −221 | −278 | 523 | 390 | 36 | 1102 | 37,2 % |
+| haut | 2060 | −216 | −273 | 523 | 389 | 25 | 1678 | 61,2 % |
+| haut | 2070 | −210 | −266 | 546 | 418 | 12 | 2246 | 90,1 % |
+
+## 4. Effet sur le solde et le socle, base « démographie » (demographie.js : volumes du même scénario démographique, création de valeur comprise), 3 points, financement par la dette
+| scénario | année | solde sans | solde avec | socle sans (€/mois) | socle avec | double charge | dette de transition | dette / PIB |
+|---|---|---|---|---|---|---|---|---|
+| bas | 2030 | −92 | −123 | 562 | 491 | 31 | 76 | 2,4 % |
+| bas | 2035 | −69 | −120 | 614 | 498 | 49 | 292 | 8,5 % |
+| bas | 2040 | −53 | −108 | 649 | 525 | 50 | 560 | 15,3 % |
+| bas | 2050 | −25 | −82 | 715 | 585 | 47 | 1130 | 28,1 % |
+| bas | 2060 | 11 | −43 | 797 | 673 | 38 | 1690 | 38,1 % |
+| bas | 2070 | 35 | −9 | 858 | 756 | 23 | 2182 | 45,2 % |
+| central | 2030 | −155 | −186 | 518 | 447 | 30 | 76 | 2,4 % |
+| central | 2035 | −143 | −194 | 545 | 430 | 47 | 289 | 8,8 % |
+| central | 2040 | −139 | −194 | 554 | 429 | 47 | 555 | 16,3 % |
+| central | 2050 | −142 | −200 | 549 | 412 | 42 | 1127 | 31,8 % |
+| central | 2060 | −150 | −206 | 532 | 394 | 32 | 1702 | 47,1 % |
+| central | 2070 | −167 | −217 | 490 | 361 | 17 | 2234 | 61,3 % |
+| haut | 2030 | −240 | −270 | 490 | 420 | 30 | 76 | 2,5 % |
+| haut | 2035 | −242 | −291 | 485 | 373 | 45 | 284 | 9,3 % |
+| haut | 2040 | −250 | −303 | 466 | 344 | 43 | 542 | 17,7 % |
+| haut | 2050 | −281 | −338 | 391 | 252 | 36 | 1102 | 37,2 % |
+| haut | 2060 | −326 | −383 | 262 | 109 | 25 | 1678 | 61,2 % |
+| haut | 2070 | −378 | −434 | 82 | 0 | 12 | 2246 | 90,1 % |
+
+## 5. Comparaison avec les trois points actuels (resultats.md § 14 : variante stylisée, base palier 1, central, 3 points)
+| année (n) | socle stylisé | socle cohortes | solde stylisé | solde cohortes | dette stylisée | dette cohortes |
+|---|---|---|---|---|---|---|
+| 2031 (5) | 451 | 450 | −179 | −180 | 106 | 108 |
+| 2036 (10) | 432 | 427 | −183 | −185 | 331 | 341 |
+| 2046 (20) | 493 | 482 | −164 | −168 | 850 | 895 |
+
+## 6. Points capitalisés (démographie et rendement centraux, base démographie, dette)
+| φ_max | dette 2050 | dette 2070 | dette 2070 / PIB | socle 2050 (sans → avec) | socle 2070 (sans → avec) | double charge < 0,1 % du PIB dès |
+|---|---|---|---|---|---|---|
+| 1 | 427 | 786 | 21,6 % | 549 → 503 | 490 → 449 | 2072 |
+| 3 | 1127 | 2234 | 61,3 % | 549 → 412 | 490 → 361 | 2081 |
+| 6 | 1772 | 4044 | 110,9 % | 549 → 278 | 490 → 218 | 2089 |
+
+## 7. Épargne nationale (variation, Md€ et % du PIB) : fonds + administrations + ménages, démographie et rendement centraux
+| hypothèses d'épargne | financement | δ (déplacement) | 2030 | 2040 | 2050 | 2070 | 2070 (% PIB) | cumul 2027-2070 |
+|---|---|---|---|---|---|---|---|---|
+| bas | dette | 0,00 | 2 | 12 | 23 | 22 | 0,61 % | 807 |
+| bas | prelevement | 0,00 | 29 | 62 | 77 | 70 | 1,91 % | 2856 |
+| central | dette | 0,20 | −4 | 3 | 13 | 12 | 0,32 % | 392 |
+| central | prelevement | 0,20 | 23 | 52 | 66 | 59 | 1,62 % | 2440 |
+| haut | dette | 0,75 | −21 | −25 | −15 | −18 | −0,48 % | −751 |
+| haut | prelevement | 0,75 | 7 | 25 | 38 | 30 | 0,83 % | 1298 |
+Décomposition, central, dette, 2030 : fonds 33, administrations −31, ménages −6 ; 2070 : fonds 72, administrations −50, ménages −11.
+
+## 8. Effet de la dette de transition sur le taux d'intérêt (β pb par point de dette de transition / PIB), démographie et rendement centraux, financement par la dette
+| hypothèse | β (pb / point) | taux 2050 | taux 2070 | dette 2070 (Md€) | dette 2070 / PIB | surcoût sur la dette existante 2050 | 2070 | impact sur le déficit 2070 | socle 2070 (base démographie) | épargne nationale cumulée |
+|---|---|---|---|---|---|---|---|---|---|---|
+| bas | 0,0 | 1,50 % | 1,50 % | 2234 | 61,3 % | 0 | 0 | 50 | 490 → 361 | 807 |
+| central | 2,0 | 2,13 % | 2,96 % | 2759 | 75,7 % | 14 | 39 | 135 | 490 → 140 | −133 |
+| haut | 4,5 | 2,99 % | 6,06 % | 3934 | 107,9 % | 32 | 111 | 352 | 490 → 0 | −2450 |
+
+## 9. Frais de gestion (rendement net = r + 0,21 % − frais), démographie et rendement centraux
+| frais | rendement net | fonds 2070 | rentes du fonds 2070 | gain des retraités 2070 (rentes − répartition évitée) | dette 2070 |
+|---|---|---|---|---|---|
+| 0,05 % | 3,66 % | 3135 | 88 | 52 | 2234 |
+| 0,21 % | 3,50 % | 3041 | 84 | 48 | 2234 |
+| 1,00 % | 2,71 % | 2625 | 67 | 31 | 2234 |
+
+## 10. Sensibilités (démographie et rendement centraux, dette)
+| variante | double charge 2040 | dette 2070 | double charge < 0,1 % du PIB dès |
+|---|---|---|---|
+| référence (64 ans, profil plat) | 47 | 2234 | 2081 |
+| conversion à 63 ans | 47 | 2223 | 2081 |
+| conversion à 65 ans | 47 | 2248 | 2081 |
+| profil de salaire par âge (H226 ⚠️) | 47 | 2164 | 2079 |

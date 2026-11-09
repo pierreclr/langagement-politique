@@ -1,0 +1,70 @@
+== DeepSeek, fenêtre 27-28/02/2025 : recalcul
+  gpus_moyens: 1 814
+  cout_jour_recalcule: 87 072
+  revenu_r1_recalcule: 562 100
+  marge_r1_recalculee: 5.456
+  revenu_v32: 154 616
+  marge_v32: 0.776
+  revenu_gpu_heure_r1: 12.911
+  revenu_gpu_heure_v32: 3.551
+  sortie_par_gpu_heure: 3 858 875
+  entree_par_gpu_heure: 13 965 454
+  moyenne_sur_pic: 0.816
+
+== Plan d'affaires (EUR, par scénario)
+-- Investissement 1 Md EUR
+  bas      MW=23 GPU=11 081 TWh/an=0.19 jetons sortie/an=309 T CA=99 M EBITDA=53 M (53 %) VNA=-2 112 M TRI=n/a % retour=n/a an  tréso min=-3 561 M
+  central  MW=30 GPU=14 406 TWh/an=0.26 jetons sortie/an=682 T CA=327 M EBITDA=258 M (79 %) VNA=-453 M TRI=-3.6 % retour=n/a an  tréso min=-1 000 M
+  haut     MW=38 GPU=18 007 TWh/an=0.34 jetons sortie/an=1,461 T CA=935 M EBITDA=832 M (89 %) VNA=4 376 M TRI=47.1 % retour=2.7 an  tréso min=-1 000 M
+-- Investissement 5 Md EUR
+  bas      MW=117 GPU=55 407 TWh/an=0.93 jetons sortie/an=1,545 T CA=495 M EBITDA=265 M (53 %) VNA=-10 560 M TRI=n/a % retour=n/a an  tréso min=-17 803 M
+  central  MW=152 GPU=72 029 TWh/an=1.31 jetons sortie/an=3,409 T CA=1 637 M EBITDA=1 289 M (79 %) VNA=-2 264 M TRI=-3.6 % retour=n/a an  tréso min=-5 000 M
+  haut     MW=190 GPU=90 036 TWh/an=1.68 jetons sortie/an=7,305 T CA=4 677 M EBITDA=4 162 M (89 %) VNA=21 881 M TRI=47.1 % retour=2.7 an  tréso min=-5 000 M
+-- Investissement 10 Md EUR
+  bas      MW=233 GPU=110 813 TWh/an=1.86 jetons sortie/an=3,090 T CA=989 M EBITDA=529 M (53 %) VNA=-21 120 M TRI=n/a % retour=n/a an  tréso min=-35 606 M
+  central  MW=303 GPU=144 057 TWh/an=2.61 jetons sortie/an=6,818 T CA=3 274 M EBITDA=2 579 M (79 %) VNA=-4 528 M TRI=-3.6 % retour=n/a an  tréso min=-10 000 M
+  haut     MW=379 GPU=180 072 TWh/an=3.36 jetons sortie/an=14,609 T CA=9 354 M EBITDA=8 324 M (89 %) VNA=43 763 M TRI=47.1 % retour=2.7 an  tréso min=-10 000 M
+
+== Sensibilités, central, 5 Md EUR : VNA (M EUR) et TRI (%)
+  utilisation: 0.4: -5 309 M / -30.0 % ; 0.55: -3 786 M / -14.6 % ; 0.7: -2 264 M / -3.6 % ; 0.8: -1 249 M / 1.7 % ; 0.9: -234 M / 6.1 %
+  realisation: 0.3: -6 021 M / -39.1 % ; 0.45: -4 142 M / -18.0 % ; 0.6: -2 264 M / -3.6 % ; 0.8: 241 M / 7.9 %
+  baisse_prix: 0.1: -440 M / 5.4 % ; 0.2: -2 264 M / -3.6 % ; 0.3: -3 656 M / -16.8 % ; 0.4: -4 729 M / -38.9 % ; 0.55: -5 907 M / n/a %
+  elec_eur_mwh: 40: -1 883 M / -1.4 % ; 60: -2 101 M / -2.7 % ; 75: -2 264 M / -3.6 % ; 100: -2 536 M / -5.4 % ; 140: -2 972 M / -8.6 %
+  taux_actu: 0.04: -1 906 M / -3.6 % ; 0.0494: -2 032 M / -3.6 % ; 0.07: -2 264 M / -3.6 % ; 0.09: -2 442 M / -3.6 %
+  duree_serveurs: 3: -4 491 M / -20.6 % ; 5: -2 264 M / -3.6 % ; 7: -2 003 M / n/a %
+  accel: 1.0: -6 021 M / -39.1 % ; 1.5: -4 142 M / -18.0 % ; 2.0: -2 264 M / -3.6 % ; 3.0: 1 493 M / 12.3 %
+  reprise_generation: 0.0: -4 931 M / -54.2 % ; 0.5: -3 362 M / -16.9 % ; 0.85: -2 264 M / -3.6 % ; 1.0: -1 793 M / -0.5 %
+
+== Seuils (central)
+  taux 4.94 % : utilisation de VNA nulle = 87 % ; revenu min par GPU-heure = 4.57 EUR (central : 3.71)
+  taux 6.94 % : utilisation de VNA nulle = 92 % ; revenu min par GPU-heure = 4.82 EUR (central : 3.71)
+  taux 9.00 % : utilisation de VNA nulle = 98 % ; revenu min par GPU-heure = 5.09 EUR (central : 3.71)
+
+== Crédit du fournisseur (central, 5 Md EUR, 50 % des serveurs, 5 ans)
+  taux du crédit 3 % : VNA=-2 039 M ; sortie de trésorerie maximale=3 926 M
+  taux du crédit 6 % : VNA=-2 165 M ; sortie de trésorerie maximale=4 090 M
+  taux du crédit 9 % : VNA=-2 295 M ; sortie de trésorerie maximale=4 260 M
+  sans crédit : VNA=-2 264 M ; sortie maximale=5 000 M
+
+== Dette ou investissement (OAT 10 ans 4,94 %)
+  bas: TRI=n/a % -> non
+  central: TRI=-3.6 % -> non (la dette rapporte plus, sans risque)
+  haut: TRI=47.1 % -> oui (au-dessus du taux de l'État plus la prime de risque)
+  intérêts évités par 5 Md EUR de dette en moins : 247 M EUR/an
+
+== Profil de 24 h : usage interne + Europe + États-Unis (capacité = 1)
+  pic/moyenne : interne 1.48 ; Europe 1.41 ; États-Unis 1.61
+  [central] utilisation de VNA nulle au taux de l'État (4.94 %) : 87 %
+    A. Interne 0,10 + Europe 0,60 (demande totale 0,70, sans États-Unis): utilisation 70 % (interne 10 %, Europe 60 %, États-Unis 0 %) ; part externe minimale, interne reversé à 0 / 50 / 100 % du prix : non finançable / non finançable / non finançable
+    B. Interne 0,10 + Europe 0,30 + États-Unis 0,30 (même demande totale 0,70): utilisation 70 % (interne 10 %, Europe 30 %, États-Unis 30 %) ; part externe minimale, interne reversé à 0 / 50 / 100 % du prix : non finançable / non finançable / non finançable
+    C. Interne 0,10 + Europe 0,45 + États-Unis 0,45 (demande totale 1,00): utilisation 89 % (interne 10 %, Europe 45 %, États-Unis 34 %) ; part externe minimale, interne reversé à 0 / 50 / 100 % du prix : 98 % / 92 % / 87 %
+    E. Interne 0,10 + Europe 0,90 (demande totale 1,00, sans États-Unis : les pointes de jour saturent): utilisation 78 % (interne 10 %, Europe 68 %, États-Unis 0 %) ; part externe minimale, interne reversé à 0 / 50 / 100 % du prix : non finançable / non finançable / 99 %
+    D. Interne 0,20 + Europe 0,20 (public presque seul): utilisation 40 % (interne 20 %, Europe 20 %, États-Unis 0 %) ; part externe minimale, interne reversé à 0 / 50 / 100 % du prix : non finançable / non finançable / non finançable
+  [haut] utilisation de VNA nulle au taux de l'État (4.94 %) : 23 %
+    A. Interne 0,10 + Europe 0,60 (demande totale 0,70, sans États-Unis): utilisation 70 % (interne 10 %, Europe 60 %, États-Unis 0 %) ; part externe minimale, interne reversé à 0 / 50 / 100 % du prix : 33 % / 26 % / 19 %
+    B. Interne 0,10 + Europe 0,30 + États-Unis 0,30 (même demande totale 0,70): utilisation 70 % (interne 10 %, Europe 30 %, États-Unis 30 %) ; part externe minimale, interne reversé à 0 / 50 / 100 % du prix : 33 % / 26 % / 19 %
+    C. Interne 0,10 + Europe 0,45 + États-Unis 0,45 (demande totale 1,00): utilisation 89 % (interne 10 %, Europe 45 %, États-Unis 34 %) ; part externe minimale, interne reversé à 0 / 50 / 100 % du prix : 26 % / 20 % / 15 %
+    E. Interne 0,10 + Europe 0,90 (demande totale 1,00, sans États-Unis : les pointes de jour saturent): utilisation 78 % (interne 10 %, Europe 68 %, États-Unis 0 %) ; part externe minimale, interne reversé à 0 / 50 / 100 % du prix : 30 % / 23 % / 17 %
+    D. Interne 0,20 + Europe 0,20 (public presque seul): utilisation 40 % (interne 20 %, Europe 20 %, États-Unis 0 %) ; part externe minimale, interne reversé à 0 / 50 / 100 % du prix : 58 % / 33 % / 8 %
+
+Tests : tous passés

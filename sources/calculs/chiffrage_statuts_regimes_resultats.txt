@@ -1,0 +1,27 @@
+Tests : OK
+
+P-043  mission RSR PLF 2026 (subventions d'equilibre) : 5.98 Md EUR (SNCF 3.23 ; RATP 0.89 ; marins 0.80 ; mines et divers 1.06) + IEG par la CTA (≈ 1.509 en 2017, ancien)
+       actifs des regimes subventionnes : 315,839 ; departs/an ≈ 9,024
+       (a) alignement des actifs en place : bas / central / haut = +0.13 / +0.45 / +1.21 Md EUR (pleine charge)
+       (b) categories actives de la fonction publique : +1.00 / +2.00 / +3.20 Md EUR
+P-044  allocations 1.89 ; deficit calcule 1.42 ; socle des indemnises 1.52 ; gain brut apres socle 0.37 ; part du poste chomage du modele 5.1 %
+       pertes des menages (bornes) +0.20 / +0.47 / +0.59 Md EUR ; compensation culture non comptee -0.94 / -0.28 / -0.00
+P-045  taux effectif de cotisation / revenu apres abattement : vente 42.4 % ; services_BIC 42.4 % ; services_BNC 37.3 %
+       revenu total declare 15.74 ; cotisations actuelles ≈ 6.41 ; au taux unique 6.61 ; ecart a revenu constant +0.21 ; scenarios -2.05 / -0.46 / +0.74 (NE PAS AJOUTER : deja en agregat)
+P-046  Agirc-Arrco gestion + fonds social 1.725 = 1.71 % des allocations ; SNCF 0.53 % ; deja compte (L1c) +0.11 / +0.46 / +1.19 ; reserve non comptee (versement des pensions) +0.14 / +0.28 / +0.41
+P-042  taux employeur CAS 2025 78.28 % vs prive 16.58 % ; 1 % de la masse salariale publique = 3.63 Md EUR ; cout employeur moyen 62,783 EUR / EQTP ; conversion volontaire payee (cout unique, sans economie) +11.8 / +5.9 / +2.4 Md EUR
+
+Synthese (effet NON compte, bas / central / haut, Md EUR / an, croisiere) :
+  P-043a  +0.13 / +0.45 / +1.21
+  P-043b  +1.00 / +2.00 / +3.20
+  P-044   -0.94 / -0.28 / -0.00
+  P-046   +0.14 / +0.28 / +0.41
+  P-045   +0.00 / +0.00 / +0.00
+  P-042   +0.00 / +0.00 / +0.00
+  total   +0.32 / +2.44 / +4.82
+
+Profil temporel de P-043 (central, clause du grand-pere) :
+  annee  1 : +0.00 Md EUR
+  annee 10 : +0.00 Md EUR
+  annee 20 : +0.98 Md EUR
+  annee 35 : +2.45 Md EUR

@@ -1,0 +1,11 @@
+# source: Tesla (appels résultats, X), Electrek, Not a Tesla App, NPR, Pony.ai IR, WeRide, Euronews, Uber IR ; date consultation: 2026-10-25
+date,acteur,indicateur,valeur,unite,statut,source_url,note
+2019-04-22,Tesla,robotaxis annoncés pour 2020,1000000,véhicules,annonce,https://www.npr.org/transcripts/nx-s1-5144675,"'Next year, for sure, we will have over a million robotaxis on the road' (Autonomy Day)"
+2025-07,Tesla,FSD non supervisé chez les particuliers,0,,annonce,https://electrek.co/2026/10/21/tesla-unsupervised-fsd-q2-2027-robotaxi-fleet/,promis 'by the end of this year in certain geographies' ; repoussé à T2 2027
+2026-09-30,Tesla,miles non supervisés cumulés,2000000,miles,annonce,https://electrek.co/2026/10/21/tesla-unsupervised-fsd-q2-2027-robotaxi-fleet/,'près de 2 millions' (Tesla) ; Waymo: 271 M à juin 2026
+2026-10-10,Tesla,Cybercabs à Austin,300,véhicules,annonce,https://www.basenor.com/pages/tesla-robotaxi-tracker,compte Robotaxi sur X ; comptage communautaire: 275 non supervisés
+2026-10-21,Tesla,métropoles desservies,6,villes,annonce,https://www.notateslaapp.com/news/4867/tesla-q3-2026-earnings-call-recap-everything-you-need-to-know,zones géographiques restreintes ; Bay Area avec conducteur de sécurité
+2026-06-30,Pony.ai,flotte robotaxi,1975,véhicules,mesure,https://ir.pony.ai/node/8601/pdf,"objectif >3 500 fin 2026 ; CA T2 2026 36,2 M USD dont robotaxi 12,1 M"
+2026-07-31,WeRide,flotte L4 (dont >1 800 robotaxis),3400,véhicules,mesure,https://weride.ai/posts/bj9lid37z9drcrhh96iphj22,"CA L4 T2 2026: 18,5 M USD"
+2026-09-24,Waymo,flotte robotaxi,4000,véhicules,estimation,https://techcrunch.com/2026/09/24/waymo-is-scaling-fast-heres-what-the-fleet-data-shows/,~80 % en Californie et Texas ; 3 067 selon données NHTSA déc. 2025
+2026-10,Verne/Pony.ai/Uber (Zagreb),flotte,30,véhicules,mesure,https://www.euronews.com/2026/10/18/look-no-hands-euronews-rode-driverless-in-europes-first-robotaxi-in-zagreb,service commercial depuis avril 2026 avec opérateur de sécurité ; essais sans conducteur sur invitation depuis 10/09/2026

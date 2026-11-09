@@ -1,0 +1,54 @@
+# source: U.S. Census Bureau, Business Trends and Outlook Survey (BTOS), fichier https://www.census.gov/hfp/btos/downloads/National.xlsx (feuille Response Estimates, question 7 et 24) ; unite: % des entreprises employeuses US ; date consultation: 2026-10-25
+# question (depuis nov. 2025): usage de l IA "dans l une quelconque de ses fonctions" au cours des 2 dernieres semaines. Avant nov. 2025: usage "pour produire des biens ou services" (serie heritee, non comparable, ~2x plus faible). Libelle du questionnaire renomme "Super Intelligence (SI)" suite a l Executive Order 14434 (sept. 2026), meme definition. Cycles 202521-202523 (oct.-nov. 2025) manquants (shutdown).
+date_debut_reference,date_fin_reference,cycle,question,valeur,erreur_type,unite,statut,source_url
+2026-09-21,2026-10-04,202621,usage IA 2 dernieres semaines (toutes fonctions),24.6,0.27,% entreprises,mesure,https://www.census.gov/hfp/btos/downloads/National.xlsx
+2026-09-07,2026-09-20,202620,usage IA 2 dernieres semaines (toutes fonctions),23.8,0.41,% entreprises,mesure,https://www.census.gov/hfp/btos/downloads/National.xlsx
+2026-08-24,2026-09-06,202619,usage IA 2 dernieres semaines (toutes fonctions),23.8,0.26,% entreprises,mesure,https://www.census.gov/hfp/btos/downloads/National.xlsx
+2026-08-10,2026-08-23,202618,usage IA 2 dernieres semaines (toutes fonctions),23.2,0.28,% entreprises,mesure,https://www.census.gov/hfp/btos/downloads/National.xlsx
+2026-07-27,2026-08-09,202617,usage IA 2 dernieres semaines (toutes fonctions),22.4,0.36,% entreprises,mesure,https://www.census.gov/hfp/btos/downloads/National.xlsx
+2026-07-13,2026-07-26,202616,usage IA 2 dernieres semaines (toutes fonctions),21.8,0.33,% entreprises,mesure,https://www.census.gov/hfp/btos/downloads/National.xlsx
+2026-06-29,2026-07-12,202615,usage IA 2 dernieres semaines (toutes fonctions),21.5,0.42,% entreprises,mesure,https://www.census.gov/hfp/btos/downloads/National.xlsx
+2026-06-15,2026-06-28,202614,usage IA 2 dernieres semaines (toutes fonctions),21.7,0.31,% entreprises,mesure,https://www.census.gov/hfp/btos/downloads/National.xlsx
+2026-06-01,2026-06-14,202613,usage IA 2 dernieres semaines (toutes fonctions),20.6,0.39,% entreprises,mesure,https://www.census.gov/hfp/btos/downloads/National.xlsx
+2026-05-18,2026-05-31,202612,usage IA 2 dernieres semaines (toutes fonctions),20.6,0.27,% entreprises,mesure,https://www.census.gov/hfp/btos/downloads/National.xlsx
+2026-05-04,2026-05-17,202611,usage IA 2 dernieres semaines (toutes fonctions),20.6,0.29,% entreprises,mesure,https://www.census.gov/hfp/btos/downloads/National.xlsx
+2026-04-20,2026-05-03,202610,usage IA 2 dernieres semaines (toutes fonctions),19.5,0.24,% entreprises,mesure,https://www.census.gov/hfp/btos/downloads/National.xlsx
+2026-04-06,2026-04-19,202609,usage IA 2 dernieres semaines (toutes fonctions),19.8,0.24,% entreprises,mesure,https://www.census.gov/hfp/btos/downloads/National.xlsx
+2026-03-23,2026-04-05,202608,usage IA 2 dernieres semaines (toutes fonctions),19.8,0.29,% entreprises,mesure,https://www.census.gov/hfp/btos/downloads/National.xlsx
+2026-03-09,2026-03-22,202607,usage IA 2 dernieres semaines (toutes fonctions),19.1,0.42,% entreprises,mesure,https://www.census.gov/hfp/btos/downloads/National.xlsx
+2026-02-23,2026-03-08,202606,usage IA 2 dernieres semaines (toutes fonctions),18.9,0.32,% entreprises,mesure,https://www.census.gov/hfp/btos/downloads/National.xlsx
+2026-02-09,2026-02-22,202605,usage IA 2 dernieres semaines (toutes fonctions),18.2,0.32,% entreprises,mesure,https://www.census.gov/hfp/btos/downloads/National.xlsx
+2026-01-26,2026-02-08,202604,usage IA 2 dernieres semaines (toutes fonctions),17.5,0.40,% entreprises,mesure,https://www.census.gov/hfp/btos/downloads/National.xlsx
+2026-01-12,2026-01-25,202603,usage IA 2 dernieres semaines (toutes fonctions),18.9,0.39,% entreprises,mesure,https://www.census.gov/hfp/btos/downloads/National.xlsx
+2025-12-29,2026-01-11,202602,usage IA 2 dernieres semaines (toutes fonctions),18.2,0.24,% entreprises,mesure,https://www.census.gov/hfp/btos/downloads/National.xlsx
+2025-12-15,2025-12-28,202601,usage IA 2 dernieres semaines (toutes fonctions),17.7,0.30,% entreprises,mesure,https://www.census.gov/hfp/btos/downloads/National.xlsx
+2025-12-01,2025-12-14,202526,usage IA 2 dernieres semaines (toutes fonctions),17.8,0.47,% entreprises,mesure,https://www.census.gov/hfp/btos/downloads/National.xlsx
+2025-11-17,2025-11-30,202525,usage IA 2 dernieres semaines (toutes fonctions),17.2,0.23,% entreprises,mesure,https://www.census.gov/hfp/btos/downloads/National.xlsx
+2025-11-03,2025-11-16,202524,usage IA 2 dernieres semaines (toutes fonctions),17.3,0.18,% entreprises,mesure,https://www.census.gov/hfp/btos/downloads/National.xlsx
+2026-09-21,2026-10-04,202621,usage IA prevu dans 6 mois,28.6,0.21,% entreprises,mesure,https://www.census.gov/hfp/btos/downloads/National.xlsx
+2026-09-07,2026-09-20,202620,usage IA prevu dans 6 mois,27.7,0.36,% entreprises,mesure,https://www.census.gov/hfp/btos/downloads/National.xlsx
+2026-08-24,2026-09-06,202619,usage IA prevu dans 6 mois,27.6,0.29,% entreprises,mesure,https://www.census.gov/hfp/btos/downloads/National.xlsx
+2026-08-10,2026-08-23,202618,usage IA prevu dans 6 mois,27.3,0.28,% entreprises,mesure,https://www.census.gov/hfp/btos/downloads/National.xlsx
+2026-07-27,2026-08-09,202617,usage IA prevu dans 6 mois,25.9,0.47,% entreprises,mesure,https://www.census.gov/hfp/btos/downloads/National.xlsx
+2026-07-13,2026-07-26,202616,usage IA prevu dans 6 mois,25.9,0.33,% entreprises,mesure,https://www.census.gov/hfp/btos/downloads/National.xlsx
+2026-06-29,2026-07-12,202615,usage IA prevu dans 6 mois,24.3,0.36,% entreprises,mesure,https://www.census.gov/hfp/btos/downloads/National.xlsx
+2026-06-15,2026-06-28,202614,usage IA prevu dans 6 mois,24.5,0.33,% entreprises,mesure,https://www.census.gov/hfp/btos/downloads/National.xlsx
+2026-06-01,2026-06-14,202613,usage IA prevu dans 6 mois,23.7,0.34,% entreprises,mesure,https://www.census.gov/hfp/btos/downloads/National.xlsx
+2026-05-18,2026-05-31,202612,usage IA prevu dans 6 mois,23.9,0.46,% entreprises,mesure,https://www.census.gov/hfp/btos/downloads/National.xlsx
+2026-05-04,2026-05-17,202611,usage IA prevu dans 6 mois,23.7,0.35,% entreprises,mesure,https://www.census.gov/hfp/btos/downloads/National.xlsx
+2026-04-20,2026-05-03,202610,usage IA prevu dans 6 mois,22.7,0.34,% entreprises,mesure,https://www.census.gov/hfp/btos/downloads/National.xlsx
+2026-04-06,2026-04-19,202609,usage IA prevu dans 6 mois,22.8,0.28,% entreprises,mesure,https://www.census.gov/hfp/btos/downloads/National.xlsx
+2026-03-23,2026-04-05,202608,usage IA prevu dans 6 mois,23.0,0.26,% entreprises,mesure,https://www.census.gov/hfp/btos/downloads/National.xlsx
+2026-03-09,2026-03-22,202607,usage IA prevu dans 6 mois,22.5,0.32,% entreprises,mesure,https://www.census.gov/hfp/btos/downloads/National.xlsx
+2026-02-23,2026-03-08,202606,usage IA prevu dans 6 mois,22.3,0.31,% entreprises,mesure,https://www.census.gov/hfp/btos/downloads/National.xlsx
+2026-02-09,2026-02-22,202605,usage IA prevu dans 6 mois,21.8,0.22,% entreprises,mesure,https://www.census.gov/hfp/btos/downloads/National.xlsx
+2026-01-26,2026-02-08,202604,usage IA prevu dans 6 mois,21.0,0.33,% entreprises,mesure,https://www.census.gov/hfp/btos/downloads/National.xlsx
+2026-01-12,2026-01-25,202603,usage IA prevu dans 6 mois,22.1,0.36,% entreprises,mesure,https://www.census.gov/hfp/btos/downloads/National.xlsx
+2025-12-29,2026-01-11,202602,usage IA prevu dans 6 mois,22.1,0.22,% entreprises,mesure,https://www.census.gov/hfp/btos/downloads/National.xlsx
+2025-12-15,2025-12-28,202601,usage IA prevu dans 6 mois,22.4,0.34,% entreprises,mesure,https://www.census.gov/hfp/btos/downloads/National.xlsx
+2025-12-01,2025-12-14,202526,usage IA prevu dans 6 mois,21.3,0.32,% entreprises,mesure,https://www.census.gov/hfp/btos/downloads/National.xlsx
+2025-11-17,2025-11-30,202525,usage IA prevu dans 6 mois,20.9,0.36,% entreprises,mesure,https://www.census.gov/hfp/btos/downloads/National.xlsx
+2025-11-03,2025-11-16,202524,usage IA prevu dans 6 mois,21.1,0.26,% entreprises,mesure,https://www.census.gov/hfp/btos/downloads/National.xlsx
+2023-10-23,2023-11-05,,HERITEE: usage IA pour produire biens/services,3.9,,% entreprises,mesure,https://www.census.gov/library/stories/2023/11/businesses-use-ai.html
+2025-01,2025-03,,HERITEE: usage IA pour produire biens/services (approx.),7,,% entreprises,mesure (valeur approchee lue dans le texte),https://www.stlouisfed.org/on-the-economy/2026/jun/measuring-ai-adoption-firms-how-you-ask-matters
+2025-10,2025-10,,HERITEE: usage IA pour produire biens/services (approx.),10,,% entreprises,mesure (valeur approchee lue dans le texte),https://www.stlouisfed.org/on-the-economy/2026/jun/measuring-ai-adoption-firms-how-you-ask-matters

@@ -1,0 +1,37 @@
+# source: IFR communiqués densité robotique (https://ifr.org/ifr-press-releases/news/global-robotics-race-korea-singapore-and-germany-in-the-lead ; https://www.businesswire.com/news/home/20241120789594/en/China-Overtakes-Germany-and-Japan-in-Robot-Density-IFR-reports ; https://ifr.org/ifr-press-releases/news/robot-density-surges-in-europe-asia-and-americas) ; unité: robots industriels en service pour 10 000 salariés de l'industrie manufacturière ; date consultation: 2026-10-25
+# note: la valeur Chine 2024 (166) résulte d'une révision des données d'emploi ; la série Chine 2022-2023 (392/402, 470) n'est pas comparable.
+annee_donnees,pays_ou_zone,valeur,unite,statut,edition_ifr,source_url,note
+2022,Coree du Sud,1012,robots/10 000 salariés industrie manufacturière,mesure,WR2023,https://ifr.org/ifr-press-releases/news/global-robotics-race-korea-singapore-and-germany-in-the-lead,
+2022,Singapour,730,robots/10 000 salariés industrie manufacturière,mesure,WR2023,https://ifr.org/ifr-press-releases/news/global-robotics-race-korea-singapore-and-germany-in-the-lead,
+2022,Allemagne,415,robots/10 000 salariés industrie manufacturière,mesure,WR2023,https://ifr.org/ifr-press-releases/news/global-robotics-race-korea-singapore-and-germany-in-the-lead,
+2022,Japon,397,robots/10 000 salariés industrie manufacturière,mesure,WR2023,https://ifr.org/ifr-press-releases/news/global-robotics-race-korea-singapore-and-germany-in-the-lead,
+2022,Chine,392,robots/10 000 salariés industrie manufacturière,mesure,WR2023,https://ifr.org/ifr-press-releases/news/global-robotics-race-korea-singapore-and-germany-in-the-lead,
+2022,Etats-Unis,285,robots/10 000 salariés industrie manufacturière,mesure,WR2023,https://ifr.org/ifr-press-releases/news/global-robotics-race-korea-singapore-and-germany-in-the-lead,
+2022,UE,208,robots/10 000 salariés industrie manufacturière,mesure,WR2023,https://ifr.org/ifr-press-releases/news/global-robotics-race-korea-singapore-and-germany-in-the-lead,
+2022,Monde,151,robots/10 000 salariés industrie manufacturière,mesure,WR2023,https://ifr.org/ifr-press-releases/news/global-robotics-race-korea-singapore-and-germany-in-the-lead,
+2023,Coree du Sud,1012,robots/10 000 salariés industrie manufacturière,mesure,WR2024,https://www.businesswire.com/news/home/20241120789594/en/China-Overtakes-Germany-and-Japan-in-Robot-Density-IFR-reports,
+2023,Singapour,770,robots/10 000 salariés industrie manufacturière,mesure,WR2024,https://www.businesswire.com/news/home/20241120789594/en/China-Overtakes-Germany-and-Japan-in-Robot-Density-IFR-reports,
+2023,Chine,470,robots/10 000 salariés industrie manufacturière,mesure,WR2024,https://www.businesswire.com/news/home/20241120789594/en/China-Overtakes-Germany-and-Japan-in-Robot-Density-IFR-reports,
+2023,Allemagne,429,robots/10 000 salariés industrie manufacturière,mesure,WR2024,https://www.businesswire.com/news/home/20241120789594/en/China-Overtakes-Germany-and-Japan-in-Robot-Density-IFR-reports,
+2023,Japon,419,robots/10 000 salariés industrie manufacturière,mesure,WR2024,https://www.businesswire.com/news/home/20241120789594/en/China-Overtakes-Germany-and-Japan-in-Robot-Density-IFR-reports,
+2023,Etats-Unis,295,robots/10 000 salariés industrie manufacturière,mesure,WR2024,https://www.businesswire.com/news/home/20241120789594/en/China-Overtakes-Germany-and-Japan-in-Robot-Density-IFR-reports,
+2023,UE,219,robots/10 000 salariés industrie manufacturière,mesure,WR2024,https://www.businesswire.com/news/home/20241120789594/en/China-Overtakes-Germany-and-Japan-in-Robot-Density-IFR-reports,"UE 219 et Monde 162 via reprises presse du communiqué (heise, metalworkingnews)"
+2023,Monde,162,robots/10 000 salariés industrie manufacturière,mesure,WR2024,https://www.businesswire.com/news/home/20241120789594/en/China-Overtakes-Germany-and-Japan-in-Robot-Density-IFR-reports,"UE 219 et Monde 162 via reprises presse du communiqué (heise, metalworkingnews)"
+2024,Coree du Sud,1220,robots/10 000 salariés industrie manufacturière,mesure,WR2025,https://ifr.org/ifr-press-releases/news/robot-density-surges-in-europe-asia-and-americas,
+2024,Singapour,818,robots/10 000 salariés industrie manufacturière,mesure,WR2025,https://ifr.org/ifr-press-releases/news/robot-density-surges-in-europe-asia-and-americas,
+2024,Allemagne,449,robots/10 000 salariés industrie manufacturière,mesure,WR2025,https://ifr.org/ifr-press-releases/news/robot-density-surges-in-europe-asia-and-americas,
+2024,Japon,446,robots/10 000 salariés industrie manufacturière,mesure,WR2025,https://ifr.org/ifr-press-releases/news/robot-density-surges-in-europe-asia-and-americas,
+2024,Suede,377,robots/10 000 salariés industrie manufacturière,mesure,WR2025,https://ifr.org/ifr-press-releases/news/robot-density-surges-in-europe-asia-and-americas,
+2024,Danemark,329,robots/10 000 salariés industrie manufacturière,mesure,WR2025,https://ifr.org/ifr-press-releases/news/robot-density-surges-in-europe-asia-and-americas,
+2024,Slovenie,315,robots/10 000 salariés industrie manufacturière,mesure,WR2025,https://ifr.org/ifr-press-releases/news/robot-density-surges-in-europe-asia-and-americas,
+2024,Etats-Unis,307,robots/10 000 salariés industrie manufacturière,mesure,WR2025,https://ifr.org/ifr-press-releases/news/robot-density-surges-in-europe-asia-and-americas,
+2024,Taipei chinois,302,robots/10 000 salariés industrie manufacturière,mesure,WR2025,https://ifr.org/ifr-press-releases/news/robot-density-surges-in-europe-asia-and-americas,
+2024,Suisse,294,robots/10 000 salariés industrie manufacturière,mesure,WR2025,https://ifr.org/ifr-press-releases/news/robot-density-surges-in-europe-asia-and-americas,
+2024,UE,231,robots/10 000 salariés industrie manufacturière,mesure,WR2025,https://ifr.org/ifr-press-releases/news/robot-density-surges-in-europe-asia-and-americas,
+2024,Europe de l'Ouest,267,robots/10 000 salariés industrie manufacturière,mesure,WR2025,https://ifr.org/ifr-press-releases/news/robot-density-surges-in-europe-asia-and-americas,
+2024,Amerique du Nord,204,robots/10 000 salariés industrie manufacturière,mesure,WR2025,https://ifr.org/ifr-press-releases/news/robot-density-surges-in-europe-asia-and-americas,
+2024,Asie,131,robots/10 000 salariés industrie manufacturière,mesure,WR2025,https://ifr.org/ifr-press-releases/news/robot-density-surges-in-europe-asia-and-americas,
+2024,Chine,166,robots/10 000 salariés industrie manufacturière,mesure,WR2025,https://ifr.org/ifr-press-releases/news/robot-density-surges-in-europe-asia-and-americas,RUPTURE DE SÉRIE: dénominateur emploi révisé (nouvelles données NBS Chine) ; non comparable aux 470 de 2023
+2024,Monde,132,robots/10 000 salariés industrie manufacturière,mesure,WR2025,https://ifr.org/ifr-press-releases/news/robot-density-surges-in-europe-asia-and-americas,moyenne mondiale probablement affectée par la révision Chine
+2022,France,180,robots/10 000 salariés industrie manufacturière,estimation,WR2023,https://www.economiematin.fr/?p=212608,NON CONFIRMÉ sur source primaire (chiffre Statista/IFR repris par la presse)
+2023,France,186,robots/10 000 salariés industrie manufacturière,estimation,WR2024,https://www.economiematin.fr/?p=212608,NON CONFIRMÉ sur source primaire (presse citant WR2024)

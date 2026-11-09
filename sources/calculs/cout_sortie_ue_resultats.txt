@@ -1,0 +1,29 @@
+PIB France 2025 déduit : 2991 Md€ (dette 3460.5 / 1.157)
+PSR-UE 2026 : 28.8 Md€ = 0.96 % du PIB
+Solde net 2024 : 7.9 Md€ (méthode comptable) = 0.26 % du PIB ; 5.0 Md€ (méthode de la Commission) = 0.17 %
+Sortie de l'UE : économie brute max 28.8 Md€/an, nette ~7.9 Md€/an, avant de remplacer les dépenses (PAC, cohésion, recherche)
+
+Institut Montaigne (rapport de mars 2017, p. 31-32), tel que publié :
+  dépréciation ~15 % ; facture supplémentaire ~50 Md€/an ; charge de dette ~30 Md€/an
+  destruction de valeur ~9 points de PIB à terme, soit 269 Md€ appliqués au PIB 2025 (transposition indicative)
+  (les chiffres '2,3 % la première année' et '500 000 emplois' sont de la presse, absents du rapport : non utilisés)
+
+Brexit (UK) en % du PIB : OBR 4 % ; UKICE 2-6 % ; Bloom et al. 6-8 %
+Même pourcentages appliqués au PIB français (analogie seulement, ⚠️ non transposable) :
+  OBR 4 %       120 Md€
+  UKICE 2 %      60 Md€
+  UKICE 6 %     179 Md€
+  Bloom 6 %     179 Md€
+  Bloom 8 %     239 Md€
+
+Surcoût d'intérêts (dette Maastricht, durée moyenne 8 ans [hypothèse ⚠️]) :
+  + 50 pb : année 1   2.2 Md€ ; régime plein  17.3 Md€/an (0.58 % du PIB)
+  +100 pb : année 1   4.3 Md€ ; régime plein  34.6 Md€/an (1.16 % du PIB)
+  +200 pb : année 1   8.7 Md€ ; régime plein  69.2 Md€/an (2.31 % du PIB)
+  +300 pb : année 1  13.0 Md€ ; régime plein 103.8 Md€/an (3.47 % du PIB)
+
+Créanciers non résidents (56 % de la dette négociable ; ici appliqué à toute la dette = borne haute) :
+  stock détenu ~1938 Md€
+  relibellisation avec décote 10 % de 97 % de la dette : perte 336 Md€ (dont non-résidents ~188 Md€)
+  relibellisation avec décote 20 % de 97 % de la dette : perte 671 Md€ (dont non-résidents ~376 Md€)
+  relibellisation avec décote 30 % de 97 % de la dette : perte 1007 Md€ (dont non-résidents ~564 Md€)

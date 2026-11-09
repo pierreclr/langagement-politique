@@ -1,0 +1,94 @@
+# source: Eurostat migr_resfirst (First permits by reason), donnees transmises par le ministere de l Interieur (DGEF); mise a jour Eurostat 2026-10-22T23:00:00+0200; date consultation: 2026-10-25
+# unite: personnes (premiers titres de sejour delivres a des ressortissants de pays tiers, toutes durees); perimetre: France
+# note: categorie "autres" = protection internationale (refugies, protection subsidiaire), humanitaire, visiteurs, etc. Ecarts possibles avec les chiffres DGEF (perimetre Britanniques, mineurs, mises a jour)
+annee,motif,premiers_titres,statut,source_url
+2008,autres (dont humanitaire/asile),29238,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2008,etudes,52226,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2008,familial,85475,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2008,total,188723,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2008,travail,21784,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2009,autres (dont humanitaire/asile),33490,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2009,etudes,58738,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2009,familial,87786,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2009,total,200649,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2009,travail,20635,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2010,autres (dont humanitaire/asile),34391,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2010,etudes,65538,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2010,familial,85593,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2010,total,204321,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2010,travail,18799,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2011,autres (dont humanitaire/asile),35817,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2011,etudes,65145,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2011,familial,80284,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2011,total,199581,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2011,travail,18335,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2012,autres (dont humanitaire/asile),39881,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2012,etudes,59045,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2012,familial,84747,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2012,total,199500,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2012,travail,15827,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2013,autres (dont humanitaire/asile),41407,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2013,etudes,62988,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2013,familial,91707,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2013,total,214346,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2013,travail,18244,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2014,autres (dont humanitaire/asile),43698,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2014,etudes,65201,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2014,familial,92272,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2014,total,220599,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2014,travail,19428,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2015,autres (dont humanitaire/asile),38122,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2015,etudes,70250,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2015,familial,99312,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2015,total,228687,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2015,travail,21003,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2016,autres (dont humanitaire/asile),45733,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2016,etudes,73865,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2016,familial,94345,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2016,total,237218,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2016,travail,23275,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2017,autres (dont humanitaire/asile),51986,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2017,etudes,80566,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2017,familial,94247,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2017,total,254634,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2017,travail,27835,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2018,autres (dont humanitaire/asile),51794,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2018,etudes,83975,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2018,familial,97664,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2018,total,267426,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2018,travail,33993,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,autres (dont humanitaire/asile),58949,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,etudes,90668,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,familial,98174,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,total,287443,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2019,travail,39652,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,autres (dont humanitaire/asile),55231,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,etudes,73819,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,familial,80730,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,total,237134,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2020,travail,27354,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,autres (dont humanitaire/asile),64436,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,etudes,91100,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,familial,93583,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,total,287179,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2021,travail,38060,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,autres (dont humanitaire/asile),68946,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,etudes,105717,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,familial,97038,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,total,326948,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2022,travail,55247,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,autres (dont humanitaire/asile),74997,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,etudes,112399,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,familial,92719,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,total,338877,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2023,travail,58762,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,autres (dont humanitaire/asile),83360,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,etudes,112594,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,familial,91030,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,total,345587,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2024,travail,58603,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,autres (dont humanitaire/asile),117251,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,etudes,118404,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,familial,90959,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,total,377462,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table
+2025,travail,50848,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_resfirst/default/table

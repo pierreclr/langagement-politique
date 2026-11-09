@@ -1,0 +1,54 @@
+== 1. Coût annuel en croisière (Md€) [favorable / central / défavorable] ; part de l'héritage palier 1 (103,5) et points de taux plat (12,7 Md€/pt)
+A. 10 000 € à 18 ans, universel, libre | 7.8 / 8.3 / 8.7 | central = 8 % de 103,5 ; 0.7 pt de taux plat ; 9 % de la taxe à 1 % (93) | transfert moyen 10000 € ; bénéficiaires 100 % ; taux implicite 0 %
+B. 25 000 € à 25 ans, universel, fléché (études, création, apport) | 19.5 / 20.8 / 21.8 | central = 20 % de 103,5 ; 1.6 pt de taux plat ; 22 % de la taxe à 1 % (93) | transfert moyen 25000 € ; bénéficiaires 100 % ; taux implicite 0 %
+C. garantie de 40 000 € à 25 ans, dégressive à 50 % de l'héritage, libre | 10.1 / 11.5 / 13.0 | central = 11 % de 103,5 ; 0.9 pt de taux plat ; 12 % de la taxe à 1 % (93) | transfert moyen 13897 € ; bénéficiaires 53 % ; taux implicite 50 %
+C'. garantie de 40 000 € à 25 ans, dégressive à 100 % (CAE « garantie 1 ») | 6.1 / 7.8 / 9.9 | central = 8 % de 103,5 ; 0.6 pt de taux plat ; 8 % de la taxe à 1 % (93) | transfert moyen 9446 € ; bénéficiaires 37 % ; taux implicite 100 %
+== 2. Impôt sur les transmissions : flat dès le premier euro contre reçu à vie avec exemption E (taux 50 % au-dessus), fuite 31 / 35 / 40 %
+E = 0 | part imposable 100.0 % | recette 103.5 / 97.5 / 90.0 Md€ | part de la cohorte qui paie 100 %
+E = 50000 | part imposable 83.1 % | recette 86.0 / 81.0 / 74.8 Md€ | part de la cohorte qui paie 59 %
+E = 100000 | part imposable 72.3 % | recette 74.9 / 70.5 / 65.1 Md€ | part de la cohorte qui paie 41 %
+E = 200000 | part imposable 58.4 % | recette 60.5 / 57.0 / 52.6 Md€ | part de la cohorte qui paie 25 %
+Sensibilité : échelle 1,63 (flux macro) E = 100 000 : part imposable 80.3 %
+Taux nécessaire pour équilibrer variante B (20,8 à 25 000 €) avec E = 100 000 :
+  A (8.3 Md€) : taux requis sur la part au-dessus de 100 000 € = 5.9 % (fuite 35 %)
+  B (20.8 Md€) : taux requis sur la part au-dessus de 100 000 € = 14.7 % (fuite 35 %)
+  C (11.5 Md€) : taux requis sur la part au-dessus de 100 000 € = 8.2 % (fuite 35 %)
+== 3. Effet par décile de patrimoine des parents (€ par jeune sur la vie : héritage brut / impôt 50 % dès le 1er euro / capital / net) ; fuite ignorée (charge nominale)
+-- palier 1 sans capital | part de gagnants nets (capital > impôt) 0 %
+D1 6k/3k/0k/3k ; D2 14k/7k/0k/7k ; D3 25k/13k/0k/13k ; D4 39k/19k/0k/19k ; D5 58k/29k/0k/29k ; D6 85k/43k/0k/43k ; D7 128k/64k/0k/64k ; D8 200k/100k/0k/100k ; D9 354k/177k/0k/177k ; D10 1361k/681k/0k/681k
+-- palier 1 + A | part de gagnants nets (capital > impôt) 21 %
+D1 6k/3k/10k/13k ; D2 14k/7k/10k/17k ; D3 25k/13k/10k/23k ; D4 39k/19k/10k/29k ; D5 58k/29k/10k/39k ; D6 85k/43k/10k/53k ; D7 128k/64k/10k/74k ; D8 200k/100k/10k/110k ; D9 354k/177k/10k/187k ; D10 1361k/681k/10k/691k
+-- palier 1 + B | part de gagnants nets (capital > impôt) 41 %
+D1 6k/3k/25k/28k ; D2 14k/7k/25k/32k ; D3 25k/13k/25k/38k ; D4 39k/19k/25k/44k ; D5 58k/29k/25k/54k ; D6 85k/43k/25k/68k ; D7 128k/64k/25k/89k ; D8 200k/100k/25k/125k ; D9 354k/177k/25k/202k ; D10 1361k/681k/25k/706k
+-- palier 1 + C | part de gagnants nets (capital > impôt) 36 %
+D1 6k/3k/37k/40k ; D2 14k/7k/33k/40k ; D3 25k/13k/27k/40k ; D4 39k/19k/21k/40k ; D5 58k/29k/11k/40k ; D6 85k/43k/1k/44k ; D7 128k/64k/0k/64k ; D8 200k/100k/0k/100k ; D9 354k/177k/0k/177k ; D10 1361k/681k/0k/681k
+-- reçu à vie E=100 000 + B | part de gagnants nets (capital > impôt) 69 %
+D1 6k/0k/25k/31k ; D2 14k/0k/25k/39k ; D3 25k/0k/25k/50k ; D4 39k/0k/25k/64k ; D5 58k/0k/25k/83k ; D6 85k/0k/25k/110k ; D7 128k/14k/25k/139k ; D8 200k/50k/25k/175k ; D9 354k/127k/25k/252k ; D10 1361k/631k/25k/756k
+-- reçu à vie E=100 000 + C | part de gagnants nets (capital > impôt) 53 %
+D1 6k/0k/37k/43k ; D2 14k/0k/33k/47k ; D3 25k/0k/27k/53k ; D4 39k/0k/21k/59k ; D5 58k/0k/11k/69k ; D6 85k/0k/1k/86k ; D7 128k/14k/0k/114k ; D8 200k/50k/0k/150k ; D9 354k/127k/0k/227k ; D10 1361k/631k/0k/731k
+== 4. Risque immobilier de B si fléché logement (hausse de prix de niveau, ordre de grandeur)
+favorable | demande 3.1 Md€ = 1.7 % des ventes de 185 Md€ ; hausse de prix 0.8 %
+central | demande 12.5 Md€ = 6.7 % des ventes de 185 Md€ ; hausse de prix 6.7 %
+defavorable | demande 31.1 Md€ = 16.8 % des ventes de 185 Md€ ; hausse de prix 33.6 %
+== 5. Cohorte
+bas 780000 / central 830000 / haut 870000
+== 6. Sensibilité : variante C selon p0 (part sans héritage) et échelle
+p0=0 : C = 10.8 Md€ ; C' = 6.4
+p0=0.1 : C = 11.5 Md€ ; C' = 7.8
+p0=0.2 : C = 12.4 Md€ ; C' = 9.5
+p0=0.3 : C = 13.5 Md€ ; C' = 11.4
+échelle 1,63 : C = 7.6 Md€
+== 7. Paquets : coût pour le budget par rapport à « 50 % dès le premier euro » (fuite 35 %, central), Md€ par an et points de taux plat
+E=0 + A | recette perdue 0.0 + capital 8.3 = 8.3 Md€ = 0.7 pt de taux plat
+E=0 + B | recette perdue 0.0 + capital 20.8 = 20.8 Md€ = 1.6 pt de taux plat
+E=0 + C | recette perdue 0.0 + capital 11.5 = 11.5 Md€ = 0.9 pt de taux plat
+E=50000 + A | recette perdue 16.5 + capital 8.3 = 24.8 Md€ = 2.0 pt de taux plat
+E=50000 + B | recette perdue 16.5 + capital 20.8 = 37.2 Md€ = 2.9 pt de taux plat
+E=50000 + C | recette perdue 16.5 + capital 11.5 = 28.0 Md€ = 2.2 pt de taux plat
+E=100000 + A | recette perdue 27.0 + capital 8.3 = 35.3 Md€ = 2.8 pt de taux plat
+E=100000 + B | recette perdue 27.0 + capital 20.8 = 47.7 Md€ = 3.8 pt de taux plat
+E=100000 + C | recette perdue 27.0 + capital 11.5 = 38.5 Md€ = 3.0 pt de taux plat
+E=200000 + A | recette perdue 40.5 + capital 8.3 = 48.8 Md€ = 3.8 pt de taux plat
+E=200000 + B | recette perdue 40.5 + capital 20.8 = 61.3 Md€ = 4.8 pt de taux plat
+E=200000 + C | recette perdue 40.5 + capital 11.5 = 52.1 Md€ = 4.1 pt de taux plat
+Taux marginal cumulé maximal de C + exemption 100 000 : 50 % (dégressivité 50 % sur 0-80 000, impôt 50 % au-dessus de 100 000)

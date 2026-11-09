@@ -1,0 +1,100 @@
+# Gagnants et perdants du palier 1 et de ses chemins (modeles/gagnants-perdants/palier1.js, 03/11/2026)
+
+Écart de revenu disponible par rapport au droit actuel (Insee, comptes distribués 2023, RSA, prime d'activité et prestations familiales compris ; aides au logement perdues), central, par dixième de niveau de vie, € par unité de consommation et par mois. Plancher RSA : 877 € pour 1,9 million de personnes sans autre revenu. Dispersion 0,6. Statique : sans réaction de comportement, sans héritage, sans patrimoine.
+
+### Par dixième, € par mois
+
+| configuration | D1 | D2 | D3 | D4 | D5 | D6 | D7 | D8 | D9 | D10 (moyenne) | D10d (1 %) | D10e (0,1 %) | total ménages (Md€/an) |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Palier 1 (35 %, socle 500 €) | 21 | 140 | 232 | 259 | 337 | 326 | 388 | 380 | 403 | −72 | −5 327 | −46 898 | 136 |
+| Chemin 1, année 1 (38 %, socle 250 €) | −159 | −60 | 23 | 28 | 85 | 62 | 98 | 62 | 46 | −607 | −6 820 | −53 118 | −24 |
+| Chemin 1, année 5 (38 %, socle 361 €) | −83 | 17 | 98 | 107 | 168 | 146 | 186 | 153 | 138 | −506 | −6 709 | −53 007 | 24 |
+| Chemin 1, année 10 (38 %, socle 500 €) | 11 | 114 | 193 | 206 | 272 | 250 | 295 | 266 | 255 | −380 | −6 570 | −52 868 | 84 |
+| Chemins 2 et 3 (41,5 %, socle 400 €) | −69 | 14 | 80 | 73 | 122 | 86 | 108 | 51 | −2 | −831 | −8 121 | −59 934 | −21 |
+| Chemin 4 (45 %, socle 400 €) | −81 | −17 | 35 | 11 | 46 | −2 | 0 | −83 | −176 | −1 190 | −9 571 | −66 899 | −82 |
+
+### Par dixième, en % du revenu disponible actuel
+
+| configuration | D1 | D2 | D3 | D4 | D5 | D6 | D7 | D8 | D9 | D10 (moyenne) | D10d (1 %) | D10e (0,1 %) | total ménages (Md€/an) |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Palier 1 (35 %, socle 500 €) | 2,0 % | 8,5 % | 11,2 % | 11,0 % | 12,8 % | 11,1 % | 11,9 % | 10,2 % | 9,1 % | −1,0 % | −23,4 % | −38,9 % | 136 |
+| Chemin 1, année 1 (38 %, socle 250 €) | −15,4 % | −3,7 % | 1,1 % | 1,2 % | 3,2 % | 2,1 % | 3,0 % | 1,7 % | 1,0 % | −8,2 % | −30,0 % | −44,1 % | −24 |
+| Chemin 1, année 5 (38 %, socle 361 €) | −8,1 % | 1,0 % | 4,8 % | 4,5 % | 6,4 % | 5,0 % | 5,7 % | 4,1 % | 3,1 % | −6,9 % | −29,5 % | −44,0 % | 24 |
+| Chemin 1, année 10 (38 %, socle 500 €) | 1,0 % | 7,0 % | 9,3 % | 8,8 % | 10,3 % | 8,5 % | 9,0 % | 7,1 % | 5,8 % | −5,2 % | −28,9 % | −43,9 % | 84 |
+| Chemins 2 et 3 (41,5 %, socle 400 €) | −6,7 % | 0,8 % | 3,9 % | 3,1 % | 4,6 % | 2,9 % | 3,3 % | 1,4 % | −0,1 % | −11,3 % | −35,7 % | −49,8 % | −21 |
+| Chemin 4 (45 %, socle 400 €) | −7,8 % | −1,0 % | 1,7 % | 0,5 % | 1,7 % | −0,1 % | 0,0 % | −2,2 % | −4,0 % | −16,2 % | −42,1 % | −55,6 % | −82 |
+
+Revenu disponible actuel par UC et par mois (Insee 2023) : D1 1 033 ; D2 1 633 ; D3 2 067 ; D4 2 350 ; D5 2 633 ; D6 2 942 ; D7 3 267 ; D8 3 733 ; D9 4 417 ; D10 7 367.
+
+### Part des adultes non retraités au plancher RSA et coût du plancher
+
+| configuration | D1 | D2 | D3 | coût du plancher (Md€/an) |
+|---|---|---|---|---|
+| Palier 1 (35 %, socle 500 €) | 21,6 % | 10,0 % | 5,1 % | 8,6 |
+| Chemin 1, année 1 (38 %, socle 250 €) | 21,6 % | 10,0 % | 5,1 % | 14,3 |
+| Chemin 1, année 5 (38 %, socle 361 €) | 21,6 % | 10,0 % | 5,1 % | 11,8 |
+| Chemin 1, année 10 (38 %, socle 500 €) | 21,6 % | 10,0 % | 5,1 % | 8,6 |
+| Chemins 2 et 3 (41,5 %, socle 400 €) | 21,6 % | 10,0 % | 5,1 % | 10,9 |
+| Chemin 4 (45 %, socle 400 €) | 21,6 % | 10,0 % | 5,1 % | 10,9 |
+
+Le coût du plancher retrouve celui de `palier1.solde` (1,9 M × (877 − socle) × 12) : 8,6 Md€ à 500 €, 10,9 à 400 €, 14,3 à 250 €.
+
+## Cas types, droit actuel OpenFisca 2026 contre palier 1 et chemins (€ par mois ; % du revenu actuel)
+
+| cas type | avant (droit actuel) | palier 1 : après (écart, %) | ch. 1 an 1 : après (écart, %) | ch. 1 an 5 : après (écart, %) | ch. 1 an 10 : après (écart, %) | ch. 2-3 : après (écart, %) | ch. 4 : après (écart, %) |
+|---|---|---|---|---|---|---|---|
+| Personne seule au RSA (locataire, zone 2) | 890 | 877 (−13 ; −1,5 %) | 877 (−13 ; −1,5 %) | 877 (−13 ; −1,5 %) | 877 (−13 ; −1,5 %) | 877 (−13 ; −1,5 %) | 877 (−13 ; −1,5 %) |
+| Salarié seul au Smic à temps plein | 1 707 | 1 792 (+85 ; 5,0 %) | 1 482 (−225 ; −13,2 %) | 1 594 (−114 ; −6,7 %) | 1 732 (+25 ; 1,5 %) | 1 563 (−145 ; −8,5 %) | 1 493 (−214 ; −12,5 %) |
+| Couple, 2 enfants, deux Smic à temps plein | 3 523 | 3 984 (+461 ; 13,1 %) | 3 365 (−158 ; −4,5 %) | 3 587 (+64 ; 1,8 %) | 3 865 (+342 ; 9,7 %) | 3 526 (+2 ; 0,1 %) | 3 387 (−137 ; −3,9 %) |
+| Couple, 2 enfants, un seul Smic | 2 593 | 2 692 (+99 ; 3,8 %) | 2 132 (−460 ; −17,8 %) | 2 355 (−238 ; −9,2 %) | 2 632 (+40 ; 1,5 %) | 2 363 (−230 ; −8,9 %) | 2 293 (−300 ; −11,6 %) |
+| Retraité au minimum vieillesse (ASPA, pension 800 € brut), sans aide au logement | 1 044 | 1 044 (+0 ; 0,0 %) | 1 044 (+0 ; 0,0 %) | 1 044 (+0 ; 0,0 %) | 1 044 (+0 ; 0,0 %) | 1 044 (+0 ; 0,0 %) | 1 044 (+0 ; 0,0 %) |
+| Retraité au minimum vieillesse, locataire (avec aide au logement de 305 €) | 1 241 | 1 044 (−197 ; −15,9 %) | 1 044 (−197 ; −15,9 %) | 1 044 (−197 ; −15,9 %) | 1 044 (−197 ; −15,9 %) | 1 044 (−197 ; −15,9 %) | 1 044 (−197 ; −15,9 %) |
+| Cadre seul, 3 Smic brut (≈ 4 420 € nets) | 3 777 | 4 746 (+970 ; 25,7 %) | 4 255 (+479 ; 12,7 %) | 4 366 (+590 ; 15,6 %) | 4 505 (+729 ; 19,3 %) | 4 124 (+347 ; 9,2 %) | 3 843 (+66 ; 1,8 %) |
+| Cadre seul, 6 Smic brut (≈ 8 300 € nets) | 6 872 | 7 965 (+1 093 ; 15,9 %) | 7 234 (+362 ; 5,3 %) | 7 345 (+473 ; 6,9 %) | 7 484 (+612 ; 8,9 %) | 6 822 (−50 ; −0,7 %) | 6 260 (−611 ; −8,9 %) |
+| Parent isolé, 2 enfants, un Smic | 2 590 | 2 192 (−398 ; −15,4 %) | 1 882 (−708 ; −27,3 %) | 1 994 (−597 ; −23,0 %) | 2 132 (−458 ; −17,7 %) | 1 963 (−628 ; −24,2 %) | 1 893 (−697 ; −26,9 %) |
+| Parent isolé, 2 enfants, sans emploi (RSA majoré) | 1 796 | 1 300 (−496 ; −27,6 %) | 1 300 (−496 ; −27,6 %) | 1 300 (−496 ; −27,6 %) | 1 300 (−496 ; −27,6 %) | 1 300 (−496 ; −27,6 %) | 1 300 (−496 ; −27,6 %) |
+
+Notes des cas : 
+- rsa_seul : RSA de base 651,69 € moins le forfait logement : 572,35 € versés, aide au logement 304,84 €, prime de Noël et autres : 890 € au total (OpenFisca 2026)
+- smic_seul : cas T14 (OpenFisca 2026) : net 1 477,93 € + prime d'activité 229,52 €
+- couple_2smic_2enf : atlas OpenFisca 2026, zone 2, loyer 750 € ; 2 Smic, prime d'activité, allocations familiales, aide au logement
+- couple_1smic_2enf : atlas OpenFisca 2026, zone 2 : remplace l'estimation grossière de 2 552 € de systeme-ideal (⚠️ H447)
+- retraite_aspa : cas T14 : ASPA 1 043,59 € ; sanctuarisé par le palier 1 : inchangé
+- retraite_aspa_loc : ⚠️ H448 : le palier 1 compte les 16 Md€ d'aides au logement comme remplacés (depensesRemplacees) et ne verse le socle qu'aux non-retraités : l'aide au logement du retraité locataire disparaît dans le modèle, sans compensation
+- cadre_2x : cas T14 (OpenFisca 2026) : 3 776,62 €
+- cadre_4x : cas T14 (OpenFisca 2026) : 6 871,88 €
+- parent_isole_smic : atlas OpenFisca 2026, zone 2 : Smic, prime d'activité, allocations familiales et ASF, aide au logement
+- parent_isole_sans_emploi : atlas OpenFisca 2026 : RSA 610 €, aide au logement 494 €, prestations 626 € ; remplace l'« avant » de 1 650 € estimé de mémoire dans systeme-ideal (⚠️ H447)
+
+### Taux plat qui annule l'écart (point mort), socle 500 € et socle 400 €
+
+| cas | socle 500 € | socle 400 € |
+|---|---|---|
+| smic_seul | 39,3 % | 34,2 % |
+| couple_2smic_2enf | 46,6 % | 41,6 % |
+| couple_1smic_2enf | 40,0 % | 29,9 % |
+| cadre_2x | 47,1 % | 45,8 % |
+| cadre_4x | 41,8 % | 41,2 % |
+| parent_isole_smic | 15,0 % | 9,9 % |
+
+## Sensibilité de D1 à D3 (central, chemin 4 : 45 %, socle 400 €, et chemins 2-3, € par UC et par mois)
+
+| hypothèse | ch. 4 : D1 / D2 / D3 | ch. 2-3 : D1 / D2 / D3 | palier 1 : D1 / D2 / D3 |
+|---|---|---|---|
+| dispersion 0,3 | −81 / −12 / 55 | −69 / 18 / 100 | 21 / 144 / 251 |
+| dispersion 0,6 (défaut) | −81 / −17 / 35 | −69 / 14 / 80 | 21 / 140 / 232 |
+| dispersion 0,9 | −83 / −30 / 5 | −71 / 1 / 50 | 19 / 127 / 202 |
+| plancher RSA : 1 M de personnes | −125 / −34 / 28 | −113 / −4 / 73 | −14 / 126 / 226 |
+| plancher RSA : 1,9 M (défaut) | −81 / −17 / 35 | −69 / 14 / 80 | 21 / 140 / 232 |
+| plancher RSA : 2,85 M de personnes | −35 / 2 / 42 | −23 / 32 / 87 | 57 / 154 / 237 |
+
+## Comparaison avec l'ancienne lecture (salariés par décile de SALAIRE, sans plancher RSA, options-financement-palier1.md § 6), € par mois
+
+| configuration | lecture | D1 | D2 | D3 | D4 | D5 | D8 | D9 |
+|---|---|---|---|---|---|---|---|---|
+| Palier 1 | salariés par décile de salaire (ancienne) | 178 | 293 | 381 | 536 | 569 | 556 | 467 |
+| Palier 1 | tous les adultes par décile de niveau de vie (nouvelle) | 21 | 140 | 232 | 259 | 337 | 380 | 403 |
+| Chemins 2-3 | salariés par décile de salaire (ancienne) | −49 | 29 | 94 | 217 | 227 | 66 | −124 |
+| Chemins 2-3 | tous les adultes par décile de niveau de vie (nouvelle) | −69 | 14 | 80 | 73 | 122 | 51 | −2 |
+| Chemin 4 | salariés par décile de salaire (ancienne) | −118 | −59 | −6 | 99 | 97 | −144 | −389 |
+| Chemin 4 | tous les adultes par décile de niveau de vie (nouvelle) | −81 | −17 | 35 | 11 | 46 | −83 | −176 |

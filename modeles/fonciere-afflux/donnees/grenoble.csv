@@ -1,0 +1,6 @@
+# DVF 2024 (DGFiP/Etalab), ventes d'un seul logement ; part des DPE d'appartements à chauffage collectif à Grenoble : 0.373 sur 10480 DPE (ADEME 2026) ; généré par donnees/preparer_grenoble.py
+zone,ventes,part_appartements,prix_m2_app,prix_T1,n_T1,prix_T2,n_T2,prix_T3,n_T3,prix_T4,n_T4
+grenoble,2338,0.97,2500,78425,508,120150,534,165000,619,185000,515
+metropole_grenoble,4728,0.871,2442,76770,630,120000,817,165375,1312,185000,1370
+clermont_ferrand,1913,0.835,2065,58900,299,92750,387,134500,518,152000,453
+dijon,2697,0.876,2552,73500,479,108550,618,152000,750,187000,530

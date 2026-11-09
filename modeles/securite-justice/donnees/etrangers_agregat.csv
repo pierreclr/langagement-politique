@@ -1,0 +1,8 @@
+cle,valeur,unite,date,perimetre,source,statut
+etrangers_prevenus_detenus,6486,personnes,2026-01-01,nationalite enregistree (declarative),Chiffres cles Justice 2026 p.23,sourcé
+etrangers_condamnes_detenus,14701,personnes,2026-01-01,idem,Chiffres cles Justice 2026 p.23,sourcé
+detenus_avec_mesure_eloignement,8525,personnes,2026-02-05,dont 1902 OQTF et 7379 ITJ (cumuls possibles),AN QE 7546 (via sources/recherche-securite-justice-statistiques.md),⚠️ V6276 non relu
+part_etrangers_condamnes_2025,0.17,part,2025,provisoire,Chiffres cles Justice 2026 p.20,sourcé
+part_etrangers_population_2025,0.09,part,2025,residents,SSMSI bilan 2025 (via sources/recherche-securite-justice-statistiques.md),sourcé
+cout_eloignement_force,4414,euros,2025,moyen par eloignement force,sources/recherche-immigration-chiffres.md (rapport Rodwell),⚠️ V6277 non relu
+taux_eloignement_force_sur_mesures,0.098,part,2025,eloignements forces / mesures prononcees,sources/recherche-immigration-chiffres.md,sourcé

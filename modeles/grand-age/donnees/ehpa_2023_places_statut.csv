@@ -1,0 +1,12 @@
+# source : DREES, « L'aide sociale aux personnes âgées ou handicapées », édition 2025, fiche 09 (tableau 1), https://drees.solidarites-sante.gouv.fr/sites/default/files/2025-09/PAPH%20-%20Fiche%2009%20-%20Les%20%C3%A9tablissements%20d%E2%80%99h%C3%A9bergement%20pour%20personnes%20%C3%A2g%C3%A9es_0.pdf (copie : sources_pdf/drees_paph2025_fiche09_etab.pdf)
+# cote A (statistique publique, enquête EHPA 2023) ; conflits d'intérêts : aucun connu ; consulté le 2026-11-07 ; champ : France métropolitaine et DROM, au 31/12/2023 ; hors accueil de jour
+categorie,statut,etablissements,places_installees,places_hebergement_permanent,personnes_accueillies,dont_hebergement_permanent,etp
+Ehpad,tous,7400,609970,586990,573100,550200,402500
+Ehpad,prive_lucratif,1790,137690,132630,124100,120300,84400
+Ehpad,prive_non_lucratif,2340,179440,171690,173100,164800,110200
+Ehpad,public,3270,292840,282670,275900,265100,207900
+USLD,tous,560,29030,28910,25000,25000,27000
+EHPA_non_Ehpad,tous,230,5370,4440,4800,4000,2300
+Ensemble_Ehpad_USLD_EHPA,tous,8190,644370,620340,602900,579200,431800
+Residences_autonomie,tous,2180,112000,111010,94100,93300,13300
+Ensemble_etablissements,tous,10370,756370,731350,697000,672500,445100

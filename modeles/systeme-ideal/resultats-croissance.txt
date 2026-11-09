@@ -1,0 +1,194 @@
+## 1. PIB (Md€ de 2025 constants) = emploi × productivité, démographie centrale
+| productivité | g (2035 / 2045 / 2065, effectif) | PIB 2035 | PIB 2045 | PIB 2065 | croissance moyenne 2025-2065 | pensions / PIB 2065 (prix) |
+| bas | 0,4 % / 0,4 % / 0,4 % | 3159 | 3289 | 3297 | 0,29 %/an | 15 % |
+| central | 0,7 % / 0,7 % / 0,7 % | 3254 | 3492 | 3715 | 0,59 %/an | 13,3 % |
+| haut | 1 % / 1 % / 1 % | 3353 | 3706 | 4185 | 0,89 %/an | 11,8 % |
+| ec | 0,45 % / 0,91 % / 1,13 % | 3176 | 3639 | 4400 | 1,02 %/an | 11,3 % |
+| ia_bas | 0,77 % / 0,77 % / 0,77 % | 3277 | 3541 | 3820 | 0,66 %/an | 13 % |
+| ia | 1,4 % / 1,4 % / 1,4 % | 3488 | 4011 | 4902 | 1,29 %/an | 10,1 % |
+| ia_haut | 2 % / 2 % / 2 % | 3700 | 4513 | 6206 | 1,89 %/an | 8 % |
+PIB 2025 : 2935 Md€ ; emploi central : indice 1,03 / 1,03 / 0,96
+
+## 2. Démographie centrale, avec santé et dépendance ; pensions sur les prix, socle sur les prix (solde en Md€/an, socle finançable en €/mois)
+| productivité | 2035 : solde | 2035 : socle | 2045 : solde | 2045 : socle | 2065 : solde | 2065 : socle |
+| bas | −189 | 442 | −204 | 407 | −211 | 380 |
+| central | −176 | 471 | −178 | 467 | −157 | 515 |
+| haut | −163 | 501 | −150 | 532 | −97 | 668 |
+| ec | −187 | 447 | −158 | 512 | −69 | 737 |
+| ia_bas | −173 | 478 | −171 | 482 | −144 | 549 |
+| ia | −145 | 542 | −110 | 623 | −4 | 900 |
+| ia_haut | −116 | 607 | −44 | 774 | 164 | 1323 |
+
+## 2. Démographie centrale, avec santé et dépendance ; pensions sur les salaires, socle sur les prix (solde en Md€/an, socle finançable en €/mois)
+| productivité | 2035 : solde | 2035 : socle | 2045 : solde | 2045 : socle | 2065 : solde | 2065 : socle |
+| bas | −203 | 410 | −235 | 335 | −280 | 207 |
+| central | −201 | 414 | −233 | 339 | −285 | 194 |
+| haut | −199 | 419 | −232 | 343 | −291 | 179 |
+| ec | −203 | 411 | −232 | 342 | −293 | 173 |
+| ia_bas | −201 | 415 | −233 | 340 | −286 | 191 |
+| ia | −196 | 425 | −229 | 349 | −300 | 157 |
+| ia_haut | −192 | 435 | −225 | 358 | −316 | 116 |
+
+## 2. Démographie centrale, avec santé et dépendance ; pensions sur les prix, socle sur les salaires (solde en Md€/an, socle finançable en €/mois)
+| productivité | 2035 : solde | 2035 : socle | 2045 : solde | 2045 : socle | 2065 : solde | 2065 : socle |
+| bas | −200 | 420 | −226 | 368 | −252 | 309 |
+| central | −195 | 432 | −217 | 393 | −234 | 365 |
+| haut | −191 | 444 | −207 | 417 | −213 | 415 |
+| ec | −199 | 423 | −210 | 410 | −204 | 435 |
+| ia_bas | −194 | 435 | −215 | 399 | −229 | 378 |
+| ia | −184 | 458 | −194 | 447 | −182 | 473 |
+| ia_haut | −175 | 479 | −171 | 488 | −125 | 544 |
+
+## 2. Démographie centrale, avec santé et dépendance ; pensions sur les salaires, socle sur les salaires (solde en Md€/an, socle finançable en €/mois)
+| productivité | 2035 : solde | 2035 : socle | 2045 : solde | 2045 : socle | 2065 : solde | 2065 : socle |
+| bas | −214 | 390 | −257 | 302 | −321 | 162 |
+| central | −220 | 379 | −272 | 282 | −362 | 122 |
+| haut | −227 | 369 | −289 | 263 | −407 | 87 |
+| ec | −215 | 388 | −284 | 269 | −428 | 74 |
+| ia_bas | −222 | 377 | −276 | 277 | −372 | 114 |
+| ia | −236 | 356 | −313 | 240 | −477 | 47 |
+| ia_haut | −251 | 338 | −352 | 208 | −604 | 0 |
+
+## 3a. Démographie basse (population jeune), pensions sur les prix, socle sur les prix
+| productivité | 2035 : solde | 2035 : socle | 2045 : solde | 2045 : socle | 2065 : solde | 2065 : socle |
+| bas | −143 | 447 | −151 | 430 | −133 | 470 |
+| central | −129 | 480 | −121 | 497 | −68 | 620 |
+| haut | −114 | 513 | −90 | 568 | 5 | 788 |
+| ec | −141 | 453 | −100 | 546 | 39 | 865 |
+| ia_bas | −125 | 487 | −114 | 513 | −51 | 657 |
+| ia | −94 | 558 | −45 | 669 | 117 | 1045 |
+| ia_haut | −62 | 630 | 29 | 836 | 320 | 1512 |
+
+## 3b. Démographie haute (population âgée), pensions sur les prix, socle sur les prix
+| productivité | 2035 : solde | 2035 : socle | 2045 : solde | 2045 : socle | 2065 : solde | 2065 : socle |
+| bas | −269 | 423 | −296 | 360 | −329 | 241 |
+| central | −259 | 447 | −275 | 408 | −292 | 345 |
+| haut | −248 | 472 | −253 | 460 | −250 | 461 |
+| ec | −267 | 428 | −260 | 444 | −231 | 514 |
+| ia_bas | −256 | 453 | −270 | 420 | −282 | 371 |
+| ia | −233 | 505 | −222 | 533 | −186 | 639 |
+| ia_haut | −210 | 558 | −170 | 653 | −69 | 962 |
+
+## 3c. Démographie haute (population âgée), pensions sur les salaires, socle sur les salaires
+| productivité | 2035 : solde | 2035 : socle | 2045 : solde | 2045 : socle | 2065 : solde | 2065 : socle |
+| bas | −294 | 372 | −348 | 257 | −437 | 24 |
+| central | −303 | 356 | −369 | 227 | −492 | 0 |
+| haut | −312 | 342 | −392 | 200 | −555 | 0 |
+| ec | −296 | 369 | −385 | 208 | −583 | 0 |
+| ia_bas | −305 | 353 | −375 | 221 | −506 | 0 |
+| ia | −325 | 323 | −424 | 165 | −650 | 0 |
+| ia_haut | −345 | 296 | −478 | 119 | −823 | 0 |
+
+## 2f. ANCIEN COMPORTEMENT (reste du budget figé en euros de 2025, publié le 01/11/2026) : démographie centrale, pensions sur les prix, socle sur les prix
+| productivité | 2035 : solde | 2035 : socle | 2045 : solde | 2045 : socle | 2065 : solde | 2065 : socle |
+| bas | −159 | 510 | −155 | 520 | −157 | 516 |
+| central | −133 | 570 | −100 | 647 | −43 | 803 |
+| haut | −106 | 630 | −41 | 781 | 85 | 1125 |
+| ec | −154 | 521 | −59 | 739 | 144 | 1273 |
+| ia_bas | −126 | 584 | −86 | 677 | −14 | 875 |
+| ia | −69 | 714 | 42 | 972 | 281 | 1618 |
+| ia_haut | −11 | 845 | 179 | 1287 | 637 | 2514 |
+
+## 2p. Reste du budget indexé sur la productivité seule (sans l'emploi) : démographie centrale, pensions sur les prix, socle sur les prix
+| productivité | 2035 : solde | 2035 : socle | 2045 : solde | 2045 : socle | 2065 : solde | 2065 : socle |
+| bas | −175 | 473 | −190 | 440 | −230 | 332 |
+| central | −162 | 503 | −162 | 503 | −179 | 461 |
+| haut | −148 | 534 | −133 | 569 | −121 | 607 |
+| ec | −173 | 478 | −142 | 548 | −95 | 673 |
+| ia_bas | −159 | 510 | −156 | 518 | −166 | 494 |
+| ia | −130 | 577 | −92 | 664 | −33 | 829 |
+| ia_haut | −100 | 643 | −24 | 820 | 128 | 1233 |
+
+## 2c. Pensions calées sur la pension relative du COR (54,6 % en 2025, 45,3 % en 2070), socle sur les prix : démographie centrale
+| productivité | 2035 : solde | 2035 : socle | 2045 : solde | 2045 : socle | 2065 : solde | 2065 : socle |
+| bas | −189 | 441 | −204 | 406 | −209 | 384 |
+| central | −187 | 446 | −201 | 414 | −205 | 394 |
+| haut | −185 | 452 | −197 | 422 | −201 | 404 |
+| ec | −189 | 442 | −198 | 420 | −199 | 409 |
+| ia_bas | −186 | 447 | −200 | 416 | −205 | 396 |
+| ia | −181 | 459 | −192 | 434 | −195 | 421 |
+| ia_haut | −176 | 471 | −183 | 455 | −183 | 450 |
+
+## 4. Sans santé ni dépendance (comparaison avec le § 17), central, pensions sur les prix / sur les salaires, socle sur les prix, RESTE FIGÉ (seul cas qui retrouve le § 17) : solde
+| productivité | 2035 | 2045 | 2065 |
+| bas | −137 / −151 | −120 / −151 | −120 / −189 |
+| central | −110 / −136 | −65 / −121 | −6 / −134 |
+| haut | −84 / −120 | −7 / −89 | 122 / −72 |
+| ec | −132 / −148 | −25 / −98 | 181 / −43 |
+| ia_bas | −104 / −132 | −52 / −113 | 23 / −120 |
+| ia | −47 / −99 | 77 / −43 | 318 / 23 |
+| ia_haut | 11 / −65 | 214 / 33 | 674 / 195 |
+
+## 5. Seuil de productivité en 2065 (central, socle sur les prix, avec santé) : plus petit g (%/an) pour lequel le critère est atteint
+| indexation des pensions | reste du budget | solde (2025 = −167, intérêts de 2024 figés) | solde primaire de 2025 | solde total avec intérêts (taux central) | dette/PIB 2065 ≤ 2025 (taux central) |
+| prix | fige | 0,38 | 0,38 | 0,92 | 1,09 |
+| prix | pib | 0,67 | 0,6 | 1,51 | 1,66 |
+| salaires | pib | > 5 | 4,57 | > 5 | 3,36 |
+| cor | pib | 2,78 | 1,24 | 3,81 | 2,81 |
+
+## 6. Valeur de l'indexation en 2065 (central, productivité centrale / haute / IA) : écart de solde avec santé, pensions sur les prix moins pensions sur les salaires, socle sur les prix, reste indexé sur le PIB
+central : +128 Md€/an (prix −157, salaires −285, COR −205)
+haut : +194 Md€/an (prix −97, salaires −291, COR −201)
+ia : +295 Md€/an (prix −4, salaires −300, COR −195)
+
+## 7. Dette et intérêts (dette de départ 3460.5 Md€ fin 2025 = 115,7 % du PIB ; PIB Insee 2025 déduit 2991 ; taux apparent 2025 1,99 % ; maturité 8.5 ans ; inflation 2 %)
+Taux apparent (nominal) du taux central : 2035 : 3,42 % ; 2045 : 3,84 % ; 2065 : 3,99 %
+### 7a. Démographie centrale, pensions sur les prix, socle sur les prix, taux de marché central (4,0 %) : solde en Md€/an avec intérêts, socle finançable en €/mois
+| productivité | 2035 : solde primaire | 2035 : intérêts | 2035 : solde total | 2035 : socle | 2035 : dette/PIB | 2045 : solde total | 2045 : socle | 2045 : dette/PIB | 2065 : solde primaire | 2065 : intérêts | 2065 : solde total | 2065 : socle | 2065 : dette/PIB |
+| bas | −124 | 162 | −286 | 222 | 156 % | −402 | 0 | 219 % | −143 | 535 | −678 | 0 | 419 % |
+| central | −109 | 159 | −269 | 261 | 148 % | −360 | 48 | 196 % | −81 | 475 | −556 | 0 | 329 % |
+| haut | −94 | 157 | −251 | 301 | 142 % | −315 | 150 | 175 % | −11 | 410 | −421 | 0 | 251 % |
+| ec | −122 | 162 | −284 | 227 | 155 % | −341 | 91 | 190 % | 21 | 425 | −404 | 0 | 247 % |
+| ia_bas | −106 | 159 | −265 | 270 | 147 % | −350 | 71 | 191 % | −65 | 460 | −526 | 0 | 310 % |
+| ia | −73 | 154 | −227 | 355 | 133 % | −252 | 295 | 150 % | 96 | 317 | −221 | 354 | 164 % |
+| ia_haut | −40 | 149 | −189 | 441 | 121 % | −150 | 532 | 115 % | 291 | 159 | 132 | 1243 | 61 % |
+
+### 7b. Même cas, pensions calées sur le COR (pension relative 54,6 → 45,3 %)
+| productivité | 2035 : solde primaire | 2035 : intérêts | 2035 : solde total | 2035 : socle | 2035 : dette/PIB | 2045 : solde total | 2045 : socle | 2045 : dette/PIB | 2065 : solde primaire | 2065 : intérêts | 2065 : solde total | 2065 : socle | 2065 : dette/PIB |
+| bas | −125 | 162 | −286 | 221 | 156 % | −403 | 0 | 219 % | −142 | 535 | −676 | 0 | 419 % |
+| central | −120 | 161 | −281 | 232 | 150 % | −392 | 0 | 204 % | −129 | 520 | −650 | 0 | 362 % |
+| haut | −116 | 160 | −276 | 244 | 145 % | −381 | 1 | 189 % | −116 | 505 | −620 | 0 | 312 % |
+| ec | −124 | 162 | −286 | 222 | 155 % | −388 | 0 | 196 % | −109 | 510 | −619 | 0 | 299 % |
+| ia_bas | −119 | 161 | −280 | 235 | 149 % | −389 | 0 | 200 % | −126 | 517 | −643 | 0 | 350 % |
+| ia | −110 | 159 | −269 | 260 | 139 % | −364 | 38 | 171 % | −94 | 483 | −577 | 0 | 254 % |
+| ia_haut | −100 | 158 | −258 | 285 | 129 % | −338 | 99 | 147 % | −56 | 445 | −501 | 0 | 184 % |
+
+### 7c. Même cas, pensions sur les salaires
+| productivité | 2035 : solde primaire | 2035 : intérêts | 2035 : solde total | 2035 : socle | 2035 : dette/PIB | 2045 : solde total | 2045 : socle | 2045 : dette/PIB | 2065 : solde primaire | 2065 : intérêts | 2065 : solde total | 2065 : socle | 2065 : dette/PIB |
+| bas | −138 | 164 | −302 | 185 | 158 % | −445 | 0 | 229 % | −212 | 596 | −808 | 0 | 469 % |
+| central | −134 | 163 | −298 | 196 | 153 % | −436 | 0 | 213 % | −209 | 587 | −795 | 0 | 410 % |
+| haut | −130 | 162 | −293 | 206 | 147 % | −427 | 0 | 199 % | −205 | 577 | −782 | 0 | 357 % |
+| ia | −125 | 162 | −286 | 221 | 141 % | −414 | 0 | 181 % | −199 | 562 | −761 | 0 | 298 % |
+
+### 7d. Taux de marché bas (3,4 %), pensions sur les prix
+| productivité | 2035 : solde primaire | 2035 : intérêts | 2035 : solde total | 2035 : socle | 2035 : dette/PIB | 2045 : solde total | 2045 : socle | 2045 : dette/PIB | 2065 : solde primaire | 2065 : intérêts | 2065 : solde total | 2065 : socle | 2065 : dette/PIB |
+| bas | −124 | 139 | −263 | 274 | 152 % | −351 | 68 | 205 % | −143 | 395 | −538 | 0 | 362 % |
+| central | −109 | 137 | −246 | 313 | 145 % | −311 | 161 | 184 % | −81 | 347 | −428 | 0 | 282 % |
+| haut | −94 | 135 | −229 | 352 | 138 % | −268 | 259 | 164 % | −11 | 297 | −308 | 137 | 212 % |
+| ia | −73 | 132 | −205 | 405 | 130 % | −208 | 397 | 140 % | 96 | 223 | −127 | 591 | 134 % |
+
+### 7d. Taux de marché haut (4,5 %), pensions sur les prix
+| productivité | 2035 : solde primaire | 2035 : intérêts | 2035 : solde total | 2035 : socle | 2035 : dette/PIB | 2045 : solde total | 2045 : socle | 2045 : dette/PIB | 2065 : solde primaire | 2065 : intérêts | 2065 : solde total | 2065 : socle | 2065 : dette/PIB |
+| bas | −124 | 182 | −306 | 177 | 159 % | −449 | 0 | 231 % | −143 | 678 | −821 | 0 | 474 % |
+| central | −109 | 179 | −288 | 216 | 152 % | −405 | 0 | 207 % | −81 | 606 | −687 | 0 | 375 % |
+| haut | −94 | 177 | −271 | 257 | 145 % | −359 | 51 | 185 % | −11 | 529 | −540 | 0 | 289 % |
+| ia | −73 | 173 | −246 | 312 | 136 % | −293 | 201 | 159 % | 96 | 417 | −321 | 103 | 193 % |
+
+### 7e. Sensibilité au reste du budget et aux intérêts (central, pensions sur les prix, productivité centrale) : solde total / dette sur PIB en 2065
+| reste : fige | bas : −237 / 205 % | central : −339 / 245 % | haut : −445 / 284 % |
+| reste : productivite | bas : −438 / 275 % | central : −562 / 321 % | haut : −690 / 366 % |
+| reste : pib | bas : −428 / 282 % | central : −556 / 329 % | haut : −687 / 375 % |
+
+### 7f. Première année (2026) du central : intérêts 75,5 Md€ (taux apparent 2,22 %) contre 60,1 (2024) et 65,7 (2025) observés
+
+### 7g. Solde en % du PIB (avec santé, démographie centrale, pensions sur les prix, reste indexé sur le PIB) : sans intérêts de la dette (intérêts de 2024 figés) / avec intérêts (taux central) ; 2025 : −5,6 % du PIB du modèle
+| bas | 2035 : −6 % / −9,1 % | 2045 : −6,2 % / −12,2 % | 2065 : −6,4 % / −20,6 % |
+| central | 2035 : −5,4 % / −8,3 % | 2045 : −5,1 % / −10,3 % | 2065 : −4,2 % / −15 % |
+| haut | 2035 : −4,9 % / −7,5 % | 2045 : −4 % / −8,5 % | 2065 : −2,3 % / −10,1 % |
+| ia | 2035 : −4,1 % / −6,5 % | 2045 : −2,7 % / −6,3 % | 2065 : −0,1 % / −4,5 % |
+
+### 7h. Repère : dette/PIB si le solde PRIMAIRE reste, en % du PIB, à celui du palier 1 en 2025 (−3,5 % ; ni vieillissement ni santé), mêmes taux et mêmes PIB que 7a : 2035 / 2045 / 2065
+| bas | 153 % / 210 % / 388 % |
+| central | 149 % / 200 % / 355 % |
+| haut | 145 % / 190 % / 324 % |
+| ia | 140 % / 179 % / 289 % |

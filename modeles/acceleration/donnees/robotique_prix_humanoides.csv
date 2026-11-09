@@ -1,0 +1,20 @@
+# source: Goldman Sachs Research, Morgan Stanley Research, sites constructeurs, presse ; consulte 2026-10-25
+indicateur,valeur,unite,annee,perimetre,nature,source_url,remarque
+cout_fabrication_humanoide_bas_de_gamme,50000,USD/unité,2023,mondial,presse,https://www.goldmansachs.com/insights/articles/the-global-market-for-robots-could-reach-38-billion-by-2035,Goldman Sachs Research (article daté 2024-02-27): 'last year'
+cout_fabrication_humanoide_haut_de_gamme,250000,USD/unité,2023,mondial,presse,https://www.goldmansachs.com/insights/articles/the-global-market-for-robots-could-reach-38-billion-by-2035,
+cout_fabrication_humanoide_bas_de_gamme,30000,USD/unité,2024,mondial,presse,https://www.goldmansachs.com/insights/articles/the-global-market-for-robots-could-reach-38-billion-by-2035,'now' = début 2024
+cout_fabrication_humanoide_haut_de_gamme,150000,USD/unité,2024,mondial,presse,https://www.goldmansachs.com/insights/articles/the-global-market-for-robots-could-reach-38-billion-by-2035,
+baisse_cout_fabrication,40,%,2024,mondial,presse,https://www.goldmansachs.com/insights/articles/the-global-market-for-robots-could-reach-38-billion-by-2035,Contre 15-20%/an attendus par GS
+cout_humanoide_pays_revenu_eleve,200000,USD/unité,2024,pays à revenu élevé,presse,https://www.morganstanley.com/insights/articles/humanoid-robot-market-5-trillion-by-2050,"Morgan Stanley Research, page ~2025-05-14"
+cout_humanoide_projection,150000,USD/unité,2028,pays à revenu élevé,presse,https://www.morganstanley.com/insights/articles/humanoid-robot-market-5-trillion-by-2050,Projection
+cout_humanoide_projection,50000,USD/unité,2050,pays à revenu élevé,presse,https://www.morganstanley.com/insights/articles/humanoid-robot-market-5-trillion-by-2050,Projection
+cout_humanoide_projection,15000,USD/unité,2050,pays à faible revenu,presse,https://www.morganstanley.com/insights/articles/humanoid-robot-market-5-trillion-by-2050,"Projection, chaîne d'appro chinoise"
+prix_catalogue_Unitree_G1,16000,USD,2024,Unitree G1 base,declaration_entreprise,https://www.unitree.com/g1,Prix de lancement (vérif. antérieure du projet)
+prix_catalogue_Unitree_G1,13500,USD,2026,Unitree G1 base,declaration_entreprise,https://www.unitree.com/g1,Hors taxes/port; -16% vs 2024
+prix_catalogue_Unitree_R1,5900,USD,2025,Unitree R1,presse,https://heise.de/-10501209,39 999 yuan
+prix_catalogue_Unitree_R1_AIR,4900,USD,2026,Unitree R1 AIR,declaration_entreprise,https://www.unitree.com/R1,
+prix_catalogue_Unitree_H2,29900,USD,2025,Unitree H2 standard,declaration_entreprise,https://www.unitree.com/H2/,Hors taxes/port
+prix_revendeur_Unitree_H2_US,40500,USD,2026,"Unitree H2, revendeur US",presse,https://www.robotshop.com/products/unitree-h2-humanoid-robot,Inclut probablement droits de douane (non vérifié)
+prix_precommande_1X_NEO,20000,USD,2025,1X NEO Early Access,declaration_entreprise,https://www.therobotreport.com/1x-announces-pre-order-launch-neo-humanoid-robot/,Ou 499 USD/mois
+prix_cible_Tesla_Optimus,30000,USD,2024,Tesla Optimus,declaration_entreprise,https://en.wikipedia.org/wiki/Optimus_(robot),Estimation Musk oct. 2024; aucun prix de vente réel
+location_Figure_domicile,600,USD/mois,2026,Figure (domicile),non_confirme,https://en.wikipedia.org/wiki/Figure_AI,⚠️ Déclaration Adcock mai 2026 relayée par Wikipedia seulement

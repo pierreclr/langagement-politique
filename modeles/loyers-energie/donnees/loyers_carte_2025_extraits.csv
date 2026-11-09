@@ -1,0 +1,859 @@
+type,insee,commune,dep,loyer_m2_cc,borne_basse_95,borne_haute_95,niveau,nbobs_com
+app12,75112,Paris 12e Arrondissement,75,32.318,26.196,39.87,commune,11776
+app12,23025,Bonnat,23,9.647,7.733,12.035,maille,23
+app12,23096,Guéret,23,11.167,8.955,13.924,commune,2100
+app12,23007,Ars,23,9.647,7.733,12.035,maille,0
+app12,23109,Linard-Malval,23,9.647,7.733,12.035,maille,0
+app12,23001,Ahun,23,9.647,7.733,12.035,maille,41
+app12,23183,Saint-Avit-le-Pauvre,23,9.647,7.733,12.035,maille,0
+app12,23021,Bénévent-l'Abbaye,23,9.647,7.733,12.035,maille,38
+app12,23004,Anzême,23,9.647,7.733,12.035,maille,4
+app12,23195,Saint-Fiel,23,9.647,7.733,12.035,maille,3
+app12,23100,Jarnages,23,9.647,7.733,12.035,maille,3
+app12,23197,Saint-Georges-la-Pouge,23,9.647,7.733,12.035,maille,0
+app12,23147,Nouzerolles,23,9.647,7.733,12.035,maille,0
+app12,23024,Blessac,23,9.647,7.733,12.035,maille,0
+app12,23002,Ajain,23,9.647,7.733,12.035,maille,0
+app12,23051,La Chapelle-Saint-Martial,23,9.647,7.733,12.035,maille,0
+app12,23112,Lourdoueix-Saint-Pierre,23,9.647,7.733,12.035,maille,0
+app12,23047,Chamborand,23,9.647,7.733,12.035,maille,0
+app12,23220,Saint-Médard-la-Rochette,23,9.647,7.733,12.035,maille,0
+app12,23175,Sous-Parsat,23,9.647,7.733,12.035,maille,0
+app12,23201,Saint-Hilaire-la-Plaine,23,9.647,7.733,12.035,maille,0
+app12,23101,Jouillat,23,9.647,7.733,12.035,maille,0
+app12,23250,Saint-Yrieix-les-Bois,23,9.647,7.733,12.035,maille,0
+app12,23214,Saint-Martial-le-Mont,23,9.647,7.733,12.035,maille,1
+app12,23084,La Forêt-du-Temple,23,9.647,7.733,12.035,maille,1
+app12,23061,Chénérailles,23,9.647,7.733,12.035,maille,21
+app12,23162,Roches,23,9.647,7.733,12.035,maille,1
+app12,23154,Pionnat,23,9.647,7.733,12.035,maille,2
+app12,23157,La Pouge,23,9.647,7.733,12.035,maille,0
+app12,23043,Chamberaud,23,9.647,7.733,12.035,maille,1
+app12,23246,Saint-Sulpice-les-Champs,23,9.647,7.733,12.035,maille,3
+app12,23095,Le Grand-Bourg,23,9.647,7.733,12.035,maille,11
+app12,23036,Bussière-Dunoise,23,9.647,7.733,12.035,maille,4
+app12,23242,Saint-Silvain-Montaigut,23,9.647,7.733,12.035,maille,0
+app12,23247,Saint-Vaury,23,9.647,7.733,12.035,maille,16
+app12,23229,Saint-Pardoux-les-Cards,23,9.647,7.733,12.035,maille,1
+app12,23086,Fransèches,23,9.647,7.733,12.035,maille,0
+app12,23159,Puy-Malsignat,23,9.647,7.733,12.035,maille,0
+app12,75117,Paris 17e Arrondissement,75,34.559,27.481,43.46,commune,16631
+app12,75113,Paris 13e Arrondissement,75,32.672,26.405,40.428,commune,10588
+app12,75106,Paris 6e Arrondissement,75,40.173,30.271,53.315,commune,4083
+app12,75118,Paris 18e Arrondissement,75,31.603,24.676,40.475,commune,18595
+app12,23190,Saint-Domet,23,9.628,7.561,12.26,maille,1
+app12,23196,Saint-Frion,23,9.628,7.561,12.26,maille,0
+app12,23014,Azat-Châtenet,23,9.628,7.561,12.26,maille,0
+app12,23185,Saint-Chabrais,23,9.628,7.561,12.26,maille,0
+app12,23198,Saint-Georges-Nigremont,23,9.628,7.561,12.26,maille,0
+app12,23222,Saint-Michel-de-Veisse,23,9.628,7.561,12.26,maille,0
+app12,23138,Moutier-d'Ahun,23,9.628,7.561,12.26,maille,0
+app12,23194,Sainte-Feyre-la-Montagne,23,9.628,7.561,12.26,maille,0
+app12,23010,Augères,23,9.628,7.561,12.26,maille,0
+app12,23102,Ladapeyre,23,9.628,7.561,12.26,maille,0
+app12,23149,Parsac,23,9.628,7.561,12.26,maille,0
+app12,23262,Vigeville,23,9.628,7.561,12.26,maille,2
+app12,23008,Aubusson,23,10.193,8.003,12.983,commune,429
+app12,23238,Saint-Quentin-la-Chabanne,23,9.628,7.561,12.26,maille,0
+app12,23187,Saint-Dizier-la-Tour,23,9.628,7.561,12.26,maille,0
+app12,23005,Arfeuille-Châtain,23,9.628,7.561,12.26,maille,4
+app12,23266,La Villetelle,23,9.628,7.561,12.26,maille,0
+app12,23144,La Nouaille,23,9.628,7.561,12.26,maille,0
+app12,23097,Issoudun-Létrieix,23,9.628,7.561,12.26,maille,5
+app12,23181,Saint-Amand-Jartoudeix,23,9.628,7.561,12.26,maille,0
+app12,23042,Ceyroux,23,9.628,7.561,12.26,maille,0
+app12,23182,Saint-Avit-de-Tardes,23,9.628,7.561,12.26,maille,0
+app12,23003,Alleyrat,23,9.628,7.561,12.26,maille,0
+app12,23234,Saint-Priest,23,9.628,7.561,12.26,maille,1
+app12,23114,Lussat,23,9.628,7.561,12.26,maille,0
+app12,23253,Thauron,23,9.628,7.561,12.26,maille,0
+app12,23202,Saint-Hilaire-le-Château,23,9.628,7.561,12.26,maille,2
+app12,23060,Chavanat,23,9.628,7.561,12.26,maille,2
+app12,23048,Champagnat,23,9.628,7.561,12.26,maille,0
+app12,23134,Le Monteil-au-Vicomte,23,9.628,7.561,12.26,maille,0
+app12,23237,Saint-Priest-Palus,23,9.628,7.561,12.26,maille,0
+app12,23105,Lavaveix-les-Mines,23,9.628,7.561,12.26,maille,33
+app12,23151,Peyrat-la-Nonière,23,9.628,7.561,12.26,maille,0
+app12,23016,Banize,23,9.628,7.561,12.26,maille,0
+app12,23189,Saint-Dizier-Masbaraud,23,9.628,7.561,12.26,maille,0
+app12,23260,Vidaillat,23,9.628,7.561,12.26,maille,0
+app12,23028,Bosroger,23,9.628,7.561,12.26,maille,0
+app12,23026,Bord-Saint-Georges,23,9.628,7.561,12.26,maille,0
+app12,23251,Tardes,23,9.628,7.561,12.26,maille,0
+app12,23074,Le Donzeil,23,9.628,7.561,12.26,maille,1
+app12,23133,Montboucher,23,9.628,7.561,12.26,maille,0
+app12,23230,Saint-Pierre-Chérignat,23,9.628,7.561,12.26,maille,0
+app12,23172,La Serre-Bussière-Vieille,23,9.628,7.561,12.26,maille,0
+app12,23091,Gioux,23,9.628,7.561,12.26,maille,0
+app12,23212,Saint-Marc-à-Loubaud,23,9.628,7.561,12.26,maille,0
+app12,23107,Lépinas,23,9.628,7.561,12.26,maille,0
+app12,23232,Saint-Pierre-Bellevue,23,9.628,7.561,12.26,maille,0
+app12,23167,Sannat,23,9.628,7.561,12.26,maille,0
+app12,23127,Mautes,23,9.628,7.561,12.26,maille,0
+app12,23068,Cressat,23,9.628,7.561,12.26,maille,15
+app12,23218,Saint-Maurice-près-Crocq,23,9.628,7.561,12.26,maille,0
+app12,23116,Mainsat,23,9.628,7.561,12.26,maille,0
+app12,23168,Sardent,23,9.628,7.561,12.26,maille,6
+app12,23118,Maisonnisses,23,9.628,7.561,12.26,maille,0
+app12,23113,Lupersat,23,9.628,7.561,12.26,maille,0
+app12,23211,Saint-Marc-à-Frongier,23,9.628,7.561,12.26,maille,0
+app12,23209,Saint-Loup,23,9.628,7.561,12.26,maille,0
+app12,23027,Bosmoreau-les-Mines,23,9.628,7.561,12.26,maille,0
+app12,23210,Saint-Maixant,23,9.628,7.561,12.26,maille,0
+app12,75104,Paris 4e Arrondissement,75,40.429,30.117,54.272,commune,3453
+app12,75107,Paris 7e Arrondissement,75,39.186,30.622,50.146,commune,5786
+app12,75110,Paris 10e Arrondissement,75,32.736,25.764,41.595,commune,9181
+app12,75105,Paris 5e Arrondissement,75,36.279,28.791,45.716,commune,5902
+app12,49007,Angers,49,16.574,13.129,20.923,commune,20037
+app12,75114,Paris 14e Arrondissement,75,33.105,26.844,40.825,commune,12176
+app12,75108,Paris 8e Arrondissement,75,39.067,29.526,51.692,commune,4513
+app12,75111,Paris 11e Arrondissement,75,33.278,26.435,41.892,commune,14088
+app12,69383,Lyon 3e Arrondissement,69,18.875,14.58,24.434,commune,19582
+app12,69382,Lyon 2e Arrondissement,69,20.309,15.678,26.307,commune,8381
+app12,69384,Lyon 4e Arrondissement,69,19.484,15.034,25.251,commune,4056
+app12,69386,Lyon 6e Arrondissement,69,20.014,15.283,26.208,commune,9919
+app12,38185,Grenoble,38,15.671,12.642,19.426,commune,34359
+app12,75101,Paris 1er Arrondissement,75,38.11,23.867,60.854,commune,2403
+app12,69381,Lyon 1er Arrondissement,69,19.672,14.681,26.36,commune,5174
+app12,69387,Lyon 7e Arrondissement,69,18.785,14.836,23.786,commune,17412
+app12,75109,Paris 9e Arrondissement,75,36.211,28.475,46.047,commune,5323
+app12,69385,Lyon 5e Arrondissement,69,19.106,14.854,24.575,commune,6172
+app12,75102,Paris 2e Arrondissement,75,36.872,28.292,48.052,commune,3345
+app12,75115,Paris 15e Arrondissement,75,33.489,27.438,40.873,commune,25502
+app12,75103,Paris 3e Arrondissement,75,38.699,29.997,49.925,commune,3949
+app12,75119,Paris 19e Arrondissement,75,30.02,23.861,37.77,commune,10428
+app12,75120,Paris 20e Arrondissement,75,30.963,24.99,38.363,commune,11187
+app12,69388,Lyon 8e Arrondissement,69,18.456,14.759,23.08,commune,12178
+app12,23226,Saint-Pardoux-d'Arnet,23,9.608,7.522,12.272,maille,1
+app12,23180,Saint-Amand,23,9.608,7.522,12.272,maille,0
+app12,23225,Saint-Oradoux-près-Crocq,23,9.608,7.522,12.272,maille,0
+app12,23140,Moutier-Rozeille,23,9.608,7.522,12.272,maille,5
+app12,23227,Saint-Pardoux-Morterolles,23,9.608,7.522,12.272,maille,1
+app12,23156,Pontcharraud,23,9.608,7.522,12.272,maille,0
+app12,23067,La Courtine,23,9.608,7.522,12.272,maille,28
+app12,23160,Reterre,23,9.608,7.522,12.272,maille,0
+app12,23090,Gentioux-Pigerolles,23,9.608,7.522,12.272,maille,1
+app12,23142,Néoux,23,9.608,7.522,12.272,maille,2
+app12,23179,Saint-Alpinien,23,9.608,7.522,12.272,maille,1
+app12,23203,Saint-Julien-la-Genête,23,9.608,7.522,12.272,maille,0
+app12,23071,Croze,23,9.608,7.522,12.272,maille,5
+app12,23228,Saint-Pardoux-le-Neuf,23,9.608,7.522,12.272,maille,0
+app12,23045,Chambon-sur-Voueize,23,9.608,7.522,12.272,maille,7
+app12,23080,Féniers,23,9.608,7.522,12.272,maille,1
+app12,23063,Clairavaux,23,9.608,7.522,12.272,maille,0
+app12,23184,Saint-Bard,23,9.608,7.522,12.272,maille,0
+app12,23020,Bellegarde-en-Marche,23,9.608,7.522,12.272,maille,1
+app12,23069,Crocq,23,9.608,7.522,12.272,maille,7
+app12,23221,Saint-Merd-la-Breuille,23,9.608,7.522,12.272,maille,0
+app12,23106,Lépaud,23,9.608,7.522,12.272,maille,7
+app12,23013,Auzances,23,9.608,7.522,12.272,maille,14
+app12,23081,Flayat,23,9.608,7.522,12.272,maille,3
+app12,23037,Bussière-Nouvelle,23,9.608,7.522,12.272,maille,0
+app12,23131,Mérinchal,23,9.608,7.522,12.272,maille,1
+app12,23178,Saint-Agnant-près-Crocq,23,9.608,7.522,12.272,maille,0
+app12,23171,Sermur,23,9.608,7.522,12.272,maille,0
+app12,23079,Felletin,23,9.744,7.626,12.45,commune,142
+app12,23059,La Chaussade,23,9.608,7.522,12.272,maille,0
+app12,23125,Le Mas-d'Artige,23,9.608,7.522,12.272,maille,0
+app12,23257,Vallière,23,9.608,7.522,12.272,maille,11
+app12,23115,Magnat-l'Étrange,23,9.608,7.522,12.272,maille,0
+app12,23158,Poussanges,23,9.608,7.522,12.272,maille,0
+app12,23165,Royère-de-Vassivière,23,9.608,7.522,12.272,maille,2
+app12,23035,Budelière,23,9.608,7.522,12.272,maille,1
+app12,23241,Saint-Silvain-Bellegarde,23,9.608,7.522,12.272,maille,1
+app12,23110,Lioux-les-Monges,23,9.608,7.522,12.272,maille,0
+app12,23164,Rougnat,23,9.608,7.522,12.272,maille,0
+app12,23076,Évaux-les-Bains,23,9.608,7.522,12.272,maille,63
+app12,23249,Saint-Yrieix-la-Montagne,23,9.608,7.522,12.272,maille,1
+app12,23119,Malleret,23,11.388,8.991,14.424,maille,0
+app12,23224,Saint-Oradoux-de-Chirouze,23,11.388,8.991,14.424,maille,0
+app12,23215,Saint-Martial-le-Vieux,23,11.388,8.991,14.424,maille,0
+app12,23019,Beissat,23,11.388,8.991,14.424,maille,0
+app12,23006,Arrènes,23,8.779,6.828,11.289,maille,0
+app12,23200,Saint-Goussaud,23,8.779,6.828,11.289,maille,0
+app12,23199,Saint-Germain-Beaupré,23,8.779,6.828,11.289,maille,0
+app12,23219,Saint-Maurice-la-Souterraine,23,8.779,6.828,11.289,maille,1
+app12,23015,Azerables,23,8.779,6.828,11.289,maille,0
+app12,23141,Naillat,23,8.779,6.828,11.289,maille,0
+app12,23018,Bazelat,23,8.779,6.828,11.289,maille,1
+app12,23143,Noth,23,8.779,6.828,11.289,maille,0
+app12,23065,Colondannes,23,8.779,6.828,11.289,maille,1
+app12,23176,La Souterraine,23,10.778,8.368,13.882,commune,571
+app12,23263,Villard,23,8.779,6.828,11.289,maille,0
+app12,23117,Maison-Feyne,23,8.779,6.828,11.289,maille,0
+app12,23258,Vareilles,23,8.779,6.828,11.289,maille,0
+app12,23062,Chéniers,23,8.779,6.828,11.289,maille,0
+app12,23177,Saint-Agnant-de-Versillat,23,8.779,6.828,11.289,maille,0
+app12,23075,Dun-le-Palestel,23,8.779,6.828,11.289,maille,89
+app12,23207,Saint-Léger-Bridereix,23,8.779,6.828,11.289,maille,0
+app12,23049,Champsanglard,23,8.779,6.828,11.289,maille,0
+app12,23029,Le Bourg-d'Hem,23,8.779,6.828,11.289,maille,1
+app12,23039,La Celle-Dunoise,23,8.779,6.828,11.289,maille,0
+app12,23244,Saint-Sulpice-le-Dunois,23,8.779,6.828,11.289,maille,0
+app12,23166,Sagnat,23,8.779,6.828,11.289,maille,0
+app12,23044,Chambon-Sainte-Croix,23,8.779,6.828,11.289,maille,0
+app12,23066,Le Compas,23,11.604,9.108,14.784,maille,0
+app12,23265,La Villeneuve,23,11.604,9.108,14.784,maille,0
+app12,23054,Charron,23,11.604,9.108,14.784,maille,0
+app12,23073,Dontreix,23,11.604,9.108,14.784,maille,0
+app12,23017,Basville,23,11.604,9.108,14.784,maille,0
+app12,23034,Brousse,23,11.604,9.108,14.784,maille,0
+app12,23053,Chard,23,11.604,9.108,14.784,maille,0
+app12,23055,Châtelard,23,11.604,9.108,14.784,maille,0
+app12,23123,Les Mars,23,11.604,9.108,14.784,maille,0
+app12,23129,La Mazière-aux-Bons-Hommes,23,11.604,9.108,14.784,maille,0
+app12,23264,La Villedieu,23,8.75,6.777,11.299,maille,0
+app12,23216,Saint-Martin-Château,23,8.75,6.777,11.299,maille,0
+app12,23077,Faux-la-Montagne,23,8.75,6.777,11.299,maille,0
+app12,23070,Crozant,23,8.633,6.883,10.828,maille,0
+app12,23103,Lafat,23,8.633,6.883,10.828,maille,0
+app12,23050,La Chapelle-Baloue,23,8.633,6.883,10.828,maille,0
+app12,23239,Saint-Sébastien,23,8.633,6.883,10.828,maille,4
+app12,23087,Fresselines,23,8.633,6.883,10.828,maille,0
+app12,75116,Paris 16e Arrondissement,75,35.491,27.928,45.102,commune,12818
+app12,23148,Nouziers,23,8.923,7.034,11.319,maille,0
+app12,23064,Clugnat,23,8.923,7.034,11.319,maille,4
+app12,23038,Bussière-Saint-Georges,23,8.923,7.034,11.319,maille,1
+app12,23120,Malleret-Boussac,23,8.923,7.034,11.319,maille,0
+app12,23233,Saint-Pierre-le-Bost,23,8.923,7.034,11.319,maille,0
+app12,23188,Saint-Dizier-les-Domaines,23,8.923,7.034,11.319,maille,0
+app12,23240,Saint-Silvain-Bas-le-Roc,23,8.923,7.034,11.319,maille,3
+app12,23089,Genouillac,23,8.923,7.034,11.319,maille,9
+app12,23098,Jalesches,23,8.923,7.034,11.319,maille,1
+app12,23130,Méasnes,23,8.923,7.034,11.319,maille,1
+app12,23057,Châtelus-Malvaleix,23,8.923,7.034,11.319,maille,14
+app12,23146,Nouzerines,23,8.923,7.034,11.319,maille,0
+app12,23093,Gouzon,23,10.303,7.958,13.338,maille,24
+app12,23139,Moutier-Malcard,23,10.303,7.958,13.338,maille,1
+app12,23009,Auge,23,10.303,7.958,13.338,maille,0
+app12,23255,Trois-Fonds,23,10.303,7.958,13.338,maille,0
+app12,23136,Mortroux,23,10.303,7.958,13.338,maille,0
+app12,23108,Leyrat,23,10.303,7.958,13.338,maille,1
+app12,23174,Soumans,23,10.303,7.958,13.338,maille,0
+app12,23254,Toulx-Sainte-Croix,23,10.303,7.958,13.338,maille,0
+app12,23152,Pierrefitte,23,10.303,7.958,13.338,maille,1
+app12,23058,Le Chauchet,23,10.303,7.958,13.338,maille,0
+app12,23022,Bétête,23,10.303,7.958,13.338,maille,2
+app12,23204,Saint-Julien-le-Châtel,23,10.303,7.958,13.338,maille,0
+app12,23259,Verneiges,23,10.303,7.958,13.338,maille,0
+app12,23104,Lavaufranche,23,10.303,7.958,13.338,maille,13
+app12,23032,Boussac-Bourg,23,10.303,7.958,13.338,maille,2
+app12,23243,Saint-Silvain-sous-Toulx,23,10.303,7.958,13.338,maille,1
+app12,23040,La Celle-sous-Gouzon,23,10.303,7.958,13.338,maille,0
+app12,23145,Nouhant,23,10.303,7.958,13.338,maille,0
+app12,23072,Domeyrot,23,10.303,7.958,13.338,maille,0
+app12,23041,La Cellette,23,10.303,7.958,13.338,maille,0
+app12,23031,Boussac,23,10.303,7.958,13.338,maille,52
+app12,23252,Tercillat,23,10.303,7.958,13.338,maille,6
+app12,23261,Viersat,23,10.303,7.958,13.338,maille,2
+app12,23213,Saint-Marien,23,10.303,7.958,13.338,maille,0
+app12,23191,Saint-Éloi,23,10.57,8.341,13.395,maille,4
+app12,23235,Saint-Priest-la-Feuille,23,10.57,8.341,13.395,maille,5
+app12,23011,Aulon,23,10.57,8.341,13.395,maille,0
+app12,23012,Auriat,23,10.57,8.341,13.395,maille,1
+app12,23092,Glénic,23,10.57,8.341,13.395,maille,1
+app12,23236,Saint-Priest-la-Plaine,23,10.57,8.341,13.395,maille,0
+app12,23155,Pontarion,23,10.57,8.341,13.395,maille,19
+app12,23186,Saint-Christophe,23,10.57,8.341,13.395,maille,0
+app12,23137,Mourioux-Vieilleville,23,10.57,8.341,13.395,maille,0
+app12,23056,Châtelus-le-Marcheix,23,10.57,8.341,13.395,maille,4
+app12,23052,La Chapelle-Taillefert,23,10.57,8.341,13.395,maille,0
+app12,23205,Saint-Junien-la-Bregère,23,10.57,8.341,13.395,maille,0
+app12,23208,Saint-Léger-le-Guérétois,23,10.57,8.341,13.395,maille,0
+app12,23111,Lizières,23,10.57,8.341,13.395,maille,1
+app12,23150,Peyrabout,23,10.57,8.341,13.395,maille,0
+app12,23193,Sainte-Feyre,23,10.57,8.341,13.395,maille,24
+app12,23217,Saint-Martin-Sainte-Catherine,23,10.57,8.341,13.395,maille,1
+app12,23206,Saint-Laurent,23,10.57,8.341,13.395,maille,4
+app12,23169,La Saunière,23,10.57,8.341,13.395,maille,0
+app12,23223,Saint-Moreil,23,10.57,8.341,13.395,maille,0
+app12,23248,Saint-Victor-en-Marche,23,10.57,8.341,13.395,maille,0
+app12,23078,Faux-Mazuras,23,10.57,8.341,13.395,maille,0
+app12,23088,Gartempe,23,10.57,8.341,13.395,maille,0
+app12,23099,Janaillat,23,10.57,8.341,13.395,maille,0
+app12,23122,Mansat-la-Courrière,23,10.57,8.341,13.395,maille,0
+app12,23128,Mazeirat,23,10.57,8.341,13.395,maille,0
+app12,23192,Fursac,23,10.57,8.341,13.395,maille,2
+app12,23030,Bourganeuf,23,10.308,8.12,13.086,commune,154
+app12,23124,Marsac,23,10.57,8.341,13.395,maille,0
+app12,23033,La Brionne,23,10.57,8.341,13.395,maille,3
+app12,23173,Soubrebost,23,10.57,8.341,13.395,maille,0
+app12,23132,Montaigut-le-Blanc,23,10.57,8.341,13.395,maille,0
+app12,23082,Fleurat,23,10.57,8.341,13.395,maille,0
+app12,23170,Savennes,23,10.57,8.341,13.395,maille,0
+app12,23245,Saint-Sulpice-le-Guérétois,23,10.57,8.341,13.395,maille,18
+app12,23083,Fontanières,23,8.953,6.9,11.616,maille,0
+app12,23046,Chambonchard,23,8.953,6.9,11.616,maille,0
+app12,69389,Lyon 9e Arrondissement,69,18.428,14.602,23.258,commune,6381
+app3,75120,Paris 20e Arrondissement,75,26.513,20.884,33.66,commune,2357
+app3,75108,Paris 8e Arrondissement,75,35.881,27.529,46.768,commune,3798
+app3,75119,Paris 19e Arrondissement,75,26.053,20.223,33.563,commune,2904
+app3,69382,Lyon 2e Arrondissement,69,16.628,12.151,22.755,commune,6524
+app3,69389,Lyon 9e Arrondissement,69,14.632,11.376,18.821,commune,5180
+app3,75107,Paris 7e Arrondissement,75,36.036,27.98,46.412,commune,3860
+app3,75110,Paris 10e Arrondissement,75,30.213,23.65,38.598,commune,2853
+app3,75109,Paris 9e Arrondissement,75,32.134,25.744,40.11,commune,2541
+app3,75118,Paris 18e Arrondissement,75,28.091,21.235,37.161,commune,4276
+app3,75111,Paris 11e Arrondissement,75,30.417,24.393,37.929,commune,3306
+app3,69386,Lyon 6e Arrondissement,69,16.726,12.415,22.535,commune,7011
+app3,69383,Lyon 3e Arrondissement,69,15.219,11.749,19.714,commune,10876
+app3,69387,Lyon 7e Arrondissement,69,14.814,11.547,19.006,commune,8067
+app3,69384,Lyon 4e Arrondissement,69,15.685,11.783,20.878,commune,2256
+app3,38185,Grenoble,38,12.209,9.488,15.711,commune,20713
+app3,75106,Paris 6e Arrondissement,75,37.606,29.12,48.566,commune,2408
+app3,75102,Paris 2e Arrondissement,75,33.339,26.956,41.234,commune,1115
+app3,75104,Paris 4e Arrondissement,75,36.489,27.737,48.002,commune,1486
+app3,75114,Paris 14e Arrondissement,75,30.21,24.326,37.518,commune,4644
+app3,69388,Lyon 8e Arrondissement,69,14.605,11.437,18.65,commune,7627
+app3,75101,Paris 1er Arrondissement,75,36.109,21.985,59.306,commune,1046
+app3,75113,Paris 13e Arrondissement,75,28.032,22.487,34.944,commune,3600
+app3,75103,Paris 3e Arrondissement,75,34.484,26.883,44.234,commune,1248
+app3,75112,Paris 12e Arrondissement,75,28.428,23.126,34.946,commune,3774
+app3,75115,Paris 15e Arrondissement,75,30.749,25.155,37.588,commune,11663
+app3,75117,Paris 17e Arrondissement,75,31.86,25.616,39.627,commune,7752
+app3,75116,Paris 16e Arrondissement,75,33.652,26.779,42.29,commune,11416
+app3,69385,Lyon 5e Arrondissement,69,14.295,10.935,18.687,commune,5396
+app3,69381,Lyon 1er Arrondissement,69,15.513,11.863,20.284,commune,2150
+app3,75105,Paris 5e Arrondissement,75,34.244,27.399,42.798,commune,2082
+app3,23193,Sainte-Feyre,23,7.122,5.803,8.742,maille,22
+app3,23128,Mazeirat,23,7.122,5.803,8.742,maille,1
+app3,23175,Sous-Parsat,23,7.122,5.803,8.742,maille,0
+app3,23150,Peyrabout,23,7.122,5.803,8.742,maille,1
+app3,23052,La Chapelle-Taillefert,23,7.122,5.803,8.742,maille,0
+app3,23092,Glénic,23,7.122,5.803,8.742,maille,5
+app3,23101,Jouillat,23,7.122,5.803,8.742,maille,0
+app3,23168,Sardent,23,7.122,5.803,8.742,maille,1
+app3,23169,La Saunière,23,7.122,5.803,8.742,maille,4
+app3,23222,Saint-Michel-de-Veisse,23,7.122,5.803,8.742,maille,0
+app3,23002,Ajain,23,7.122,5.803,8.742,maille,14
+app3,23201,Saint-Hilaire-la-Plaine,23,7.122,5.803,8.742,maille,0
+app3,23262,Vigeville,23,7.122,5.803,8.742,maille,2
+app3,23195,Saint-Fiel,23,7.122,5.803,8.742,maille,2
+app3,23250,Saint-Yrieix-les-Bois,23,7.122,5.803,8.742,maille,0
+app3,23086,Fransèches,23,7.122,5.803,8.742,maille,0
+app3,23248,Saint-Victor-en-Marche,23,7.122,5.803,8.742,maille,0
+app3,23206,Saint-Laurent,23,7.122,5.803,8.742,maille,3
+app3,23096,Guéret,23,8.118,6.614,9.964,commune,1655
+app3,23001,Ahun,23,7.122,5.803,8.742,maille,32
+app3,23191,Saint-Éloi,23,7.122,5.803,8.742,maille,2
+app3,23107,Lépinas,23,7.122,5.803,8.742,maille,0
+app3,23208,Saint-Léger-le-Guérétois,23,7.122,5.803,8.742,maille,0
+app3,23170,Savennes,23,7.122,5.803,8.742,maille,0
+app3,23154,Pionnat,23,7.122,5.803,8.742,maille,6
+app3,23246,Saint-Sulpice-les-Champs,23,7.122,5.803,8.742,maille,0
+app3,23186,Saint-Christophe,23,7.122,5.803,8.742,maille,3
+app3,49007,Angers,49,12.981,9.59,17.572,commune,9519
+app3,23089,Genouillac,23,6.411,5.243,7.839,maille,6
+app3,23022,Bétête,23,6.411,5.243,7.839,maille,10
+app3,23029,Le Bourg-d'Hem,23,6.411,5.243,7.839,maille,1
+app3,23018,Bazelat,23,6.411,5.243,7.839,maille,12
+app3,23149,Parsac,23,6.411,5.243,7.839,maille,0
+app3,23109,Linard-Malval,23,6.411,5.243,7.839,maille,2
+app3,23084,La Forêt-du-Temple,23,6.411,5.243,7.839,maille,6
+app3,23049,Champsanglard,23,6.411,5.243,7.839,maille,1
+app3,23102,Ladapeyre,23,6.411,5.243,7.839,maille,17
+app3,23148,Nouziers,23,6.411,5.243,7.839,maille,2
+app3,23087,Fresselines,23,6.411,5.243,7.839,maille,3
+app3,23062,Chéniers,23,6.411,5.243,7.839,maille,0
+app3,23245,Saint-Sulpice-le-Guérétois,23,6.411,5.243,7.839,maille,32
+app3,23044,Chambon-Sainte-Croix,23,6.411,5.243,7.839,maille,0
+app3,23095,Le Grand-Bourg,23,6.411,5.243,7.839,maille,30
+app3,23242,Saint-Silvain-Montaigut,23,6.411,5.243,7.839,maille,4
+app3,23041,La Cellette,23,6.411,5.243,7.839,maille,7
+app3,23025,Bonnat,23,6.411,5.243,7.839,maille,29
+app3,23139,Moutier-Malcard,23,6.411,5.243,7.839,maille,2
+app3,23033,La Brionne,23,6.411,5.243,7.839,maille,5
+app3,23036,Bussière-Dunoise,23,6.411,5.243,7.839,maille,14
+app3,23188,Saint-Dizier-les-Domaines,23,6.411,5.243,7.839,maille,0
+app3,23004,Anzême,23,6.411,5.243,7.839,maille,7
+app3,23112,Lourdoueix-Saint-Pierre,23,6.411,5.243,7.839,maille,9
+app3,23247,Saint-Vaury,23,6.411,5.243,7.839,maille,24
+app3,23040,La Celle-sous-Gouzon,23,6.411,5.243,7.839,maille,0
+app3,23162,Roches,23,6.411,5.243,7.839,maille,7
+app3,23075,Dun-le-Palestel,23,6.411,5.243,7.839,maille,41
+app3,23239,Saint-Sébastien,23,6.411,5.243,7.839,maille,13
+app3,23039,La Celle-Dunoise,23,6.411,5.243,7.839,maille,1
+app3,23141,Naillat,23,6.411,5.243,7.839,maille,12
+app3,23065,Colondannes,23,6.411,5.243,7.839,maille,1
+app3,23057,Châtelus-Malvaleix,23,6.411,5.243,7.839,maille,34
+app3,23070,Crozant,23,6.411,5.243,7.839,maille,1
+app3,23136,Mortroux,23,6.411,5.243,7.839,maille,2
+app3,23240,Saint-Silvain-Bas-le-Roc,23,6.553,5.128,8.374,maille,1
+app3,23120,Malleret-Boussac,23,6.553,5.128,8.374,maille,0
+app3,23233,Saint-Pierre-le-Bost,23,6.553,5.128,8.374,maille,1
+app3,23146,Nouzerines,23,6.553,5.128,8.374,maille,0
+app3,23133,Montboucher,23,6.503,5.235,8.079,maille,0
+app3,23181,Saint-Amand-Jartoudeix,23,6.503,5.235,8.079,maille,1
+app3,23223,Saint-Moreil,23,6.503,5.235,8.079,maille,0
+app3,23237,Saint-Priest-Palus,23,6.503,5.235,8.079,maille,2
+app3,23009,Auge,23,6.898,5.414,8.789,maille,0
+app3,23203,Saint-Julien-la-Genête,23,6.898,5.414,8.789,maille,0
+app3,23145,Nouhant,23,6.898,5.414,8.789,maille,7
+app3,23046,Chambonchard,23,6.898,5.414,8.789,maille,0
+app3,23259,Verneiges,23,6.898,5.414,8.789,maille,0
+app3,23035,Budelière,23,6.898,5.414,8.789,maille,4
+app3,23076,Évaux-les-Bains,23,6.898,5.414,8.789,maille,49
+app3,23144,La Nouaille,23,7.326,5.77,9.303,maille,0
+app3,23091,Gioux,23,7.326,5.77,9.303,maille,0
+app3,23264,La Villedieu,23,7.326,5.77,9.303,maille,0
+app3,23077,Faux-la-Montagne,23,7.326,5.77,9.303,maille,0
+app3,23090,Gentioux-Pigerolles,23,7.326,5.77,9.303,maille,0
+app3,23108,Leyrat,23,6.654,5.317,8.327,maille,0
+app3,23032,Boussac-Bourg,23,6.654,5.317,8.327,maille,0
+app3,23026,Bord-Saint-Georges,23,6.654,5.317,8.327,maille,0
+app3,23174,Soumans,23,6.654,5.317,8.327,maille,1
+app3,23213,Saint-Marien,23,6.654,5.317,8.327,maille,0
+app3,23031,Boussac,23,6.654,5.317,8.327,maille,64
+app3,23038,Bussière-Saint-Georges,23,6.654,5.317,8.327,maille,0
+app3,23252,Tercillat,23,6.654,5.317,8.327,maille,0
+app3,23104,Lavaufranche,23,6.654,5.317,8.327,maille,9
+app3,23017,Basville,23,6.019,4.798,7.552,maille,0
+app3,23059,La Chaussade,23,6.019,4.798,7.552,maille,0
+app3,23190,Saint-Domet,23,6.019,4.798,7.552,maille,0
+app3,23127,Mautes,23,6.019,4.798,7.552,maille,0
+app3,23220,Saint-Médard-la-Rochette,23,6.019,4.798,7.552,maille,0
+app3,23226,Saint-Pardoux-d'Arnet,23,6.019,4.798,7.552,maille,5
+app3,23178,Saint-Agnant-près-Crocq,23,6.019,4.798,7.552,maille,0
+app3,23210,Saint-Maixant,23,6.019,4.798,7.552,maille,0
+app3,23115,Magnat-l'Étrange,23,6.019,4.798,7.552,maille,0
+app3,23142,Néoux,23,6.019,4.798,7.552,maille,5
+app3,23251,Tardes,23,6.019,4.798,7.552,maille,0
+app3,23225,Saint-Oradoux-près-Crocq,23,6.019,4.798,7.552,maille,0
+app3,23182,Saint-Avit-de-Tardes,23,6.019,4.798,7.552,maille,1
+app3,23151,Peyrat-la-Nonière,23,6.019,4.798,7.552,maille,7
+app3,23131,Mérinchal,23,6.019,4.798,7.552,maille,0
+app3,23196,Saint-Frion,23,6.019,4.798,7.552,maille,0
+app3,23171,Sermur,23,6.019,4.798,7.552,maille,0
+app3,23266,La Villetelle,23,6.019,4.798,7.552,maille,0
+app3,23172,La Serre-Bussière-Vieille,23,6.019,4.798,7.552,maille,0
+app3,23194,Sainte-Feyre-la-Montagne,23,6.019,4.798,7.552,maille,1
+app3,23081,Flayat,23,6.019,4.798,7.552,maille,7
+app3,23097,Issoudun-Létrieix,23,6.019,4.798,7.552,maille,0
+app3,23069,Crocq,23,6.019,4.798,7.552,maille,10
+app3,23020,Bellegarde-en-Marche,23,6.019,4.798,7.552,maille,8
+app3,23066,Le Compas,23,6.019,4.798,7.552,maille,2
+app3,23218,Saint-Maurice-près-Crocq,23,6.019,4.798,7.552,maille,0
+app3,23008,Aubusson,23,6.787,5.411,8.514,commune,384
+app3,23234,Saint-Priest,23,6.019,4.798,7.552,maille,0
+app3,23241,Saint-Silvain-Bellegarde,23,6.019,4.798,7.552,maille,0
+app3,23185,Saint-Chabrais,23,6.019,4.798,7.552,maille,0
+app3,23113,Lupersat,23,6.019,4.798,7.552,maille,1
+app3,23209,Saint-Loup,23,6.019,4.798,7.552,maille,0
+app3,23003,Alleyrat,23,6.019,4.798,7.552,maille,1
+app3,23028,Bosroger,23,6.019,4.798,7.552,maille,0
+app3,23005,Arfeuille-Châtain,23,6.019,4.798,7.552,maille,7
+app3,23164,Rougnat,23,6.019,4.798,7.552,maille,3
+app3,23147,Nouzerolles,23,7.471,6.145,9.082,maille,0
+app3,23130,Méasnes,23,7.471,6.145,9.082,maille,0
+app3,23219,Saint-Maurice-la-Souterraine,23,7.471,6.145,9.082,maille,1
+app3,23202,Saint-Hilaire-le-Château,23,6.512,5.056,8.387,maille,1
+app3,23043,Chamberaud,23,6.512,5.056,8.387,maille,10
+app3,23016,Banize,23,6.512,5.056,8.387,maille,3
+app3,23061,Chénérailles,23,6.512,5.056,8.387,maille,36
+app3,23063,Clairavaux,23,6.512,5.056,8.387,maille,0
+app3,23114,Lussat,23,6.512,5.056,8.387,maille,7
+app3,23254,Toulx-Sainte-Croix,23,6.512,5.056,8.387,maille,3
+app3,23106,Lépaud,23,6.512,5.056,8.387,maille,15
+app3,23051,La Chapelle-Saint-Martial,23,6.512,5.056,8.387,maille,3
+app3,23007,Ars,23,6.512,5.056,8.387,maille,0
+app3,23214,Saint-Martial-le-Mont,23,6.512,5.056,8.387,maille,1
+app3,23179,Saint-Alpinien,23,6.512,5.056,8.387,maille,0
+app3,23229,Saint-Pardoux-les-Cards,23,6.512,5.056,8.387,maille,2
+app3,23257,Vallière,23,6.512,5.056,8.387,maille,8
+app3,23019,Beissat,23,6.512,5.056,8.387,maille,0
+app3,23064,Clugnat,23,6.512,5.056,8.387,maille,18
+app3,23060,Chavanat,23,6.512,5.056,8.387,maille,4
+app3,23212,Saint-Marc-à-Loubaud,23,6.512,5.056,8.387,maille,1
+app3,23074,Le Donzeil,23,6.512,5.056,8.387,maille,0
+app3,23156,Pontcharraud,23,6.512,5.056,8.387,maille,0
+app3,23080,Féniers,23,6.512,5.056,8.387,maille,2
+app3,23078,Faux-Mazuras,23,6.512,5.056,8.387,maille,1
+app3,23227,Saint-Pardoux-Morterolles,23,6.512,5.056,8.387,maille,1
+app3,23068,Cressat,23,6.512,5.056,8.387,maille,26
+app3,23079,Felletin,23,6.512,5.056,8.387,maille,78
+app3,23187,Saint-Dizier-la-Tour,23,6.512,5.056,8.387,maille,0
+app3,23183,Saint-Avit-le-Pauvre,23,6.512,5.056,8.387,maille,1
+app3,23249,Saint-Yrieix-la-Montagne,23,6.512,5.056,8.387,maille,1
+app3,23152,Pierrefitte,23,6.512,5.056,8.387,maille,0
+app3,23232,Saint-Pierre-Bellevue,23,6.512,5.056,8.387,maille,2
+app3,23058,Le Chauchet,23,6.512,5.056,8.387,maille,0
+app3,23072,Domeyrot,23,6.512,5.056,8.387,maille,2
+app3,23100,Jarnages,23,6.512,5.056,8.387,maille,16
+app3,23118,Maisonnisses,23,6.512,5.056,8.387,maille,1
+app3,23165,Royère-de-Vassivière,23,6.512,5.056,8.387,maille,3
+app3,23105,Lavaveix-les-Mines,23,6.512,5.056,8.387,maille,37
+app3,23071,Croze,23,6.512,5.056,8.387,maille,1
+app3,23243,Saint-Silvain-sous-Toulx,23,6.512,5.056,8.387,maille,6
+app3,23155,Pontarion,23,6.512,5.056,8.387,maille,27
+app3,23158,Poussanges,23,6.512,5.056,8.387,maille,0
+app3,23228,Saint-Pardoux-le-Neuf,23,6.512,5.056,8.387,maille,0
+app3,23138,Moutier-d'Ahun,23,6.512,5.056,8.387,maille,2
+app3,23180,Saint-Amand,23,6.512,5.056,8.387,maille,0
+app3,23119,Malleret,23,6.512,5.056,8.387,maille,1
+app3,23204,Saint-Julien-le-Châtel,23,6.512,5.056,8.387,maille,0
+app3,23067,La Courtine,23,6.512,5.056,8.387,maille,64
+app3,23024,Blessac,23,6.512,5.056,8.387,maille,0
+app3,23125,Le Mas-d'Artige,23,6.512,5.056,8.387,maille,0
+app3,23198,Saint-Georges-Nigremont,23,6.512,5.056,8.387,maille,2
+app3,23211,Saint-Marc-à-Frongier,23,6.512,5.056,8.387,maille,8
+app3,23157,La Pouge,23,6.512,5.056,8.387,maille,2
+app3,23238,Saint-Quentin-la-Chabanne,23,6.512,5.056,8.387,maille,0
+app3,23140,Moutier-Rozeille,23,6.512,5.056,8.387,maille,4
+app3,23093,Gouzon,23,6.512,5.056,8.387,maille,50
+app3,23098,Jalesches,23,6.512,5.056,8.387,maille,0
+app3,23197,Saint-Georges-la-Pouge,23,6.512,5.056,8.387,maille,3
+app3,23255,Trois-Fonds,23,6.512,5.056,8.387,maille,0
+app3,23082,Fleurat,23,6.963,5.404,8.972,maille,0
+app3,23047,Chamborand,23,6.963,5.404,8.972,maille,2
+app3,23192,Fursac,23,6.963,5.404,8.972,maille,2
+app3,23200,Saint-Goussaud,23,6.963,5.404,8.972,maille,0
+app3,23263,Villard,23,6.963,5.404,8.972,maille,0
+app3,23050,La Chapelle-Baloue,23,6.963,5.404,8.972,maille,0
+app3,23236,Saint-Priest-la-Plaine,23,6.963,5.404,8.972,maille,1
+app3,23176,La Souterraine,23,7.266,5.671,9.31,commune,443
+app3,23244,Saint-Sulpice-le-Dunois,23,6.963,5.404,8.972,maille,1
+app3,23235,Saint-Priest-la-Feuille,23,6.963,5.404,8.972,maille,0
+app3,23143,Noth,23,6.963,5.404,8.972,maille,1
+app3,23166,Sagnat,23,6.963,5.404,8.972,maille,0
+app3,23177,Saint-Agnant-de-Versillat,23,6.963,5.404,8.972,maille,2
+app3,23207,Saint-Léger-Bridereix,23,6.963,5.404,8.972,maille,6
+app3,23199,Saint-Germain-Beaupré,23,6.963,5.404,8.972,maille,0
+app3,23015,Azerables,23,6.963,5.404,8.972,maille,1
+app3,23111,Lizières,23,6.963,5.404,8.972,maille,4
+app3,23117,Maison-Feyne,23,6.963,5.404,8.972,maille,0
+app3,23103,Lafat,23,6.963,5.404,8.972,maille,1
+app3,23258,Vareilles,23,6.963,5.404,8.972,maille,0
+app3,23216,Saint-Martin-Château,23,6.359,5.034,8.031,maille,0
+app3,23122,Mansat-la-Courrière,23,6.359,5.034,8.031,maille,0
+app3,23021,Bénévent-l'Abbaye,23,6.359,5.034,8.031,maille,41
+app3,23253,Thauron,23,6.359,5.034,8.031,maille,0
+app3,23012,Auriat,23,6.359,5.034,8.031,maille,0
+app3,23088,Gartempe,23,6.359,5.034,8.031,maille,0
+app3,23011,Aulon,23,6.359,5.034,8.031,maille,1
+app3,23042,Ceyroux,23,6.359,5.034,8.031,maille,0
+app3,23217,Saint-Martin-Sainte-Catherine,23,6.359,5.034,8.031,maille,7
+app3,23124,Marsac,23,6.359,5.034,8.031,maille,16
+app3,23006,Arrènes,23,6.359,5.034,8.031,maille,0
+app3,23189,Saint-Dizier-Masbaraud,23,6.359,5.034,8.031,maille,4
+app3,23132,Montaigut-le-Blanc,23,6.359,5.034,8.031,maille,3
+app3,23260,Vidaillat,23,6.359,5.034,8.031,maille,0
+app3,23030,Bourganeuf,23,6.693,5.293,8.463,commune,191
+app3,23014,Azat-Châtenet,23,6.359,5.034,8.031,maille,1
+app3,23027,Bosmoreau-les-Mines,23,6.359,5.034,8.031,maille,0
+app3,23173,Soubrebost,23,6.359,5.034,8.031,maille,0
+app3,23230,Saint-Pierre-Chérignat,23,6.359,5.034,8.031,maille,0
+app3,23099,Janaillat,23,6.359,5.034,8.031,maille,0
+app3,23137,Mourioux-Vieilleville,23,6.359,5.034,8.031,maille,4
+app3,23205,Saint-Junien-la-Bregère,23,6.359,5.034,8.031,maille,2
+app3,23010,Augères,23,6.359,5.034,8.031,maille,0
+app3,23056,Châtelus-le-Marcheix,23,6.359,5.034,8.031,maille,12
+app3,23134,Le Monteil-au-Vicomte,23,6.359,5.034,8.031,maille,0
+app3,23215,Saint-Martial-le-Vieux,23,5.932,4.921,7.149,maille,3
+app3,23221,Saint-Merd-la-Breuille,23,5.932,4.921,7.149,maille,7
+app3,23224,Saint-Oradoux-de-Chirouze,23,5.932,4.921,7.149,maille,0
+app3,23055,Châtelard,23,5.968,4.71,7.562,maille,0
+app3,23160,Reterre,23,5.968,4.71,7.562,maille,0
+app3,23123,Les Mars,23,5.968,4.71,7.562,maille,1
+app3,23184,Saint-Bard,23,5.968,4.71,7.562,maille,2
+app3,23045,Chambon-sur-Voueize,23,5.968,4.71,7.562,maille,10
+app3,23265,La Villeneuve,23,5.968,4.71,7.562,maille,0
+app3,23034,Brousse,23,5.968,4.71,7.562,maille,0
+app3,23116,Mainsat,23,5.968,4.71,7.562,maille,0
+app3,23013,Auzances,23,5.968,4.71,7.562,maille,34
+app3,23053,Chard,23,5.968,4.71,7.562,maille,0
+app3,23054,Charron,23,5.968,4.71,7.562,maille,0
+app3,23110,Lioux-les-Monges,23,5.968,4.71,7.562,maille,0
+app3,23167,Sannat,23,5.968,4.71,7.562,maille,3
+app3,23037,Bussière-Nouvelle,23,5.968,4.71,7.562,maille,4
+app3,23083,Fontanières,23,5.968,4.71,7.562,maille,0
+app3,23159,Puy-Malsignat,23,5.968,4.71,7.562,maille,0
+app3,23073,Dontreix,23,5.968,4.71,7.562,maille,0
+app3,23129,La Mazière-aux-Bons-Hommes,23,5.968,4.71,7.562,maille,0
+app3,23261,Viersat,23,5.968,4.71,7.562,maille,0
+app3,23048,Champagnat,23,5.968,4.71,7.562,maille,0
+mai,23122,Mansat-la-Courrière,23,7.432,5.9,9.363,maille,2
+mai,23249,Saint-Yrieix-la-Montagne,23,7.432,5.9,9.363,maille,3
+mai,23189,Saint-Dizier-Masbaraud,23,7.432,5.9,9.363,maille,54
+mai,23212,Saint-Marc-à-Loubaud,23,7.432,5.9,9.363,maille,3
+mai,23016,Banize,23,7.432,5.9,9.363,maille,4
+mai,23078,Faux-Mazuras,23,7.432,5.9,9.363,maille,14
+mai,23144,La Nouaille,23,7.432,5.9,9.363,maille,1
+mai,23227,Saint-Pardoux-Morterolles,23,7.432,5.9,9.363,maille,6
+mai,23125,Le Mas-d'Artige,23,7.432,5.9,9.363,maille,6
+mai,23077,Faux-la-Montagne,23,7.432,5.9,9.363,maille,2
+mai,23090,Gentioux-Pigerolles,23,7.432,5.9,9.363,maille,6
+mai,23246,Saint-Sulpice-les-Champs,23,7.432,5.9,9.363,maille,12
+mai,23260,Vidaillat,23,7.432,5.9,9.363,maille,2
+mai,23080,Féniers,23,7.432,5.9,9.363,maille,3
+mai,23060,Chavanat,23,7.432,5.9,9.363,maille,0
+mai,23223,Saint-Moreil,23,7.432,5.9,9.363,maille,4
+mai,23024,Blessac,23,7.432,5.9,9.363,maille,2
+mai,23202,Saint-Hilaire-le-Château,23,7.432,5.9,9.363,maille,5
+mai,23165,Royère-de-Vassivière,23,7.432,5.9,9.363,maille,16
+mai,23232,Saint-Pierre-Bellevue,23,7.432,5.9,9.363,maille,4
+mai,23133,Montboucher,23,7.432,5.9,9.363,maille,4
+mai,23229,Saint-Pardoux-les-Cards,23,7.432,5.9,9.363,maille,9
+mai,23220,Saint-Médard-la-Rochette,23,7.432,5.9,9.363,maille,10
+mai,23181,Saint-Amand-Jartoudeix,23,7.432,5.9,9.363,maille,6
+mai,23134,Le Monteil-au-Vicomte,23,7.432,5.9,9.363,maille,2
+mai,23099,Janaillat,23,7.432,5.9,9.363,maille,2
+mai,23216,Saint-Martin-Château,23,7.432,5.9,9.363,maille,0
+mai,23222,Saint-Michel-de-Veisse,23,7.432,5.9,9.363,maille,2
+mai,23205,Saint-Junien-la-Bregère,23,7.432,5.9,9.363,maille,6
+mai,23030,Bourganeuf,23,7.432,5.9,9.363,maille,70
+mai,23105,Lavaveix-les-Mines,23,7.432,5.9,9.363,maille,7
+mai,23097,Issoudun-Létrieix,23,7.432,5.9,9.363,maille,4
+mai,23264,La Villedieu,23,7.432,5.9,9.363,maille,0
+mai,23061,Chénérailles,23,7.432,5.9,9.363,maille,38
+mai,23173,Soubrebost,23,7.432,5.9,9.363,maille,4
+mai,23197,Saint-Georges-la-Pouge,23,7.432,5.9,9.363,maille,11
+mai,23027,Bosmoreau-les-Mines,23,7.432,5.9,9.363,maille,10
+mai,23157,La Pouge,23,7.432,5.9,9.363,maille,7
+mai,23253,Thauron,23,7.432,5.9,9.363,maille,8
+mai,23155,Pontarion,23,7.432,5.9,9.363,maille,36
+mai,23145,Nouhant,23,6.228,4.718,8.222,maille,6
+mai,23233,Saint-Pierre-le-Bost,23,6.228,4.718,8.222,maille,2
+mai,23109,Linard-Malval,23,6.605,4.991,8.741,maille,5
+mai,23243,Saint-Silvain-sous-Toulx,23,6.605,4.991,8.741,maille,3
+mai,23139,Moutier-Malcard,23,6.605,4.991,8.741,maille,11
+mai,23041,La Cellette,23,6.605,4.991,8.741,maille,3
+mai,23064,Clugnat,23,6.605,4.991,8.741,maille,13
+mai,23102,Ladapeyre,23,6.605,4.991,8.741,maille,12
+mai,23108,Leyrat,23,6.605,4.991,8.741,maille,6
+mai,23252,Tercillat,23,6.605,4.991,8.741,maille,1
+mai,23136,Mortroux,23,6.605,4.991,8.741,maille,2
+mai,23038,Bussière-Saint-Georges,23,6.605,4.991,8.741,maille,2
+mai,23032,Boussac-Bourg,23,6.605,4.991,8.741,maille,9
+mai,23146,Nouzerines,23,6.605,4.991,8.741,maille,7
+mai,23022,Bétête,23,6.605,4.991,8.741,maille,10
+mai,23213,Saint-Marien,23,6.605,4.991,8.741,maille,11
+mai,23174,Soumans,23,6.605,4.991,8.741,maille,26
+mai,23040,La Celle-sous-Gouzon,23,6.605,4.991,8.741,maille,6
+mai,23089,Genouillac,23,6.605,4.991,8.741,maille,23
+mai,23148,Nouziers,23,6.605,4.991,8.741,maille,14
+mai,23254,Toulx-Sainte-Croix,23,6.605,4.991,8.741,maille,4
+mai,23245,Saint-Sulpice-le-Guérétois,23,6.342,5.075,7.927,maille,83
+mai,23082,Fleurat,23,6.342,5.075,7.927,maille,26
+mai,23033,La Brionne,23,6.342,5.075,7.927,maille,36
+mai,23047,Chamborand,23,6.342,5.075,7.927,maille,4
+mai,23242,Saint-Silvain-Montaigut,23,6.342,5.075,7.927,maille,17
+mai,23010,Augères,23,6.342,5.075,7.927,maille,7
+mai,23088,Gartempe,23,6.342,5.075,7.927,maille,0
+mai,23014,Azat-Châtenet,23,6.342,5.075,7.927,maille,0
+mai,23137,Mourioux-Vieilleville,23,6.342,5.075,7.927,maille,13
+mai,23021,Bénévent-l'Abbaye,23,6.342,5.075,7.927,maille,32
+mai,23006,Arrènes,23,6.342,5.075,7.927,maille,3
+mai,23235,Saint-Priest-la-Feuille,23,6.342,5.075,7.927,maille,29
+mai,23191,Saint-Éloi,23,6.342,5.075,7.927,maille,3
+mai,23247,Saint-Vaury,23,6.342,5.075,7.927,maille,68
+mai,23042,Ceyroux,23,6.342,5.075,7.927,maille,0
+mai,23124,Marsac,23,6.342,5.075,7.927,maille,21
+mai,23056,Châtelus-le-Marcheix,23,6.342,5.075,7.927,maille,4
+mai,23095,Le Grand-Bourg,23,6.342,5.075,7.927,maille,56
+mai,23011,Aulon,23,6.342,5.075,7.927,maille,4
+mai,23236,Saint-Priest-la-Plaine,23,6.342,5.075,7.927,maille,9
+mai,23132,Montaigut-le-Blanc,23,6.342,5.075,7.927,maille,17
+mai,23192,Fursac,23,6.342,5.075,7.927,maille,30
+mai,23015,Azerables,23,6.467,5.081,8.232,maille,8
+mai,23258,Vareilles,23,6.467,5.081,8.232,maille,7
+mai,23046,Chambonchard,23,7.28,5.609,9.45,maille,2
+mai,75115,Paris 15e Arrondissement,75,26.448,12.634,55.367,maille,54
+mai,75116,Paris 16e Arrondissement,75,26.448,12.634,55.367,maille,58
+mai,75117,Paris 17e Arrondissement,75,26.448,12.634,55.367,maille,42
+mai,75105,Paris 5e Arrondissement,75,26.448,12.634,55.367,maille,5
+mai,75107,Paris 7e Arrondissement,75,26.448,12.634,55.367,maille,19
+mai,75106,Paris 6e Arrondissement,75,26.448,12.634,55.367,maille,11
+mai,75109,Paris 9e Arrondissement,75,26.448,12.634,55.367,maille,14
+mai,75108,Paris 8e Arrondissement,75,26.448,12.634,55.367,maille,15
+mai,75101,Paris 1er Arrondissement,75,26.448,12.634,55.367,maille,81
+mai,69389,Lyon 9e Arrondissement,69,17.558,11.693,26.364,maille,86
+mai,69386,Lyon 6e Arrondissement,69,17.558,11.693,26.364,maille,24
+mai,23263,Villard,23,8.013,6.259,10.26,maille,5
+mai,23051,La Chapelle-Saint-Martial,23,8.013,6.259,10.26,maille,4
+mai,23248,Saint-Victor-en-Marche,23,8.013,6.259,10.26,maille,17
+mai,23195,Saint-Fiel,23,8.013,6.259,10.26,maille,29
+mai,23039,La Celle-Dunoise,23,8.013,6.259,10.26,maille,6
+mai,23170,Savennes,23,8.013,6.259,10.26,maille,8
+mai,23208,Saint-Léger-le-Guérétois,23,8.013,6.259,10.26,maille,8
+mai,23186,Saint-Christophe,23,8.013,6.259,10.26,maille,6
+mai,23175,Sous-Parsat,23,8.013,6.259,10.26,maille,1
+mai,23118,Maisonnisses,23,8.013,6.259,10.26,maille,3
+mai,23052,La Chapelle-Taillefert,23,8.013,6.259,10.26,maille,15
+mai,23107,Lépinas,23,8.013,6.259,10.26,maille,4
+mai,23044,Chambon-Sainte-Croix,23,8.013,6.259,10.26,maille,0
+mai,23004,Anzême,23,8.013,6.259,10.26,maille,36
+mai,23168,Sardent,23,8.013,6.259,10.26,maille,50
+mai,23096,Guéret,23,9.556,7.459,12.243,commune,506
+mai,69388,Lyon 8e Arrondissement,69,15.85,10.751,23.367,commune,154
+mai,23012,Auriat,23,7.165,5.517,9.305,maille,1
+mai,23237,Saint-Priest-Palus,23,7.165,5.517,9.305,maille,0
+mai,75111,Paris 11e Arrondissement,75,24.794,14.116,43.55,maille,33
+mai,75119,Paris 19e Arrondissement,75,24.794,14.116,43.55,maille,40
+mai,75110,Paris 10e Arrondissement,75,24.794,14.116,43.55,maille,19
+mai,75118,Paris 18e Arrondissement,75,24.794,14.116,43.55,maille,28
+mai,75120,Paris 20e Arrondissement,75,24.794,14.116,43.55,maille,73
+mai,69387,Lyon 7e Arrondissement,69,16.035,11.151,23.059,maille,32
+mai,69383,Lyon 3e Arrondissement,69,17.89,12.403,25.805,commune,252
+mai,23230,Saint-Pierre-Chérignat,23,7.4,5.826,9.4,maille,6
+mai,69385,Lyon 5e Arrondissement,69,14.626,9.597,22.288,maille,89
+mai,69381,Lyon 1er Arrondissement,69,14.626,9.597,22.288,maille,5
+mai,69382,Lyon 2e Arrondissement,69,14.626,9.597,22.288,maille,60
+mai,69384,Lyon 4e Arrondissement,69,14.626,9.597,22.288,maille,26
+mai,49007,Angers,49,13.264,9.452,18.614,commune,1930
+mai,23019,Beissat,23,6.488,5.16,8.157,maille,0
+mai,23224,Saint-Oradoux-de-Chirouze,23,6.488,5.16,8.157,maille,1
+mai,23217,Saint-Martin-Sainte-Catherine,23,7.677,5.889,10.006,maille,10
+mai,23177,Saint-Agnant-de-Versillat,23,7.477,5.742,9.736,maille,19
+mai,23207,Saint-Léger-Bridereix,23,7.477,5.742,9.736,maille,6
+mai,23199,Saint-Germain-Beaupré,23,7.477,5.742,9.736,maille,1
+mai,23176,La Souterraine,23,8.652,6.636,11.281,commune,204
+mai,23111,Lizières,23,7.477,5.742,9.736,maille,11
+mai,75104,Paris 4e Arrondissement,75,18.514,11.013,31.124,maille,7
+mai,75102,Paris 2e Arrondissement,75,18.514,11.013,31.124,maille,7
+mai,75112,Paris 12e Arrondissement,75,18.514,11.013,31.124,maille,33
+mai,75103,Paris 3e Arrondissement,75,18.514,11.013,31.124,maille,4
+mai,23169,La Saunière,23,6.641,5.133,8.592,maille,19
+mai,23187,Saint-Dizier-la-Tour,23,6.641,5.133,8.592,maille,15
+mai,23150,Peyrabout,23,6.641,5.133,8.592,maille,8
+mai,23250,Saint-Yrieix-les-Bois,23,6.641,5.133,8.592,maille,10
+mai,23262,Vigeville,23,6.641,5.133,8.592,maille,15
+mai,23043,Chamberaud,23,6.641,5.133,8.592,maille,1
+mai,23007,Ars,23,6.641,5.133,8.592,maille,5
+mai,23206,Saint-Laurent,23,6.641,5.133,8.592,maille,28
+mai,23201,Saint-Hilaire-la-Plaine,23,6.641,5.133,8.592,maille,16
+mai,23214,Saint-Martial-le-Mont,23,6.641,5.133,8.592,maille,2
+mai,23068,Cressat,23,6.641,5.133,8.592,maille,27
+mai,23086,Fransèches,23,6.641,5.133,8.592,maille,10
+mai,23183,Saint-Avit-le-Pauvre,23,6.641,5.133,8.592,maille,2
+mai,23002,Ajain,23,6.641,5.133,8.592,maille,20
+mai,23074,Le Donzeil,23,6.641,5.133,8.592,maille,12
+mai,23092,Glénic,23,6.641,5.133,8.592,maille,18
+mai,23001,Ahun,23,6.641,5.133,8.592,maille,97
+mai,23193,Sainte-Feyre,23,7.619,5.895,9.847,commune,103
+mai,23154,Pionnat,23,6.641,5.133,8.592,maille,27
+mai,23185,Saint-Chabrais,23,6.641,5.133,8.592,maille,5
+mai,23138,Moutier-d'Ahun,23,6.641,5.133,8.592,maille,9
+mai,23152,Pierrefitte,23,6.641,5.133,8.592,maille,0
+mai,23100,Jarnages,23,6.641,5.133,8.592,maille,34
+mai,23128,Mazeirat,23,6.641,5.133,8.592,maille,2
+mai,38185,Grenoble,38,12.599,8.879,17.879,commune,305
+mai,23141,Naillat,23,6.302,4.977,7.981,maille,13
+mai,23101,Jouillat,23,6.302,4.977,7.981,maille,25
+mai,23143,Noth,23,6.302,4.977,7.981,maille,7
+mai,23103,Lafat,23,6.302,4.977,7.981,maille,14
+mai,23162,Roches,23,6.302,4.977,7.981,maille,5
+mai,23188,Saint-Dizier-les-Domaines,23,6.302,4.977,7.981,maille,6
+mai,23087,Fresselines,23,6.302,4.977,7.981,maille,6
+mai,23239,Saint-Sébastien,23,6.302,4.977,7.981,maille,30
+mai,23029,Le Bourg-d'Hem,23,6.302,4.977,7.981,maille,5
+mai,23117,Maison-Feyne,23,6.302,4.977,7.981,maille,15
+mai,23065,Colondannes,23,6.302,4.977,7.981,maille,10
+mai,23018,Bazelat,23,6.302,4.977,7.981,maille,3
+mai,23130,Méasnes,23,6.302,4.977,7.981,maille,6
+mai,23036,Bussière-Dunoise,23,6.302,4.977,7.981,maille,33
+mai,23244,Saint-Sulpice-le-Dunois,23,6.302,4.977,7.981,maille,8
+mai,23025,Bonnat,23,6.302,4.977,7.981,maille,26
+mai,23057,Châtelus-Malvaleix,23,6.302,4.977,7.981,maille,36
+mai,23062,Chéniers,23,6.302,4.977,7.981,maille,14
+mai,23075,Dun-le-Palestel,23,6.302,4.977,7.981,maille,45
+mai,23166,Sagnat,23,6.302,4.977,7.981,maille,12
+mai,23098,Jalesches,23,6.302,4.977,7.981,maille,0
+mai,23070,Crozant,23,6.302,4.977,7.981,maille,3
+mai,23050,La Chapelle-Baloue,23,6.302,4.977,7.981,maille,1
+mai,23084,La Forêt-du-Temple,23,6.302,4.977,7.981,maille,1
+mai,23112,Lourdoueix-Saint-Pierre,23,6.302,4.977,7.981,maille,5
+mai,23049,Champsanglard,23,6.302,4.977,7.981,maille,5
+mai,23147,Nouzerolles,23,6.302,4.977,7.981,maille,4
+mai,23184,Saint-Bard,23,7.067,5.331,9.368,maille,0
+mai,23055,Châtelard,23,7.067,5.331,9.368,maille,0
+mai,23013,Auzances,23,7.067,5.331,9.368,maille,53
+mai,23054,Charron,23,7.067,5.331,9.368,maille,0
+mai,23203,Saint-Julien-la-Genête,23,7.067,5.331,9.368,maille,0
+mai,23073,Dontreix,23,7.067,5.331,9.368,maille,9
+mai,23034,Brousse,23,7.067,5.331,9.368,maille,1
+mai,23160,Reterre,23,7.067,5.331,9.368,maille,1
+mai,23066,Le Compas,23,7.067,5.331,9.368,maille,1
+mai,23110,Lioux-les-Monges,23,7.067,5.331,9.368,maille,0
+mai,23076,Évaux-les-Bains,23,7.067,5.331,9.368,maille,75
+mai,23053,Chard,23,7.067,5.331,9.368,maille,0
+mai,23083,Fontanières,23,7.067,5.331,9.368,maille,5
+mai,23123,Les Mars,23,7.067,5.331,9.368,maille,4
+mai,23005,Arfeuille-Châtain,23,7.067,5.331,9.368,maille,1
+mai,23129,La Mazière-aux-Bons-Hommes,23,7.067,5.331,9.368,maille,1
+mai,23219,Saint-Maurice-la-Souterraine,23,7.98,6.1,10.439,maille,29
+mai,23200,Saint-Goussaud,23,7.98,6.1,10.439,maille,0
+mai,75113,Paris 13e Arrondissement,75,22.565,13.287,38.32,maille,54
+mai,75114,Paris 14e Arrondissement,75,22.565,13.287,38.32,maille,65
+mai,23151,Peyrat-la-Nonière,23,6.584,4.659,9.304,EPCI,25
+mai,23119,Malleret,23,6.596,4.676,9.304,maille,1
+mai,23142,Néoux,23,7.055,4.998,9.957,EPCI,7
+mai,23063,Clairavaux,23,6.596,4.676,9.304,maille,3
+mai,23225,Saint-Oradoux-près-Crocq,23,6.584,4.659,9.304,EPCI,3
+mai,23115,Magnat-l'Étrange,23,6.596,4.676,9.304,maille,1
+mai,23171,Sermur,23,6.584,4.659,9.304,EPCI,5
+mai,23211,Saint-Marc-à-Frongier,23,7.055,4.998,9.957,EPCI,11
+mai,23079,Felletin,23,7.055,4.998,9.957,EPCI,47
+mai,23266,La Villetelle,23,7.055,4.998,9.957,EPCI,0
+mai,23167,Sannat,23,6.584,4.659,9.304,EPCI,14
+mai,23017,Basville,23,6.584,4.659,9.304,EPCI,1
+mai,23028,Bosroger,23,6.584,4.659,9.304,EPCI,2
+mai,23127,Mautes,23,6.584,4.659,9.304,EPCI,3
+mai,23156,Pontcharraud,23,6.584,4.659,9.304,EPCI,0
+mai,23059,La Chaussade,23,6.584,4.659,9.304,EPCI,1
+mai,23198,Saint-Georges-Nigremont,23,6.584,4.659,9.304,EPCI,0
+mai,23069,Crocq,23,6.584,4.659,9.304,EPCI,18
+mai,23226,Saint-Pardoux-d'Arnet,23,6.584,4.659,9.304,EPCI,1
+mai,23048,Champagnat,23,6.584,4.659,9.304,EPCI,9
+mai,23179,Saint-Alpinien,23,7.055,4.998,9.957,EPCI,7
+mai,23164,Rougnat,23,6.584,4.659,9.304,EPCI,6
+mai,23131,Mérinchal,23,6.584,4.659,9.304,EPCI,12
+mai,23159,Puy-Malsignat,23,6.584,4.659,9.304,EPCI,5
+mai,23238,Saint-Quentin-la-Chabanne,23,7.055,4.998,9.957,EPCI,3
+mai,23228,Saint-Pardoux-le-Neuf,23,7.055,4.998,9.957,EPCI,0
+mai,23257,Vallière,23,7.055,4.998,9.957,EPCI,22
+mai,23221,Saint-Merd-la-Breuille,23,6.596,4.676,9.304,maille,4
+mai,23067,La Courtine,23,6.596,4.676,9.304,maille,25
+mai,23178,Saint-Agnant-près-Crocq,23,6.584,4.659,9.304,EPCI,0
+mai,23158,Poussanges,23,6.596,4.676,9.304,maille,0
+mai,23265,La Villeneuve,23,6.584,4.659,9.304,EPCI,2
+mai,23071,Croze,23,7.055,4.998,9.957,EPCI,10
+mai,23194,Sainte-Feyre-la-Montagne,23,7.055,4.998,9.957,EPCI,7
+mai,23190,Saint-Domet,23,6.584,4.659,9.304,EPCI,1
+mai,23218,Saint-Maurice-près-Crocq,23,6.584,4.659,9.304,EPCI,0
+mai,23037,Bussière-Nouvelle,23,6.584,4.659,9.304,EPCI,4
+mai,23180,Saint-Amand,23,7.055,4.998,9.957,EPCI,9
+mai,23241,Saint-Silvain-Bellegarde,23,6.584,4.659,9.304,EPCI,10
+mai,23182,Saint-Avit-de-Tardes,23,7.055,4.998,9.957,EPCI,3
+mai,23210,Saint-Maixant,23,7.055,4.998,9.957,EPCI,6
+mai,23008,Aubusson,23,7.055,4.998,9.957,EPCI,76
+mai,23215,Saint-Martial-le-Vieux,23,6.596,4.676,9.304,maille,4
+mai,23091,Gioux,23,7.055,4.998,9.957,EPCI,4
+mai,23020,Bellegarde-en-Marche,23,6.584,4.659,9.304,EPCI,17
+mai,23196,Saint-Frion,23,7.055,4.998,9.957,EPCI,14
+mai,23140,Moutier-Rozeille,23,7.055,4.998,9.957,EPCI,18
+mai,23081,Flayat,23,6.584,4.659,9.304,EPCI,2
+mai,23116,Mainsat,23,6.584,4.659,9.304,EPCI,11
+mai,23113,Lupersat,23,6.584,4.659,9.304,EPCI,8
+mai,23003,Alleyrat,23,7.055,4.998,9.957,EPCI,5
+mai,23093,Gouzon,23,7.207,5.597,9.281,commune,106
+mai,23261,Viersat,23,6.688,5.203,8.598,maille,17
+mai,23209,Saint-Loup,23,6.688,5.203,8.598,maille,4
+mai,23234,Saint-Priest,23,6.688,5.203,8.598,maille,0
+mai,23204,Saint-Julien-le-Châtel,23,6.688,5.203,8.598,maille,4
+mai,23026,Bord-Saint-Georges,23,6.688,5.203,8.598,maille,12
+mai,23255,Trois-Fonds,23,6.688,5.203,8.598,maille,4
+mai,23259,Verneiges,23,6.688,5.203,8.598,maille,0
+mai,23120,Malleret-Boussac,23,6.688,5.203,8.598,maille,3
+mai,23035,Budelière,23,6.688,5.203,8.598,maille,24
+mai,23251,Tardes,23,6.688,5.203,8.598,maille,1
+mai,23009,Auge,23,6.688,5.203,8.598,maille,1
+mai,23114,Lussat,23,6.688,5.203,8.598,maille,18
+mai,23072,Domeyrot,23,6.688,5.203,8.598,maille,2
+mai,23058,Le Chauchet,23,6.688,5.203,8.598,maille,0
+mai,23104,Lavaufranche,23,6.688,5.203,8.598,maille,2
+mai,23045,Chambon-sur-Voueize,23,6.688,5.203,8.598,maille,37
+mai,23149,Parsac,23,6.688,5.203,8.598,maille,7
+mai,23031,Boussac,23,6.688,5.203,8.598,maille,54
+mai,23106,Lépaud,23,6.688,5.203,8.598,maille,17
+mai,23172,La Serre-Bussière-Vieille,23,6.688,5.203,8.598,maille,1
+mai,23240,Saint-Silvain-Bas-le-Roc,23,6.688,5.203,8.598,maille,3

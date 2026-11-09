@@ -1,0 +1,42 @@
+== 1. COÛT ACTUEL ==
+Action 2 (organisation des élections), moyenne 2018-2022 : 212.7 M€/an
+Coût État 2022 (Cour, estimation basse) : 461.4 M€ ; P232 hors partis : 422.3 M€
+Bureaux de vote dérivés des frais d'assemblée : 64,498 (à comparer ~69 000 non confirmé)
+Coût réel communal par bureau et par tour (AMF 15 %) : 792 €
+Courrier propagande présidentielle 2022 par inscrit et par tour : 1.64 € (tout compris), 1.04 € (routage seul)
+Législatives : État 179.6 M€/scrutin + communes net 86.9 M€ -> 53.3 M€/an sur 5 ans
+Sénatoriales : 1.23 M€/an
+AN + Sénat : dotations 961.1 M€, budgets complets 1026.3 M€ (2026) ; chaînes parlementaires 35.6 M€ non comptées
+Référendum 2005 : 130.6 M€ (courant 2005)
+
+== 2. NOUVEAU SYSTÈME (M€/an) ==
+BAS {'plateforme_capex_amorti': 8.0, 'plateforme_exploitation': 12, 'redaction_verification': 10, 'securite_audits': 3, 'contre_expertise': 20, 'instance_transparence': 5, 'inclusion_numerique': 5, 'courrier_papier': 19.5, 'bureaux_papier': 10.0, 'total': 92.5}
+   par bulletin (participation 45 %) : 1.05 €
+CENTRAL {'plateforme_capex_amorti': 20.0, 'plateforme_exploitation': 30, 'redaction_verification': 25, 'securite_audits': 8, 'contre_expertise': 60, 'instance_transparence': 15, 'inclusion_numerique': 15, 'courrier_papier': 47.9, 'bureaux_papier': 47.5, 'total': 268.5}
+   par bulletin (participation 45 %) : 3.06 €
+HAUT {'plateforme_capex_amorti': 50.0, 'plateforme_exploitation': 70, 'redaction_verification': 60, 'securite_audits': 20, 'contre_expertise': 120, 'instance_transparence': 30, 'inclusion_numerique': 40, 'courrier_papier': 122.0, 'bureaux_papier': 168.0, 'total': 680.0}
+   par bulletin (participation 45 %) : 7.74 €
+Participation suisse moyenne par dimanche depuis 2015 : 47.7 % (36 dimanches)
+
+== 3. ÉCONOMIES ET SOLDE (M€/an ; positif = économie nette) ==
+Économies (bas) : 535 (sans élection de remplacement) ; 482 (avec élection de la liste de gouvernement au coût d'une législative)
+Économies (central) : 727 (sans élection de remplacement) ; 674 (avec élection de la liste de gouvernement au coût d'une législative)
+Économies (haut) : 871 (sans élection de remplacement) ; 818 (avec élection de la liste de gouvernement au coût d'une législative)
+Matrice solde, variante A (législatives supprimées sans remplacement) : lignes = coûts, colonnes = économies
+          eco_bas  eco_central  eco_haut
+cout_bas          443        635        779
+cout_central      267        459        603
+cout_haut        -145         47        191
+Variante B (élection de la liste de gouvernement au coût d'une législative) :
+cout_bas          389        581        726
+cout_central      213        406        550
+cout_haut        -198         -6        138
+Diagonale A : favorable 779 ; central 459 ; défavorable -145
+Diagonale B : favorable 726 ; central 406 ; défavorable -198
+
+== COMPARAISONS ==
+CBO 2025 : 73.5 M$ -> 67.6 M€ (taux 0.92, hypothèse)
+Genève CHVote : développement 4.74 MCHF, exploitation 3.64 MCHF/an (un canton)
+Estonie 2017, coût administratif par vote : {'internet': 2.32, 'papier_jour': 4.37, 'anticipe_comté': 6.24, 'bureau_local': 20.41}
+Poids de la plateforme (central, exploitation + capex amorti) / France Identité (entretien + dév.) : 50 contre 19 M€/an
+Dématérialisation de la propagande (Cour, cycle) : renonciation 50 % = 250 M€ économisés par cycle (tableau 10)

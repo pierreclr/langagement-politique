@@ -1,0 +1,72 @@
+## A. Assiette : plus-values latentes transmises chaque année (Md€/an ; flux de 300 Md€ au central, CAE n° 69)
+| classe | valeur transmise (bas / central / haut) | plus-value latente / valeur (g utilisé) | gain latent net (bas / central / haut) |
+|---|---|---|---|
+| Résidence principale (exonérée par défaut) | 75,0 / 80,0 / 85,0 | 7,2 % / 22,7 % / 38,2 % | 5,2 / 17,3 / 30,8 |
+| Immobilier hors résidence principale | 45,0 / 55,0 / 65,0 | 7,2 % / 22,7 % / 38,2 % | 3,1 / 11,9 / 23,6 |
+| Titres (hors assurance-vie) | 20,0 / 25,0 / 30,0 | 8,6 % / 20,8 % / 33,0 % | 1,5 / 4,4 / 8,4 |
+| Entreprises non cotées | 20,0 / 30,0 / 40,0 | 18,3 % / 40,6 % / 62,9 % | 3,5 / 11,6 / 23,9 |
+| Assurance-vie (capitaux décès) | 43,3 / 43,3 / 43,3 | 9,8 % / 16,2 % / 22,7 % | 4,2 / 7,0 / 9,8 |
+| Autres (liquidités, meubles) | 46,7 / 66,7 / 66,7 | 0 | 0 |
+| **Total** | 250,0 / 300,0 / 330,0 | | **17,4 / 52,1 / 96,5** |
+| dont hors résidence principale | | | 12,3 / 34,9 / 65,7 |
+| part des gains latents dans le flux | | | 7,0 % / 17,4 % / 29,2 % |
+Repère : DMTG 2024 = 20,8 Md€ (6,9 % du flux) ; taux de droits par classe au central : rp 6,8 %, imm 10,9 %, titres 10,9 %, ent 4,8 %, av 1,4 %, autres 6,8 %.
+Base réelle (inflation 2 %) par défaut pour tous les actifs (décision du 03/11/2026) ; nominale = variante. En base nominale partout (central) : gain net total 103,8 Md€ ; en base réelle partout : 52,1 Md€.
+
+## B. Les trois options (Md€/an en régime de croisière ; hors résidence principale)
+| option | bas | central | haut |
+|---|---|---|---|
+| (i) impôt de réalisation statique (50 %, report au conjoint) | 4,1 | 13,9 | 29,3 |
+| (i) après comportement (fuite η, anticipation) | 3,6 | 12,7 | 28,1 |
+| (i) droits de succession perdus (dette déductible, CGI 768) | 0,7 | 1,7 | 2,2 |
+| **(i) recette nette** | 2,9 | 11,0 | 25,8 |
+| (i) variante sans report au conjoint (règle à la lettre), nette | 3,9 | 13,5 | 28,7 |
+| (i) variante avec franchise de 200 000 € (× 12/19), nette | 1,8 | 7,0 | 16,3 |
+| (i) variante avec résidence principale, nette | 4,2 | 16,7 | 38,0 |
+| (ii) recette immédiate | 0,0 | 0,0 | 0,0 |
+| (ii) année 5 | 0,7 | 3,7 | 11,7 |
+| (ii) année 10 | 1,3 | 6,5 | 19,5 |
+| (ii) année 20 | 2,2 | 10,5 | 28,0 |
+| **(ii) croisière (hors RP)** | 4,0 | 13,1 | 27,9 |
+| (ii) croisière avec résidence principale vendue par l'héritier (50 %) | 4,8 | 16,3 | 34,5 |
+| (ii) valeur actuelle de la croisière hors RP (λ / (λ + 3 %)) | 2,0 | 8,2 | 20,3 |
+| (ii) cumul des dix premières années | 6,0 | 31,1 | 97,6 |
+| (iii) impôt brut | 3,6 | 12,7 | 28,1 |
+| (iii) crédit par classe (borne haute de la recette) | 3,4 | 7,0 | 6,8 |
+| **(iii) recette, borne haute (par classe)** | 0,2 | 5,7 | 21,2 |
+| (iii) crédit groupé (borne basse) | 3,6 | 10,8 | 14,6 |
+| **(iii) recette, borne basse (droits groupés)** | 0,0 | 1,9 | 13,5 |
+
+Paramètres de (ii) : λ (vente annuelle par l'héritier) 3,0 % / 5,0 % / 8,0 % ; ω (gains jamais taxés) 35,0 % / 25,0 % / 15,0 % ; années pour atteindre 63 % : 33,3 / 20,0 / 12,5.
+Comparaison : le CAE transpose à la France un coût de l'effacement de 1,3 Md€/an (0,05 % du PIB américain, Tax Foundation). Rapport (i) central statique / CAE : ×10,7.
+
+## C. Détail par classe au central (Md€/an)
+| classe | gain taxable | (i) brut | droits perdus | (i) net | (iii) impôt | (iii) droits de la classe | (iii) crédit |
+|---|---|---|---|---|---|---|---|
+| Immobilier hors résidence principale | 9,7 | 4,62 | 0,92 | 3,70 | 4,62 | 6,02 | 3,93 |
+| Titres (hors assurance-vie) | 3,6 | 1,63 | 0,33 | 1,30 | 1,63 | 2,74 | 1,38 |
+| Entreprises non cotées | 9,5 | 4,03 | 0,20 | 3,83 | 4,03 | 1,44 | 1,22 |
+| Assurance-vie (capitaux décès) | 4,9 | 2,45 | 0,25 | 2,21 | 2,45 | 0,59 | 0,50 |
+
+## D. Entreprises : liquidité, vente forcée, pacte Dutreil (Md€/an ; impôt de (i) sur les entreprises, hors comportement)
+| étalement | grandeur | bas | central | haut |
+|---|---|---|---|---|
+| 0 an(s) | part de l'impôt payable sans vendre | 15,0 % | 30,0 % | 45,0 % |
+| 0 an(s) | valeur d'entreprise à céder | 1,11 | 3,32 | 5,91 |
+| 0 an(s) | part du capital transmis à céder | 5,5 % | 11,1 % | 14,8 % |
+| 0 an(s) | droits Dutreil rappelés (vente pendant l'engagement) | 0,12 | 0,27 | 0,29 |
+| 5 an(s) | part de l'impôt payable sans vendre | 100,0 % | 100,0 % | 100,0 % |
+| 5 an(s) | valeur d'entreprise à céder | 0,00 | 0,00 | 0,00 |
+| 5 an(s) | part du capital transmis à céder | 0,0 % | 0,0 % | 0,0 % |
+| 5 an(s) | droits Dutreil rappelés (vente pendant l'engagement) | 0,00 | 0,00 | 0,00 |
+| 10 an(s) | part de l'impôt payable sans vendre | 100,0 % | 100,0 % | 100,0 % |
+| 10 an(s) | valeur d'entreprise à céder | 0,00 | 0,00 | 0,00 |
+| 10 an(s) | part du capital transmis à céder | 0,0 % | 0,0 % | 0,0 % |
+| 10 an(s) | droits Dutreil rappelés (vente pendant l'engagement) | 0,00 | 0,00 | 0,00 |
+Impôt effectif sur la valeur des entreprises transmises (central) : 15,8 % ; paiement en titres : part du capital remise = 15,8 % ; part Dutreil (16 Md€ sur 30) : 53,3 %.
+Étalement de 100 M€ sur 10 ans à 3 % actualisé à 3 % : annuité 11,72 ; valeur actuelle 100,00. À 1 % : 90,06 (perte 9,94). Sur 5 ans à 2 % : 97,16.
+Cas type (entreprise de 100 M€, prix de revient 5 M€, donation avant 70 ans, Dutreil) : droits actuels 5,63 M€ ; impôt de réalisation à 50 % 47,50 M€ (47,5 % de la valeur ; 15,8 années de dividendes à 3 %) ; total 53,13 M€. Avec le prix d'acquisition reporté : 0 à la transmission, 47,50 M€ à la vente.
+
+## E. Interaction avec la fiscalité pendant la vie
+Facteur sur l'élasticité de réalisation (OCDE TWP 72, note 29) si l'effacement disparaît : bas 1,00, central 0,80, haut 0,57 (non intégré aux soldes des § 23-26).
+Le défaut des modèles reste la purge au décès : ces options s'ajouteraient au solde net des § 23-26 si elles étaient retenues. À ne pas cumuler avec la variante décès de l'assurance-vie du § 26 (deces: 'gainsLatents') ni avec la fin de la purge du 150-0 B ter du § 27 (report150Deces) : ce sont des parties du même mécanisme (voir methode.md § 28).

@@ -1,0 +1,21 @@
+
+Petit 400 MWe contre EPR2 1650 MWe : prime tête de série x1.76
+  taux 5% : parité (unité marginale) à n = 2122
+  taux 10% : parité (unité marginale) à n = 42
+  taux 15% : parité (unité marginale) à n = 12
+  taux 20% : parité (unité marginale) à n = 6
+
+Petit 150 MWe contre EPR2 1650 MWe : prime tête de série x2.61
+  taux 5% : parité (unité marginale) à n = 425702
+  taux 10% : parité (unité marginale) à n = 551
+  taux 15% : parité (unité marginale) à n = 60
+  taux 20% : parité (unité marginale) à n = 20
+
+Petit 60 MWe contre EPR2 1650 MWe : prime tête de série x3.76
+  taux 5% : parité (unité marginale) à n = 60271999
+  taux 10% : parité (unité marginale) à n = 6133
+  taux 15% : parité (unité marginale) à n = 286
+  taux 20% : parité (unité marginale) à n = 62
+
+Facteur de coût de la n-ième unité, taux 15 % : {2: 0.85, 8: 0.61, 16: 0.52, 32: 0.44, 64: 0.38}
+tests ok

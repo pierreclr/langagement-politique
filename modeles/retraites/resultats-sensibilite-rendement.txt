@@ -1,0 +1,6 @@
+r % | apport Md/an | % PIB | duree ans | fin | cumul Md | fonds 2100 Md | fonds final % PIB | double charge moyenne 2027-2036 Md/an | gain actualise a 1 % Md | part couverte heritage % | economie permanente Md/an
+4.34 | 74 | 2.48 | 25 | 2052 | 1264 | 4360 | 146 | 70.6 | 8328 | 27 | 189
+3.96 | 82 | 2.73 | 26 | 2053 | 1456 | 4589 | 153 | 78.1 | 7705 | 24 | 182
+3.5 | 92 | 3.07 | 28 | 2055 | 1740 | 4894 | 163 | 88.5 | 6838 | 22 | 171
+2.5 | 121 | 4.05 | 32 | 2059 | 2620 | 5685 | 190 | 117.7 | 4415 | 16 | 142
+2 | 140 | 4.68 | 35 | 2062 | 3260 | 6161 | 206 | 136.6 | 2844 | 14 | 123

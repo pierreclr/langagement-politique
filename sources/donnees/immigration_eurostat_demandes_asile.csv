@@ -1,0 +1,958 @@
+# source: Eurostat migr_asyappctza (Asylum applicants by type, citizenship, age and sex, annual aggregated); mise a jour 2026-09-03T11:00:00+0200; date consultation: 2026-10-25
+# unite: personnes (mineurs accompagnants inclus) et pour 1000 habitants (ratio calcule avec demo_pjan); perimetre: UE27 et Etats membres, 2008-2025
+# note: les chiffres OFPRA (demandes introduites a l OFPRA) et ceux du ministere (guichets uniques) different de ceux d Eurostat selon le perimetre (mineurs, reexamens, Dublin)
+annee,pays,type,demandeurs,pour_1000_hab,statut,source_url
+2008,AT,tous demandeurs (dont reexamens),12750,1.53,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2008,BE,primo-demandeurs,11395,1.07,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2008,BE,tous demandeurs (dont reexamens),15940,1.49,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2008,BG,tous demandeurs (dont reexamens),745,0.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2008,CY,primo-demandeurs,3920,5.05,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2008,CY,tous demandeurs (dont reexamens),3920,5.05,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2008,CZ,primo-demandeurs,1050,0.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2008,CZ,tous demandeurs (dont reexamens),1650,0.16,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2008,DE,primo-demandeurs,21365,0.26,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2008,DE,tous demandeurs (dont reexamens),26945,0.33,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2008,DK,primo-demandeurs,2375,0.43,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2008,DK,tous demandeurs (dont reexamens),2375,0.43,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2008,EE,primo-demandeurs,15,0.01,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2008,EE,tous demandeurs (dont reexamens),15,0.01,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2008,EL,tous demandeurs (dont reexamens),19885,1.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2008,ES,tous demandeurs (dont reexamens),4515,0.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2008,FI,tous demandeurs (dont reexamens),3770,0.71,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2008,FR,tous demandeurs (dont reexamens),41845,0.65,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2008,HU,tous demandeurs (dont reexamens),3175,0.32,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2008,IE,primo-demandeurs,3805,0.85,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2008,IE,tous demandeurs (dont reexamens),3865,0.87,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2008,IT,primo-demandeurs,30145,0.51,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2008,IT,tous demandeurs (dont reexamens),30145,0.51,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2008,LT,tous demandeurs (dont reexamens),520,0.16,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2008,LU,tous demandeurs (dont reexamens),455,0.94,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2008,LV,primo-demandeurs,50,0.02,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2008,LV,tous demandeurs (dont reexamens),55,0.03,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2008,MT,primo-demandeurs,2605,6.39,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2008,MT,tous demandeurs (dont reexamens),2605,6.39,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2008,NL,primo-demandeurs,13380,0.82,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2008,NL,tous demandeurs (dont reexamens),15250,0.93,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2008,PL,primo-demandeurs,7200,0.19,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2008,PL,tous demandeurs (dont reexamens),8515,0.22,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2008,PT,primo-demandeurs,160,0.02,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2008,PT,tous demandeurs (dont reexamens),160,0.02,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2008,RO,tous demandeurs (dont reexamens),1180,0.06,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2008,SE,primo-demandeurs,24365,2.65,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2008,SE,tous demandeurs (dont reexamens),24875,2.71,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2008,SI,primo-demandeurs,240,0.12,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2008,SI,tous demandeurs (dont reexamens),260,0.13,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2008,SK,tous demandeurs (dont reexamens),905,0.17,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2009,AT,tous demandeurs (dont reexamens),15815,1.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2009,BE,primo-demandeurs,17215,1.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2009,BE,tous demandeurs (dont reexamens),22955,2.13,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2009,BG,tous demandeurs (dont reexamens),855,0.11,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2009,CY,primo-demandeurs,3200,4.02,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2009,CY,tous demandeurs (dont reexamens),3200,4.02,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2009,CZ,primo-demandeurs,630,0.06,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2009,CZ,tous demandeurs (dont reexamens),1245,0.12,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2009,DE,primo-demandeurs,27650,0.34,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2009,DE,tous demandeurs (dont reexamens),33035,0.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2009,DK,primo-demandeurs,3775,0.68,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2009,DK,tous demandeurs (dont reexamens),3775,0.68,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2009,EE,primo-demandeurs,35,0.03,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2009,EE,tous demandeurs (dont reexamens),40,0.03,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2009,EL,tous demandeurs (dont reexamens),15925,1.44,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2009,ES,tous demandeurs (dont reexamens),3005,0.06,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2009,FI,tous demandeurs (dont reexamens),5700,1.07,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2009,FR,primo-demandeurs,42070,0.65,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2009,FR,tous demandeurs (dont reexamens),47625,0.74,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2009,HU,tous demandeurs (dont reexamens),4670,0.47,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2009,IE,primo-demandeurs,2660,0.59,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2009,IE,tous demandeurs (dont reexamens),2690,0.59,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2009,IT,primo-demandeurs,17395,0.29,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2009,IT,tous demandeurs (dont reexamens),17755,0.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2009,LT,primo-demandeurs,210,0.07,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2009,LT,tous demandeurs (dont reexamens),450,0.14,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2009,LU,tous demandeurs (dont reexamens),485,0.98,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2009,LV,primo-demandeurs,50,0.02,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2009,LV,tous demandeurs (dont reexamens),60,0.03,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2009,MT,primo-demandeurs,2385,5.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2009,MT,tous demandeurs (dont reexamens),2385,5.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2009,NL,primo-demandeurs,14880,0.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2009,NL,tous demandeurs (dont reexamens),16135,0.98,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2009,PL,primo-demandeurs,9655,0.25,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2009,PL,tous demandeurs (dont reexamens),10595,0.28,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2009,PT,primo-demandeurs,140,0.01,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2009,PT,tous demandeurs (dont reexamens),140,0.01,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2009,RO,tous demandeurs (dont reexamens),965,0.05,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2009,SE,primo-demandeurs,23680,2.56,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2009,SE,tous demandeurs (dont reexamens),24260,2.62,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2009,SI,primo-demandeurs,185,0.09,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2009,SI,tous demandeurs (dont reexamens),200,0.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2009,SK,tous demandeurs (dont reexamens),820,0.15,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2010,AT,tous demandeurs (dont reexamens),11060,1.32,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2010,BE,primo-demandeurs,21815,2.01,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2010,BE,tous demandeurs (dont reexamens),26560,2.45,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2010,BG,tous demandeurs (dont reexamens),1025,0.14,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2010,CY,primo-demandeurs,2835,3.46,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2010,CY,tous demandeurs (dont reexamens),2875,3.51,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2010,CZ,primo-demandeurs,390,0.04,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2010,CZ,tous demandeurs (dont reexamens),790,0.08,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2010,DE,primo-demandeurs,41330,0.51,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2010,DE,tous demandeurs (dont reexamens),48590,0.59,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2010,DK,primo-demandeurs,5100,0.92,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2010,DK,tous demandeurs (dont reexamens),5100,0.92,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2010,EE,primo-demandeurs,30,0.02,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2010,EE,tous demandeurs (dont reexamens),35,0.03,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2010,EL,tous demandeurs (dont reexamens),10275,0.92,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2010,ES,primo-demandeurs,2550,0.05,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2010,ES,tous demandeurs (dont reexamens),2745,0.06,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2010,FI,tous demandeurs (dont reexamens),3675,0.69,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2010,FR,primo-demandeurs,48030,0.74,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2010,FR,tous demandeurs (dont reexamens),52725,0.82,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2010,HU,tous demandeurs (dont reexamens),2105,0.21,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2010,IE,primo-demandeurs,1920,0.42,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2010,IE,tous demandeurs (dont reexamens),1940,0.43,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2010,IT,primo-demandeurs,10050,0.17,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2010,IT,tous demandeurs (dont reexamens),10050,0.17,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2010,LT,primo-demandeurs,370,0.12,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2010,LT,tous demandeurs (dont reexamens),495,0.16,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2010,LU,tous demandeurs (dont reexamens),785,1.56,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2010,LV,primo-demandeurs,60,0.03,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2010,LV,tous demandeurs (dont reexamens),65,0.03,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2010,MT,primo-demandeurs,145,0.35,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2010,MT,tous demandeurs (dont reexamens),175,0.42,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2010,NL,primo-demandeurs,13290,0.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2010,NL,tous demandeurs (dont reexamens),15100,0.91,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2010,PL,primo-demandeurs,4330,0.11,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2010,PL,tous demandeurs (dont reexamens),6540,0.17,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2010,PT,primo-demandeurs,160,0.02,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2010,PT,tous demandeurs (dont reexamens),160,0.02,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2010,RO,tous demandeurs (dont reexamens),885,0.04,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2010,SE,primo-demandeurs,31870,3.41,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2010,SE,tous demandeurs (dont reexamens),31940,3.42,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2010,SI,primo-demandeurs,195,0.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2010,SI,tous demandeurs (dont reexamens),245,0.12,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2010,SK,primo-demandeurs,315,0.06,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2010,SK,tous demandeurs (dont reexamens),540,0.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2011,AT,tous demandeurs (dont reexamens),14455,1.73,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2011,BE,primo-demandeurs,25585,2.33,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2011,BE,tous demandeurs (dont reexamens),32270,2.93,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2011,BG,primo-demandeurs,705,0.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2011,BG,tous demandeurs (dont reexamens),890,0.12,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2011,CY,primo-demandeurs,1745,2.08,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2011,CY,tous demandeurs (dont reexamens),1770,2.11,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2011,CZ,primo-demandeurs,485,0.05,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2011,CZ,tous demandeurs (dont reexamens),755,0.07,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2011,DE,primo-demandeurs,45740,0.57,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2011,DE,tous demandeurs (dont reexamens),53345,0.66,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2011,DK,primo-demandeurs,3985,0.72,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2011,DK,tous demandeurs (dont reexamens),3985,0.72,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2011,EE,primo-demandeurs,65,0.05,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2011,EE,tous demandeurs (dont reexamens),65,0.05,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2011,EL,primo-demandeurs,9310,0.84,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2011,EL,tous demandeurs (dont reexamens),9310,0.84,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2011,ES,primo-demandeurs,2975,0.06,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2011,ES,tous demandeurs (dont reexamens),3420,0.07,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2011,FI,tous demandeurs (dont reexamens),2975,0.55,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2011,FR,primo-demandeurs,52140,0.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2011,FR,tous demandeurs (dont reexamens),57335,0.88,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2011,HU,tous demandeurs (dont reexamens),1695,0.17,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2011,IE,primo-demandeurs,1280,0.28,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2011,IE,tous demandeurs (dont reexamens),1290,0.28,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2011,IT,primo-demandeurs,40335,0.67,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2011,IT,tous demandeurs (dont reexamens),40350,0.67,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2011,LT,primo-demandeurs,405,0.13,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2011,LT,tous demandeurs (dont reexamens),525,0.17,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2011,LU,primo-demandeurs,1920,3.75,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2011,LU,tous demandeurs (dont reexamens),2155,4.21,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2011,LV,primo-demandeurs,335,0.16,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2011,LV,tous demandeurs (dont reexamens),340,0.16,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2011,MT,primo-demandeurs,1865,4.49,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2011,MT,tous demandeurs (dont reexamens),1890,4.55,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2011,NL,primo-demandeurs,11560,0.69,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2011,NL,tous demandeurs (dont reexamens),14590,0.88,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2011,PL,primo-demandeurs,4985,0.13,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2011,PL,tous demandeurs (dont reexamens),6890,0.18,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2011,PT,primo-demandeurs,275,0.03,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2011,PT,tous demandeurs (dont reexamens),275,0.03,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2011,RO,primo-demandeurs,1695,0.08,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2011,RO,tous demandeurs (dont reexamens),1720,0.09,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2011,SE,primo-demandeurs,29690,3.15,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2011,SE,tous demandeurs (dont reexamens),29710,3.16,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2011,SI,primo-demandeurs,305,0.15,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2011,SI,tous demandeurs (dont reexamens),360,0.18,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2011,SK,primo-demandeurs,320,0.06,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2011,SK,tous demandeurs (dont reexamens),490,0.09,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2012,AT,tous demandeurs (dont reexamens),17450,2.08,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2012,BE,primo-demandeurs,18450,1.67,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2012,BE,tous demandeurs (dont reexamens),28305,2.56,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2012,BG,primo-demandeurs,1230,0.17,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2012,BG,tous demandeurs (dont reexamens),1385,0.19,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2012,CY,primo-demandeurs,1590,1.84,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2012,CY,tous demandeurs (dont reexamens),1635,1.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2012,CZ,primo-demandeurs,515,0.05,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2012,CZ,tous demandeurs (dont reexamens),755,0.07,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2012,DE,primo-demandeurs,64540,0.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2012,DE,tous demandeurs (dont reexamens),77650,0.97,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2012,DK,primo-demandeurs,6075,1.09,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2012,DK,tous demandeurs (dont reexamens),6075,1.09,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2012,EE,primo-demandeurs,75,0.06,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2012,EE,tous demandeurs (dont reexamens),75,0.06,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2012,EL,primo-demandeurs,9575,0.86,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2012,EL,tous demandeurs (dont reexamens),9575,0.86,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2012,ES,primo-demandeurs,2355,0.05,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2012,ES,tous demandeurs (dont reexamens),2565,0.05,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2012,FI,primo-demandeurs,2920,0.54,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2012,FI,tous demandeurs (dont reexamens),3115,0.58,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2012,FR,primo-demandeurs,54280,0.83,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2012,FR,tous demandeurs (dont reexamens),61455,0.94,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2012,HU,tous demandeurs (dont reexamens),2155,0.22,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2012,IE,primo-demandeurs,940,0.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2012,IE,tous demandeurs (dont reexamens),955,0.21,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2012,IT,primo-demandeurs,17185,0.29,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2012,IT,tous demandeurs (dont reexamens),17350,0.29,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2012,LT,primo-demandeurs,560,0.19,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2012,LT,tous demandeurs (dont reexamens),645,0.21,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2012,LU,primo-demandeurs,2000,3.81,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2012,LU,tous demandeurs (dont reexamens),2055,3.92,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2012,LV,primo-demandeurs,190,0.09,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2012,LV,tous demandeurs (dont reexamens),205,0.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2012,MT,primo-demandeurs,2060,4.93,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2012,MT,tous demandeurs (dont reexamens),2080,4.98,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2012,NL,primo-demandeurs,9660,0.58,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2012,NL,tous demandeurs (dont reexamens),13095,0.78,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2012,PL,primo-demandeurs,9175,0.24,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2012,PL,tous demandeurs (dont reexamens),10755,0.28,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2012,PT,primo-demandeurs,290,0.03,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2012,PT,tous demandeurs (dont reexamens),295,0.03,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2012,RO,primo-demandeurs,2420,0.12,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2012,RO,tous demandeurs (dont reexamens),2510,0.12,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2012,SE,primo-demandeurs,43930,4.63,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2012,SE,tous demandeurs (dont reexamens),43945,4.63,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2012,SI,primo-demandeurs,260,0.13,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2012,SI,tous demandeurs (dont reexamens),305,0.15,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2012,SK,primo-demandeurs,550,0.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2012,SK,tous demandeurs (dont reexamens),730,0.14,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2013,AT,tous demandeurs (dont reexamens),17520,2.07,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2013,BE,primo-demandeurs,12080,1.08,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2013,BE,tous demandeurs (dont reexamens),21225,1.91,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2013,BG,primo-demandeurs,6980,0.97,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2013,BG,tous demandeurs (dont reexamens),7145,0.99,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2013,CY,primo-demandeurs,1150,1.33,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2013,CY,tous demandeurs (dont reexamens),1255,1.45,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2013,CZ,primo-demandeurs,500,0.05,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2013,CZ,tous demandeurs (dont reexamens),710,0.07,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2013,DE,primo-demandeurs,109580,1.36,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2013,DE,tous demandeurs (dont reexamens),126995,1.58,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2013,DK,primo-demandeurs,7230,1.29,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2013,DK,tous demandeurs (dont reexamens),7230,1.29,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2013,EE,primo-demandeurs,95,0.07,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2013,EE,tous demandeurs (dont reexamens),95,0.07,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2013,EL,primo-demandeurs,7860,0.72,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2013,EL,tous demandeurs (dont reexamens),8225,0.75,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2013,ES,primo-demandeurs,4290,0.09,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2013,ES,tous demandeurs (dont reexamens),4495,0.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2013,EU27_2020,tous demandeurs (dont reexamens),401215,0.91,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2013,FI,primo-demandeurs,2995,0.55,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2013,FI,tous demandeurs (dont reexamens),3220,0.59,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2013,FR,primo-demandeurs,60475,0.92,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2013,FR,tous demandeurs (dont reexamens),66265,1.01,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2013,HR,primo-demandeurs,1045,0.25,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2013,HR,tous demandeurs (dont reexamens),1080,0.25,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2013,HU,primo-demandeurs,18570,1.88,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2013,HU,tous demandeurs (dont reexamens),18900,1.91,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2013,IE,primo-demandeurs,940,0.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2013,IE,tous demandeurs (dont reexamens),945,0.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2013,IT,primo-demandeurs,25720,0.43,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2013,IT,tous demandeurs (dont reexamens),26620,0.44,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2013,LT,primo-demandeurs,250,0.08,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2013,LT,tous demandeurs (dont reexamens),400,0.13,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2013,LU,primo-demandeurs,990,1.84,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2013,LU,tous demandeurs (dont reexamens),1070,1.99,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2013,LV,primo-demandeurs,185,0.09,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2013,LV,tous demandeurs (dont reexamens),195,0.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2013,MT,primo-demandeurs,2200,5.22,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2013,MT,tous demandeurs (dont reexamens),2250,5.34,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2013,NL,primo-demandeurs,9815,0.58,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2013,NL,tous demandeurs (dont reexamens),13060,0.78,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2013,PL,primo-demandeurs,13975,0.37,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2013,PL,tous demandeurs (dont reexamens),15245,0.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2013,PT,primo-demandeurs,505,0.05,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2013,PT,tous demandeurs (dont reexamens),505,0.05,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2013,RO,primo-demandeurs,1405,0.07,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2013,RO,tous demandeurs (dont reexamens),1495,0.07,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2013,SE,primo-demandeurs,49355,5.16,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2013,SE,tous demandeurs (dont reexamens),54365,5.69,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2013,SI,primo-demandeurs,240,0.12,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2013,SI,tous demandeurs (dont reexamens),270,0.13,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2013,SK,primo-demandeurs,290,0.05,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2013,SK,tous demandeurs (dont reexamens),440,0.08,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2014,AT,primo-demandeurs,25700,3.02,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2014,AT,tous demandeurs (dont reexamens),28065,3.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2014,BE,primo-demandeurs,14130,1.26,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2014,BE,tous demandeurs (dont reexamens),22850,2.04,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2014,BG,primo-demandeurs,10805,1.52,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2014,BG,tous demandeurs (dont reexamens),11080,1.56,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2014,CY,primo-demandeurs,1480,1.72,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2014,CY,tous demandeurs (dont reexamens),1745,2.03,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2014,CZ,primo-demandeurs,915,0.09,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2014,CZ,tous demandeurs (dont reexamens),1155,0.11,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2014,DE,primo-demandeurs,173070,2.14,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2014,DE,tous demandeurs (dont reexamens),202815,2.51,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2014,DK,primo-demandeurs,14565,2.59,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2014,DK,tous demandeurs (dont reexamens),14715,2.61,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2014,EE,primo-demandeurs,145,0.11,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2014,EE,tous demandeurs (dont reexamens),155,0.12,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2014,EL,primo-demandeurs,7590,0.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2014,EL,tous demandeurs (dont reexamens),9435,0.87,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2014,ES,primo-demandeurs,5460,0.12,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2014,ES,tous demandeurs (dont reexamens),5615,0.12,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2014,EU27_2020,primo-demandeurs,530970,1.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2014,EU27_2020,tous demandeurs (dont reexamens),594725,1.34,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2014,FI,primo-demandeurs,3495,0.64,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2014,FI,tous demandeurs (dont reexamens),3625,0.66,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2014,FR,primo-demandeurs,58845,0.89,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2014,FR,tous demandeurs (dont reexamens),64310,0.97,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2014,HR,primo-demandeurs,380,0.09,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2014,HR,tous demandeurs (dont reexamens),450,0.11,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2014,HU,primo-demandeurs,41215,4.18,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2014,HU,tous demandeurs (dont reexamens),42775,4.34,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2014,IE,primo-demandeurs,1440,0.31,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2014,IE,tous demandeurs (dont reexamens),1450,0.31,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2014,IT,primo-demandeurs,63655,1.05,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2014,IT,tous demandeurs (dont reexamens),64625,1.07,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2014,LT,primo-demandeurs,385,0.13,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2014,LT,tous demandeurs (dont reexamens),440,0.15,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2014,LU,primo-demandeurs,1030,1.87,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2014,LU,tous demandeurs (dont reexamens),1150,2.09,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2014,LV,primo-demandeurs,365,0.18,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2014,LV,tous demandeurs (dont reexamens),375,0.19,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2014,MT,primo-demandeurs,1275,2.98,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2014,MT,tous demandeurs (dont reexamens),1350,3.15,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2014,NL,primo-demandeurs,21780,1.29,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2014,NL,tous demandeurs (dont reexamens),24495,1.46,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2014,PL,primo-demandeurs,5610,0.15,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2014,PL,tous demandeurs (dont reexamens),8025,0.21,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2014,PT,primo-demandeurs,445,0.04,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2014,PT,tous demandeurs (dont reexamens),445,0.04,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2014,RO,primo-demandeurs,1500,0.08,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2014,RO,tous demandeurs (dont reexamens),1545,0.08,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2014,SE,primo-demandeurs,75090,7.79,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2014,SE,tous demandeurs (dont reexamens),81325,8.43,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2014,SI,primo-demandeurs,355,0.17,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2014,SI,tous demandeurs (dont reexamens),385,0.19,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2014,SK,primo-demandeurs,230,0.04,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2014,SK,tous demandeurs (dont reexamens),330,0.06,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2015,AT,primo-demandeurs,85520,9.96,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2015,AT,tous demandeurs (dont reexamens),88180,10.27,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2015,BE,primo-demandeurs,39065,3.48,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2015,BE,tous demandeurs (dont reexamens),44760,3.98,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2015,BG,primo-demandeurs,20160,2.87,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2015,BG,tous demandeurs (dont reexamens),20390,2.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2015,CY,primo-demandeurs,2105,2.45,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2015,CY,tous demandeurs (dont reexamens),2265,2.63,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2015,CZ,primo-demandeurs,1240,0.12,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2015,CZ,tous demandeurs (dont reexamens),1525,0.14,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2015,DE,primo-demandeurs,441900,5.44,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2015,DE,tous demandeurs (dont reexamens),476620,5.87,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2015,DK,primo-demandeurs,20855,3.68,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2015,DK,tous demandeurs (dont reexamens),20970,3.71,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2015,EE,primo-demandeurs,225,0.17,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2015,EE,tous demandeurs (dont reexamens),230,0.18,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2015,EL,primo-demandeurs,11370,1.05,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2015,EL,tous demandeurs (dont reexamens),13205,1.22,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2015,ES,primo-demandeurs,14610,0.31,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2015,ES,tous demandeurs (dont reexamens),14785,0.32,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2015,EU27_2020,primo-demandeurs,1217185,2.75,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2015,EU27_2020,tous demandeurs (dont reexamens),1283075,2.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2015,FI,primo-demandeurs,32150,5.88,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2015,FI,tous demandeurs (dont reexamens),32345,5.91,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2015,FR,primo-demandeurs,70570,1.06,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2015,FR,tous demandeurs (dont reexamens),76165,1.15,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2015,HR,primo-demandeurs,145,0.03,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2015,HR,tous demandeurs (dont reexamens),210,0.05,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2015,HU,primo-demandeurs,174435,17.77,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2015,HU,tous demandeurs (dont reexamens),177135,18.05,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2015,IE,primo-demandeurs,3270,0.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2015,IE,tous demandeurs (dont reexamens),3275,0.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2015,IT,primo-demandeurs,82790,1.37,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2015,IT,tous demandeurs (dont reexamens),83540,1.39,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2015,LT,primo-demandeurs,275,0.09,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2015,LT,tous demandeurs (dont reexamens),315,0.11,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2015,LU,primo-demandeurs,2360,4.19,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2015,LU,tous demandeurs (dont reexamens),2505,4.45,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2015,LV,primo-demandeurs,330,0.17,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2015,LV,tous demandeurs (dont reexamens),330,0.17,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2015,MT,primo-demandeurs,1695,3.86,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2015,MT,tous demandeurs (dont reexamens),1845,4.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2015,NL,primo-demandeurs,43035,2.55,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2015,NL,tous demandeurs (dont reexamens),44970,2.66,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2015,PL,primo-demandeurs,10255,0.27,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2015,PL,tous demandeurs (dont reexamens),12190,0.32,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2015,PT,primo-demandeurs,870,0.08,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2015,PT,tous demandeurs (dont reexamens),895,0.09,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2015,RO,primo-demandeurs,1225,0.06,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2015,RO,tous demandeurs (dont reexamens),1260,0.06,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2015,SE,primo-demandeurs,156195,16.02,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2015,SE,tous demandeurs (dont reexamens),162550,16.68,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2015,SI,primo-demandeurs,260,0.13,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2015,SI,tous demandeurs (dont reexamens),275,0.13,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2015,SK,primo-demandeurs,270,0.05,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2015,SK,tous demandeurs (dont reexamens),330,0.06,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2016,AT,primo-demandeurs,39905,4.59,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2016,AT,tous demandeurs (dont reexamens),42285,4.86,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2016,BE,primo-demandeurs,14290,1.26,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2016,BE,tous demandeurs (dont reexamens),18325,1.62,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2016,BG,primo-demandeurs,18990,2.74,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2016,BG,tous demandeurs (dont reexamens),19420,2.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2016,CY,primo-demandeurs,2840,3.29,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2016,CY,tous demandeurs (dont reexamens),2940,3.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2016,CZ,primo-demandeurs,1205,0.11,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2016,CZ,tous demandeurs (dont reexamens),1480,0.14,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2016,DE,primo-demandeurs,722365,8.79,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2016,DE,tous demandeurs (dont reexamens),745265,9.07,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2016,DK,primo-demandeurs,6070,1.06,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2016,DK,tous demandeurs (dont reexamens),6195,1.09,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2016,EE,primo-demandeurs,150,0.11,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2016,EE,tous demandeurs (dont reexamens),175,0.13,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2016,EL,primo-demandeurs,49875,4.65,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2016,EL,tous demandeurs (dont reexamens),51110,4.76,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2016,ES,primo-demandeurs,15570,0.34,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2016,ES,tous demandeurs (dont reexamens),15755,0.34,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2016,EU27_2020,primo-demandeurs,1167075,2.63,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2016,EU27_2020,tous demandeurs (dont reexamens),1221480,2.75,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2016,FI,primo-demandeurs,5295,0.96,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2016,FI,tous demandeurs (dont reexamens),5625,1.03,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2016,FR,primo-demandeurs,76790,1.15,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2016,FR,tous demandeurs (dont reexamens),84270,1.26,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2016,HR,primo-demandeurs,2150,0.52,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2016,HR,tous demandeurs (dont reexamens),2225,0.54,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2016,HU,primo-demandeurs,28215,2.89,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2016,HU,tous demandeurs (dont reexamens),29430,3.01,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2016,IE,primo-demandeurs,2235,0.47,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2016,IE,tous demandeurs (dont reexamens),2245,0.48,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2016,IT,primo-demandeurs,121185,2.01,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2016,IT,tous demandeurs (dont reexamens),122960,2.04,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2016,LT,primo-demandeurs,415,0.14,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2016,LT,tous demandeurs (dont reexamens),430,0.15,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2016,LU,primo-demandeurs,2065,3.58,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2016,LU,tous demandeurs (dont reexamens),2160,3.75,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2016,LV,primo-demandeurs,345,0.18,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2016,LV,tous demandeurs (dont reexamens),350,0.18,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2016,MT,primo-demandeurs,1735,3.86,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2016,MT,tous demandeurs (dont reexamens),1930,4.29,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2016,NL,primo-demandeurs,19285,1.14,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2016,NL,tous demandeurs (dont reexamens),20945,1.23,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2016,PL,primo-demandeurs,9785,0.26,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2016,PL,tous demandeurs (dont reexamens),12305,0.32,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2016,PT,primo-demandeurs,710,0.07,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2016,PT,tous demandeurs (dont reexamens),1465,0.14,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2016,RO,primo-demandeurs,1855,0.09,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2016,RO,tous demandeurs (dont reexamens),1880,0.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2016,SE,primo-demandeurs,22385,2.27,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2016,SE,tous demandeurs (dont reexamens),28860,2.93,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2016,SI,primo-demandeurs,1265,0.61,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2016,SI,tous demandeurs (dont reexamens),1310,0.63,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2016,SK,primo-demandeurs,100,0.02,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2016,SK,tous demandeurs (dont reexamens),145,0.03,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2017,AT,primo-demandeurs,22470,2.56,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2017,AT,tous demandeurs (dont reexamens),24735,2.82,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2017,BE,primo-demandeurs,14055,1.24,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2017,BE,tous demandeurs (dont reexamens),18370,1.62,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2017,BG,primo-demandeurs,3470,0.51,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2017,BG,tous demandeurs (dont reexamens),3695,0.54,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2017,CY,primo-demandeurs,4475,5.14,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2017,CY,tous demandeurs (dont reexamens),4600,5.29,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2017,CZ,primo-demandeurs,1140,0.11,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2017,CZ,tous demandeurs (dont reexamens),1450,0.14,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2017,DE,primo-demandeurs,198310,2.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2017,DE,tous demandeurs (dont reexamens),222625,2.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2017,DK,primo-demandeurs,3140,0.55,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2017,DK,tous demandeurs (dont reexamens),3235,0.56,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2017,EE,primo-demandeurs,180,0.14,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2017,EE,tous demandeurs (dont reexamens),190,0.14,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2017,EL,primo-demandeurs,56950,5.32,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2017,EL,tous demandeurs (dont reexamens),58660,5.48,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2017,ES,primo-demandeurs,33040,0.71,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2017,ES,tous demandeurs (dont reexamens),36610,0.79,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2017,EU27_2020,primo-demandeurs,620465,1.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2017,EU27_2020,tous demandeurs (dont reexamens),677705,1.52,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2017,FI,primo-demandeurs,4350,0.79,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2017,FI,tous demandeurs (dont reexamens),5020,0.91,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2017,FR,primo-demandeurs,91965,1.38,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2017,FR,tous demandeurs (dont reexamens),99330,1.49,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2017,HR,primo-demandeurs,885,0.22,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2017,HR,tous demandeurs (dont reexamens),975,0.24,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2017,HU,primo-demandeurs,3120,0.32,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2017,HU,tous demandeurs (dont reexamens),3395,0.35,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2017,IE,primo-demandeurs,2910,0.61,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2017,IE,tous demandeurs (dont reexamens),2930,0.61,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2017,IT,primo-demandeurs,126560,2.11,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2017,IT,tous demandeurs (dont reexamens),128855,2.15,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2017,LT,primo-demandeurs,520,0.18,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2017,LT,tous demandeurs (dont reexamens),545,0.19,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2017,LU,primo-demandeurs,2325,3.94,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2017,LU,tous demandeurs (dont reexamens),2435,4.12,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2017,LV,primo-demandeurs,355,0.18,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2017,LV,tous demandeurs (dont reexamens),355,0.18,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2017,MT,primo-demandeurs,1610,3.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2017,MT,tous demandeurs (dont reexamens),1840,4.01,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2017,NL,primo-demandeurs,16090,0.94,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2017,NL,tous demandeurs (dont reexamens),18210,1.07,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2017,PL,primo-demandeurs,3005,0.08,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2017,PL,tous demandeurs (dont reexamens),5055,0.13,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2017,PT,primo-demandeurs,1015,0.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2017,PT,tous demandeurs (dont reexamens),1750,0.17,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2017,RO,primo-demandeurs,4700,0.24,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2017,RO,tous demandeurs (dont reexamens),4815,0.25,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2017,SE,primo-demandeurs,22225,2.22,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2017,SE,tous demandeurs (dont reexamens),26370,2.64,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2017,SI,primo-demandeurs,1440,0.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2017,SI,tous demandeurs (dont reexamens),1475,0.71,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2017,SK,primo-demandeurs,155,0.03,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2017,SK,tous demandeurs (dont reexamens),165,0.03,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2018,AT,primo-demandeurs,11610,1.32,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2018,AT,tous demandeurs (dont reexamens),13745,1.56,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2018,BE,primo-demandeurs,18160,1.59,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2018,BE,tous demandeurs (dont reexamens),22565,1.98,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2018,BG,primo-demandeurs,2465,0.36,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2018,BG,tous demandeurs (dont reexamens),2535,0.38,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2018,CY,primo-demandeurs,7610,8.66,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2018,CY,tous demandeurs (dont reexamens),7765,8.84,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2018,CZ,primo-demandeurs,1360,0.13,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2018,CZ,tous demandeurs (dont reexamens),1700,0.16,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2018,DE,primo-demandeurs,161930,1.96,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2018,DE,tous demandeurs (dont reexamens),184235,2.23,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2018,DK,primo-demandeurs,3495,0.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2018,DK,tous demandeurs (dont reexamens),3600,0.62,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2018,EE,primo-demandeurs,90,0.07,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2018,EE,tous demandeurs (dont reexamens),95,0.07,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2018,EL,primo-demandeurs,64985,6.09,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2018,EL,tous demandeurs (dont reexamens),66975,6.28,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2018,ES,primo-demandeurs,52745,1.13,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2018,ES,tous demandeurs (dont reexamens),54060,1.16,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2018,EU27_2020,primo-demandeurs,564905,1.27,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2018,EU27_2020,tous demandeurs (dont reexamens),632880,1.42,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2018,FI,primo-demandeurs,2955,0.54,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2018,FI,tous demandeurs (dont reexamens),4515,0.82,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2018,FR,primo-demandeurs,126580,1.89,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2018,FR,tous demandeurs (dont reexamens),137665,2.05,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2018,HR,primo-demandeurs,675,0.17,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2018,HR,tous demandeurs (dont reexamens),800,0.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2018,HU,primo-demandeurs,635,0.07,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2018,HU,tous demandeurs (dont reexamens),670,0.07,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2018,IE,primo-demandeurs,3655,0.75,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2018,IE,tous demandeurs (dont reexamens),3670,0.76,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2018,IT,primo-demandeurs,53440,0.89,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2018,IT,tous demandeurs (dont reexamens),59950,1.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2018,LT,primo-demandeurs,385,0.14,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2018,LT,tous demandeurs (dont reexamens),405,0.14,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2018,LU,primo-demandeurs,2225,3.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2018,LU,tous demandeurs (dont reexamens),2335,3.88,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2018,LV,primo-demandeurs,175,0.09,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2018,LV,tous demandeurs (dont reexamens),185,0.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2018,MT,primo-demandeurs,2035,4.29,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2018,MT,tous demandeurs (dont reexamens),2130,4.49,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2018,NL,primo-demandeurs,20465,1.19,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2018,NL,tous demandeurs (dont reexamens),24025,1.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2018,PL,primo-demandeurs,2405,0.06,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2018,PL,tous demandeurs (dont reexamens),4115,0.11,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2018,PT,primo-demandeurs,1240,0.12,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2018,PT,tous demandeurs (dont reexamens),1285,0.12,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2018,RO,primo-demandeurs,1945,0.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2018,RO,tous demandeurs (dont reexamens),2135,0.11,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2018,SE,primo-demandeurs,18685,1.85,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2018,SE,tous demandeurs (dont reexamens),28660,2.83,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2018,SI,primo-demandeurs,2800,1.35,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2018,SI,tous demandeurs (dont reexamens),2875,1.39,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2018,SK,primo-demandeurs,155,0.03,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2018,SK,tous demandeurs (dont reexamens),175,0.03,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2019,AT,primo-demandeurs,11010,1.24,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2019,AT,tous demandeurs (dont reexamens),12885,1.45,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2019,BE,primo-demandeurs,23140,2.02,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2019,BE,tous demandeurs (dont reexamens),27505,2.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2019,BG,primo-demandeurs,2075,0.31,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2019,BG,tous demandeurs (dont reexamens),2150,0.32,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2019,CY,primo-demandeurs,12695,14.26,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2019,CY,tous demandeurs (dont reexamens),13650,15.33,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2019,CZ,primo-demandeurs,1575,0.15,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2019,CZ,tous demandeurs (dont reexamens),1920,0.18,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2019,DE,primo-demandeurs,142510,1.72,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2019,DE,tous demandeurs (dont reexamens),165685,2.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2019,DK,primo-demandeurs,2645,0.46,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2019,DK,tous demandeurs (dont reexamens),2740,0.47,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2019,EE,primo-demandeurs,100,0.08,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2019,EE,tous demandeurs (dont reexamens),105,0.08,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2019,EL,primo-demandeurs,74915,7.04,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2019,EL,tous demandeurs (dont reexamens),77285,7.27,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2019,ES,primo-demandeurs,115190,2.46,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2019,ES,tous demandeurs (dont reexamens),117815,2.51,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2019,EU27_2020,primo-demandeurs,629230,1.41,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2019,EU27_2020,tous demandeurs (dont reexamens),703175,1.58,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2019,FI,primo-demandeurs,2455,0.44,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2019,FI,tous demandeurs (dont reexamens),4535,0.82,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2019,FR,primo-demandeurs,138290,2.06,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2019,FR,tous demandeurs (dont reexamens),151070,2.25,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2019,HR,primo-demandeurs,1270,0.32,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2019,HR,tous demandeurs (dont reexamens),1400,0.35,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2019,HU,primo-demandeurs,470,0.05,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2019,HU,tous demandeurs (dont reexamens),500,0.05,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2019,IE,primo-demandeurs,4740,0.96,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2019,IE,tous demandeurs (dont reexamens),4780,0.97,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2019,IT,primo-demandeurs,35005,0.59,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2019,IT,tous demandeurs (dont reexamens),43775,0.73,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2019,LT,primo-demandeurs,625,0.22,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2019,LT,tous demandeurs (dont reexamens),645,0.23,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2019,LU,primo-demandeurs,2200,3.58,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2019,LU,tous demandeurs (dont reexamens),2270,3.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2019,LV,primo-demandeurs,180,0.09,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2019,LV,tous demandeurs (dont reexamens),195,0.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2019,MT,primo-demandeurs,4015,8.14,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2019,MT,tous demandeurs (dont reexamens),4090,8.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2019,NL,primo-demandeurs,22540,1.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2019,NL,tous demandeurs (dont reexamens),25260,1.46,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2019,PL,primo-demandeurs,2765,0.07,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2019,PL,tous demandeurs (dont reexamens),4080,0.11,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2019,PT,primo-demandeurs,1735,0.17,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2019,PT,tous demandeurs (dont reexamens),1820,0.18,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2019,RO,primo-demandeurs,2455,0.13,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2019,RO,tous demandeurs (dont reexamens),2590,0.13,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2019,SE,primo-demandeurs,20805,2.03,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2019,SE,tous demandeurs (dont reexamens),30365,2.97,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2019,SI,primo-demandeurs,3615,1.74,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2019,SI,tous demandeurs (dont reexamens),3820,1.84,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2019,SK,primo-demandeurs,215,0.04,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2019,SK,tous demandeurs (dont reexamens),230,0.04,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2020,AT,primo-demandeurs,13415,1.51,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2020,AT,tous demandeurs (dont reexamens),14775,1.66,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2020,BE,primo-demandeurs,12930,1.12,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2020,BE,tous demandeurs (dont reexamens),16735,1.45,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2020,BG,primo-demandeurs,3460,0.53,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2020,BG,tous demandeurs (dont reexamens),3525,0.54,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2020,CY,primo-demandeurs,7065,7.83,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2020,CY,tous demandeurs (dont reexamens),7495,8.31,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2020,CZ,primo-demandeurs,795,0.07,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2020,CZ,tous demandeurs (dont reexamens),1165,0.11,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2020,DE,primo-demandeurs,102580,1.23,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2020,DE,tous demandeurs (dont reexamens),122015,1.47,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2020,DK,primo-demandeurs,1435,0.25,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2020,DK,tous demandeurs (dont reexamens),1490,0.26,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2020,EE,primo-demandeurs,45,0.03,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2020,EE,tous demandeurs (dont reexamens),50,0.04,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2020,EL,primo-demandeurs,37860,3.57,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2020,EL,tous demandeurs (dont reexamens),40560,3.82,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2020,ES,primo-demandeurs,86385,1.83,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2020,ES,tous demandeurs (dont reexamens),88540,1.87,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2020,EU27_2020,primo-demandeurs,415475,0.93,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2020,EU27_2020,tous demandeurs (dont reexamens),476640,1.07,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2020,FI,primo-demandeurs,1455,0.26,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2020,FI,tous demandeurs (dont reexamens),3205,0.58,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2020,FR,primo-demandeurs,81735,1.21,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2020,FR,tous demandeurs (dont reexamens),93200,1.38,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2020,HR,primo-demandeurs,1540,0.39,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2020,HR,tous demandeurs (dont reexamens),1605,0.41,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2020,HU,primo-demandeurs,90,0.01,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2020,HU,tous demandeurs (dont reexamens),115,0.01,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2020,IE,primo-demandeurs,1535,0.31,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2020,IE,tous demandeurs (dont reexamens),1565,0.31,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2020,IT,primo-demandeurs,21340,0.36,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2020,IT,tous demandeurs (dont reexamens),26950,0.45,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2020,LT,primo-demandeurs,260,0.09,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2020,LT,tous demandeurs (dont reexamens),315,0.11,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2020,LU,primo-demandeurs,1295,2.07,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2020,LU,tous demandeurs (dont reexamens),1345,2.15,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2020,LV,primo-demandeurs,145,0.08,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2020,LV,tous demandeurs (dont reexamens),180,0.09,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2020,MT,primo-demandeurs,2410,4.68,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2020,MT,tous demandeurs (dont reexamens),2480,4.82,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2020,NL,primo-demandeurs,13720,0.79,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2020,NL,tous demandeurs (dont reexamens),15320,0.88,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2020,PL,primo-demandeurs,1510,0.04,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2020,PL,tous demandeurs (dont reexamens),2790,0.07,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2020,PT,primo-demandeurs,900,0.09,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2020,PT,tous demandeurs (dont reexamens),1000,0.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2020,RO,primo-demandeurs,6025,0.31,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2020,RO,tous demandeurs (dont reexamens),6155,0.32,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2020,SE,primo-demandeurs,11800,1.14,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2020,SE,tous demandeurs (dont reexamens),20235,1.96,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2020,SI,primo-demandeurs,3465,1.65,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2020,SI,tous demandeurs (dont reexamens),3550,1.69,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2020,SK,primo-demandeurs,265,0.05,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2020,SK,tous demandeurs (dont reexamens),280,0.05,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2021,AT,primo-demandeurs,37830,4.24,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2021,AT,tous demandeurs (dont reexamens),39930,4.47,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2021,BE,primo-demandeurs,19605,1.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2021,BE,tous demandeurs (dont reexamens),25035,2.17,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2021,BG,primo-demandeurs,10890,1.67,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2021,BG,tous demandeurs (dont reexamens),11000,1.68,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2021,CY,primo-demandeurs,13260,14.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2021,CY,tous demandeurs (dont reexamens),13670,14.95,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2021,CZ,primo-demandeurs,1060,0.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2021,CZ,tous demandeurs (dont reexamens),1410,0.13,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2021,DE,primo-demandeurs,148235,1.78,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2021,DE,tous demandeurs (dont reexamens),190615,2.29,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2021,DK,primo-demandeurs,2015,0.35,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2021,DK,tous demandeurs (dont reexamens),2100,0.36,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2021,EE,primo-demandeurs,75,0.06,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2021,EE,tous demandeurs (dont reexamens),80,0.06,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2021,EL,primo-demandeurs,22660,2.15,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2021,EL,tous demandeurs (dont reexamens),28355,2.69,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2021,ES,primo-demandeurs,62065,1.31,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2021,ES,tous demandeurs (dont reexamens),65315,1.38,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2021,EU27_2020,primo-demandeurs,536270,1.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2021,EU27_2020,tous demandeurs (dont reexamens),638755,1.43,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2021,FI,primo-demandeurs,1365,0.25,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2021,FI,tous demandeurs (dont reexamens),2540,0.46,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2021,FR,primo-demandeurs,103810,1.53,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2021,FR,tous demandeurs (dont reexamens),120705,1.78,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2021,HR,primo-demandeurs,2480,0.64,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2021,HR,tous demandeurs (dont reexamens),2550,0.66,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2021,HU,primo-demandeurs,40,0.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2021,HU,tous demandeurs (dont reexamens),40,0.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2021,IE,primo-demandeurs,2615,0.52,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2021,IE,tous demandeurs (dont reexamens),2650,0.52,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2021,IT,primo-demandeurs,45200,0.76,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2021,IT,tous demandeurs (dont reexamens),53610,0.91,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2021,LT,primo-demandeurs,3905,1.39,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2021,LT,tous demandeurs (dont reexamens),3940,1.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2021,LU,primo-demandeurs,1370,2.16,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2021,LU,tous demandeurs (dont reexamens),1420,2.24,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2021,LV,primo-demandeurs,580,0.31,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2021,LV,tous demandeurs (dont reexamens),615,0.32,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2021,MT,primo-demandeurs,1200,2.33,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2021,MT,tous demandeurs (dont reexamens),1595,3.09,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2021,NL,primo-demandeurs,24755,1.42,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2021,NL,tous demandeurs (dont reexamens),26555,1.52,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2021,PL,primo-demandeurs,6240,0.17,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2021,PL,tous demandeurs (dont reexamens),7810,0.21,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2021,PT,primo-demandeurs,1350,0.13,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2021,PT,tous demandeurs (dont reexamens),1540,0.15,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2021,RO,primo-demandeurs,9065,0.47,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2021,RO,tous demandeurs (dont reexamens),9585,0.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2021,SE,primo-demandeurs,9055,0.87,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2021,SE,tous demandeurs (dont reexamens),20420,1.97,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2021,SI,primo-demandeurs,5220,2.48,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2021,SI,tous demandeurs (dont reexamens),5300,2.51,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2021,SK,primo-demandeurs,330,0.06,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2021,SK,tous demandeurs (dont reexamens),370,0.07,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2022,AT,primo-demandeurs,109800,12.23,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2022,AT,tous demandeurs (dont reexamens),112270,12.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2022,BE,primo-demandeurs,32140,2.77,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2022,BE,tous demandeurs (dont reexamens),36795,3.17,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2022,BG,primo-demandeurs,20260,3.13,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2022,BG,tous demandeurs (dont reexamens),20390,3.15,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2022,CY,primo-demandeurs,21590,23.22,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2022,CY,tous demandeurs (dont reexamens),22190,23.87,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2022,CZ,primo-demandeurs,1335,0.13,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2022,CZ,tous demandeurs (dont reexamens),1690,0.16,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2022,DE,primo-demandeurs,217775,2.62,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2022,DE,tous demandeurs (dont reexamens),243880,2.93,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2022,DK,primo-demandeurs,4505,0.77,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2022,DK,tous demandeurs (dont reexamens),4595,0.78,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2022,EE,primo-demandeurs,2940,2.21,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2022,EE,tous demandeurs (dont reexamens),2945,2.21,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2022,EL,primo-demandeurs,29135,2.78,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2022,EL,tous demandeurs (dont reexamens),37380,3.57,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2022,ES,primo-demandeurs,116150,2.45,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2022,ES,tous demandeurs (dont reexamens),117960,2.48,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2022,EU27_2020,primo-demandeurs,874035,1.96,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2022,EU27_2020,tous demandeurs (dont reexamens),961150,2.16,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2022,FI,primo-demandeurs,4835,0.87,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2022,FI,tous demandeurs (dont reexamens),5805,1.05,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2022,FR,primo-demandeurs,137605,2.02,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2022,FR,tous demandeurs (dont reexamens),156570,2.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2022,HR,primo-demandeurs,2660,0.69,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2022,HR,tous demandeurs (dont reexamens),2730,0.71,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2022,HU,primo-demandeurs,45,0.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2022,HU,tous demandeurs (dont reexamens),45,0.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2022,IE,primo-demandeurs,13645,2.65,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2022,IE,tous demandeurs (dont reexamens),13660,2.65,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2022,IT,primo-demandeurs,77200,1.31,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2022,IT,tous demandeurs (dont reexamens),84290,1.43,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2022,LT,primo-demandeurs,905,0.32,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2022,LT,tous demandeurs (dont reexamens),1025,0.37,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2022,LU,primo-demandeurs,2405,3.73,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2022,LU,tous demandeurs (dont reexamens),2460,3.81,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2022,LV,primo-demandeurs,545,0.29,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2022,LV,tous demandeurs (dont reexamens),620,0.33,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2022,MT,primo-demandeurs,915,1.76,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2022,MT,tous demandeurs (dont reexamens),1320,2.54,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2022,NL,primo-demandeurs,35530,2.02,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2022,NL,tous demandeurs (dont reexamens),37060,2.11,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2022,PL,primo-demandeurs,7700,0.21,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2022,PL,tous demandeurs (dont reexamens),9825,0.27,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2022,PT,primo-demandeurs,1980,0.19,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2022,PT,tous demandeurs (dont reexamens),2120,0.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2022,RO,primo-demandeurs,12065,0.63,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2022,RO,tous demandeurs (dont reexamens),12355,0.65,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2022,SE,primo-demandeurs,13210,1.26,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2022,SE,tous demandeurs (dont reexamens),23845,2.28,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2022,SI,primo-demandeurs,6645,3.15,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2022,SI,tous demandeurs (dont reexamens),6785,3.22,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2022,SK,primo-demandeurs,505,0.09,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2022,SK,tous demandeurs (dont reexamens),545,0.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2023,AT,primo-demandeurs,56160,6.17,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2023,AT,tous demandeurs (dont reexamens),59230,6.51,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2023,BE,primo-demandeurs,29305,2.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2023,BE,tous demandeurs (dont reexamens),35225,3.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2023,BG,primo-demandeurs,22390,3.47,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2023,BG,tous demandeurs (dont reexamens),22510,3.49,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2023,CY,primo-demandeurs,11660,12.29,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2023,CY,tous demandeurs (dont reexamens),11910,12.55,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2023,CZ,primo-demandeurs,1135,0.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2023,CZ,tous demandeurs (dont reexamens),1405,0.13,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2023,DE,primo-demandeurs,329120,3.96,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2023,DE,tous demandeurs (dont reexamens),351600,4.23,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2023,DK,primo-demandeurs,2380,0.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2023,DK,tous demandeurs (dont reexamens),2480,0.42,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2023,EE,primo-demandeurs,3980,2.91,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2023,EE,tous demandeurs (dont reexamens),3985,2.92,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2023,EL,primo-demandeurs,57900,5.57,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2023,EL,tous demandeurs (dont reexamens),64230,6.17,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2023,ES,primo-demandeurs,160470,3.34,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2023,ES,tous demandeurs (dont reexamens),162435,3.38,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2023,EU27_2020,primo-demandeurs,1049905,2.35,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2023,EU27_2020,tous demandeurs (dont reexamens),1130870,2.53,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2023,FI,primo-demandeurs,4465,0.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2023,FI,tous demandeurs (dont reexamens),5355,0.96,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2023,FR,primo-demandeurs,145160,2.13,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2023,FR,tous demandeurs (dont reexamens),167055,2.45,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2023,HR,primo-demandeurs,1635,0.42,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2023,HR,tous demandeurs (dont reexamens),1750,0.45,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2023,HU,primo-demandeurs,30,0.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2023,HU,tous demandeurs (dont reexamens),30,0.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2023,IE,primo-demandeurs,13220,2.51,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2023,IE,tous demandeurs (dont reexamens),13275,2.52,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2023,IT,primo-demandeurs,130565,2.21,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2023,IT,tous demandeurs (dont reexamens),135820,2.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2023,LT,primo-demandeurs,510,0.18,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2023,LT,tous demandeurs (dont reexamens),575,0.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2023,LU,primo-demandeurs,2615,3.96,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2023,LU,tous demandeurs (dont reexamens),2685,4.06,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2023,LV,primo-demandeurs,1625,0.86,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2023,LV,tous demandeurs (dont reexamens),1700,0.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2023,MT,primo-demandeurs,490,0.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2023,MT,tous demandeurs (dont reexamens),855,1.58,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2023,NL,primo-demandeurs,38370,2.15,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2023,NL,tous demandeurs (dont reexamens),39755,2.23,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2023,PL,primo-demandeurs,7720,0.21,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2023,PL,tous demandeurs (dont reexamens),9495,0.26,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2023,PT,primo-demandeurs,2600,0.25,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2023,PT,tous demandeurs (dont reexamens),2695,0.26,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2023,RO,primo-demandeurs,9875,0.52,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2023,RO,tous demandeurs (dont reexamens),10095,0.53,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2023,SE,primo-demandeurs,8960,0.85,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2023,SE,tous demandeurs (dont reexamens),17040,1.62,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2023,SI,primo-demandeurs,7185,3.39,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2023,SI,tous demandeurs (dont reexamens),7260,3.43,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2023,SK,primo-demandeurs,375,0.07,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2023,SK,tous demandeurs (dont reexamens),415,0.08,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2024,AT,primo-demandeurs,22255,2.43,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2024,AT,tous demandeurs (dont reexamens),25360,2.77,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2024,BE,primo-demandeurs,32710,2.77,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2024,BE,tous demandeurs (dont reexamens),39180,3.32,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2024,BG,primo-demandeurs,12130,1.88,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2024,BG,tous demandeurs (dont reexamens),12260,1.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2024,CY,primo-demandeurs,6750,6.98,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2024,CY,tous demandeurs (dont reexamens),9185,9.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2024,CZ,primo-demandeurs,1035,0.09,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2024,CZ,tous demandeurs (dont reexamens),1360,0.12,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2024,DE,primo-demandeurs,229750,2.75,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2024,DE,tous demandeurs (dont reexamens),250615,3.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2024,DK,primo-demandeurs,2210,0.37,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2024,DK,tous demandeurs (dont reexamens),2310,0.39,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2024,EE,primo-demandeurs,1330,0.97,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2024,EE,tous demandeurs (dont reexamens),1355,0.99,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2024,EL,primo-demandeurs,68995,6.65,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2024,EL,tous demandeurs (dont reexamens),73685,7.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2024,ES,primo-demandeurs,165465,3.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2024,ES,tous demandeurs (dont reexamens),167750,3.45,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2024,EU27_2020,primo-demandeurs,912835,2.03,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2024,EU27_2020,tous demandeurs (dont reexamens),998615,2.22,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2024,FI,primo-demandeurs,2275,0.41,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2024,FI,tous demandeurs (dont reexamens),2940,0.52,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2024,FR,primo-demandeurs,129910,1.89,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2024,FR,tous demandeurs (dont reexamens),157550,2.29,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2024,HR,primo-demandeurs,1000,0.26,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2024,HR,tous demandeurs (dont reexamens),1115,0.29,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2024,HU,primo-demandeurs,25,0.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2024,HU,tous demandeurs (dont reexamens),30,0.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2024,IE,primo-demandeurs,18435,3.44,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2024,IE,tous demandeurs (dont reexamens),18565,3.47,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2024,IT,primo-demandeurs,151120,2.56,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2024,IT,tous demandeurs (dont reexamens),158605,2.69,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2024,LT,primo-demandeurs,295,0.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2024,LT,tous demandeurs (dont reexamens),360,0.12,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2024,LU,primo-demandeurs,2125,3.16,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2024,LU,tous demandeurs (dont reexamens),2205,3.28,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2024,LV,primo-demandeurs,800,0.43,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2024,LV,tous demandeurs (dont reexamens),1040,0.55,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2024,MT,primo-demandeurs,440,0.78,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2024,MT,tous demandeurs (dont reexamens),700,1.24,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2024,NL,primo-demandeurs,32000,1.78,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2024,NL,tous demandeurs (dont reexamens),33515,1.87,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2024,PL,primo-demandeurs,14445,0.39,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2024,PL,tous demandeurs (dont reexamens),16910,0.46,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2024,PT,primo-demandeurs,2675,0.25,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2024,PT,tous demandeurs (dont reexamens),2690,0.25,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2024,RO,primo-demandeurs,2265,0.12,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2024,RO,tous demandeurs (dont reexamens),2400,0.13,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2024,SE,primo-demandeurs,6780,0.64,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2024,SE,tous demandeurs (dont reexamens),11135,1.06,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2024,SI,primo-demandeurs,5465,2.57,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2024,SI,tous demandeurs (dont reexamens),5635,2.65,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2024,SK,primo-demandeurs,140,0.03,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2024,SK,tous demandeurs (dont reexamens),165,0.03,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2025,AT,primo-demandeurs,12505,1.36,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2025,AT,tous demandeurs (dont reexamens),16670,1.81,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2025,BE,primo-demandeurs,27540,2.32,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2025,BE,tous demandeurs (dont reexamens),34405,2.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2025,BG,primo-demandeurs,3800,0.59,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2025,BG,tous demandeurs (dont reexamens),3895,0.61,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2025,CY,primo-demandeurs,2835,2.88,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2025,CY,tous demandeurs (dont reexamens),4610,4.69,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2025,CZ,primo-demandeurs,935,0.09,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2025,CZ,tous demandeurs (dont reexamens),1195,0.11,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2025,DE,primo-demandeurs,113235,1.35,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2025,DE,tous demandeurs (dont reexamens),168450,2.02,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2025,DK,primo-demandeurs,1865,0.31,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2025,DK,tous demandeurs (dont reexamens),1950,0.33,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2025,EE,primo-demandeurs,1005,0.73,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2025,EE,tous demandeurs (dont reexamens),1015,0.74,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2025,EL,primo-demandeurs,55380,5.34,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2025,EL,tous demandeurs (dont reexamens),61630,5.94,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2025,ES,primo-demandeurs,141055,2.87,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2025,ES,tous demandeurs (dont reexamens),143715,2.93,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2025,EU27_2020,primo-demandeurs,672350,1.49,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2025,EU27_2020,tous demandeurs (dont reexamens),802910,1.78,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2025,FI,primo-demandeurs,1970,0.35,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2025,FI,tous demandeurs (dont reexamens),2535,0.45,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2025,FR,primo-demandeurs,116475,1.69,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2025,FR,tous demandeurs (dont reexamens),151665,2.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2025,HR,primo-demandeurs,845,0.22,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2025,HR,tous demandeurs (dont reexamens),1180,0.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2025,HU,primo-demandeurs,110,0.01,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2025,HU,tous demandeurs (dont reexamens),115,0.01,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2025,IE,primo-demandeurs,12975,2.38,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2025,IE,tous demandeurs (dont reexamens),13160,2.42,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2025,IT,primo-demandeurs,128655,2.18,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2025,IT,tous demandeurs (dont reexamens),135485,2.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2025,LT,primo-demandeurs,330,0.11,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2025,LT,tous demandeurs (dont reexamens),380,0.13,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2025,LU,primo-demandeurs,1770,2.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2025,LU,tous demandeurs (dont reexamens),1840,2.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2025,LV,primo-demandeurs,1290,0.69,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2025,LV,tous demandeurs (dont reexamens),1475,0.79,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2025,MT,primo-demandeurs,405,0.71,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2025,MT,tous demandeurs (dont reexamens),545,0.95,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2025,NL,primo-demandeurs,24115,1.34,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2025,NL,tous demandeurs (dont reexamens),25860,1.43,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2025,PL,primo-demandeurs,11155,0.31,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2025,PL,tous demandeurs (dont reexamens),13230,0.36,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2025,PT,primo-demandeurs,1755,0.16,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2025,PT,tous demandeurs (dont reexamens),1765,0.16,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2025,RO,primo-demandeurs,1145,0.06,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2025,RO,tous demandeurs (dont reexamens),1190,0.06,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2025,SE,primo-demandeurs,5100,0.48,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2025,SE,tous demandeurs (dont reexamens),10620,1.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2025,SI,primo-demandeurs,3965,1.86,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2025,SI,tous demandeurs (dont reexamens),4170,1.96,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2025,SK,primo-demandeurs,130,0.02,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table
+2025,SK,tous demandeurs (dont reexamens),165,0.03,mesure,https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table

@@ -1,0 +1,11 @@
+groupe,nombre_prelevements,dont_avec_montant,dont_moins_150_meur,rendement_total_meur,part_du_total_pct
+travail,83,76,26,507612.6,38.15
+revenu,11,9,0,282381.0,21.22
+consommation,53,50,19,265244.5,19.94
+patrimoine,34,28,12,94340.6,7.09
+bénéfices des sociétés,7,7,1,78340.1,5.89
+environnement,22,21,9,55685.4,4.19
+production,82,79,47,40286.9,3.03
+autres,21,20,13,4446.6,0.33
+frais de gestion,1,1,0,2127.0,0.16
+TOTAL,314,291,127,1330464.7,100

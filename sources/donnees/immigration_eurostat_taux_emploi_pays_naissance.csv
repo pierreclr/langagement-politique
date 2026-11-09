@@ -1,0 +1,1305 @@
+# source: Eurostat lfsa_ergacob (Employment rates by sex, age and country of birth), enquete Forces de travail; mise a jour 2026-09-10T23:00:00+0200; date consultation: 2026-10-25
+# unite: % des 20-64 ans en emploi; sexe T/M/F; ruptures de serie possibles (France 2021: refonte de l enquete Emploi)
+annee,pays,sexe,pays_naissance,taux_emploi_pct,statut,source_url
+2010,DE,F,ne a l etranger,57.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2010,DE,F,ne dans le pays,72.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2010,DE,M,ne a l etranger,75.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2010,DE,M,ne dans le pays,81.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2010,DE,T,ne a l etranger,65.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2010,DE,T,ne dans le pays,76.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2010,ES,F,ne a l etranger,57.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2010,ES,F,ne dans le pays,56.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2010,ES,F,ne dans un autre pays UE,56.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2010,ES,F,ne hors UE,57.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2010,ES,M,ne a l etranger,64.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2010,ES,M,ne dans le pays,70.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2010,ES,M,ne dans un autre pays UE,68.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2010,ES,M,ne hors UE,62.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2010,ES,T,ne a l etranger,60.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2010,ES,T,ne dans le pays,63.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2010,ES,T,ne dans un autre pays UE,62.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2010,ES,T,ne hors UE,60.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2010,EU27_2020,F,ne a l etranger,55.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2010,EU27_2020,F,ne dans le pays,62.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2010,EU27_2020,F,ne dans un autre pays UE,61.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2010,EU27_2020,F,ne hors UE,52.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2010,EU27_2020,M,ne a l etranger,72.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2010,EU27_2020,M,ne dans le pays,74.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2010,EU27_2020,M,ne dans un autre pays UE,75.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2010,EU27_2020,M,ne hors UE,69.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2010,EU27_2020,T,ne a l etranger,63.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2010,EU27_2020,T,ne dans le pays,68.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2010,EU27_2020,T,ne dans un autre pays UE,67.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2010,EU27_2020,T,ne hors UE,60.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2010,FR,F,ne a l etranger,51.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2010,FR,F,ne dans le pays,66.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2010,FR,F,ne dans un autre pays UE,63.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2010,FR,F,ne hors UE,47.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2010,FR,M,ne a l etranger,68.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2010,FR,M,ne dans le pays,74.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2010,FR,M,ne dans un autre pays UE,74.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2010,FR,M,ne hors UE,66.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2010,FR,T,ne a l etranger,59.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2010,FR,T,ne dans le pays,70.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2010,FR,T,ne dans un autre pays UE,69.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2010,FR,T,ne hors UE,56.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2010,IT,F,ne a l etranger,52.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2010,IT,F,ne dans le pays,49.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2010,IT,F,ne dans un autre pays UE,56.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2010,IT,F,ne hors UE,49.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2010,IT,M,ne a l etranger,80.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2010,IT,M,ne dans le pays,71.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2010,IT,M,ne dans un autre pays UE,81.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2010,IT,M,ne hors UE,80.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2010,IT,T,ne a l etranger,65.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2010,IT,T,ne dans le pays,60.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2010,IT,T,ne dans un autre pays UE,66.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2010,IT,T,ne hors UE,64.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2010,NL,F,ne a l etranger,57.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2010,NL,F,ne dans le pays,71.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2010,NL,F,ne dans un autre pays UE,67.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2010,NL,F,ne hors UE,54.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2010,NL,M,ne a l etranger,73.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2010,NL,M,ne dans le pays,83.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2010,NL,M,ne dans un autre pays UE,79.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2010,NL,M,ne hors UE,72.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2010,NL,T,ne a l etranger,64.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2010,NL,T,ne dans le pays,77.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2010,NL,T,ne dans un autre pays UE,72.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2010,NL,T,ne hors UE,63.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2010,SE,F,ne a l etranger,58.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2010,SE,F,ne dans le pays,79.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2010,SE,F,ne dans un autre pays UE,70.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2010,SE,F,ne hors UE,53.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2010,SE,M,ne a l etranger,70.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2010,SE,M,ne dans le pays,83.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2010,SE,M,ne dans un autre pays UE,78.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2010,SE,M,ne hors UE,67.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2010,SE,T,ne a l etranger,64.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2010,SE,T,ne dans le pays,81.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2010,SE,T,ne dans un autre pays UE,74.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2010,SE,T,ne hors UE,60.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2011,DE,F,ne a l etranger,59.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2011,DE,F,ne dans le pays,73.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2011,DE,M,ne a l etranger,77.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2011,DE,M,ne dans le pays,82.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2011,DE,T,ne a l etranger,68.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2011,DE,T,ne dans le pays,78.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2011,ES,F,ne a l etranger,55.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2011,ES,F,ne dans le pays,56.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2011,ES,F,ne dans un autre pays UE,55.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2011,ES,F,ne hors UE,54.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2011,ES,M,ne a l etranger,61.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2011,ES,M,ne dans le pays,68.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2011,ES,M,ne dans un autre pays UE,66.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2011,ES,M,ne hors UE,60.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2011,ES,T,ne a l etranger,58.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2011,ES,T,ne dans le pays,62.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2011,ES,T,ne dans un autre pays UE,60.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2011,ES,T,ne hors UE,57.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2011,EU27_2020,F,ne a l etranger,55.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2011,EU27_2020,F,ne dans le pays,62.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2011,EU27_2020,F,ne dans un autre pays UE,60.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2011,EU27_2020,F,ne hors UE,51.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2011,EU27_2020,M,ne a l etranger,72.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2011,EU27_2020,M,ne dans le pays,74.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2011,EU27_2020,M,ne dans un autre pays UE,74.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2011,EU27_2020,M,ne hors UE,68.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2011,EU27_2020,T,ne a l etranger,63.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2011,EU27_2020,T,ne dans le pays,68.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2011,EU27_2020,T,ne dans un autre pays UE,67.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2011,EU27_2020,T,ne hors UE,59.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2011,FR,F,ne a l etranger,51.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2011,FR,F,ne dans le pays,66.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2011,FR,F,ne dans un autre pays UE,65.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2011,FR,F,ne hors UE,47.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2011,FR,M,ne a l etranger,67.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2011,FR,M,ne dans le pays,75.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2011,FR,M,ne dans un autre pays UE,75.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2011,FR,M,ne hors UE,65.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2011,FR,T,ne a l etranger,59.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2011,FR,T,ne dans le pays,70.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2011,FR,T,ne dans un autre pays UE,70.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2011,FR,T,ne hors UE,56.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2011,IT,F,ne a l etranger,52.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2011,IT,F,ne dans le pays,49.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2011,IT,F,ne dans un autre pays UE,56.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2011,IT,F,ne hors UE,49.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2011,IT,M,ne a l etranger,80.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2011,IT,M,ne dans le pays,71.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2011,IT,M,ne dans un autre pays UE,79.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2011,IT,M,ne hors UE,80.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2011,IT,T,ne a l etranger,64.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2011,IT,T,ne dans le pays,60.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2011,IT,T,ne dans un autre pays UE,65.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2011,IT,T,ne hors UE,64.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2011,NL,F,ne a l etranger,57.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2011,NL,F,ne dans le pays,72.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2011,NL,F,ne dans un autre pays UE,68.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2011,NL,F,ne hors UE,53.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2011,NL,M,ne a l etranger,72.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2011,NL,M,ne dans le pays,83.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2011,NL,M,ne dans un autre pays UE,81.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2011,NL,M,ne hors UE,71.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2011,NL,T,ne a l etranger,64.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2011,NL,T,ne dans le pays,78.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2011,NL,T,ne dans un autre pays UE,73.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2011,NL,T,ne hors UE,62.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2011,SE,F,ne a l etranger,60.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2011,SE,F,ne dans le pays,80.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2011,SE,F,ne dans un autre pays UE,71.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2011,SE,F,ne hors UE,55.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2011,SE,M,ne a l etranger,70.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2011,SE,M,ne dans le pays,84.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2011,SE,M,ne dans un autre pays UE,80.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2011,SE,M,ne hors UE,67.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2011,SE,T,ne a l etranger,65.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2011,SE,T,ne dans le pays,82.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2011,SE,T,ne dans un autre pays UE,75.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2011,SE,T,ne hors UE,61.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2012,DE,F,ne a l etranger,60.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2012,DE,F,ne dans le pays,74.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2012,DE,M,ne a l etranger,78.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2012,DE,M,ne dans le pays,82.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2012,DE,T,ne a l etranger,69.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2012,DE,T,ne dans le pays,78.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2012,ES,F,ne a l etranger,52.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2012,ES,F,ne dans le pays,55.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2012,ES,F,ne dans un autre pays UE,56.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2012,ES,F,ne hors UE,51.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2012,ES,M,ne a l etranger,58.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2012,ES,M,ne dans le pays,65.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2012,ES,M,ne dans un autre pays UE,63.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2012,ES,M,ne hors UE,56.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2012,ES,T,ne a l etranger,55.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2012,ES,T,ne dans le pays,60.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2012,ES,T,ne dans un autre pays UE,59.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2012,ES,T,ne hors UE,54.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2012,EU27_2020,F,ne a l etranger,55.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2012,EU27_2020,F,ne dans le pays,62.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2012,EU27_2020,F,ne dans un autre pays UE,61.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2012,EU27_2020,F,ne hors UE,50.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2012,EU27_2020,M,ne a l etranger,71.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2012,EU27_2020,M,ne dans le pays,74.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2012,EU27_2020,M,ne dans un autre pays UE,73.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2012,EU27_2020,M,ne hors UE,66.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2012,EU27_2020,T,ne a l etranger,62.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2012,EU27_2020,T,ne dans le pays,68.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2012,EU27_2020,T,ne dans un autre pays UE,66.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2012,EU27_2020,T,ne hors UE,58.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2012,FR,F,ne a l etranger,51.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2012,FR,F,ne dans le pays,67.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2012,FR,F,ne dans un autre pays UE,63.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2012,FR,F,ne hors UE,47.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2012,FR,M,ne a l etranger,68.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2012,FR,M,ne dans le pays,74.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2012,FR,M,ne dans un autre pays UE,73.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2012,FR,M,ne hors UE,66.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2012,FR,T,ne a l etranger,59.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2012,FR,T,ne dans le pays,71.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2012,FR,T,ne dans un autre pays UE,68.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2012,FR,T,ne hors UE,56.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2012,IT,F,ne a l etranger,52.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2012,IT,F,ne dans le pays,50.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2012,IT,F,ne dans un autre pays UE,57.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2012,IT,F,ne hors UE,50.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2012,IT,M,ne a l etranger,77.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2012,IT,M,ne dans le pays,70.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2012,IT,M,ne dans un autre pays UE,77.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2012,IT,M,ne hors UE,77.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2012,IT,T,ne a l etranger,63.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2012,IT,T,ne dans le pays,60.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2012,IT,T,ne dans un autre pays UE,64.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2012,IT,T,ne hors UE,62.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2012,NL,F,ne a l etranger,56.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2012,NL,F,ne dans le pays,73.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2012,NL,F,ne dans un autre pays UE,69.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2012,NL,F,ne hors UE,53.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2012,NL,M,ne a l etranger,73.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2012,NL,M,ne dans le pays,83.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2012,NL,M,ne dans un autre pays UE,81.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2012,NL,M,ne hors UE,71.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2012,NL,T,ne a l etranger,64.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2012,NL,T,ne dans le pays,78.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2012,NL,T,ne dans un autre pays UE,74.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2012,NL,T,ne hors UE,62.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2012,SE,F,ne a l etranger,61.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2012,SE,F,ne dans le pays,80.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2012,SE,F,ne dans un autre pays UE,72.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2012,SE,F,ne hors UE,56.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2012,SE,M,ne a l etranger,71.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2012,SE,M,ne dans le pays,84.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2012,SE,M,ne dans un autre pays UE,80.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2012,SE,M,ne hors UE,68.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2012,SE,T,ne a l etranger,66.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2012,SE,T,ne dans le pays,82.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2012,SE,T,ne dans un autre pays UE,76.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2012,SE,T,ne hors UE,62.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2013,DE,F,ne a l etranger,60.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2013,DE,F,ne dans le pays,75.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2013,DE,M,ne a l etranger,78.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2013,DE,M,ne dans le pays,82.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2013,DE,T,ne a l etranger,69.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2013,DE,T,ne dans le pays,78.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2013,ES,F,ne a l etranger,51.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2013,ES,F,ne dans le pays,54.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2013,ES,F,ne dans un autre pays UE,55.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2013,ES,F,ne hors UE,49.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2013,ES,M,ne a l etranger,57.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2013,ES,M,ne dans le pays,64.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2013,ES,M,ne dans un autre pays UE,62.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2013,ES,M,ne hors UE,55.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2013,ES,T,ne a l etranger,54.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2013,ES,T,ne dans le pays,59.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2013,ES,T,ne dans un autre pays UE,58.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2013,ES,T,ne hors UE,52.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2013,EU27_2020,F,ne a l etranger,54.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2013,EU27_2020,F,ne dans le pays,62.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2013,EU27_2020,F,ne dans un autre pays UE,61.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2013,EU27_2020,F,ne hors UE,49.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2013,EU27_2020,M,ne a l etranger,70.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2013,EU27_2020,M,ne dans le pays,73.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2013,EU27_2020,M,ne dans un autre pays UE,72.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2013,EU27_2020,M,ne hors UE,65.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2013,EU27_2020,T,ne a l etranger,62.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2013,EU27_2020,T,ne dans le pays,68.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2013,EU27_2020,T,ne dans un autre pays UE,66.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2013,EU27_2020,T,ne hors UE,57.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2013,FR,F,ne a l etranger,50.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2013,FR,F,ne dans le pays,68.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2013,FR,F,ne dans un autre pays UE,64.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2013,FR,F,ne hors UE,45.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2013,FR,M,ne a l etranger,68.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2013,FR,M,ne dans le pays,74.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2013,FR,M,ne dans un autre pays UE,75.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2013,FR,M,ne hors UE,66.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2013,FR,T,ne a l etranger,58.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2013,FR,T,ne dans le pays,71.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2013,FR,T,ne dans un autre pays UE,69.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2013,FR,T,ne hors UE,55.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2013,IT,F,ne a l etranger,51.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2013,IT,F,ne dans le pays,49.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2013,IT,F,ne dans un autre pays UE,56.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2013,IT,F,ne hors UE,49.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2013,IT,M,ne a l etranger,72.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2013,IT,M,ne dans le pays,69.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2013,IT,M,ne dans un autre pays UE,73.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2013,IT,M,ne hors UE,72.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2013,IT,T,ne a l etranger,61.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2013,IT,T,ne dans le pays,59.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2013,IT,T,ne dans un autre pays UE,62.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2013,IT,T,ne hors UE,60.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2013,NL,F,ne a l etranger,55.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2013,NL,F,ne dans le pays,73.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2013,NL,F,ne dans un autre pays UE,67.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2013,NL,F,ne hors UE,52.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2013,NL,M,ne a l etranger,70.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2013,NL,M,ne dans le pays,82.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2013,NL,M,ne dans un autre pays UE,82.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2013,NL,M,ne hors UE,67.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2013,NL,T,ne a l etranger,62.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2013,NL,T,ne dans le pays,78.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2013,NL,T,ne dans un autre pays UE,73.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2013,NL,T,ne hors UE,59.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2013,SE,F,ne a l etranger,61.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2013,SE,F,ne dans le pays,81.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2013,SE,F,ne dans un autre pays UE,73.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2013,SE,F,ne hors UE,56.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2013,SE,M,ne a l etranger,71.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2013,SE,M,ne dans le pays,84.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2013,SE,M,ne dans un autre pays UE,80.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2013,SE,M,ne hors UE,68.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2013,SE,T,ne a l etranger,66.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2013,SE,T,ne dans le pays,83.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2013,SE,T,ne dans un autre pays UE,76.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2013,SE,T,ne hors UE,62.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2014,DE,F,ne a l etranger,61.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2014,DE,F,ne dans le pays,75.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2014,DE,M,ne a l etranger,78.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2014,DE,M,ne dans le pays,83.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2014,DE,T,ne a l etranger,69.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2014,DE,T,ne dans le pays,79.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2014,ES,F,ne a l etranger,52.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2014,ES,F,ne dans le pays,55.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2014,ES,F,ne dans un autre pays UE,55.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2014,ES,F,ne hors UE,50.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2014,ES,M,ne a l etranger,59.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2014,ES,M,ne dans le pays,65.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2014,ES,M,ne dans un autre pays UE,64.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2014,ES,M,ne hors UE,58.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2014,ES,T,ne a l etranger,55.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2014,ES,T,ne dans le pays,60.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2014,ES,T,ne dans un autre pays UE,59.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2014,ES,T,ne hors UE,54.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2014,EU27_2020,F,ne a l etranger,55.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2014,EU27_2020,F,ne dans le pays,63.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2014,EU27_2020,F,ne dans un autre pays UE,61.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2014,EU27_2020,F,ne hors UE,50.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2014,EU27_2020,M,ne a l etranger,70.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2014,EU27_2020,M,ne dans le pays,74.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2014,EU27_2020,M,ne dans un autre pays UE,73.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2014,EU27_2020,M,ne hors UE,65.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2014,EU27_2020,T,ne a l etranger,63.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2014,EU27_2020,T,ne dans le pays,68.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2014,EU27_2020,T,ne dans un autre pays UE,66.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2014,EU27_2020,T,ne hors UE,57.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2014,FR,F,ne a l etranger,51.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2014,FR,F,ne dans le pays,67.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2014,FR,F,ne dans un autre pays UE,65.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2014,FR,F,ne hors UE,47.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2014,FR,M,ne a l etranger,66.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2014,FR,M,ne dans le pays,74.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2014,FR,M,ne dans un autre pays UE,71.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2014,FR,M,ne hors UE,64.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2014,FR,T,ne a l etranger,58.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2014,FR,T,ne dans le pays,70.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2014,FR,T,ne dans un autre pays UE,68.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2014,FR,T,ne hors UE,55.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2014,IT,F,ne a l etranger,52.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2014,IT,F,ne dans le pays,50.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2014,IT,F,ne dans un autre pays UE,56.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2014,IT,F,ne hors UE,49.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2014,IT,M,ne a l etranger,72.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2014,IT,M,ne dans le pays,69.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2014,IT,M,ne dans un autre pays UE,72.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2014,IT,M,ne hors UE,72.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2014,IT,T,ne a l etranger,61.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2014,IT,T,ne dans le pays,59.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2014,IT,T,ne dans un autre pays UE,62.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2014,IT,T,ne hors UE,60.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2014,NL,F,ne a l etranger,54.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2014,NL,F,ne dans le pays,72.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2014,NL,F,ne dans un autre pays UE,68.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2014,NL,F,ne hors UE,50.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2014,NL,M,ne a l etranger,71.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2014,NL,M,ne dans le pays,82.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2014,NL,M,ne dans un autre pays UE,83.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2014,NL,M,ne hors UE,68.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2014,NL,T,ne a l etranger,62.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2014,NL,T,ne dans le pays,77.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2014,NL,T,ne dans un autre pays UE,74.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2014,NL,T,ne hors UE,59.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2014,SE,F,ne a l etranger,61.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2014,SE,F,ne dans le pays,82.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2014,SE,F,ne dans un autre pays UE,73.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2014,SE,F,ne hors UE,57.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2014,SE,M,ne a l etranger,72.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2014,SE,M,ne dans le pays,84.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2014,SE,M,ne dans un autre pays UE,80.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2014,SE,M,ne hors UE,69.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2014,SE,T,ne a l etranger,66.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2014,SE,T,ne dans le pays,83.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2014,SE,T,ne dans un autre pays UE,76.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2014,SE,T,ne hors UE,63.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2015,DE,F,ne a l etranger,61.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2015,DE,F,ne dans le pays,76.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2015,DE,M,ne a l etranger,78.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2015,DE,M,ne dans le pays,83.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2015,DE,T,ne a l etranger,69.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2015,DE,T,ne dans le pays,79.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2015,ES,F,ne a l etranger,53.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2015,ES,F,ne dans le pays,56.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2015,ES,F,ne dans un autre pays UE,58.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2015,ES,F,ne hors UE,52.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2015,ES,M,ne a l etranger,64.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2015,ES,M,ne dans le pays,68.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2015,ES,M,ne dans un autre pays UE,70.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2015,ES,M,ne hors UE,62.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2015,ES,T,ne a l etranger,58.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2015,ES,T,ne dans le pays,62.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2015,ES,T,ne dans un autre pays UE,63.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2015,ES,T,ne hors UE,56.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2015,EU27_2020,F,ne a l etranger,55.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2015,EU27_2020,F,ne dans le pays,64.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2015,EU27_2020,F,ne dans un autre pays UE,61.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2015,EU27_2020,F,ne hors UE,50.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2015,EU27_2020,M,ne a l etranger,72.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2015,EU27_2020,M,ne dans le pays,75.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2015,EU27_2020,M,ne dans un autre pays UE,74.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2015,EU27_2020,M,ne hors UE,67.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2015,EU27_2020,T,ne a l etranger,63.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2015,EU27_2020,T,ne dans le pays,69.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2015,EU27_2020,T,ne dans un autre pays UE,67.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2015,EU27_2020,T,ne hors UE,58.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2015,FR,F,ne a l etranger,51.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2015,FR,F,ne dans le pays,68.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2015,FR,F,ne dans un autre pays UE,64.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2015,FR,F,ne hors UE,47.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2015,FR,M,ne a l etranger,65.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2015,FR,M,ne dans le pays,74.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2015,FR,M,ne dans un autre pays UE,70.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2015,FR,M,ne hors UE,64.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2015,FR,T,ne a l etranger,57.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2015,FR,T,ne dans le pays,71.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2015,FR,T,ne dans un autre pays UE,67.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2015,FR,T,ne hors UE,55.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2015,IT,F,ne a l etranger,51.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2015,IT,F,ne dans le pays,50.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2015,IT,F,ne dans un autre pays UE,56.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2015,IT,F,ne hors UE,48.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2015,IT,M,ne a l etranger,74.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2015,IT,M,ne dans le pays,70.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2015,IT,M,ne dans un autre pays UE,74.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2015,IT,M,ne hors UE,74.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2015,IT,T,ne a l etranger,61.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2015,IT,T,ne dans le pays,60.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2015,IT,T,ne dans un autre pays UE,63.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2015,IT,T,ne hors UE,60.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2015,NL,F,ne a l etranger,53.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2015,NL,F,ne dans le pays,73.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2015,NL,F,ne dans un autre pays UE,66.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2015,NL,F,ne hors UE,49.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2015,NL,M,ne a l etranger,71.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2015,NL,M,ne dans le pays,83.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2015,NL,M,ne dans un autre pays UE,82.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2015,NL,M,ne hors UE,69.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2015,NL,T,ne a l etranger,62.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2015,NL,T,ne dans le pays,78.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2015,NL,T,ne dans un autre pays UE,72.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2015,NL,T,ne hors UE,59.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2015,SE,F,ne a l etranger,63.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2015,SE,F,ne dans le pays,82.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2015,SE,F,ne dans un autre pays UE,74.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2015,SE,F,ne hors UE,59.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2015,SE,M,ne a l etranger,71.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2015,SE,M,ne dans le pays,85.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2015,SE,M,ne dans un autre pays UE,82.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2015,SE,M,ne hors UE,68.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2015,SE,T,ne a l etranger,67.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2015,SE,T,ne dans le pays,84.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2015,SE,T,ne dans un autre pays UE,77.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2015,SE,T,ne hors UE,64.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2016,DE,F,ne a l etranger,61.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2016,DE,F,ne dans le pays,77.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2016,DE,M,ne a l etranger,77.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2016,DE,M,ne dans le pays,84.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2016,DE,T,ne a l etranger,69.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2016,DE,T,ne dans le pays,80.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2016,ES,F,ne a l etranger,55.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2016,ES,F,ne dans le pays,58.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2016,ES,F,ne dans un autre pays UE,58.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2016,ES,F,ne hors UE,53.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2016,ES,M,ne a l etranger,67.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2016,ES,M,ne dans le pays,69.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2016,ES,M,ne dans un autre pays UE,72.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2016,ES,M,ne hors UE,66.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2016,ES,T,ne a l etranger,61.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2016,ES,T,ne dans le pays,64.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2016,ES,T,ne dans un autre pays UE,64.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2016,ES,T,ne hors UE,59.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2016,EU27_2020,F,ne a l etranger,56.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2016,EU27_2020,F,ne dans le pays,65.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2016,EU27_2020,F,ne dans un autre pays UE,63.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2016,EU27_2020,F,ne hors UE,50.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2016,EU27_2020,M,ne a l etranger,72.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2016,EU27_2020,M,ne dans le pays,76.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2016,EU27_2020,M,ne dans un autre pays UE,75.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2016,EU27_2020,M,ne hors UE,69.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2016,EU27_2020,T,ne a l etranger,64.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2016,EU27_2020,T,ne dans le pays,70.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2016,EU27_2020,T,ne dans un autre pays UE,69.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2016,EU27_2020,T,ne hors UE,59.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2016,FR,F,ne a l etranger,50.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2016,FR,F,ne dans le pays,69.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2016,FR,F,ne dans un autre pays UE,66.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2016,FR,F,ne hors UE,45.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2016,FR,M,ne a l etranger,66.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2016,FR,M,ne dans le pays,74.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2016,FR,M,ne dans un autre pays UE,71.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2016,FR,M,ne hors UE,65.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2016,FR,T,ne a l etranger,57.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2016,FR,T,ne dans le pays,72.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2016,FR,T,ne dans un autre pays UE,68.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2016,FR,T,ne hors UE,54.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2016,IT,F,ne a l etranger,50.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2016,IT,F,ne dans le pays,51.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2016,IT,F,ne dans un autre pays UE,57.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2016,IT,F,ne hors UE,47.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2016,IT,M,ne a l etranger,75.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2016,IT,M,ne dans le pays,71.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2016,IT,M,ne dans un autre pays UE,74.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2016,IT,M,ne hors UE,76.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2016,IT,T,ne a l etranger,62.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2016,IT,T,ne dans le pays,61.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2016,IT,T,ne dans un autre pays UE,64.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2016,IT,T,ne hors UE,61.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2016,NL,F,ne a l etranger,55.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2016,NL,F,ne dans le pays,74.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2016,NL,F,ne dans un autre pays UE,69.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2016,NL,F,ne hors UE,51.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2016,NL,M,ne a l etranger,71.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2016,NL,M,ne dans le pays,84.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2016,NL,M,ne dans un autre pays UE,83.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2016,NL,M,ne hors UE,68.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2016,NL,T,ne a l etranger,62.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2016,NL,T,ne dans le pays,79.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2016,NL,T,ne dans un autre pays UE,75.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2016,NL,T,ne hors UE,59.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2016,SE,F,ne a l etranger,64.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2016,SE,F,ne dans le pays,83.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2016,SE,F,ne dans un autre pays UE,75.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2016,SE,F,ne hors UE,60.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2016,SE,M,ne a l etranger,72.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2016,SE,M,ne dans le pays,85.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2016,SE,M,ne dans un autre pays UE,82.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2016,SE,M,ne hors UE,70.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2016,SE,T,ne a l etranger,68.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2016,SE,T,ne dans le pays,84.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2016,SE,T,ne dans un autre pays UE,78.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2016,SE,T,ne hors UE,65.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2017,DE,F,ne a l etranger,62.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2017,DE,F,ne dans le pays,78.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2017,DE,F,ne dans un autre pays UE,71.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2017,DE,F,ne hors UE,57.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2017,DE,M,ne a l etranger,77.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2017,DE,M,ne dans le pays,84.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2017,DE,M,ne dans un autre pays UE,86.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2017,DE,M,ne hors UE,71.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2017,DE,T,ne a l etranger,69.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2017,DE,T,ne dans le pays,81.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2017,DE,T,ne dans un autre pays UE,79.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2017,DE,T,ne hors UE,64.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2017,ES,F,ne a l etranger,57.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2017,ES,F,ne dans le pays,60.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2017,ES,F,ne dans un autre pays UE,60.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2017,ES,F,ne hors UE,56.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2017,ES,M,ne a l etranger,69.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2017,ES,M,ne dans le pays,71.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2017,ES,M,ne dans un autre pays UE,74.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2017,ES,M,ne hors UE,68.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2017,ES,T,ne a l etranger,63.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2017,ES,T,ne dans le pays,66.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2017,ES,T,ne dans un autre pays UE,66.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2017,ES,T,ne hors UE,61.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2017,EU27_2020,F,ne a l etranger,57.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2017,EU27_2020,F,ne dans le pays,66.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2017,EU27_2020,F,ne dans un autre pays UE,66.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2017,EU27_2020,F,ne hors UE,53.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2017,EU27_2020,M,ne a l etranger,73.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2017,EU27_2020,M,ne dans le pays,77.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2017,EU27_2020,M,ne dans un autre pays UE,80.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2017,EU27_2020,M,ne hors UE,70.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2017,EU27_2020,T,ne a l etranger,65.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2017,EU27_2020,T,ne dans le pays,72.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2017,EU27_2020,T,ne dans un autre pays UE,73.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2017,EU27_2020,T,ne hors UE,61.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2017,FR,F,ne a l etranger,50.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2017,FR,F,ne dans le pays,69.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2017,FR,F,ne dans un autre pays UE,67.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2017,FR,F,ne hors UE,46.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2017,FR,M,ne a l etranger,68.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2017,FR,M,ne dans le pays,75.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2017,FR,M,ne dans un autre pays UE,72.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2017,FR,M,ne hors UE,67.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2017,FR,T,ne a l etranger,58.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2017,FR,T,ne dans le pays,72.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2017,FR,T,ne dans un autre pays UE,69.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2017,FR,T,ne hors UE,56.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2017,IT,F,ne a l etranger,51.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2017,IT,F,ne dans le pays,52.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2017,IT,F,ne dans un autre pays UE,56.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2017,IT,F,ne hors UE,48.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2017,IT,M,ne a l etranger,76.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2017,IT,M,ne dans le pays,71.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2017,IT,M,ne dans un autre pays UE,74.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2017,IT,M,ne hors UE,76.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2017,IT,T,ne a l etranger,62.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2017,IT,T,ne dans le pays,62.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2017,IT,T,ne dans un autre pays UE,64.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2017,IT,T,ne hors UE,62.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2017,NL,F,ne a l etranger,57.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2017,NL,F,ne dans le pays,75.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2017,NL,F,ne dans un autre pays UE,72.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2017,NL,F,ne hors UE,52.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2017,NL,M,ne a l etranger,72.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2017,NL,M,ne dans le pays,85.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2017,NL,M,ne dans un autre pays UE,84.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2017,NL,M,ne hors UE,69.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2017,NL,T,ne a l etranger,64.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2017,NL,T,ne dans le pays,80.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2017,NL,T,ne dans un autre pays UE,77.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2017,NL,T,ne hors UE,60.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2017,SE,F,ne a l etranger,65.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2017,SE,F,ne dans le pays,84.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2017,SE,F,ne dans un autre pays UE,78.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2017,SE,F,ne hors UE,61.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2017,SE,M,ne a l etranger,74.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2017,SE,M,ne dans le pays,86.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2017,SE,M,ne dans un autre pays UE,83.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2017,SE,M,ne hors UE,71.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2017,SE,T,ne a l etranger,69.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2017,SE,T,ne dans le pays,85.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2017,SE,T,ne dans un autre pays UE,80.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2017,SE,T,ne hors UE,66.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2018,DE,F,ne a l etranger,63.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2018,DE,F,ne dans le pays,79.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2018,DE,F,ne dans un autre pays UE,73.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2018,DE,F,ne hors UE,57.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2018,DE,M,ne a l etranger,78.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2018,DE,M,ne dans le pays,85.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2018,DE,M,ne dans un autre pays UE,87.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2018,DE,M,ne hors UE,74.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2018,DE,T,ne a l etranger,71.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2018,DE,T,ne dans le pays,82.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2018,DE,T,ne dans un autre pays UE,80.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2018,DE,T,ne hors UE,66.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2018,ES,F,ne a l etranger,58.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2018,ES,F,ne dans le pays,61.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2018,ES,F,ne dans un autre pays UE,61.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2018,ES,F,ne hors UE,57.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2018,ES,M,ne a l etranger,72.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2018,ES,M,ne dans le pays,73.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2018,ES,M,ne dans un autre pays UE,77.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2018,ES,M,ne hors UE,70.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2018,ES,T,ne a l etranger,64.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2018,ES,T,ne dans le pays,67.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2018,ES,T,ne dans un autre pays UE,69.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2018,ES,T,ne hors UE,63.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2018,EU27_2020,F,ne a l etranger,58.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2018,EU27_2020,F,ne dans le pays,67.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2018,EU27_2020,F,ne dans un autre pays UE,67.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2018,EU27_2020,F,ne hors UE,54.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2018,EU27_2020,M,ne a l etranger,75.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2018,EU27_2020,M,ne dans le pays,78.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2018,EU27_2020,M,ne dans un autre pays UE,82.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2018,EU27_2020,M,ne hors UE,73.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2018,EU27_2020,T,ne a l etranger,66.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2018,EU27_2020,T,ne dans le pays,73.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2018,EU27_2020,T,ne dans un autre pays UE,74.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2018,EU27_2020,T,ne hors UE,63.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2018,FR,F,ne a l etranger,51.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2018,FR,F,ne dans le pays,70.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2018,FR,F,ne dans un autre pays UE,68.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2018,FR,F,ne hors UE,47.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2018,FR,M,ne a l etranger,70.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2018,FR,M,ne dans le pays,76.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2018,FR,M,ne dans un autre pays UE,76.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2018,FR,M,ne hors UE,69.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2018,FR,T,ne a l etranger,60.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2018,FR,T,ne dans le pays,73.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2018,FR,T,ne dans un autre pays UE,72.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2018,FR,T,ne hors UE,57.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2018,IT,F,ne a l etranger,52.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2018,IT,F,ne dans le pays,53.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2018,IT,F,ne dans un autre pays UE,55.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2018,IT,F,ne hors UE,50.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2018,IT,M,ne a l etranger,77.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2018,IT,M,ne dans le pays,72.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2018,IT,M,ne dans un autre pays UE,76.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2018,IT,M,ne hors UE,77.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2018,IT,T,ne a l etranger,63.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2018,IT,T,ne dans le pays,63.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2018,IT,T,ne dans un autre pays UE,63.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2018,IT,T,ne hors UE,63.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2018,NL,F,ne a l etranger,58.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2018,NL,F,ne dans le pays,77.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2018,NL,F,ne dans un autre pays UE,70.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2018,NL,F,ne hors UE,54.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2018,NL,M,ne a l etranger,75.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2018,NL,M,ne dans le pays,85.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2018,NL,M,ne dans un autre pays UE,84.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2018,NL,M,ne hors UE,72.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2018,NL,T,ne a l etranger,65.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2018,NL,T,ne dans le pays,81.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2018,NL,T,ne dans un autre pays UE,76.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2018,NL,T,ne hors UE,62.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2018,SE,F,ne a l etranger,65.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2018,SE,F,ne dans le pays,85.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2018,SE,F,ne dans un autre pays UE,79.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2018,SE,F,ne hors UE,60.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2018,SE,M,ne a l etranger,74.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2018,SE,M,ne dans le pays,87.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2018,SE,M,ne dans un autre pays UE,84.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2018,SE,M,ne hors UE,72.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2018,SE,T,ne a l etranger,70.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2018,SE,T,ne dans le pays,86.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2018,SE,T,ne dans un autre pays UE,82.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2018,SE,T,ne hors UE,66.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2019,DE,F,ne a l etranger,64.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2019,DE,F,ne dans le pays,79.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2019,DE,F,ne dans un autre pays UE,74.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2019,DE,F,ne hors UE,58.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2019,DE,M,ne a l etranger,80.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2019,DE,M,ne dans le pays,85.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2019,DE,M,ne dans un autre pays UE,88.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2019,DE,M,ne hors UE,76.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2019,DE,T,ne a l etranger,72.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2019,DE,T,ne dans le pays,82.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2019,DE,T,ne dans un autre pays UE,81.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2019,DE,T,ne hors UE,67.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2019,ES,F,ne a l etranger,58.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2019,ES,F,ne dans le pays,63.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2019,ES,F,ne dans un autre pays UE,64.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2019,ES,F,ne hors UE,56.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2019,ES,M,ne a l etranger,74.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2019,ES,M,ne dans le pays,73.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2019,ES,M,ne dans un autre pays UE,78.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2019,ES,M,ne hors UE,72.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2019,ES,T,ne a l etranger,65.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2019,ES,T,ne dans le pays,68.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2019,ES,T,ne dans un autre pays UE,71.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2019,ES,T,ne hors UE,63.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2019,EU27_2020,F,ne a l etranger,59.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2019,EU27_2020,F,ne dans le pays,68.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2019,EU27_2020,F,ne dans un autre pays UE,68.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2019,EU27_2020,F,ne hors UE,54.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2019,EU27_2020,M,ne a l etranger,76.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2019,EU27_2020,M,ne dans le pays,79.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2019,EU27_2020,M,ne dans un autre pays UE,82.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2019,EU27_2020,M,ne hors UE,74.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2019,EU27_2020,T,ne a l etranger,67.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2019,EU27_2020,T,ne dans le pays,74.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2019,EU27_2020,T,ne dans un autre pays UE,75.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2019,EU27_2020,T,ne hors UE,64.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2019,FR,F,ne a l etranger,52.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2019,FR,F,ne dans le pays,70.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2019,FR,F,ne dans un autre pays UE,68.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2019,FR,F,ne hors UE,48.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2019,FR,M,ne a l etranger,70.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2019,FR,M,ne dans le pays,76.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2019,FR,M,ne dans un autre pays UE,74.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2019,FR,M,ne hors UE,69.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2019,FR,T,ne a l etranger,61.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2019,FR,T,ne dans le pays,73.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2019,FR,T,ne dans un autre pays UE,71.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2019,FR,T,ne hors UE,58.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2019,IT,F,ne a l etranger,51.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2019,IT,F,ne dans le pays,54.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2019,IT,F,ne dans un autre pays UE,55.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2019,IT,F,ne hors UE,49.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2019,IT,M,ne a l etranger,78.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2019,IT,M,ne dans le pays,72.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2019,IT,M,ne dans un autre pays UE,76.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2019,IT,M,ne hors UE,79.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2019,IT,T,ne a l etranger,63.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2019,IT,T,ne dans le pays,63.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2019,IT,T,ne dans un autre pays UE,64.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2019,IT,T,ne hors UE,63.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2019,NL,F,ne a l etranger,61.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2019,NL,F,ne dans le pays,78.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2019,NL,F,ne dans un autre pays UE,75.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2019,NL,F,ne hors UE,56.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2019,NL,M,ne a l etranger,75.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2019,NL,M,ne dans le pays,86.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2019,NL,M,ne dans un autre pays UE,81.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2019,NL,M,ne hors UE,73.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2019,NL,T,ne a l etranger,67.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2019,NL,T,ne dans le pays,82.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2019,NL,T,ne dans un autre pays UE,77.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2019,NL,T,ne hors UE,64.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2019,SE,F,ne a l etranger,63.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2019,SE,F,ne dans le pays,85.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2019,SE,F,ne dans un autre pays UE,77.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2019,SE,F,ne hors UE,59.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2019,SE,M,ne a l etranger,75.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2019,SE,M,ne dans le pays,87.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2019,SE,M,ne dans un autre pays UE,85.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2019,SE,M,ne hors UE,73.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2019,SE,T,ne a l etranger,69.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2019,SE,T,ne dans le pays,86.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2019,SE,T,ne dans un autre pays UE,81.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2019,SE,T,ne hors UE,66.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2020,DE,F,ne a l etranger,61.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2020,DE,F,ne dans le pays,79.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2020,DE,F,ne dans un autre pays UE,73.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2020,DE,F,ne hors UE,55.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2020,DE,M,ne a l etranger,77.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2020,DE,M,ne dans le pays,84.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2020,DE,M,ne dans un autre pays UE,84.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2020,DE,M,ne hors UE,73.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2020,DE,T,ne a l etranger,69.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2020,DE,T,ne dans le pays,81.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2020,DE,T,ne dans un autre pays UE,78.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2020,DE,T,ne hors UE,64.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2020,ES,F,ne a l etranger,53.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2020,ES,F,ne dans le pays,61.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2020,ES,F,ne dans un autre pays UE,58.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2020,ES,F,ne hors UE,52.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2020,ES,M,ne a l etranger,67.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2020,ES,M,ne dans le pays,72.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2020,ES,M,ne dans un autre pays UE,72.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2020,ES,M,ne hors UE,66.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2020,ES,T,ne a l etranger,60.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2020,ES,T,ne dans le pays,67.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2020,ES,T,ne dans un autre pays UE,65.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2020,ES,T,ne hors UE,58.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2020,EU27_2020,F,ne a l etranger,56.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2020,EU27_2020,F,ne dans le pays,68.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2020,EU27_2020,F,ne dans un autre pays UE,67.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2020,EU27_2020,F,ne hors UE,52.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2020,EU27_2020,M,ne a l etranger,74.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2020,EU27_2020,M,ne dans le pays,78.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2020,EU27_2020,M,ne dans un autre pays UE,80.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2020,EU27_2020,M,ne hors UE,72.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2020,EU27_2020,T,ne a l etranger,65.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2020,EU27_2020,T,ne dans le pays,73.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2020,EU27_2020,T,ne dans un autre pays UE,73.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2020,EU27_2020,T,ne hors UE,61.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2020,FR,F,ne a l etranger,52.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2020,FR,F,ne dans le pays,70.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2020,FR,F,ne dans un autre pays UE,70.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2020,FR,F,ne hors UE,48.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2020,FR,M,ne a l etranger,70.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2020,FR,M,ne dans le pays,75.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2020,FR,M,ne dans un autre pays UE,75.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2020,FR,M,ne hors UE,69.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2020,FR,T,ne a l etranger,61.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2020,FR,T,ne dans le pays,73.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2020,FR,T,ne dans un autre pays UE,72.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2020,FR,T,ne hors UE,58.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2020,IT,F,ne a l etranger,47.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2020,IT,F,ne dans le pays,53.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2020,IT,F,ne dans un autre pays UE,51.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2020,IT,F,ne hors UE,45.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2020,IT,M,ne a l etranger,76.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2020,IT,M,ne dans le pays,72.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2020,IT,M,ne dans un autre pays UE,74.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2020,IT,M,ne hors UE,77.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2020,IT,T,ne a l etranger,60.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2020,IT,T,ne dans le pays,62.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2020,IT,T,ne dans un autre pays UE,60.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2020,IT,T,ne hors UE,60.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2020,NL,F,ne a l etranger,61.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2020,NL,F,ne dans le pays,78.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2020,NL,F,ne dans un autre pays UE,73.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2020,NL,F,ne hors UE,57.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2020,NL,M,ne a l etranger,74.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2020,NL,M,ne dans le pays,86.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2020,NL,M,ne dans un autre pays UE,82.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2020,NL,M,ne hors UE,72.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2020,NL,T,ne a l etranger,67.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2020,NL,T,ne dans le pays,82.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2020,NL,T,ne dans un autre pays UE,77.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2020,NL,T,ne hors UE,64.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2020,SE,F,ne a l etranger,61.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2020,SE,F,ne dans le pays,84.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2020,SE,F,ne dans un autre pays UE,78.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2020,SE,F,ne hors UE,56.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2020,SE,M,ne a l etranger,73.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2020,SE,M,ne dans le pays,86.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2020,SE,M,ne dans un autre pays UE,86.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2020,SE,M,ne hors UE,70.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2020,SE,T,ne a l etranger,67.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2020,SE,T,ne dans le pays,85.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2020,SE,T,ne dans un autre pays UE,82.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2020,SE,T,ne hors UE,63.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2021,DE,F,ne a l etranger,62.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2021,DE,F,ne dans le pays,79.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2021,DE,F,ne dans un autre pays UE,74.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2021,DE,F,ne hors UE,56.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2021,DE,M,ne a l etranger,77.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2021,DE,M,ne dans le pays,84.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2021,DE,M,ne dans un autre pays UE,85.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2021,DE,M,ne hors UE,74.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2021,DE,T,ne a l etranger,70.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2021,DE,T,ne dans le pays,82.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2021,DE,T,ne dans un autre pays UE,79.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2021,DE,T,ne hors UE,65.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2021,ES,F,ne a l etranger,56.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2021,ES,F,ne dans le pays,63.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2021,ES,F,ne dans un autre pays UE,59.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2021,ES,F,ne hors UE,55.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2021,ES,M,ne a l etranger,71.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2021,ES,M,ne dans le pays,73.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2021,ES,M,ne dans un autre pays UE,74.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2021,ES,M,ne hors UE,70.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2021,ES,T,ne a l etranger,63.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2021,ES,T,ne dans le pays,68.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2021,ES,T,ne dans un autre pays UE,66.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2021,ES,T,ne hors UE,62.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2021,EU27_2020,F,ne a l etranger,58.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2021,EU27_2020,F,ne dans le pays,69.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2021,EU27_2020,F,ne dans un autre pays UE,68.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2021,EU27_2020,F,ne hors UE,54.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2021,EU27_2020,M,ne a l etranger,75.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2021,EU27_2020,M,ne dans le pays,78.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2021,EU27_2020,M,ne dans un autre pays UE,81.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2021,EU27_2020,M,ne hors UE,73.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2021,EU27_2020,T,ne a l etranger,66.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2021,EU27_2020,T,ne dans le pays,74.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2021,EU27_2020,T,ne dans un autre pays UE,74.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2021,EU27_2020,T,ne hors UE,63.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2021,FR,F,ne a l etranger,55.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2021,FR,F,ne dans le pays,72.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2021,FR,F,ne dans un autre pays UE,71.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2021,FR,F,ne hors UE,51.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2021,FR,M,ne a l etranger,72.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2021,FR,M,ne dans le pays,77.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2021,FR,M,ne dans un autre pays UE,78.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2021,FR,M,ne hors UE,70.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2021,FR,T,ne a l etranger,63.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2021,FR,T,ne dans le pays,74.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2021,FR,T,ne dans un autre pays UE,74.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2021,FR,T,ne hors UE,60.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2021,IT,F,ne a l etranger,48.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2021,IT,F,ne dans le pays,54.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2021,IT,F,ne dans un autre pays UE,53.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2021,IT,F,ne hors UE,46.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2021,IT,M,ne a l etranger,76.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2021,IT,M,ne dans le pays,71.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2021,IT,M,ne dans un autre pays UE,76.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2021,IT,M,ne hors UE,76.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2021,IT,T,ne a l etranger,61.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2021,IT,T,ne dans le pays,63.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2021,IT,T,ne dans un autre pays UE,62.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2021,IT,T,ne hors UE,60.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2021,NL,F,ne a l etranger,60.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2021,NL,F,ne dans le pays,81.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2021,NL,F,ne dans un autre pays UE,73.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2021,NL,F,ne hors UE,55.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2021,NL,M,ne a l etranger,75.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2021,NL,M,ne dans le pays,87.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2021,NL,M,ne dans un autre pays UE,84.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2021,NL,M,ne hors UE,72.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2021,NL,T,ne a l etranger,67.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2021,NL,T,ne dans le pays,84.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2021,NL,T,ne dans un autre pays UE,78.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2021,NL,T,ne hors UE,63.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2021,SE,F,ne a l etranger,62.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2021,SE,F,ne dans le pays,83.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2021,SE,F,ne dans un autre pays UE,81.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2021,SE,F,ne hors UE,55.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2021,SE,M,ne a l etranger,74.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2021,SE,M,ne dans le pays,86.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2021,SE,M,ne dans un autre pays UE,86.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2021,SE,M,ne hors UE,70.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2021,SE,T,ne a l etranger,68.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2021,SE,T,ne dans le pays,84.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2021,SE,T,ne dans un autre pays UE,83.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2021,SE,T,ne hors UE,63.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2022,DE,F,ne a l etranger,63.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2022,DE,F,ne dans le pays,80.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2022,DE,F,ne dans un autre pays UE,76.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2022,DE,F,ne hors UE,57.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2022,DE,M,ne a l etranger,80.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2022,DE,M,ne dans le pays,85.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2022,DE,M,ne dans un autre pays UE,87.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2022,DE,M,ne hors UE,77.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2022,DE,T,ne a l etranger,72.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2022,DE,T,ne dans le pays,83.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2022,DE,T,ne dans un autre pays UE,81.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2022,DE,T,ne hors UE,67.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2022,ES,F,ne a l etranger,58.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2022,ES,F,ne dans le pays,65.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2022,ES,F,ne dans un autre pays UE,61.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2022,ES,F,ne hors UE,57.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2022,ES,M,ne a l etranger,74.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2022,ES,M,ne dans le pays,75.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2022,ES,M,ne dans un autre pays UE,77.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2022,ES,M,ne hors UE,73.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2022,ES,T,ne a l etranger,65.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2022,ES,T,ne dans le pays,70.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2022,ES,T,ne dans un autre pays UE,69.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2022,ES,T,ne hors UE,64.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2022,EU27_2020,F,ne a l etranger,60.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2022,EU27_2020,F,ne dans le pays,70.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2022,EU27_2020,F,ne dans un autre pays UE,70.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2022,EU27_2020,F,ne hors UE,56.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2022,EU27_2020,M,ne a l etranger,78.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2022,EU27_2020,M,ne dans le pays,80.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2022,EU27_2020,M,ne dans un autre pays UE,83.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2022,EU27_2020,M,ne hors UE,76.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2022,EU27_2020,T,ne a l etranger,69.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2022,EU27_2020,T,ne dans le pays,75.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2022,EU27_2020,T,ne dans un autre pays UE,76.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2022,EU27_2020,T,ne hors UE,66.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2022,FR,F,ne a l etranger,56.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2022,FR,F,ne dans le pays,73.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2022,FR,F,ne dans un autre pays UE,71.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2022,FR,F,ne hors UE,52.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2022,FR,M,ne a l etranger,72.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2022,FR,M,ne dans le pays,77.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2022,FR,M,ne dans un autre pays UE,75.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2022,FR,M,ne hors UE,71.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2022,FR,T,ne a l etranger,63.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2022,FR,T,ne dans le pays,75.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2022,FR,T,ne dans un autre pays UE,73.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2022,FR,T,ne hors UE,61.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2022,IT,F,ne a l etranger,50.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2022,IT,F,ne dans le pays,55.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2022,IT,F,ne dans un autre pays UE,55.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2022,IT,F,ne hors UE,48.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2022,IT,M,ne a l etranger,80.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2022,IT,M,ne dans le pays,73.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2022,IT,M,ne dans un autre pays UE,81.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2022,IT,M,ne hors UE,80.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2022,IT,T,ne a l etranger,64.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2022,IT,T,ne dans le pays,64.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2022,IT,T,ne dans un autre pays UE,65.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2022,IT,T,ne hors UE,63.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2022,NL,F,ne a l etranger,64.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2022,NL,F,ne dans le pays,82.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2022,NL,F,ne dans un autre pays UE,81.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2022,NL,F,ne hors UE,59.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2022,NL,M,ne a l etranger,78.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2022,NL,M,ne dans le pays,88.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2022,NL,M,ne dans un autre pays UE,89.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2022,NL,M,ne hors UE,75.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2022,NL,T,ne a l etranger,71.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2022,NL,T,ne dans le pays,85.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2022,NL,T,ne dans un autre pays UE,84.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2022,NL,T,ne hors UE,66.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2022,SE,F,ne a l etranger,65.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2022,SE,F,ne dans le pays,83.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2022,SE,F,ne dans un autre pays UE,83.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2022,SE,F,ne hors UE,60.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2022,SE,M,ne a l etranger,78.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2022,SE,M,ne dans le pays,87.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2022,SE,M,ne dans un autre pays UE,85.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2022,SE,M,ne hors UE,77.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2022,SE,T,ne a l etranger,72.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2022,SE,T,ne dans le pays,85.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2022,SE,T,ne dans un autre pays UE,84.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2022,SE,T,ne hors UE,68.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2023,DE,F,ne a l etranger,63.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2023,DE,F,ne dans le pays,81.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2023,DE,F,ne dans un autre pays UE,76.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2023,DE,F,ne hors UE,57.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2023,DE,M,ne a l etranger,80.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2023,DE,M,ne dans le pays,86.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2023,DE,M,ne dans un autre pays UE,87.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2023,DE,M,ne hors UE,77.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2023,DE,T,ne a l etranger,72.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2023,DE,T,ne dans le pays,83.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2023,DE,T,ne dans un autre pays UE,82.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2023,DE,T,ne hors UE,67.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2023,ES,F,ne a l etranger,60.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2023,ES,F,ne dans le pays,66.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2023,ES,F,ne dans un autre pays UE,66.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2023,ES,F,ne hors UE,59.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2023,ES,M,ne a l etranger,75.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2023,ES,M,ne dans le pays,75.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2023,ES,M,ne dans un autre pays UE,78.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2023,ES,M,ne hors UE,74.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2023,ES,T,ne a l etranger,67.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2023,ES,T,ne dans le pays,71.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2023,ES,T,ne dans un autre pays UE,72.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2023,ES,T,ne hors UE,66.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2023,EU27_2020,F,ne a l etranger,61.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2023,EU27_2020,F,ne dans le pays,71.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2023,EU27_2020,F,ne dans un autre pays UE,71.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2023,EU27_2020,F,ne hors UE,57.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2023,EU27_2020,M,ne a l etranger,78.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2023,EU27_2020,M,ne dans le pays,80.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2023,EU27_2020,M,ne dans un autre pays UE,84.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2023,EU27_2020,M,ne hors UE,77.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2023,EU27_2020,T,ne a l etranger,69.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2023,EU27_2020,T,ne dans le pays,76.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2023,EU27_2020,T,ne dans un autre pays UE,77.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2023,EU27_2020,T,ne hors UE,67.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2023,FR,F,ne a l etranger,57.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2023,FR,F,ne dans le pays,74.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2023,FR,F,ne dans un autre pays UE,71.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2023,FR,F,ne hors UE,54.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2023,FR,M,ne a l etranger,73.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2023,FR,M,ne dans le pays,77.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2023,FR,M,ne dans un autre pays UE,77.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2023,FR,M,ne hors UE,71.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2023,FR,T,ne a l etranger,64.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2023,FR,T,ne dans le pays,76.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2023,FR,T,ne dans un autre pays UE,74.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2023,FR,T,ne hors UE,61.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2023,IT,F,ne a l etranger,52.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2023,IT,F,ne dans le pays,57.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2023,IT,F,ne dans un autre pays UE,56.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2023,IT,F,ne hors UE,50.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2023,IT,M,ne a l etranger,81.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2023,IT,M,ne dans le pays,75.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2023,IT,M,ne dans un autre pays UE,80.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2023,IT,M,ne hors UE,81.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2023,IT,T,ne a l etranger,65.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2023,IT,T,ne dans le pays,66.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2023,IT,T,ne dans un autre pays UE,65.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2023,IT,T,ne hors UE,65.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2023,NL,F,ne a l etranger,67.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2023,NL,F,ne dans le pays,82.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2023,NL,F,ne dans un autre pays UE,81.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2023,NL,F,ne hors UE,61.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2023,NL,M,ne a l etranger,78.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2023,NL,M,ne dans le pays,89.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2023,NL,M,ne dans un autre pays UE,88.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2023,NL,M,ne hors UE,75.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2023,NL,T,ne a l etranger,72.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2023,NL,T,ne dans le pays,85.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2023,NL,T,ne dans un autre pays UE,84.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2023,NL,T,ne hors UE,68.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2023,SE,F,ne a l etranger,69.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2023,SE,F,ne dans le pays,84.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2023,SE,F,ne dans un autre pays UE,85.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2023,SE,F,ne hors UE,64.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2023,SE,M,ne a l etranger,80.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2023,SE,M,ne dans le pays,86.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2023,SE,M,ne dans un autre pays UE,87.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2023,SE,M,ne hors UE,78.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2023,SE,T,ne a l etranger,74.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2023,SE,T,ne dans le pays,85.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2023,SE,T,ne dans un autre pays UE,86.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2023,SE,T,ne hors UE,71.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2024,DE,F,ne a l etranger,64.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2024,DE,F,ne dans le pays,81.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2024,DE,F,ne dans un autre pays UE,76.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2024,DE,F,ne hors UE,58.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2024,DE,M,ne a l etranger,80.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2024,DE,M,ne dans le pays,85.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2024,DE,M,ne dans un autre pays UE,86.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2024,DE,M,ne hors UE,78.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2024,DE,T,ne a l etranger,72.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2024,DE,T,ne dans le pays,83.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2024,DE,T,ne dans un autre pays UE,81.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2024,DE,T,ne hors UE,68.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2024,ES,F,ne a l etranger,61.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2024,ES,F,ne dans le pays,68.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2024,ES,F,ne dans un autre pays UE,67.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2024,ES,F,ne hors UE,60.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2024,ES,M,ne a l etranger,75.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2024,ES,M,ne dans le pays,76.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2024,ES,M,ne dans un autre pays UE,79.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2024,ES,M,ne hors UE,74.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2024,ES,T,ne a l etranger,68.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2024,ES,T,ne dans le pays,72.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2024,ES,T,ne dans un autre pays UE,73.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2024,ES,T,ne hors UE,67.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2024,EU27_2020,F,ne a l etranger,62.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2024,EU27_2020,F,ne dans le pays,72.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2024,EU27_2020,F,ne dans un autre pays UE,71.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2024,EU27_2020,F,ne hors UE,58.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2024,EU27_2020,M,ne a l etranger,79.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2024,EU27_2020,M,ne dans le pays,81.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2024,EU27_2020,M,ne dans un autre pays UE,83.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2024,EU27_2020,M,ne hors UE,77.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2024,EU27_2020,T,ne a l etranger,70.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2024,EU27_2020,T,ne dans le pays,76.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2024,EU27_2020,T,ne dans un autre pays UE,77.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2024,EU27_2020,T,ne hors UE,67.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2024,FR,F,ne a l etranger,57.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2024,FR,F,ne dans le pays,74.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2024,FR,F,ne dans un autre pays UE,69.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2024,FR,F,ne hors UE,54.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2024,FR,M,ne a l etranger,73.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2024,FR,M,ne dans le pays,78.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2024,FR,M,ne dans un autre pays UE,77.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2024,FR,M,ne hors UE,72.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2024,FR,T,ne a l etranger,65.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2024,FR,T,ne dans le pays,76.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2024,FR,T,ne dans un autre pays UE,73.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2024,FR,T,ne hors UE,63.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2024,IT,F,ne a l etranger,52.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2024,IT,F,ne dans le pays,58.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2024,IT,F,ne dans un autre pays UE,57.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2024,IT,F,ne hors UE,50.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2024,IT,M,ne a l etranger,82.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2024,IT,M,ne dans le pays,75.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2024,IT,M,ne dans un autre pays UE,82.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2024,IT,M,ne hors UE,81.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2024,IT,T,ne a l etranger,66.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2024,IT,T,ne dans le pays,67.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2024,IT,T,ne dans un autre pays UE,67.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2024,IT,T,ne hors UE,66.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2024,NL,F,ne a l etranger,66.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2024,NL,F,ne dans le pays,82.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2024,NL,F,ne dans un autre pays UE,79.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2024,NL,F,ne hors UE,62.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2024,NL,M,ne a l etranger,79.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2024,NL,M,ne dans le pays,88.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2024,NL,M,ne dans un autre pays UE,87.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2024,NL,M,ne hors UE,77.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2024,NL,T,ne a l etranger,72.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2024,NL,T,ne dans le pays,85.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2024,NL,T,ne dans un autre pays UE,82.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2024,NL,T,ne hors UE,69.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2024,SE,F,ne a l etranger,69.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2024,SE,F,ne dans le pays,83.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2024,SE,F,ne dans un autre pays UE,83.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2024,SE,F,ne hors UE,65.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2024,SE,M,ne a l etranger,77.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2024,SE,M,ne dans le pays,86.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2024,SE,M,ne dans un autre pays UE,88.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2024,SE,M,ne hors UE,75.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2024,SE,T,ne a l etranger,73.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2024,SE,T,ne dans le pays,85.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2024,SE,T,ne dans un autre pays UE,85.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2024,SE,T,ne hors UE,70.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2025,DE,F,ne a l etranger,64.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2025,DE,F,ne dans le pays,82.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2025,DE,F,ne dans un autre pays UE,76.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2025,DE,F,ne hors UE,59.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2025,DE,M,ne a l etranger,80.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2025,DE,M,ne dans le pays,85.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2025,DE,M,ne dans un autre pays UE,86.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2025,DE,M,ne hors UE,77.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2025,DE,T,ne a l etranger,72.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2025,DE,T,ne dans le pays,84.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2025,DE,T,ne dans un autre pays UE,81.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2025,DE,T,ne hors UE,69.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2025,ES,F,ne a l etranger,62.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2025,ES,F,ne dans le pays,69.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2025,ES,F,ne dans un autre pays UE,67.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2025,ES,F,ne hors UE,61.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2025,ES,M,ne a l etranger,77.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2025,ES,M,ne dans le pays,77.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2025,ES,M,ne dans un autre pays UE,82.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2025,ES,M,ne hors UE,76.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2025,ES,T,ne a l etranger,69.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2025,ES,T,ne dans le pays,73.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2025,ES,T,ne dans un autre pays UE,74.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2025,ES,T,ne hors UE,68.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2025,EU27_2020,F,ne a l etranger,62.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2025,EU27_2020,F,ne dans le pays,73.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2025,EU27_2020,F,ne dans un autre pays UE,72.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2025,EU27_2020,F,ne hors UE,59.4,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2025,EU27_2020,M,ne a l etranger,79.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2025,EU27_2020,M,ne dans le pays,81.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2025,EU27_2020,M,ne dans un autre pays UE,83.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2025,EU27_2020,M,ne hors UE,78.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2025,EU27_2020,T,ne a l etranger,70.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2025,EU27_2020,T,ne dans le pays,77.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2025,EU27_2020,T,ne dans un autre pays UE,77.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2025,EU27_2020,T,ne hors UE,68.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2025,FR,F,ne a l etranger,57.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2025,FR,F,ne dans le pays,75.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2025,FR,F,ne dans un autre pays UE,70.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2025,FR,F,ne hors UE,54.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2025,FR,M,ne a l etranger,73.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2025,FR,M,ne dans le pays,79.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2025,FR,M,ne dans un autre pays UE,75.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2025,FR,M,ne hors UE,73.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2025,FR,T,ne a l etranger,64.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2025,FR,T,ne dans le pays,77.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2025,FR,T,ne dans un autre pays UE,72.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2025,FR,T,ne hors UE,63.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2025,IT,F,ne a l etranger,52.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2025,IT,F,ne dans le pays,59.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2025,IT,F,ne dans un autre pays UE,59.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2025,IT,F,ne hors UE,49.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2025,IT,M,ne a l etranger,82.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2025,IT,M,ne dans le pays,76.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2025,IT,M,ne dans un autre pays UE,84.5,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2025,IT,M,ne hors UE,82.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2025,IT,T,ne a l etranger,66.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2025,IT,T,ne dans le pays,67.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2025,IT,T,ne dans un autre pays UE,69.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2025,IT,T,ne hors UE,66.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2025,NL,F,ne a l etranger,67.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2025,NL,F,ne dans le pays,82.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2025,NL,F,ne dans un autre pays UE,78.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2025,NL,F,ne hors UE,63.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2025,NL,M,ne a l etranger,79.2,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2025,NL,M,ne dans le pays,89.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2025,NL,M,ne dans un autre pays UE,85.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2025,NL,M,ne hors UE,77.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2025,NL,T,ne a l etranger,72.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2025,NL,T,ne dans le pays,85.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2025,NL,T,ne dans un autre pays UE,82.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2025,NL,T,ne hors UE,69.8,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2025,SE,F,ne a l etranger,69.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2025,SE,F,ne dans le pays,83.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2025,SE,F,ne dans un autre pays UE,83.1,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2025,SE,F,ne hors UE,65.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2025,SE,M,ne a l etranger,78.3,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2025,SE,M,ne dans le pays,85.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2025,SE,M,ne dans un autre pays UE,84.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2025,SE,M,ne hors UE,76.6,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2025,SE,T,ne a l etranger,74.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2025,SE,T,ne dans le pays,84.7,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2025,SE,T,ne dans un autre pays UE,83.9,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table
+2025,SE,T,ne hors UE,71.0,mesure,https://ec.europa.eu/eurostat/databrowser/view/lfsa_ergacob/default/table

@@ -1,0 +1,14 @@
+# source: IFR World Robotics (éditions 2019-2026), communiqués et executive summaries ; unité: robots industriels installés dans l'année (monde) ; date consultation: 2026-10-25
+# note: l'IFR révise ses séries rétrospectivement ; chaque ligne cite l'édition d'où vient la valeur. Prévisions marquées statut=projection.
+annee,valeur,unite,statut,source_url,note
+2018,423321,unités,mesure,https://ifr.org/img/worldrobotics/Executive_Summary_WR_Industrial_Robots_2022.pdf,valeur révisée citée dans WR2022 (le communiqué WR2019 donnait 422 000)
+2020,394000,unités,estimation,https://ifr.org/img/worldrobotics/Executive_Summary_WR_Industrial_Robots_2022.pdf,"dérivé: 517 385 / 1,31 (croissance +31 % citée par WR2022) ; arrondi"
+2021,517385,unités,mesure,https://ifr.org/img/worldrobotics/Executive_Summary_WR_Industrial_Robots_2022.pdf,WR2022
+2022,552946,unités,mesure,https://ifr.org/ifr-press-releases/news/record-of-4-million-robots-working-in-factories-worldwide,record cité dans WR2024 (WR2023 donnait 553 052)
+2023,541302,unités,mesure,https://ifr.org/ifr-press-releases/news/record-of-4-million-robots-working-in-factories-worldwide,WR2024
+2024,542076,unités,mesure,https://ifr.org/ifr-press-releases/news/global-robot-demand-in-factories-doubles-over-10-years,WR2025 (communiqué: 542 000)
+2025,603307,unités,mesure,https://ifr.org/img/worldrobotics/Executive_Summary_WR_2026_-_Industrial_Robots.pdf,"WR2026 executive summary, +11 %"
+2026,655000,unités,projection,https://ifr.org/img/worldrobotics/Executive_Summary_WR_2026_-_Industrial_Robots.pdf,prévision IFR +9 %
+2029,806000,unités,projection,https://ifr.org/img/worldrobotics/Executive_Summary_WR_2026_-_Industrial_Robots.pdf,"prévision IFR, +7 %/an 2026-2029"
+2023,600000,unités,projection,https://ifr.org/img/worldrobotics/Executive_Summary_WR_Industrial_Robots_2022.pdf,prévision faite en 2022 pour 2023 (réalisé: 541 302) – à garder pour mesurer l'écart prévision/réalité
+2025,575000,unités,projection,https://ifr.org/ifr-press-releases/news/global-robot-demand-in-factories-doubles-over-10-years,prévision faite en 2025 pour 2025 (réalisé: 603 307)

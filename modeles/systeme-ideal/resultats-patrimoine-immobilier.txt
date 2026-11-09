@@ -1,0 +1,150 @@
+## A. Volumes (DVF 2024, hors Alsace-Moselle et Mayotte)
+| indicateur | valeur |
+|---|---|
+| ventes de logement ancien | 749583 (appartements 329744, maisons 417671) |
+| valeur | 185,2 Md€ ; prix moyen 247093 € |
+| DMTO théoriques à 5,81 % de cette valeur | 10,8 Md€ (total 2024 : 13,5 Md€ ; le reste = terrains, locaux, Alsace-Moselle) |
+| tranche 0 à 100 k€ | 147868 ventes, 9,8 Md€ |
+| tranche 100 à 200 k€ | 266232 ventes, 39,2 Md€ |
+| tranche 200 à 300 k€ | 163884 ventes, 39,8 Md€ |
+| tranche 300 à 500 k€ | 113791 ventes, 42,5 Md€ |
+| tranche 500 à ∞ k€ | 57808 ventes, 54,0 Md€ |
+| Isère 2024 | 14060 ventes (1,9 % du national) |
+| reventes appariées Isère 2021-2025 | 3215 paires, durée moyenne 2,3 an, 40,3 % à perte réelle ; dispersion IQR/1,349 : 0,27 / 0,22 / 0,16 / 0,17 / 0,17 selon la durée (0,25-1, 1-2, 2-3, 3-4, 4-5 ans) |
+
+## B. Hypothèses par scénario (« bas » = le moins favorable au solde public)
+| paramètre | bas | central | haut |
+|---|---|---|---|
+| DMTO perdus (Md€) | 20,1 | 16,1 | 13,5 |
+| part des ventes hors résidence principale | 0,25 | 0,33 | 0,38 |
+| durée moyenne de détention (ans) | 9 | 12 | 15 |
+| dérive réelle des prix (par an) | 0,01 | 0,03 | 0,04 |
+| frais de vente du vendeur | 0,05 | 0,04 | 0,03 |
+| travaux justifiés par an | 0,006 | 0,004 | 0,002 |
+| hausse des ventes par point de DMTO supprimé | 0 | 0,07 | 0,136 |
+| part du DMTO capitalisée dans les prix | 0,2 | 0,5 | 0,8 |
+| élasticité de réalisation des plus-values | 2 | 1,5 | 1 |
+| part des crédits finalement imputable | 0,9 | 0,75 | 0,6 |
+| probabilité annuelle d'imputation | 0,15 | 0,1 | 0,06 |
+| majoration des crédits (pertes fabriquées) | 0,15 | 0,05 | 0 |
+
+## C. Plus-values immobilières (Md€/an ; frais d'acquisition : régime de transition 7,5 %, puis croisière 2,5 %)
+| scénario | recettes actuelles estimées | recettes à 50 % (transition) | recettes nouvelles | recettes à 50 % (croisière) | taux effectif sur gain réel | part de ventes gagnantes | gain réel / vente | perte réelle / vente |
+|---|---|---|---|---|---|---|---|---|
+| bas | 1,01 | 0,90 | −0,11 | 1,09 | 50,0 % | 31,0 % | 3,9 % | 17,3 % |
+| central | 2,98 | 5,30 | +2,32 | 5,57 | 50,0 % | 68,8 % | 16,6 % | 5,3 % |
+| haut | 4,38 | 13,57 | +9,19 | 14,16 | 50,0 % | 84,7 % | 30,0 % | 2,2 % |
+Contrôle : le droit actuel central donne 2,98 Md€ pour 3,6 Md€ observés en 2023 (82,7 %).
+
+## D. Perte des droits de mutation et compensation (T = 10 ans, transition)
+| scénario | DMTO perdus | dont départements | dont communes | dont État (frais d'assiette) | recettes nouvelles de plus-values | coût du report | solde net | couverture des DMTO par les plus-values | taxe foncière : hausse pour tout compenser | hausse pour les seuls DMTO |
+|---|---|---|---|---|---|---|---|---|---|---|
+| bas | 20,1 | 15,6 | 4,2 | 0,37 | −0,1 | −3,26 | −23,5 | −0,6 % | +56 % | +48 % |
+| central | 16,1 | 12,5 | 3,3 | 0,30 | +2,3 | −0,84 | −14,6 | 14,4 % | +35 % | +38 % |
+| haut | 13,5 | 10,5 | 2,8 | 0,25 | +9,2 | −0,27 | −4,6 | 68,1 % | +11 % | +32 % |
+
+Solde « brut » (si le modèle a déjà retiré les recettes actuelles de plus-values avec l'IR et les prélèvements sociaux) : bas −22,5, central −11,6, haut −0,2 Md€/an.
+Solde en régime de croisière (frais d'acquisition 2,5 %) : bas −22,4, central −14,1, haut −3,9 Md€/an.
+
+## E. Report des pertes : coût annuel en régime de croisière (Md€/an)
+| scénario | crédits créés par an | coût à 5 ans | coût à 10 ans | coût sans limite | coût sans limite si crédit aussi sur la résidence principale |
+|---|---|---|---|---|---|
+| bas | 4,66 | 2,21 | 3,26 | 4,19 | 16,74 |
+| central | 1,76 | 0,52 | 0,84 | 1,32 | 5,04 |
+| haut | 1,01 | 0,16 | 0,27 | 0,60 | 2,48 |
+
+## F. Krach : prix −20 %, ventes × 0,75, une année (Md€)
+| scénario | part de ventes à perte | crédits créés | surcroît vs année normale | recettes de plus-values perdues | coût ultime à 5 ans | à 10 ans | sans limite | crédits en années de recettes normales | surcroît sur trois années |
+|---|---|---|---|---|---|---|---|---|---|
+| bas | 93,0 % | 8,3 | 3,7 | 0,8 | 1,7 | 2,6 | 3,3 | 9,2 | 11,0 |
+| central | 61,5 % | 4,4 | 2,7 | 3,4 | 0,8 | 1,3 | 2,0 | 0,8 | 8,0 |
+| haut | 37,2 % | 3,0 | 2,0 | 7,0 | 0,3 | 0,5 | 1,2 | 0,2 | 6,1 |
+
+## G. Effets de comportement
+| scénario | hausse du volume de ventes | ventes supplémentaires par an | élasticité de réalisation → ventes gagnantes hors RP | prix | coût total d'acquisition |
+|---|---|---|---|---|---|
+| bas | +0,0 % | 0 | ×1,00 (taux actuel moyen sur le gain réel 56,9 % → 50 %) | +1,2 % | −4,4 % |
+| central | +40,6 % | 304680 | ×0,60 (taux actuel moyen sur le gain réel 29,4 % → 50 %) | +2,9 % | −2,7 % |
+| haut | +79,0 % | 591949 | ×0,63 (taux actuel moyen sur le gain réel 20,8 % → 50 %) | +4,6 % | −1,1 % |
+
+## H. Intégration au système idéal (palier 1 central : solde −163,3 Md€, taux plat 35 %, déficit actuel −169,1 Md€)
+| scénario patrimoine | delta (net) | solde avec patrimoine | taux plat requis | points de plus | delta (brut) | taux plat requis (brut) | points de plus (brut) |
+|---|---|---|---|---|---|---|---|
+| bas | −23,5 | −186,5 | 36,4 % | +1,39 | −22,5 | 36,3 % | +1,30 |
+| central | −14,6 | −177,7 | 35,7 % | +0,68 | −11,6 | 35,4 % | +0,44 |
+| haut | −4,6 | −167,6 | 34,9 % | −0,12 | −0,2 | 34,5 % | −0,46 |
+
+## I. Sensibilité du scénario central (solde net, Md€/an, T = 10 ans), un paramètre à la fois
+| paramètre | valeur basse → solde | valeur haute → solde |
+|---|---|---|
+| dérive réelle des prix | 0,01 → −18,4 | 0,04 → −13,7 |
+| part hors résidence principale | 0,25 → −15,0 | 0,4 → −14,3 |
+| durée de détention | 8 → −15,9 | 16 → −13,5 |
+| élasticité aux DMTO | 0,03 → −15,4 | 0,136 → −13,4 |
+| élasticité de réalisation | 0 → −12,9 | 1 → −14,1 |
+| absorption des crédits | 0,5 → −14,3 | 1 → −14,9 |
+| frais de vente | 0,02 → −14,4 | 0,06 → −14,8 |
+| travaux justifiés par an | 0 → −14,1 | 0,01 → −15,5 |
+| dispersion sigma0 | 0,10 → −14,5 | 0,25 → −15,0 |
+
+## L. Variantes contre le verrouillage (Md€/an, régime de transition ; solde net = recettes nouvelles de plus-values − DMTO perdus − coût du report 10 ans)
+
+### Scénario bas (élasticité de réalisation H252 = 2)
+| Variante | Recettes de plus-values | Solde net | Écart au défaut | Ventes gagnantes verrouillées | Coût du verrouillage | Taux effectif moyen sur le gain |
+|---|---|---|---|---|---|---|
+| Défaut : 50 % du gain réel, sans abattement | 0,9 | −23,5 | — | 0,0 % | 0,00 | 50,0 % |
+| Dégressif, −2 % du taux par an dès 5 ans (plafond 70 %) | 0,8 | −23,6 | −0,1 | 0,0 % | 0,00 | 43,5 % |
+| Dégressif, −4 % du taux par an dès 5 ans (plafond 70 %) | 0,7 | −23,7 | −0,2 | 0,0 % | 0,00 | 37,9 % |
+| Dégressif, −6 % du taux par an dès 5 ans (plafond 70 %) | 0,6 | −23,8 | −0,3 | 0,0 % | 0,00 | 34,1 % |
+| Locatif exonéré après 5 ans | 0,5 | −23,9 | −0,4 | 0,0 % | 0,00 | 25,5 % |
+| Locatif exonéré après 10 ans | 0,6 | −23,7 | −0,3 | 0,0 % | 0,00 | 34,9 % |
+| Locatif exonéré après 22 ans | 0,9 | −23,5 | −0,1 | 0,0 % | 0,00 | 47,1 % |
+| Report en cas de réinvestissement | 0,5 | −23,9 | −0,4 | 0,0 % | 0,00 | 25,5 % |
+
+### Scénario central (élasticité de réalisation H252 = 1,5)
+| Variante | Recettes de plus-values | Solde net | Écart au défaut | Ventes gagnantes verrouillées | Coût du verrouillage | Taux effectif moyen sur le gain |
+|---|---|---|---|---|---|---|
+| Défaut : 50 % du gain réel, sans abattement | 5,3 | −14,6 | — | 40,5 % | 2,04 | 50,0 % |
+| Dégressif, −2 % du taux par an dès 5 ans (plafond 70 %) | 4,7 | −15,2 | −0,6 | 24,7 % | 0,86 | 37,7 % |
+| Dégressif, −4 % du taux par an dès 5 ans (plafond 70 %) | 3,8 | −16,1 | −1,5 | 16,5 % | 0,49 | 29,4 % |
+| Dégressif, −6 % du taux par an dès 5 ans (plafond 70 %) | 3,3 | −16,6 | −1,9 | 12,9 % | 0,36 | 25,3 % |
+| Locatif exonéré après 5 ans | 2,3 | −17,6 | −3,0 | 18,9 % | 0,88 | 21,7 % |
+| Locatif exonéré après 10 ans | 2,8 | −17,1 | −2,4 | 25,2 % | 1,10 | 26,9 % |
+| Locatif exonéré après 22 ans | 4,4 | −15,5 | −0,9 | 36,4 % | 1,68 | 41,3 % |
+| Report en cas de réinvestissement | 5,1 | −14,8 | −0,2 | 10,3 % | 0,39 | 37,5 % |
+
+### Scénario haut (élasticité de réalisation H252 = 1)
+| Variante | Recettes de plus-values | Solde net | Écart au défaut | Ventes gagnantes verrouillées | Coût du verrouillage | Taux effectif moyen sur le gain |
+|---|---|---|---|---|---|---|
+| Défaut : 50 % du gain réel, sans abattement | 13,6 | −4,6 | — | 36,9 % | 6,17 | 50,0 % |
+| Dégressif, −2 % du taux par an dès 5 ans (plafond 70 %) | 11,2 | −6,9 | −2,4 | 23,3 % | 2,52 | 34,8 % |
+| Dégressif, −4 % du taux par an dès 5 ans (plafond 70 %) | 9,0 | −9,2 | −4,6 | 15,4 % | 1,32 | 26,1 % |
+| Dégressif, −6 % du taux par an dès 5 ans (plafond 70 %) | 7,9 | −10,2 | −5,6 | 11,7 % | 0,90 | 22,4 % |
+| Locatif exonéré après 5 ans | 5,7 | −12,5 | −7,9 | 16,6 % | 2,58 | 20,9 % |
+| Locatif exonéré après 10 ans | 6,7 | −11,5 | −6,9 | 21,4 % | 3,04 | 24,6 % |
+| Locatif exonéré après 22 ans | 10,3 | −7,9 | −3,3 | 31,5 % | 4,67 | 37,8 % |
+| Report en cas de réinvestissement | 13,7 | −4,4 | +0,2 | 27,8 % | 4,23 | 45,5 % |
+
+### Report : première année contre régime de croisière (Md€ de recettes de plus-values)
+| Scénario | Première année | Croisière | Défaut |
+|---|---|---|---|
+| bas | 0,3 | 0,5 | 0,9 |
+| central | 3,4 | 5,1 | 5,3 |
+| haut | 10,6 | 13,7 | 13,6 |
+
+### Sensibilité à l'élasticité de réalisation (central ; écart de solde net d'une variante au défaut, les deux calculés avec la même élasticité)
+| Élasticité | Défaut : solde | Dégressif −4 % | Locatif exonéré 10 ans | Report |
+|---|---|---|---|---|
+| 0 | −12,6 | −3,0 | −3,4 | −1,8 |
+| 0,3 | −13,1 | −2,6 | −3,2 | −1,4 |
+| 0,5 | −13,4 | −2,4 | −3,0 | −1,2 |
+| 0,8 | −13,8 | −2,1 | −2,8 | −0,8 |
+| 1 | −14,0 | −1,9 | −2,7 | −0,6 |
+| 1,5 | −14,6 | −1,5 | −2,4 | −0,2 |
+| 2,5 | −15,5 | −0,8 | −2,0 | +0,5 |
+
+Élasticité à partir de laquelle la variante rapporte plus que le défaut (central, balayage de 0 à 10 par pas de 0,05 ; « aucune » = jamais dans cette plage) :
+- dégressif −4 % du taux par an : 5,05
+- locatif exonéré après 10 ans : aucune
+- locatif exonéré après 22 ans : aucune
+- report : 1,75

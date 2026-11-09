@@ -1,0 +1,12 @@
+# source: Insee, "L'essentiel sur... les immigrés et les étrangers", mise à jour du 25/06/2026 (https://www.insee.fr/fr/statistiques/3633212) ; date consultation: 2026-10-25
+# unite: millions de personnes et % de la population ; perimetre: France (hors Mayotte avant 2014 selon les séries Insee)
+# ATTENTION: rupture de série en 2024 signalée par l'Insee (2024 et 2025 non directement comparables aux années antérieures ; valeurs 2024-2025 provisoires)
+# definitions Insee: immigré = né étranger à l'étranger (reste immigré s'il devient Français) ; étranger = sans nationalité française (peut être né en France)
+annee,immigres_millions,part_immigres_pct,etrangers_millions,part_etrangers_pct,statut,source_url
+1975,3.89,7.4,3.44,6.5,mesure,https://www.insee.fr/fr/statistiques/3633212
+1999,4.37,7.3,3.32,5.5,mesure,https://www.insee.fr/fr/statistiques/3633212
+2010,5.51,8.5,3.82,5.9,mesure,https://www.insee.fr/fr/statistiques/3633212
+2020,6.85,10.2,5.15,7.6,mesure,https://www.insee.fr/fr/statistiques/3633212
+2023,7.31,10.7,5.64,8.2,mesure,https://www.insee.fr/fr/statistiques/3633212
+2024,7.75,11.3,6.05,8.8,estimation provisoire,https://www.insee.fr/fr/statistiques/3633212
+2025,7.97,11.6,6.30,9.1,estimation provisoire,https://www.insee.fr/fr/statistiques/3633212

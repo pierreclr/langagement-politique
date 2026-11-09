@@ -1,0 +1,99 @@
+# source: https://epoch.ai/data-insights/llm-inference-price-trends (Epoch AI, Cottier, Snodin, Owen, Adamczewski, publie le 2025-03-12, tableau "Lowest inference prices at fixed performance") ; unite: USD par million de tokens (prix publie par Epoch, combinant prix entree/sortie) ; date consultation: 2026-10-25
+# lecture: pour chaque benchmark, le modele le moins cher atteignant au moins le score du "modele seuil" a la date donnee. Donnees Epoch couvrant 2021-11 a 2025-02.
+date,benchmark,modele_seuil,plage_score,modele,valeur,unite,score_benchmark,prix_predit_regression_epoch_usd,statut,source_url
+2021-11-20,MMLU,GPT-3,[43.9;100],GPT-3,60.00,USD/1M tokens,43.9,60.19,mesure,https://epoch.ai/data-insights/llm-inference-price-trends
+2022-09-01,MMLU,GPT-3,[43.9;100],GPT-3,20.00,USD/1M tokens,43.9,8.78,mesure,https://epoch.ai/data-insights/llm-inference-price-trends
+2023-03-06,MMLU,GPT-3,[43.9;100],GPT-3.5 Turbo,2.00,USD/1M tokens,68.0,2.50,mesure,https://epoch.ai/data-insights/llm-inference-price-trends
+2023-07-18,MMLU,GPT-3,[43.9;100],Llama-2-Chat-13B,0.56,USD/1M tokens,45.0,1.01,mesure,https://epoch.ai/data-insights/llm-inference-price-trends
+2023-12-01,MMLU,GPT-3,[43.9;100],Llama 2-7B,0.20,USD/1M tokens,45.3,0.40,mesure,https://epoch.ai/data-insights/llm-inference-price-trends
+2024-04-14,MMLU,GPT-3,[43.9;100],Llama 2-7B,0.13,USD/1M tokens,45.3,0.16,mesure,https://epoch.ai/data-insights/llm-inference-price-trends
+2024-07-23,MMLU,GPT-3,[43.9;100],Llama-3.1-Instruct-8B,0.10,USD/1M tokens,71.0,0.08,mesure,https://epoch.ai/data-insights/llm-inference-price-trends
+2024-09-24,MMLU,GPT-3,[43.9;100],Llama-3.2-Instruct-3B,0.08,USD/1M tokens,64.0,0.05,mesure,https://epoch.ai/data-insights/llm-inference-price-trends
+2024-10-03,MMLU,GPT-3,[43.9;100],Gemini-1.5-Flash-8B,0.07,USD/1M tokens,75.0,0.05,mesure,https://epoch.ai/data-insights/llm-inference-price-trends
+2022-11-30,MMLU,GPT-3.5,[64.8;100],GPT-3.5,20.00,USD/1M tokens,64.8,10.01,mesure,https://epoch.ai/data-insights/llm-inference-price-trends
+2023-03-06,MMLU,GPT-3.5,[64.8;100],GPT-3.5 Turbo,2.00,USD/1M tokens,68.0,4.84,mesure,https://epoch.ai/data-insights/llm-inference-price-trends
+2023-11-06,MMLU,GPT-3.5,[64.8;100],GPT-3.5-Turbo-2023-11,0.75,USD/1M tokens,68.0,0.76,mesure,https://epoch.ai/data-insights/llm-inference-price-trends
+2024-03-04,MMLU,GPT-3.5,[64.8;100],Claude-3-Haiku,0.50,USD/1M tokens,71.0,0.31,mesure,https://epoch.ai/data-insights/llm-inference-price-trends
+2024-05-10,MMLU,GPT-3.5,[64.8;100],Gemini-1.5-Flash-2024-05,0.13,USD/1M tokens,79.0,0.19,mesure,https://epoch.ai/data-insights/llm-inference-price-trends
+2024-07-23,MMLU,GPT-3.5,[64.8;100],Llama-3.1-Instruct-8B,0.10,USD/1M tokens,71.0,0.11,mesure,https://epoch.ai/data-insights/llm-inference-price-trends
+2024-10-03,MMLU,GPT-3.5,[64.8;100],Gemini-1.5-Flash-8B,0.07,USD/1M tokens,75.0,0.06,mesure,https://epoch.ai/data-insights/llm-inference-price-trends
+2023-03-06,MMLU,GPT-3.5 Turbo,[68.0;100],GPT-3.5 Turbo,2.00,USD/1M tokens,68.0,2.59,mesure,https://epoch.ai/data-insights/llm-inference-price-trends
+2023-11-06,MMLU,GPT-3.5 Turbo,[68.0;100],GPT-3.5-Turbo-2023-11,0.75,USD/1M tokens,68.0,0.58,mesure,https://epoch.ai/data-insights/llm-inference-price-trends
+2024-03-04,MMLU,GPT-3.5 Turbo,[68.0;100],Claude-3-Haiku,0.50,USD/1M tokens,71.0,0.28,mesure,https://epoch.ai/data-insights/llm-inference-price-trends
+2024-05-10,MMLU,GPT-3.5 Turbo,[68.0;100],Gemini-1.5-Flash-2024-05,0.13,USD/1M tokens,79.0,0.18,mesure,https://epoch.ai/data-insights/llm-inference-price-trends
+2024-07-23,MMLU,GPT-3.5 Turbo,[68.0;100],Llama-3.1-Instruct-8B,0.10,USD/1M tokens,71.0,0.12,mesure,https://epoch.ai/data-insights/llm-inference-price-trends
+2024-10-03,MMLU,GPT-3.5 Turbo,[68.0;100],Gemini-1.5-Flash-8B,0.07,USD/1M tokens,75.0,0.08,mesure,https://epoch.ai/data-insights/llm-inference-price-trends
+2023-03-14,MMLU,GPT-4-0314,[86.0;100],GPT-4-0314,37.50,USD/1M tokens,86.0,66.21,mesure,https://epoch.ai/data-insights/llm-inference-price-trends
+2023-11-06,MMLU,GPT-4-0314,[86.0;100],GPT-4 Turbo,15.00,USD/1M tokens,87.0,11.00,mesure,https://epoch.ai/data-insights/llm-inference-price-trends
+2024-05-13,MMLU,GPT-4-0314,[86.0;100],GPT-4o-2024-05,7.50,USD/1M tokens,87.0,2.63,mesure,https://epoch.ai/data-insights/llm-inference-price-trends
+2024-05-23,MMLU,GPT-4-0314,[86.0;100],Gemini-1.5-Pro-2024-05,2.19,USD/1M tokens,86.0,2.44,mesure,https://epoch.ai/data-insights/llm-inference-price-trends
+2025-02-05,MMLU,GPT-4-0314,[86.0;100],Gemini 2.0 Flash,0.18,USD/1M tokens,88.0,0.35,mesure,https://epoch.ai/data-insights/llm-inference-price-trends
+2023-11-06,MMLU,GPT-4 Turbo,[87.0;100],GPT-4 Turbo,15.00,USD/1M tokens,87.0,30.75,mesure,https://epoch.ai/data-insights/llm-inference-price-trends
+2024-05-13,MMLU,GPT-4 Turbo,[87.0;100],GPT-4o-2024-05,7.50,USD/1M tokens,87.0,4.82,mesure,https://epoch.ai/data-insights/llm-inference-price-trends
+2024-06-20,MMLU,GPT-4 Turbo,[87.0;100],Claude-3.5-Sonnet-2024-06,6.00,USD/1M tokens,88.0,3.32,mesure,https://epoch.ai/data-insights/llm-inference-price-trends
+2024-07-23,MMLU,GPT-4 Turbo,[87.0;100],Llama-3.1-Instruct-405B,3.50,USD/1M tokens,87.0,2.40,mesure,https://epoch.ai/data-insights/llm-inference-price-trends
+2025-02-05,MMLU,GPT-4 Turbo,[87.0;100],Gemini 2.0 Flash,0.18,USD/1M tokens,88.0,0.35,mesure,https://epoch.ai/data-insights/llm-inference-price-trends
+2023-03-14,GPQA Diamond,GPT-4-0314,[33.0;100],GPT-4-0314,37.50,USD/1M tokens,33.0,53.03,mesure,https://epoch.ai/data-insights/llm-inference-price-trends
+2023-11-06,GPQA Diamond,GPT-4-0314,[33.0;100],GPT-4 Turbo,15.00,USD/1M tokens,50.0,4.68,mesure,https://epoch.ai/data-insights/llm-inference-price-trends
+2024-02-26,GPQA Diamond,GPT-4-0314,[33.0;100],Mistral-Large-2024-02,6.00,USD/1M tokens,36.0,1.49,mesure,https://epoch.ai/data-insights/llm-inference-price-trends
+2024-03-04,GPQA Diamond,GPT-4-0314,[33.0;100],Claude-3-Haiku,0.50,USD/1M tokens,33.0,1.38,mesure,https://epoch.ai/data-insights/llm-inference-price-trends
+2024-05-10,GPQA Diamond,GPT-4-0314,[33.0;100],Gemini-1.5-Flash-2024-05,0.13,USD/1M tokens,39.0,0.70,mesure,https://epoch.ai/data-insights/llm-inference-price-trends
+2024-12-13,GPQA Diamond,GPT-4-0314,[33.0;100],Phi 4,0.12,USD/1M tokens,53.0,0.08,mesure,https://epoch.ai/data-insights/llm-inference-price-trends
+2023-11-06,GPQA Diamond,GPT-4 Turbo,[50.0;100],GPT-4 Turbo,15.00,USD/1M tokens,50.0,34.11,mesure,https://epoch.ai/data-insights/llm-inference-price-trends
+2024-05-13,GPQA Diamond,GPT-4 Turbo,[50.0;100],GPT-4o-2024-05,7.50,USD/1M tokens,53.0,4.69,mesure,https://epoch.ai/data-insights/llm-inference-price-trends
+2024-06-20,GPQA Diamond,GPT-4 Turbo,[50.0;100],Claude-3.5-Sonnet-2024-06,6.00,USD/1M tokens,56.0,3.14,mesure,https://epoch.ai/data-insights/llm-inference-price-trends
+2024-07-23,GPQA Diamond,GPT-4 Turbo,[50.0;100],Llama-3.1-Instruct-405B,3.50,USD/1M tokens,50.0,2.22,mesure,https://epoch.ai/data-insights/llm-inference-price-trends
+2024-09-24,GPQA Diamond,GPT-4 Turbo,[50.0;100],Gemini-1.5-Pro-2024-09,2.19,USD/1M tokens,61.0,1.15,mesure,https://epoch.ai/data-insights/llm-inference-price-trends
+2024-12-13,GPQA Diamond,GPT-4 Turbo,[50.0;100],Phi 4,0.12,USD/1M tokens,53.0,0.49,mesure,https://epoch.ai/data-insights/llm-inference-price-trends
+2024-05-13,GPQA Diamond,GPT-4o-2024-05,[53.0;100],GPT-4o-2024-05,7.50,USD/1M tokens,53.0,11.09,mesure,https://epoch.ai/data-insights/llm-inference-price-trends
+2024-06-20,GPQA Diamond,GPT-4o-2024-05,[53.0;100],Claude-3.5-Sonnet-2024-06,6.00,USD/1M tokens,56.0,5.50,mesure,https://epoch.ai/data-insights/llm-inference-price-trends
+2024-09-24,GPQA Diamond,GPT-4o-2024-05,[53.0;100],Gemini-1.5-Pro-2024-09,2.19,USD/1M tokens,61.0,0.93,mesure,https://epoch.ai/data-insights/llm-inference-price-trends
+2024-12-13,GPQA Diamond,GPT-4o-2024-05,[53.0;100],Phi 4,0.12,USD/1M tokens,53.0,0.21,mesure,https://epoch.ai/data-insights/llm-inference-price-trends
+2024-06-20,GPQA Diamond,Claude-3.5-Sonnet-2024-06,[56.0;100],Claude-3.5-Sonnet-2024-06,6.00,USD/1M tokens,56.0,7.19,mesure,https://epoch.ai/data-insights/llm-inference-price-trends
+2024-09-24,GPQA Diamond,Claude-3.5-Sonnet-2024-06,[56.0;100],Gemini-1.5-Pro-2024-09,2.19,USD/1M tokens,61.0,1.68,mesure,https://epoch.ai/data-insights/llm-inference-price-trends
+2024-12-26,GPQA Diamond,Claude-3.5-Sonnet-2024-06,[56.0;100],DeepSeek-V3,0.48,USD/1M tokens,57.0,0.41,mesure,https://epoch.ai/data-insights/llm-inference-price-trends
+2025-02-05,GPQA Diamond,Claude-3.5-Sonnet-2024-06,[56.0;100],Gemini 2.0 Flash,0.18,USD/1M tokens,62.0,0.22,mesure,https://epoch.ai/data-insights/llm-inference-price-trends
+2023-06-13,MATH-500,GPT-3.5-Turbo-2023-06,[44.0;100],GPT-3.5-Turbo-2023-06,3.25,USD/1M tokens,44.0,2.66,mesure,https://epoch.ai/data-insights/llm-inference-price-trends
+2023-11-06,MATH-500,GPT-3.5-Turbo-2023-06,[44.0;100],GPT-3.5-Turbo-2023-11,0.75,USD/1M tokens,44.0,0.84,mesure,https://epoch.ai/data-insights/llm-inference-price-trends
+2024-05-10,MATH-500,GPT-3.5-Turbo-2023-06,[44.0;100],Gemini-1.5-Flash-2024-05,0.13,USD/1M tokens,55.0,0.19,mesure,https://epoch.ai/data-insights/llm-inference-price-trends
+2024-07-23,MATH-500,GPT-3.5-Turbo-2023-06,[44.0;100],Llama-3.1-Instruct-8B,0.10,USD/1M tokens,50.0,0.11,mesure,https://epoch.ai/data-insights/llm-inference-price-trends
+2024-09-24,MATH-500,GPT-3.5-Turbo-2023-06,[44.0;100],Llama-3.2-Instruct-3B,0.08,USD/1M tokens,50.0,0.06,mesure,https://epoch.ai/data-insights/llm-inference-price-trends
+2024-10-03,MATH-500,GPT-3.5-Turbo-2023-06,[44.0;100],Gemini-1.5-Flash-8B,0.07,USD/1M tokens,70.0,0.06,mesure,https://epoch.ai/data-insights/llm-inference-price-trends
+2023-11-06,MATH-500,GPT-4 Turbo,[74.0;100],GPT-4 Turbo,15.00,USD/1M tokens,74.0,21.37,mesure,https://epoch.ai/data-insights/llm-inference-price-trends
+2024-05-13,MATH-500,GPT-4 Turbo,[74.0;100],GPT-4o-2024-05,7.50,USD/1M tokens,79.0,1.49,mesure,https://epoch.ai/data-insights/llm-inference-price-trends
+2024-07-18,MATH-500,GPT-4 Turbo,[74.0;100],GPT-4o-mini,0.26,USD/1M tokens,79.0,0.59,mesure,https://epoch.ai/data-insights/llm-inference-price-trends
+2024-09-11,MATH-500,GPT-4 Turbo,[74.0;100],DeepSeek-Coder-V2 236B,0.18,USD/1M tokens,74.0,0.27,mesure,https://epoch.ai/data-insights/llm-inference-price-trends
+2024-09-24,MATH-500,GPT-4 Turbo,[74.0;100],Gemini-1.5-Flash-2024-09,0.13,USD/1M tokens,83.0,0.22,mesure,https://epoch.ai/data-insights/llm-inference-price-trends
+2024-12-13,MATH-500,GPT-4 Turbo,[74.0;100],Phi 4,0.12,USD/1M tokens,81.0,0.07,mesure,https://epoch.ai/data-insights/llm-inference-price-trends
+2024-05-13,MATH-500,GPT-4o-2024-05,[79.0;100],GPT-4o-2024-05,7.50,USD/1M tokens,79.0,2.68,mesure,https://epoch.ai/data-insights/llm-inference-price-trends
+2024-07-18,MATH-500,GPT-4o-2024-05,[79.0;100],GPT-4o-mini,0.26,USD/1M tokens,79.0,0.82,mesure,https://epoch.ai/data-insights/llm-inference-price-trends
+2024-09-24,MATH-500,GPT-4o-2024-05,[79.0;100],Gemini-1.5-Flash-2024-09,0.13,USD/1M tokens,83.0,0.24,mesure,https://epoch.ai/data-insights/llm-inference-price-trends
+2024-12-13,MATH-500,GPT-4o-2024-05,[79.0;100],Phi 4,0.12,USD/1M tokens,81.0,0.06,mesure,https://epoch.ai/data-insights/llm-inference-price-trends
+2023-06-13,MATH 5,GPT-4-0613,[23.0;100],GPT-4-0613,37.50,USD/1M tokens,23.0,37.05,mesure,https://epoch.ai/data-insights/llm-inference-price-trends
+2023-11-06,MATH 5,GPT-4-0613,[23.0;100],GPT-4 Turbo,15.00,USD/1M tokens,36.0,6.67,mesure,https://epoch.ai/data-insights/llm-inference-price-trends
+2024-04-17,MATH 5,GPT-4-0613,[23.0;100],Mistral-8x22,1.20,USD/1M tokens,23.0,0.98,mesure,https://epoch.ai/data-insights/llm-inference-price-trends
+2024-05-10,MATH 5,GPT-4-0613,[23.0;100],Gemini-1.5-Flash-2024-05,0.13,USD/1M tokens,23.0,0.75,mesure,https://epoch.ai/data-insights/llm-inference-price-trends
+2024-12-13,MATH 5,GPT-4-0613,[23.0;100],Phi 4,0.12,USD/1M tokens,65.0,0.06,mesure,https://epoch.ai/data-insights/llm-inference-price-trends
+2023-11-06,MATH 5,GPT-4 Turbo,[36.0;100],GPT-4 Turbo,15.00,USD/1M tokens,36.0,23.91,mesure,https://epoch.ai/data-insights/llm-inference-price-trends
+2024-05-13,MATH 5,GPT-4 Turbo,[36.0;100],GPT-4o-2024-05,7.50,USD/1M tokens,48.0,1.73,mesure,https://epoch.ai/data-insights/llm-inference-price-trends
+2024-05-23,MATH 5,GPT-4 Turbo,[36.0;100],Gemini-1.5-Pro-2024-05,2.19,USD/1M tokens,41.0,1.50,mesure,https://epoch.ai/data-insights/llm-inference-price-trends
+2024-07-18,MATH 5,GPT-4 Turbo,[36.0;100],GPT-4o-mini,0.26,USD/1M tokens,48.0,0.69,mesure,https://epoch.ai/data-insights/llm-inference-price-trends
+2024-09-24,MATH 5,GPT-4 Turbo,[36.0;100],Gemini-1.5-Flash-2024-09,0.13,USD/1M tokens,58.0,0.27,mesure,https://epoch.ai/data-insights/llm-inference-price-trends
+2024-12-13,MATH 5,GPT-4 Turbo,[36.0;100],Phi 4,0.12,USD/1M tokens,65.0,0.09,mesure,https://epoch.ai/data-insights/llm-inference-price-trends
+2024-05-13,MATH 5,GPT-4o-2024-05,[48.0;100],GPT-4o-2024-05,7.50,USD/1M tokens,48.0,2.68,mesure,https://epoch.ai/data-insights/llm-inference-price-trends
+2024-07-18,MATH 5,GPT-4o-2024-05,[48.0;100],GPT-4o-mini,0.26,USD/1M tokens,48.0,0.82,mesure,https://epoch.ai/data-insights/llm-inference-price-trends
+2024-09-24,MATH 5,GPT-4o-2024-05,[48.0;100],Gemini-1.5-Flash-2024-09,0.13,USD/1M tokens,58.0,0.24,mesure,https://epoch.ai/data-insights/llm-inference-price-trends
+2024-12-13,MATH 5,GPT-4o-2024-05,[48.0;100],Phi 4,0.12,USD/1M tokens,65.0,0.06,mesure,https://epoch.ai/data-insights/llm-inference-price-trends
+2023-03-14,HumanEval,GPT-4-0314,[67.0;100],GPT-4-0314,37.50,USD/1M tokens,67.0,15.72,mesure,https://epoch.ai/data-insights/llm-inference-price-trends
+2023-06-13,HumanEval,GPT-4-0314,[67.0;100],GPT-3.5-Turbo-2023-06,3.25,USD/1M tokens,71.0,6.40,mesure,https://epoch.ai/data-insights/llm-inference-price-trends
+2023-11-06,HumanEval,GPT-4-0314,[67.0;100],GPT-3.5-Turbo-2023-11,0.75,USD/1M tokens,71.0,1.51,mesure,https://epoch.ai/data-insights/llm-inference-price-trends
+2024-03-04,HumanEval,GPT-4-0314,[67.0;100],Claude-3-Haiku,0.50,USD/1M tokens,77.0,0.47,mesure,https://epoch.ai/data-insights/llm-inference-price-trends
+2024-06-24,HumanEval,GPT-4-0314,[67.0;100],Gemma-2-27B,0.26,USD/1M tokens,76.0,0.15,mesure,https://epoch.ai/data-insights/llm-inference-price-trends
+2024-07-18,HumanEval,GPT-4-0314,[67.0;100],Mistral-NeMo,0.13,USD/1M tokens,71.0,0.12,mesure,https://epoch.ai/data-insights/llm-inference-price-trends
+2024-07-23,HumanEval,GPT-4-0314,[67.0;100],Llama-3.1-Instruct-8B,0.10,USD/1M tokens,67.0,0.12,mesure,https://epoch.ai/data-insights/llm-inference-price-trends
+2023-06-13,HumanEval,GPT-3.5-Turbo-2023-06,[71.0;100],GPT-3.5-Turbo-2023-06,3.25,USD/1M tokens,71.0,2.42,mesure,https://epoch.ai/data-insights/llm-inference-price-trends
+2023-11-06,HumanEval,GPT-3.5-Turbo-2023-06,[71.0;100],GPT-3.5-Turbo-2023-11,0.75,USD/1M tokens,71.0,0.99,mesure,https://epoch.ai/data-insights/llm-inference-price-trends
+2024-03-04,HumanEval,GPT-3.5-Turbo-2023-06,[71.0;100],Claude-3-Haiku,0.50,USD/1M tokens,77.0,0.48,mesure,https://epoch.ai/data-insights/llm-inference-price-trends
+2024-06-24,HumanEval,GPT-3.5-Turbo-2023-06,[71.0;100],Gemma-2-27B,0.26,USD/1M tokens,76.0,0.24,mesure,https://epoch.ai/data-insights/llm-inference-price-trends
+2024-07-18,HumanEval,GPT-3.5-Turbo-2023-06,[71.0;100],Mistral-NeMo,0.13,USD/1M tokens,71.0,0.21,mesure,https://epoch.ai/data-insights/llm-inference-price-trends
+2024-12-13,HumanEval,GPT-3.5-Turbo-2023-06,[71.0;100],Phi 4,0.12,USD/1M tokens,87.0,0.09,mesure,https://epoch.ai/data-insights/llm-inference-price-trends

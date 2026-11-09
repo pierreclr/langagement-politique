@@ -1,0 +1,13 @@
+# source: communiqués trimestriels et rapport annuel 2025 Baidu (SEC 6-K/20-F) ; unités indiquées ; date consultation: 2026-10-25
+periode,indicateur,valeur,unite,statut,source_url,note
+T3 2025,trajets entièrement sans conducteur,3.1,millions,mesure,https://www.sec.gov/Archives/edgar/data/1329099/000119312525285391/d52736dex991.htm,+212 % a/a
+2025-10,trajets sans conducteur hebdo moyens,250000,trajets/semaine,mesure,https://www.sec.gov/Archives/edgar/data/1329099/000119312525285391/d52736dex991.htm,
+2025-11,trajets cumulés publics,17,millions,mesure,https://www.sec.gov/Archives/edgar/data/1329099/000119312525285391/d52736dex991.htm,
+2025-11,km sans conducteur cumulés,140,millions de km,mesure,https://www.sec.gov/Archives/edgar/data/1329099/000119312525285391/d52736dex991.htm,240 M km autonomes au total
+T4 2025,trajets entièrement sans conducteur,3.4,millions,mesure,https://seekingalpha.com/pr/20414723,pic hebdo >300 000
+2026-02,trajets cumulés publics,20,millions,mesure,https://www.sec.gov/Archives/edgar/data/1329099/000119312526110843/d34060dex991.pdf,rapport annuel 2025 ; 26 villes
+T1 2026,trajets entièrement sans conducteur,3.2,millions,mesure,https://reddit.sentinel-team.org/view/post/11356472,NON CONFIRMÉ sur communiqué (source: post X Baidu relayé) ; pic hebdo >350 000 en mars
+2026-03-31,incident,1,panne de flotte,mesure,https://www.caixinglobal.com/2026-04-02/baidus-apollo-go-robotaxis-suffer-mass-malfunction-on-wuhan-roads-102430046.html,~100 véhicules immobilisés à Wuhan
+T2 2026,trajets entièrement sans conducteur,1.0,millions,estimation,https://www.webull.com/news/15426688205497344,"NON CONFIRMÉ: absent du communiqué officiel du 18/08/2026, cité par un résumé d'appel"
+2026-08,villes,28,villes,mesure,https://www.sec.gov/Archives/edgar/data/0001329099/000119312526355431/d112854dex991.htm,
+2026-08,km sans conducteur cumulés,240,millions de km,mesure,https://www.sec.gov/Archives/edgar/data/0001329099/000119312526355431/d112854dex991.htm,350 M km autonomes au total

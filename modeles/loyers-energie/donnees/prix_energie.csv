@@ -1,0 +1,7 @@
+energie,prix_ttc_eur_kwh,source,cote,conflits_interets,statut
+electricite,0.2001,"CRE, tarif réglementé de vente d'électricité, option Base, part variable TTC, en vigueur au 01/08/2026 (données ouvertes https://www.data.gouv.fr/datasets/5d31900f8b4c41338237ac8f/ ; fichier donnees/trve_option_base.csv ; consulté le 08/11/2026) ; abonnement exclu",A,"aucun connu (autorité publique)",fait sourcé
+gaz,0.13,"hypothèse : prix repère CRE chauffage 0,125 à 0,145 (comparateurs, non relu à la source) ; base Pégase non obtenue",C,"comparateurs commerciaux",⚠️ À VÉRIFIER
+fioul,0.12,"hypothèse (≈ 1,1 à 1,2 €/litre pour 10 kWh/litre) ; Pégase non obtenue",D,"aucune source lue",⚠️ À VÉRIFIER
+gpl,0.16,hypothèse sans source,D,"aucune source lue",⚠️ À VÉRIFIER
+bois,0.09,hypothèse sans source (bûches 0,07 à granulés 0,11),D,"aucune source lue",⚠️ À VÉRIFIER
+reseau,0.11,hypothèse sans source (les prix des réseaux de chaleur varient de 0,07 à 0,15),D,"aucune source lue",⚠️ À VÉRIFIER

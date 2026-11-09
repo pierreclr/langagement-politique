@@ -1,0 +1,26 @@
+indicateur,valeur,unité,année,périmètre,source_url,remarque
+stock_IDE_entrants_total,919,Md€,2023,Banque de France (position extérieure),https://www.senat.fr/questions/base/2025/qSEQ250303667.html,réponse ministérielle publiée 22/01/2026
+stock_IDE_entrants_pct_PIB,34,% du PIB,2025,OCDE BMD4,https://www.insee.fr/fr/statistiques/2413495,extraction OCDE du 16/10/2026
+flux_IDE_entrants_total,25.2,Md€,2024,1re contrepartie (Banque de France via INSEE),https://www.insee.fr/fr/statistiques/2381420,nouvelle méthode ; 2022=78.1 ; 2023=34.8
+stock_ultime_Etats-Unis,142.1,Md€,2023,investisseur ultime,https://www.tresor.economie.gouv.fr/Articles/bc0d724e-90f1-405d-9da6-da7fca09b5e6/files/1fb74422-ce5e-4235-9da4-87cca542e939,17.1 % du total 833.2
+stock_ultime_Suisse,114.4,Md€,2023,investisseur ultime,idem,13.7 %
+stock_ultime_Allemagne,111.8,Md€,2023,investisseur ultime,idem,13.4 %
+stock_ultime_Royaume-Uni,90.1,Md€,2023,investisseur ultime,idem,10.8 %
+stock_ultime_France_aller-retour,85.7,Md€,2023,investisseur ultime,idem,10.3 %
+stock_ultime_total,833.2,Md€,2023,investisseur ultime,idem,différent de 919 (périmètre) À VÉRIFIER
+stock_Chine_HK_ultime,13.5,Md€,2023,investisseur ultime (Chine 8.2 + HK 5.3),https://www.tresor.economie.gouv.fr/Articles/32cc1416-97e6-4343-8423-826e4a3d2cb9/files/a851eead-dce8-408a-8bdd-c16a8e867b4d,À VÉRIFIER (non lu)
+stock_Qatar,3,Md€,2024,Banque de France (estimation citée par Trésor),https://www.tresor.economie.gouv.fr/Pays/QA/les-investissements-du-qatar-en-france,approximatif ; méthode immédiat/ultime non précisée
+actifs_qataris_totaux,25,Md€,2026,actifs détenus (estimation Trésor "serait supérieure"),https://www.tresor.economie.gouv.fr/Pays/QA/les-investissements-du-qatar-en-france,dont ≈18 Md€ QIA ; non daté
+stock_Emirats,2.643,Md€,2024,Banque de France (fiche pays),https://www.diplomatie.gouv.fr/files/files/cav/emirats-arabes-unis/fichepays_emirats_arabes_unis_20260225_1125_cle86f984.pdf,22e investisseur ; valeur relayée par recherche À VÉRIFIER
+CAC40_part_non_residents,50,%,2024,35 sociétés résidentes du CAC 40,https://www.banque-france.fr/en/publications-and-statistics/publications/non-resident-ownership-french-cac-40-shares-increased-very-slightly-2024,1083 Md€ sur 2165 Md€
+CAC40_part_non_residents_zone_euro,40,% des non-résidents,2024,CAC 40,idem,
+CAC40_part_non_residents_USA,34,% des non-résidents,2024,CAC 40,idem,-2.4 pts
+CAC40_non_residents_portefeuille,92.9,% des non-résidents,2024,CAC 40,idem,direct 7.1 %
+CAC40_societes_majorite_non_residente,19,sociétés sur 35,2024,CAC 40,idem,
+NBIM_France_part_fonds,3.4,% du fonds,2025,GPFG (actions 2.0 ; obligations 1.1 ; immobilier 0.30),https://www.nbim.no/en/news-and-insights/reports/2025/annual-report-2025/web-report-annual-report-2025/,fonds = 21268 Md NOK au 31/12/2025
+entreprises_sous_controle_etranger_emploi,2.3,millions de personnes,2022,secteur marchand non agricole non financier,https://www.insee.fr/fr/statistiques/8285656,13 % de l'emploi ; 21.5 % du CA ; 18800 entreprises
+IEF_dossiers,418,dossiers,2025,DG Trésor,https://www.tresor.economie.gouv.fr/Articles/2026/07/28/publication-du-rapport-annuel-sur-le-controle-ief-en-2025,392 en 2024 ; 309 en 2023
+IEF_autorisations_sous_conditions,49,% des autorisations,2025,DG Trésor (167 autorisations),idem,54 % en 2024
+Choose_France_2026_annonce,93,Md€ annoncés,2026,71 projets,https://next.ink/240215/choose-france-2026-un-montant-record-de-93-milliards-deuros-a-relativiser/,annonces pluriannuelles ; taux de réalisation non publié ; presse
+Bpifrance_partenariats_souverains,2.3,Md€ d'engagements,2026,Mubadala QIA CIC KIC,https://www.bpifrance.com/products/sovereign-wealth-funds-and-long-term-investors/,pas de montant par partenaire sur la page
+convention_Qatar_plus-values_immobilieres,exonération,n/a,2008,avenant du 14/01/2008,https://www.senat.fr/rap/l08-214/l08-2147.html,coût fiscal non publié ; ratification À VÉRIFIER

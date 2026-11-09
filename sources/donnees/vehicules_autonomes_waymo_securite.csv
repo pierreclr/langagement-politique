@@ -1,0 +1,8 @@
+# source: https://waymo.com/safety/impact/ (données Waymo jusqu'à juin 2026, auto-publiées) ; date consultation: 2026-10-25
+periode,indicateur,valeur,unite,statut,source_url,note
+cumul à 2026-06,miles sans conducteur (rider-only),271.3,millions de miles,mesure,https://waymo.com/safety/impact/,"Phoenix 92,1 ; SF 82,4 ; LA 67,1 ; Austin 21,1 ; Atlanta 8,6"
+cumul à 2026-06,accidents avec blessé grave ou pire vs référence humaine,-94.82,%,mesure,https://waymo.com/safety/impact/,"référence humaine: données police, hors autoroutes ; pas de correction de sous-déclaration"
+cumul à 2026-06,accidents avec déclenchement d'airbag vs référence humaine,-81.68,%,mesure,https://waymo.com/safety/impact/,
+cumul à 2026-06,accidents avec blessés vs référence humaine,-82.12,%,mesure,https://waymo.com/safety/impact/,correction sous-déclaration humaine 32 %
+cumul à 2026-06,accidents piétons avec blessés vs référence humaine,-93,%,mesure,https://waymo.com/safety/impact/,
+cumul à 2026-06,accidents cyclistes avec blessés vs référence humaine,-86,%,mesure,https://waymo.com/safety/impact/,décès: pas assez de miles pour conclure

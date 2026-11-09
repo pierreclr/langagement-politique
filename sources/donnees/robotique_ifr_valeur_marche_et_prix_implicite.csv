@@ -1,0 +1,7 @@
+# source: IFR World Robotics 2019 et 2026, communiqués IFR janv. 2025/janv. 2026 ; unité: milliards USD courants et USD/robot (calcul) ; date consultation: 2026-10-25
+# méthode: prix_moyen_implicite = valeur_marche / installations. Dollars nominaux, effet de mix (part croissante de la Chine) non corrigé.
+annee,valeur_marche_mds_usd,installations_unites,prix_moyen_implicite_usd,statut,source_url,note
+2018,16.5,422000,39100,estimation,https://ifr.org/downloads/press2018/2019-09-18_Press_Release_IFR_World_Robotics_2019_Industrial_Robots_English.pdf,"valeur marché = mesure IFR (robots seuls, hors logiciels/périphériques/intégration) ; prix implicite = calcul valeur/unités"
+2023,16.5,541302,30482,estimation,https://ifr.org/home/P15,"valeur 16,5 Md$ citée par IFR (janv. 2025) ; rattachement explicite à 2023 non vérifié"
+2024,16.7,542076,30807,estimation,https://ifr.org/home/P15,"IFR janv. 2026: 16,7 Md$ 'all-time high'"
+2025,18.6,603307,30830,estimation,https://ifr.org/img/worldrobotics/Executive_Summary_WR_2026_-_Industrial_Robots.pdf,"WR2026: +11 % à 18,6 Md$"

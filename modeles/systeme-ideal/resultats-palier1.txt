@@ -1,0 +1,132 @@
+## A. Palier 1 : taux plat et soldes
+taux plat exact (Δ central = 0, santé comprise) : 34,5 % ; retenu (demi-point supérieur) : 35 %
+soldes au taux exact bas / central / haut : -126,8 / -169,1 / -239,2
+soldes au taux retenu bas / central / haut : -119,8 / -163,3 / -235,7 ; écart au déficit actuel (Δ) : 49,3 / 5,8 / -66,6
+
+## B. Cascade du taux plat nécessaire (Δ central = 0)
+| voie R seule à 25 % du capital aux retraités (§ 11.2, jeu historique) | 34 % |
+| voie R seule au jeu recalé (20 %, H176 : socle 500, sans chômage dégressif ni plancher RSA, sans hautes pensions) | 33,8 % |
+| + plancher RSA 877 € | 34,4 % |
+| + chômage dégressif deg2 | 35,3 % |
+| + plancher parents isolés (1 300 €) | 35,5 % |
+| + hautes pensions 2 500 €, 20 %, capital sans majoration (= palier 1) | 34,5 % |
+| palier 1 avec pension seule (6 Md€, chiffre solide) | 35 % |
+| palier 1 avec capital et majoration de 10 points (14,8 Md€ nets) | 34,3 % |
+| palier 1 avec la fraude nette (1,4 Md€) | 34,4 % |
+| palier 1 sans plancher parents isolés | 34,4 % |
+
+recettes de la contribution (bas / central / haut, Md€ net) : pension seule 6,6 / 6,3 / 5,8 ; capital sans majoration 13,4 / 12 / 10,4
+plancher parents isolés (1 300 €, 0,5 M) : 2,4 Md€ ; à 1 100 : 1,2 ; à 1 650 (niveau actuel) : 4,5
+Md€ par point de taux plat : 12,7
+
+## C. Année 1 (transition, création de valeur de l'année 1) et année 10 (création de valeur affectée au déficit), Md€/an
+régime de croisière (statique) bas / central / haut : -119,8 / -163,3 / -235,7
+transition (ponctuel + recettes perdues) : 4,3 / 10,2 / 22,2
+année 1 : -130,2 / -181,6 / -261,5 (création de valeur 6 / 2,5 / 0,7)
+année 10 : -63,5 / -133,7 / -229,3 (création de valeur 56,4 / 29,7 / 6,4)
+année 10 sans la ligne E (croissance IA) : -95,5 / -152,8 / -235,6 (création de valeur 24,4 / 10,6 / 0,1)
+valeur an 5 bas : A 0 B -0,4 C 0 D 0,5 E 3,1 total 3,2
+valeur an 5 central : A 1,5 B 1,2 C 0 D 3,2 E 9,5 total 15,4
+valeur an 5 haut : A 4 B 2,8 C 0 D 14,1 E 15,8 total 36,7
+valeur an 10 bas : A 0 B -0,9 C 0 D 1 E 6,3 total 6,4
+valeur an 10 central : A 1,5 B 2,7 C 0 D 6,4 E 19,1 total 29,7
+valeur an 10 haut : A 4 B 6,3 C 0 D 14,1 E 32 total 56,4
+
+## D. Taux marginaux (central, par bande de revenu d'activité ; impôt à plat + continu)
+| D1 | 35,5 % | 35,9 % | 51,9 % | +178 | 99 % |
+| D2 | 36,5 % | 41,6 % | 56,2 % | +293 | 99 % |
+| D3 | 37,3 % | 44,3 % | 58,3 % | +381 | 99 % |
+| D4 | 38,4 % | 47,2 % | 60,4 % | +536 | 100 % |
+| D5 | 39,2 % | 48,6 % | 61,4 % | +569 | 100 % |
+| D6 | 40,4 % | 50,6 % | 62,9 % | +564 | 100 % |
+| D7 | 41,7 % | 52,2 % | 64,2 % | +565 | 99 % |
+| D8 | 43,8 % | 54,5 % | 65,9 % | +556 | 99 % |
+| D9 | 46,1 % | 56,6 % | 67,4 % | +467 | 99 % |
+| D10a | 50,1 % | 59,4 % | 69,6 % | +380 | 77 % |
+| D10b | 53,1 % | 61,1 % | 70,8 % | −297 | 23 % |
+| D10c | 55,8 % | 62,3 % | 71,7 % | −1557 | 1 % |
+| D10d (1 %) | 59 % | 63,5 % | 72,6 % | −5327 | 0 % |
+| D10e (0,1 %) | 63,4 % | 64,7 % | 73,5 % | −46898 | 0 % |
+limite à l'infini : personnel 65 %, avec IS 73,8 % ; fin du plancher RSA non progressif : 580 € de revenu d'activité par mois
+
+## E. Cas types (€/mois, central, palier 1 sans correctif)
+| Smicard à 15 h par semaine | 913 | 1054 | +141 |
+| Smicard à 35 h | 1707 | 1792 | +85 |
+| Couple, 2 enfants, deux Smic à 35 h | 3736 | 3984 | +248 |
+| Cadre à 60 k€ brut par an | 3383 | 4351 | +968 |
+| Cadre à 8 000 € nets par mois (coût employeur ≈ 14 712 €) | 6290 | 7446 | +1156 |
+| Cadre à 10 000 € nets par mois (coût employeur ≈ 18 390 €) | 7525 | 8867 | +1342 |
+| Cadre à 15 000 € nets par mois (coût employeur ≈ 27 584 €) | 10473 | 12329 | +1856 |
+| Dirigeant avec holding (30 000 € brut/mois + 300 000 € de bénéfices retenus par an) | 15221 | 17748 | +2528 |
+| Famille : couple, 2 enfants, un seul Smic à 35 h | 2552 | 2692 | +140 |
+| Parent isolé sans emploi, 2 enfants | 1650 | 1300 | −350 |
+| Allocataire de l'AAH (moyenne 824 €) | 824 | 824 | +0 |
+| Étudiant boursier (bourse + aide au logement ≈ 730 €) | 730 | 500 | −230 |
+| Personne seule sans emploi (RSA + aide au logement) | 877 | 877 | +0 |
+| Retraité à 3 500 € nets par mois, sans capital | 3096 | 2896 | −200 |
+| Retraité à 2 200 € nets par mois avec 15 000 € de revenus du capital par an | 2977 | 2787 | −190 |
+| Retraité à 1 750 € nets par mois (pension médiane) | 1719 | 1719 | +0 |
+| Retraité à 800 € nets par mois (minimum garanti) | 1044 | 1044 | +0 |
+revenu économique (cash + bénéfices retenus après IS) de dirigeantHolding : 33971 → 26777 (−7194)
+chômeurs :
+| Chômeur au Smic (net antérieur 1 478 €) | mois 2 : 1064 → 1087 (+23) ; mois 5 : 1064 → 891 (−173) ; mois 9 : 1064 → 877 (−187) ; mois 15 : 1064 → 877 (−187) |
+| Chômeur cadre à 5 000 € net | mois 2 : 3600 → 2000 (−1600) ; mois 5 : 3600 → 1500 (−2100) ; mois 9 : 3600 → 1000 (−2600) ; mois 15 : 3600 → 877 (−2723) |
+
+## F. Trajectoire des paliers suivants (socle en €/mois ; recettes constatées l'année t − 1, tranches de 10 Md€)
+bas (modèle ; création de valeur haut) : pente 430,5 M€ par €/mois, 23,2 €/mois par tranche de 10 Md€
+  avec E : a1 500 ; a2 500 ; a3 523 ; a4 546 ; a5 570 ; a6 570 ; a7 593 ; a8 593 ; a9 593 ; a10 616
+  sans E : a1 500 ; a2 500 ; a3 523 ; a4 523 ; a5 523 ; a6 546 ; a7 546 ; a8 546 ; a9 546 ; a10 546
+central (modèle ; création de valeur central) : pente 430,5 M€ par €/mois, 23,2 €/mois par tranche de 10 Md€
+  avec E : a1 500 ; a2 500 ; a3 500 ; a4 500 ; a5 523 ; a6 523 ; a7 523 ; a8 546 ; a9 546 ; a10 546
+  sans E : a1 500 ; a2 500 ; a3 500 ; a4 500 ; a5 500 ; a6 500 ; a7 500 ; a8 500 ; a9 500 ; a10 500
+haut (modèle ; création de valeur bas) : pente 430,5 M€ par €/mois, 23,2 €/mois par tranche de 10 Md€
+  avec E : a1 500 ; a2 500 ; a3 500 ; a4 500 ; a5 500 ; a6 500 ; a7 500 ; a8 500 ; a9 500 ; a10 500
+  sans E : a1 500 ; a2 500 ; a3 500 ; a4 500 ; a5 500 ; a6 500 ; a7 500 ; a8 500 ; a9 500 ; a10 500
+
+## G. Correctif 1 : contribution de solidarité sur les revenus d'activité (au-delà de seuil nets actuels équivalents)
+seuil 8000 €, taux 5 % : effectifs 518 k ; taux marginal de la tranche avant 62,5 % ; recette nette bas / central / haut 0,7 / -1,8 / -5,5 (central : brut 2,5, perte d'assiette 3,2, exil 1,1) ; solde bas / central / haut -119,1 / -165,1 / -241,2
+  cas : smic35 +85 ; cadre8k +1156 ; cadre10k +1158 ; cadre15k +1213 ; dirigeantHolding +1147
+seuil 8000 €, taux 10 % : effectifs 518 k ; taux marginal de la tranche avant 62,5 % ; recette nette bas / central / haut 0,9 / -4,6 / -12,5 (central : brut 4,5, perte d'assiette 6,8, exil 2,3) ; solde bas / central / haut -118,9 / -167,9 / -248,2
+  cas : smic35 +85 ; cadre8k +1156 ; cadre10k +975 ; cadre15k +569 ; dirigeantHolding −234
+seuil 6000 €, taux 5 % : effectifs 1114 k ; taux marginal de la tranche avant 61,6 % ; recette nette bas / central / haut 1,5 / -2 / -6,9 (central : brut 4, perte d'assiette 5, exil 1,1) ; solde bas / central / haut -118,3 / -165,3 / -242,6
+  cas : smic35 +85 ; cadre8k +972 ; cadre10k +975 ; cadre15k +1029 ; dirigeantHolding +963
+seuil 6000 €, taux 10 % : effectifs 1114 k ; taux marginal de la tranche avant 61,6 % ; recette nette bas / central / haut 2,1 / -5,6 / -15,9 (central : brut 7,3, perte d'assiette 10,6, exil 2,3) ; solde bas / central / haut -117,7 / -168,9 / -251,6
+  cas : smic35 +85 ; cadre8k +788 ; cadre10k +607 ; cadre15k +201 ; dirigeantHolding −602
+
+## H. Correctif 2 : franchise sur le taux plat (les F premiers euros par an et par adulte exonérés), taux plat relevé pour Δ central = 0
+franchise 3000 € : taux plat exact 36,9 %, retenu 37 % (palier 1 : 35 %) ; coût de la franchise 30 Md€ ; soldes bas / central / haut -118,9 / -168,3 / -251,5
+  cas : smic15 +216 ; smic35 +137 ; couple2enfants +354 ; cadre60 +918 ; cadre8k +954 ; cadre10k +1067 ; cadre15k +1397 ; dirigeantHolding +1774
+  autres : couple1smic2enf +100 ; parentIsole −350 ; etudiant −230 ; rsa +0
+franchise 6000 € : taux plat exact 39,9 %, retenu 40 % (palier 1 : 35 %) ; coût de la franchise 64,8 Md€ ; soldes bas / central / haut -108,4 / -167,8 / -268,1
+  cas : smic15 +298 ; smic35 +185 ; couple2enfants +449 ; cadre60 +812 ; cadre8k +621 ; cadre10k +623 ; cadre15k +677 ; dirigeantHolding +611
+  autres : couple1smic2enf +41 ; parentIsole −350 ; etudiant −230 ; rsa +0
+franchise 9000 € : taux plat exact 43,7 %, retenu 44 % (palier 1 : 35 %) ; coût de la franchise 107 Md€ ; soldes bas / central / haut -92,4 / -167 / -291,3
+  cas : smic15 +394 ; smic35 +236 ; couple2enfants +550 ; cadre60 +657 ; cadre8k +162 ; cadre10k +17 ; cadre15k −296 ; dirigeantHolding −952
+  autres : couple1smic2enf −39 ; parentIsole −350 ; etudiant −230 ; rsa +0
+franchise 12000 € : taux plat exact 49,8 %, retenu 50 % (palier 1 : 35 %) ; coût de la franchise 162 Md€ ; soldes bas / central / haut -66,2 / -168,4 / -332,5
+  cas : smic15 +439 ; smic35 +286 ; couple2enfants +652 ; cadre60 +401 ; cadre8k −551 ; cadre10k −916 ; cadre15k −1781 ; dirigeantHolding −3322
+  autres : couple1smic2enf −158 ; parentIsole −350 ; etudiant −230 ; rsa +0
+
+## I. Combinaison : franchise 6 000 € + contribution de solidarité 8 000 € nets à 10 %
+taux plat exact 40,7 %, retenu 41 % ; soldes -95,9 / -166 / -282,1
+  cas : smic15 +295 ; smic35 +170 ; couple2enfants +420 ; cadre60 +746 ; cadre8k +479 ; cadre10k +76 ; cadre15k −881 ; dirigeantHolding −2570
+
+## J. Hypothèse H3/H178 : impôt de 50 % sur toutes les transmissions, et variante à droits actuels (DMTG 2024 : 20,8 Md€)
+recettes de transmissions bas / central / haut (Md€) : palier 1 123 / 103,5 / 78 ; droits actuels 20,8 / 20,8 / 20,8 ; écart central 82,7
+calcul central : 300 Md€ de flux (CAE 2021, vers 2020) × (1 − fuite 31 %) × 50 % = 103,5 Md€ ; points de taux plat équivalents (12,7 Md€ par point) : 6,5
+à 35 % : solde bas / central / haut -222 / -246 / -292,9 (palier 1 : -119,8 / -163,3 / -235,7)
+taux plat exact 41,5 %, retenu 41,5 % (palier 1 : 34,5 % / 35 %) ; soldes au taux retenu -123,7 / -168,9 / -252,6
+socle finançable à 35 % sans aggraver le déficit actuel (central) : palier 1 513 € ; droits actuels 323 €
+
+## K. Montée en charge des économies de santé (H177 : linéaire de 0 à 100 % sur `plein` années par levier), Md€/an
+bas : année 1 2,7 ; année 2 5,3 ; année 3 8 ; année 5 12 ; année 10 12,5 ; année 25 12,6 ; effet plein 12,6
+central : année 1 2 ; année 2 4 ; année 3 6,1 ; année 5 9,3 ; année 10 9,6 ; année 25 9,7 ; effet plein 9,7
+haut : année 1 0,6 ; année 2 1,2 ; année 3 1,8 ; année 5 2,7 ; année 10 2,8 ; année 25 2,8 ; effet plein 2,8
+
+## L. Impôt net des holdings sur bénéfices retenus (H179), Md€/an : compté en régime de croisière, retiré l'année 1
+bas / central / haut : 2,1 / 2,9 / 2,2
+année 1 sans ce correctif (santé en montée) : -128,1 / -178,7 / -259,3
+
+## M. Jeu de capital des retraités (H134, H176) : même jeu dans le modèle de base et dans la contribution
+palier 1 (20 % partout) : taux plat exact 34,5 %, solde central à 35 % -163,3
+modèle de base à 25 % (ancien, contribution à 20 %) : taux plat exact 34,8 %, solde central à 35 % -166,8

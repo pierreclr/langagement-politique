@@ -1,0 +1,5 @@
+# source: Eurostat, nasa_10_pens1 (tableau supplémentaire 29 du SEC 2010, « droits à pension accumulés »), API consultée 2026-10-25
+indicateur,valeur,unite,annee,perimetre,source,source_url,remarque
+droits_pension_accumules_S1P,368,% du PIB,2015,"France, tous régimes d'assurance sociale (F63_LE, clôture)",Eurostat nasa_10_pens1,https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/nasa_10_pens1?geo=FR&unit=PC_GDP&na_item=F63_LE&format=JSON&lang=EN,"Valeur actualisée des droits déjà acquis (dette implicite) ; dépend du taux d'actualisation retenu ⚠️"
+droits_pension_accumules_S1P,431,% du PIB,2018,idem,Eurostat nasa_10_pens1,https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/nasa_10_pens1?geo=FR&unit=PC_GDP&na_item=F63_LE&format=JSON&lang=EN,
+droits_pension_accumules_S1P,397,% du PIB,2021,idem,Eurostat nasa_10_pens1,https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/nasa_10_pens1?geo=FR&unit=PC_GDP&na_item=F63_LE&format=JSON&lang=EN,"Entièrement non capitalisés (régimes publics, S13PU = S1P) ; ≈ 10 000 Md€ ⚠️ conversion de Claude avec un PIB 2021 ≈ 2 500 Md€"

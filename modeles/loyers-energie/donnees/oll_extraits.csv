@@ -1,0 +1,13 @@
+ville,annee,pieces,loyer_mensuel_d1,loyer_mensuel_q1,loyer_mensuel_median,loyer_mensuel_q3,loyer_mensuel_d9,surface_moyenne,nombre_observations
+paris,2025,Appart 1P,,661,780,880,,25,1010
+paris,2025,Appart 2P,,928,1105,1304,,43,1384
+paris,2025,Appart 3P,,1318,1586,1860,,64,860
+paris,2025,Appart 4P+,,1790,2286,2920,,101,602
+lyon,2024,Appart 1P,380,445,500,566,654,31,5078
+lyon,2024,Appart 2P,500,560,632,709,800,47,10674
+lyon,2024,Appart 3P,600,680,787,892,1014,67,9362
+lyon,2024,Appart 4P+,650,770,945,1201,1458,92,4337
+grenoble,2024,Appart 1P,321,366,424,480,535,29,1583
+grenoble,2024,Appart 2P,450,500,569,630,695,46,2376
+grenoble,2024,Appart 3P,541,604,700,800,890,66,2250
+grenoble,2024,Appart 4P+,590,688,817,1025,1250,88,1244

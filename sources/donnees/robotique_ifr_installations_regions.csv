@@ -1,0 +1,40 @@
+# source: https://ifr.org/img/worldrobotics/Executive_Summary_WR_2026_-_Industrial_Robots.pdf (figure 2.2) ; unité: milliers de robots industriels installés/an ; date consultation: 2026-10-25
+# note: la somme Asie+Europe+Amériques est inférieure au total mondial (installations 'non spécifiées' / Afrique-Océanie).
+annee,region,valeur,unite,statut,source_url,note
+2015,Asie,160,milliers d'unités,mesure,https://ifr.org/img/worldrobotics/Executive_Summary_WR_2026_-_Industrial_Robots.pdf,lu sur la figure 2.2 de l'executive summary WR2026 (arrondi au millier)
+2015,Europe,50,milliers d'unités,mesure,https://ifr.org/img/worldrobotics/Executive_Summary_WR_2026_-_Industrial_Robots.pdf,lu sur la figure 2.2 de l'executive summary WR2026 (arrondi au millier)
+2015,Ameriques,38,milliers d'unités,mesure,https://ifr.org/img/worldrobotics/Executive_Summary_WR_2026_-_Industrial_Robots.pdf,lu sur la figure 2.2 de l'executive summary WR2026 (arrondi au millier)
+2016,Asie,199,milliers d'unités,mesure,https://ifr.org/img/worldrobotics/Executive_Summary_WR_2026_-_Industrial_Robots.pdf,lu sur la figure 2.2 de l'executive summary WR2026 (arrondi au millier)
+2016,Europe,56,milliers d'unités,mesure,https://ifr.org/img/worldrobotics/Executive_Summary_WR_2026_-_Industrial_Robots.pdf,lu sur la figure 2.2 de l'executive summary WR2026 (arrondi au millier)
+2016,Ameriques,41,milliers d'unités,mesure,https://ifr.org/img/worldrobotics/Executive_Summary_WR_2026_-_Industrial_Robots.pdf,lu sur la figure 2.2 de l'executive summary WR2026 (arrondi au millier)
+2017,Asie,280,milliers d'unités,mesure,https://ifr.org/img/worldrobotics/Executive_Summary_WR_2026_-_Industrial_Robots.pdf,lu sur la figure 2.2 de l'executive summary WR2026 (arrondi au millier)
+2017,Europe,67,milliers d'unités,mesure,https://ifr.org/img/worldrobotics/Executive_Summary_WR_2026_-_Industrial_Robots.pdf,lu sur la figure 2.2 de l'executive summary WR2026 (arrondi au millier)
+2017,Ameriques,46,milliers d'unités,mesure,https://ifr.org/img/worldrobotics/Executive_Summary_WR_2026_-_Industrial_Robots.pdf,lu sur la figure 2.2 de l'executive summary WR2026 (arrondi au millier)
+2018,Asie,284,milliers d'unités,mesure,https://ifr.org/img/worldrobotics/Executive_Summary_WR_2026_-_Industrial_Robots.pdf,lu sur la figure 2.2 de l'executive summary WR2026 (arrondi au millier)
+2018,Europe,76,milliers d'unités,mesure,https://ifr.org/img/worldrobotics/Executive_Summary_WR_2026_-_Industrial_Robots.pdf,lu sur la figure 2.2 de l'executive summary WR2026 (arrondi au millier)
+2018,Ameriques,55,milliers d'unités,mesure,https://ifr.org/img/worldrobotics/Executive_Summary_WR_2026_-_Industrial_Robots.pdf,lu sur la figure 2.2 de l'executive summary WR2026 (arrondi au millier)
+2019,Asie,254,milliers d'unités,mesure,https://ifr.org/img/worldrobotics/Executive_Summary_WR_2026_-_Industrial_Robots.pdf,lu sur la figure 2.2 de l'executive summary WR2026 (arrondi au millier)
+2019,Europe,74,milliers d'unités,mesure,https://ifr.org/img/worldrobotics/Executive_Summary_WR_2026_-_Industrial_Robots.pdf,lu sur la figure 2.2 de l'executive summary WR2026 (arrondi au millier)
+2019,Ameriques,47,milliers d'unités,mesure,https://ifr.org/img/worldrobotics/Executive_Summary_WR_2026_-_Industrial_Robots.pdf,lu sur la figure 2.2 de l'executive summary WR2026 (arrondi au millier)
+2020,Asie,273,milliers d'unités,mesure,https://ifr.org/img/worldrobotics/Executive_Summary_WR_2026_-_Industrial_Robots.pdf,lu sur la figure 2.2 de l'executive summary WR2026 (arrondi au millier)
+2020,Europe,66,milliers d'unités,mesure,https://ifr.org/img/worldrobotics/Executive_Summary_WR_2026_-_Industrial_Robots.pdf,lu sur la figure 2.2 de l'executive summary WR2026 (arrondi au millier)
+2020,Ameriques,39,milliers d'unités,mesure,https://ifr.org/img/worldrobotics/Executive_Summary_WR_2026_-_Industrial_Robots.pdf,lu sur la figure 2.2 de l'executive summary WR2026 (arrondi au millier)
+2021,Asie,384,milliers d'unités,mesure,https://ifr.org/img/worldrobotics/Executive_Summary_WR_2026_-_Industrial_Robots.pdf,lu sur la figure 2.2 de l'executive summary WR2026 (arrondi au millier)
+2021,Europe,82,milliers d'unités,mesure,https://ifr.org/img/worldrobotics/Executive_Summary_WR_2026_-_Industrial_Robots.pdf,lu sur la figure 2.2 de l'executive summary WR2026 (arrondi au millier)
+2021,Ameriques,52,milliers d'unités,mesure,https://ifr.org/img/worldrobotics/Executive_Summary_WR_2026_-_Industrial_Robots.pdf,lu sur la figure 2.2 de l'executive summary WR2026 (arrondi au millier)
+2022,Asie,404,milliers d'unités,mesure,https://ifr.org/img/worldrobotics/Executive_Summary_WR_2026_-_Industrial_Robots.pdf,lu sur la figure 2.2 de l'executive summary WR2026 (arrondi au millier)
+2022,Europe,85,milliers d'unités,mesure,https://ifr.org/img/worldrobotics/Executive_Summary_WR_2026_-_Industrial_Robots.pdf,lu sur la figure 2.2 de l'executive summary WR2026 (arrondi au millier)
+2022,Ameriques,56,milliers d'unités,mesure,https://ifr.org/img/worldrobotics/Executive_Summary_WR_2026_-_Industrial_Robots.pdf,lu sur la figure 2.2 de l'executive summary WR2026 (arrondi au millier)
+2023,Asie,381,milliers d'unités,mesure,https://ifr.org/img/worldrobotics/Executive_Summary_WR_2026_-_Industrial_Robots.pdf,lu sur la figure 2.2 de l'executive summary WR2026 (arrondi au millier)
+2023,Europe,92,milliers d'unités,mesure,https://ifr.org/img/worldrobotics/Executive_Summary_WR_2026_-_Industrial_Robots.pdf,lu sur la figure 2.2 de l'executive summary WR2026 (arrondi au millier)
+2023,Ameriques,55,milliers d'unités,mesure,https://ifr.org/img/worldrobotics/Executive_Summary_WR_2026_-_Industrial_Robots.pdf,lu sur la figure 2.2 de l'executive summary WR2026 (arrondi au millier)
+2024,Asie,401,milliers d'unités,mesure,https://ifr.org/img/worldrobotics/Executive_Summary_WR_2026_-_Industrial_Robots.pdf,lu sur la figure 2.2 de l'executive summary WR2026 (arrondi au millier)
+2024,Europe,85,milliers d'unités,mesure,https://ifr.org/img/worldrobotics/Executive_Summary_WR_2026_-_Industrial_Robots.pdf,lu sur la figure 2.2 de l'executive summary WR2026 (arrondi au millier)
+2024,Ameriques,50,milliers d'unités,mesure,https://ifr.org/img/worldrobotics/Executive_Summary_WR_2026_-_Industrial_Robots.pdf,lu sur la figure 2.2 de l'executive summary WR2026 (arrondi au millier)
+2025,Asie,457,milliers d'unités,mesure,https://ifr.org/img/worldrobotics/Executive_Summary_WR_2026_-_Industrial_Robots.pdf,lu sur la figure 2.2 de l'executive summary WR2026 (arrondi au millier)
+2025,Europe,73,milliers d'unités,mesure,https://ifr.org/img/worldrobotics/Executive_Summary_WR_2026_-_Industrial_Robots.pdf,lu sur la figure 2.2 de l'executive summary WR2026 (arrondi au millier)
+2025,Ameriques,57,milliers d'unités,mesure,https://ifr.org/img/worldrobotics/Executive_Summary_WR_2026_-_Industrial_Robots.pdf,lu sur la figure 2.2 de l'executive summary WR2026 (arrondi au millier)
+2025,Asie,457315,unités,mesure,https://ifr.org/img/worldrobotics/Executive_Summary_WR_2026_-_Industrial_Robots.pdf,valeur exacte
+2025,Europe,73054,unités,mesure,https://ifr.org/img/worldrobotics/Executive_Summary_WR_2026_-_Industrial_Robots.pdf,-14 %
+2025,Ameriques,57044,unités,mesure,https://ifr.org/img/worldrobotics/Executive_Summary_WR_2026_-_Industrial_Robots.pdf,+14 %
+2025,UE-27,60500,unités,mesure,https://ifr.org/downloads/press_docs/EN-2026-SEP-14-IFR_Press_Release_WR-EU-27.pdf,-11 %

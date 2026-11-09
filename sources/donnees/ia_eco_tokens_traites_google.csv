@@ -1,0 +1,5 @@
+# source: https://blog.google/innovation-and-ai/sundar-pichai-io-2026/ (S. Pichai, Google I/O, 2026-05-19) ; unite: tokens traites par mois, toutes surfaces Google ; date consultation: 2026-10-25
+date,valeur,unite,perimetre,statut,source_url,note
+2024-05,9.7e12,tokens/mois,toutes surfaces Google,annonce,https://blog.google/innovation-and-ai/sundar-pichai-io-2026/,"'two years ago' (approx. mai 2024); chiffre non audite"
+2025-05,4.8e14,tokens/mois,toutes surfaces Google,annonce,https://blog.google/innovation-and-ai/sundar-pichai-io-2026/,"'roughly 480 trillion' a I/O 2025"
+2026-05,3.2e15,tokens/mois,toutes surfaces Google,annonce,https://blog.google/innovation-and-ai/sundar-pichai-io-2026/,"'over 3.2 quadrillion' (x7 en un an); chiffre auto-declare"

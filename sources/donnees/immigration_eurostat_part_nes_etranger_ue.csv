@@ -1,0 +1,809 @@
+# source: Eurostat migr_pop3ctb (Population on 1 January by country of birth); mise a jour 2026-09-25T23:00:00+0200; date consultation: 2026-10-25
+# unite: personnes et % de la population; ATTENTION: "ne a l etranger" inclut les nationaux nes a l etranger (pour la France: rapatries d Algerie, enfants d expatries) -> plus large que la notion INSEE d immigre (11,6 % en 2025)
+# perimetre: UE27 et Etats membres, 2014-2025 (annees disponibles selon pays)
+annee,pays,categorie,personnes,population_totale,part_pct,statut,source_url
+2014,AT,ne a l etranger (tous),1414215,8507786,16.62,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2014,BE,ne a l etranger (tous),1748748,11180840,15.64,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2014,BG,ne a l etranger (tous),107275,7117453,1.51,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2014,CY,ne a l etranger (tous),189641,860032,22.05,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2014,CZ,ne a l etranger (tous),396156,10512419,3.77,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2014,DE,ne a l etranger (tous),9807877,80767463,12.14,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2014,DK,ne a l etranger (tous),569596,5627235,10.12,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2014,EE,ne a l etranger (tous),190716,1315819,14.49,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2014,EE,ne dans un autre pays UE,11605,1315819,0.88,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2014,EE,ne hors UE,24283,1315819,1.85,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2014,EL,ne a l etranger (tous),1271118,10894294,11.67,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2014,ES,ne a l etranger (tous),5952770,46495744,12.8,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2014,ES,ne dans un autre pays UE,1684087,46495744,3.62,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2014,ES,ne hors UE,4268683,46495744,9.18,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2014,FI,ne a l etranger (tous),297812,5451270,5.46,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2014,FI,ne dans un autre pays UE,103645,5451270,1.9,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2014,FI,ne hors UE,188855,5451270,3.46,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2014,FR,ne a l etranger (tous),7746520,66165980,11.71,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2014,HR,ne a l etranger (tous),558092,4217632,13.23,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2014,HU,ne a l etranger (tous),447029,9850217,4.54,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2014,HU,ne dans un autre pays UE,293312,9850217,2.98,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2014,HU,ne hors UE,147166,9850217,1.49,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2014,IE,ne a l etranger (tous),754664,4637852,16.27,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2014,IT,ne a l etranger (tous),5355018,60345917,8.87,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2014,IT,ne dans un autre pays UE,1663511,60345917,2.76,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2014,IT,ne hors UE,3691507,60345917,6.12,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2014,LT,ne a l etranger (tous),133746,2947862,4.54,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2014,LT,ne dans un autre pays UE,12855,2947862,0.44,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2014,LT,ne hors UE,118490,2947862,4.02,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2014,LU,ne a l etranger (tous),237848,549680,43.27,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2014,LV,ne a l etranger (tous),271126,2001468,13.55,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2014,MT,ne a l etranger (tous),44019,428156,10.28,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2014,NL,ne a l etranger (tous),1953436,16829289,11.61,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2014,PL,ne a l etranger (tous),620308,38017856,1.63,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2014,PT,ne a l etranger (tous),1176104,10444092,11.26,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2014,RO,ne a l etranger (tous),211210,19947311,1.06,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2014,SE,ne a l etranger (tous),1532563,9644864,15.89,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2014,SI,ne a l etranger (tous),235310,2061085,11.42,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2014,SK,ne a l etranger (tous),174908,5415949,3.23,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2015,AT,ne a l etranger (tous),1483123,8584926,17.28,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2015,BE,ne a l etranger (tous),1783488,11237274,15.87,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2015,BG,ne a l etranger (tous),120635,7029690,1.72,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2015,CY,ne a l etranger (tous),185819,860846,21.59,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2015,CY,ne hors UE,84966,860846,9.87,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2015,CZ,ne a l etranger (tous),416454,10538275,3.95,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2015,DE,ne a l etranger (tous),10220418,81197537,12.59,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2015,DK,ne a l etranger (tous),595876,5659715,10.53,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2015,EE,ne a l etranger (tous),192850,1313271,14.68,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2015,EE,ne dans un autre pays UE,12541,1313271,0.95,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2015,EE,ne hors UE,203401,1313271,15.49,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2015,EL,ne a l etranger (tous),1254332,10818041,11.59,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2015,ES,ne a l etranger (tous),5883891,46425722,12.67,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2015,ES,ne dans un autre pays UE,1631596,46425722,3.51,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2015,ES,ne hors UE,4252295,46425722,9.16,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2015,EU27_2020,ne a l etranger (tous),44288815,442924865,10.0,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2015,FI,ne a l etranger (tous),314856,5471753,5.75,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2015,FI,ne dans un autre pays UE,109281,5471753,2.0,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2015,FI,ne hors UE,200034,5471753,3.66,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2015,FR,ne a l etranger (tous),7915838,66458153,11.91,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2015,FR,ne dans un autre pays UE,2019957,66458153,3.04,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2015,FR,ne hors UE,5895881,66458153,8.87,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2015,HR,ne a l etranger (tous),545115,4180915,13.04,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2015,HU,ne a l etranger (tous),475508,9815858,4.84,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2015,HU,ne dans un autre pays UE,301668,9815858,3.07,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2015,HU,ne hors UE,165912,9815858,1.69,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2015,IE,ne a l etranger (tous),759256,4677627,16.23,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2015,IT,ne a l etranger (tous),5383252,60295497,8.93,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2015,IT,ne dans un autre pays UE,1660210,60295497,2.75,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2015,IT,ne hors UE,3723042,60295497,6.17,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2015,LT,ne a l etranger (tous),131929,2926644,4.51,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2015,LT,ne dans un autre pays UE,12934,2926644,0.44,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2015,LT,ne hors UE,116055,2926644,3.97,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2015,LU,ne a l etranger (tous),248888,562958,44.21,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2015,LV,ne a l etranger (tous),265418,1986096,13.36,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2015,MT,ne a l etranger (tous),52536,438805,11.97,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2015,NL,ne a l etranger (tous),1996318,16900726,11.81,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2015,PL,ne a l etranger (tous),611855,38005614,1.61,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2015,PT,ne a l etranger (tous),1160656,10395121,11.17,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2015,RO,ne a l etranger (tous),281048,19870647,1.41,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2015,SE,ne a l etranger (tous),1602522,9747355,16.44,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2015,SI,ne a l etranger (tous),237616,2062874,11.52,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2015,SK,ne a l etranger (tous),177624,5421349,3.28,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2016,AT,ne a l etranger (tous),1588209,8700471,18.25,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2016,BE,ne a l etranger (tous),1845631,11311117,16.32,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2016,BG,ne a l etranger (tous),131924,6938759,1.9,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2016,CY,ne a l etranger (tous),184385,863764,21.35,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2016,CY,ne hors UE,82736,863764,9.58,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2016,CZ,ne a l etranger (tous),433290,10553843,4.11,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2016,DE,ne a l etranger (tous),10908255,82175684,13.27,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2016,DK,ne a l etranger (tous),636666,5707251,11.16,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2016,EE,ne a l etranger (tous),193754,1315944,14.72,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2016,EE,ne dans un autre pays UE,18431,1315944,1.4,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2016,EE,ne hors UE,199569,1315944,15.17,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2016,EL,ne a l etranger (tous),1236855,10735415,11.52,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2016,ES,ne a l etranger (tous),5913165,46418884,12.74,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2016,ES,ne dans un autre pays UE,1600562,46418884,3.45,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2016,ES,ne hors UE,4312603,46418884,9.29,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2016,EU27_2020,ne a l etranger (tous),45879196,444003268,10.33,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2016,FI,ne a l etranger (tous),329219,5487308,6.0,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2016,FI,ne dans un autre pays UE,113085,5487308,2.06,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2016,FI,ne hors UE,210408,5487308,3.83,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2016,FR,ne a l etranger (tous),8028227,66638391,12.05,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2016,FR,ne dans un autre pays UE,2023653,66638391,3.04,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2016,FR,ne hors UE,6004574,66638391,9.01,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2016,HR,ne a l etranger (tous),526279,4131115,12.74,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2016,HU,ne a l etranger (tous),503787,9779652,5.15,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2016,HU,ne dans un autre pays UE,311137,9779652,3.18,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2016,HU,ne hors UE,183263,9779652,1.87,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2016,IE,ne a l etranger (tous),773649,4726286,16.37,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2016,IT,ne a l etranger (tous),5656510,60163712,9.4,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2016,IT,ne dans un autre pays UE,1711794,60163712,2.85,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2016,IT,ne hors UE,3944716,60163712,6.56,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2016,LT,ne a l etranger (tous),126264,2895573,4.36,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2016,LT,ne dans un autre pays UE,12622,2895573,0.44,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2016,LT,ne hors UE,110207,2895573,3.81,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2016,LU,ne a l etranger (tous),260573,576249,45.22,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2016,LV,ne a l etranger (tous),258889,1968957,13.15,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2016,MT,ne a l etranger (tous),61525,449635,13.68,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2016,NL,ne a l etranger (tous),2056520,16979120,12.11,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2016,PL,ne a l etranger (tous),626396,37967209,1.65,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2016,PT,ne a l etranger (tous),1170320,10368554,11.29,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2016,RO,ne a l etranger (tous),347344,19760585,1.76,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2016,SE,ne a l etranger (tous),1675116,9851017,17.0,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2016,SI,ne a l etranger (tous),241203,2064188,11.69,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2016,SK,ne a l etranger (tous),181642,5426252,3.35,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2017,AT,ne a l etranger (tous),1649008,8772865,18.8,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2017,AT,ne dans un autre pays UE,728606,8772865,8.31,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2017,AT,ne hors UE,920402,8772865,10.49,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2017,BE,ne a l etranger (tous),1876726,11351727,16.53,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2017,BE,ne dans un autre pays UE,854499,11351727,7.53,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2017,BE,ne hors UE,1022227,11351727,9.01,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2017,BG,ne a l etranger (tous),139655,6849518,2.04,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2017,CY,ne a l etranger (tous),185500,869878,21.32,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2017,CY,ne hors UE,83537,869878,9.6,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2017,CZ,ne a l etranger (tous),465056,10578820,4.4,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2017,CZ,ne dans un autre pays UE,176092,10578820,1.66,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2017,CZ,ne hors UE,288964,10578820,2.73,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2017,DE,ne a l etranger (tous),12105436,82521653,14.67,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2017,DK,ne a l etranger (tous),668090,5748769,11.62,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2017,DK,ne dans un autre pays UE,208864,5748769,3.63,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2017,DK,ne hors UE,459226,5748769,7.99,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2017,EE,ne a l etranger (tous),192535,1315635,14.63,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2017,EE,ne dans un autre pays UE,19348,1315635,1.47,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2017,EE,ne hors UE,197739,1315635,15.03,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2017,EL,ne a l etranger (tous),1224836,10707527,11.44,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2017,EL,ne dans un autre pays UE,287209,10707527,2.68,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2017,ES,ne a l etranger (tous),6014708,46497393,12.94,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2017,ES,ne dans un autre pays UE,1577626,46497393,3.39,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2017,ES,ne hors UE,4437082,46497393,9.54,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2017,EU27_2020,ne a l etranger (tous),48067848,444670605,10.81,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2017,FI,ne a l etranger (tous),348986,5503297,6.34,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2017,FI,ne dans un autre pays UE,116270,5503297,2.11,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2017,FI,ne hors UE,226808,5503297,4.12,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2017,FR,ne a l etranger (tous),8098872,66809816,12.12,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2017,FR,ne dans un autre pays UE,2028125,66809816,3.04,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2017,FR,ne hors UE,6070747,66809816,9.09,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2017,HR,ne a l etranger (tous),512411,4078769,12.56,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2017,HU,ne a l etranger (tous),513649,9739857,5.27,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2017,HU,ne dans un autre pays UE,310750,9739857,3.19,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2017,HU,ne hors UE,191742,9739857,1.97,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2017,IE,ne a l etranger (tous),936883,4799157,19.52,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2017,IE,ne hors UE,618410,4799157,12.89,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2017,IT,ne a l etranger (tous),5770263,60066734,9.61,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2017,IT,ne dans un autre pays UE,1714620,60066734,2.85,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2017,IT,ne hors UE,4055643,60066734,6.75,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2017,LT,ne a l etranger (tous),124964,2859077,4.37,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2017,LT,ne dans un autre pays UE,11965,2859077,0.42,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2017,LT,ne hors UE,109057,2859077,3.81,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2017,LU,ne a l etranger (tous),270010,590667,45.71,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2017,LU,ne dans un autre pays UE,200177,590667,33.89,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2017,LU,ne hors UE,69833,590667,11.82,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2017,LV,ne a l etranger (tous),251465,1950116,12.89,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2017,LV,ne dans un autre pays UE,24472,1950116,1.25,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2017,LV,ne hors UE,226993,1950116,11.64,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2017,MT,ne a l etranger (tous),69437,459375,15.12,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2017,NL,ne a l etranger (tous),2137234,17081507,12.51,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2017,NL,ne dans un autre pays UE,528896,17081507,3.1,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2017,NL,ne hors UE,1608338,17081507,9.42,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2017,PL,ne a l etranger (tous),651845,37972964,1.72,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2017,PT,ne a l etranger (tous),1200249,10344478,11.6,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2017,RO,ne a l etranger (tous),419238,19643949,2.13,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2017,RO,ne dans un autre pays UE,160347,19643949,0.82,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2017,RO,ne hors UE,258891,19643949,1.32,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2017,SE,ne a l etranger (tous),1783179,9995153,17.84,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2017,SE,ne dans un autre pays UE,513961,9995153,5.14,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2017,SE,ne hors UE,1269218,9995153,12.7,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2017,SI,ne a l etranger (tous),245369,2065895,11.88,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2017,SI,ne dans un autre pays UE,65783,2065895,3.18,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2017,SI,ne hors UE,179586,2065895,8.69,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2017,SK,ne a l etranger (tous),186217,5435343,3.43,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2017,SK,ne dans un autre pays UE,146503,5435343,2.7,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2017,SK,ne hors UE,39714,5435343,0.73,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2018,AT,ne a l etranger (tous),1690619,8822267,19.16,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2018,AT,ne dans un autre pays UE,750697,8822267,8.51,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2018,AT,ne hors UE,939922,8822267,10.65,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2018,BE,ne a l etranger (tous),1916272,11398589,16.81,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2018,BE,ne dans un autre pays UE,864686,11398589,7.59,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2018,BE,ne hors UE,1051586,11398589,9.23,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2018,BG,ne a l etranger (tous),149096,6757418,2.21,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2018,CY,ne a l etranger (tous),192409,878601,21.9,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2018,CY,ne hors UE,96133,878601,10.94,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2018,CZ,ne a l etranger (tous),467580,10610055,4.41,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2018,CZ,ne dans un autre pays UE,183372,10610055,1.73,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2018,CZ,ne hors UE,284208,10610055,2.68,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2018,DE,ne a l etranger (tous),13745843,82792351,16.6,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2018,DK,ne a l etranger (tous),690549,5781190,11.94,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2018,DK,ne dans un autre pays UE,217780,5781190,3.77,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2018,DK,ne hors UE,472769,5781190,8.18,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2018,EE,ne a l etranger (tous),196207,1319133,14.87,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2018,EE,ne dans un autre pays UE,22728,1319133,1.72,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2018,EE,ne hors UE,198253,1319133,15.03,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2018,EL,ne a l etranger (tous),1210567,10667336,11.35,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2018,ES,ne a l etranger (tous),6207509,46645070,13.31,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2018,ES,ne dans un autre pays UE,1560990,46645070,3.35,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2018,ES,ne hors UE,4646519,46645070,9.96,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2018,EU27_2020,ne a l etranger (tous),50693432,445301376,11.38,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2018,FI,ne a l etranger (tous),363717,5513130,6.6,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2018,FI,ne dans un autre pays UE,118291,5513130,2.15,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2018,FI,ne hors UE,239370,5513130,4.34,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2018,FR,ne a l etranger (tous),8199663,67026224,12.23,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2018,FR,ne dans un autre pays UE,1980695,67026224,2.96,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2018,FR,ne hors UE,6218968,67026224,9.28,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2018,HR,ne a l etranger (tous),496265,4014341,12.36,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2018,HU,ne a l etranger (tous),536182,9713655,5.52,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2018,HU,ne dans un autre pays UE,314268,9713655,3.24,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2018,HU,ne hors UE,208975,9713655,2.15,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2018,IE,ne a l etranger (tous),957976,4855733,19.73,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2018,IE,ne hors UE,636392,4855733,13.11,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2018,IT,ne a l etranger (tous),5888837,59937769,9.82,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2018,IT,ne dans un autre pays UE,1718271,59937769,2.87,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2018,IT,ne hors UE,4170566,59937769,6.96,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2018,LT,ne a l etranger (tous),132127,2826200,4.68,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2018,LT,ne dans un autre pays UE,13124,2826200,0.46,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2018,LT,ne hors UE,113678,2826200,4.02,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2018,LU,ne a l etranger (tous),280151,602005,46.54,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2018,LU,ne dans un autre pays UE,204994,602005,34.05,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2018,LU,ne hors UE,75157,602005,12.48,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2018,LV,ne a l etranger (tous),246040,1934379,12.72,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2018,LV,ne dans un autre pays UE,24127,1934379,1.25,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2018,LV,ne hors UE,221913,1934379,11.47,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2018,MT,ne a l etranger (tous),83245,474837,17.53,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2018,NL,ne a l etranger (tous),2215849,17181084,12.9,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2018,NL,ne dans un autre pays UE,558410,17181084,3.25,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2018,NL,ne hors UE,1657439,17181084,9.65,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2018,PL,ne a l etranger (tous),695850,37976687,1.83,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2018,PT,ne a l etranger (tous),1236888,10335770,11.97,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2018,RO,ne a l etranger (tous),510526,19533481,2.61,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2018,RO,ne dans un autre pays UE,186891,19533481,0.96,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2018,RO,ne hors UE,323635,19533481,1.66,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2018,SE,ne a l etranger (tous),1875637,10120242,18.53,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2018,SE,ne dans un autre pays UE,522910,10120242,5.17,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2018,SE,ne hors UE,1352727,10120242,13.37,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2018,SI,ne a l etranger (tous),250226,2066880,12.11,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2018,SI,ne dans un autre pays UE,65168,2066880,3.15,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2018,SI,ne hors UE,185058,2066880,8.95,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2018,SK,ne a l etranger (tous),190308,5443120,3.5,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2018,SK,ne dans un autre pays UE,148282,5443120,2.72,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2018,SK,ne hors UE,42026,5443120,0.77,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2019,AT,ne a l etranger (tous),1722833,8858775,19.45,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2019,AT,ne dans un autre pays UE,773447,8858775,8.73,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2019,AT,ne hors UE,949386,8858775,10.72,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2019,BE,ne a l etranger (tous),1968060,11455519,17.18,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2019,BE,ne dans un autre pays UE,879197,11455519,7.67,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2019,BE,ne hors UE,1088863,11455519,9.51,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2019,BG,ne a l etranger (tous),162346,6664177,2.44,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2019,CY,ne a l etranger (tous),200418,890194,22.51,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2019,CY,ne hors UE,102743,890194,11.54,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2019,CZ,ne a l etranger (tous),507051,10649800,4.76,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2019,CZ,ne dans un autre pays UE,192378,10649800,1.81,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2019,CZ,ne hors UE,314673,10649800,2.95,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2019,DE,ne a l etranger (tous),14879635,83019213,17.92,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2019,DK,ne a l etranger (tous),707880,5806081,12.19,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2019,DK,ne dans un autre pays UE,226238,5806081,3.9,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2019,DK,ne hors UE,481642,5806081,8.3,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2019,EE,ne a l etranger (tous),197896,1324820,14.94,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2019,EE,ne dans un autre pays UE,24443,1324820,1.85,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2019,EE,ne hors UE,199042,1324820,15.02,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2019,EL,ne a l etranger (tous),1199084,10635213,11.27,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2019,ES,ne a l etranger (tous),6549309,46918951,13.96,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2019,ES,ne dans un autre pays UE,1559837,46918951,3.32,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2019,ES,ne hors UE,4989472,46918951,10.63,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2019,EU27_2020,ne a l etranger (tous),53233648,446149924,11.93,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2019,FI,ne a l etranger (tous),377360,5517919,6.84,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2019,FI,ne dans un autre pays UE,120221,5517919,2.18,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2019,FI,ne hors UE,250824,5517919,4.55,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2019,FR,ne a l etranger (tous),8368280,67290471,12.44,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2019,FR,ne dans un autre pays UE,1983213,67290471,2.95,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2019,FR,ne hors UE,6385067,67290471,9.49,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2019,HR,ne a l etranger (tous),488393,3968676,12.31,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2019,HU,ne a l etranger (tous),564761,9700272,5.82,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2019,HU,ne dans un autre pays UE,315117,9700272,3.25,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2019,HU,ne hors UE,235090,9700272,2.42,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2019,IE,ne a l etranger (tous),990469,4940311,20.05,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2019,IE,ne hors UE,663135,4940311,13.42,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2019,IT,ne a l etranger (tous),6069000,59816673,10.15,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2019,IT,ne dans un autre pays UE,1669876,59816673,2.79,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2019,IT,ne hors UE,4399124,59816673,7.35,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2019,LT,ne a l etranger (tous),148679,2812200,5.29,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2019,LT,ne dans un autre pays UE,14595,2812200,0.52,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2019,LT,ne hors UE,124935,2812200,4.44,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2019,LU,ne a l etranger (tous),290644,613894,47.34,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2019,LU,ne dans un autre pays UE,209523,613894,34.13,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2019,LU,ne hors UE,81121,613894,13.21,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2019,LV,ne a l etranger (tous),241754,1919968,12.59,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2019,LV,ne dans un autre pays UE,23807,1919968,1.24,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2019,LV,ne hors UE,217947,1919968,11.35,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2019,MT,ne a l etranger (tous),99436,492968,20.17,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2019,NL,ne a l etranger (tous),2298705,17282163,13.3,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2019,NL,ne dans un autre pays UE,591740,17282163,3.42,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2019,NL,ne hors UE,1706965,17282163,9.88,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2019,PL,ne a l etranger (tous),760849,37972812,2.0,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2019,PT,ne a l etranger (tous),1307266,10333496,12.65,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2019,RO,ne a l etranger (tous),611627,19414458,3.15,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2019,RO,ne dans un autre pays UE,217063,19414458,1.12,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2019,RO,ne hors UE,394564,19414458,2.03,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2019,SE,ne a l etranger (tous),1954065,10230185,19.1,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2019,SE,ne dans un autre pays UE,528661,10230185,5.17,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2019,SE,ne hors UE,1425404,10230185,13.93,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2019,SI,ne a l etranger (tous),265072,2080908,12.74,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2019,SI,ne dans un autre pays UE,65097,2080908,3.13,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2019,SI,ne hors UE,199975,2080908,9.61,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2019,SK,ne a l etranger (tous),194389,5450421,3.57,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2019,SK,ne dans un autre pays UE,149967,5450421,2.75,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2019,SK,ne hors UE,44422,5450421,0.82,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2020,AT,ne a l etranger (tous),1760595,8901064,19.78,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2020,AT,ne dans un autre pays UE,797171,8901064,8.96,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2020,AT,ne hors UE,963424,8901064,10.82,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2020,BE,ne a l etranger (tous),2027763,11522440,17.6,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2020,BE,ne dans un autre pays UE,894908,11522440,7.77,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2020,BE,ne hors UE,1132855,11522440,9.83,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2020,BG,ne a l etranger (tous),176321,6569275,2.68,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2020,CY,ne a l etranger (tous),208687,902429,23.13,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2020,CY,ne hors UE,110171,902429,12.21,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2020,CZ,ne a l etranger (tous),533639,10693939,4.99,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2020,CZ,ne dans un autre pays UE,199968,10693939,1.87,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2020,CZ,ne hors UE,333671,10693939,3.12,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2020,DE,ne a l etranger (tous),15040708,83166711,18.09,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2020,DK,ne a l etranger (tous),715936,5822763,12.3,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2020,DK,ne dans un autre pays UE,229237,5822763,3.94,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2020,DK,ne hors UE,486699,5822763,8.36,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2020,EE,ne a l etranger (tous),198254,1328889,14.92,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2020,EE,ne dans un autre pays UE,24284,1328889,1.83,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2020,EE,ne hors UE,173970,1328889,13.09,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2020,EL,ne a l etranger (tous),1187514,10612591,11.19,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2020,ES,ne a l etranger (tous),7014753,47318050,14.82,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2020,ES,ne dans un autre pays UE,1564126,47318050,3.31,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2020,ES,ne hors UE,5450627,47318050,11.52,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2020,EU27_2020,ne a l etranger (tous),54855524,447030024,12.27,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2020,FI,ne a l etranger (tous),393555,5525292,7.12,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2020,FI,ne dans un autre pays UE,122297,5525292,2.21,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2020,FI,ne hors UE,264581,5525292,4.79,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2020,FR,ne a l etranger (tous),8473346,67473651,12.56,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2020,FR,ne dans un autre pays UE,1945254,67473651,2.88,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2020,FR,ne hors UE,6528092,67473651,9.68,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2020,HR,ne a l etranger (tous),486390,3933511,12.37,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2020,HU,ne a l etranger (tous),593937,9689376,6.13,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2020,HU,ne dans un autre pays UE,325650,9689376,3.36,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2020,HU,ne hors UE,251605,9689376,2.6,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2020,IE,ne a l etranger (tous),1022915,5012600,20.41,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2020,IE,ne hors UE,691099,5012600,13.79,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2020,IT,ne a l etranger (tous),6161391,59641488,10.33,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2020,IT,ne dans un autre pays UE,1663525,59641488,2.79,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2020,IT,ne hors UE,4497866,59641488,7.54,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2020,LT,ne a l etranger (tous),153697,2809977,5.47,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2020,LT,ne dans un autre pays UE,16144,2809977,0.57,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2020,LT,ne hors UE,127926,2809977,4.55,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2020,LU,ne a l etranger (tous),301688,626108,48.18,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2020,LU,ne dans un autre pays UE,213357,626108,34.08,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2020,LU,ne hors UE,88331,626108,14.11,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2020,LV,ne a l etranger (tous),236953,1907675,12.42,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2020,LV,ne dans un autre pays UE,23364,1907675,1.22,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2020,LV,ne hors UE,213589,1907675,11.2,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2020,MT,ne a l etranger (tous),118994,514855,23.11,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2020,NL,ne a l etranger (tous),2399804,17407585,13.79,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2020,NL,ne dans un autre pays UE,630291,17407585,3.62,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2020,NL,ne hors UE,1769513,17407585,10.17,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2020,PL,ne a l etranger (tous),849320,37958138,2.24,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2020,PT,ne a l etranger (tous),1416498,10375395,13.65,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2020,RO,ne a l etranger (tous),723913,19328838,3.75,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2020,RO,ne dans un autre pays UE,242685,19328838,1.26,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2020,RO,ne hors UE,481228,19328838,2.49,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2020,SE,ne a l etranger (tous),2018191,10327589,19.54,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2020,SE,ne dans un autre pays UE,531939,10327589,5.15,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2020,SE,ne hors UE,1486252,10327589,14.39,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2020,SI,ne a l etranger (tous),281621,2095861,13.44,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2020,SI,ne dans un autre pays UE,64853,2095861,3.09,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2020,SI,ne hors UE,216768,2095861,10.34,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2020,SK,ne a l etranger (tous),198429,5457873,3.64,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2020,SK,ne dans un autre pays UE,151483,5457873,2.78,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2020,SK,ne hors UE,46946,5457873,0.86,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2021,AT,ne a l etranger (tous),1792053,8932664,20.06,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2021,AT,ne dans un autre pays UE,818379,8932664,9.16,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2021,AT,ne hors UE,973674,8932664,10.9,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2021,BE,ne a l etranger (tous),2065727,11554767,17.88,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2021,BE,ne dans un autre pays UE,905077,11554767,7.83,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2021,BE,ne hors UE,1160650,11554767,10.04,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2021,BG,ne a l etranger (tous),188519,6532117,2.89,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2021,BG,ne dans un autre pays UE,55052,6532117,0.84,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2021,BG,ne hors UE,133467,6532117,2.04,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2021,CY,ne a l etranger (tous),219134,914476,23.96,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2021,CY,ne dans un autre pays UE,84934,914476,9.29,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2021,CY,ne hors UE,134200,914476,14.68,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2021,CZ,ne a l etranger (tous),409220,10494836,3.9,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2021,CZ,ne dans un autre pays UE,128614,10494836,1.23,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2021,CZ,ne hors UE,280606,10494836,2.67,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2021,DE,ne a l etranger (tous),15162728,83155031,18.23,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2021,DE,ne dans un autre pays UE,6601127,83155031,7.94,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2021,DE,ne hors UE,8561601,83155031,10.3,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2021,DK,ne a l etranger (tous),721135,5840045,12.35,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2021,DK,ne dans un autre pays UE,232468,5840045,3.98,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2021,DK,ne hors UE,488667,5840045,8.37,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2021,EE,ne a l etranger (tous),198243,1330068,14.9,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2021,EE,ne dans un autre pays UE,24516,1330068,1.84,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2021,EE,ne hors UE,173727,1330068,13.06,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2021,EL,ne a l etranger (tous),1172292,10555344,11.11,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2021,EL,ne dans un autre pays UE,244624,10555344,2.32,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2021,EL,ne hors UE,927668,10555344,8.79,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2021,ES,ne a l etranger (tous),7254797,47400798,15.31,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2021,ES,ne dans un autre pays UE,1557666,47400798,3.29,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2021,ES,ne hors UE,5697131,47400798,12.02,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2021,EU27_2020,ne a l etranger (tous),55624109,445891011,12.47,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2021,EU27_2020,ne dans un autre pays UE,17660092,445891011,3.96,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2021,EU27_2020,ne hors UE,37964017,445891011,8.51,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2021,FI,ne a l etranger (tous),408676,5533793,7.39,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2021,FI,ne dans un autre pays UE,124592,5533793,2.25,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2021,FI,ne hors UE,284084,5533793,5.13,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2021,FR,ne a l etranger (tous),8548924,67728568,12.62,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2021,FR,ne dans un autre pays UE,1941147,67728568,2.87,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2021,FR,ne hors UE,6607777,67728568,9.76,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2021,HR,ne a l etranger (tous),478056,3893026,12.28,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2021,HR,ne dans un autre pays UE,64053,3893026,1.65,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2021,HR,ne hors UE,414003,3893026,10.63,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2021,HU,ne a l etranger (tous),597440,9651461,6.19,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2021,HU,ne dans un autre pays UE,328414,9651461,3.4,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2021,HU,ne hors UE,269026,9651461,2.79,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2021,IE,ne a l etranger (tous),1030012,5066893,20.33,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2021,IE,ne dans un autre pays UE,331069,5066893,6.53,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2021,IE,ne hors UE,698943,5066893,13.79,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2021,IT,ne a l etranger (tous),6262207,59236213,10.57,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2021,IT,ne dans un autre pays UE,1583294,59236213,2.67,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2021,IT,ne hors UE,4678913,59236213,7.9,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2021,LT,ne a l etranger (tous),155586,2810761,5.54,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2021,LT,ne dans un autre pays UE,17045,2810761,0.61,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2021,LT,ne hors UE,138541,2810761,4.93,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2021,LU,ne a l etranger (tous),309164,634730,48.71,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2021,LU,ne dans un autre pays UE,215402,634730,33.94,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2021,LU,ne hors UE,93762,634730,14.77,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2021,LV,ne a l etranger (tous),230095,1893223,12.15,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2021,LV,ne dans un autre pays UE,22997,1893223,1.21,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2021,LV,ne hors UE,207098,1893223,10.94,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2021,MT,ne a l etranger (tous),119556,516125,23.16,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2021,MT,ne dans un autre pays UE,38960,516125,7.55,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2021,MT,ne hors UE,80596,516125,15.62,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2021,NL,ne a l etranger (tous),2451157,17475415,14.03,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2021,NL,ne dans un autre pays UE,663390,17475415,3.8,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2021,NL,ne hors UE,1787767,17475415,10.23,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2021,PL,ne a l etranger (tous),935740,37073357,2.52,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2021,PL,ne dans un autre pays UE,225129,37073357,0.61,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2021,PL,ne hors UE,710611,37073357,1.92,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2021,PT,ne a l etranger (tous),1495524,10394297,14.39,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2021,PT,ne dans un autre pays UE,371405,10394297,3.57,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2021,PT,ne hors UE,1124119,10394297,10.81,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2021,RO,ne a l etranger (tous),688697,19201662,3.59,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2021,RO,ne dans un autre pays UE,247434,19201662,1.29,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2021,RO,ne hors UE,441263,19201662,2.3,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2021,SE,ne a l etranger (tous),2045234,10379295,19.7,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2021,SE,ne dans un autre pays UE,529899,10379295,5.11,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2021,SE,ne hors UE,1515335,10379295,14.6,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2021,SI,ne a l etranger (tous),292824,2108977,13.88,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2021,SI,ne dans un autre pays UE,64772,2108977,3.07,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2021,SI,ne hors UE,228052,2108977,10.81,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2021,SK,ne a l etranger (tous),201941,5459781,3.7,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2021,SK,ne dans un autre pays UE,152880,5459781,2.8,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2021,SK,ne hors UE,49061,5459781,0.9,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2022,AT,ne a l etranger (tous),1834342,8978929,20.43,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2022,AT,ne dans un autre pays UE,836504,8978929,9.32,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2022,AT,ne hors UE,997838,8978929,11.11,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2022,BE,ne a l etranger (tous),2119691,11617623,18.25,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2022,BE,ne dans un autre pays UE,918818,11617623,7.91,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2022,BE,ne hors UE,1200873,11617623,10.34,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2022,BG,ne a l etranger (tous),142214,6482484,2.19,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2022,BG,ne dans un autre pays UE,48448,6482484,0.75,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2022,BG,ne hors UE,93766,6482484,1.45,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2022,CY,ne a l etranger (tous),233319,929764,25.09,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2022,CY,ne dans un autre pays UE,88699,929764,9.54,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2022,CY,ne hors UE,144620,929764,15.55,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2022,CZ,ne a l etranger (tous),685840,10516707,6.52,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2022,CZ,ne dans un autre pays UE,313866,10516707,2.98,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2022,CZ,ne hors UE,371974,10516707,3.54,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2022,DE,ne a l etranger (tous),15287650,83237124,18.37,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2022,DE,ne dans un autre pays UE,6235857,83237124,7.49,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2022,DE,ne hors UE,9051793,83237124,10.87,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2022,DK,ne a l etranger (tous),745851,5873420,12.7,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2022,DK,ne dans un autre pays UE,248121,5873420,4.22,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2022,DK,ne hors UE,497730,5873420,8.47,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2022,EE,ne a l etranger (tous),200583,1331796,15.06,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2022,EE,ne dans un autre pays UE,25513,1331796,1.92,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2022,EE,ne hors UE,175070,1331796,13.15,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2022,EL,ne a l etranger (tous),1160403,10461627,11.09,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2022,EL,ne dans un autre pays UE,236241,10461627,2.26,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2022,EL,ne hors UE,924162,10461627,8.83,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2022,ES,ne a l etranger (tous),7468144,47486843,15.73,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2022,ES,ne dans un autre pays UE,1556776,47486843,3.28,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2022,ES,ne hors UE,5911368,47486843,12.45,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2022,EU27_2020,ne a l etranger (tous),56045896,445972024,12.57,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2022,FI,ne a l etranger (tous),428409,5548241,7.72,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2022,FI,ne dans un autre pays UE,128177,5548241,2.31,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2022,FI,ne hors UE,300232,5548241,5.41,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2022,FR,ne a l etranger (tous),8635504,68091703,12.68,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2022,FR,ne dans un autre pays UE,1937995,68091703,2.85,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2022,FR,ne hors UE,6697509,68091703,9.84,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2022,HR,ne a l etranger (tous),472308,3862305,12.23,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2022,HR,ne dans un autre pays UE,64566,3862305,1.67,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2022,HR,ne hors UE,407742,3862305,10.56,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2022,HU,ne a l etranger (tous),612618,9610403,6.37,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2022,HU,ne dans un autre pays UE,334632,9610403,3.48,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2022,HU,ne hors UE,277986,9610403,2.89,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2022,IE,ne a l etranger (tous),1050907,5154277,20.39,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2022,IE,ne dans un autre pays UE,336312,5154277,6.52,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2022,IE,ne hors UE,714595,5154277,13.86,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2022,IT,ne a l etranger (tous),6161003,59030133,10.44,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2022,IT,ne dans un autre pays UE,1554474,59030133,2.63,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2022,IT,ne hors UE,4606529,59030133,7.8,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2022,LT,ne a l etranger (tous),168787,2805998,6.02,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2022,LT,ne dans un autre pays UE,17858,2805998,0.64,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2022,LT,ne hors UE,150929,2805998,5.38,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2022,LU,ne a l etranger (tous),318568,645397,49.36,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2022,LU,ne dans un autre pays UE,217883,645397,33.76,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2022,LU,ne hors UE,100685,645397,15.6,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2022,LV,ne a l etranger (tous),223631,1875757,11.92,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2022,LV,ne dans un autre pays UE,22708,1875757,1.21,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2022,LV,ne hors UE,200923,1875757,10.71,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2022,MT,ne a l etranger (tous),122742,520174,23.6,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2022,MT,ne dans un autre pays UE,40840,520174,7.85,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2022,MT,ne hors UE,81902,520174,15.75,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2022,NL,ne a l etranger (tous),2550837,17590672,14.5,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2022,NL,ne dans un autre pays UE,704398,17590672,4.0,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2022,NL,ne hors UE,1846439,17590672,10.5,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2022,PL,ne a l etranger (tous),931158,36889761,2.52,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2022,PL,ne dans un autre pays UE,227134,36889761,0.62,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2022,PL,ne hors UE,704024,36889761,1.91,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2022,PT,ne a l etranger (tous),1568066,10421117,15.05,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2022,PT,ne dans un autre pays UE,376826,10421117,3.62,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2022,PT,ne hors UE,1191240,10421117,11.43,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2022,RO,ne a l etranger (tous),831546,19043098,4.37,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2022,RO,ne dans un autre pays UE,288877,19043098,1.52,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2022,RO,ne hors UE,542669,19043098,2.85,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2022,SE,ne a l etranger (tous),2089008,10452326,19.99,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2022,SE,ne dans un autre pays UE,534399,10452326,5.11,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2022,SE,ne hors UE,1554609,10452326,14.87,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2022,SI,ne a l etranger (tous),294533,2107180,13.98,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2022,SI,ne dans un autre pays UE,63794,2107180,3.03,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2022,SI,ne hors UE,230739,2107180,10.95,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2022,SK,ne a l etranger (tous),213171,5434712,3.92,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2022,SK,ne dans un autre pays UE,157393,5434712,2.9,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2022,SK,ne hors UE,55778,5434712,1.03,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2023,AT,ne a l etranger (tous),1963312,9104772,21.56,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2023,AT,ne dans un autre pays UE,863023,9104772,9.48,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2023,AT,ne hors UE,1100289,9104772,12.08,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2023,BE,ne a l etranger (tous),2246910,11742796,19.13,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2023,BE,ne dans un autre pays UE,937816,11742796,7.99,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2023,BE,ne hors UE,1309094,11742796,11.15,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2023,BG,ne a l etranger (tous),168595,6447710,2.61,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2023,BG,ne dans un autre pays UE,57652,6447710,0.89,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2023,BG,ne hors UE,110943,6447710,1.72,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2023,CY,ne a l etranger (tous),247304,949084,26.06,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2023,CY,ne dans un autre pays UE,90478,949084,9.53,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2023,CY,ne hors UE,156826,949084,16.52,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2023,CZ,ne a l etranger (tous),990821,10827529,9.15,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2023,CZ,ne dans un autre pays UE,312045,10827529,2.88,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2023,CZ,ne hors UE,678776,10827529,6.27,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2023,DE,ne a l etranger (tous),16362854,83118501,19.69,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2023,DE,ne dans un autre pays UE,6301521,83118501,7.58,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2023,DE,ne hors UE,10061333,83118501,12.1,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2023,DK,ne a l etranger (tous),804061,5932654,13.55,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2023,DK,ne dans un autre pays UE,263458,5932654,4.44,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2023,DK,ne hors UE,540603,5932654,9.11,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2023,EE,ne a l etranger (tous),234743,1365884,17.19,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2023,EE,ne dans un autre pays UE,26612,1365884,1.95,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2023,EE,ne hors UE,208131,1365884,15.24,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2023,EL,ne a l etranger (tous),1164729,10401868,11.2,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2023,EL,ne dans un autre pays UE,234133,10401868,2.25,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2023,EL,ne hors UE,930596,10401868,8.95,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2023,ES,ne a l etranger (tous),8204206,48085361,17.06,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2023,ES,ne dans un autre pays UE,1579523,48085361,3.28,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2023,ES,ne hors UE,6624683,48085361,13.78,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2023,EU27_2020,ne a l etranger (tous),60115595,447695350,13.43,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2023,EU27_2020,ne dans un autre pays UE,17732557,447695350,3.96,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2023,EU27_2020,ne hors UE,42383038,447695350,9.47,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2023,FI,ne a l etranger (tous),461205,5563970,8.29,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2023,FI,ne dans un autre pays UE,131025,5563970,2.35,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2023,FI,ne hors UE,330180,5563970,5.93,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2023,FR,ne a l etranger (tous),8963311,68277210,13.13,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2023,FR,ne dans un autre pays UE,1990953,68277210,2.92,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2023,FR,ne hors UE,6972358,68277210,10.21,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2023,HR,ne a l etranger (tous),490555,3850894,12.74,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2023,HR,ne dans un autre pays UE,65297,3850894,1.7,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2023,HR,ne hors UE,425258,3850894,11.04,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2023,HU,ne a l etranger (tous),644496,9599744,6.71,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2023,HU,ne dans un autre pays UE,342174,9599744,3.56,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2023,HU,ne hors UE,302322,9599744,3.15,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2023,IE,ne a l etranger (tous),1150590,5271395,21.83,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2023,IE,ne dans un autre pays UE,347770,5271395,6.6,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2023,IE,ne hors UE,802820,5271395,15.23,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2023,IT,ne a l etranger (tous),6417206,58997201,10.88,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2023,IT,ne dans un autre pays UE,1563156,58997201,2.65,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2023,IT,ne hors UE,4854050,58997201,8.23,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2023,LT,ne a l etranger (tous),231822,2857279,8.11,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2023,LT,ne dans un autre pays UE,18647,2857279,0.65,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2023,LT,ne hors UE,213175,2857279,7.46,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2023,LU,ne a l etranger (tous),333085,660809,50.41,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2023,LU,ne dans un autre pays UE,219327,660809,33.19,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2023,LU,ne hors UE,113758,660809,17.21,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2023,LV,ne a l etranger (tous),235022,1895239,12.4,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2023,LV,ne dans un autre pays UE,21894,1895239,1.16,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2023,LV,ne hors UE,213128,1895239,11.25,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2023,MT,ne a l etranger (tous),153361,542051,28.29,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2023,MT,ne dans un autre pays UE,40304,542051,7.44,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2023,MT,ne hors UE,113057,542051,20.86,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2023,NL,ne a l etranger (tous),2776950,17811291,15.59,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2023,NL,ne dans un autre pays UE,747873,17811291,4.2,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2023,NL,ne hors UE,2029077,17811291,11.39,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2023,PL,ne a l etranger (tous),933118,36753736,2.54,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2023,PL,ne dans un autre pays UE,231466,36753736,0.63,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2023,PL,ne hors UE,701652,36753736,1.91,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2023,PT,ne a l etranger (tous),1733067,10516621,16.48,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2023,PT,ne dans un autre pays UE,378350,10516621,3.6,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2023,PT,ne hors UE,1354717,10516621,12.88,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2023,RO,ne a l etranger (tous),981748,19055228,5.15,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2023,RO,ne dans un autre pays UE,298841,19055228,1.57,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2023,RO,ne hors UE,682907,19055228,3.58,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2023,SE,ne a l etranger (tous),2144268,10521556,20.38,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2023,SE,ne dans un autre pays UE,546993,10521556,5.2,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2023,SE,ne hors UE,1597275,10521556,15.18,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2023,SI,ne a l etranger (tous),309289,2116972,14.61,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2023,SI,ne dans un autre pays UE,62298,2116972,2.94,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2023,SI,ne hors UE,246991,2116972,11.67,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2023,SK,ne a l etranger (tous),213178,5428792,3.93,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2023,SK,ne dans un autre pays UE,156293,5428792,2.88,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2023,SK,ne hors UE,56885,5428792,1.05,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2024,AT,ne a l etranger (tous),2023431,9158750,22.09,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2024,AT,ne dans un autre pays UE,883937,9158750,9.65,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2024,AT,ne hors UE,1139494,9158750,12.44,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2024,BE,ne a l etranger (tous),2324053,11817096,19.67,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2024,BE,ne dans un autre pays UE,950822,11817096,8.05,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2024,BE,ne hors UE,1373231,11817096,11.62,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2024,BG,ne a l etranger (tous),211839,6445481,3.29,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2024,BG,ne dans un autre pays UE,67746,6445481,1.05,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2024,BG,ne hors UE,144093,6445481,2.24,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2024,CY,ne a l etranger (tous),259939,966365,26.9,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2024,CY,ne dans un autre pays UE,89984,966365,9.31,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2024,CY,ne hors UE,169955,966365,17.59,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2024,CZ,ne a l etranger (tous),1069593,10900555,9.81,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2024,CZ,ne dans un autre pays UE,313763,10900555,2.88,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2024,CZ,ne hors UE,755830,10900555,6.93,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2024,DE,ne a l etranger (tous),16881323,83456045,20.23,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2024,DE,ne dans un autre pays UE,6347951,83456045,7.61,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2024,DE,ne hors UE,10533372,83456045,12.62,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2024,DK,ne a l etranger (tous),832354,5961249,13.96,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2024,DK,ne dans un autre pays UE,272469,5961249,4.57,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2024,DK,ne hors UE,559885,5961249,9.39,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2024,EE,ne a l etranger (tous),244422,1374687,17.78,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2024,EE,ne dans un autre pays UE,26411,1374687,1.92,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2024,EE,ne hors UE,218011,1374687,15.86,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2024,EL,ne a l etranger (tous),1144701,10375764,11.03,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2024,EL,ne dans un autre pays UE,233892,10375764,2.25,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2024,EL,ne hors UE,910809,10375764,8.78,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2024,ES,ne a l etranger (tous),8838234,48619695,18.18,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2024,ES,ne dans un autre pays UE,1592472,48619695,3.28,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2024,ES,ne hors UE,7245762,48619695,14.9,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2024,EU27_2020,ne a l etranger (tous),62634187,449306184,13.94,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2024,EU27_2020,ne dans un autre pays UE,17935120,449306184,3.99,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2024,EU27_2020,ne hors UE,44699067,449306184,9.95,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2024,FI,ne a l etranger (tous),520119,5603851,9.28,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2024,FI,ne dans un autre pays UE,134050,5603851,2.39,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2024,FI,ne hors UE,386069,5603851,6.89,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2024,FR,ne a l etranger (tous),9362105,68669303,13.63,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2024,FR,ne dans un autre pays UE,1973585,68669303,2.87,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2024,FR,ne hors UE,7388520,68669303,10.76,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2024,HR,ne a l etranger (tous),519916,3861967,13.46,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2024,HR,ne dans un autre pays UE,65577,3861967,1.7,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2024,HR,ne hors UE,454339,3861967,11.76,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2024,HU,ne a l etranger (tous),677036,9584627,7.06,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2024,HU,ne dans un autre pays UE,344811,9584627,3.6,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2024,HU,ne hors UE,332225,9584627,3.47,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2024,IE,ne a l etranger (tous),1211883,5351681,22.64,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2024,IE,ne dans un autre pays UE,357495,5351681,6.68,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2024,IE,ne hors UE,854388,5351681,15.96,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2024,IT,ne a l etranger (tous),6673604,58971230,11.32,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2024,IT,ne dans un autre pays UE,1599390,58971230,2.71,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2024,IT,ne hors UE,5074214,58971230,8.6,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2024,LT,ne a l etranger (tous),268299,2885891,9.3,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2024,LT,ne dans un autre pays UE,19577,2885891,0.68,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2024,LT,ne hors UE,248722,2885891,8.62,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2024,LU,ne a l etranger (tous),342943,672050,51.03,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2024,LU,ne dans un autre pays UE,220990,672050,32.88,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2024,LU,ne hors UE,121953,672050,18.15,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2024,LV,ne a l etranger (tous),225320,1878575,11.99,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2024,LV,ne dans un autre pays UE,21509,1878575,1.14,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2024,LV,ne hors UE,203811,1878575,10.85,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2024,MT,ne a l etranger (tous),173781,563443,30.84,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2024,MT,ne dans un autre pays UE,41048,563443,7.29,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2024,MT,ne hors UE,132733,563443,23.56,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2024,NL,ne a l etranger (tous),2914939,17942942,16.25,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2024,NL,ne dans un autre pays UE,779591,17942942,4.34,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2024,NL,ne hors UE,2135348,17942942,11.9,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2024,PL,ne a l etranger (tous),935897,36620970,2.56,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2024,PL,ne dans un autre pays UE,236029,36620970,0.64,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2024,PL,ne hors UE,699868,36620970,1.91,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2024,PT,ne a l etranger (tous),1703848,10639726,16.01,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2024,PT,ne dans un autre pays UE,380312,10639726,3.57,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2024,PT,ne hors UE,1323536,10639726,12.44,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2024,RO,ne a l etranger (tous),1080457,19067576,5.67,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2024,RO,ne dans un autre pays UE,314267,19067576,1.65,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2024,RO,ne hors UE,766190,19067576,4.02,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2024,SE,ne a l etranger (tous),2169296,10551707,20.56,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2024,SE,ne dans un autre pays UE,554088,10551707,5.25,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2024,SE,ne hors UE,1615208,10551707,15.31,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2024,SI,ne a l etranger (tous),319914,2123949,15.06,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2024,SI,ne dans un autre pays UE,61349,2123949,2.89,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2024,SI,ne hors UE,258565,2123949,12.17,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2024,SK,ne a l etranger (tous),214037,5424687,3.95,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2024,SK,ne dans un autre pays UE,155451,5424687,2.87,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2024,SK,ne hors UE,58586,5424687,1.08,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2025,AT,ne a l etranger (tous),2069404,9197213,22.5,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2025,AT,ne dans un autre pays UE,894264,9197213,9.72,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2025,AT,ne hors UE,1175140,9197213,12.78,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2025,BE,ne a l etranger (tous),2399622,11883495,20.19,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2025,BE,ne dans un autre pays UE,959986,11883495,8.08,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2025,BE,ne hors UE,1439636,11883495,12.11,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2025,BG,ne a l etranger (tous),246575,6437360,3.83,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2025,BG,ne dans un autre pays UE,75774,6437360,1.18,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2025,BG,ne hors UE,170801,6437360,2.65,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2025,CY,ne a l etranger (tous),270821,982966,27.55,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2025,CY,ne dans un autre pays UE,89587,982966,9.11,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2025,CY,ne hors UE,181234,982966,18.44,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2025,CZ,ne a l etranger (tous),1095599,10909500,10.04,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2025,CZ,ne dans un autre pays UE,314459,10909500,2.88,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2025,CZ,ne hors UE,781140,10909500,7.16,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2025,DE,ne a l etranger (tous),17153545,83577140,20.52,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2025,DE,ne dans un autre pays UE,6329946,83577140,7.57,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2025,DE,ne hors UE,10823599,83577140,12.95,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2025,DK,ne a l etranger (tous),862074,5992734,14.39,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2025,DK,ne dans un autre pays UE,278351,5992734,4.64,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2025,DK,ne hors UE,583723,5992734,9.74,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2025,EE,ne a l etranger (tous),243255,1369995,17.76,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2025,EE,ne dans un autre pays UE,26036,1369995,1.9,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2025,EE,ne hors UE,217219,1369995,15.86,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2025,EL,ne a l etranger (tous),1142215,10372335,11.01,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2025,EL,ne dans un autre pays UE,233614,10372335,2.25,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2025,EL,ne hors UE,908601,10372335,8.76,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2025,ES,ne a l etranger (tous),9464210,49128297,19.26,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2025,ES,ne dans un autre pays UE,1601863,49128297,3.26,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2025,ES,ne hors UE,7862347,49128297,16.0,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2025,EU27_2020,ne a l etranger (tous),64719037,450646971,14.36,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2025,EU27_2020,ne dans un autre pays UE,18036352,450646971,4.0,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2025,EU27_2020,ne hors UE,46682685,450646971,10.36,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2025,FI,ne a l etranger (tous),566053,5635971,10.04,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2025,FI,ne dans un autre pays UE,135155,5635971,2.4,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2025,FI,ne hors UE,430898,5635971,7.65,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2025,FR,ne a l etranger (tous),9633730,68882600,13.99,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2025,FR,ne dans un autre pays UE,2008725,68882600,2.92,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2025,FR,ne hors UE,7625005,68882600,11.07,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2025,HR,ne a l etranger (tous),546622,3874350,14.11,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2025,HR,ne dans un autre pays UE,66952,3874350,1.73,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2025,HR,ne hors UE,479670,3874350,12.38,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2025,HU,ne a l etranger (tous),693156,9539502,7.27,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2025,HU,ne dans un autre pays UE,349414,9539502,3.66,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2025,HU,ne hors UE,343742,9539502,3.6,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2025,IE,ne a l etranger (tous),1267144,5440278,23.29,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2025,IE,ne dans un autre pays UE,365376,5440278,6.72,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2025,IE,ne hors UE,901768,5440278,16.58,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2025,IT,ne a l etranger (tous),6928045,58943464,11.75,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2025,IT,ne dans un autre pays UE,1591703,58943464,2.7,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2025,IT,ne hors UE,5336342,58943464,9.05,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2025,LT,ne a l etranger (tous),280950,2890664,9.72,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2025,LT,ne dans un autre pays UE,20764,2890664,0.72,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2025,LT,ne hors UE,260186,2890664,9.0,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2025,LU,ne a l etranger (tous),351387,681973,51.53,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2025,LU,ne dans un autre pays UE,221726,681973,32.51,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2025,LU,ne hors UE,129661,681973,19.01,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2025,LV,ne a l etranger (tous),215606,1860565,11.59,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2025,LV,ne dans un autre pays UE,21182,1860565,1.14,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2025,LV,ne hors UE,194424,1860565,10.45,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2025,MT,ne a l etranger (tous),183765,574250,32.0,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2025,MT,ne dans un autre pays UE,42604,574250,7.42,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2025,MT,ne hors UE,141161,574250,24.58,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2025,NL,ne a l etranger (tous),3025656,18044027,16.77,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2025,NL,ne dans un autre pays UE,795637,18044027,4.41,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2025,NL,ne hors UE,2230019,18044027,12.36,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2025,PL,ne a l etranger (tous),940259,36497495,2.58,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2025,PL,ne dans un autre pays UE,239532,36497495,0.66,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2025,PL,ne hors UE,700727,36497495,1.92,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2025,RO,ne a l etranger (tous),1171823,19043151,6.15,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2025,RO,ne dans un autre pays UE,321821,19043151,1.69,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2025,RO,ne hors UE,850002,19043151,4.46,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2025,SE,ne a l etranger (tous),2199046,10587710,20.77,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2025,SE,ne dans un autre pays UE,552988,10587710,5.22,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2025,SE,ne hors UE,1646058,10587710,15.55,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2025,SI,ne a l etranger (tous),329515,2130850,15.46,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2025,SI,ne dans un autre pays UE,60676,2130850,2.85,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2025,SI,ne hors UE,268839,2130850,12.62,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2025,SK,ne a l etranger (tous),215941,5419451,3.98,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2025,SK,ne dans un autre pays UE,154484,5419451,2.85,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table
+2025,SK,ne hors UE,61457,5419451,1.13,mesure (part calculee),https://ec.europa.eu/eurostat/databrowser/view/migr_pop3ctb/default/table

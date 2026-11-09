@@ -1,0 +1,73 @@
+id;nom;niveau;effectif;unite;annee;statut;source
+AG-P105;P105 Action de la France en Europe et dans le monde;N-ETAT;8122;ETPT;2023 (LFI);fait (A);modeles/grand-livre/agents-publics.csv
+AG-P107;P107 Administration pénitentiaire;N-ETAT;44581;ETPT;2023 (LFI);fait (A);modeles/grand-livre/agents-publics.csv
+AG-P124;P124 Conduite et soutien des politiques sanitaires et sociales;N-ETAT;4999;ETPT;2023 (LFI);fait (A);modeles/grand-livre/agents-publics.csv
+AG-P126;P126 Conseil économique, social et environnemental;N-ETAT;153;ETPT;2023 (LFI);fait (A);modeles/grand-livre/agents-publics.csv
+AG-P129;P129 Coordination du travail gouvernemental;N-ETAT;3027;ETPT;2023 (LFI);fait (A);modeles/grand-livre/agents-publics.csv
+AG-P134;P134 Développement des entreprises et régulations;N-ETAT;4514;ETPT;2023 (LFI);fait (A);modeles/grand-livre/agents-publics.csv
+AG-P138;P138 Emploi outre-mer;N-ETAT;6049;ETPT;2023 (LFI);fait (A);modeles/grand-livre/agents-publics.csv
+AG-P139;P139 Enseignement privé du premier et du second degrés;N-ETAT;133461;ETPT;2023 (LFI);fait (A);modeles/grand-livre/agents-publics.csv
+AG-P140;P140 Enseignement scolaire public du premier degré;N-ETAT;344278;ETPT;2023 (LFI);fait (A);modeles/grand-livre/agents-publics.csv
+AG-P141;P141 Enseignement scolaire public du second degré;N-ETAT;452033;ETPT;2023 (LFI);fait (A);modeles/grand-livre/agents-publics.csv
+AG-P142;P142 Enseignement supérieur et recherche agricoles;N-ETAT;2832;ETPT;2023 (LFI);fait (A);modeles/grand-livre/agents-publics.csv
+AG-P143;P143 Enseignement technique agricole;N-ETAT;15215;ETPT;2023 (LFI);fait (A);modeles/grand-livre/agents-publics.csv
+AG-P147;P147 Politique de la ville;N-ETAT;291;ETPT;2023 (LFI);fait (A);modeles/grand-livre/agents-publics.csv
+AG-P150;P150 Formations supérieures et recherche universitaire;N-ETAT;5179;ETPT;2023 (LFI);fait (A);modeles/grand-livre/agents-publics.csv
+AG-P151;P151 Français à l'étranger et affaires consulaires;N-ETAT;3259;ETPT;2023 (LFI);fait (A);modeles/grand-livre/agents-publics.csv
+AG-P152;P152 Gendarmerie nationale;N-ETAT;102162;ETPT;2023 (LFI);fait (A);modeles/grand-livre/agents-publics.csv
+AG-P155;P155 Conception, gestion et évaluation des politiques de l'emploi et du travail;N-ETAT;7767;ETPT;2023 (LFI);fait (A);modeles/grand-livre/agents-publics.csv
+AG-P158;P158 Indemnisation des victimes des persécutions antisémites et des actes de barbarie pendant la seconde guerre mondiale;N-ETAT;19;ETPT;2023 (LFI);fait (A);modeles/grand-livre/agents-publics.csv
+AG-P161;P161 Sécurité civile;N-ETAT;2467;ETPT;2023 (LFI);fait (A);modeles/grand-livre/agents-publics.csv
+AG-P163;P163 Jeunesse et vie associative;N-ETAT;754;ETPT;2023 (LFI);fait (A);modeles/grand-livre/agents-publics.csv
+AG-P164;P164 Cour des comptes et autres juridictions financières;N-ETAT;1826;ETPT;2023 (LFI);fait (A);modeles/grand-livre/agents-publics.csv
+AG-P165;P165 Conseil d'État et autres juridictions administratives;N-ETAT;4330;ETPT;2023 (LFI);fait (A);modeles/grand-livre/agents-publics.csv
+AG-P166;P166 Justice judiciaire;N-ETAT;36132;ETPT;2023 (LFI);fait (A);modeles/grand-livre/agents-publics.csv
+AG-P176;P176 Police nationale;N-ETAT;151020;ETPT;2023 (LFI);fait (A);modeles/grand-livre/agents-publics.csv
+AG-P181;P181 Prévention des risques;N-ETAT;457;ETPT;2023 (LFI);fait (A);modeles/grand-livre/agents-publics.csv
+AG-P182;P182 Protection judiciaire de la jeunesse;N-ETAT;9386;ETPT;2023 (LFI);fait (A);modeles/grand-livre/agents-publics.csv
+AG-P185;P185 Diplomatie culturelle et d'influence;N-ETAT;792;ETPT;2023 (LFI);fait (A);modeles/grand-livre/agents-publics.csv
+AG-P206;P206 Sécurité et qualité sanitaires de l'alimentation;N-ETAT;5068;ETPT;2023 (LFI);fait (A);modeles/grand-livre/agents-publics.csv
+AG-P209;P209 Solidarité à l'égard des pays en développement;N-ETAT;1462;ETPT;2023 (LFI);fait (A);modeles/grand-livre/agents-publics.csv
+AG-P212;P212 Soutien de la politique de la défense;N-ETAT;272571;ETPT;2023 (LFI);fait (A);modeles/grand-livre/agents-publics.csv
+AG-P214;P214 Soutien de la politique de l'éducation nationale;N-ETAT;28404;ETPT;2023 (LFI);fait (A);modeles/grand-livre/agents-publics.csv
+AG-P215;P215 Conduite et pilotage des politiques de l'agriculture;N-ETAT;6773;ETPT;2023 (LFI);fait (A);modeles/grand-livre/agents-publics.csv
+AG-P216;P216 Conduite et pilotage des politiques de l'intérieur;N-ETAT;11095;ETPT;2023 (LFI);fait (A);modeles/grand-livre/agents-publics.csv
+AG-P217;P217 Conduite et pilotage des politiques de l'écologie, du développement et de la mobilité durables;N-ETAT;35020;ETPT;2023 (LFI);fait (A);modeles/grand-livre/agents-publics.csv
+AG-P218;P218 Conduite et pilotage des politiques économiques et financières;N-ETAT;4913;ETPT;2023 (LFI);fait (A);modeles/grand-livre/agents-publics.csv
+AG-P219;P219 Sport;N-ETAT;1442;ETPT;2023 (LFI);fait (A);modeles/grand-livre/agents-publics.csv
+AG-P220;P220 Statistiques et études économiques;N-ETAT;5037;ETPT;2023 (LFI);fait (A);modeles/grand-livre/agents-publics.csv
+AG-P224;P224 Soutien aux politiques du ministère de la culture;N-ETAT;9111;ETPT;2023 (LFI);fait (A);modeles/grand-livre/agents-publics.csv
+AG-P230;P230 Vie de l'élève;N-ETAT;79608;ETPT;2023 (LFI);fait (A);modeles/grand-livre/agents-publics.csv
+AG-P232;P232 Vie politique;N-ETAT;55;ETPT;2023 (LFI);fait (A);modeles/grand-livre/agents-publics.csv
+AG-P305;P305 Stratégies économiques;N-ETAT;1303;ETPT;2023 (LFI);fait (A);modeles/grand-livre/agents-publics.csv
+AG-P308;P308 Protection des droits et libertés;N-ETAT;694;ETPT;2023 (LFI);fait (A);modeles/grand-livre/agents-publics.csv
+AG-P310;P310 Conduite et pilotage de la politique de la justice;N-ETAT;2629;ETPT;2023 (LFI);fait (A);modeles/grand-livre/agents-publics.csv
+AG-P335;P335 Conseil supérieur de la magistrature;N-ETAT;24;ETPT;2023 (LFI);fait (A);modeles/grand-livre/agents-publics.csv
+AG-P354;P354 Administration territoriale de l'État;N-ETAT;29298;ETPT;2023 (LFI);fait (A);modeles/grand-livre/agents-publics.csv
+AG-P368;P368 Conduite et pilotage de la transformation et de la fonction publiques;N-ETAT;470;ETPT;2023 (LFI);fait (A);modeles/grand-livre/agents-publics.csv
+AG-P613;P613 Soutien aux prestations de l'aviation civile;N-ETAT;10421;ETPT;2023 (LFI);fait (A);modeles/grand-livre/agents-publics.csv
+AG-P624;P624 Pilotage et ressources humaines;N-ETAT;503;ETPT;2023 (LFI);fait (A);modeles/grand-livre/agents-publics.csv
+AG-P156-1;DGFiP action 01 : fiscalité des grandes entreprises;N-ETAT;1408;ETPT;2026 (PAP, plafond);"fait (A) ; coûts du programme 156 en 2024 répartis au prorata des ETPT (estimation)";modeles/grand-livre/agents-publics.csv
+AG-P156-2;DGFiP actions 02 et 03 : fiscalité des PME, des particuliers et fiscalité directe locale;N-ETAT;46583;ETPT;2026 (PAP, plafond);"fait (A) ; coûts du programme 156 en 2024 répartis au prorata des ETPT (estimation)";modeles/grand-livre/agents-publics.csv
+AG-P156-3;DGFiP action 05 : gestion financière de l'État hors fiscalité (comptabilité, paye);N-ETAT;12715;ETPT;2026 (PAP, plafond);"fait (A) ; coûts du programme 156 en 2024 répartis au prorata des ETPT (estimation)";modeles/grand-livre/agents-publics.csv
+AG-P156-4;DGFiP action 06 : gestion des pensions de l'État;N-ETAT;1081;ETPT;2026 (PAP, plafond);"fait (A) ; coûts du programme 156 en 2024 répartis au prorata des ETPT (estimation)";modeles/grand-livre/agents-publics.csv
+AG-P156-5;DGFiP action 07 : secteur public local hors fiscalité (trésoreries des collectivités);N-ETAT;17344;ETPT;2026 (PAP, plafond);"fait (A) ; coûts du programme 156 en 2024 répartis au prorata des ETPT (estimation)";modeles/grand-livre/agents-publics.csv
+AG-P156-6;DGFiP action 09 : soutien;N-ETAT;11962;ETPT;2026 (PAP, plafond);"fait (A) ; coûts du programme 156 en 2024 répartis au prorata des ETPT (estimation)";modeles/grand-livre/agents-publics.csv
+AG-P156-7;DGFiP action 10 : législation fiscale;N-ETAT;220;ETPT;2026 (PAP, plafond);"fait (A) ; coûts du programme 156 en 2024 répartis au prorata des ETPT (estimation)";modeles/grand-livre/agents-publics.csv
+AG-P156-8;DGFiP autres actions non ventilées (écart avec le plafond de 92 115);N-ETAT;802;ETPT;2026 (PAP, plafond);"fait (A) ; coûts du programme 156 en 2024 répartis au prorata des ETPT (estimation)";modeles/grand-livre/agents-publics.csv
+AG-P302-F1;Douane : part fiscale (accises, droits, TVA import);N-ETAT;5772;ETPT;2023 (LFI);"fait (A) ; partage 35/65 : estimation (H-AP2)";modeles/grand-livre/agents-publics.csv
+AG-P302-F3;Douane : surveillance, sûreté, lutte contre les trafics;N-ETAT;10719;ETPT;2023 (LFI);"fait (A) ; partage 35/65 : estimation (H-AP2)";modeles/grand-livre/agents-publics.csv
+AG-SECU-URSSAF;Urssaf (réseau et caisse nationale), recouvrement;N-SECU;15098;ETP;2022-2023;fait (A) : ETP CDI en moyenne annuelle 2023, open.urssaf.fr;modeles/grand-livre/agents-publics.csv
+AG-SECU-CNAM;Assurance maladie (Cnam, CPAM, CGSS, services médicaux);N-SECU;80429;ETP;2022-2023;estimation (C) : 161 260 − Urssaf, au prorata du budget de gestion 2023;modeles/grand-livre/agents-publics.csv
+AG-SECU-CAF;Allocations familiales (Cnaf et 102 CAF);N-SECU;34697;ETP;2022-2023;"estimation (C), même méthode ; ordre de grandeur voisin de 35 200 ETP du dépôt";modeles/grand-livre/agents-publics.csv
+AG-SECU-CNAV;Assurance retraite (Cnav, Carsat);N-SECU;15969;ETP;2022-2023;estimation (C), même méthode;modeles/grand-livre/agents-publics.csv
+AG-SECU-MSA;Mutualité sociale agricole (toutes fonctions);N-SECU;15101;ETP;2022-2023;estimation (C), même méthode;modeles/grand-livre/agents-publics.csv
+AG-OP-FT;France Travail;N-OPE;48647;ETP;2025 (PLF);fait (A) : ETPT sous plafond;modeles/grand-livre/agents-publics.csv
+AG-FPT-COM;Communes;N-COM;1029000;personnes;2023;fait (A);DGAFP, Rapport annuel 2025 (données 2023), repris dans modeles/grand-livre/agents-publics.md § 2.1
+AG-FPT-CCAS;Établissements communaux (CCAS, caisses des écoles);N-COM;105000;personnes;2023;fait (A);DGAFP, Rapport annuel 2025 (données 2023), repris dans modeles/grand-livre/agents-publics.md § 2.1
+AG-FPT-EPCI;EPCI à fiscalité propre;N-EPCI;302000;personnes;2023;fait (A);DGAFP, Rapport annuel 2025 (données 2023), repris dans modeles/grand-livre/agents-publics.md § 2.1
+AG-FPT-SYN;Autres structures intercommunales;N-SYN;90000;personnes;2023;fait (A);DGAFP, Rapport annuel 2025 (données 2023), repris dans modeles/grand-livre/agents-publics.md § 2.1
+AG-FPT-DEP;Départements;N-DEP;286000;personnes;2023;fait (A);DGAFP, Rapport annuel 2025 (données 2023), repris dans modeles/grand-livre/agents-publics.md § 2.1
+AG-FPT-DEPETAB;Autres établissements départementaux (dont SDIS);N-DEP;72000;personnes;2023;fait (A);DGAFP, Rapport annuel 2025 (données 2023), repris dans modeles/grand-livre/agents-publics.md § 2.1
+AG-FPT-REG;Régions;N-REG;99000;personnes;2023;fait (A);DGAFP, Rapport annuel 2025 (données 2023), repris dans modeles/grand-livre/agents-publics.md § 2.1
+AG-FPT-AUTRES;Autres (territoriale);;11000;personnes;2023;fait (A);DGAFP, Rapport annuel 2025 (données 2023), repris dans modeles/grand-livre/agents-publics.md § 2.1

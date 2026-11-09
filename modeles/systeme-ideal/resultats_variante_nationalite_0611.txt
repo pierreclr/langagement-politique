@@ -1,0 +1,131 @@
+=== A. ÉROSION PAR CANAUX (1 % le mieux doté, érosion à 1 point ; référence 40 %) ===
+scénario | rDecl | couv | déclaratif | exil | réel | e1 (1 %) | e1 (reste) | part de l'exil dans l'érosion restante
+référence (chaîne de la v7.4, e1 = 40 %) | 0 % | 0 % | 25,2 % | 10,8 % | 4,0 % | 40,0 % | 15,0 % | 27,0 %
+impôt différentiel seul (départs neutralisés à 60 %) | 0 % | 60 % | 25,2 % | 4,3 % | 4,0 % | 33,5 % | 12,6 % | 12,9 %
+court terme (30 % / 30 %) | 30 % | 30 % | 17,6 % | 7,6 % | 4,0 % | 29,2 % | 10,9 % | 25,9 %
+bien conçu, bas (e1 = 17 %) | 64 % | 64 % | 9,1 % | 3,9 % | 4,0 % | 17,0 % | 6,4 % | 23,0 %
+bien conçu, central (e1 = 12 %) | 78 % | 78 % | 5,6 % | 2,4 % | 4,0 % | 12,0 % | 4,5 % | 20,0 %
+bien conçu, haut (e1 = 7 %) | 92 % | 92 % | 2,1 % | 0,9 % | 4,0 % | 7,0 % | 2,6 % | 12,9 %
+
+=== B. FONCTION v7.5 RECOMMANDÉE (RP 0,25 % jusqu'à 1 M€ ; 3 % × W²/(W + 400 000 €)) SOUS CHAQUE SCÉNARIO ; Md€/an ; manque de la base : 52,1 ===
+scénario | recette | Δ v7.5 (62,52) | part du manque | érosion effective du capital mobile du 1 % | autres impôts perdus par l'exil | différé | encaissé dans l'année
+référence (chaîne de la v7.4, e1 = 40 %) | 62,52 | +0,00 | 0 % | 59 % | 4,36 | 26,0 | 36,6
+impôt différentiel seul (départs neutralisés à 60 %) | 64,93 | +2,41 | 5 % | 51 % | 1,79 | 27,3 | 37,6
+court terme (30 % / 30 %) | 64,80 | +2,28 | 4 % | 45 % | 3,18 | 27,3 | 37,5
+bien conçu, bas (e1 = 17 %) | 67,64 | +5,12 | 10 % | 28 % | 1,71 | 28,9 | 38,7
+bien conçu, central (e1 = 12 %) | 68,87 | +6,35 | 12 % | 20 % | 1,07 | 29,6 | 39,3
+bien conçu, haut (e1 = 7 %) | 70,16 | +7,64 | 15 % | 12 % | 0,41 | 30,3 | 39,8
+
+=== C. GRILLE t∞ (K minimal sous la contrainte dure de la v7.5, statique) PAR SCÉNARIO ; Md€/an ===
+-- référence (chaîne de la v7.4, e1 = 40 %)
+t∞ | K minimal | recette | Δ v7.5 | part du manque | érosion effective du 1 % | différé
+3,0 % | 375 k€ | 63,42 | +0,90 | 2 % | 59 % | 26,5
+3,5 % | 500 k€ | 65,76 | +3,24 | 6 % | 67 % | 30,0
+4,0 % | 600 k€ | 67,66 | +5,14 | 10 % | 74 % | 32,6
+4,5 % | 700 k€ | 68,39 | +5,87 | 11 % | 79 % | 34,0
+5,0 % | 800 k€ | 68,10 | +5,58 | 11 % | 84 % | 34,6
+5,5 % | 900 k€ | 66,89 | +4,37 | 8 % | 87 % | 34,3
+6,0 % | 1025 k€ | 64,40 | +1,88 | 4 % | 90 % | 33,0
+meilleur : t∞ = 4,5 %, K = 700 k€ : 68,39 (+5,87, 11 % du manque)
+-- impôt différentiel seul (départs neutralisés à 60 %)
+t∞ | K minimal | recette | Δ v7.5 | part du manque | érosion effective du 1 % | différé
+3,0 % | 375 k€ | 65,87 | +3,35 | 6 % | 51 % | 27,9
+3,5 % | 500 k€ | 68,57 | +6,05 | 12 % | 59 % | 31,8
+4,0 % | 600 k€ | 70,79 | +8,26 | 16 % | 66 % | 34,6
+4,5 % | 700 k€ | 71,77 | +9,25 | 18 % | 72 % | 36,2
+5,0 % | 800 k€ | 71,66 | +9,14 | 18 % | 76 % | 37,0
+5,5 % | 900 k€ | 70,58 | +8,06 | 15 % | 80 % | 36,9
+6,0 % | 1025 k€ | 68,15 | +5,63 | 11 % | 84 % | 35,7
+meilleur : t∞ = 4,5 %, K = 700 k€ : 71,77 (+9,25, 18 % du manque)
+-- court terme (30 % / 30 %)
+t∞ | K minimal | recette | Δ v7.5 | part du manque | érosion effective du 1 % | différé
+3,0 % | 375 k€ | 65,75 | +3,22 | 6 % | 45 % | 27,8
+3,5 % | 500 k€ | 68,53 | +6,01 | 12 % | 53 % | 31,8
+4,0 % | 600 k€ | 70,83 | +8,31 | 16 % | 60 % | 34,6
+4,5 % | 700 k€ | 71,88 | +9,36 | 18 % | 66 % | 36,3
+5,0 % | 800 k€ | 71,83 | +9,31 | 18 % | 71 % | 37,1
+5,5 % | 900 k€ | 70,80 | +8,28 | 16 % | 75 % | 37,0
+6,0 % | 1025 k€ | 68,40 | +5,88 | 11 % | 78 % | 35,8
+meilleur : t∞ = 4,5 %, K = 700 k€ : 71,88 (+9,36, 18 % du manque)
+-- bien conçu, bas (e1 = 17 %)
+t∞ | K minimal | recette | Δ v7.5 | part du manque | érosion effective du 1 % | différé
+3,0 % | 375 k€ | 68,64 | +6,12 | 12 % | 28 % | 29,4
+3,5 % | 500 k€ | 72,17 | +9,65 | 19 % | 33 % | 34,0
+4,0 % | 600 k€ | 75,24 | +12,71 | 24 % | 39 % | 37,5
+4,5 % | 700 k€ | 77,00 | +14,48 | 28 % | 44 % | 39,7
+5,0 % | 800 k€ | 77,59 | +15,07 | 29 % | 48 % | 41,0
+5,5 % | 900 k€ | 77,13 | +14,61 | 28 % | 52 % | 41,4
+6,0 % | 1025 k€ | 75,18 | +12,66 | 24 % | 56 % | 40,6
+meilleur : t∞ = 5,0 %, K = 800 k€ : 77,59 (+15,07, 29 % du manque)
+-- bien conçu, central (e1 = 12 %)
+t∞ | K minimal | recette | Δ v7.5 | part du manque | érosion effective du 1 % | différé
+3,0 % | 375 k€ | 69,90 | +7,38 | 14 % | 20 % | 30,2
+3,5 % | 500 k€ | 73,83 | +11,31 | 22 % | 24 % | 35,0
+4,0 % | 600 k€ | 77,32 | +14,80 | 28 % | 29 % | 38,8
+4,5 % | 700 k€ | 79,50 | +16,98 | 33 % | 33 % | 41,4
+5,0 % | 800 k€ | 80,52 | +18,00 | 35 % | 36 % | 43,0
+5,5 % | 900 k€ | 80,47 | +17,94 | 34 % | 40 % | 43,7
+6,0 % | 1025 k€ | 78,86 | +16,34 | 31 % | 43 % | 43,2
+meilleur : t∞ = 5,0 %, K = 800 k€ : 80,52 (+18,00, 35 % du manque)
+-- bien conçu, haut (e1 = 7 %)
+t∞ | K minimal | recette | Δ v7.5 | part du manque | érosion effective du 1 % | différé
+3,0 % | 375 k€ | 71,21 | +8,69 | 17 % | 12 % | 30,9
+3,5 % | 500 k€ | 75,58 | +13,06 | 25 % | 15 % | 36,1
+4,0 % | 600 k€ | 79,57 | +17,05 | 33 % | 17 % | 40,3
+4,5 % | 700 k€ | 82,27 | +19,75 | 38 % | 20 % | 43,2
+5,0 % | 800 k€ | 83,82 | +21,30 | 41 % | 23 % | 45,2
+5,5 % | 900 k€ | 84,30 | +21,78 | 42 % | 25 % | 46,4
+6,0 % | 1025 k€ | 83,20 | +20,68 | 40 % | 28 % | 46,2
+meilleur : t∞ = 5,5 %, K = 900 k€ : 84,30 (+21,78, 42 % du manque)
+
+=== D. CAS LIMITES AU-DELÀ DE 100 % DU REVENU (statiques, indépendants de l'érosion) ===
+-- t∞ = 3,0 %, K = 400 k€ : 6 cas sur 25 au-delà de 100 % (payé ou dû)
+   Chef d'entreprise : société de 10 M€ où il travaille (bénéfice 500 000 €, après IS 375 000 € : valeur de rende | payé 65 % | dû 159 %
+   3 M€ en cryptoactifs (valeur moyenne de l'année), salaire 5 000 €/mois, locataire | payé 176 % | dû 176 %
+   Collectionneur : 5 M€ d'œuvres d'art, RP de 2 M€, 15 000 €/mois | payé 69 % | dû 153 %
+   Fractionnement : parent seul avec 10 M€ (locatif 4 M€ à 2 %, titres 6 M€ à 3 %), avant donation | payé 98 % | dû 111 %
+   Château de 3 M€ détenu par une holding patrimoniale, exploitation déficitaire, aucun revenu versé, salaire 3 0 | payé 253 % | dû 253 %
+   Fondateur : parts valorisées 30 M€ au dernier tour, prélèvement en avance payé en titres (valeur du tour), sal | payé 1889 % | dû 1889 %
+-- t∞ = 4,5 %, K = 700 k€ : 9 cas sur 25 au-delà de 100 % (payé ou dû)
+   5 M€ d'actions cotées qui rapportent 3 % (12 500 €/mois de dividendes nets), sans autre revenu, pas de résiden | payé 132 % | dû 132 %
+   Rentier : 2 M€ d'actions cotées, 5 000 €/mois de dividendes nets, sans résidence | payé 111 % | dû 111 %
+   Chef d'entreprise : société de 10 M€ où il travaille (bénéfice 500 000 €, après IS 375 000 € : valeur de rende | payé 65 % | dû 231 %
+   3 M€ en cryptoactifs (valeur moyenne de l'année), salaire 5 000 €/mois, locataire | payé 226 % | dû 226 %
+   Collectionneur : 5 M€ d'œuvres d'art, RP de 2 M€, 15 000 €/mois | payé 69 % | dû 193 %
+   Fractionnement : parent seul avec 10 M€ (locatif 4 M€ à 2 %, titres 6 M€ à 3 %), avant donation | payé 118 % | dû 162 %
+   Fractionnement : chacun des trois enfants majeurs après donation (1/3 de tout, 3 000 €/mois de salaire chacun) | payé 89 % | dû 115 %
+   Château de 3 M€ détenu par une holding patrimoniale, exploitation déficitaire, aucun revenu versé, salaire 3 0 | payé 337 % | dû 337 %
+   Fondateur : parts valorisées 30 M€ au dernier tour, prélèvement en avance payé en titres (valeur du tour), sal | payé 2787 % | dû 2787 %
+-- t∞ = 5,0 %, K = 800 k€ : 9 cas sur 25 au-delà de 100 % (payé ou dû)
+   5 M€ d'actions cotées qui rapportent 3 % (12 500 €/mois de dividendes nets), sans autre revenu, pas de résiden | payé 144 % | dû 144 %
+   Rentier : 2 M€ d'actions cotées, 5 000 €/mois de dividendes nets, sans résidence | payé 119 % | dû 119 %
+   Chef d'entreprise : société de 10 M€ où il travaille (bénéfice 500 000 €, après IS 375 000 € : valeur de rende | payé 65 % | dû 254 %
+   3 M€ en cryptoactifs (valeur moyenne de l'année), salaire 5 000 €/mois, locataire | payé 241 % | dû 241 %
+   Collectionneur : 5 M€ d'œuvres d'art, RP de 2 M€, 15 000 €/mois | payé 69 % | dû 206 %
+   Fractionnement : parent seul avec 10 M€ (locatif 4 M€ à 2 %, titres 6 M€ à 3 %), avant donation | payé 128 % | dû 178 %
+   Fractionnement : chacun des trois enfants majeurs après donation (1/3 de tout, 3 000 €/mois de salaire chacun) | payé 94 % | dû 124 %
+   Château de 3 M€ détenu par une holding patrimoniale, exploitation déficitaire, aucun revenu versé, salaire 3 0 | payé 362 % | dû 362 %
+   Fondateur : parts valorisées 30 M€ au dernier tour, prélèvement en avance payé en titres (valeur du tour), sal | payé 3083 % | dû 3083 %
+-- t∞ = 5,5 %, K = 900 k€ : 10 cas sur 25 au-delà de 100 % (payé ou dû)
+   5 M€ d'actions cotées qui rapportent 3 % (12 500 €/mois de dividendes nets), sans autre revenu, pas de résiden | payé 155 % | dû 155 %
+   Rentier : 2 M€ d'actions cotées, 5 000 €/mois de dividendes nets, sans résidence | payé 126 % | dû 126 %
+   Viticulteur en appellation prestigieuse : vignes de 6 M€ de valeur vénale, revenu 8 000 €/mois (valeur de rend | payé 61 % | dû 101 %
+   Chef d'entreprise : société de 10 M€ où il travaille (bénéfice 500 000 €, après IS 375 000 € : valeur de rende | payé 65 % | dû 277 %
+   3 M€ en cryptoactifs (valeur moyenne de l'année), salaire 5 000 €/mois, locataire | payé 255 % | dû 255 %
+   Collectionneur : 5 M€ d'œuvres d'art, RP de 2 M€, 15 000 €/mois | payé 69 % | dû 219 %
+   Fractionnement : parent seul avec 10 M€ (locatif 4 M€ à 2 %, titres 6 M€ à 3 %), avant donation | payé 137 % | dû 194 %
+   Fractionnement : chacun des trois enfants majeurs après donation (1/3 de tout, 3 000 €/mois de salaire chacun) | payé 99 % | dû 132 %
+   Château de 3 M€ détenu par une holding patrimoniale, exploitation déficitaire, aucun revenu versé, salaire 3 0 | payé 385 % | dû 385 %
+   Fondateur : parts valorisées 30 M€ au dernier tour, prélèvement en avance payé en titres (valeur du tour), sal | payé 3376 % | dû 3376 %
+
+=== E. IMPÔT DIFFÉRENTIEL SUR LE STOCK DES FRANÇAIS DÉJÀ PARTIS (hors modèle) ; Md€/an ===
+Redevables ISF/IFI partis 2011-2021 : 7 480 ; retours (moyennes) ≈ 4 115 ; solde ≈ 3 365 ; actif net imposable moyen des partants 4,33 M€ (assiette ISF : hors biens professionnels)
+scénario | ménages patrimoine | patrimoine moyen (Pareto) | impôt dû moyen | volet patrimoine | volet revenus | taxe de sortie à la renonciation | gestion | net
+bas | 5 000 | 4,22 M€ | 115 926 € | 0,07 | 0,07 | 0,01 | −0,08 | 0,07
+central | 12 000 | 4,84 M€ | 134 425 € | 0,39 | 0,38 | 0,09 | −0,06 | 0,80
+haut | 25 000 | 5,88 M€ | 165 663 € | 1,70 | 1,68 | 0,30 | −0,04 | 3,64
+
+=== F. SYNTHÈSE ===
+Impôt différentiel seul, v7.5 : +2,41 Md€ (érosion évitée) + 0,80 (stock déjà parti, central) = 3,20
+Meilleur réglage, référence : +5,87 ; bien conçu bas / central / haut : +15,07 / +18,00 / +21,78 Md€ (29 % / 35 % / 42 % du manque)
+Avec le stock déjà parti (central) : bien conçu central 18,79 Md€, soit 36 % du manque

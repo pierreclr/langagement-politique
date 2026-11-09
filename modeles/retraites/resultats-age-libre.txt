@@ -1,0 +1,88 @@
+== 1. Mortalité et annuités ==
+ok  sexe T : la loi ajustée reproduit la table d'espérance de vie à 0,15 an près (rmse 0.106)
+ok  sexe M : la loi ajustée reproduit la table d'espérance de vie à 0,15 an près (rmse 0.077)
+ok  sexe F : la loi ajustée reproduit la table d'espérance de vie à 0,15 an près (rmse 0.06)
+ok  e(65) modèle ≈ 21,8 (Eurostat/Insee 2023)
+ok  les femmes vivent plus de 3 ans de plus à 65 ans
+ok  annuité sans actualisation ni indexation ≈ espérance de vie (avec demi-année : écart < 0,3)
+ok  actualiser réduit l'annuité
+ok  la survie décroît avec l'âge
+
+== 2. Coefficients ==
+ok  coefficient = 1 à l'âge de référence
+ok  le coefficient neutre croît avec l'âge de départ
+ok  neutralité : valeur actuelle des pensions inchangée au taux r (écart 0)
+ok  neutre à r > 0 : le total des pensions non actualisées baisse pour un départ anticipé (-1.6 %)
+ok  neutre à r = 0 : total non actualisé inchangé
+ok  taux annuel neutre à 64 ans, r = 0 : 4.6 % (OCDE : 4,8 % en moyenne)
+ok  la décote/surcote française (5 %/an) est comprise entre le neutre à r = 0 (4.6 %) et à r = 1,6 % (5.6 %)
+ok  à 60 ans le coefficient neutre des hommes est plus bas que celui des femmes (moins d'années à vivre : chaque année pèse plus, réduction plus forte)
+ok  plancher : jamais sous min(pension, plancher)
+coefficients (réf. 64 ans) : âge | neutre r=0 | neutre r=0,7 % | neutre r=1,6 % (suédois) | neutre r=3 % | français 5 %/an
+  60 | 0.848 | 0.834 | 0.816 | 0.786 | 0.8
+  61 | 0.882 | 0.871 | 0.857 | 0.833 | 0.85
+  62 | 0.918 | 0.911 | 0.901 | 0.884 | 0.9
+  63 | 0.957 | 0.954 | 0.948 | 0.94 | 0.95
+  64 | 1 | 1 | 1 | 1 | 1
+  65 | 1.046 | 1.05 | 1.056 | 1.066 | 1.05
+  66 | 1.096 | 1.105 | 1.118 | 1.139 | 1.1
+  67 | 1.151 | 1.166 | 1.185 | 1.218 | 1.15
+  68 | 1.211 | 1.231 | 1.259 | 1.306 | 1.2
+  69 | 1.277 | 1.304 | 1.341 | 1.404 | 1.25
+  70 | 1.349 | 1.384 | 1.431 | 1.512 | 1.3
+départ à 60 ans (réf. 64, r = 0,7 %), sexe M : coefficient 0.821
+départ à 60 ans (réf. 64, r = 0,7 %), sexe F : coefficient 0.844
+annuités à 65 ans (€ de pension annuelle valant) : r=0 21.8 ; r=1,6 % 18
+
+== 3. Effet de l'âge libre (cohortes) ==
+ok  Δ = 0 : aucun effet sur la dépense
+ok  neutre à r = 0 : effet quasi nul en régime stationnaire (2090 ; résidu < 0,06 pt dû à la croissance de la pension des nouvelles cohortes)
+ok  à r = 0 la transition coûte d'abord (pensions versées plus tôt) : 14.2 Md€ en 2030
+ok  un r plus élevé donne une dépense plus basse en 2060
+ok  partir plus tôt fait perdre des recettes (travail en moins) : 6.3 Md€ en 2030
+ok  départ à 60 ans sans réduction pour 20 % des départs : surcoût 8.6 Md€ en 2040 (0.26 pt)
+ok  le surcoût est proportionnel à la part
+
+== 4. Niveau : indexation et contribution ==
+ok  masse des pensions brutes au-dessus de 2 000 € : 83 Md€ (2025)
+ok  l'économie de l'indexation croît avec le temps
+ok  plus le seuil est bas, plus l'économie est grande
+ok  écart nul : aucune économie
+ok  contribution des hautes pensions : 6.6 Md€ (recoupe resultats.md : 6,6)
+ok  les cinq premiers déciles ne perdent rien (seuil 2 000 € brut, 2 500 € net)
+ok  la perte croît avec le décile
+
+== 5. Pauvreté et plancher ==
+ok  sans plancher au niveau du seuil, la part des partants anticipés sous le seuil augmente de 9.8 points
+ok  avec un plancher ≥ seuil de pauvreté, la hausse est nulle
+ok  un plancher plus haut coûte plus
+
+== 6. Bilans par scénario (économie sur les pensions + ; surcoût −) ==
+bas 2030 : âge libre -19.2 ; pénibilité -4.4 ; indexation 0.4 ; hautes pensions 6.6 → économie -16.6 Md€ = -0.53 pt de PIB ; recettes perdues -8.7 ; net -25.3 Md€ = -0.81 pt ; part de l'écart (3,0 pts) -18 % ; cotisants/retraités 1.66
+bas 2040 : âge libre -9.8 ; pénibilité -11.8 ; indexation 1.9 ; hautes pensions 6.6 → économie -13.2 Md€ = -0.39 pt de PIB ; recettes perdues -9.3 ; net -22.5 Md€ = -0.67 pt ; part de l'écart (3,0 pts) -13 % ; cotisants/retraités 1.5
+bas 2060 : âge libre 1.8 ; pénibilité -22 ; indexation 4.9 ; hautes pensions 6.6 → économie -8.7 Md€ = -0.22 pt de PIB ; recettes perdues -10.7 ; net -19.4 Md€ = -0.49 pt ; part de l'écart (3,0 pts) -7 % ; cotisants/retraités 1.36
+central 2030 : âge libre -13.5 ; pénibilité -3.2 ; indexation 1.3 ; hautes pensions 6.6 → économie -8.8 Md€ = -0.28 pt de PIB ; recettes perdues -6.1 ; net -14.9 Md€ = -0.48 pt ; part de l'écart (3,0 pts) -9 % ; cotisants/retraités 1.66
+central 2040 : âge libre -6.2 ; pénibilité -8.6 ; indexation 6.2 ; hautes pensions 6.6 → économie -2.1 Md€ = -0.06 pt de PIB ; recettes perdues -6.5 ; net -8.6 Md€ = -0.26 pt ; part de l'écart (3,0 pts) -2 % ; cotisants/retraités 1.5
+central 2060 : âge libre 2.9 ; pénibilité -15.9 ; indexation 15.7 ; hautes pensions 6.6 → économie 9.2 Md€ = 0.23 pt de PIB ; recettes perdues -7.5 ; net 1.7 Md€ = 0.04 pt ; part de l'écart (3,0 pts) 8 % ; cotisants/retraités 1.36
+haut 2030 : âge libre -7.8 ; pénibilité -1.8 ; indexation 4.4 ; hautes pensions 6.6 → économie 1.4 Md€ = 0.05 pt de PIB ; recettes perdues -3.5 ; net -2.1 Md€ = -0.07 pt ; part de l'écart (3,0 pts) 2 % ; cotisants/retraités 1.66
+haut 2040 : âge libre -3.1 ; pénibilité -4.8 ; indexation 19.6 ; hautes pensions 6.6 → économie 18.3 Md€ = 0.54 pt de PIB ; recettes perdues -3.8 ; net 14.6 Md€ = 0.43 pt ; part de l'écart (3,0 pts) 18 % ; cotisants/retraités 1.5
+haut 2060 : âge libre 2.8 ; pénibilité -8.8 ; indexation 47.5 ; hautes pensions 6.6 → économie 48.1 Md€ = 1.22 pt de PIB ; recettes perdues -4.3 ; net 43.8 Md€ = 1.11 pt ; part de l'écart (3,0 pts) 41 % ; cotisants/retraités 1.36
+ok  bas < central < haut en 2060 (économie en points de PIB)
+ok  même le scénario haut ne comble pas à lui seul l'écart de 3 points avec l'Allemagne
+ok  le bilan net s'améliore avec le temps (transition coûteuse)
+niveau seul (indexation + hautes pensions), central, 2040 : 12.8 Md€ = 0.38 pt ; 2060 : 22.3 Md€ = 0.56 pt
+
+== 7. Qui perd, par décile de pension (2040, seuil 2 000 € brut, écart 0,5 pt/an ; contribution 20 % au-dessus de 2 500 € nets) ==
+décile 1 : pension moyenne 245 €/mois ; indexation −0 % ; contribution −0 % ; total −0 %
+décile 2 : pension moyenne 769 €/mois ; indexation −0 % ; contribution −0 % ; total −0 %
+décile 3 : pension moyenne 1110 €/mois ; indexation −0 % ; contribution −0 % ; total −0 %
+décile 4 : pension moyenne 1380 €/mois ; indexation −0 % ; contribution −0 % ; total −0 %
+décile 5 : pension moyenne 1633 €/mois ; indexation −0 % ; contribution −0 % ; total −0 %
+décile 6 : pension moyenne 1879 €/mois ; indexation −0 % ; contribution −0 % ; total −0 %
+décile 7 : pension moyenne 2151 €/mois ; indexation −0.4 % ; contribution −0 % ; total −0.4 %
+décile 8 : pension moyenne 2469 €/mois ; indexation −1.2 % ; contribution −0 % ; total −1.2 %
+décile 9 : pension moyenne 2952 €/mois ; indexation −2 % ; contribution −1.7 % ; total −3.8 %
+décile 10 : pension moyenne 4380 €/mois ; indexation −3.4 % ; contribution −7.7 % ; total −11.1 %
+pauvreté (départ à 60 ans, coefficient 0.834) : part des partants anticipés (pension individuelle nette < 1216 €) 39 % → 48 % sans plancher (+9.8 points) ; plancher 1 044 € : même chose (il est sous le seuil) ; plancher 1 300 € : +0 ; part d'une cohorte qui part à 60 ans 23 % ; coût du plancher en régime : 1 044 € 2 Md€/an, 1 300 € 3.3 Md€/an
+
+Tous les contrôles sont au vert.

@@ -1,0 +1,33 @@
+indicateur,annee,modele,cor_ou_publie,ecart_pct,unite
+"cotisants (COR, scénario de référence)",2025,30.6382,30.6382,0.0,millions
+"retraités, tous régimes (COR)",2025,17.4035,17.3111,0.53,millions
+rapport cotisants / retraités (COR),2025,1.7605,1.7699,-0.53,rapport
+"cotisants (COR, scénario de référence)",2030,31.1067,31.1127,-0.02,millions
+"retraités, tous régimes (COR)",2030,18.2139,17.775,2.47,millions
+rapport cotisants / retraités (COR),2030,1.7079,1.7504,-2.43,rapport
+"cotisants (COR, scénario de référence)",2040,31.8326,32.0583,-0.7,millions
+"retraités, tous régimes (COR)",2040,20.0084,19.5525,2.33,millions
+rapport cotisants / retraités (COR),2040,1.591,1.6396,-2.97,rapport
+"cotisants (COR, scénario de référence)",2050,31.1942,31.4447,-0.8,millions
+"retraités, tous régimes (COR)",2050,20.9549,20.4275,2.58,millions
+rapport cotisants / retraités (COR),2050,1.4886,1.5393,-3.29,rapport
+"cotisants (COR, scénario de référence)",2060,29.9957,30.2275,-0.77,millions
+"retraités, tous régimes (COR)",2060,21.5602,20.9292,3.02,millions
+rapport cotisants / retraités (COR),2060,1.3913,1.4443,-3.67,rapport
+"cotisants (COR, scénario de référence)",2070,28.5036,28.8191,-1.09,millions
+"retraités, tous régimes (COR)",2070,22.4765,22.0912,1.74,millions
+rapport cotisants / retraités (COR),2070,1.2681,1.3045,-2.79,rapport
+"20-64 ans par personne de 65+ (Insee via COR, fig. 1.5)",2030,2.2909,2.3273,-1.56,rapport
+"20-64 ans par personne de 65+ (Insee via COR, fig. 1.5)",2050,1.8522,1.927,-3.88,rapport
+"20-64 ans par personne de 65+ (Insee via COR, fig. 1.5)",2070,1.5789,1.615,-2.24,rapport
+taux d'emploi 15-64 ans (COR fig. 1.12 ; dénominateurs différents),2025,0.673,0.693,-2.89,fraction
+taux d'emploi 15-64 ans (COR fig. 1.12 ; dénominateurs différents),2050,0.7171,0.7216,-0.61,fraction
+taux d'emploi 15-64 ans (COR fig. 1.12 ; dénominateurs différents),2070,0.7124,0.7175,-0.71,fraction
+rapport 2070 avec la pyramide Insee 2026 (au lieu de celle du modèle),2070,1.2979,1.3045,-0.51,rapport
+"emploi 2025 du modèle contre Eurostat (15-74 ans, enquête Emploi)",2025,28.8875,29.3309,-1.51,millions
+"rapport cotisants / retraités 2070, variante COR chômage 5 %",2070,1.2953,1.3329,-2.82,rapport
+"rapport cotisants / retraités 2070, variante COR chômage 10 %",2070,1.2274,1.2631,-2.82,rapport
+"croissance annuelle de la population active, 2023-2033 (modèle : 2025-2033)",2033,0.331,0.485,-0.154,% par an (écart en points)
+"croissance annuelle de la population active, 2034-2044 (modèle : 2033-2044)",2044,0.008,0.064,-0.055,% par an (écart en points)
+"croissance annuelle de la population active, 2045-2055 (modèle : 2044-2055)",2055,-0.353,-0.351,-0.003,% par an (écart en points)
+"croissance annuelle de la population active, 2056-2066 (modèle : 2055-2066)",2066,-0.42,-0.444,0.024,% par an (écart en points)

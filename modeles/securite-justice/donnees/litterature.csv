@@ -1,0 +1,10 @@
+cle,bas,central,haut,unite,source,statut
+elasticite_crime_police_violent,-0.17,-0.34,-0.50,elasticite (variation % des crimes pour +1 % de policiers),Chalfin & McCrary 2018 (REStat) ; central cite de memoire,⚠️ V6284
+elasticite_crime_police_biens,-0.08,-0.17,-0.25,elasticite,Chalfin & McCrary 2018,⚠️ V6284
+elasticite_crime_population_carcerale,-0.00,-0.05,-0.15,elasticite a la marge,Johnson & Raphael 2012 ; Roodman 2017 (effet marginal proche de zero) ; fourchette de Claude,⚠️ V6285
+delta_reconviction_bracelet_vs_prison,0.00,0.04,0.07,points de reconviction,Henneguelle Monnery Kensey 2016 (J Law Econ) cite de memoire (6-7 pts),⚠️ V6286
+reconviction_5ans_sortants_prison,0.55,0.60,0.63,part,DAP etudes de cohorte (memoire),⚠️ V6287
+reduction_relative_recidive_travail,0.00,0.04,0.08,part relative,Wilson et al 2000 ; Duwe 2017 (effets modestes),⚠️ V6288
+part_detenus_travaillant_actuelle,0.25,0.28,0.31,part,DAP (memoire),⚠️ V6288
+part_detenus_travail_cible,0.45,0.60,0.80,part,hypothese de scenario (travail quasi obligatoire),hypothèse
+reduction_certitude_vs_severite,0.00,0.00,0.00,note,Nagin 2013 (Crime and Justice) : la certitude de la sanction dissuade plus que sa severite ; non quantifie ici,⚠️ V6289

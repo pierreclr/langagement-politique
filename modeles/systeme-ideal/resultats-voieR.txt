@@ -1,0 +1,145 @@
+## A. Socle neutre
+autres 0 enfant 200 : remplacées 113 Md€, enfants 33,3, socle neutre 172 €/mois
+autres 0 enfant 0 : remplacées 113 Md€, enfants 0, socle neutre 243 €/mois
+autres 57.2 enfant 200 : remplacées 170,2 Md€, enfants 33,3, socle neutre 295 €/mois
+autres 57.2 enfant 0 : remplacées 170,2 Md€, enfants 0, socle neutre 366 €/mois
+
+## B. Taux plat nécessaire (solde central avec santé ≥ −169,1 : « neutre », puis ≥ 0 : équilibre), t_max, IS, holdings
+S 172 | holdings H21 | IS 25 % | t_max 20 % | plat neutre 26,6 %, marginal max 46,6 %, IS+div 60 %, Δ bas/central/haut 10/0/-7 | plat équilibre 37,9 %
+S 172 | holdings H21 | IS 25 % | t_max 30 % | plat neutre 23,4 %, marginal max 53,4 %, IS+div 65,1 %, Δ bas/central/haut 14/0/-18 | plat équilibre 35,2 %
+S 172 | holdings H21 | IS 25 % | t_max 45 % | plat neutre 19 %, marginal max 64 %, IS+div 73 %, Δ bas/central/haut 25/0/-40 | plat équilibre 32,3 %
+S 172 | holdings H21 | IS 30 % | t_max 20 % | plat neutre 26 %, marginal max 46 %, IS+div 62,2 %, Δ bas/central/haut 11/0/-8 | plat équilibre 37,2 %
+S 172 | holdings H21 | IS 30 % | t_max 30 % | plat neutre 22,8 %, marginal max 52,8 %, IS+div 66,9 %, Δ bas/central/haut 15/0/-19 | plat équilibre 34,4 %
+S 172 | holdings H21 | IS 30 % | t_max 45 % | plat neutre 18,3 %, marginal max 63,3 %, IS+div 74,3 %, Δ bas/central/haut 26/0/-40 | plat équilibre 31,4 %
+S 172 | holdings non | IS 25 % | t_max 20 % | plat neutre 27,3 %, marginal max 47,3 %, IS+div 60,4 %, Δ bas/central/haut 15/0/-14 | plat équilibre 39,5 %
+S 172 | holdings non | IS 25 % | t_max 30 % | plat neutre 24,4 %, marginal max 54,4 %, IS+div 65,8 %, Δ bas/central/haut 23/0/-28 | plat équilibre 37,6 %
+S 172 | holdings non | IS 25 % | t_max 45 % | plat neutre 20,8 %, marginal max 65,8 %, IS+div 74,4 %, Δ bas/central/haut 41/0/-56 | plat équilibre 36,9 %
+S 172 | holdings non | IS 30 % | t_max 20 % | plat neutre 26,6 %, marginal max 46,6 %, IS+div 62,6 %, Δ bas/central/haut 16/0/-14 | plat équilibre 38,7 %
+S 172 | holdings non | IS 30 % | t_max 30 % | plat neutre 23,7 %, marginal max 53,7 %, IS+div 67,6 %, Δ bas/central/haut 24/0/-28 | plat équilibre 36,7 %
+S 172 | holdings non | IS 30 % | t_max 45 % | plat neutre 20 %, marginal max 65 %, IS+div 75,5 %, Δ bas/central/haut 41/0/-54 | plat équilibre 35,6 %
+S 500 | holdings H21 | IS 25 % | t_max 20 % | plat neutre 36,8 %, marginal max 56,8 %, IS+div 67,6 %, Δ bas/central/haut 29/0/-45 | plat équilibre 50,9 %
+S 500 | holdings H21 | IS 25 % | t_max 30 % | plat neutre 34 %, marginal max 64 %, IS+div 73 %, Δ bas/central/haut 38/0/-63 | plat équilibre 50,1 %
+S 500 | holdings H21 | IS 25 % | t_max 45 % | plat neutre 31 %, marginal max 76 %, IS+div 82 %, Δ bas/central/haut 62/0/-102 | plat équilibre aucun (meilleur solde -33,4 à 51 %)
+S 500 | holdings H21 | IS 30 % | t_max 20 % | plat neutre 36,1 %, marginal max 56,1 %, IS+div 69,3 %, Δ bas/central/haut 30/0/-44 | plat équilibre 49,9 %
+S 500 | holdings H21 | IS 30 % | t_max 30 % | plat neutre 33,3 %, marginal max 63,3 %, IS+div 74,3 %, Δ bas/central/haut 38/0/-61 | plat équilibre 48,8 %
+S 500 | holdings H21 | IS 30 % | t_max 45 % | plat neutre 30,1 %, marginal max 75,1 %, IS+div 82,6 %, Δ bas/central/haut 61/0/-100 | plat équilibre aucun (meilleur solde -23,5 à 51 %)
+S 500 | holdings non | IS 25 % | t_max 20 % | plat neutre 38,3 %, marginal max 58,3 %, IS+div 68,7 %, Δ bas/central/haut 42/0/-60 | plat équilibre 55,6 %
+S 500 | holdings non | IS 25 % | t_max 30 % | plat neutre 36,3 %, marginal max 66,3 %, IS+div 74,7 %, Δ bas/central/haut 57/0/-83 | plat équilibre aucun (meilleur solde -7,2 à 61 %)
+S 500 | holdings non | IS 25 % | t_max 45 % | plat neutre 35,1 %, marginal max 80,1 %, IS+div 85,1 %, Δ bas/central/haut 95/0/-127 | plat équilibre aucun (meilleur solde -90,9 à 51 %)
+S 500 | holdings non | IS 30 % | t_max 20 % | plat neutre 37,5 %, marginal max 57,5 %, IS+div 70,2 %, Δ bas/central/haut 41/0/-58 | plat équilibre 54,1 %
+S 500 | holdings non | IS 30 % | t_max 30 % | plat neutre 35,4 %, marginal max 65,4 %, IS+div 75,7 %, Δ bas/central/haut 55/0/-80 | plat équilibre 58,5 %
+S 500 | holdings non | IS 30 % | t_max 45 % | plat neutre 34 %, marginal max 79 %, IS+div 85,3 %, Δ bas/central/haut 92/0/-122 | plat équilibre aucun (meilleur solde -80,6 à 51 %)
+S 650 | holdings H21 | IS 25 % | t_max 20 % | plat neutre 42,1 %, marginal max 62,1 %, IS+div 71,6 %, Δ bas/central/haut 44/0/-72 | plat équilibre 60,2 %
+S 650 | holdings H21 | IS 25 % | t_max 30 % | plat neutre 39,8 %, marginal max 69,8 %, IS+div 77,4 %, Δ bas/central/haut 58/0/-97 | plat équilibre aucun (meilleur solde -21,2 à 62 %)
+S 650 | holdings H21 | IS 25 % | t_max 45 % | plat neutre 38,1 %, marginal max 83,1 %, IS+div 87,4 %, Δ bas/central/haut 94/0/-147 | plat équilibre aucun (meilleur solde -105 à 51 %)
+S 650 | holdings H21 | IS 30 % | t_max 20 % | plat neutre 41,3 %, marginal max 61,3 %, IS+div 72,9 %, Δ bas/central/haut 44/0/-70 | plat équilibre 58,5 %
+S 650 | holdings H21 | IS 30 % | t_max 30 % | plat neutre 39 %, marginal max 69 %, IS+div 78,3 %, Δ bas/central/haut 57/0/-94 | plat équilibre aucun (meilleur solde -11,3 à 62 %)
+S 650 | holdings H21 | IS 30 % | t_max 45 % | plat neutre 37 %, marginal max 82 %, IS+div 87,4 %, Δ bas/central/haut 91/0/-142 | plat équilibre aucun (meilleur solde -95,2 à 51 %)
+S 650 | holdings non | IS 25 % | t_max 20 % | plat neutre 44,3 %, marginal max 64,3 %, IS+div 73,2 %, Δ bas/central/haut 62/0/-93 | plat équilibre aucun (meilleur solde -33,4 à 67 %)
+S 650 | holdings non | IS 25 % | t_max 30 % | plat neutre 43,2 %, marginal max 73,2 %, IS+div 79,9 %, Δ bas/central/haut 86/0/-124 | plat équilibre aucun (meilleur solde -79,1 à 61 %)
+S 650 | holdings non | IS 25 % | t_max 45 % | plat neutre 47 %, marginal max 92 %, IS+div 94 %, Δ bas/central/haut 158/0/-201 | plat équilibre aucun (meilleur solde -162,5 à 51 %)
+S 650 | holdings non | IS 30 % | t_max 20 % | plat neutre 43,4 %, marginal max 63,4 %, IS+div 74,4 %, Δ bas/central/haut 61/0/-89 | plat équilibre aucun (meilleur solde -23,1 à 67 %)
+S 650 | holdings non | IS 30 % | t_max 30 % | plat neutre 42,1 %, marginal max 72,1 %, IS+div 80,5 %, Δ bas/central/haut 82/0/-120 | plat équilibre aucun (meilleur solde -68,7 à 61 %)
+S 650 | holdings non | IS 30 % | t_max 45 % | plat neutre 44,4 %, marginal max 89,4 %, IS+div 92,6 %, Δ bas/central/haut 145/0/-183 | plat équilibre aucun (meilleur solde -152,2 à 51 %)
+S 800 | holdings H21 | IS 25 % | t_max 20 % | plat neutre 48,2 %, marginal max 68,2 %, IS+div 76,2 %, Δ bas/central/haut 66/0/-112 | plat équilibre aucun (meilleur solde -49 à 68 %)
+S 800 | holdings H21 | IS 25 % | t_max 30 % | plat neutre 46,8 %, marginal max 76,8 %, IS+div 82,6 %, Δ bas/central/haut 88/0/-144 | plat équilibre aucun (meilleur solde -93,1 à 62 %)
+S 800 | holdings H21 | IS 25 % | t_max 45 % | plat neutre aucun (meilleur solde -176,7 Md€ de Δ à 51 %) | plat équilibre aucun (meilleur solde -176,7 à 51 %)
+S 800 | holdings H21 | IS 30 % | t_max 20 % | plat neutre 47,3 %, marginal max 67,3 %, IS+div 77,1 %, Δ bas/central/haut 65/0/-107 | plat équilibre aucun (meilleur solde -39,1 à 68 %)
+S 800 | holdings H21 | IS 30 % | t_max 30 % | plat neutre 45,7 %, marginal max 75,7 %, IS+div 83 %, Δ bas/central/haut 85/0/-139 | plat équilibre aucun (meilleur solde -83,2 à 62 %)
+S 800 | holdings H21 | IS 30 % | t_max 45 % | plat neutre 48,7 %, marginal max 93,7 %, IS+div 95,6 %, Δ bas/central/haut 159/0/-233 | plat équilibre aucun (meilleur solde -166,8 à 51 %)
+S 800 | holdings non | IS 25 % | t_max 20 % | plat neutre 51,9 %, marginal max 71,9 %, IS+div 78,9 %, Δ bas/central/haut 97/0/-143 | plat équilibre aucun (meilleur solde -105,4 à 66 %)
+S 800 | holdings non | IS 25 % | t_max 30 % | plat neutre 53,6 %, marginal max 83,6 %, IS+div 87,7 %, Δ bas/central/haut 141/0/-189 | plat équilibre aucun (meilleur solde -150,9 à 61 %)
+S 800 | holdings non | IS 25 % | t_max 45 % | plat neutre aucun (meilleur solde -234,2 Md€ de Δ à 51 %) | plat équilibre aucun (meilleur solde -234,2 à 51 %)
+S 800 | holdings non | IS 30 % | t_max 20 % | plat neutre 50,7 %, marginal max 70,7 %, IS+div 79,5 %, Δ bas/central/haut 92/0/-137 | plat équilibre aucun (meilleur solde -95 à 66 %)
+S 800 | holdings non | IS 30 % | t_max 30 % | plat neutre 51,5 %, marginal max 81,5 %, IS+div 87,1 %, Δ bas/central/haut 131/0/-177 | plat équilibre aucun (meilleur solde -140,6 à 61 %)
+S 800 | holdings non | IS 30 % | t_max 45 % | plat neutre aucun (meilleur solde -223,8 Md€ de Δ à 51 %) | plat équilibre aucun (meilleur solde -223,8 à 51 %)
+
+## C. Plus haut socle finançable
+plafond 70 % personnel | équilibre | holdings H21 | IS 25 % → socle max 480 (plat 50 %, t_max 20 %)
+plafond 70 % personnel | équilibre | holdings H21 | IS 30 % → socle max 501 (plat 50 %, t_max 20 %)
+plafond 70 % personnel | équilibre | holdings non | IS 25 % → socle max 409 (plat 50 %, t_max 20 %)
+plafond 70 % personnel | équilibre | holdings non | IS 30 % → socle max 431 (plat 50 %, t_max 20 %)
+plafond 70 % IS+dividende | équilibre | holdings H21 | IS 25 % → socle max 232 (plat 40 %, t_max 20 %)
+plafond 70 % IS+dividende | équilibre | holdings H21 | IS 30 % → socle max 165 (plat 37 %, t_max 20 %)
+plafond 70 % IS+dividende | équilibre | holdings non | IS 25 % → socle max 184 (plat 40 %, t_max 20 %)
+plafond 70 % IS+dividende | équilibre | holdings non | IS 30 % → socle max 125 (plat 37 %, t_max 20 %)
+plafond 70 % personnel | neutre | holdings H21 | IS 25 % → socle max 837 (plat 50 %, t_max 20 %)
+plafond 70 % personnel | neutre | holdings H21 | IS 30 % → socle max 857 (plat 50 %, t_max 20 %)
+plafond 70 % personnel | neutre | holdings non | IS 25 % → socle max 766 (plat 50 %, t_max 20 %)
+plafond 70 % personnel | neutre | holdings non | IS 30 % → socle max 788 (plat 50 %, t_max 20 %)
+plafond 70 % IS+dividende | neutre | holdings H21 | IS 25 % → socle max 592 (plat 40 %, t_max 20 %)
+plafond 70 % IS+dividende | neutre | holdings H21 | IS 30 % → socle max 526 (plat 37 %, t_max 20 %)
+plafond 70 % IS+dividende | neutre | holdings non | IS 25 % → socle max 545 (plat 40 %, t_max 20 %)
+plafond 70 % IS+dividende | neutre | holdings non | IS 30 % → socle max 487 (plat 37 %, t_max 20 %)
+
+## D. Gagnants et perdants (plat neutre, t_max 30 %, IS 25 %, holdings H21), chômage remplacé
+S 172 plat 23,4 % : chomeur 172 (-1008) ; couple2enf 3788 (+52) ; couple1smic2enf 2266 (-286) ; parentIsole 572 (-1078) ; aah 824 (+0) ; etudiant 172 (-558) ; rsa 172 (-705) ; smic15 824 (-89) ; smic35 1694 (-13) ; cadre60 4847 (+1424) ; dirigeantHolding 22327 (+7107) ; retraiteModeste 1044 (+0) ; retraiteAise 3996 (+0)
+   avec plancher RSA 877 : parentIsole 877 (-773) ; rsa 877 (0) ; Δ central -16 (contre 0)
+S 500 plat 34 % : chomeur 500 (-680) ; couple2enf 4022 (+286) ; couple1smic2enf 2711 (+159) ; parentIsole 900 (-750) ; aah 824 (+0) ; etudiant 500 (-230) ; rsa 500 (-377) ; smic15 1062 (+149) ; smic35 1811 (+104) ; cadre60 4419 (+996) ; dirigeantHolding 18156 (+2935) ; retraiteModeste 1044 (+0) ; retraiteAise 3996 (+0)
+   avec plancher RSA 877 : parentIsole 900 (-750) ; rsa 877 (0) ; Δ central -9 (contre 0)
+S 650 plat 39,8 % : chomeur 650 (-530) ; couple2enf 4092 (+356) ; couple1smic2enf 2896 (+344) ; parentIsole 1050 (-600) ; aah 824 (+0) ; etudiant 650 (-80) ; rsa 650 (-227) ; smic15 1162 (+249) ; smic35 1846 (+138) ; cadre60 4156 (+733) ; dirigeantHolding 15849 (+628) ; retraiteModeste 1044 (+0) ; retraiteAise 3996 (+0)
+   avec plancher RSA 877 : parentIsole 1050 (-600) ; rsa 877 (0) ; Δ central -5 (contre 0)
+S 800 plat 46,8 % : chomeur 800 (-380) ; couple2enf 4114 (+378) ; couple1smic2enf 3057 (+505) ; parentIsole 1200 (-450) ; aah 824 (+0) ; etudiant 800 (+70) ; rsa 800 (-77) ; smic15 1253 (+340) ; smic35 1857 (+149) ; cadre60 3809 (+386) ; dirigeantHolding 13041 (-2180) ; retraiteModeste 1044 (+0) ; retraiteAise 3996 (+0)
+   avec plancher RSA 877 : parentIsole 1200 (-450) ; rsa 877 (0) ; Δ central -2 (contre 0)
+
+## E. Chômage (S = 650)
+remplace : socle seul (assurance chômage remplacée) | coût 0 Md€ (actuel 37,1 : économie 37,1) | revenu moyen indemnisé 650 | rétroaction durée (ε 0,5) : 675 k personnes de moins, +16,9 Md€ de recettes
+   Chômeur au Smic (net antérieur 1 478 €) : mois 2 650 vs 1064 (-414) ; mois 5 650 vs 1064 (-414) ; mois 9 650 vs 1064 (-414) ; mois 15 650 vs 1064 (-414)
+   Chômeur au salaire médian (net antérieur 2 116 €) : mois 2 650 vs 1524 (-874) ; mois 5 650 vs 1524 (-874) ; mois 9 650 vs 1524 (-874) ; mois 15 650 vs 1524 (-874)
+   Chômeur cadre à 5 000 € net : mois 2 650 vs 3600 (-2950) ; mois 5 650 vs 3600 (-2950) ; mois 9 650 vs 3600 (-2950) ; mois 15 650 vs 3600 (-2950)
+deg1 : 60 % de la perte les mois 1-3, 40 % les mois 4-6, 20 % les mois 7-12, puis 0 | coût 9,6 Md€ (actuel 37,1 : économie 27,5) | revenu moyen indemnisé 957 | rétroaction durée (ε 0,5) : 261 k personnes de moins, +6,5 Md€ de recettes
+   Chômeur au Smic (net antérieur 1 478 €) : mois 2 1147 vs 1064 (+83) ; mois 5 981 vs 1064 (-83) ; mois 9 816 vs 1064 (-249) ; mois 15 650 vs 1064 (-414)
+   Chômeur au salaire médian (net antérieur 2 116 €) : mois 2 1530 vs 1524 (+6) ; mois 5 1236 vs 1524 (-287) ; mois 9 943 vs 1524 (-580) ; mois 15 650 vs 1524 (-874)
+   Chômeur cadre à 5 000 € net : mois 2 3260 vs 3600 (-340) ; mois 5 2390 vs 3600 (-1210) ; mois 9 1520 vs 3600 (-2080) ; mois 15 650 vs 3600 (-2950)
+deg2 : deg1 plafonné : perte calculée sur 3 000 € net par mois au plus | coût 9,6 Md€ (actuel 37,1 : économie 27,5) | revenu moyen indemnisé 957 | rétroaction durée (ε 0,5) : 261 k personnes de moins, +6,5 Md€ de recettes
+   Chômeur au Smic (net antérieur 1 478 €) : mois 2 1147 vs 1064 (+83) ; mois 5 981 vs 1064 (-83) ; mois 9 816 vs 1064 (-249) ; mois 15 650 vs 1064 (-414)
+   Chômeur au salaire médian (net antérieur 2 116 €) : mois 2 1530 vs 1524 (+6) ; mois 5 1236 vs 1524 (-287) ; mois 9 943 vs 1524 (-580) ; mois 15 650 vs 1524 (-874)
+   Chômeur cadre à 5 000 € net : mois 2 2060 vs 3600 (-1540) ; mois 5 1590 vs 3600 (-2010) ; mois 9 1120 vs 3600 (-2480) ; mois 15 650 vs 3600 (-2950)
+deg3 : plus généreuse : 70 % (1-3), 50 % (4-6), 30 % (7-12), 15 % (13-18), plafond 3 000 € net | coût 12,7 Md€ (actuel 37,1 : économie 24,4) | revenu moyen indemnisé 1055 | rétroaction durée (ε 0,5) : 143 k personnes de moins, +3,6 Md€ de recettes
+   Chômeur au Smic (net antérieur 1 478 €) : mois 2 1230 vs 1064 (+165) ; mois 5 1064 vs 1064 (0) ; mois 9 898 vs 1064 (-166) ; mois 15 774 vs 1064 (-290)
+   Chômeur au salaire médian (net antérieur 2 116 €) : mois 2 1676 vs 1524 (+153) ; mois 5 1383 vs 1524 (-141) ; mois 9 1090 vs 1524 (-434) ; mois 15 870 vs 1524 (-654)
+   Chômeur cadre à 5 000 € net : mois 2 2295 vs 3600 (-1305) ; mois 5 1825 vs 3600 (-1775) ; mois 9 1355 vs 3600 (-2245) ; mois 15 1003 vs 3600 (-2597)
+differentiel : allocation actuelle moyenne maintenue à hauteur de max(0 ; allocation − socle) | coût 16,7 Md€ (actuel 37,1 : économie 20,4) | revenu moyen indemnisé 1180 | rétroaction durée (ε 0,5) : 0 k personnes de moins, +0 Md€ de recettes
+   Chômeur au Smic (net antérieur 1 478 €) : mois 2 1064 vs 1064 (+0) ; mois 5 1064 vs 1064 (+0) ; mois 9 1064 vs 1064 (+0) ; mois 15 1064 vs 1064 (+0)
+   Chômeur au salaire médian (net antérieur 2 116 €) : mois 2 1524 vs 1524 (+0) ; mois 5 1524 vs 1524 (+0) ; mois 9 1524 vs 1524 (+0) ; mois 15 1524 vs 1524 (+0)
+   Chômeur cadre à 5 000 € net : mois 2 3600 vs 3600 (+0) ; mois 5 3600 vs 3600 (+0) ; mois 9 3600 vs 3600 (+0) ; mois 15 3600 vs 3600 (+0)
+cumul : allocation actuelle en plus du socle | coût 37,1 Md€ (actuel 37,1 : économie 0) | revenu moyen indemnisé 1830 | rétroaction durée (ε 0,5) : 0 k personnes de moins, +0 Md€ de recettes
+   Chômeur au Smic (net antérieur 1 478 €) : mois 2 1714 vs 1064 (+650) ; mois 5 1714 vs 1064 (+650) ; mois 9 1714 vs 1064 (+650) ; mois 15 1714 vs 1064 (+650)
+   Chômeur au salaire médian (net antérieur 2 116 €) : mois 2 2174 vs 1524 (+650) ; mois 5 2174 vs 1524 (+650) ; mois 9 2174 vs 1524 (+650) ; mois 15 2174 vs 1524 (+650)
+   Chômeur cadre à 5 000 € net : mois 2 4250 vs 3600 (+650) ; mois 5 4250 vs 3600 (+650) ; mois 9 4250 vs 3600 (+650) ; mois 15 4250 vs 3600 (+650)
+
+## F. Effet du chômage sur le Δ central (S 650, plat 40 %, t_max 30 %)
+remplace : Δ central 1,8 Md€
+deg1 : Δ central -7,8 Md€
+deg3 : Δ central -10,9 Md€
+differentiel : Δ central -14,9 Md€
+cumul : Δ central -35,3 Md€
+
+## G. Soldes aux socles maximaux (plafond 70 % personnel, H21, IS 25 %)
+equilibre personnel ≤ 70 % : socle 480, plat 50 %, t_max 20 % | solde bas/central/haut 68/0/-115 | marginal 70 %, IS+div 77,5 % | chomeur -700 ; couple2enf -387 ; couple1smic2enf -197 ; parentIsole -770 ; aah +0 ; etudiant -250 ; rsa -397 ; smic15 -7 ; smic35 -233 ; cadre60 +99 ; dirigeantHolding -419 ; retraiteModeste +0 ; retraiteAise +0
+equilibre IS+dividende ≤ 70 % : socle 232, plat 40 %, t_max 20 % | solde bas/central/haut 32/0/-53 | marginal 60 %, IS+div 70 % | chomeur -948 ; couple2enf -487 ; couple1smic2enf -496 ; parentIsole -1018 ; aah +0 ; etudiant -498 ; rsa -645 ; smic15 -170 ; smic35 -283 ; cadre60 +561 ; dirigeantHolding +3566 ; retraiteModeste +0 ; retraiteAise +0
+neutre personnel ≤ 70 % : socle 837, plat 50 %, t_max 20 % | solde bas/central/haut -95/-169/-293 | marginal 70 %, IS+div 77,5 % | chomeur -343 ; couple2enf +326 ; couple1smic2enf +516 ; parentIsole -413 ; aah +13 ; etudiant +107 ; rsa -40 ; smic15 +350 ; smic35 +124 ; cadre60 +456 ; dirigeantHolding -62 ; retraiteModeste +0 ; retraiteAise +0
+neutre IS+dividende ≤ 70 % : socle 592, plat 40 %, t_max 20 % | solde bas/central/haut -132/-169/-230 | marginal 60 %, IS+div 70 % | chomeur -588 ; couple2enf +233 ; couple1smic2enf +224 ; parentIsole -658 ; aah +0 ; etudiant -138 ; rsa -285 ; smic15 +190 ; smic35 +77 ; cadre60 +922 ; dirigeantHolding +3926 ; retraiteModeste +0 ; retraiteAise +0
+
+## H. Chômage : plus haut socle finançable selon la variante (plafond 70 %, équilibre puis Δ ≥ 0, personnel)
+remplace : équilibre 480 | Δ ≥ 0 837 | plat neutre à S = 650 : 39,8 %
+deg1 : équilibre 456 | Δ ≥ 0 821 | plat neutre à S = 650 : 40,7 %
+deg3 : équilibre 448 | Δ ≥ 0 815 | plat neutre à S = 650 : 41 %
+differentiel : équilibre 431 | Δ ≥ 0 813 | plat neutre à S = 650 : 41,3 %
+cumul : équilibre 402 | Δ ≥ 0 759 | plat neutre à S = 650 : 43,3 %
+
+## I. Sensibilité de la rétroaction sur la durée (S = 650, deg1) : ε bas / central / haut
+ε 0.3 remplace : 429 k personnes de moins, +10,7 Md€
+ε 0.3 deg1 : 160 k personnes de moins, +4 Md€
+ε 0.3 deg3 : 87 k personnes de moins, +2,2 Md€
+ε 0.5 remplace : 675 k personnes de moins, +16,9 Md€
+ε 0.5 deg1 : 261 k personnes de moins, +6,5 Md€
+ε 0.5 deg3 : 143 k personnes de moins, +3,6 Md€
+ε 0.8 remplace : 994 k personnes de moins, +24,9 Md€
+ε 0.8 deg1 : 405 k personnes de moins, +10,1 Md€
+ε 0.8 deg3 : 225 k personnes de moins, +5,6 Md€
+
+## J. Périmètre large (autres prestations remplacées 57,2 Md€, enfant 200) : socle neutre et plat nécessaire S = 650 / 800
+S 650 : plat neutre 35,1 %
+S 800 : plat neutre 41,1 %
+socle max équilibre : 601 ; Δ ≥ 0 : 954

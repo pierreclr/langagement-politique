@@ -1,0 +1,16 @@
+# source: Anthropic Economic Index (rapports successifs; voir source_url) ; unite: % des conversations echantillonnees ; date consultation: 2026-10-25
+# automatisation = interactions 'directive' + 'feedback loop'; augmentation = 'task iteration' + 'learning' + 'validation'. Donnees d'un seul fournisseur (biais d'echantillon: surrepresentation informatique).
+periode_donnees,plateforme,indicateur,valeur,unite,statut,source_url,note
+2025-01,Claude.ai,augmentation,56,% conversations,mesure,https://www.anthropic.com/research/anthropic-economic-index-january-2026-report,"rapport fev. 2025 publiait 57/43 (methodologie initiale)"
+2025-01,Claude.ai,automatisation,41,% conversations,mesure,https://www.anthropic.com/research/anthropic-economic-index-january-2026-report,
+2025-01,Claude.ai,directive,27,% conversations,mesure,https://www.anthropic.com/research/anthropic-economic-index-january-2026-report,
+2025-08,Claude.ai,automatisation,49,% conversations,estimation,https://www.anthropic.com/research/anthropic-economic-index-january-2026-report,"automatisation > augmentation pour la 1re fois (valeur deduite: 45 + 4 pts)"
+2025-08,Claude.ai,augmentation,47,% conversations,estimation,https://www.anthropic.com/research/anthropic-economic-index-january-2026-report,"valeur deduite: 52 - 5 pts"
+2025-08,Claude.ai,directive,39,% conversations,mesure,https://www.anthropic.com/research/anthropic-economic-index-january-2026-report,
+2025-11,Claude.ai,augmentation,52,% conversations,mesure,https://www.anthropic.com/research/anthropic-economic-index-january-2026-report,"echantillon 13-20 nov. 2025"
+2025-11,Claude.ai,automatisation,45,% conversations,mesure,https://www.anthropic.com/research/anthropic-economic-index-january-2026-report,
+2025-11,Claude.ai,directive,32,% conversations,mesure,https://www.anthropic.com/research/anthropic-economic-index-january-2026-report,
+2025-11,API 1P (entreprises),automatisation,75,% conversations,mesure,https://www.anthropic.com/research/anthropic-economic-index-january-2026-report,"'environ trois quarts'"
+2025-11,API 1P (entreprises),directive,64,% conversations,mesure,https://www.anthropic.com/research/anthropic-economic-index-january-2026-report,
+2025-11,Claude.ai,taux de succes des taches,67,% conversations,estimation,https://www.anthropic.com/research/anthropic-economic-index-january-2026-report,"API: 49%; classification par modele"
+2025-11,Claude.ai+API,effet implicite productivite travail US,1.8,points de % par an sur 10 ans,projection,https://www.anthropic.com/research/anthropic-economic-index-january-2026-report,"1.0-1.2 apres ajustement du succes; 0.6-0.9 avec complementarite (CES sigma=0.5); 2.2-2.6 si substituabilite (sigma=1.5)"

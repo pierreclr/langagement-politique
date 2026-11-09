@@ -1,0 +1,6 @@
+energie,prix_central_eur_kwh_ttc,fourchette,source,statut
+electricite,0.20,0.17-0.25,"TRVE option Base 6 kVA : 0,1940 EUR/kWh TTC au 01/02/2026 ; environ 0,200 annoncé pour août 2026 (comparateurs ; CRE délibération 2026-06 du 14/01/2026 non lue)",⚠️ V10202
+gaz naturel,0.13,0.11-0.17,"Prix repère CRE chauffage : 0,125 à 0,145 EUR/kWh TTC selon les mois 2026 (comparateurs, sources discordantes)",⚠️ V10202
+reseau de chaleur,0.11,0.09-0.14,hypothèse de Claude sans source,⚠️ V10202
+bois,0.09,0.07-0.12,hypothèse de Claude sans source,⚠️ V10202
+fioul GPL propane charbon,0.13,0.11-0.17,hypothèse de Claude sans source,⚠️ V10202

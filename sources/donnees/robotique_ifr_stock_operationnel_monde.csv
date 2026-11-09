@@ -1,0 +1,8 @@
+# source: IFR World Robotics (2019-2026) ; unité: robots industriels en service (stock opérationnel mondial) ; date consultation: 2026-10-25
+annee,valeur,unite,statut,source_url,note
+2018,2400000,unités,mesure,https://ifr.org/downloads/press2018/2019-09-18_Press_Release_IFR_World_Robotics_2019_Industrial_Robots_English.pdf,"'au-delà de 2,4 millions' (arrondi)"
+2021,3477127,unités,mesure,https://ifr.org/img/worldrobotics/Executive_Summary_WR_Industrial_Robots_2022.pdf,+15 %
+2023,4281585,unités,mesure,https://ifr.org/ifr-press-releases/news/record-of-4-million-robots-working-in-factories-worldwide,+10 %
+2024,4664000,unités,mesure,https://ifr.org/ifr-press-releases/news/global-robot-demand-in-factories-doubles-over-10-years,+9 %
+2025,5079078,unités,mesure,https://ifr.org/img/worldrobotics/Executive_Summary_WR_2026_-_Industrial_Robots.pdf,+9 %
+2028,6000000,unités,projection,https://ifr.org/img/worldrobotics/Executive_Summary_WR_2026_-_Industrial_Robots.pdf,'dépassera 6 millions en 2028'

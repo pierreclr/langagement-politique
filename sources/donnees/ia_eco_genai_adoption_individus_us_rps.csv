@@ -1,0 +1,30 @@
+# source: St. Louis Fed / FRED, Real-Time Population Survey (Bick, Blandin, Deming), series RPSGENAIUSAGESHAREALL, RPSGENAIUSAGESHAREWORK, RPSGENAIUSAGESHARENONWORK (https://fred.stlouisfed.org/series/RPSGENAIUSAGESHAREALL) ; unite: % (adultes 18-64 ans; 'WORK' = actifs occupes) ; date consultation: 2026-10-25
+# trimestriel, non desaisonnalise; date = debut du trimestre; ~5000-6000 repondants par vague. IA generative uniquement.
+date,serie,perimetre,valeur,unite,statut,source_url
+2024-07-01,RPSGENAIUSAGESHAREALL,ensemble_18-64,44.6,%,mesure,https://fred.stlouisfed.org/series/RPSGENAIUSAGESHAREALL
+2024-10-01,RPSGENAIUSAGESHAREALL,ensemble_18-64,46.3,%,mesure,https://fred.stlouisfed.org/series/RPSGENAIUSAGESHAREALL
+2025-01-01,RPSGENAIUSAGESHAREALL,ensemble_18-64,48.0,%,mesure,https://fred.stlouisfed.org/series/RPSGENAIUSAGESHAREALL
+2025-04-01,RPSGENAIUSAGESHAREALL,ensemble_18-64,51.9,%,mesure,https://fred.stlouisfed.org/series/RPSGENAIUSAGESHAREALL
+2025-07-01,RPSGENAIUSAGESHAREALL,ensemble_18-64,54.5,%,mesure,https://fred.stlouisfed.org/series/RPSGENAIUSAGESHAREALL
+2025-10-01,RPSGENAIUSAGESHAREALL,ensemble_18-64,56.0,%,mesure,https://fred.stlouisfed.org/series/RPSGENAIUSAGESHAREALL
+2026-01-01,RPSGENAIUSAGESHAREALL,ensemble_18-64,57.6,%,mesure,https://fred.stlouisfed.org/series/RPSGENAIUSAGESHAREALL
+2026-04-01,RPSGENAIUSAGESHAREALL,ensemble_18-64,61.8,%,mesure,https://fred.stlouisfed.org/series/RPSGENAIUSAGESHAREALL
+2026-07-01,RPSGENAIUSAGESHAREALL,ensemble_18-64,60.8,%,mesure,https://fred.stlouisfed.org/series/RPSGENAIUSAGESHAREALL
+2024-07-01,RPSGENAIUSAGESHAREWORK,actifs_occupes_usage_travail,33.3,%,mesure,https://fred.stlouisfed.org/series/RPSGENAIUSAGESHAREWORK
+2024-10-01,RPSGENAIUSAGESHAREWORK,actifs_occupes_usage_travail,31.0,%,mesure,https://fred.stlouisfed.org/series/RPSGENAIUSAGESHAREWORK
+2025-01-01,RPSGENAIUSAGESHAREWORK,actifs_occupes_usage_travail,32.7,%,mesure,https://fred.stlouisfed.org/series/RPSGENAIUSAGESHAREWORK
+2025-04-01,RPSGENAIUSAGESHAREWORK,actifs_occupes_usage_travail,35.1,%,mesure,https://fred.stlouisfed.org/series/RPSGENAIUSAGESHAREWORK
+2025-07-01,RPSGENAIUSAGESHAREWORK,actifs_occupes_usage_travail,37.4,%,mesure,https://fred.stlouisfed.org/series/RPSGENAIUSAGESHAREWORK
+2025-10-01,RPSGENAIUSAGESHAREWORK,actifs_occupes_usage_travail,40.6,%,mesure,https://fred.stlouisfed.org/series/RPSGENAIUSAGESHAREWORK
+2026-01-01,RPSGENAIUSAGESHAREWORK,actifs_occupes_usage_travail,42.8,%,mesure,https://fred.stlouisfed.org/series/RPSGENAIUSAGESHAREWORK
+2026-04-01,RPSGENAIUSAGESHAREWORK,actifs_occupes_usage_travail,45.2,%,mesure,https://fred.stlouisfed.org/series/RPSGENAIUSAGESHAREWORK
+2026-07-01,RPSGENAIUSAGESHAREWORK,actifs_occupes_usage_travail,40.5,%,mesure,https://fred.stlouisfed.org/series/RPSGENAIUSAGESHAREWORK
+2024-07-01,RPSGENAIUSAGESHARENONWORK,18-64_usage_hors_travail,29.5,%,mesure,https://fred.stlouisfed.org/series/RPSGENAIUSAGESHARENONWORK
+2024-10-01,RPSGENAIUSAGESHARENONWORK,18-64_usage_hors_travail,34.6,%,mesure,https://fred.stlouisfed.org/series/RPSGENAIUSAGESHARENONWORK
+2025-01-01,RPSGENAIUSAGESHARENONWORK,18-64_usage_hors_travail,36.2,%,mesure,https://fred.stlouisfed.org/series/RPSGENAIUSAGESHARENONWORK
+2025-04-01,RPSGENAIUSAGESHARENONWORK,18-64_usage_hors_travail,38.3,%,mesure,https://fred.stlouisfed.org/series/RPSGENAIUSAGESHARENONWORK
+2025-07-01,RPSGENAIUSAGESHARENONWORK,18-64_usage_hors_travail,41.6,%,mesure,https://fred.stlouisfed.org/series/RPSGENAIUSAGESHARENONWORK
+2025-10-01,RPSGENAIUSAGESHARENONWORK,18-64_usage_hors_travail,42.4,%,mesure,https://fred.stlouisfed.org/series/RPSGENAIUSAGESHARENONWORK
+2026-01-01,RPSGENAIUSAGESHARENONWORK,18-64_usage_hors_travail,43.6,%,mesure,https://fred.stlouisfed.org/series/RPSGENAIUSAGESHARENONWORK
+2026-04-01,RPSGENAIUSAGESHARENONWORK,18-64_usage_hors_travail,46.9,%,mesure,https://fred.stlouisfed.org/series/RPSGENAIUSAGESHARENONWORK
+2026-07-01,RPSGENAIUSAGESHARENONWORK,18-64_usage_hors_travail,49.5,%,mesure,https://fred.stlouisfed.org/series/RPSGENAIUSAGESHARENONWORK

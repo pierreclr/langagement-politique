@@ -1,0 +1,23 @@
+# source: https://www.insee.fr/fr/statistiques/9025878 (Insee Premiere n°2120, C. Lefebvre, juillet 2026, enquete TIC entreprises 2025) ; unite: % des entreprises de 10 salaries ou plus (France) ; date consultation: 2026-10-25
+annee,perimetre,valeur,unite,statut,source_url,note
+2023,France - toutes tailles (>=10 sal.),6,% entreprises,mesure,https://www.insee.fr/fr/statistiques/9025878,
+2024,France - toutes tailles (>=10 sal.),10,% entreprises,mesure,https://www.insee.fr/fr/statistiques/9025878,
+2025,France - toutes tailles (>=10 sal.),18,% entreprises,mesure,https://www.insee.fr/fr/statistiques/9025878,"x3 depuis 2023; UE: 8/13/20%"
+2023,France - 10-49 sal.,5,% entreprises,mesure,https://www.insee.fr/fr/statistiques/9025878,
+2024,France - 10-49 sal.,9,% entreprises,mesure,https://www.insee.fr/fr/statistiques/9025878,
+2025,France - 10-49 sal.,15,% entreprises,mesure,https://www.insee.fr/fr/statistiques/9025878,
+2023,France - 50-249 sal.,10,% entreprises,mesure,https://www.insee.fr/fr/statistiques/9025878,
+2024,France - 50-249 sal.,15,% entreprises,mesure,https://www.insee.fr/fr/statistiques/9025878,
+2025,France - 50-249 sal.,31,% entreprises,mesure,https://www.insee.fr/fr/statistiques/9025878,
+2023,France - 250 sal. et plus,21,% entreprises,mesure,https://www.insee.fr/fr/statistiques/9025878,
+2024,France - 250 sal. et plus,33,% entreprises,mesure,https://www.insee.fr/fr/statistiques/9025878,
+2025,France - 250 sal. et plus,58,% entreprises,mesure,https://www.insee.fr/fr/statistiques/9025878,
+2023,France - information-communication,30,% entreprises,mesure,https://www.insee.fr/fr/statistiques/9025878,
+2024,France - information-communication,42,% entreprises,mesure,https://www.insee.fr/fr/statistiques/9025878,
+2025,France - information-communication,59,% entreprises,mesure,https://www.insee.fr/fr/statistiques/9025878,
+2025,France - construction,10,% entreprises,mesure,https://www.insee.fr/fr/statistiques/9025878,
+2025,France - transports et entreposage,9,% entreprises,mesure,https://www.insee.fr/fr/statistiques/9025878,
+2025,France - industrie manufacturiere,17,% entreprises,mesure,https://www.insee.fr/fr/statistiques/9025878,
+2024,France - part de l'emploi dans les entreprises utilisatrices,40,% emploi du champ,mesure,https://www.insee.fr/fr/statistiques/9025878,"ne signifie pas que les salaries utilisent eux-memes l'IA"
+2025,France - part de l'emploi dans les entreprises utilisatrices,59,% emploi du champ,mesure,https://www.insee.fr/fr/statistiques/9025878,"part du CA: 49% (2024) -> 66% (2025)"
+2025,France - non-utilisatrices citant 'absence d'utilite',71,% entreprises non utilisatrices,mesure,https://www.insee.fr/fr/statistiques/9025878,"manque d'expertise 54%; protection des donnees 38%; flou juridique 38%; couts 32%"

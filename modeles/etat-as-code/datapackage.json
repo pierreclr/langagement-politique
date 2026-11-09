@@ -1,0 +1,911 @@
+{
+ "name": "etat-as-code",
+ "title": "L'État as code : état actuel et état proposé (v0)",
+ "version": "0.1.0",
+ "created": "2026-11-06",
+ "licenses": [
+  {
+   "name": "etalab-2.0",
+   "title": "Licence ouverte 2.0 (données publiques reprises)"
+  }
+ ],
+ "description": "Modèle de données de l'État français : niveaux, compétences, organismes, démarches, flux, règles de droit, agents, bâtiments ; deux états (actuel, propose). Voir SCHEMA.md.",
+ "resources": [
+  {
+   "name": "niveaux",
+   "path": "donnees/niveaux.csv",
+   "format": "csv",
+   "mediatype": "text/csv",
+   "encoding": "utf-8",
+   "dialect": {
+    "delimiter": ";",
+    "decimalChar": ","
+   },
+   "schema": {
+    "fields": [
+     {
+      "name": "id",
+      "type": "string"
+     },
+     {
+      "name": "etat",
+      "type": "string"
+     },
+     {
+      "name": "nom",
+      "type": "string"
+     },
+     {
+      "name": "description",
+      "type": "string"
+     },
+     {
+      "name": "nombre",
+      "type": "number"
+     },
+     {
+      "name": "annee_nombre",
+      "type": "string"
+     },
+     {
+      "name": "depenses_md_eur",
+      "type": "number"
+     },
+     {
+      "name": "annee_depenses",
+      "type": "string"
+     },
+     {
+      "name": "source",
+      "type": "string"
+     },
+     {
+      "name": "cote",
+      "type": "string"
+     },
+     {
+      "name": "statut",
+      "type": "string"
+     },
+     {
+      "name": "note",
+      "type": "string"
+     }
+    ],
+    "primaryKey": "id"
+   }
+  },
+  {
+   "name": "competences",
+   "path": "donnees/competences.csv",
+   "format": "csv",
+   "mediatype": "text/csv",
+   "encoding": "utf-8",
+   "dialect": {
+    "delimiter": ";",
+    "decimalChar": ","
+   },
+   "schema": {
+    "fields": [
+     {
+      "name": "id",
+      "type": "string"
+     },
+     {
+      "name": "libelle",
+      "type": "string"
+     },
+     {
+      "name": "domaine",
+      "type": "string"
+     },
+     {
+      "name": "regles",
+      "type": "string"
+     },
+     {
+      "name": "existe_propose",
+      "type": "string"
+     },
+     {
+      "name": "devient",
+      "type": "string"
+     },
+     {
+      "name": "note",
+      "type": "string"
+     }
+    ],
+    "primaryKey": "id"
+   }
+  },
+  {
+   "name": "attributions",
+   "path": "donnees/attributions.csv",
+   "format": "csv",
+   "mediatype": "text/csv",
+   "encoding": "utf-8",
+   "dialect": {
+    "delimiter": ";",
+    "decimalChar": ","
+   },
+   "schema": {
+    "fields": [
+     {
+      "name": "etat",
+      "type": "string"
+     },
+     {
+      "name": "competence",
+      "type": "string"
+     },
+     {
+      "name": "niveau",
+      "type": "string"
+     },
+     {
+      "name": "role",
+      "type": "string"
+     },
+     {
+      "name": "regles",
+      "type": "string"
+     },
+     {
+      "name": "statut",
+      "type": "string"
+     },
+     {
+      "name": "source",
+      "type": "string"
+     },
+     {
+      "name": "note",
+      "type": "string"
+     }
+    ],
+    "foreignKeys": [
+     {
+      "fields": "competence",
+      "reference": {
+       "resource": "competences",
+       "fields": "id"
+      }
+     },
+     {
+      "fields": "niveau",
+      "reference": {
+       "resource": "niveaux",
+       "fields": "id"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "name": "organismes",
+   "path": "donnees/organismes.csv",
+   "format": "csv",
+   "mediatype": "text/csv",
+   "encoding": "utf-8",
+   "dialect": {
+    "delimiter": ";",
+    "decimalChar": ","
+   },
+   "schema": {
+    "fields": [
+     {
+      "name": "id",
+      "type": "string"
+     },
+     {
+      "name": "nom",
+      "type": "string"
+     },
+     {
+      "name": "niveau_actuel",
+      "type": "string"
+     },
+     {
+      "name": "competences_actuel",
+      "type": "string"
+     },
+     {
+      "name": "sort_propose",
+      "type": "string"
+     },
+     {
+      "name": "niveau_propose",
+      "type": "string"
+     },
+     {
+      "name": "competences_propose",
+      "type": "string"
+     },
+     {
+      "name": "ref_instances",
+      "type": "string"
+     },
+     {
+      "name": "etp",
+      "type": "number"
+     },
+     {
+      "name": "etp_source",
+      "type": "string"
+     },
+     {
+      "name": "source",
+      "type": "string"
+     },
+     {
+      "name": "statut",
+      "type": "string"
+     },
+     {
+      "name": "note",
+      "type": "string"
+     },
+     {
+      "name": "partenaire_france_services",
+      "type": "string"
+     }
+    ],
+    "primaryKey": "id"
+   }
+  },
+  {
+   "name": "demarches",
+   "path": "donnees/demarches.csv",
+   "format": "csv",
+   "mediatype": "text/csv",
+   "encoding": "utf-8",
+   "dialect": {
+    "delimiter": ";",
+    "decimalChar": ","
+   },
+   "schema": {
+    "fields": [
+     {
+      "name": "id",
+      "type": "string"
+     },
+     {
+      "name": "libelle",
+      "type": "string"
+     },
+     {
+      "name": "evenement_de_vie",
+      "type": "string"
+     },
+     {
+      "name": "competences",
+      "type": "string"
+     },
+     {
+      "name": "fiches_service_public",
+      "type": "string"
+     },
+     {
+      "name": "pieces_actuel_min",
+      "type": "number"
+     },
+     {
+      "name": "pieces_actuel_max",
+      "type": "number"
+     },
+     {
+      "name": "pieces_actuel_statut",
+      "type": "string"
+     },
+     {
+      "name": "pieces_propose",
+      "type": "number"
+     },
+     {
+      "name": "pieces_propose_statut",
+      "type": "string"
+     },
+     {
+      "name": "note",
+      "type": "string"
+     }
+    ],
+    "primaryKey": "id"
+   }
+  },
+  {
+   "name": "demarche-etapes",
+   "path": "donnees/demarche_etapes.csv",
+   "format": "csv",
+   "mediatype": "text/csv",
+   "encoding": "utf-8",
+   "dialect": {
+    "delimiter": ";",
+    "decimalChar": ","
+   },
+   "schema": {
+    "fields": [
+     {
+      "name": "etat",
+      "type": "string"
+     },
+     {
+      "name": "demarche",
+      "type": "string"
+     },
+     {
+      "name": "ordre",
+      "type": "number"
+     },
+     {
+      "name": "organisme",
+      "type": "string"
+     },
+     {
+      "name": "role",
+      "type": "string"
+     },
+     {
+      "name": "contact_usager",
+      "type": "string"
+     },
+     {
+      "name": "source",
+      "type": "string"
+     },
+     {
+      "name": "statut",
+      "type": "string"
+     },
+     {
+      "name": "note",
+      "type": "string"
+     }
+    ],
+    "foreignKeys": [
+     {
+      "fields": "demarche",
+      "reference": {
+       "resource": "demarches",
+       "fields": "id"
+      }
+     },
+     {
+      "fields": "organisme",
+      "reference": {
+       "resource": "organismes",
+       "fields": "id"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "name": "regles",
+   "path": "donnees/regles.csv",
+   "format": "csv",
+   "mediatype": "text/csv",
+   "encoding": "utf-8",
+   "dialect": {
+    "delimiter": ";",
+    "decimalChar": ","
+   },
+   "schema": {
+    "fields": [
+     {
+      "name": "id_regle",
+      "type": "string"
+     },
+     {
+      "name": "code",
+      "type": "string"
+     },
+     {
+      "name": "num",
+      "type": "string"
+     },
+     {
+      "name": "legiarti",
+      "type": "string"
+     },
+     {
+      "name": "version_du",
+      "type": "string"
+     },
+     {
+      "name": "modifie_par",
+      "type": "string"
+     },
+     {
+      "name": "etat",
+      "type": "string"
+     },
+     {
+      "name": "objet",
+      "type": "string"
+     },
+     {
+      "name": "nb_caracteres",
+      "type": "number"
+     },
+     {
+      "name": "extrait",
+      "type": "string"
+     }
+    ],
+    "primaryKey": "id_regle"
+   }
+  },
+  {
+   "name": "fonction-competence",
+   "path": "donnees/fonction_competence.csv",
+   "format": "csv",
+   "mediatype": "text/csv",
+   "encoding": "utf-8",
+   "dialect": {
+    "delimiter": ";",
+    "decimalChar": ","
+   },
+   "schema": {
+    "fields": [
+     {
+      "name": "niveau",
+      "type": "string"
+     },
+     {
+      "name": "motif",
+      "type": "string"
+     },
+     {
+      "name": "competence",
+      "type": "string"
+     },
+     {
+      "name": "note",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "correspondance-niveaux",
+   "path": "donnees/correspondance_niveaux.csv",
+   "format": "csv",
+   "mediatype": "text/csv",
+   "encoding": "utf-8",
+   "dialect": {
+    "delimiter": ";",
+    "decimalChar": ","
+   },
+   "schema": {
+    "fields": [
+     {
+      "name": "niveau_actuel",
+      "type": "string"
+     },
+     {
+      "name": "niveau_propose",
+      "type": "string"
+     },
+     {
+      "name": "regle",
+      "type": "string"
+     },
+     {
+      "name": "statut",
+      "type": "string"
+     },
+     {
+      "name": "note",
+      "type": "string"
+     }
+    ],
+    "primaryKey": "niveau_actuel"
+   }
+  },
+  {
+   "name": "batiments",
+   "path": "donnees/batiments.csv",
+   "format": "csv",
+   "mediatype": "text/csv",
+   "encoding": "utf-8",
+   "dialect": {
+    "delimiter": ";",
+    "decimalChar": ","
+   },
+   "schema": {
+    "fields": [
+     {
+      "name": "id",
+      "type": "string"
+     },
+     {
+      "name": "etat",
+      "type": "string"
+     },
+     {
+      "name": "type",
+      "type": "string"
+     },
+     {
+      "name": "proprietaire_niveau",
+      "type": "string"
+     },
+     {
+      "name": "nombre",
+      "type": "number"
+     },
+     {
+      "name": "annee",
+      "type": "string"
+     },
+     {
+      "name": "surface_m2",
+      "type": "number"
+     },
+     {
+      "name": "cout_entretien_md_eur",
+      "type": "number"
+     },
+     {
+      "name": "source",
+      "type": "string"
+     },
+     {
+      "name": "cote",
+      "type": "string"
+     },
+     {
+      "name": "statut",
+      "type": "string"
+     },
+     {
+      "name": "note",
+      "type": "string"
+     }
+    ],
+    "primaryKey": "id"
+   }
+  },
+  {
+   "name": "organismes-instances",
+   "path": "donnees/organismes_instances.csv",
+   "format": "csv",
+   "mediatype": "text/csv",
+   "encoding": "utf-8",
+   "dialect": {
+    "delimiter": ";",
+    "decimalChar": ","
+   },
+   "schema": {
+    "fields": [
+     {
+      "name": "id",
+      "type": "string"
+     },
+     {
+      "name": "nom",
+      "type": "string"
+     },
+     {
+      "name": "type",
+      "type": "string"
+     },
+     {
+      "name": "famille",
+      "type": "string"
+     },
+     {
+      "name": "budget_md_eur",
+      "type": "number"
+     },
+     {
+      "name": "budget_annee",
+      "type": "string"
+     },
+     {
+      "name": "effectifs_etp",
+      "type": "number"
+     },
+     {
+      "name": "effectifs_annee",
+      "type": "string"
+     },
+     {
+      "name": "preclassement",
+      "type": "string"
+     },
+     {
+      "name": "cible",
+      "type": "string"
+     },
+     {
+      "name": "ministere_propose",
+      "type": "string"
+     },
+     {
+      "name": "sort_propose",
+      "type": "string"
+     },
+     {
+      "name": "organisme_modele",
+      "type": "string"
+     },
+     {
+      "name": "competences",
+      "type": "string"
+     },
+     {
+      "name": "source",
+      "type": "string"
+     },
+     {
+      "name": "cote",
+      "type": "string"
+     }
+    ],
+    "primaryKey": "id"
+   }
+  },
+  {
+   "name": "agents",
+   "path": "donnees/agents.csv",
+   "format": "csv",
+   "mediatype": "text/csv",
+   "encoding": "utf-8",
+   "dialect": {
+    "delimiter": ";",
+    "decimalChar": ","
+   },
+   "schema": {
+    "fields": [
+     {
+      "name": "id",
+      "type": "string"
+     },
+     {
+      "name": "nom",
+      "type": "string"
+     },
+     {
+      "name": "niveau",
+      "type": "string"
+     },
+     {
+      "name": "effectif",
+      "type": "number"
+     },
+     {
+      "name": "unite",
+      "type": "string"
+     },
+     {
+      "name": "annee",
+      "type": "string"
+     },
+     {
+      "name": "statut",
+      "type": "string"
+     },
+     {
+      "name": "source",
+      "type": "string"
+     }
+    ],
+    "primaryKey": "id"
+   }
+  },
+  {
+   "name": "budgets-competences",
+   "path": "donnees/budgets_competences.csv",
+   "format": "csv",
+   "mediatype": "text/csv",
+   "encoding": "utf-8",
+   "dialect": {
+    "delimiter": ";",
+    "decimalChar": ","
+   },
+   "schema": {
+    "fields": [
+     {
+      "name": "niveau",
+      "type": "string"
+     },
+     {
+      "name": "entite_source",
+      "type": "string"
+     },
+     {
+      "name": "competence",
+      "type": "string"
+     },
+     {
+      "name": "montant_md_eur",
+      "type": "number"
+     },
+     {
+      "name": "annee",
+      "type": "string"
+     },
+     {
+      "name": "nb_lignes",
+      "type": "number"
+     },
+     {
+      "name": "source",
+      "type": "string"
+     },
+     {
+      "name": "statut",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
+   "name": "flux",
+   "path": "donnees/flux.csv",
+   "format": "csv",
+   "mediatype": "text/csv",
+   "encoding": "utf-8",
+   "dialect": {
+    "delimiter": ";",
+    "decimalChar": ","
+   },
+   "schema": {
+    "fields": [
+     {
+      "name": "id",
+      "type": "string"
+     },
+     {
+      "name": "ligne_source",
+      "type": "string"
+     },
+     {
+      "name": "fichier_source",
+      "type": "string"
+     },
+     {
+      "name": "payeur",
+      "type": "string"
+     },
+     {
+      "name": "receveur",
+      "type": "string"
+     },
+     {
+      "name": "montant_md_eur",
+      "type": "number"
+     },
+     {
+      "name": "annee",
+      "type": "string"
+     },
+     {
+      "name": "libelle",
+      "type": "string"
+     },
+     {
+      "name": "contrepartie_grand_livre",
+      "type": "string"
+     },
+     {
+      "name": "regle",
+      "type": "string"
+     },
+     {
+      "name": "statut",
+      "type": "string"
+     }
+    ],
+    "primaryKey": "id"
+   }
+  },
+  {
+   "name": "guichets-france-services",
+   "path": "donnees/guichets_france_services.csv",
+   "format": "csv",
+   "mediatype": "text/csv",
+   "encoding": "utf-8",
+   "dialect": {
+    "delimiter": ";",
+    "decimalChar": ","
+   },
+   "schema": {
+    "fields": [
+     {
+      "name": "insee_dep",
+      "type": "string"
+     },
+     {
+      "name": "structures",
+      "type": "number"
+     },
+     {
+      "name": "principales",
+      "type": "number"
+     },
+     {
+      "name": "antennes",
+      "type": "number"
+     },
+     {
+      "name": "bus_ou_itinerantes",
+      "type": "number"
+     },
+     {
+      "name": "communes_d_implantation",
+      "type": "number"
+     },
+     {
+      "name": "source",
+      "type": "string"
+     }
+    ],
+    "primaryKey": "insee_dep"
+   }
+  },
+  {
+   "name": "fiches-service-public",
+   "path": "donnees/fiches_service_public.csv",
+   "format": "csv",
+   "mediatype": "text/csv",
+   "encoding": "utf-8",
+   "dialect": {
+    "delimiter": ";",
+    "decimalChar": ","
+   },
+   "schema": {
+    "fields": [
+     {
+      "name": "id",
+      "type": "string"
+     },
+     {
+      "name": "audience",
+      "type": "string"
+     },
+     {
+      "name": "titre",
+      "type": "string"
+     },
+     {
+      "name": "date_modif",
+      "type": "string"
+     },
+     {
+      "name": "url",
+      "type": "string"
+     },
+     {
+      "name": "ou_s_adresser",
+      "type": "string"
+     },
+     {
+      "name": "qui_peut_aider",
+      "type": "string"
+     },
+     {
+      "name": "france_services",
+      "type": "string"
+     },
+     {
+      "name": "services_en_ligne",
+      "type": "string"
+     },
+     {
+      "name": "cerfa",
+      "type": "string"
+     },
+     {
+      "name": "references",
+      "type": "string"
+     }
+    ],
+    "primaryKey": "id"
+   }
+  }
+ ]
+}

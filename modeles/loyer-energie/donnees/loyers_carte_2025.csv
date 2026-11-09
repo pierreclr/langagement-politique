@@ -1,0 +1,7 @@
+zone,loyer_m2_charges_comprises,borne_basse,borne_haute,nb_annonces,source
+angers_appartement,14.56,11.23,18.87,29741,pred-app-mef-dhup.csv
+grenoble_appartement,13.41,10.61,16.96,55295,pred-app-mef-dhup.csv
+mediane_des_communes_appartement,10.0,,,34900,pred-app-mef-dhup.csv
+angers_appartement_1_2_pieces,16.57,13.13,20.92,20037,pred-app12-mef-dhup.csv
+grenoble_appartement_1_2_pieces,15.67,12.64,19.43,34359,pred-app12-mef-dhup.csv
+mediane_des_communes_appartement_1_2_pieces,11.97,,,34900,pred-app12-mef-dhup.csv

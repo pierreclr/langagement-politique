@@ -1,0 +1,9 @@
+groupe,nombre_prelevements,dont_avec_montant,dont_moins_150_meur,rendement_total_meur,part_du_total_pct
+Sécurité sociale et régimes obligatoires (ASSO),87,79,19,689946.2,51.86
+Partagé entre plusieurs niveaux,8,8,1,257498.0,19.35
+État,63,55,13,251517.1,18.9
+Collectivités locales (APUL),61,59,29,105800.4,7.95
+"Tiers hors administrations (associations, fonds, organismes privés) ⚠️",33,31,23,14825.6,1.11
+Opérateurs et organismes d'administration centrale (ODAC),60,57,41,8277.4,0.62
+Union européenne,2,2,1,2600.0,0.2
+TOTAL,314,291,127,1330464.7,100

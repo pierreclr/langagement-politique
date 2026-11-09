@@ -1,0 +1,28 @@
+# source: ministère de l'Intérieur, DGEF/DSED, chiffres annuels 2025 publiés le 27/01/2026 (site https://www.immigration.interieur.gouv.fr/essentiels-de-limmigration inaccessible au robot: chiffres relevés dans Public Sénat/AFP du 27/01/2026 https://www.publicsenat.fr/actualites/societe/immigration-titres-de-sejour-en-nette-hausse-et-regularisations-en-baisse-sur-lannee-2025) ; date consultation: 2026-10-25
+# unite: personnes ou décisions ; statut "estimation provisoire" = premiers chiffres DGEF (révisés ensuite) ; les chiffres Eurostat (migr_resfirst) donnent 377 462 premiers titres en 2025 (hors Britanniques)
+indicateur,valeur_2025,variation_vs_2024_pct,statut,source_url,note
+premiers titres de sejour (y.c. Britanniques),384230,11.2,estimation provisoire,https://www.publicsenat.fr/actualites/societe/immigration-titres-de-sejour-en-nette-hausse-et-regularisations-en-baisse-sur-lannee-2025,hors Britanniques: 376 364
+dont etudiants,118000,6.4,estimation provisoire,https://www.publicsenat.fr/actualites/societe/immigration-titres-de-sejour-en-nette-hausse-et-regularisations-en-baisse-sur-lannee-2025,valeur arrondie
+dont humanitaire,92600,65,estimation provisoire,https://www.publicsenat.fr/actualites/societe/immigration-titres-de-sejour-en-nette-hausse-et-regularisations-en-baisse-sur-lannee-2025,hausse portée par réfugiés et protection subsidiaire
+dont economique,51190,-13,estimation provisoire,https://www.publicsenat.fr/actualites/societe/immigration-titres-de-sejour-en-nette-hausse-et-regularisations-en-baisse-sur-lannee-2025,
+regularisations (admissions exceptionnelles au sejour),28610,-10.1,estimation provisoire,https://www.publicsenat.fr/actualites/societe/immigration-titres-de-sejour-en-nette-hausse-et-regularisations-en-baisse-sur-lannee-2025,attribuée à la circulaire Retailleau de janvier 2025
+demandes d'asile (guichets),151665,-3.7,estimation provisoire,https://www.publicsenat.fr/actualites/societe/immigration-titres-de-sejour-en-nette-hausse-et-regularisations-en-baisse-sur-lannee-2025,
+taux de protection asile (OFPRA + CNDA),52,,estimation provisoire,https://www.publicsenat.fr/actualites/societe/immigration-titres-de-sejour-en-nette-hausse-et-regularisations-en-baisse-sur-lannee-2025,en %; ~40 % il y a 5-6 ans selon la DGEF
+eloignements (total),24985,15.7,estimation provisoire,https://www.publicsenat.fr/actualites/societe/immigration-titres-de-sejour-en-nette-hausse-et-regularisations-en-baisse-sur-lannee-2025,
+dont eloignements forces,15569,21,estimation provisoire,https://www.publicsenat.fr/actualites/societe/immigration-titres-de-sejour-en-nette-hausse-et-regularisations-en-baisse-sur-lannee-2025,
+acquisitions de la nationalite,62235,-6.8,estimation provisoire,https://www.publicsenat.fr/actualites/societe/immigration-titres-de-sejour-en-nette-hausse-et-regularisations-en-baisse-sur-lannee-2025,
+# MISE A JOUR 2026-10-31 : chiffres provisoires juin 2026 (DGEF/DSED, https://www.immigration.interieur.gouv.fr/documentation/etudes-et-statistiques/titres-de-sejour-en-2025-protections-subsidiaires-ont-plus-que-double.html, publie le 30/06/2026) ; les lignes ci-dessus sont les estimations de janvier 2026 (AFP)
+indicateur,valeur_2025,variation_vs_2024_pct,statut,source_url,note
+premiers titres de sejour (pays tiers y.c. Britanniques),377462,9.2,provisoire juin 2026,https://www.immigration.interieur.gouv.fr/documentation/etudes-et-statistiques/titres-de-sejour-en-2025-protections-subsidiaires-ont-plus-que-double.html,dont Britanniques 8250
+dont etudiants,116835,5.3,provisoire juin 2026,idem,
+dont humanitaire,88001,56.8,provisoire juin 2026,idem,protection subsidiaire 32466 (+115.8) ; refugies et apatrides 52191 (+39.0)
+dont economique,50848,-13.2,provisoire juin 2026,idem,
+dont familial,90959,-0.1,provisoire juin 2026,idem,
+regularisations AES + liens personnels et familiaux,27819,-11.0,provisoire juin 2026,idem,perimetre redefini ; AES 14737 (-35.0) ; LPF 13082 (+52.4)
+renouvellements de titres,944495,6.4,provisoire juin 2026,idem,
+stock de titres valides et documents provisoires au 31/12/2025,4470970,3.2,juin 2026,idem,pays tiers y.c. Britanniques (172312)
+# MISE A JOUR 2026-10-31 (V1803-V1806) : recoupements sur sources HTML/JSON ; pages DGEF en HTTP 403 au robot
+indicateur,valeur_2025,variation_vs_2024_pct,statut,source_url,note
+acquisitions de la nationalite (total national),98139,-5.3,lu 31/10/2026,https://www.insee.fr/fr/statistiques/2381644,"Insee paru le 09/07/2026 ; 42246 decrets (42063 naturalisations) ; 53912 declarations ; 62235 = perimetre Interieur seul"
+demandes d'asile (Eurostat migr_asyappctza),151665,-3.7,lu 31/10/2026 (API JSON),https://ec.europa.eu/eurostat/databrowser/view/migr_asyappctza/default/table,"premieres demandes 116475 ; reexamens 35190"
+demandes d'asile enregistrees a l'Ofpra,145210,-5.5,lu 31/10/2026,https://www.ofpra.gouv.fr/actualites/bilan-2025-de-lofpra-une-activite-record-et-des-evolutions-contrastees,"taux de protection Ofpra 41.2 % (avant CNDA) ; 156590 decisions"

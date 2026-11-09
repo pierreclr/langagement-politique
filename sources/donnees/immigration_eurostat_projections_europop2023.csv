@@ -1,0 +1,1348 @@
+# source: Eurostat EUROPOP2023 (proj_23ndbi, proj_23np), projections de population 2022-2100 par scenario; mise a jour 2026-05-13T23:00:00+0200; date consultation: 2026-10-25
+# unite: voir colonne indicateur; scenarios: BSL reference, LMIGR/HMIGR migration -/+ 33 %, NMIGR migration nulle, LFRT fecondite basse, LMRT mortalite basse
+# ATTENTION: projections conventionnelles (hypotheses), pas des previsions; elles different des projections INSEE 2021 (hypotheses de solde migratoire et de fecondite differentes)
+annee,zone,code_scenario,scenario,indicateur,valeur,statut,source_url
+2025,EU27_2020,BSL,reference,part 20-64 ans (%),58.0,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2025,EU27_2020,BSL,reference,part 65 ans et + (%),21.8,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2025,EU27_2020,BSL,reference,population 1er janvier,453168040,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2025,EU27_2020,BSL,reference,population 20-64 ans,263000128,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2025,EU27_2020,BSL,reference,ratio 65+/15-64 (%),34.4,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2025,EU27_2020,BSL,reference,ratio 65+/20-64 (%),37.6,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2025,EU27_2020,BSL,reference,solde migratoire annuel,1145181,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2025,EU27_2020,HMIGR,migration haute (+33%),part 20-64 ans (%),58.1,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2025,EU27_2020,HMIGR,migration haute (+33%),part 65 ans et + (%),21.8,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2025,EU27_2020,HMIGR,migration haute (+33%),population 1er janvier,454984061,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2025,EU27_2020,HMIGR,migration haute (+33%),population 20-64 ans,264272112,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2025,EU27_2020,HMIGR,migration haute (+33%),ratio 65+/15-64 (%),34.3,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2025,EU27_2020,HMIGR,migration haute (+33%),ratio 65+/20-64 (%),37.5,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2025,EU27_2020,HMIGR,migration haute (+33%),solde migratoire annuel,1852368,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2025,EU27_2020,LFRT,fecondite basse,part 20-64 ans (%),58.2,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2025,EU27_2020,LFRT,fecondite basse,part 65 ans et + (%),21.9,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2025,EU27_2020,LFRT,fecondite basse,population 1er janvier,451562633,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2025,EU27_2020,LFRT,fecondite basse,population 20-64 ans,263000125,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2025,EU27_2020,LFRT,fecondite basse,ratio 65+/15-64 (%),34.4,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2025,EU27_2020,LFRT,fecondite basse,ratio 65+/20-64 (%),37.6,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2025,EU27_2020,LFRT,fecondite basse,solde migratoire annuel,1145181,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2025,EU27_2020,LMIGR,migration basse (-33%),part 20-64 ans (%),58.0,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2025,EU27_2020,LMIGR,migration basse (-33%),part 65 ans et + (%),21.9,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2025,EU27_2020,LMIGR,migration basse (-33%),population 1er janvier,451379171,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2025,EU27_2020,LMIGR,migration basse (-33%),population 20-64 ans,261747544,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2025,EU27_2020,LMIGR,migration basse (-33%),ratio 65+/15-64 (%),34.6,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2025,EU27_2020,LMIGR,migration basse (-33%),ratio 65+/20-64 (%),37.8,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2025,EU27_2020,LMIGR,migration basse (-33%),solde migratoire annuel,452252,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2025,EU27_2020,LMRT,mortalite basse,part 20-64 ans (%),58.0,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2025,EU27_2020,LMRT,mortalite basse,part 65 ans et + (%),21.9,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2025,EU27_2020,LMRT,mortalite basse,population 1er janvier,453227758,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2025,EU27_2020,LMRT,mortalite basse,population 20-64 ans,263008080,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2025,EU27_2020,LMRT,mortalite basse,ratio 65+/15-64 (%),34.4,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2025,EU27_2020,LMRT,mortalite basse,ratio 65+/20-64 (%),37.7,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2025,EU27_2020,LMRT,mortalite basse,solde migratoire annuel,1144666,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2025,EU27_2020,NMIGR,migration nulle,part 20-64 ans (%),58.0,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2025,EU27_2020,NMIGR,migration nulle,part 65 ans et + (%),22.0,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2025,EU27_2020,NMIGR,migration nulle,population 1er janvier,449356838,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2025,EU27_2020,NMIGR,migration nulle,population 20-64 ans,260428044,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2025,EU27_2020,NMIGR,migration nulle,ratio 65+/15-64 (%),34.8,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2025,EU27_2020,NMIGR,migration nulle,ratio 65+/20-64 (%),38.0,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2025,EU27_2020,NMIGR,migration nulle,solde migratoire annuel,0,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2025,FR,BSL,reference,part 20-64 ans (%),54.9,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2025,FR,BSL,reference,part 65 ans et + (%),21.8,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2025,FR,BSL,reference,population 1er janvier,68658223,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2025,FR,BSL,reference,population 20-64 ans,37683453,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2025,FR,BSL,reference,ratio 65+/15-64 (%),35.7,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2025,FR,BSL,reference,ratio 65+/20-64 (%),39.8,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2025,FR,BSL,reference,solde migratoire annuel,98888,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2025,FR,HMIGR,migration haute (+33%),part 20-64 ans (%),54.9,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2025,FR,HMIGR,migration haute (+33%),part 65 ans et + (%),21.8,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2025,FR,HMIGR,migration haute (+33%),population 1er janvier,68811199,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2025,FR,HMIGR,migration haute (+33%),population 20-64 ans,37784181,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2025,FR,HMIGR,migration haute (+33%),ratio 65+/15-64 (%),35.6,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2025,FR,HMIGR,migration haute (+33%),ratio 65+/20-64 (%),39.7,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2025,FR,HMIGR,migration haute (+33%),solde migratoire annuel,170332,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2025,FR,LFRT,fecondite basse,part 20-64 ans (%),55.1,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2025,FR,LFRT,fecondite basse,part 65 ans et + (%),21.9,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2025,FR,LFRT,fecondite basse,population 1er janvier,68367230,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2025,FR,LFRT,fecondite basse,population 20-64 ans,37683453,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2025,FR,LFRT,fecondite basse,ratio 65+/15-64 (%),35.7,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2025,FR,LFRT,fecondite basse,ratio 65+/20-64 (%),39.8,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2025,FR,LFRT,fecondite basse,solde migratoire annuel,98888,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2025,FR,LMIGR,migration basse (-33%),part 20-64 ans (%),54.9,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2025,FR,LMIGR,migration basse (-33%),part 65 ans et + (%),21.9,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2025,FR,LMIGR,migration basse (-33%),population 1er janvier,68509305,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2025,FR,LMIGR,migration basse (-33%),population 20-64 ans,37585441,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2025,FR,LMIGR,migration basse (-33%),ratio 65+/15-64 (%),35.8,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2025,FR,LMIGR,migration basse (-33%),ratio 65+/20-64 (%),39.9,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2025,FR,LMIGR,migration basse (-33%),solde migratoire annuel,31327,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2025,FR,LMRT,mortalite basse,part 20-64 ans (%),54.9,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2025,FR,LMRT,mortalite basse,part 65 ans et + (%),21.8,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2025,FR,LMRT,mortalite basse,population 1er janvier,68666233,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2025,FR,LMRT,mortalite basse,population 20-64 ans,37684553,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2025,FR,LMRT,mortalite basse,ratio 65+/15-64 (%),35.7,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2025,FR,LMRT,mortalite basse,ratio 65+/20-64 (%),39.8,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2025,FR,LMRT,mortalite basse,solde migratoire annuel,98888,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2025,FR,NMIGR,migration nulle,part 20-64 ans (%),54.8,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2025,FR,NMIGR,migration nulle,part 65 ans et + (%),21.9,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2025,FR,NMIGR,migration nulle,population 1er janvier,68374522,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2025,FR,NMIGR,migration nulle,population 20-64 ans,37499304,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2025,FR,NMIGR,migration nulle,ratio 65+/15-64 (%),35.9,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2025,FR,NMIGR,migration nulle,ratio 65+/20-64 (%),40.0,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2025,FR,NMIGR,migration nulle,solde migratoire annuel,0,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2030,EU27_2020,BSL,reference,part 20-64 ans (%),57.0,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2030,EU27_2020,BSL,reference,part 65 ans et + (%),23.7,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2030,EU27_2020,BSL,reference,population 1er janvier,452700101,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2030,EU27_2020,BSL,reference,population 20-64 ans,257850069,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2030,EU27_2020,BSL,reference,ratio 65+/15-64 (%),38.0,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2030,EU27_2020,BSL,reference,ratio 65+/20-64 (%),41.6,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2030,EU27_2020,BSL,reference,solde migratoire annuel,984597,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2030,EU27_2020,HMIGR,migration haute (+33%),part 20-64 ans (%),57.1,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2030,EU27_2020,HMIGR,migration haute (+33%),part 65 ans et + (%),23.5,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2030,EU27_2020,HMIGR,migration haute (+33%),population 1er janvier,457933323,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2030,EU27_2020,HMIGR,migration haute (+33%),population 20-64 ans,261591000,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2030,EU27_2020,HMIGR,migration haute (+33%),ratio 65+/15-64 (%),37.6,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2030,EU27_2020,HMIGR,migration haute (+33%),ratio 65+/20-64 (%),41.1,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2030,EU27_2020,HMIGR,migration haute (+33%),solde migratoire annuel,1570309,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2030,EU27_2020,LFRT,fecondite basse,part 20-64 ans (%),57.7,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2030,EU27_2020,LFRT,fecondite basse,part 65 ans et + (%),24.0,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2030,EU27_2020,LFRT,fecondite basse,population 1er janvier,447164432,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2030,EU27_2020,LFRT,fecondite basse,population 20-64 ans,257859511,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2030,EU27_2020,LFRT,fecondite basse,ratio 65+/15-64 (%),38.0,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2030,EU27_2020,LFRT,fecondite basse,ratio 65+/20-64 (%),41.6,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2030,EU27_2020,LFRT,fecondite basse,solde migratoire annuel,996491,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2030,EU27_2020,LMIGR,migration basse (-33%),part 20-64 ans (%),56.8,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2030,EU27_2020,LMIGR,migration basse (-33%),part 65 ans et + (%),23.9,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2030,EU27_2020,LMIGR,migration basse (-33%),population 1er janvier,447543392,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2030,EU27_2020,LMIGR,migration basse (-33%),population 20-64 ans,254163942,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2030,EU27_2020,LMIGR,migration basse (-33%),ratio 65+/15-64 (%),38.5,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2030,EU27_2020,LMIGR,migration basse (-33%),ratio 65+/20-64 (%),42.1,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2030,EU27_2020,LMIGR,migration basse (-33%),solde migratoire annuel,400395,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2030,EU27_2020,LMRT,mortalite basse,part 20-64 ans (%),56.9,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2030,EU27_2020,LMRT,mortalite basse,part 65 ans et + (%),23.7,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2030,EU27_2020,LMRT,mortalite basse,population 1er janvier,453191413,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2030,EU27_2020,LMRT,mortalite basse,population 20-64 ans,257908435,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2030,EU27_2020,LMRT,mortalite basse,ratio 65+/15-64 (%),38.2,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2030,EU27_2020,LMRT,mortalite basse,ratio 65+/20-64 (%),41.7,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2030,EU27_2020,LMRT,mortalite basse,solde migratoire annuel,981917,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2030,EU27_2020,NMIGR,migration nulle,part 20-64 ans (%),56.7,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2030,EU27_2020,NMIGR,migration nulle,part 65 ans et + (%),24.2,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2030,EU27_2020,NMIGR,migration nulle,population 1er janvier,443377399,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2030,EU27_2020,NMIGR,migration nulle,population 20-64 ans,251309834,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2030,EU27_2020,NMIGR,migration nulle,ratio 65+/15-64 (%),39.0,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2030,EU27_2020,NMIGR,migration nulle,ratio 65+/20-64 (%),42.6,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2030,EU27_2020,NMIGR,migration nulle,solde migratoire annuel,0,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2030,FR,BSL,reference,part 20-64 ans (%),54.2,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2030,FR,BSL,reference,part 65 ans et + (%),23.5,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2030,FR,BSL,reference,population 1er janvier,69386211,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2030,FR,BSL,reference,population 20-64 ans,37588765,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2030,FR,BSL,reference,ratio 65+/15-64 (%),39.0,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2030,FR,BSL,reference,ratio 65+/20-64 (%),43.4,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2030,FR,BSL,reference,solde migratoire annuel,80041,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2030,FR,HMIGR,migration haute (+33%),part 20-64 ans (%),54.3,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2030,FR,HMIGR,migration haute (+33%),part 65 ans et + (%),23.4,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2030,FR,HMIGR,migration haute (+33%),population 1er janvier,69919517,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2030,FR,HMIGR,migration haute (+33%),population 20-64 ans,37942978,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2030,FR,HMIGR,migration haute (+33%),ratio 65+/15-64 (%),38.7,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2030,FR,HMIGR,migration haute (+33%),ratio 65+/20-64 (%),43.0,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2030,FR,HMIGR,migration haute (+33%),solde migratoire annuel,145549,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2030,FR,LFRT,fecondite basse,part 20-64 ans (%),55.0,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2030,FR,LFRT,fecondite basse,part 65 ans et + (%),23.9,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2030,FR,LFRT,fecondite basse,population 1er janvier,68372116,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2030,FR,LFRT,fecondite basse,population 20-64 ans,37589875,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2030,FR,LFRT,fecondite basse,ratio 65+/15-64 (%),39.0,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2030,FR,LFRT,fecondite basse,ratio 65+/20-64 (%),43.4,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2030,FR,LFRT,fecondite basse,solde migratoire annuel,81584,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2030,FR,LMIGR,migration basse (-33%),part 20-64 ans (%),54.1,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2030,FR,LMIGR,migration basse (-33%),part 65 ans et + (%),23.7,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2030,FR,LMIGR,migration basse (-33%),population 1er janvier,68869665,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2030,FR,LMIGR,migration basse (-33%),population 20-64 ans,37245561,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2030,FR,LMIGR,migration basse (-33%),ratio 65+/15-64 (%),39.3,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2030,FR,LMIGR,migration basse (-33%),ratio 65+/20-64 (%),43.8,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2030,FR,LMIGR,migration basse (-33%),solde migratoire annuel,14514,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2030,FR,LMRT,mortalite basse,part 20-64 ans (%),54.1,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2030,FR,LMRT,mortalite basse,part 65 ans et + (%),23.6,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2030,FR,LMRT,mortalite basse,population 1er janvier,69452088,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2030,FR,LMRT,mortalite basse,population 20-64 ans,37596730,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2030,FR,LMRT,mortalite basse,ratio 65+/15-64 (%),39.1,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2030,FR,LMRT,mortalite basse,ratio 65+/20-64 (%),43.5,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2030,FR,LMRT,mortalite basse,solde migratoire annuel,79724,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2030,FR,NMIGR,migration nulle,part 20-64 ans (%),54.2,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2030,FR,NMIGR,migration nulle,part 65 ans et + (%),23.8,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2030,FR,NMIGR,migration nulle,population 1er janvier,68612747,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2030,FR,NMIGR,migration nulle,population 20-64 ans,37168724,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2030,FR,NMIGR,migration nulle,ratio 65+/15-64 (%),39.4,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2030,FR,NMIGR,migration nulle,ratio 65+/20-64 (%),43.9,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2030,FR,NMIGR,migration nulle,solde migratoire annuel,0,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2035,EU27_2020,BSL,reference,part 20-64 ans (%),55.7,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2035,EU27_2020,BSL,reference,part 65 ans et + (%),25.5,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2035,EU27_2020,BSL,reference,population 1er janvier,451991345,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2035,EU27_2020,BSL,reference,population 20-64 ans,251878254,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2035,EU27_2020,BSL,reference,ratio 65+/15-64 (%),42.0,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2035,EU27_2020,BSL,reference,ratio 65+/20-64 (%),45.8,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2035,EU27_2020,BSL,reference,solde migratoire annuel,1233746,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2035,EU27_2020,HMIGR,migration haute (+33%),part 20-64 ans (%),56.0,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2035,EU27_2020,HMIGR,migration haute (+33%),part 65 ans et + (%),25.1,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2035,EU27_2020,HMIGR,migration haute (+33%),population 1er janvier,460642494,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2035,EU27_2020,HMIGR,migration haute (+33%),population 20-64 ans,257960934,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2035,EU27_2020,HMIGR,migration haute (+33%),ratio 65+/15-64 (%),41.1,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2035,EU27_2020,HMIGR,migration haute (+33%),ratio 65+/20-64 (%),44.9,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2035,EU27_2020,HMIGR,migration haute (+33%),solde migratoire annuel,1812485,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2035,EU27_2020,LFRT,fecondite basse,part 20-64 ans (%),56.9,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2035,EU27_2020,LFRT,fecondite basse,part 65 ans et + (%),26.1,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2035,EU27_2020,LFRT,fecondite basse,population 1er janvier,442659813,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2035,EU27_2020,LFRT,fecondite basse,population 20-64 ans,251966460,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2035,EU27_2020,LFRT,fecondite basse,ratio 65+/15-64 (%),41.9,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2035,EU27_2020,LFRT,fecondite basse,ratio 65+/20-64 (%),45.8,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2035,EU27_2020,LFRT,fecondite basse,solde migratoire annuel,1264878,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2035,EU27_2020,LMIGR,migration basse (-33%),part 20-64 ans (%),55.4,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2035,EU27_2020,LMIGR,migration basse (-33%),part 65 ans et + (%),25.9,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2035,EU27_2020,LMIGR,migration basse (-33%),population 1er janvier,443432684,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2035,EU27_2020,LMIGR,migration basse (-33%),population 20-64 ans,245859874,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2035,EU27_2020,LMIGR,migration basse (-33%),ratio 65+/15-64 (%),42.8,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2035,EU27_2020,LMIGR,migration basse (-33%),ratio 65+/20-64 (%),46.8,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2035,EU27_2020,LMIGR,migration basse (-33%),solde migratoire annuel,659803,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2035,EU27_2020,LMRT,mortalite basse,part 20-64 ans (%),55.6,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2035,EU27_2020,LMRT,mortalite basse,part 65 ans et + (%),25.7,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2035,EU27_2020,LMRT,mortalite basse,population 1er janvier,453204349,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2035,EU27_2020,LMRT,mortalite basse,population 20-64 ans,251999346,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2035,EU27_2020,LMRT,mortalite basse,ratio 65+/15-64 (%),42.3,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2035,EU27_2020,LMRT,mortalite basse,ratio 65+/20-64 (%),46.2,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2035,EU27_2020,LMRT,mortalite basse,solde migratoire annuel,1227653,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2035,EU27_2020,NMIGR,migration nulle,part 20-64 ans (%),55.3,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2035,EU27_2020,NMIGR,migration nulle,part 65 ans et + (%),26.4,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2035,EU27_2020,NMIGR,migration nulle,population 1er janvier,436238347,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2035,EU27_2020,NMIGR,migration nulle,population 20-64 ans,241120118,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2035,EU27_2020,NMIGR,migration nulle,ratio 65+/15-64 (%),43.8,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2035,EU27_2020,NMIGR,migration nulle,ratio 65+/20-64 (%),47.8,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2035,EU27_2020,NMIGR,migration nulle,solde migratoire annuel,0,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2035,FR,BSL,reference,part 20-64 ans (%),53.5,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2035,FR,BSL,reference,part 65 ans et + (%),24.9,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2035,FR,BSL,reference,population 1er janvier,70026306,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2035,FR,BSL,reference,population 20-64 ans,37460086,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2035,FR,BSL,reference,ratio 65+/15-64 (%),42.2,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2035,FR,BSL,reference,ratio 65+/20-64 (%),46.6,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2035,FR,BSL,reference,solde migratoire annuel,92374,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2035,FR,HMIGR,migration haute (+33%),part 20-64 ans (%),53.6,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2035,FR,HMIGR,migration haute (+33%),part 65 ans et + (%),24.7,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2035,FR,HMIGR,migration haute (+33%),population 1er janvier,70967911,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2035,FR,HMIGR,migration haute (+33%),population 20-64 ans,38069223,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2035,FR,HMIGR,migration haute (+33%),ratio 65+/15-64 (%),41.6,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2035,FR,HMIGR,migration haute (+33%),ratio 65+/20-64 (%),46.0,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2035,FR,HMIGR,migration haute (+33%),solde migratoire annuel,157709,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2035,FR,LFRT,fecondite basse,part 20-64 ans (%),54.9,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2035,FR,LFRT,fecondite basse,part 65 ans et + (%),25.6,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2035,FR,LFRT,fecondite basse,population 1er janvier,68293716,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2035,FR,LFRT,fecondite basse,population 20-64 ans,37471443,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2035,FR,LFRT,fecondite basse,ratio 65+/15-64 (%),42.2,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2035,FR,LFRT,fecondite basse,ratio 65+/20-64 (%),46.6,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2035,FR,LFRT,fecondite basse,solde migratoire annuel,96561,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2035,FR,LMIGR,migration basse (-33%),part 20-64 ans (%),53.3,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2035,FR,LMIGR,migration basse (-33%),part 65 ans et + (%),25.2,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2035,FR,LMIGR,migration basse (-33%),population 1er janvier,69103425,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2035,FR,LMIGR,migration basse (-33%),population 20-64 ans,36862416,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2035,FR,LMIGR,migration basse (-33%),ratio 65+/15-64 (%),42.8,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2035,FR,LMIGR,migration basse (-33%),ratio 65+/20-64 (%),47.3,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2035,FR,LMIGR,migration basse (-33%),solde migratoire annuel,27013,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2035,FR,LMRT,mortalite basse,part 20-64 ans (%),53.4,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2035,FR,LMRT,mortalite basse,part 65 ans et + (%),25.1,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2035,FR,LMRT,mortalite basse,population 1er janvier,70192701,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2035,FR,LMRT,mortalite basse,population 20-64 ans,37477296,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2035,FR,LMRT,mortalite basse,ratio 65+/15-64 (%),42.6,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2035,FR,LMRT,mortalite basse,ratio 65+/20-64 (%),47.0,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2035,FR,LMRT,mortalite basse,solde migratoire annuel,91691,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2035,FR,NMIGR,migration nulle,part 20-64 ans (%),53.5,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2035,FR,NMIGR,migration nulle,part 65 ans et + (%),25.4,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2035,FR,NMIGR,migration nulle,population 1er janvier,68736600,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2035,FR,NMIGR,migration nulle,population 20-64 ans,36803531,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2035,FR,NMIGR,migration nulle,ratio 65+/15-64 (%),43.0,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2035,FR,NMIGR,migration nulle,ratio 65+/20-64 (%),47.4,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2035,FR,NMIGR,migration nulle,solde migratoire annuel,0,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2040,EU27_2020,BSL,reference,part 20-64 ans (%),54.6,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2040,EU27_2020,BSL,reference,part 65 ans et + (%),27.0,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2040,EU27_2020,BSL,reference,population 1er janvier,451592188,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2040,EU27_2020,BSL,reference,population 20-64 ans,246774109,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2040,EU27_2020,BSL,reference,ratio 65+/15-64 (%),45.4,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2040,EU27_2020,BSL,reference,ratio 65+/20-64 (%),49.4,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2040,EU27_2020,BSL,reference,solde migratoire annuel,1228600,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2040,EU27_2020,HMIGR,migration haute (+33%),part 20-64 ans (%),55.0,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2040,EU27_2020,HMIGR,migration haute (+33%),part 65 ans et + (%),26.4,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2040,EU27_2020,HMIGR,migration haute (+33%),population 1er janvier,463810377,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2040,EU27_2020,HMIGR,migration haute (+33%),population 20-64 ans,255227297,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2040,EU27_2020,HMIGR,migration haute (+33%),ratio 65+/15-64 (%),44.1,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2040,EU27_2020,HMIGR,migration haute (+33%),ratio 65+/20-64 (%),48.0,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2040,EU27_2020,HMIGR,migration haute (+33%),solde migratoire annuel,1801225,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2040,EU27_2020,LFRT,fecondite basse,part 20-64 ans (%),56.3,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2040,EU27_2020,LFRT,fecondite basse,part 65 ans et + (%),27.8,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2040,EU27_2020,LFRT,fecondite basse,population 1er janvier,438680995,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2040,EU27_2020,LFRT,fecondite basse,population 20-64 ans,247118160,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2040,EU27_2020,LFRT,fecondite basse,ratio 65+/15-64 (%),45.6,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2040,EU27_2020,LFRT,fecondite basse,ratio 65+/20-64 (%),49.3,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2040,EU27_2020,LFRT,fecondite basse,solde migratoire annuel,1344195,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2040,EU27_2020,LMIGR,migration basse (-33%),part 20-64 ans (%),54.2,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2040,EU27_2020,LMIGR,migration basse (-33%),part 65 ans et + (%),27.6,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2040,EU27_2020,LMIGR,migration basse (-33%),population 1er janvier,439515371,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2040,EU27_2020,LMIGR,migration basse (-33%),population 20-64 ans,238418792,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2040,EU27_2020,LMIGR,migration basse (-33%),ratio 65+/15-64 (%),46.7,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2040,EU27_2020,LMIGR,migration basse (-33%),ratio 65+/20-64 (%),50.9,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2040,EU27_2020,LMIGR,migration basse (-33%),solde migratoire annuel,664831,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2040,EU27_2020,LMRT,mortalite basse,part 20-64 ans (%),54.4,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2040,EU27_2020,LMRT,mortalite basse,part 65 ans et + (%),27.3,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2040,EU27_2020,LMRT,mortalite basse,population 1er janvier,453735709,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2040,EU27_2020,LMRT,mortalite basse,population 20-64 ans,246948540,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2040,EU27_2020,LMRT,mortalite basse,ratio 65+/15-64 (%),46.1,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2040,EU27_2020,LMRT,mortalite basse,ratio 65+/20-64 (%),50.1,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2040,EU27_2020,LMRT,mortalite basse,solde migratoire annuel,1218455,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2040,EU27_2020,NMIGR,migration nulle,part 20-64 ans (%),54.0,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2040,EU27_2020,NMIGR,migration nulle,part 65 ans et + (%),28.3,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2040,EU27_2020,NMIGR,migration nulle,population 1er janvier,428160751,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2040,EU27_2020,NMIGR,migration nulle,population 20-64 ans,231051898,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2040,EU27_2020,NMIGR,migration nulle,ratio 65+/15-64 (%),48.3,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2040,EU27_2020,NMIGR,migration nulle,ratio 65+/20-64 (%),52.5,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2040,EU27_2020,NMIGR,migration nulle,solde migratoire annuel,0,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2040,FR,BSL,reference,part 20-64 ans (%),52.4,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2040,FR,BSL,reference,part 65 ans et + (%),26.2,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2040,FR,BSL,reference,population 1er janvier,70527060,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2040,FR,BSL,reference,population 20-64 ans,36950462,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2040,FR,BSL,reference,ratio 65+/15-64 (%),45.3,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2040,FR,BSL,reference,ratio 65+/20-64 (%),50.0,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2040,FR,BSL,reference,solde migratoire annuel,80778,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2040,FR,HMIGR,migration haute (+33%),part 20-64 ans (%),52.6,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2040,FR,HMIGR,migration haute (+33%),part 65 ans et + (%),25.7,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2040,FR,HMIGR,migration haute (+33%),population 1er janvier,71905883,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2040,FR,HMIGR,migration haute (+33%),population 20-64 ans,37821949,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2040,FR,HMIGR,migration haute (+33%),ratio 65+/15-64 (%),44.4,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2040,FR,HMIGR,migration haute (+33%),ratio 65+/20-64 (%),49.0,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2040,FR,HMIGR,migration haute (+33%),solde migratoire annuel,147234,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2040,FR,LFRT,fecondite basse,part 20-64 ans (%),54.3,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2040,FR,LFRT,fecondite basse,part 65 ans et + (%),27.1,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2040,FR,LFRT,fecondite basse,population 1er janvier,68114439,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2040,FR,LFRT,fecondite basse,population 20-64 ans,37003298,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2040,FR,LFRT,fecondite basse,ratio 65+/15-64 (%),45.6,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2040,FR,LFRT,fecondite basse,ratio 65+/20-64 (%),49.9,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2040,FR,LFRT,fecondite basse,solde migratoire annuel,102117,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2040,FR,LMIGR,migration basse (-33%),part 20-64 ans (%),52.2,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2040,FR,LMIGR,migration basse (-33%),part 65 ans et + (%),26.6,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2040,FR,LMIGR,migration basse (-33%),population 1er janvier,69168510,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2040,FR,LMIGR,migration basse (-33%),population 20-64 ans,36090784,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2040,FR,LMIGR,migration basse (-33%),ratio 65+/15-64 (%),46.2,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2040,FR,LMIGR,migration basse (-33%),ratio 65+/20-64 (%),51.0,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2040,FR,LMIGR,migration basse (-33%),solde migratoire annuel,16442,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2040,FR,LMRT,mortalite basse,part 20-64 ans (%),52.2,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2040,FR,LMRT,mortalite basse,part 65 ans et + (%),26.5,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2040,FR,LMRT,mortalite basse,population 1er janvier,70829335,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2040,FR,LMRT,mortalite basse,population 20-64 ans,36975963,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2040,FR,LMRT,mortalite basse,ratio 65+/15-64 (%),46.0,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2040,FR,LMRT,mortalite basse,ratio 65+/20-64 (%),50.7,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2040,FR,LMRT,mortalite basse,solde migratoire annuel,79595,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2040,FR,NMIGR,migration nulle,part 20-64 ans (%),52.4,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2040,FR,NMIGR,migration nulle,part 65 ans et + (%),26.7,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2040,FR,NMIGR,migration nulle,population 1er janvier,68707578,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2040,FR,NMIGR,migration nulle,population 20-64 ans,35990465,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2040,FR,NMIGR,migration nulle,ratio 65+/15-64 (%),46.4,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2040,FR,NMIGR,migration nulle,ratio 65+/20-64 (%),51.0,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2040,FR,NMIGR,migration nulle,solde migratoire annuel,0,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2045,EU27_2020,BSL,reference,part 20-64 ans (%),53.6,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2045,EU27_2020,BSL,reference,part 65 ans et + (%),28.1,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2045,EU27_2020,BSL,reference,population 1er janvier,450322278,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2045,EU27_2020,BSL,reference,population 20-64 ans,241165088,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2045,EU27_2020,BSL,reference,ratio 65+/15-64 (%),48.2,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2045,EU27_2020,BSL,reference,ratio 65+/20-64 (%),52.5,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2045,EU27_2020,BSL,reference,solde migratoire annuel,1217088,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2045,EU27_2020,HMIGR,migration haute (+33%),part 20-64 ans (%),54.1,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2045,EU27_2020,HMIGR,migration haute (+33%),part 65 ans et + (%),27.4,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2045,EU27_2020,HMIGR,migration haute (+33%),population 1er janvier,466137522,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2045,EU27_2020,HMIGR,migration haute (+33%),population 20-64 ans,251992854,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2045,EU27_2020,HMIGR,migration haute (+33%),ratio 65+/15-64 (%),46.5,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2045,EU27_2020,HMIGR,migration haute (+33%),ratio 65+/20-64 (%),50.6,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2045,EU27_2020,HMIGR,migration haute (+33%),solde migratoire annuel,1758490,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2045,EU27_2020,LFRT,fecondite basse,part 20-64 ans (%),55.4,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2045,EU27_2020,LFRT,fecondite basse,part 65 ans et + (%),29.2,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2045,EU27_2020,LFRT,fecondite basse,population 1er janvier,434107870,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2045,EU27_2020,LFRT,fecondite basse,population 20-64 ans,240401026,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2045,EU27_2020,LFRT,fecondite basse,ratio 65+/15-64 (%),49.1,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2045,EU27_2020,LFRT,fecondite basse,ratio 65+/20-64 (%),52.7,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2045,EU27_2020,LFRT,fecondite basse,solde migratoire annuel,1356916,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2045,EU27_2020,LMIGR,migration basse (-33%),part 20-64 ans (%),53.0,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2045,EU27_2020,LMIGR,migration basse (-33%),part 65 ans et + (%),28.9,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2045,EU27_2020,LMIGR,migration basse (-33%),population 1er janvier,434724383,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2045,EU27_2020,LMIGR,migration basse (-33%),population 20-64 ans,230486831,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2045,EU27_2020,LMIGR,migration basse (-33%),ratio 65+/15-64 (%),50.1,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2045,EU27_2020,LMIGR,migration basse (-33%),ratio 65+/20-64 (%),54.5,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2045,EU27_2020,LMIGR,migration basse (-33%),solde migratoire annuel,682666,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2045,EU27_2020,LMRT,mortalite basse,part 20-64 ans (%),53.2,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2045,EU27_2020,LMRT,mortalite basse,part 65 ans et + (%),28.6,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2045,EU27_2020,LMRT,mortalite basse,population 1er janvier,453543345,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2045,EU27_2020,LMRT,mortalite basse,population 20-64 ans,241369529,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2045,EU27_2020,LMRT,mortalite basse,ratio 65+/15-64 (%),49.4,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2045,EU27_2020,LMRT,mortalite basse,ratio 65+/20-64 (%),53.7,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2045,EU27_2020,LMRT,mortalite basse,solde migratoire annuel,1201841,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2045,EU27_2020,NMIGR,migration nulle,part 20-64 ans (%),52.5,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2045,EU27_2020,NMIGR,migration nulle,part 65 ans et + (%),30.0,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2045,EU27_2020,NMIGR,migration nulle,population 1er janvier,418983567,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2045,EU27_2020,NMIGR,migration nulle,population 20-64 ans,220047875,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2045,EU27_2020,NMIGR,migration nulle,ratio 65+/15-64 (%),52.5,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2045,EU27_2020,NMIGR,migration nulle,ratio 65+/20-64 (%),57.1,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2045,EU27_2020,NMIGR,migration nulle,solde migratoire annuel,0,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2045,FR,BSL,reference,part 20-64 ans (%),51.9,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2045,FR,BSL,reference,part 65 ans et + (%),26.7,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2045,FR,BSL,reference,population 1er janvier,70709758,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2045,FR,BSL,reference,population 20-64 ans,36727845,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2045,FR,BSL,reference,ratio 65+/15-64 (%),46.5,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2045,FR,BSL,reference,ratio 65+/20-64 (%),51.3,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2045,FR,BSL,reference,solde migratoire annuel,86825,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2045,FR,HMIGR,migration haute (+33%),part 20-64 ans (%),52.2,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2045,FR,HMIGR,migration haute (+33%),part 65 ans et + (%),26.1,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2045,FR,HMIGR,migration haute (+33%),population 1er janvier,72552114,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2045,FR,HMIGR,migration haute (+33%),population 20-64 ans,37883084,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2045,FR,HMIGR,migration haute (+33%),ratio 65+/15-64 (%),45.3,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2045,FR,HMIGR,migration haute (+33%),ratio 65+/20-64 (%),50.0,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2045,FR,HMIGR,migration haute (+33%),solde migratoire annuel,149999,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2045,FR,LFRT,fecondite basse,part 20-64 ans (%),54.0,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2045,FR,LFRT,fecondite basse,part 65 ans et + (%),27.9,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2045,FR,LFRT,fecondite basse,population 1er janvier,67685320,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2045,FR,LFRT,fecondite basse,population 20-64 ans,36576718,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2045,FR,LFRT,fecondite basse,ratio 65+/15-64 (%),47.5,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2045,FR,LFRT,fecondite basse,ratio 65+/20-64 (%),51.6,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2045,FR,LFRT,fecondite basse,solde migratoire annuel,110663,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2045,FR,LMIGR,migration basse (-33%),part 20-64 ans (%),51.7,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2045,FR,LMIGR,migration basse (-33%),part 65 ans et + (%),27.2,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2045,FR,LMIGR,migration basse (-33%),population 1er janvier,68902064,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2045,FR,LMIGR,migration basse (-33%),population 20-64 ans,35594153,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2045,FR,LMIGR,migration basse (-33%),ratio 65+/15-64 (%),47.8,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2045,FR,LMIGR,migration basse (-33%),ratio 65+/20-64 (%),52.7,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2045,FR,LMIGR,migration basse (-33%),solde migratoire annuel,23580,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2045,FR,LMRT,mortalite basse,part 20-64 ans (%),51.7,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2045,FR,LMRT,mortalite basse,part 65 ans et + (%),27.1,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2045,FR,LMRT,mortalite basse,population 1er janvier,71170757,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2045,FR,LMRT,mortalite basse,population 20-64 ans,36760533,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2045,FR,LMRT,mortalite basse,ratio 65+/15-64 (%),47.5,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2045,FR,LMRT,mortalite basse,ratio 65+/20-64 (%),52.4,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2045,FR,LMRT,mortalite basse,solde migratoire annuel,85078,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2045,FR,NMIGR,migration nulle,part 20-64 ans (%),51.8,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2045,FR,NMIGR,migration nulle,part 65 ans et + (%),27.2,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2045,FR,NMIGR,migration nulle,population 1er janvier,68412186,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2045,FR,NMIGR,migration nulle,population 20-64 ans,35440895,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2045,FR,NMIGR,migration nulle,ratio 65+/15-64 (%),47.8,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2045,FR,NMIGR,migration nulle,ratio 65+/20-64 (%),52.6,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2045,FR,NMIGR,migration nulle,solde migratoire annuel,0,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2050,EU27_2020,BSL,reference,part 20-64 ans (%),52.7,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2050,EU27_2020,BSL,reference,part 65 ans et + (%),29.0,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2050,EU27_2020,BSL,reference,population 1er janvier,447877407,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2050,EU27_2020,BSL,reference,population 20-64 ans,236065501,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2050,EU27_2020,BSL,reference,ratio 65+/15-64 (%),50.4,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2050,EU27_2020,BSL,reference,ratio 65+/20-64 (%),55.0,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2050,EU27_2020,BSL,reference,solde migratoire annuel,1187495,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2050,EU27_2020,HMIGR,migration haute (+33%),part 20-64 ans (%),53.3,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2050,EU27_2020,HMIGR,migration haute (+33%),part 65 ans et + (%),28.1,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2050,EU27_2020,HMIGR,migration haute (+33%),population 1er janvier,467208244,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2050,EU27_2020,HMIGR,migration haute (+33%),population 20-64 ans,249233406,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2050,EU27_2020,HMIGR,migration haute (+33%),ratio 65+/15-64 (%),48.3,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2050,EU27_2020,HMIGR,migration haute (+33%),ratio 65+/20-64 (%),52.6,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2050,EU27_2020,HMIGR,migration haute (+33%),solde migratoire annuel,1713003,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2050,EU27_2020,LFRT,fecondite basse,part 20-64 ans (%),54.2,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2050,EU27_2020,LFRT,fecondite basse,part 65 ans et + (%),30.3,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2050,EU27_2020,LFRT,fecondite basse,population 1er janvier,428295985,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2050,EU27_2020,LFRT,fecondite basse,population 20-64 ans,231947384,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2050,EU27_2020,LFRT,fecondite basse,ratio 65+/15-64 (%),52.1,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2050,EU27_2020,LFRT,fecondite basse,ratio 65+/20-64 (%),56.0,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2050,EU27_2020,LFRT,fecondite basse,solde migratoire annuel,1345870,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2050,EU27_2020,LMIGR,migration basse (-33%),part 20-64 ans (%),52.0,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2050,EU27_2020,LMIGR,migration basse (-33%),part 65 ans et + (%),29.9,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2050,EU27_2020,LMIGR,migration basse (-33%),population 1er janvier,428814029,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2050,EU27_2020,LMIGR,migration basse (-33%),population 20-64 ans,223081026,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2050,EU27_2020,LMIGR,migration basse (-33%),ratio 65+/15-64 (%),52.8,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2050,EU27_2020,LMIGR,migration basse (-33%),ratio 65+/20-64 (%),57.5,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2050,EU27_2020,LMIGR,migration basse (-33%),solde migratoire annuel,672404,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2050,EU27_2020,LMRT,mortalite basse,part 20-64 ans (%),52.2,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2050,EU27_2020,LMRT,mortalite basse,part 65 ans et + (%),29.6,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2050,EU27_2020,LMRT,mortalite basse,population 1er janvier,452251634,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2050,EU27_2020,LMRT,mortalite basse,population 20-64 ans,236271531,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2050,EU27_2020,LMRT,mortalite basse,ratio 65+/15-64 (%),52.0,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2050,EU27_2020,LMRT,mortalite basse,ratio 65+/20-64 (%),56.7,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2050,EU27_2020,LMRT,mortalite basse,solde migratoire annuel,1166828,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2050,EU27_2020,NMIGR,migration nulle,part 20-64 ans (%),51.2,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2050,EU27_2020,NMIGR,migration nulle,part 65 ans et + (%),31.3,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2050,EU27_2020,NMIGR,migration nulle,population 1er janvier,408470428,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2050,EU27_2020,NMIGR,migration nulle,population 20-64 ans,209318084,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2050,EU27_2020,NMIGR,migration nulle,ratio 65+/15-64 (%),56.2,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2050,EU27_2020,NMIGR,migration nulle,ratio 65+/20-64 (%),61.1,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2050,EU27_2020,NMIGR,migration nulle,solde migratoire annuel,0,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2050,FR,BSL,reference,part 20-64 ans (%),51.5,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2050,FR,BSL,reference,part 65 ans et + (%),27.3,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2050,FR,BSL,reference,population 1er janvier,70641762,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2050,FR,BSL,reference,population 20-64 ans,36352081,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2050,FR,BSL,reference,ratio 65+/15-64 (%),48.0,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2050,FR,BSL,reference,ratio 65+/20-64 (%),53.1,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2050,FR,BSL,reference,solde migratoire annuel,83182,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2050,FR,HMIGR,migration haute (+33%),part 20-64 ans (%),51.8,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2050,FR,HMIGR,migration haute (+33%),part 65 ans et + (%),26.6,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2050,FR,HMIGR,migration haute (+33%),population 1er janvier,72949682,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2050,FR,HMIGR,migration haute (+33%),population 20-64 ans,37811421,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2050,FR,HMIGR,migration haute (+33%),ratio 65+/15-64 (%),46.4,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2050,FR,HMIGR,migration haute (+33%),ratio 65+/20-64 (%),51.4,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2050,FR,HMIGR,migration haute (+33%),solde migratoire annuel,147822,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2050,FR,LFRT,fecondite basse,part 20-64 ans (%),53.1,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2050,FR,LFRT,fecondite basse,part 65 ans et + (%),28.8,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2050,FR,LFRT,fecondite basse,population 1er janvier,66999933,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2050,FR,LFRT,fecondite basse,population 20-64 ans,35577769,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2050,FR,LFRT,fecondite basse,ratio 65+/15-64 (%),49.9,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2050,FR,LFRT,fecondite basse,ratio 65+/20-64 (%),54.3,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2050,FR,LFRT,fecondite basse,solde migratoire annuel,109684,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2050,FR,LMIGR,migration basse (-33%),part 20-64 ans (%),51.1,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2050,FR,LMIGR,migration basse (-33%),part 65 ans et + (%),28.0,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2050,FR,LMIGR,migration basse (-33%),population 1er janvier,68377005,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2050,FR,LMIGR,migration basse (-33%),population 20-64 ans,34921081,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2050,FR,LMIGR,migration basse (-33%),ratio 65+/15-64 (%),49.7,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2050,FR,LMIGR,migration basse (-33%),ratio 65+/20-64 (%),54.9,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2050,FR,LMIGR,migration basse (-33%),solde migratoire annuel,20911,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2050,FR,LMRT,mortalite basse,part 20-64 ans (%),51.1,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2050,FR,LMRT,mortalite basse,part 65 ans et + (%),27.9,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2050,FR,LMRT,mortalite basse,population 1er janvier,71267475,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2050,FR,LMRT,mortalite basse,population 20-64 ans,36388339,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2050,FR,LMRT,mortalite basse,ratio 65+/15-64 (%),49.4,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2050,FR,LMRT,mortalite basse,ratio 65+/20-64 (%),54.7,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2050,FR,LMRT,mortalite basse,solde migratoire annuel,80798,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2050,FR,NMIGR,migration nulle,part 20-64 ans (%),51.2,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2050,FR,NMIGR,migration nulle,part 65 ans et + (%),27.9,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2050,FR,NMIGR,migration nulle,population 1er janvier,67822519,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2050,FR,NMIGR,migration nulle,population 20-64 ans,34706497,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2050,FR,NMIGR,migration nulle,ratio 65+/15-64 (%),49.5,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2050,FR,NMIGR,migration nulle,ratio 65+/20-64 (%),54.6,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2050,FR,NMIGR,migration nulle,solde migratoire annuel,0,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2055,EU27_2020,BSL,reference,part 20-64 ans (%),52.1,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2055,EU27_2020,BSL,reference,part 65 ans et + (%),29.6,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2055,EU27_2020,BSL,reference,population 1er janvier,444312273,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2055,EU27_2020,BSL,reference,population 20-64 ans,231410050,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2055,EU27_2020,BSL,reference,ratio 65+/15-64 (%),52.1,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2055,EU27_2020,BSL,reference,ratio 65+/20-64 (%),56.9,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2055,EU27_2020,BSL,reference,solde migratoire annuel,1192513,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2055,EU27_2020,HMIGR,migration haute (+33%),part 20-64 ans (%),52.8,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2055,EU27_2020,HMIGR,migration haute (+33%),part 65 ans et + (%),28.6,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2055,EU27_2020,HMIGR,migration haute (+33%),population 1er janvier,467145913,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2055,EU27_2020,HMIGR,migration haute (+33%),population 20-64 ans,246840434,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2055,EU27_2020,HMIGR,migration haute (+33%),ratio 65+/15-64 (%),49.6,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2055,EU27_2020,HMIGR,migration haute (+33%),ratio 65+/20-64 (%),54.2,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2055,EU27_2020,HMIGR,migration haute (+33%),solde migratoire annuel,1699580,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2055,EU27_2020,LFRT,fecondite basse,part 20-64 ans (%),53.2,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2055,EU27_2020,LFRT,fecondite basse,part 65 ans et + (%),31.3,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2055,EU27_2020,LFRT,fecondite basse,population 1er janvier,420972601,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2055,EU27_2020,LFRT,fecondite basse,population 20-64 ans,224071090,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2055,EU27_2020,LFRT,fecondite basse,ratio 65+/15-64 (%),54.6,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2055,EU27_2020,LFRT,fecondite basse,ratio 65+/20-64 (%),58.8,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2055,EU27_2020,LFRT,fecondite basse,solde migratoire annuel,1371235,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2055,EU27_2020,LMIGR,migration basse (-33%),part 20-64 ans (%),51.3,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2055,EU27_2020,LMIGR,migration basse (-33%),part 65 ans et + (%),30.7,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2055,EU27_2020,LMIGR,migration basse (-33%),population 1er janvier,421809992,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2055,EU27_2020,LMIGR,migration basse (-33%),population 20-64 ans,216206468,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2055,EU27_2020,LMIGR,migration basse (-33%),ratio 65+/15-64 (%),54.9,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2055,EU27_2020,LMIGR,migration basse (-33%),ratio 65+/20-64 (%),59.9,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2055,EU27_2020,LMIGR,migration basse (-33%),solde migratoire annuel,692454,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2055,EU27_2020,LMRT,mortalite basse,part 20-64 ans (%),51.5,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2055,EU27_2020,LMRT,mortalite basse,part 65 ans et + (%),30.5,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2055,EU27_2020,LMRT,mortalite basse,population 1er janvier,449855674,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2055,EU27_2020,LMRT,mortalite basse,population 20-64 ans,231586197,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2055,EU27_2020,LMRT,mortalite basse,ratio 65+/15-64 (%),54.2,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2055,EU27_2020,LMRT,mortalite basse,ratio 65+/20-64 (%),59.2,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2055,EU27_2020,LMRT,mortalite basse,solde migratoire annuel,1166512,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2055,EU27_2020,NMIGR,migration nulle,part 20-64 ans (%),50.2,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2055,EU27_2020,NMIGR,migration nulle,part 65 ans et + (%),32.4,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2055,EU27_2020,NMIGR,migration nulle,population 1er janvier,396607819,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2055,EU27_2020,NMIGR,migration nulle,population 20-64 ans,199066395,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2055,EU27_2020,NMIGR,migration nulle,ratio 65+/15-64 (%),59.2,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2055,EU27_2020,NMIGR,migration nulle,ratio 65+/20-64 (%),64.6,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2055,EU27_2020,NMIGR,migration nulle,solde migratoire annuel,0,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2055,FR,BSL,reference,part 20-64 ans (%),51.2,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2055,FR,BSL,reference,part 65 ans et + (%),27.9,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2055,FR,BSL,reference,population 1er janvier,70405341,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2055,FR,BSL,reference,population 20-64 ans,36062993,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2055,FR,BSL,reference,ratio 65+/15-64 (%),49.2,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2055,FR,BSL,reference,ratio 65+/20-64 (%),54.5,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2055,FR,BSL,reference,solde migratoire annuel,84617,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2055,FR,HMIGR,migration haute (+33%),part 20-64 ans (%),51.7,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2055,FR,HMIGR,migration haute (+33%),part 65 ans et + (%),27.1,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2055,FR,HMIGR,migration haute (+33%),population 1er janvier,73195300,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2055,FR,HMIGR,migration haute (+33%),population 20-64 ans,37845183,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2055,FR,HMIGR,migration haute (+33%),ratio 65+/15-64 (%),47.3,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2055,FR,HMIGR,migration haute (+33%),ratio 65+/20-64 (%),52.4,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2055,FR,HMIGR,migration haute (+33%),solde migratoire annuel,148139,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2055,FR,LFRT,fecondite basse,part 20-64 ans (%),52.5,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2055,FR,LFRT,fecondite basse,part 65 ans et + (%),29.8,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2055,FR,LFRT,fecondite basse,population 1er janvier,66052991,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2055,FR,LFRT,fecondite basse,population 20-64 ans,34672857,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2055,FR,LFRT,fecondite basse,ratio 65+/15-64 (%),52.0,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2055,FR,LFRT,fecondite basse,ratio 65+/20-64 (%),56.7,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2055,FR,LFRT,fecondite basse,solde migratoire annuel,113895,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2055,FR,LMIGR,migration basse (-33%),part 20-64 ans (%),50.7,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2055,FR,LMIGR,migration basse (-33%),part 65 ans et + (%),28.8,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2055,FR,LMIGR,migration basse (-33%),population 1er janvier,67671671,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2055,FR,LMIGR,migration basse (-33%),population 20-64 ans,34319154,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2055,FR,LMIGR,migration basse (-33%),ratio 65+/15-64 (%),51.2,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2055,FR,LMIGR,migration basse (-33%),ratio 65+/20-64 (%),56.7,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2055,FR,LMIGR,migration basse (-33%),solde migratoire annuel,22952,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2055,FR,LMRT,mortalite basse,part 20-64 ans (%),50.7,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2055,FR,LMRT,mortalite basse,part 65 ans et + (%),28.7,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2055,FR,LMRT,mortalite basse,population 1er janvier,71195138,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2055,FR,LMRT,mortalite basse,population 20-64 ans,36099424,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2055,FR,LMRT,mortalite basse,ratio 65+/15-64 (%),51.0,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2055,FR,LMRT,mortalite basse,ratio 65+/20-64 (%),56.5,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2055,FR,LMRT,mortalite basse,solde migratoire annuel,81594,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2055,FR,NMIGR,migration nulle,part 20-64 ans (%),50.9,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2055,FR,NMIGR,migration nulle,part 65 ans et + (%),28.5,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2055,FR,NMIGR,migration nulle,population 1er janvier,67027198,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2055,FR,NMIGR,migration nulle,population 20-64 ans,34132097,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2055,FR,NMIGR,migration nulle,ratio 65+/15-64 (%),50.5,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2055,FR,NMIGR,migration nulle,ratio 65+/20-64 (%),55.9,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2055,FR,NMIGR,migration nulle,solde migratoire annuel,0,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2060,EU27_2020,BSL,reference,part 20-64 ans (%),51.8,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2060,EU27_2020,BSL,reference,part 65 ans et + (%),30.0,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2060,EU27_2020,BSL,reference,population 1er janvier,440054110,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2060,EU27_2020,BSL,reference,population 20-64 ans,227972491,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2060,EU27_2020,BSL,reference,ratio 65+/15-64 (%),53.0,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2060,EU27_2020,BSL,reference,ratio 65+/20-64 (%),57.9,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2060,EU27_2020,BSL,reference,solde migratoire annuel,1162929,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2060,EU27_2020,HMIGR,migration haute (+33%),part 20-64 ans (%),52.6,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2060,EU27_2020,HMIGR,migration haute (+33%),part 65 ans et + (%),29.0,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2060,EU27_2020,HMIGR,migration haute (+33%),population 1er janvier,466394758,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2060,EU27_2020,HMIGR,migration haute (+33%),population 20-64 ans,245444766,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2060,EU27_2020,HMIGR,migration haute (+33%),ratio 65+/15-64 (%),50.4,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2060,EU27_2020,HMIGR,migration haute (+33%),ratio 65+/20-64 (%),55.0,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2060,EU27_2020,HMIGR,migration haute (+33%),solde migratoire annuel,1660243,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2060,EU27_2020,LFRT,fecondite basse,part 20-64 ans (%),52.7,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2060,EU27_2020,LFRT,fecondite basse,part 65 ans et + (%),32.1,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2060,EU27_2020,LFRT,fecondite basse,population 1er janvier,412366140,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2060,EU27_2020,LFRT,fecondite basse,population 20-64 ans,217479159,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2060,EU27_2020,LFRT,fecondite basse,ratio 65+/15-64 (%),56.4,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2060,EU27_2020,LFRT,fecondite basse,ratio 65+/20-64 (%),60.9,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2060,EU27_2020,LFRT,fecondite basse,solde migratoire annuel,1363428,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2060,EU27_2020,LMIGR,migration basse (-33%),part 20-64 ans (%),50.9,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2060,EU27_2020,LMIGR,migration basse (-33%),part 65 ans et + (%),31.2,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2060,EU27_2020,LMIGR,migration basse (-33%),population 1er janvier,414099061,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2060,EU27_2020,LMIGR,migration basse (-33%),population 20-64 ans,210760924,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2060,EU27_2020,LMIGR,migration basse (-33%),ratio 65+/15-64 (%),56.0,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2060,EU27_2020,LMIGR,migration basse (-33%),ratio 65+/20-64 (%),61.3,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2060,EU27_2020,LMIGR,migration basse (-33%),solde migratoire annuel,671845,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2060,EU27_2020,LMRT,mortalite basse,part 20-64 ans (%),51.1,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2060,EU27_2020,LMRT,mortalite basse,part 65 ans et + (%),31.1,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2060,EU27_2020,LMRT,mortalite basse,population 1er janvier,446706992,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2060,EU27_2020,LMRT,mortalite basse,population 20-64 ans,228092217,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2060,EU27_2020,LMRT,mortalite basse,ratio 65+/15-64 (%),55.6,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2060,EU27_2020,LMRT,mortalite basse,ratio 65+/20-64 (%),60.8,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2060,EU27_2020,LMRT,mortalite basse,solde migratoire annuel,1131292,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2060,EU27_2020,NMIGR,migration nulle,part 20-64 ans (%),49.6,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2060,EU27_2020,NMIGR,migration nulle,part 65 ans et + (%),33.1,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2060,EU27_2020,NMIGR,migration nulle,population 1er janvier,383831844,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2060,EU27_2020,NMIGR,migration nulle,population 20-64 ans,190376722,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2060,EU27_2020,NMIGR,migration nulle,ratio 65+/15-64 (%),61.1,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2060,EU27_2020,NMIGR,migration nulle,ratio 65+/20-64 (%),66.8,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2060,EU27_2020,NMIGR,migration nulle,solde migratoire annuel,0,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2060,FR,BSL,reference,part 20-64 ans (%),51.3,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2060,FR,BSL,reference,part 65 ans et + (%),28.2,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2060,FR,BSL,reference,population 1er janvier,70104683,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2060,FR,BSL,reference,population 20-64 ans,35985959,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2060,FR,BSL,reference,ratio 65+/15-64 (%),49.7,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2060,FR,BSL,reference,ratio 65+/20-64 (%),55.0,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2060,FR,BSL,reference,solde migratoire annuel,85168,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2060,FR,HMIGR,migration haute (+33%),part 20-64 ans (%),51.9,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2060,FR,HMIGR,migration haute (+33%),part 65 ans et + (%),27.3,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2060,FR,HMIGR,migration haute (+33%),population 1er janvier,73403020,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2060,FR,HMIGR,migration haute (+33%),population 20-64 ans,38093240,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2060,FR,HMIGR,migration haute (+33%),ratio 65+/15-64 (%),47.6,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2060,FR,HMIGR,migration haute (+33%),ratio 65+/20-64 (%),52.7,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2060,FR,HMIGR,migration haute (+33%),solde migratoire annuel,149369,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2060,FR,LFRT,fecondite basse,part 20-64 ans (%),52.4,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2060,FR,LFRT,fecondite basse,part 65 ans et + (%),30.5,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2060,FR,LFRT,fecondite basse,population 1er janvier,64906392,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2060,FR,LFRT,fecondite basse,population 20-64 ans,33991969,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2060,FR,LFRT,fecondite basse,ratio 65+/15-64 (%),53.4,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2060,FR,LFRT,fecondite basse,ratio 65+/20-64 (%),58.3,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2060,FR,LFRT,fecondite basse,solde migratoire annuel,118016,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2060,FR,LMIGR,migration basse (-33%),part 20-64 ans (%),50.7,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2060,FR,LMIGR,migration basse (-33%),part 65 ans et + (%),29.2,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2060,FR,LMIGR,migration basse (-33%),population 1er janvier,66883159,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2060,FR,LMIGR,migration basse (-33%),population 20-64 ans,33931678,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2060,FR,LMIGR,migration basse (-33%),ratio 65+/15-64 (%),52.0,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2060,FR,LMIGR,migration basse (-33%),ratio 65+/20-64 (%),57.5,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2060,FR,LMIGR,migration basse (-33%),solde migratoire annuel,23806,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2060,FR,LMRT,mortalite basse,part 20-64 ans (%),50.7,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2060,FR,LMRT,mortalite basse,part 65 ans et + (%),29.2,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2060,FR,LMRT,mortalite basse,population 1er janvier,71053622,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2060,FR,LMRT,mortalite basse,population 20-64 ans,36019744,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2060,FR,LMRT,mortalite basse,ratio 65+/15-64 (%),52.0,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2060,FR,LMRT,mortalite basse,ratio 65+/20-64 (%),57.5,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2060,FR,LMRT,mortalite basse,solde migratoire annuel,81478,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2060,FR,NMIGR,migration nulle,part 20-64 ans (%),51.3,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2060,FR,NMIGR,migration nulle,part 65 ans et + (%),28.6,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2060,FR,NMIGR,migration nulle,population 1er janvier,66148322,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2060,FR,NMIGR,migration nulle,population 20-64 ans,33916745,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2060,FR,NMIGR,migration nulle,ratio 65+/15-64 (%),50.5,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2060,FR,NMIGR,migration nulle,ratio 65+/20-64 (%),55.8,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2060,FR,NMIGR,migration nulle,solde migratoire annuel,0,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2065,EU27_2020,BSL,reference,part 20-64 ans (%),51.8,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2065,EU27_2020,BSL,reference,part 65 ans et + (%),30.2,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2065,EU27_2020,BSL,reference,population 1er janvier,435822969,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2065,EU27_2020,BSL,reference,population 20-64 ans,225702143,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2065,EU27_2020,BSL,reference,ratio 65+/15-64 (%),53.4,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2065,EU27_2020,BSL,reference,ratio 65+/20-64 (%),58.3,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2065,EU27_2020,BSL,reference,solde migratoire annuel,1194590,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2065,EU27_2020,HMIGR,migration haute (+33%),part 20-64 ans (%),52.6,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2065,EU27_2020,HMIGR,migration haute (+33%),part 65 ans et + (%),29.2,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2065,EU27_2020,HMIGR,migration haute (+33%),population 1er janvier,465663451,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2065,EU27_2020,HMIGR,migration haute (+33%),population 20-64 ans,244855260,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2065,EU27_2020,HMIGR,migration haute (+33%),ratio 65+/15-64 (%),50.8,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2065,EU27_2020,HMIGR,migration haute (+33%),ratio 65+/20-64 (%),55.5,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2065,EU27_2020,HMIGR,migration haute (+33%),solde migratoire annuel,1674866,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2065,EU27_2020,LFRT,fecondite basse,part 20-64 ans (%),52.6,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2065,EU27_2020,LFRT,fecondite basse,part 65 ans et + (%),32.7,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2065,EU27_2020,LFRT,fecondite basse,population 1er janvier,403471247,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2065,EU27_2020,LFRT,fecondite basse,population 20-64 ans,212100266,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2065,EU27_2020,LFRT,fecondite basse,ratio 65+/15-64 (%),57.7,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2065,EU27_2020,LFRT,fecondite basse,ratio 65+/20-64 (%),62.3,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2065,EU27_2020,LFRT,fecondite basse,solde migratoire annuel,1425510,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2065,EU27_2020,LMIGR,migration basse (-33%),part 20-64 ans (%),50.9,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2065,EU27_2020,LMIGR,migration basse (-33%),part 65 ans et + (%),31.4,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2065,EU27_2020,LMIGR,migration basse (-33%),population 1er janvier,406391054,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2065,EU27_2020,LMIGR,migration basse (-33%),population 20-64 ans,206819871,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2065,EU27_2020,LMIGR,migration basse (-33%),ratio 65+/15-64 (%),56.4,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2065,EU27_2020,LMIGR,migration basse (-33%),ratio 65+/20-64 (%),61.6,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2065,EU27_2020,LMIGR,migration basse (-33%),solde migratoire annuel,714154,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2065,EU27_2020,LMRT,mortalite basse,part 20-64 ans (%),50.9,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2065,EU27_2020,LMRT,mortalite basse,part 65 ans et + (%),31.4,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2065,EU27_2020,LMRT,mortalite basse,population 1er janvier,443464122,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2065,EU27_2020,LMRT,mortalite basse,population 20-64 ans,225746962,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2065,EU27_2020,LMRT,mortalite basse,ratio 65+/15-64 (%),56.5,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2065,EU27_2020,LMRT,mortalite basse,ratio 65+/20-64 (%),61.7,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2065,EU27_2020,LMRT,mortalite basse,solde migratoire annuel,1158207,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2065,EU27_2020,NMIGR,migration nulle,part 20-64 ans (%),49.5,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2065,EU27_2020,NMIGR,migration nulle,part 65 ans et + (%),33.5,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2065,EU27_2020,NMIGR,migration nulle,population 1er janvier,370901042,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2065,EU27_2020,NMIGR,migration nulle,population 20-64 ans,183592829,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2065,EU27_2020,NMIGR,migration nulle,ratio 65+/15-64 (%),61.8,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2065,EU27_2020,NMIGR,migration nulle,ratio 65+/20-64 (%),67.6,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2065,EU27_2020,NMIGR,migration nulle,solde migratoire annuel,0,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2065,FR,BSL,reference,part 20-64 ans (%),51.3,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2065,FR,BSL,reference,part 65 ans et + (%),28.6,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2065,FR,BSL,reference,population 1er janvier,69844912,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2065,FR,BSL,reference,population 20-64 ans,35857960,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2065,FR,BSL,reference,ratio 65+/15-64 (%),50.4,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2065,FR,BSL,reference,ratio 65+/20-64 (%),55.6,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2065,FR,BSL,reference,solde migratoire annuel,96811,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2065,FR,HMIGR,migration haute (+33%),part 20-64 ans (%),51.9,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2065,FR,HMIGR,migration haute (+33%),part 65 ans et + (%),27.6,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2065,FR,HMIGR,migration haute (+33%),population 1er janvier,73658603,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2065,FR,HMIGR,migration haute (+33%),population 20-64 ans,38253632,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2065,FR,HMIGR,migration haute (+33%),ratio 65+/15-64 (%),48.2,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2065,FR,HMIGR,migration haute (+33%),ratio 65+/20-64 (%),53.2,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2065,FR,HMIGR,migration haute (+33%),solde migratoire annuel,157762,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2065,FR,LFRT,fecondite basse,part 20-64 ans (%),52.2,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2065,FR,LFRT,fecondite basse,part 65 ans et + (%),31.4,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2065,FR,LFRT,fecondite basse,population 1er janvier,63731798,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2065,FR,LFRT,fecondite basse,population 20-64 ans,33288833,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2065,FR,LFRT,fecondite basse,ratio 65+/15-64 (%),55.2,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2065,FR,LFRT,fecondite basse,ratio 65+/20-64 (%),60.1,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2065,FR,LFRT,fecondite basse,solde migratoire annuel,135104,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2065,FR,LMIGR,migration basse (-33%),part 20-64 ans (%),50.7,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2065,FR,LMIGR,migration basse (-33%),part 65 ans et + (%),29.6,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2065,FR,LMIGR,migration basse (-33%),population 1er janvier,66115690,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2065,FR,LMIGR,migration basse (-33%),population 20-64 ans,33520495,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2065,FR,LMIGR,migration basse (-33%),ratio 65+/15-64 (%),52.9,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2065,FR,LMIGR,migration basse (-33%),ratio 65+/20-64 (%),58.3,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2065,FR,LMIGR,migration basse (-33%),solde migratoire annuel,35600,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2065,FR,LMRT,mortalite basse,part 20-64 ans (%),50.6,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2065,FR,LMRT,mortalite basse,part 65 ans et + (%),29.6,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2065,FR,LMRT,mortalite basse,population 1er janvier,70942235,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2065,FR,LMRT,mortalite basse,population 20-64 ans,35885313,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2065,FR,LMRT,mortalite basse,ratio 65+/15-64 (%),53.2,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2065,FR,LMRT,mortalite basse,ratio 65+/20-64 (%),58.6,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2065,FR,LMRT,mortalite basse,solde migratoire annuel,92568,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2065,FR,NMIGR,migration nulle,part 20-64 ans (%),51.6,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2065,FR,NMIGR,migration nulle,part 65 ans et + (%),28.7,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2065,FR,NMIGR,migration nulle,population 1er janvier,65294633,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2065,FR,NMIGR,migration nulle,population 20-64 ans,33721016,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2065,FR,NMIGR,migration nulle,ratio 65+/15-64 (%),50.4,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2065,FR,NMIGR,migration nulle,ratio 65+/20-64 (%),55.5,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2065,FR,NMIGR,migration nulle,solde migratoire annuel,0,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2070,EU27_2020,BSL,reference,part 20-64 ans (%),51.6,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2070,EU27_2020,BSL,reference,part 65 ans et + (%),30.5,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2070,EU27_2020,BSL,reference,population 1er janvier,432202794,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2070,EU27_2020,BSL,reference,population 20-64 ans,223159181,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2070,EU27_2020,BSL,reference,ratio 65+/15-64 (%),54.1,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2070,EU27_2020,BSL,reference,ratio 65+/20-64 (%),59.0,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2070,EU27_2020,BSL,reference,solde migratoire annuel,1211820,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2070,EU27_2020,HMIGR,migration haute (+33%),part 20-64 ans (%),52.3,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2070,EU27_2020,HMIGR,migration haute (+33%),part 65 ans et + (%),29.5,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2070,EU27_2020,HMIGR,migration haute (+33%),population 1er janvier,465512819,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2070,EU27_2020,HMIGR,migration haute (+33%),population 20-64 ans,243673653,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2070,EU27_2020,HMIGR,migration haute (+33%),ratio 65+/15-64 (%),51.7,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2070,EU27_2020,HMIGR,migration haute (+33%),ratio 65+/20-64 (%),56.4,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2070,EU27_2020,HMIGR,migration haute (+33%),solde migratoire annuel,1682034,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2070,EU27_2020,LFRT,fecondite basse,part 20-64 ans (%),52.2,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2070,EU27_2020,LFRT,fecondite basse,part 65 ans et + (%),33.5,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2070,EU27_2020,LFRT,fecondite basse,population 1er janvier,395233260,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2070,EU27_2020,LFRT,fecondite basse,population 20-64 ans,206374287,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2070,EU27_2020,LFRT,fecondite basse,ratio 65+/15-64 (%),59.5,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2070,EU27_2020,LFRT,fecondite basse,ratio 65+/20-64 (%),64.1,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2070,EU27_2020,LFRT,fecondite basse,solde migratoire annuel,1482830,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2070,EU27_2020,LMIGR,migration basse (-33%),part 20-64 ans (%),50.8,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2070,EU27_2020,LMIGR,migration basse (-33%),part 65 ans et + (%),31.5,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2070,EU27_2020,LMIGR,migration basse (-33%),population 1er janvier,399330991,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2070,EU27_2020,LMIGR,migration basse (-33%),population 20-64 ans,202926522,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2070,EU27_2020,LMIGR,migration basse (-33%),ratio 65+/15-64 (%),56.9,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2070,EU27_2020,LMIGR,migration basse (-33%),ratio 65+/20-64 (%),62.1,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2070,EU27_2020,LMIGR,migration basse (-33%),solde migratoire annuel,746681,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2070,EU27_2020,LMRT,mortalite basse,part 20-64 ans (%),50.6,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2070,EU27_2020,LMRT,mortalite basse,part 65 ans et + (%),31.8,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2070,EU27_2020,LMRT,mortalite basse,population 1er janvier,440712812,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2070,EU27_2020,LMRT,mortalite basse,population 20-64 ans,223105713,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2070,EU27_2020,LMRT,mortalite basse,ratio 65+/15-64 (%),57.7,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2070,EU27_2020,LMRT,mortalite basse,ratio 65+/20-64 (%),62.9,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2070,EU27_2020,LMRT,mortalite basse,solde migratoire annuel,1170910,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2070,EU27_2020,NMIGR,migration nulle,part 20-64 ans (%),49.4,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2070,EU27_2020,NMIGR,migration nulle,part 65 ans et + (%),33.7,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2070,EU27_2020,NMIGR,migration nulle,population 1er janvier,358380980,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2070,EU27_2020,NMIGR,migration nulle,population 20-64 ans,177085657,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2070,EU27_2020,NMIGR,migration nulle,ratio 65+/15-64 (%),62.5,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2070,EU27_2020,NMIGR,migration nulle,ratio 65+/20-64 (%),68.2,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2070,EU27_2020,NMIGR,migration nulle,solde migratoire annuel,0,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2070,FR,BSL,reference,part 20-64 ans (%),50.8,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2070,FR,BSL,reference,part 65 ans et + (%),29.3,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2070,FR,BSL,reference,population 1er janvier,69674928,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2070,FR,BSL,reference,population 20-64 ans,35387798,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2070,FR,BSL,reference,ratio 65+/15-64 (%),52.3,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2070,FR,BSL,reference,ratio 65+/20-64 (%),57.6,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2070,FR,BSL,reference,solde migratoire annuel,98516,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2070,FR,HMIGR,migration haute (+33%),part 20-64 ans (%),51.4,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2070,FR,HMIGR,migration haute (+33%),part 65 ans et + (%),28.3,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2070,FR,HMIGR,migration haute (+33%),population 1er janvier,74010868,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2070,FR,HMIGR,migration haute (+33%),population 20-64 ans,38025249,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2070,FR,HMIGR,migration haute (+33%),ratio 65+/15-64 (%),50.1,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2070,FR,HMIGR,migration haute (+33%),ratio 65+/20-64 (%),55.1,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2070,FR,HMIGR,migration haute (+33%),solde migratoire annuel,158870,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2070,FR,LFRT,fecondite basse,part 20-64 ans (%),51.5,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2070,FR,LFRT,fecondite basse,part 65 ans et + (%),32.7,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2070,FR,LFRT,fecondite basse,population 1er janvier,62657229,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2070,FR,LFRT,fecondite basse,population 20-64 ans,32245325,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2070,FR,LFRT,fecondite basse,ratio 65+/15-64 (%),58.5,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2070,FR,LFRT,fecondite basse,ratio 65+/20-64 (%),63.5,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2070,FR,LFRT,fecondite basse,solde migratoire annuel,144104,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2070,FR,LMIGR,migration basse (-33%),part 20-64 ans (%),50.1,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2070,FR,LMIGR,migration basse (-33%),part 65 ans et + (%),30.3,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2070,FR,LMIGR,migration basse (-33%),population 1er janvier,65424195,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2070,FR,LMIGR,migration basse (-33%),population 20-64 ans,32807439,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2070,FR,LMIGR,migration basse (-33%),ratio 65+/15-64 (%),54.9,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2070,FR,LMIGR,migration basse (-33%),ratio 65+/20-64 (%),60.4,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2070,FR,LMIGR,migration basse (-33%),solde migratoire annuel,37903,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2070,FR,LMRT,mortalite basse,part 20-64 ans (%),49.9,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2070,FR,LMRT,mortalite basse,part 65 ans et + (%),30.5,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2070,FR,LMRT,mortalite basse,population 1er janvier,70909474,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2070,FR,LMRT,mortalite basse,population 20-64 ans,35402329,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2070,FR,LMRT,mortalite basse,ratio 65+/15-64 (%),55.5,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2070,FR,LMRT,mortalite basse,ratio 65+/20-64 (%),61.1,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2070,FR,LMRT,mortalite basse,solde migratoire annuel,93685,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2070,FR,NMIGR,migration nulle,part 20-64 ans (%),51.2,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2070,FR,NMIGR,migration nulle,part 65 ans et + (%),29.3,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2070,FR,NMIGR,migration nulle,population 1er janvier,64512554,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2070,FR,NMIGR,migration nulle,population 20-64 ans,33019043,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2070,FR,NMIGR,migration nulle,ratio 65+/15-64 (%),52.2,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2070,FR,NMIGR,migration nulle,ratio 65+/20-64 (%),57.3,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2070,FR,NMIGR,migration nulle,solde migratoire annuel,0,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2075,EU27_2020,BSL,reference,part 20-64 ans (%),51.1,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2075,EU27_2020,BSL,reference,part 65 ans et + (%),31.0,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2075,EU27_2020,BSL,reference,population 1er janvier,429327905,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2075,EU27_2020,BSL,reference,population 20-64 ans,219495723,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2075,EU27_2020,BSL,reference,ratio 65+/15-64 (%),55.5,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2075,EU27_2020,BSL,reference,ratio 65+/20-64 (%),60.6,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2075,EU27_2020,BSL,reference,solde migratoire annuel,1234729,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2075,EU27_2020,HMIGR,migration haute (+33%),part 20-64 ans (%),51.8,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2075,EU27_2020,HMIGR,migration haute (+33%),part 65 ans et + (%),30.1,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2075,EU27_2020,HMIGR,migration haute (+33%),population 1er janvier,465986744,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2075,EU27_2020,HMIGR,migration haute (+33%),population 20-64 ans,241230519,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2075,EU27_2020,HMIGR,migration haute (+33%),ratio 65+/15-64 (%),53.3,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2075,EU27_2020,HMIGR,migration haute (+33%),ratio 65+/20-64 (%),58.1,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2075,EU27_2020,HMIGR,migration haute (+33%),solde migratoire annuel,1683136,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2075,EU27_2020,LFRT,fecondite basse,part 20-64 ans (%),51.3,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2075,EU27_2020,LFRT,fecondite basse,part 65 ans et + (%),34.5,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2075,EU27_2020,LFRT,fecondite basse,population 1er janvier,387898991,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2075,EU27_2020,LFRT,fecondite basse,population 20-64 ans,199123790,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2075,EU27_2020,LFRT,fecondite basse,ratio 65+/15-64 (%),62.6,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2075,EU27_2020,LFRT,fecondite basse,ratio 65+/20-64 (%),67.3,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2075,EU27_2020,LFRT,fecondite basse,solde migratoire annuel,1542052,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2075,EU27_2020,LMIGR,migration basse (-33%),part 20-64 ans (%),50.4,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2075,EU27_2020,LMIGR,migration basse (-33%),part 65 ans et + (%),32.0,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2075,EU27_2020,LMIGR,migration basse (-33%),population 1er janvier,393140284,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2075,EU27_2020,LMIGR,migration basse (-33%),population 20-64 ans,198053559,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2075,EU27_2020,LMIGR,migration basse (-33%),ratio 65+/15-64 (%),58.2,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2075,EU27_2020,LMIGR,migration basse (-33%),ratio 65+/20-64 (%),63.5,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2075,EU27_2020,LMIGR,migration basse (-33%),solde migratoire annuel,789158,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2075,EU27_2020,LMRT,mortalite basse,part 20-64 ans (%),50.0,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2075,EU27_2020,LMRT,mortalite basse,part 65 ans et + (%),32.5,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2075,EU27_2020,LMRT,mortalite basse,population 1er janvier,438370915,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2075,EU27_2020,LMRT,mortalite basse,population 20-64 ans,219304766,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2075,EU27_2020,LMRT,mortalite basse,ratio 65+/15-64 (%),59.5,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2075,EU27_2020,LMRT,mortalite basse,ratio 65+/20-64 (%),64.9,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2075,EU27_2020,LMRT,mortalite basse,solde migratoire annuel,1191420,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2075,EU27_2020,NMIGR,migration nulle,part 20-64 ans (%),48.9,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2075,EU27_2020,NMIGR,migration nulle,part 65 ans et + (%),34.2,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2075,EU27_2020,NMIGR,migration nulle,population 1er janvier,346453368,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2075,EU27_2020,NMIGR,migration nulle,population 20-64 ans,169376578,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2075,EU27_2020,NMIGR,migration nulle,ratio 65+/15-64 (%),64.2,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2075,EU27_2020,NMIGR,migration nulle,ratio 65+/20-64 (%),70.0,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2075,EU27_2020,NMIGR,migration nulle,solde migratoire annuel,0,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2075,FR,BSL,reference,part 20-64 ans (%),50.0,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2075,FR,BSL,reference,part 65 ans et + (%),30.1,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2075,FR,BSL,reference,population 1er janvier,69528454,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2075,FR,BSL,reference,population 20-64 ans,34790534,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2075,FR,BSL,reference,ratio 65+/15-64 (%),54.5,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2075,FR,BSL,reference,ratio 65+/20-64 (%),60.1,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2075,FR,BSL,reference,solde migratoire annuel,101408,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2075,FR,HMIGR,migration haute (+33%),part 20-64 ans (%),50.6,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2075,FR,HMIGR,migration haute (+33%),part 65 ans et + (%),29.1,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2075,FR,HMIGR,migration haute (+33%),population 1er janvier,74386611,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2075,FR,HMIGR,migration haute (+33%),population 20-64 ans,37652271,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2075,FR,HMIGR,migration haute (+33%),ratio 65+/15-64 (%),52.2,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2075,FR,HMIGR,migration haute (+33%),ratio 65+/20-64 (%),57.5,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2075,FR,HMIGR,migration haute (+33%),solde migratoire annuel,160338,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2075,FR,LFRT,fecondite basse,part 20-64 ans (%),50.3,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2075,FR,LFRT,fecondite basse,part 65 ans et + (%),34.1,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2075,FR,LFRT,fecondite basse,population 1er janvier,61651302,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2075,FR,LFRT,fecondite basse,population 20-64 ans,30987574,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2075,FR,LFRT,fecondite basse,ratio 65+/15-64 (%),62.6,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2075,FR,LFRT,fecondite basse,ratio 65+/20-64 (%),67.8,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2075,FR,LFRT,fecondite basse,solde migratoire annuel,153667,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2075,FR,LMIGR,migration basse (-33%),part 20-64 ans (%),49.4,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2075,FR,LMIGR,migration basse (-33%),part 65 ans et + (%),31.1,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2075,FR,LMIGR,migration basse (-33%),population 1er janvier,64755347,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2075,FR,LMIGR,migration basse (-33%),population 20-64 ans,31984563,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2075,FR,LMIGR,migration basse (-33%),ratio 65+/15-64 (%),57.2,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2075,FR,LMIGR,migration basse (-33%),ratio 65+/20-64 (%),63.0,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2075,FR,LMIGR,migration basse (-33%),solde migratoire annuel,42195,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2075,FR,LMRT,mortalite basse,part 20-64 ans (%),49.1,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2075,FR,LMRT,mortalite basse,part 65 ans et + (%),31.4,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2075,FR,LMRT,mortalite basse,population 1er janvier,70859051,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2075,FR,LMRT,mortalite basse,population 20-64 ans,34785755,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2075,FR,LMRT,mortalite basse,ratio 65+/15-64 (%),58.1,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2075,FR,LMRT,mortalite basse,ratio 65+/20-64 (%),64.0,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2075,FR,LMRT,mortalite basse,solde migratoire annuel,96164,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2075,FR,NMIGR,migration nulle,part 20-64 ans (%),50.2,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2075,FR,NMIGR,migration nulle,part 65 ans et + (%),30.3,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2075,FR,NMIGR,migration nulle,population 1er janvier,63764134,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2075,FR,NMIGR,migration nulle,population 20-64 ans,31996319,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2075,FR,NMIGR,migration nulle,ratio 65+/15-64 (%),55.1,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2075,FR,NMIGR,migration nulle,ratio 65+/20-64 (%),60.5,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2075,FR,NMIGR,migration nulle,solde migratoire annuel,0,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2080,EU27_2020,BSL,reference,part 20-64 ans (%),50.6,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2080,EU27_2020,BSL,reference,part 65 ans et + (%),31.5,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2080,EU27_2020,BSL,reference,population 1er janvier,426917266,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2080,EU27_2020,BSL,reference,population 20-64 ans,215969564,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2080,EU27_2020,BSL,reference,ratio 65+/15-64 (%),57.0,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2080,EU27_2020,BSL,reference,ratio 65+/20-64 (%),62.2,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2080,EU27_2020,BSL,reference,solde migratoire annuel,1220717,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2080,EU27_2020,HMIGR,migration haute (+33%),part 20-64 ans (%),51.2,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2080,EU27_2020,HMIGR,migration haute (+33%),part 65 ans et + (%),30.6,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2080,EU27_2020,HMIGR,migration haute (+33%),population 1er janvier,466723944,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2080,EU27_2020,HMIGR,migration haute (+33%),population 20-64 ans,238924722,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2080,EU27_2020,HMIGR,migration haute (+33%),ratio 65+/15-64 (%),54.8,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2080,EU27_2020,HMIGR,migration haute (+33%),ratio 65+/20-64 (%),59.8,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2080,EU27_2020,HMIGR,migration haute (+33%),solde migratoire annuel,1649404,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2080,EU27_2020,LFRT,fecondite basse,part 20-64 ans (%),50.2,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2080,EU27_2020,LFRT,fecondite basse,part 65 ans et + (%),35.6,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2080,EU27_2020,LFRT,fecondite basse,population 1er janvier,381107610,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2080,EU27_2020,LFRT,fecondite basse,population 20-64 ans,191367210,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2080,EU27_2020,LFRT,fecondite basse,ratio 65+/15-64 (%),66.0,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2080,EU27_2020,LFRT,fecondite basse,ratio 65+/20-64 (%),70.9,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2080,EU27_2020,LFRT,fecondite basse,solde migratoire annuel,1555502,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2080,EU27_2020,LMIGR,migration basse (-33%),part 20-64 ans (%),49.9,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2080,EU27_2020,LMIGR,migration basse (-33%),part 65 ans et + (%),32.4,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2080,EU27_2020,LMIGR,migration basse (-33%),population 1er janvier,387602917,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2080,EU27_2020,LMIGR,migration basse (-33%),population 20-64 ans,193305612,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2080,EU27_2020,LMIGR,migration basse (-33%),ratio 65+/15-64 (%),59.6,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2080,EU27_2020,LMIGR,migration basse (-33%),ratio 65+/20-64 (%),65.0,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2080,EU27_2020,LMIGR,migration basse (-33%),solde migratoire annuel,792134,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2080,EU27_2020,LMRT,mortalite basse,part 20-64 ans (%),49.5,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2080,EU27_2020,LMRT,mortalite basse,part 65 ans et + (%),33.0,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2080,EU27_2020,LMRT,mortalite basse,population 1er janvier,435984828,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2080,EU27_2020,LMRT,mortalite basse,population 20-64 ans,215614336,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2080,EU27_2020,LMRT,mortalite basse,ratio 65+/15-64 (%),61.2,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2080,EU27_2020,LMRT,mortalite basse,ratio 65+/20-64 (%),66.8,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2080,EU27_2020,LMRT,mortalite basse,solde migratoire annuel,1176773,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2080,EU27_2020,NMIGR,migration nulle,part 20-64 ans (%),48.2,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2080,EU27_2020,NMIGR,migration nulle,part 65 ans et + (%),34.8,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2080,EU27_2020,NMIGR,migration nulle,population 1er janvier,335082693,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2080,EU27_2020,NMIGR,migration nulle,population 20-64 ans,161609354,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2080,EU27_2020,NMIGR,migration nulle,ratio 65+/15-64 (%),66.2,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2080,EU27_2020,NMIGR,migration nulle,ratio 65+/20-64 (%),72.2,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2080,EU27_2020,NMIGR,migration nulle,solde migratoire annuel,0,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2080,FR,BSL,reference,part 20-64 ans (%),49.4,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2080,FR,BSL,reference,part 65 ans et + (%),30.8,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2080,FR,BSL,reference,population 1er janvier,69331696,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2080,FR,BSL,reference,population 20-64 ans,34222751,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2080,FR,BSL,reference,ratio 65+/15-64 (%),56.6,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2080,FR,BSL,reference,ratio 65+/20-64 (%),62.4,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2080,FR,BSL,reference,solde migratoire annuel,97127,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2080,FR,HMIGR,migration haute (+33%),part 20-64 ans (%),50.0,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2080,FR,HMIGR,migration haute (+33%),part 65 ans et + (%),29.9,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2080,FR,HMIGR,migration haute (+33%),population 1er janvier,74700736,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2080,FR,HMIGR,migration haute (+33%),population 20-64 ans,37315590,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2080,FR,HMIGR,migration haute (+33%),ratio 65+/15-64 (%),54.2,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2080,FR,HMIGR,migration haute (+33%),ratio 65+/20-64 (%),59.8,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2080,FR,HMIGR,migration haute (+33%),solde migratoire annuel,154565,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2080,FR,LFRT,fecondite basse,part 20-64 ans (%),48.9,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2080,FR,LFRT,fecondite basse,part 65 ans et + (%),35.5,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2080,FR,LFRT,fecondite basse,population 1er janvier,60627051,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2080,FR,LFRT,fecondite basse,population 20-64 ans,29618846,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2080,FR,LFRT,fecondite basse,ratio 65+/15-64 (%),67.1,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2080,FR,LFRT,fecondite basse,ratio 65+/20-64 (%),72.7,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2080,FR,LFRT,fecondite basse,solde migratoire annuel,154496,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2080,FR,LMIGR,migration basse (-33%),part 20-64 ans (%),48.7,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2080,FR,LMIGR,migration basse (-33%),part 65 ans et + (%),31.9,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2080,FR,LMIGR,migration basse (-33%),population 1er janvier,64046673,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2080,FR,LMIGR,migration basse (-33%),population 20-64 ans,31183857,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2080,FR,LMIGR,migration basse (-33%),ratio 65+/15-64 (%),59.4,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2080,FR,LMIGR,migration basse (-33%),ratio 65+/20-64 (%),65.5,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2080,FR,LMIGR,migration basse (-33%),solde migratoire annuel,39411,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2080,FR,LMRT,mortalite basse,part 20-64 ans (%),48.4,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2080,FR,LMRT,mortalite basse,part 65 ans et + (%),32.2,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2080,FR,LMRT,mortalite basse,population 1er janvier,70692906,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2080,FR,LMRT,mortalite basse,population 20-64 ans,34192848,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2080,FR,LMRT,mortalite basse,ratio 65+/15-64 (%),60.4,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2080,FR,LMRT,mortalite basse,ratio 65+/20-64 (%),66.7,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2080,FR,LMRT,mortalite basse,solde migratoire annuel,91648,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2080,FR,NMIGR,migration nulle,part 20-64 ans (%),49.2,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2080,FR,NMIGR,migration nulle,part 65 ans et + (%),31.4,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2080,FR,NMIGR,migration nulle,population 1er janvier,62980004,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2080,FR,NMIGR,migration nulle,population 20-64 ans,30981791,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2080,FR,NMIGR,migration nulle,ratio 65+/15-64 (%),57.9,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2080,FR,NMIGR,migration nulle,ratio 65+/20-64 (%),63.7,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2080,FR,NMIGR,migration nulle,solde migratoire annuel,0,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2085,EU27_2020,BSL,reference,part 20-64 ans (%),50.1,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2085,EU27_2020,BSL,reference,part 65 ans et + (%),31.9,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2085,EU27_2020,BSL,reference,population 1er janvier,424804434,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2085,EU27_2020,BSL,reference,population 20-64 ans,212999178,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2085,EU27_2020,BSL,reference,ratio 65+/15-64 (%),58.2,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2085,EU27_2020,BSL,reference,ratio 65+/20-64 (%),63.6,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2085,EU27_2020,BSL,reference,solde migratoire annuel,1195742,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2085,EU27_2020,HMIGR,migration haute (+33%),part 20-64 ans (%),50.7,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2085,EU27_2020,HMIGR,migration haute (+33%),part 65 ans et + (%),31.1,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2085,EU27_2020,HMIGR,migration haute (+33%),population 1er janvier,467530721,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2085,EU27_2020,HMIGR,migration haute (+33%),population 20-64 ans,237165927,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2085,EU27_2020,HMIGR,migration haute (+33%),ratio 65+/15-64 (%),56.1,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2085,EU27_2020,HMIGR,migration haute (+33%),ratio 65+/20-64 (%),61.3,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2085,EU27_2020,HMIGR,migration haute (+33%),solde migratoire annuel,1614393,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2085,EU27_2020,LFRT,fecondite basse,part 20-64 ans (%),49.1,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2085,EU27_2020,LFRT,fecondite basse,part 65 ans et + (%),36.7,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2085,EU27_2020,LFRT,fecondite basse,population 1er janvier,374566427,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2085,EU27_2020,LFRT,fecondite basse,population 20-64 ans,183762140,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2085,EU27_2020,LFRT,fecondite basse,ratio 65+/15-64 (%),69.4,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2085,EU27_2020,LFRT,fecondite basse,ratio 65+/20-64 (%),74.8,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2085,EU27_2020,LFRT,fecondite basse,solde migratoire annuel,1554404,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2085,EU27_2020,LMIGR,migration basse (-33%),part 20-64 ans (%),49.4,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2085,EU27_2020,LMIGR,migration basse (-33%),part 65 ans et + (%),32.8,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2085,EU27_2020,LMIGR,migration basse (-33%),population 1er janvier,382582513,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2085,EU27_2020,LMIGR,migration basse (-33%),population 20-64 ans,189111940,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2085,EU27_2020,LMIGR,migration basse (-33%),ratio 65+/15-64 (%),60.8,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2085,EU27_2020,LMIGR,migration basse (-33%),ratio 65+/20-64 (%),66.4,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2085,EU27_2020,LMIGR,migration basse (-33%),solde migratoire annuel,781713,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2085,EU27_2020,LMRT,mortalite basse,part 20-64 ans (%),49.0,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2085,EU27_2020,LMRT,mortalite basse,part 65 ans et + (%),33.5,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2085,EU27_2020,LMRT,mortalite basse,population 1er janvier,433617531,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2085,EU27_2020,LMRT,mortalite basse,population 20-64 ans,212473294,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2085,EU27_2020,LMRT,mortalite basse,ratio 65+/15-64 (%),62.5,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2085,EU27_2020,LMRT,mortalite basse,ratio 65+/20-64 (%),68.3,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2085,EU27_2020,LMRT,mortalite basse,solde migratoire annuel,1152649,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2085,EU27_2020,NMIGR,migration nulle,part 20-64 ans (%),47.6,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2085,EU27_2020,NMIGR,migration nulle,part 65 ans et + (%),35.3,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2085,EU27_2020,NMIGR,migration nulle,population 1er janvier,324248501,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2085,EU27_2020,NMIGR,migration nulle,population 20-64 ans,154454463,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2085,EU27_2020,NMIGR,migration nulle,ratio 65+/15-64 (%),67.9,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2085,EU27_2020,NMIGR,migration nulle,ratio 65+/20-64 (%),74.2,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2085,EU27_2020,NMIGR,migration nulle,solde migratoire annuel,0,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2085,FR,BSL,reference,part 20-64 ans (%),49.2,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2085,FR,BSL,reference,part 65 ans et + (%),31.1,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2085,FR,BSL,reference,population 1er janvier,69046355,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2085,FR,BSL,reference,population 20-64 ans,33986916,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2085,FR,BSL,reference,ratio 65+/15-64 (%),57.3,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2085,FR,BSL,reference,ratio 65+/20-64 (%),63.3,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2085,FR,BSL,reference,solde migratoire annuel,92605,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2085,FR,HMIGR,migration haute (+33%),part 20-64 ans (%),49.8,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2085,FR,HMIGR,migration haute (+33%),part 65 ans et + (%),30.2,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2085,FR,HMIGR,migration haute (+33%),population 1er janvier,74916799,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2085,FR,HMIGR,migration haute (+33%),population 20-64 ans,37323288,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2085,FR,HMIGR,migration haute (+33%),ratio 65+/15-64 (%),54.9,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2085,FR,HMIGR,migration haute (+33%),ratio 65+/20-64 (%),60.6,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2085,FR,HMIGR,migration haute (+33%),solde migratoire annuel,152892,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2085,FR,LFRT,fecondite basse,part 20-64 ans (%),47.9,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2085,FR,LFRT,fecondite basse,part 65 ans et + (%),36.6,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2085,FR,LFRT,fecondite basse,population 1er janvier,59510260,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2085,FR,LFRT,fecondite basse,population 20-64 ans,28494742,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2085,FR,LFRT,fecondite basse,ratio 65+/15-64 (%),70.2,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2085,FR,LFRT,fecondite basse,ratio 65+/20-64 (%),76.3,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2085,FR,LFRT,fecondite basse,solde migratoire annuel,154239,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2085,FR,LMIGR,migration basse (-33%),part 20-64 ans (%),48.5,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2085,FR,LMIGR,migration basse (-33%),part 65 ans et + (%),32.2,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2085,FR,LMIGR,migration basse (-33%),population 1er janvier,63265233,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2085,FR,LMIGR,migration basse (-33%),population 20-64 ans,30705661,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2085,FR,LMIGR,migration basse (-33%),ratio 65+/15-64 (%),60.1,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2085,FR,LMIGR,migration basse (-33%),ratio 65+/20-64 (%),66.4,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2085,FR,LMIGR,migration basse (-33%),solde migratoire annuel,36182,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2085,FR,LMRT,mortalite basse,part 20-64 ans (%),48.2,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2085,FR,LMRT,mortalite basse,part 65 ans et + (%),32.6,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2085,FR,LMRT,mortalite basse,population 1er janvier,70395140,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2085,FR,LMRT,mortalite basse,population 20-64 ans,33931603,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2085,FR,LMRT,mortalite basse,ratio 65+/15-64 (%),61.3,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2085,FR,LMRT,mortalite basse,ratio 65+/20-64 (%),67.6,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2085,FR,LMRT,mortalite basse,solde migratoire annuel,87010,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2085,FR,NMIGR,migration nulle,part 20-64 ans (%),48.9,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2085,FR,NMIGR,migration nulle,part 65 ans et + (%),31.8,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2085,FR,NMIGR,migration nulle,population 1er janvier,62145515,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2085,FR,NMIGR,migration nulle,population 20-64 ans,30370109,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2085,FR,NMIGR,migration nulle,ratio 65+/15-64 (%),59.1,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2085,FR,NMIGR,migration nulle,ratio 65+/20-64 (%),65.2,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2085,FR,NMIGR,migration nulle,solde migratoire annuel,0,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2090,EU27_2020,BSL,reference,part 20-64 ans (%),50.0,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2090,EU27_2020,BSL,reference,part 65 ans et + (%),32.1,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2090,EU27_2020,BSL,reference,population 1er janvier,422860898,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2090,EU27_2020,BSL,reference,population 20-64 ans,211268129,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2090,EU27_2020,BSL,reference,ratio 65+/15-64 (%),58.7,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2090,EU27_2020,BSL,reference,ratio 65+/20-64 (%),64.2,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2090,EU27_2020,BSL,reference,solde migratoire annuel,1193329,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2090,EU27_2020,HMIGR,migration haute (+33%),part 20-64 ans (%),50.5,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2090,EU27_2020,HMIGR,migration haute (+33%),part 65 ans et + (%),31.3,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2090,EU27_2020,HMIGR,migration haute (+33%),population 1er janvier,468290339,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2090,EU27_2020,HMIGR,migration haute (+33%),population 20-64 ans,236610331,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2090,EU27_2020,HMIGR,migration haute (+33%),ratio 65+/15-64 (%),56.7,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2090,EU27_2020,HMIGR,migration haute (+33%),ratio 65+/20-64 (%),62.0,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2090,EU27_2020,HMIGR,migration haute (+33%),solde migratoire annuel,1598085,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2090,EU27_2020,LFRT,fecondite basse,part 20-64 ans (%),48.6,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2090,EU27_2020,LFRT,fecondite basse,part 65 ans et + (%),37.2,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2090,EU27_2020,LFRT,fecondite basse,population 1er janvier,367915349,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2090,EU27_2020,LFRT,fecondite basse,population 20-64 ans,178725318,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2090,EU27_2020,LFRT,fecondite basse,ratio 65+/15-64 (%),70.9,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2090,EU27_2020,LFRT,fecondite basse,ratio 65+/20-64 (%),76.5,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2090,EU27_2020,LFRT,fecondite basse,solde migratoire annuel,1503192,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2090,EU27_2020,LMIGR,migration basse (-33%),part 20-64 ans (%),49.3,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2090,EU27_2020,LMIGR,migration basse (-33%),part 65 ans et + (%),33.0,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2090,EU27_2020,LMIGR,migration basse (-33%),population 1er janvier,377956492,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2090,EU27_2020,LMIGR,migration basse (-33%),population 20-64 ans,186203648,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2090,EU27_2020,LMIGR,migration basse (-33%),ratio 65+/15-64 (%),61.3,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2090,EU27_2020,LMIGR,migration basse (-33%),ratio 65+/20-64 (%),67.0,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2090,EU27_2020,LMIGR,migration basse (-33%),solde migratoire annuel,791296,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2090,EU27_2020,LMRT,mortalite basse,part 20-64 ans (%),48.8,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2090,EU27_2020,LMRT,mortalite basse,part 65 ans et + (%),33.7,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2090,EU27_2020,LMRT,mortalite basse,population 1er janvier,431284634,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2090,EU27_2020,LMRT,mortalite basse,population 20-64 ans,210583584,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2090,EU27_2020,LMRT,mortalite basse,ratio 65+/15-64 (%),63.1,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2090,EU27_2020,LMRT,mortalite basse,ratio 65+/20-64 (%),68.9,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2090,EU27_2020,LMRT,mortalite basse,solde migratoire annuel,1151897,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2090,EU27_2020,NMIGR,migration nulle,part 20-64 ans (%),47.4,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2090,EU27_2020,NMIGR,migration nulle,part 65 ans et + (%),35.5,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2090,EU27_2020,NMIGR,migration nulle,population 1er janvier,313984497,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2090,EU27_2020,NMIGR,migration nulle,population 20-64 ans,148923593,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2090,EU27_2020,NMIGR,migration nulle,ratio 65+/15-64 (%),68.5,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2090,EU27_2020,NMIGR,migration nulle,ratio 65+/20-64 (%),75.0,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2090,EU27_2020,NMIGR,migration nulle,solde migratoire annuel,0,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2090,FR,BSL,reference,part 20-64 ans (%),49.2,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2090,FR,BSL,reference,part 65 ans et + (%),31.4,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2090,FR,BSL,reference,population 1er janvier,68730260,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2090,FR,BSL,reference,population 20-64 ans,33837987,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2090,FR,BSL,reference,ratio 65+/15-64 (%),57.8,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2090,FR,BSL,reference,ratio 65+/20-64 (%),63.7,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2090,FR,BSL,reference,solde migratoire annuel,99122,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2090,FR,HMIGR,migration haute (+33%),part 20-64 ans (%),49.8,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2090,FR,HMIGR,migration haute (+33%),part 65 ans et + (%),30.5,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2090,FR,HMIGR,migration haute (+33%),population 1er janvier,75086101,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2090,FR,HMIGR,migration haute (+33%),population 20-64 ans,37415346,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2090,FR,HMIGR,migration haute (+33%),ratio 65+/15-64 (%),55.4,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2090,FR,HMIGR,migration haute (+33%),ratio 65+/20-64 (%),61.1,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2090,FR,HMIGR,migration haute (+33%),solde migratoire annuel,154826,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2090,FR,LFRT,fecondite basse,part 20-64 ans (%),47.5,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2090,FR,LFRT,fecondite basse,part 65 ans et + (%),37.1,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2090,FR,LFRT,fecondite basse,population 1er janvier,58305007,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2090,FR,LFRT,fecondite basse,population 20-64 ans,27699894,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2090,FR,LFRT,fecondite basse,ratio 65+/15-64 (%),71.8,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2090,FR,LFRT,fecondite basse,ratio 65+/20-64 (%),78.1,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2090,FR,LFRT,fecondite basse,solde migratoire annuel,151452,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2090,FR,LMIGR,migration basse (-33%),part 20-64 ans (%),48.5,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2090,FR,LMIGR,migration basse (-33%),part 65 ans et + (%),32.5,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2090,FR,LMIGR,migration basse (-33%),population 1er janvier,62470761,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2090,FR,LMIGR,migration basse (-33%),population 20-64 ans,30317304,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2090,FR,LMIGR,migration basse (-33%),ratio 65+/15-64 (%),60.6,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2090,FR,LMIGR,migration basse (-33%),ratio 65+/20-64 (%),66.9,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2090,FR,LMIGR,migration basse (-33%),solde migratoire annuel,43456,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2090,FR,LMRT,mortalite basse,part 20-64 ans (%),48.2,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2090,FR,LMRT,mortalite basse,part 65 ans et + (%),32.9,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2090,FR,LMRT,mortalite basse,population 1er janvier,70044061,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2090,FR,LMRT,mortalite basse,population 20-64 ans,33756965,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2090,FR,LMRT,mortalite basse,ratio 65+/15-64 (%),61.8,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2090,FR,LMRT,mortalite basse,ratio 65+/20-64 (%),68.2,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2090,FR,LMRT,mortalite basse,solde migratoire annuel,93611,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2090,FR,NMIGR,migration nulle,part 20-64 ans (%),48.8,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2090,FR,NMIGR,migration nulle,part 65 ans et + (%),32.2,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2090,FR,NMIGR,migration nulle,population 1er janvier,61285292,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2090,FR,NMIGR,migration nulle,population 20-64 ans,29921044,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2090,FR,NMIGR,migration nulle,ratio 65+/15-64 (%),59.8,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2090,FR,NMIGR,migration nulle,ratio 65+/20-64 (%),65.9,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2090,FR,NMIGR,migration nulle,solde migratoire annuel,0,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2095,EU27_2020,BSL,reference,part 20-64 ans (%),49.8,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2095,EU27_2020,BSL,reference,part 65 ans et + (%),32.3,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2095,EU27_2020,BSL,reference,population 1er janvier,421117527,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2095,EU27_2020,BSL,reference,population 20-64 ans,209904541,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2095,EU27_2020,BSL,reference,ratio 65+/15-64 (%),59.2,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2095,EU27_2020,BSL,reference,ratio 65+/20-64 (%),64.8,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2095,EU27_2020,BSL,reference,solde migratoire annuel,1192619,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2095,EU27_2020,HMIGR,migration haute (+33%),part 20-64 ans (%),50.4,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2095,EU27_2020,HMIGR,migration haute (+33%),part 65 ans et + (%),31.6,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2095,EU27_2020,HMIGR,migration haute (+33%),population 1er janvier,469035768,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2095,EU27_2020,HMIGR,migration haute (+33%),population 20-64 ans,236282230,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2095,EU27_2020,HMIGR,migration haute (+33%),ratio 65+/15-64 (%),57.3,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2095,EU27_2020,HMIGR,migration haute (+33%),ratio 65+/20-64 (%),62.7,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2095,EU27_2020,HMIGR,migration haute (+33%),solde migratoire annuel,1586800,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2095,EU27_2020,LFRT,fecondite basse,part 20-64 ans (%),48.8,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2095,EU27_2020,LFRT,fecondite basse,part 65 ans et + (%),37.1,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2095,EU27_2020,LFRT,fecondite basse,population 1er janvier,361135492,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2095,EU27_2020,LFRT,fecondite basse,population 20-64 ans,176101334,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2095,EU27_2020,LFRT,fecondite basse,ratio 65+/15-64 (%),70.4,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2095,EU27_2020,LFRT,fecondite basse,ratio 65+/20-64 (%),76.0,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2095,EU27_2020,LFRT,fecondite basse,solde migratoire annuel,1534031,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2095,EU27_2020,LMIGR,migration basse (-33%),part 20-64 ans (%),49.2,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2095,EU27_2020,LMIGR,migration basse (-33%),part 65 ans et + (%),33.2,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2095,EU27_2020,LMIGR,migration basse (-33%),population 1er janvier,373735756,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2095,EU27_2020,LMIGR,migration basse (-33%),population 20-64 ans,183800653,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2095,EU27_2020,LMIGR,migration basse (-33%),ratio 65+/15-64 (%),61.7,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2095,EU27_2020,LMIGR,migration basse (-33%),ratio 65+/20-64 (%),67.5,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2095,EU27_2020,LMIGR,migration basse (-33%),solde migratoire annuel,799995,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2095,EU27_2020,LMRT,mortalite basse,part 20-64 ans (%),48.7,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2095,EU27_2020,LMRT,mortalite basse,part 65 ans et + (%),33.8,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2095,EU27_2020,LMRT,mortalite basse,population 1er janvier,429128146,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2095,EU27_2020,LMRT,mortalite basse,population 20-64 ans,209070758,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2095,EU27_2020,LMRT,mortalite basse,ratio 65+/15-64 (%),63.5,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2095,EU27_2020,LMRT,mortalite basse,ratio 65+/20-64 (%),69.5,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2095,EU27_2020,LMRT,mortalite basse,solde migratoire annuel,1152687,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2095,EU27_2020,NMIGR,migration nulle,part 20-64 ans (%),47.3,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2095,EU27_2020,NMIGR,migration nulle,part 65 ans et + (%),35.7,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2095,EU27_2020,NMIGR,migration nulle,population 1er janvier,304270140,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2095,EU27_2020,NMIGR,migration nulle,population 20-64 ans,144066875,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2095,EU27_2020,NMIGR,migration nulle,ratio 65+/15-64 (%),68.9,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2095,EU27_2020,NMIGR,migration nulle,ratio 65+/20-64 (%),75.4,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2095,EU27_2020,NMIGR,migration nulle,solde migratoire annuel,0,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2095,FR,BSL,reference,part 20-64 ans (%),49.2,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2095,FR,BSL,reference,part 65 ans et + (%),31.6,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2095,FR,BSL,reference,population 1er janvier,68400588,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2095,FR,BSL,reference,population 20-64 ans,33644800,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2095,FR,BSL,reference,ratio 65+/15-64 (%),58.4,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2095,FR,BSL,reference,ratio 65+/20-64 (%),64.3,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2095,FR,BSL,reference,solde migratoire annuel,103427,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2095,FR,HMIGR,migration haute (+33%),part 20-64 ans (%),49.8,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2095,FR,HMIGR,migration haute (+33%),part 65 ans et + (%),30.8,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2095,FR,HMIGR,migration haute (+33%),population 1er janvier,75214778,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2095,FR,HMIGR,migration haute (+33%),population 20-64 ans,37432025,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2095,FR,HMIGR,migration haute (+33%),ratio 65+/15-64 (%),56.1,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2095,FR,HMIGR,migration haute (+33%),ratio 65+/20-64 (%),61.8,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2095,FR,HMIGR,migration haute (+33%),solde migratoire annuel,158065,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2095,FR,LFRT,fecondite basse,part 20-64 ans (%),47.8,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2095,FR,LFRT,fecondite basse,part 65 ans et + (%),37.1,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2095,FR,LFRT,fecondite basse,population 1er janvier,57018615,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2095,FR,LFRT,fecondite basse,population 20-64 ans,27256933,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2095,FR,LFRT,fecondite basse,ratio 65+/15-64 (%),71.3,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2095,FR,LFRT,fecondite basse,ratio 65+/20-64 (%),77.6,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2095,FR,LFRT,fecondite basse,solde migratoire annuel,161324,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2095,FR,LMIGR,migration basse (-33%),part 20-64 ans (%),48.5,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2095,FR,LMIGR,migration basse (-33%),part 65 ans et + (%),32.7,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2095,FR,LMIGR,migration basse (-33%),population 1er janvier,61681026,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2095,FR,LMIGR,migration basse (-33%),population 20-64 ans,29907882,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2095,FR,LMIGR,migration basse (-33%),ratio 65+/15-64 (%),61.3,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2095,FR,LMIGR,migration basse (-33%),ratio 65+/20-64 (%),67.5,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2095,FR,LMIGR,migration basse (-33%),solde migratoire annuel,48441,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2095,FR,LMRT,mortalite basse,part 20-64 ans (%),48.1,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2095,FR,LMRT,mortalite basse,part 65 ans et + (%),33.2,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2095,FR,LMRT,mortalite basse,population 1er janvier,69673905,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2095,FR,LMRT,mortalite basse,population 20-64 ans,33537372,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2095,FR,LMRT,mortalite basse,ratio 65+/15-64 (%),62.5,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2095,FR,LMRT,mortalite basse,ratio 65+/20-64 (%),68.9,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2095,FR,LMRT,mortalite basse,solde migratoire annuel,98016,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2095,FR,NMIGR,migration nulle,part 20-64 ans (%),48.8,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2095,FR,NMIGR,migration nulle,part 65 ans et + (%),32.5,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2095,FR,NMIGR,migration nulle,population 1er janvier,60381994,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2095,FR,NMIGR,migration nulle,population 20-64 ans,29458982,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2095,FR,NMIGR,migration nulle,ratio 65+/15-64 (%),60.6,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2095,FR,NMIGR,migration nulle,ratio 65+/20-64 (%),66.7,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2095,FR,NMIGR,migration nulle,solde migratoire annuel,0,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2100,EU27_2020,BSL,reference,part 20-64 ans (%),49.7,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2100,EU27_2020,BSL,reference,part 65 ans et + (%),32.5,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2100,EU27_2020,BSL,reference,population 1er janvier,419461737,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2100,EU27_2020,BSL,reference,population 20-64 ans,208636490,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2100,EU27_2020,BSL,reference,ratio 65+/15-64 (%),59.7,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2100,EU27_2020,BSL,reference,ratio 65+/20-64 (%),65.3,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2100,EU27_2020,BSL,reference,solde migratoire annuel,1199633,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2100,EU27_2020,HMIGR,migration haute (+33%),part 20-64 ans (%),50.2,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2100,EU27_2020,HMIGR,migration haute (+33%),part 65 ans et + (%),31.8,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2100,EU27_2020,HMIGR,migration haute (+33%),population 1er janvier,469694651,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2100,EU27_2020,HMIGR,migration haute (+33%),population 20-64 ans,235903208,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2100,EU27_2020,HMIGR,migration haute (+33%),ratio 65+/15-64 (%),57.9,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2100,EU27_2020,HMIGR,migration haute (+33%),ratio 65+/20-64 (%),63.3,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2100,EU27_2020,HMIGR,migration haute (+33%),solde migratoire annuel,1582190,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2100,EU27_2020,LFRT,fecondite basse,part 20-64 ans (%),48.9,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2100,EU27_2020,LFRT,fecondite basse,part 65 ans et + (%),37.0,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2100,EU27_2020,LFRT,fecondite basse,population 1er janvier,354447637,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2100,EU27_2020,LFRT,fecondite basse,population 20-64 ans,173468270,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2100,EU27_2020,LFRT,fecondite basse,ratio 65+/15-64 (%),70.1,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2100,EU27_2020,LFRT,fecondite basse,ratio 65+/20-64 (%),75.6,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2100,EU27_2020,LFRT,fecondite basse,solde migratoire annuel,1574555,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2100,EU27_2020,LMIGR,migration basse (-33%),part 20-64 ans (%),49.1,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2100,EU27_2020,LMIGR,migration basse (-33%),part 65 ans et + (%),33.3,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2100,EU27_2020,LMIGR,migration basse (-33%),population 1er janvier,369769501,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2100,EU27_2020,LMIGR,migration basse (-33%),population 20-64 ans,181638418,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2100,EU27_2020,LMIGR,migration basse (-33%),ratio 65+/15-64 (%),62.0,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2100,EU27_2020,LMIGR,migration basse (-33%),ratio 65+/20-64 (%),67.8,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2100,EU27_2020,LMIGR,migration basse (-33%),solde migratoire annuel,818319,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2100,EU27_2020,LMRT,mortalite basse,part 20-64 ans (%),48.6,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2100,EU27_2020,LMRT,mortalite basse,part 65 ans et + (%),34.0,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2100,EU27_2020,LMRT,mortalite basse,population 1er janvier,427078327,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2100,EU27_2020,LMRT,mortalite basse,population 20-64 ans,207662993,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2100,EU27_2020,LMRT,mortalite basse,ratio 65+/15-64 (%),64.0,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2100,EU27_2020,LMRT,mortalite basse,ratio 65+/20-64 (%),69.9,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2100,EU27_2020,LMRT,mortalite basse,solde migratoire annuel,1161611,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2100,EU27_2020,NMIGR,migration nulle,part 20-64 ans (%),47.3,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2100,EU27_2020,NMIGR,migration nulle,part 65 ans et + (%),35.8,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2100,EU27_2020,NMIGR,migration nulle,population 1er janvier,294909040,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2100,EU27_2020,NMIGR,migration nulle,population 20-64 ans,139492266,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2100,EU27_2020,NMIGR,migration nulle,ratio 65+/15-64 (%),69.3,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2100,EU27_2020,NMIGR,migration nulle,ratio 65+/20-64 (%),75.8,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2100,EU27_2020,NMIGR,migration nulle,solde migratoire annuel,0,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2100,FR,BSL,reference,part 20-64 ans (%),49.0,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2100,FR,BSL,reference,part 65 ans et + (%),31.9,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2100,FR,BSL,reference,population 1er janvier,68042806,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2100,FR,BSL,reference,population 20-64 ans,33356444,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2100,FR,BSL,reference,ratio 65+/15-64 (%),59.2,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2100,FR,BSL,reference,ratio 65+/20-64 (%),65.1,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2100,FR,BSL,reference,solde migratoire annuel,108239,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2100,FR,HMIGR,migration haute (+33%),part 20-64 ans (%),49.6,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2100,FR,HMIGR,migration haute (+33%),part 65 ans et + (%),31.1,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2100,FR,HMIGR,migration haute (+33%),population 1er janvier,75294635,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2100,FR,HMIGR,migration haute (+33%),population 20-64 ans,37326670,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2100,FR,HMIGR,migration haute (+33%),ratio 65+/15-64 (%),56.9,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2100,FR,HMIGR,migration haute (+33%),ratio 65+/20-64 (%),62.7,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2100,FR,HMIGR,migration haute (+33%),solde migratoire annuel,162058,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2100,FR,LFRT,fecondite basse,part 20-64 ans (%),48.0,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2100,FR,LFRT,fecondite basse,part 65 ans et + (%),37.1,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2100,FR,LFRT,fecondite basse,population 1er janvier,55708350,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2100,FR,LFRT,fecondite basse,population 20-64 ans,26729950,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2100,FR,LFRT,fecondite basse,ratio 65+/15-64 (%),71.2,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2100,FR,LFRT,fecondite basse,ratio 65+/20-64 (%),77.3,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2100,FR,LFRT,fecondite basse,solde migratoire annuel,172405,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2100,FR,LMIGR,migration basse (-33%),part 20-64 ans (%),48.3,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2100,FR,LMIGR,migration basse (-33%),part 65 ans et + (%),33.0,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2100,FR,LMIGR,migration basse (-33%),population 1er janvier,60882314,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2100,FR,LMIGR,migration basse (-33%),population 20-64 ans,29429391,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2100,FR,LMIGR,migration basse (-33%),ratio 65+/15-64 (%),62.0,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2100,FR,LMIGR,migration basse (-33%),ratio 65+/20-64 (%),68.3,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2100,FR,LMIGR,migration basse (-33%),solde migratoire annuel,54068,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2100,FR,LMRT,mortalite basse,part 20-64 ans (%),48.0,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2100,FR,LMRT,mortalite basse,part 65 ans et + (%),33.4,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2100,FR,LMRT,mortalite basse,population 1er janvier,69268769,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2100,FR,LMRT,mortalite basse,population 20-64 ans,33222122,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2100,FR,LMRT,mortalite basse,ratio 65+/15-64 (%),63.4,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2100,FR,LMRT,mortalite basse,ratio 65+/20-64 (%),69.7,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2100,FR,LMRT,mortalite basse,solde migratoire annuel,102939,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2100,FR,NMIGR,migration nulle,part 20-64 ans (%),48.6,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2100,FR,NMIGR,migration nulle,part 65 ans et + (%),32.9,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2100,FR,NMIGR,migration nulle,population 1er janvier,59390584,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2100,FR,NMIGR,migration nulle,population 20-64 ans,28868267,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23np/default/table
+2100,FR,NMIGR,migration nulle,ratio 65+/15-64 (%),61.5,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2100,FR,NMIGR,migration nulle,ratio 65+/20-64 (%),67.6,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table
+2100,FR,NMIGR,migration nulle,solde migratoire annuel,0,projection,https://ec.europa.eu/eurostat/databrowser/view/proj_23ndbi/default/table

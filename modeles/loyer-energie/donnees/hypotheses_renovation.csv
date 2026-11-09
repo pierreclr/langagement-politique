@@ -1,0 +1,6 @@
+parametre,bas,central,haut,statut
+cout_par_saut_de_classe_eur_m2,80,120,180,⚠️ V10207 (hypothèse calée sur 16 000 EUR par classe et 200-450 EUR/m² cités par des sites commerciaux)
+part_aidee,0.35,0.25,0,⚠️ V10208 (état de MaPrimeRenov en 2026 non vérifié)
+sortie_du_marche_parmi_les_non_renoves,0.05,0.15,0.25,⚠️ V10218 (hypothèse ; Diamond et al. : -15 % d'offre pour un encadrement classique)
+horizon_de_retour_accepte_ans,15,12,8,⚠️ V10218
+poids_du_besoin_dans_la_deduction,0.3,0.5,0.7,hypothèse de conception

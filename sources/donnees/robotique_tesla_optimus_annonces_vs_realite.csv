@@ -1,0 +1,8 @@
+# source: X (Elon Musk), appels résultats Tesla, presse (Electrek, heise, Not a Tesla App) ; unité: robots ; date consultation: 2026-10-25
+date,type,citation_ou_fait,volume_annonce,statut,source_url,note
+2024-07-23,annonce,"'genuinely useful humanoid robots in low production for Tesla internal use next year and, hopefully, high production for other companies in 2026'",,annonce,https://qz.com/tesla-optimus-robots-stock-increase-elon-musk-analyst-1851600995,post X
+2025-01-29,annonce,plan interne ~10 000 Optimus en 2025 ('plus probablement quelques milliers'),10000,annonce,https://electrek.co/2025/01/31/elon-musk-says-tesla-aims-to-build-10000-optimus-robots-this-year/,appel résultats T4 2024
+2026-01-28,fait,"Musk admet: nettement moins de 10 000 construits ; Optimus 'still in the R&D phase', 'a few simple tasks in the factory'",,mesure,https://heise.de/-11159358,nombre exact construit en 2025 non publié
+2026-01-28,annonce,production en série fin 2026 ; capacité cible 1 million/an ; fin Model S/X à Fremont,1000000,annonce,https://heise.de/-11159358,
+2026-10-21,fait,début de 'early production' sur ligne Fremont (équipements pour ~1 M/an),,annonce,https://www.notateslaapp.com/news/4867/tesla-q3-2026-earnings-call-recap-everything-you-need-to-know,appel T3 2026
+2026-10-21,annonce,au moins un an pour atteindre ~20 000 robots/semaine ; livraisons clients externes vers fin 2027,20000/semaine,annonce,https://www.notateslaapp.com/news/4867/tesla-q3-2026-earnings-call-recap-everything-you-need-to-know,l'objectif 'high production for other companies in 2026' (2024) glisse à fin 2027

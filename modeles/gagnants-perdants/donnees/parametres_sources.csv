@@ -1,0 +1,12 @@
+# source: paramètres réglementaires et chiffres repris (une source par ligne) ; consulté 2026-10-25
+indicateur,valeur,unite,annee,perimetre,source_url,remarque
+Allocation journalière : partie fixe,13.18,€,2025,"France, ARE (depuis le 1/7/2025)",https://api.fr.openfisca.org/latest/parameter/chomage.allocations_assurance_chomage.alloc_base.partie_fixe.apres_1992.partie_fixe,paramètre OpenFisca ; revalorisation du 1/7/2026 non vérifiée ⚠️
+"Allocation journalière : 57 % du SJR ou 40,4 % + partie fixe, plafond 75 %",0.57,part du SJR,2026,"France, ARE",https://api.fr.openfisca.org/latest/parameter/chomage.allocations_assurance_chomage.alloc_base_taux.pourcentage_sjr,paramètres OpenFisca ; dégressivité de 30 % au 7e mois pour les hauts salaires non modélisée ⚠️
+Intermittents : dépense moyenne par allocataire,13410,€ brut par an,2025,"France, annexes 8 et 10",https://www.unedic.org/publications/les-intermittents-du-spectacle-couverts-par-lassurance-chomage-en-2025,≈ 1 117 € par mois ; l'indemnisation représente 45 % des revenus totaux (salaires déduits : 13 410 × 55/45 ≈ 16 390 € ⚠️ mélange brut/net possible)
+Taux normal de l'impôt sur les sociétés,25,%,2026,France,https://www.legifrance.gouv.fr/codes/id/LEGITEXT000006069577,art. 219 du CGI ; utilisé pour la variante « IS reversé en dividendes »
+Abattement en ligne directe (succession),100000,€ par parent et par enfant,2026,France,https://www.legifrance.gouv.fr/codes/id/LEGITEXT000006069577,art. 779 du CGI ; barème de l'art. 777 (5 % à 45 %)
+Minimum vieillesse (ASPA) personne seule,1043.59,€ par mois,2026,France,sources/donnees/simu_4_prestations.csv,repris de sources/recherche-donnees-simulateur.md ; OpenFisca donne le même plafond
+Coût total employeur au Smic,1987.76,€ par mois,2026,salarié CDI temps plein,https://mon-entreprise.urssaf.fr/api/v1/evaluate,API Urssaf interrogée le 2026-10-25 (identique à T4)
+Part de l'AAH dans « prime d'activité et minima sociaux »,0.334,part,2024,France,sources/donnees/simu_4_prestations.csv,"calcul : AAH 13,84 / (RSA 12,36 + prime d'activité 10,65 + ASPA 4,59 + AAH 13,84) ; ASI et CEJ négligés"
+Retraités de droit direct,17.4,millions,2025,"France, résidents et non-résidents",https://www.cor-retraites.fr/sites/default/files/2026-07/RA_2026_def_0.pdf,"T13 : ≈ 0,9 M vivent à l'étranger, d'où 16,5 M résidents (hypothèse H13)"
+"Économie sur les pensions, socle 1 000 €, complément sur le brut",185.5,Md€ par an,2025,France,modeles/retraites/resultats.md,T13 ; 214 Md€ avec le complément calculé sur le net

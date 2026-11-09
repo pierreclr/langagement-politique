@@ -1,0 +1,30 @@
+# source: Jordà, Knoll, Kuvshinov, Schularick & Taylor, « The Rate of Return on Everything, 1870–2015 » (FRBSF WP 2017-25 ; QJE 2019) ; NBIM rapport annuel 2025 ; CPP Investments résultats exercice 2026 ; COR RA 2026 ; FRR via European Pensions ; AP7 via IPE ; consulté 2026-10-25
+indicateur,valeur,unite,annee,perimetre,source,source_url,remarque
+rendement_reel_actions_moyenne_arith,6.89,%/an,1870-2015,"16 pays avancés, équipondéré",JST Table 3,https://www.frbsf.org/wp-content/uploads/wp2017-25.pdf,"écart-type 21,94"
+rendement_reel_actions_moyenne_geom,4.64,%/an,1870-2015,idem,JST Table 3,https://www.frbsf.org/wp-content/uploads/wp2017-25.pdf,rendement composé
+rendement_reel_logement_moyenne_arith,7.05,%/an,1870-2015,idem,JST Table 3,https://www.frbsf.org/wp-content/uploads/wp2017-25.pdf,"écart-type 9,98"
+rendement_reel_logement_moyenne_geom,6.61,%/an,1870-2015,idem,JST Table 3,https://www.frbsf.org/wp-content/uploads/wp2017-25.pdf,"« le logement résidentiel, pas les actions, a été le meilleur placement de long terme »"
+rendement_reel_obligations_moyenne_arith,2.50,%/an,1870-2015,idem,JST Table 3,https://www.frbsf.org/wp-content/uploads/wp2017-25.pdf,"géométrique 1,94 ; écart-type 10,74"
+rendement_reel_bills_moyenne_arith,0.98,%/an,1870-2015,idem,JST Table 3,https://www.frbsf.org/wp-content/uploads/wp2017-25.pdf,"géométrique 0,78"
+rendement_reel_actions_post1950_arith,8.28,%/an,1950-2015,idem,JST Table 3,https://www.frbsf.org/wp-content/uploads/wp2017-25.pdf,"géométrique 5,54 ; logement 7,44 (géom. 7,10)"
+rendement_reel_obligations_post1950_arith,2.77,%/an,1950-2015,idem,JST Table 3,https://www.frbsf.org/wp-content/uploads/wp2017-25.pdf,"géométrique 2,30"
+rendement_reel_actions_France,3.25,%/an,1870-2015,France,JST Table 5,https://www.frbsf.org/wp-content/uploads/wp2017-25.pdf,"logement France : 6,54"
+rendement_reel_actions_France_post1950,6.38,%/an,1950-2015,France,JST Table 5,https://www.frbsf.org/wp-content/uploads/wp2017-25.pdf,"logement France : 10,38"
+rendement_reel_actions_France_post1980,11.07,%/an,1980-2015,France,JST Table 5,https://www.frbsf.org/wp-content/uploads/wp2017-25.pdf,"logement France : 6,39"
+rendement_reel_obligations_France,0.83,%/an,1870-2015,France,JST Table A.1,https://www.frbsf.org/wp-content/uploads/wp2017-25.pdf,"bills France : −0,47"
+NBIM_valeur_fonds,21268,Md NOK,2025,"Fonds de pension global de l'État norvégien, 31/12",NBIM rapport annuel 2025,https://www.nbim.no/en/news-and-insights/reports/2025/annual-report-2025/web-report-annual-report-2025/,"≈ 1 800 Md€ ⚠️ (conversion de Claude, ≈ 11,7 NOK/€)"
+NBIM_rendement_2025,15.1,%,2025,Panier de devises du fonds,NBIM rapport annuel 2025,https://www.nbim.no/en/news-and-insights/reports/2025/annual-report-2025/web-report-annual-report-2025/,
+NBIM_rendement_nominal_annualise,6.64,%/an,1998-2025,Panier de devises,NBIM rapport annuel 2025,https://www.nbim.no/en/news-and-insights/reports/2025/annual-report-2025/web-report-annual-report-2025/,
+NBIM_rendement_reel_net,4.3,%/an,1998-2025,Après inflation et frais (4.34 au tableau 5),NBIM rapport annuel 2025,https://www.nbim.no/en/news-and-insights/reports/2025/annual-report-2025/web-report-annual-report-2025/,"frais moyens 0,07 %/an ; inflation 2,13 %/an ; 5,49 % sur 15 ans, 3,99 % sur 5 ans ; vérifié le 03/11 (V6773)"
+NBIM_part_actions,71.3,%,2025,,NBIM rapport annuel 2025,https://www.nbim.no/en/news-and-insights/reports/2025/annual-report-2025/web-report-annual-report-2025/,
+NBIM_rendement_2022,-14.11,%,2022,,NBIM rapport annuel 2025 (tableaux),https://www.nbim.no/en/news-and-insights/reports/2025/annual-report-2025/web-report-annual-report-2025/,pire année parmi celles affichées
+NBIM_rendement_2008,-23.3,%,2008,Monnaie internationale,NBIM communiqué du 11/03/2009,https://www.nbim.no/en/news-and-insights/the-press/press-releases/2009/poor-results--changes-in-investment-strategy-implementation/,633 Md NOK ; vérifié le 03/11 (V6775)
+CPP_actifs_nets,793.3,Md CAD,2026,"CPP Investments, 31/03/2026",Communiqué CPP Investments 20/05/2026,https://www.newswire.ca/news-releases/cpp-investments-net-assets-total-793-3-billion-at-2026-fiscal-year-end-814459989.html,"714,4 un an plus tôt"
+CPP_rendement_exercice,7.8,%,2026,Net de frais,Communiqué CPP Investments,https://www.newswire.ca/news-releases/cpp-investments-net-assets-total-793-3-billion-at-2026-fiscal-year-end-814459989.html,"portefeuille de référence : 13,2 %"
+CPP_rendement_10_ans,8.8,%/an,2016-2026,Net de frais (nominal),Communiqué CPP Investments,https://www.newswire.ca/news-releases/cpp-investments-net-assets-total-793-3-billion-at-2026-fiscal-year-end-814459989.html,
+FRR_actif_net,20.7,Md€,2025,31/12,COR RA 2026 p. 99,https://www.cor-retraites.fr/sites/default/files/2026-07/RA_2026_def_0.pdf,
+FRR_rendement_2025,9.06,%,2025,,FRR communiqué du 20/03/2026,https://www.fondsdereserve.fr/wp-content/uploads/2026/03/Resultats-2025-du-FRR-4.pdf,"vérifié le 03/11 (V6776) ; aucune performance annualisée depuis 2004 publiée"
+FRR_rendement_annualise_depuis_2010,4.4,%/an,2010-2025,"Nominal, net de frais",FRR rapport annuel 2025 p. 4 et 6,https://www.fondsdereserve.fr/wp-content/uploads/2026/07/FRR-Rapport-Annuel-2025-PAGE.pdf,"depuis les versements à la Cades ; 304 points de base au-dessus du coût de la dette (V6776)"
+AP7_Safa_rendement_annuel_pondere_temps,7.4,%/an,2000-2022,"Fonds par défaut de la pension par capitalisation suédoise (nominal, SEK)",IPE,https://ipe.com/news/ap7-loses-95-in-2022-but-beats-average-premium-pension-fund/10065205.article,"fonds privés du système : 4,8 %/an ⚠️ ; rapport AP7 2025 : 8,4 %/an pondéré par le temps sur 2000-2025 (V6778)"
+Nikkei_record_1989,38915.87,points,1989,Clôture du 29/12/1989,Wikipédia / AP,https://en.wikipedia.org/wiki/Nikkei_225,
+Nikkei_retour_record,39098.68,points,2024,Clôture du 22/02/2024,Wikipédia / AP,https://en.wikipedia.org/wiki/Nikkei_225,"34 ans pour retrouver le niveau nominal ; plus bas 6 994,90 le 28/10/2008"

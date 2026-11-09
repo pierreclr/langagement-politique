@@ -1,0 +1,83 @@
+== 1. Trajectoires 10 % et 20 % des cotisations vers un fonds (montée en 10 ans dès 2027)
+s=10 % bas | pic 49.4 Md€ (1.35 % PIB) en 2042 | cumul max 1843 Md€ (62 % du PIB 2025) | D 2035/2045/2060/2075/2090 : 43/49/37/15/1 | 1re année D<0 : 2099 | fonds 2057 1632 (37 % PIB) 2087 3842 (61 %) | part des pensions servie par le fonds 2060 4.6 %, 2090 9.9 %
+   dette si tout est emprunté à 1.5 % : 2045 777 (20 % PIB), 2060 1709 (38 %), 2087 3180 (51 %) ; intérêts 2045 12, 2060 26 Md€/an ; net fonds-dette 2060 : i=1.5 % -> 141, i=2.5 % -> -155, i=3.5 % -> -514
+   cohorte 2060 : s effectif 6.9 %, rapport pension mixte/répartition 1.007 -> taux de remplacement 47.7 % (répartition seule 47.4 %)
+s=10 % central | pic 45.2 Md€ (1.40 % PIB) en 2038 | cumul max 1579 Md€ (53 % du PIB 2025) | D 2035/2045/2060/2075/2090 : 40/44/30/11/1 | 1re année D<0 : 2109 | fonds 2057 1833 (51 % PIB) 2087 6090 (140 %) | part des pensions servie par le fonds 2060 4.6 %, 2090 9.9 %
+   dette si tout est emprunté à 1.5 % : 2045 720 (21 % PIB), 2060 1528 (41 %), 2087 2766 (64 %) ; intérêts 2045 11, 2060 23 Md€/an ; net fonds-dette 2060 : i=1.5 % -> 603, i=2.5 % -> 331, i=3.5 % -> 0
+   cohorte 2060 : s effectif 7.2 %, rapport pension mixte/répartition 1.066 -> taux de remplacement 50.5 % (répartition seule 47.4 %)
+s=10 % haut | pic 43.7 Md€ (1.41 % PIB) en 2036 | cumul max 1464 Md€ (49 % du PIB 2025) | D 2035/2045/2060/2075/2090 : 39/41/27/10/1 | 1re année D<0 : 2098 | fonds 2057 1986 (60 % PIB) 2087 8101 (225 %) | part des pensions servie par le fonds 2060 4.6 %, 2090 9.9 %
+   dette si tout est emprunté à 1.5 % : 2045 693 (22 % PIB), 2060 1445 (43 %), 2087 2584 (72 %) ; intérêts 2045 10, 2060 22 Md€/an ; net fonds-dette 2060 : i=1.5 % -> 899, i=2.5 % -> 639, i=3.5 % -> 321
+   cohorte 2060 : s effectif 7.3 %, rapport pension mixte/répartition 1.116 -> taux de remplacement 52.9 % (répartition seule 47.4 %)
+s=20 % bas | pic 98.8 Md€ (2.69 % PIB) en 2042 | cumul max 3686 Md€ (123 % du PIB 2025) | D 2035/2045/2060/2075/2090 : 86/98/74/31/2 | 1re année D<0 : 2099 | fonds 2057 3264 (74 % PIB) 2087 7683 (122 %) | part des pensions servie par le fonds 2060 9.1 %, 2090 19.8 %
+   dette si tout est emprunté à 1.5 % : 2045 1553 (41 % PIB), 2060 3418 (75 %), 2087 6360 (101 %) ; intérêts 2045 23, 2060 51 Md€/an ; net fonds-dette 2060 : i=1.5 % -> 281, i=2.5 % -> -310, i=3.5 % -> -1028
+   cohorte 2060 : s effectif 13.8 %, rapport pension mixte/répartition 1.015 -> taux de remplacement 48.1 % (répartition seule 47.4 %)
+s=20 % central | pic 90.4 Md€ (2.79 % PIB) en 2038 | cumul max 3158 Md€ (105 % du PIB 2025) | D 2035/2045/2060/2075/2090 : 81/87/60/23/1 | 1re année D<0 : 2109 | fonds 2057 3667 (101 % PIB) 2087 12180 (281 %) | part des pensions servie par le fonds 2060 9.1 %, 2090 19.8 %
+   dette si tout est emprunté à 1.5 % : 2045 1440 (43 % PIB), 2060 3055 (83 %), 2087 5532 (128 %) ; intérêts 2045 22, 2060 46 Md€/an ; net fonds-dette 2060 : i=1.5 % -> 1205, i=2.5 % -> 662, i=3.5 % -> 0
+   cohorte 2060 : s effectif 14.3 %, rapport pension mixte/répartition 1.132 -> taux de remplacement 53.7 % (répartition seule 47.4 %)
+s=20 % haut | pic 87.4 Md€ (2.82 % PIB) en 2036 | cumul max 2928 Md€ (98 % du PIB 2025) | D 2035/2045/2060/2075/2090 : 79/82/54/20/1 | 1re année D<0 : 2098 | fonds 2057 3972 (121 % PIB) 2087 16202 (449 %) | part des pensions servie par le fonds 2060 9.1 %, 2090 19.8 %
+   dette si tout est emprunté à 1.5 % : 2045 1387 (44 % PIB), 2060 2890 (87 %), 2087 5168 (143 %) ; intérêts 2045 21, 2060 43 Md€/an ; net fonds-dette 2060 : i=1.5 % -> 1799, i=2.5 % -> 1277, i=3.5 % -> 642
+   cohorte 2060 : s effectif 14.6 %, rapport pension mixte/répartition 1.233 -> taux de remplacement 58.4 % (répartition seule 47.4 %)
+== 1b. Grille de rendement réel net r (s = 10 %, 20 % ; ρ = 0,6 %), cohorte 2060 et cohorte 2090
+r=0.83 % s=10 % | rapport 2060 0.996 (taux 47.2 %) | rapport 2090 0.996 | pic 45 | cumul max 1579
+r=0.83 % s=20 % | rapport 2060 0.993 (taux 47.0 %) | rapport 2090 0.992 | pic 90 | cumul max 3158
+r=1.50 % s=10 % | rapport 2060 1.009 (taux 47.8 %) | rapport 2090 1.019 | pic 45 | cumul max 1579
+r=1.50 % s=20 % | rapport 2060 1.019 (taux 48.3 %) | rapport 2090 1.038 | pic 90 | cumul max 3158
+r=2.00 % s=10 % | rapport 2060 1.021 (taux 48.4 %) | rapport 2090 1.040 | pic 45 | cumul max 1579
+r=2.00 % s=20 % | rapport 2060 1.042 (taux 49.4 %) | rapport 2090 1.081 | pic 90 | cumul max 3158
+r=3.50 % s=10 % | rapport 2060 1.066 (taux 50.5 %) | rapport 2090 1.131 | pic 45 | cumul max 1579
+r=3.50 % s=20 % | rapport 2060 1.132 (taux 53.7 %) | rapport 2090 1.261 | pic 90 | cumul max 3158
+r=4.34 % s=10 % | rapport 2060 1.101 (taux 52.2 %) | rapport 2090 1.206 | pic 45 | cumul max 1579
+r=4.34 % s=20 % | rapport 2060 1.201 (taux 56.9 %) | rapport 2090 1.412 | pic 90 | cumul max 3158
+r=5.50 % s=10 % | rapport 2060 1.163 (taux 55.1 %) | rapport 2090 1.355 | pic 45 | cumul max 1579
+r=5.50 % s=20 % | rapport 2060 1.326 (taux 62.8 %) | rapport 2090 1.710 | pic 90 | cumul max 3158
+== 1c. Stress (central, cohorte 2090 pour s effectif plein ; 2060 entre parenthèses)
+s=10 % v=2090 | central 1.131 | krach -30 % la veille 1.061 | -40 % 1.038 | 20 dernières années à 0 % 1.032 | r=0 toute la carrière 0.974 | sEff 10.0 %
+   Monte-Carlo (σ 12 %, 4000 tirages) p5/p50/p95 1.009 / 1.138 / 1.464 ; P(moins bien que répartition) 3.3 %
+s=10 % v=2060 | central 1.066 | krach -30 % la veille 1.025 | -40 % 1.011 | 20 dernières années à 0 % 1.013 | r=0 toute la carrière 0.983 | sEff 7.2 %
+   Monte-Carlo (σ 12 %, 4000 tirages) p5/p50/p95 1.002 / 1.069 / 1.216 ; P(moins bien que répartition) 4.5 %
+s=20 % v=2090 | central 1.261 | krach -30 % la veille 1.123 | -40 % 1.077 | 20 dernières années à 0 % 1.063 | r=0 toute la carrière 0.947 | sEff 20.0 %
+   Monte-Carlo (σ 12 %, 4000 tirages) p5/p50/p95 1.018 / 1.275 / 1.927 ; P(moins bien que répartition) 3.3 %
+s=20 % v=2060 | central 1.132 | krach -30 % la veille 1.050 | -40 % 1.022 | 20 dernières années à 0 % 1.027 | r=0 toute la carrière 0.966 | sEff 14.3 %
+   Monte-Carlo (σ 12 %, 4000 tirages) p5/p50/p95 1.003 / 1.139 / 1.432 ; P(moins bien que répartition) 4.5 %
+== 1d. Krach du fonds de -30 % en 2045 et en 2060 (s = 20 %, central)
+choc null | fonds 2060 4260 | 2070 6568 | 2087 12180 | perte en Md€ vs sans choc 2070 : 0
+choc 2045 | fonds 2060 3465 | 2070 5447 | 2087 10167 | perte en Md€ vs sans choc 2070 : 1121
+choc 2060 | fonds 2060 3000 | 2070 4791 | 2087 8990 | perte en Md€ vs sans choc 2070 : 1777
+== 2. Dette de transition : cumul des doubles charges positives (intérêts à 1,5 %) – voir dette max ci-dessus
+== 3. Démographie : cotisants par retraité X (COR : 2,1 en 2002, 1,8 en 2025, 1,3 en 2070 ; X0 = 1,41 en 2060)
+X=2.1 | répartition 70.6 % (cotisation pour tenir 18.7 %) | 10 % 72.1 % | 20 % 73.5 %
+X=1.8 | répartition 60.5 % (cotisation pour tenir 21.8 %) | 10 % 62.7 % | 20 % 64.9 %
+X=1.5 | répartition 50.4 % (cotisation pour tenir 26.1 %) | 10 % 53.3 % | 20 % 56.3 %
+X=1.41 | répartition 47.4 % (cotisation pour tenir 27.8 %) | 10 % 50.5 % | 20 % 53.7 %
+X=1.3 | répartition 43.7 % (cotisation pour tenir 30.2 %) | 10 % 47.1 % | 20 % 50.5 %
+X=1.1 | répartition 37.0 % (cotisation pour tenir 35.6 %) | 10 % 40.9 % | 20 % 44.7 %
+== 4. Mérite : part du fonds par dixième de niveau de vie (revenu disponible net, DINA 2023, proxy des contributions)
+plancher 0 % | 3.2 5.2 6.6 7.7 8.5 9.4 10.5 11.9 13.9 23.1 | D10/D1 = 7.2
+plancher 25 % | 4.9 6.4 7.5 8.2 8.8 9.5 10.4 11.4 13.0 19.8 | D10/D1 = 4.1
+plancher 50 % | 6.6 7.6 8.3 8.8 9.2 9.7 10.2 11.0 12.0 16.6 | D10/D1 = 2.5
+plancher 75 % | 8.3 8.8 9.2 9.4 9.6 9.8 10.1 10.5 11.0 13.3 | D10/D1 = 1.6
+plancher 100 % | 10.0 10.0 10.0 10.0 10.0 10.0 10.0 10.0 10.0 10.0 | D10/D1 = 1.0
+== 4b. Générations : points au fonds (part de masse cotisée détournée × années actives) et charge nette de double charge, par tête, s = 20 %, central
+né 1950 | années actives dans la période 0 | points 0.000 | charge nette 0.000 (unités de masse cotisée par tête-année)
+né 1960 | années actives dans la période 0 | points 0.000 | charge nette 0.000 (unités de masse cotisée par tête-année)
+né 1965 | années actives dans la période 0 | points 0.000 | charge nette 0.000 (unités de masse cotisée par tête-année)
+né 1970 | années actives dans la période 5 | points 0.300 | charge nette 0.299 (unités de masse cotisée par tête-année)
+né 1975 | années actives dans la période 10 | points 1.100 | charge nette 1.089 (unités de masse cotisée par tête-année)
+né 1980 | années actives dans la période 15 | points 2.100 | charge nette 2.046 (unités de masse cotisée par tête-année)
+né 1985 | années actives dans la période 20 | points 3.100 | charge nette 2.943 (unités de masse cotisée par tête-année)
+né 1990 | années actives dans la période 25 | points 4.100 | charge nette 3.751 (unités de masse cotisée par tête-année)
+né 1995 | années actives dans la période 30 | points 5.100 | charge nette 4.445 (unités de masse cotisée par tête-année)
+né 2000 | années actives dans la période 35 | points 6.100 | charge nette 5.015 (unités de masse cotisée par tête-année)
+né 2005 | années actives dans la période 40 | points 7.100 | charge nette 5.458 (unités de masse cotisée par tête-année)
+né 2010 | années actives dans la période 40 | points 7.800 | charge nette 5.479 (unités de masse cotisée par tête-année)
+== 5. Colosse : TRI d'un actif de calcul (capex 1, durée 6 ans, valeur résiduelle 0), selon EBITDA/capex e (année 1) et baisse annuelle des prix d'inférence delta
+e=18 % | delta 0 % : 2.2 % | delta 10 % : -5.1 % | delta 20 % : -12.6 % | delta 30 % : -20.2 % | bâtiment+énergie 20 ans à e/2 : 6.4 %
+e=25 % | delta 0 % : 13.0 % | delta 10 % : 5.2 % | delta 20 % : -2.7 % | delta 30 % : -10.9 % | bâtiment+énergie 20 ans à e/2 : 10.9 %
+e=33 % | delta 0 % : 23.9 % | delta 10 % : 15.7 % | delta 20 % : 7.3 % | delta 30 % : -1.2 % | bâtiment+énergie 20 ans à e/2 : 15.6 %
+e=45 % | delta 0 % : 38.7 % | delta 10 % : 30.1 % | delta 20 % : 21.3 % | delta 30 % : 12.4 % | bâtiment+énergie 20 ans à e/2 : 22.1 %
+== 5b. Capital pour dividende (N = 68,6 M) : 100 €/mois
+r=3 % -> 2744 Md€
+r=4 % -> 2058 Md€
+r=6 % -> 1372 Md€
+== 5c. Fonds de la trajectoire en % du PIB vs capital des colosses : 20 % -> fonds 2087 ; compartiment colosses 15 % du fonds 2087 :
+fonds 2087 12180 Md€ ; 15 % = 1827 Md€ ; à 12 % de rendement : 219 Md€/an ; à 2 % : 37

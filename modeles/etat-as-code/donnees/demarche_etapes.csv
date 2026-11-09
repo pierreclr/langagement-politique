@@ -1,0 +1,101 @@
+etat;demarche;ordre;organisme;role;contact_usager;source;statut;note
+actuel;D01;1;ORG-SIP;depot_instruction_decision;oui;"fiche F358 (SIP ; aide en France services et en mairie)";fait;
+propose;D01;1;ORG-PROX;guichet;facultatif;"scénario P1 (H4 : guichet universel de proximité ; H8 : données partagées)";hypothèse;guichet de proximité ouvert à toute demande
+propose;D01;2;ORG-PLAT;prelevement;non;document de travail de l'atelier, non publié (C(R) à la source);hypothèse;
+actuel;D02;1;ORG-CAF;depot_instruction_versement;oui;fiche F12006 (Caf ou MSA);fait;
+actuel;D02;2;ORG-PROPRIO;piece;oui;fiche F12006 (cerfa 10842 : attestation de loyer);fait;
+propose;D02;1;ORG-PROX;guichet;oui;"scénario P1 (H4 : guichet universel de proximité ; H8 : données partagées)";hypothèse;"guichet de proximité ouvert à toute demande ; une demande reste nécessaire (au guichet ou en ligne)"
+propose;D02;2;ORG-PLAT;versement;non;systeme-en-une-page.md § 1 (filet du ménage);hypothèse;déclaration de la composition du ménage une seule fois, au guichet ou en ligne
+actuel;D03;1;ORG-CAF;depot_instruction;oui;"fiche F19778 ; CASF L262-15";fait;
+actuel;D03;2;ORG-DEP;decision_orientation;oui;"CASF L262-13 ; fiche F19778 (« les services du département doivent vous orienter »)";fait;
+actuel;D03;3;ORG-FT;accompagnement;oui;"code du travail L5312-1 ; fiche F19778 (accompagnement professionnel)";fait;
+actuel;D03;4;ORG-CCAS;instruction;facultatif;"CASF L262-15 (instruction possible par le CCAS) ; fiche F19778 (mairie)";fait;
+propose;D03;1;ORG-PROX;guichet;oui;"scénario P1 (H4 : guichet universel de proximité ; H8 : données partagées)";hypothèse;"guichet de proximité ouvert à toute demande ; accompagnement social et vers l'emploi ; une demande reste nécessaire (au guichet ou en ligne)"
+propose;D03;2;ORG-PLAT;versement;non;systeme-en-une-page.md § 1;hypothèse;
+actuel;D04;1;ORG-CAF;depot_instruction_versement;oui;fiche F2882 (Caf ou MSA);fait;
+propose;D04;1;ORG-PROX;guichet;facultatif;"scénario P1 (H4 : guichet universel de proximité ; H8 : données partagées)";hypothèse;guichet de proximité ouvert à toute demande
+propose;D04;2;ORG-PLAT;versement;non;systeme-en-une-page.md § 1;hypothèse;
+actuel;D05;1;ORG-MEDECIN;piece;oui;fiche F12242 (certificat médical à joindre à toute demande);fait;
+actuel;D05;2;ORG-MDPH;depot_instruction_decision;oui;"fiches F12242, F14202, F1650 ; CASF L146-3, L241-6 (CDAPH)";fait;
+actuel;D05;3;ORG-CAF;versement;oui;"fiche F12242 (AAH versée par la Caf ou la MSA ; déclaration trimestrielle cerfa 14208)";fait;
+actuel;D05;4;ORG-DEP;versement;non;CASF L245-1 (PCH);fait;PCH versée par le département
+actuel;D05;5;ORG-FT;accompagnement;facultatif;fiche F1650 (RQTH : France Travail);fait;
+propose;D05;1;ORG-PROX;guichet;oui;"scénario P1 (H4 : guichet universel de proximité ; H8 : données partagées)";hypothèse;"guichet de proximité ouvert à toute demande ; dépôt du dossier et accompagnement ; une demande reste nécessaire (au guichet ou en ligne)"
+propose;D05;2;ORG-MEDECIN;piece;oui;idem actuel;hypothèse;
+propose;D05;3;ORG-AUTO;instruction_decision;non;H5;hypothèse;
+propose;D05;4;ORG-PLAT;versement;non;H5, H8;hypothèse;
+actuel;D06;1;ORG-DEP;depot_instruction_decision_versement;oui;"fiche F10009 (services du département ; équipe médico-sociale)";fait;
+actuel;D06;2;ORG-CCAS;information;facultatif;fiche F10009 (point d'information local, CASVP à Paris);fait;
+propose;D06;1;ORG-PROX;guichet;oui;"scénario P1 (H4 : guichet universel de proximité ; H8 : données partagées)";hypothèse;"guichet de proximité ouvert à toute demande ; dépôt et évaluation à domicile ; une demande reste nécessaire (au guichet ou en ligne)"
+propose;D06;2;ORG-AUTO;decision;non;H5;hypothèse;
+propose;D06;3;ORG-PLAT;versement;non;H8;hypothèse;
+actuel;D07;1;ORG-MAIRIE;inscription;oui;fiche F1865 (certificat d'inscription);fait;
+actuel;D07;2;ORG-ECOLE;admission;oui;fiche F1865 (admission par la direction d'école);fait;
+propose;D07;1;ORG-PROX;guichet;oui;"scénario P1 (H4 : guichet universel de proximité ; H8 : données partagées)";hypothèse;"guichet de proximité ouvert à toute demande ; inscription et admission en une fois ; une demande reste nécessaire (au guichet ou en ligne)"
+actuel;D08;1;ORG-ECOLE;depot;oui;fiche F984 (établissement scolaire ou téléservice);fait;
+actuel;D08;2;ORG-DSDEN;decision_versement;non;"fiche F984 ; code de l'éducation L531-1";fait;
+propose;D08;1;ORG-PROX;guichet;oui;"scénario P1 (H4 : guichet universel de proximité ; H8 : données partagées)";hypothèse;"guichet de proximité ouvert à toute demande ; une demande reste nécessaire (au guichet ou en ligne)"
+propose;D08;2;ORG-PLAT;versement;non;H8;hypothèse;à arbitrer : bourse gardée ou intégrée au montant par enfant
+actuel;D09;1;ORG-MAIRIE;information;oui;fiche F16217 (s'adresser à la mairie);fait;
+actuel;D09;2;ORG-EPCI;service;oui;CGCT L5214-16 I 5°, L5216-5 I 7° (collecte par l'intercommunalité);fait;ou la métropole, ou un syndicat selon le territoire
+actuel;D09;3;ORG-SYN;traitement;non;CGCT L2224-13;fait;
+actuel;D09;4;ORG-SIP;prelevement;non;fiche F22730 (TEOM avec la taxe foncière);fait;
+propose;D09;1;ORG-PROX;guichet;facultatif;"scénario P1 (H4 : guichet universel de proximité ; H8 : données partagées)";hypothèse;"guichet de proximité ouvert à toute demande ; collecte, traitement et facturation par la même collectivité"
+actuel;D10;1;ORG-MAIRIE;depot_decision;oui;"fiche F1986 ; code de l'urbanisme L422-1";fait;
+actuel;D10;2;ORG-EPCI;instruction;non;CRC ARA, déc. 2023 (service commun d'instruction);fait;"selon les communes ; DDT dans certaines"
+actuel;D10;3;ORG-PREF;controle_legalite;non;fiche F1986 (préfecture);fait;
+actuel;D10;4;ORG-CDIF;declaration_fiscale;oui;fiche F1986 (centre des impôts fonciers);fait;
+propose;D10;1;ORG-PROX;guichet;oui;"scénario P1 (H4 : guichet universel de proximité ; H8 : données partagées)";hypothèse;"guichet de proximité ouvert à toute demande ; dépôt, instruction et décision ; une demande reste nécessaire (au guichet ou en ligne)"
+propose;D10;2;ORG-PLAT;donnees_fiscales;non;H8;hypothèse;
+actuel;D11;1;ORG-ANTS;pre_demande;facultatif;fiche F1341;fait;
+actuel;D11;2;ORG-MAIRIE;recueil_remise;oui;"fiche F1341 (mairie équipée d'une station, pas forcément celle du domicile) ; CGCT L1611-2-1";fait;
+actuel;D11;3;ORG-PREF;instruction;non;fiche F1341;fait;
+propose;D11;1;ORG-PROX;guichet;oui;"scénario P1 (H4 : guichet universel de proximité ; H8 : données partagées)";hypothèse;"guichet de proximité ouvert à toute demande ; recueil et remise ; une demande reste nécessaire (au guichet ou en ligne)"
+propose;D11;2;ORG-ETAT;instruction;non;H8;hypothèse;
+actuel;D12;1;ORG-ANTS;depot_en_ligne;oui;fiche F1050;fait;
+actuel;D12;2;ORG-CT;piece;oui;fiche F1050 (preuve de contrôle technique);fait;
+actuel;D12;3;ORG-PROPRIO;piece;oui;fiche F1050 (code de cession, certificat barré);fait;
+propose;D12;1;ORG-PROX;guichet;facultatif;"scénario P1 (H4 : guichet universel de proximité ; H8 : données partagées)";hypothèse;guichet de proximité ouvert à toute demande
+propose;D12;2;ORG-PLAT;depot_en_ligne;oui;H8;hypothèse;
+propose;D12;3;ORG-PROPRIO;piece;oui;idem actuel;hypothèse;
+actuel;D13;1;ORG-MAIRIE;inscription;oui;fiche F1367 (en mairie ou en ligne);fait;
+propose;D13;1;ORG-PROX;guichet;facultatif;"scénario P1 (H4 : guichet universel de proximité ; H8 : données partagées)";hypothèse;guichet de proximité ouvert à toute demande
+propose;D13;2;ORG-PLAT;inscription_d_office;non;H8;hypothèse;
+actuel;D14;1;ORG-HOPITAL;declaration_pour_le_compte;facultatif;fiche F961 (la plupart des maternités déclarent en mairie);fait;
+actuel;D14;2;ORG-MAIRIE;declaration;oui;fiche F961;fait;
+actuel;D14;3;ORG-CPAM;rattachement;oui;fiche F961 (téléservice « Déclarer une naissance », Ameli);fait;
+actuel;D14;4;ORG-CAF;declaration_prestations;oui;fiche F961 (qui peut m'aider : Caf);fait;déclaration de la naissance à la Caf pour les prestations ⚠️ forme exacte non lue
+propose;D14;1;ORG-PROX;guichet;oui;"scénario P1 (H4 : guichet universel de proximité ; H8 : données partagées)";hypothèse;"guichet de proximité ouvert à toute demande ; déclaration à l'état civil, propagée aux caisses et à l'État-plateforme ; une demande reste nécessaire (au guichet ou en ligne)"
+actuel;D15;1;ORG-MEDECIN;piece;oui;fiche F909 (certificat de décès);fait;
+actuel;D15;2;ORG-MAIRIE;declaration;oui;fiche F909;fait;
+actuel;D15;3;ORG-POLICE;declaration;facultatif;fiche F909 (décès sur la voie publique);fait;
+propose;D15;1;ORG-PROX;guichet;oui;"scénario P1 (H4 : guichet universel de proximité ; H8 : données partagées)";hypothèse;"guichet de proximité ouvert à toute demande ; une demande reste nécessaire (au guichet ou en ligne)"
+propose;D15;2;ORG-MEDECIN;piece;oui;idem actuel;hypothèse;
+actuel;D16;1;ORG-FT;inscription;oui;fiche F1636;fait;
+propose;D16;1;ORG-PROX;guichet;facultatif;"scénario P1 (H4 : guichet universel de proximité ; H8 : données partagées)";hypothèse;"guichet de proximité ouvert à toute demande ; accompagnement vers l'emploi"
+propose;D16;2;ORG-PLAT;versement;non;"modele.js complementChomage ; H8";hypothèse;
+actuel;D17;1;ORG-UNIONRET;depot_unique;oui;fiche F13941 (demande unique en ligne transmise à tous les régimes);fait;
+actuel;D17;2;ORG-CNAV;instruction_versement;non;fiche F13941;fait;
+actuel;D17;3;ORG-AGIRC;instruction_versement;non;fiche F13941;fait;
+propose;D17;1;ORG-PROX;guichet;facultatif;"scénario P1 (H4 : guichet universel de proximité ; H8 : données partagées)";hypothèse;guichet de proximité ouvert à toute demande
+propose;D17;2;ORG-SECU;depot_instruction_versement;oui;régime unique (instances.csv);hypothèse;
+actuel;D18;1;ORG-BAILLEUR;enregistrement;oui;fiche F10007 (téléservice ou guichet enregistreur);fait;
+actuel;D18;2;ORG-BAILLEUR;decision;non;fiche F10007 (commission d'attribution);fait;
+propose;D18;1;ORG-PROX;guichet;oui;"scénario P1 (H4 : guichet universel de proximité ; H8 : données partagées)";hypothèse;"guichet de proximité ouvert à toute demande ; enregistrement et suivi ; une demande reste nécessaire (au guichet ou en ligne)"
+propose;D18;2;ORG-BAILLEUR;decision;non;idem actuel;hypothèse;
+actuel;D19;1;ORG-INPI;formalites;oui;fiche F36746 (guichet des formalités des entreprises);fait;
+actuel;D19;2;ORG-URSSAF;declarations_chiffre_affaires;oui;fiche F23257 (quand déclarer son chiffre d'affaires);fait;
+actuel;D19;3;ORG-SIP;impots_professionnels;oui;CFE et TVA du micro-entrepreneur : fiche non lue ⚠️ V19012;⚠️;
+actuel;D19;4;ORG-CHAMBRES;accompagnement;facultatif;fiche F36746;fait;
+propose;D19;1;ORG-PROX;guichet;facultatif;"scénario P1 (H4 : guichet universel de proximité ; H8 : données partagées)";hypothèse;guichet de proximité ouvert à toute demande
+propose;D19;2;ORG-PLAT;formalites_et_collecte;oui;systeme-en-une-page.md § 1 (collecte unique);hypothèse;
+actuel;D20;1;ORG-URSSAF;dpae_et_declarations;oui;"fiche F23107 ; code du travail L1221-10";fait;
+actuel;D20;2;ORG-AGIRC;adhesion;oui;fiche F23107 ⚠️ V19008;⚠️;
+actuel;D20;3;ORG-SPST;adhesion;oui;fiche F23107 ⚠️ V19008;⚠️;
+actuel;D20;4;ORG-ASSUREUR;contrat_obligatoire;oui;mutuelle d'entreprise obligatoire (systeme-en-une-page.md § 2);fait;
+propose;D20;1;ORG-PROX;guichet;facultatif;"scénario P1 (H4 : guichet universel de proximité ; H8 : données partagées)";hypothèse;guichet de proximité ouvert à toute demande
+propose;D20;2;ORG-PLAT;declaration_unique;oui;systeme-en-une-page.md § 1;hypothèse;
+propose;D20;3;ORG-SPST;adhesion;oui;non traité par le système;hypothèse;inchangé faute de décision
+actuel;D21;1;ORG-CAF;demande_versement;oui;fiche F13213 (formulaires 11423 et 10397);fait;
+propose;D21;1;ORG-PROX;guichet;facultatif;"scénario P1 (H4 : guichet universel de proximité ; H8 : données partagées)";hypothèse;guichet de proximité ouvert à toute demande
+propose;D21;2;ORG-PLAT;versement;non;systeme-en-une-page.md § 1 (200 € par enfant);hypothèse;

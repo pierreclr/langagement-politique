@@ -1,0 +1,58 @@
+## A. Options (taux plat 35 % fixé ; solde bas / central / haut en Md€ ; recette nette des correctifs au central ; taux plat exact de Δ central = 0 ; socle finançable en plus à taux constant = Δ solde / pente 430,5 M€ par €/mois)
+plafond retenu 75 % ; élasticités D6-D9 0 / 0.05 / 0.1, D10 0.15 / 0.31 / 0.45
+| A. Palier 1 sans correctif | marginal limite 65 %, maximum 65 % à 9870058302 € | -120 / -163 / -236 | 0 | 34,5 % | Δ vs A : +0 / +0 / +0 | socle en plus (€/mois, bas / central / haut) : +0 / +0 / +0 |
+| B. Holdings sans différé (impôt sur la quote-part exigible dans l'année) | marginal limite 65 %, maximum 65 % à 9870058302 € | -120 / -163 / -236 | 0 | 34,5 % | Δ vs A : +0 / +0 / +0 | socle en plus (€/mois, bas / central / haut) : +0 / +0 / +0 |
+| C. Reprise du socle entre 8 000 et 14 000 € de revenu mensuel | marginal limite 65 %, maximum 69 % à 166427 € | -110 / -158 / -236 | 4,9 | 34,1 % | Δ vs A : +10 / +5 / +0 | socle en plus (€/mois, bas / central / haut) : +22 / +11 / +0 |
+| D. Second coude : 8 % au-delà de 60 000 € par an et par adulte | marginal limite 73 %, maximum 73 % à 9870058302 € | -105 / -159 / -244 | 4,3 | 34,2 % | Δ vs A : +15 / +4 / −8 | socle en plus (€/mois, bas / central / haut) : +34 / +10 / −18 |
+| B2. Holdings passifs sans différé (preuve contraire ouverte ; 70 % de l'assiette, ⚠️ H133) | marginal limite 65 %, maximum 65 % à 9870058302 € | -120 / -163 / -236 | 0 | 34,5 % | Δ vs A : +0 / +0 / +0 | socle en plus (€/mois, bas / central / haut) : +0 / +0 / +0 |
+| E73 (RECOMMANDÉE depuis le 01/11/2026 : limite 73 %, maximum 73,0 % reprise comprise). B2 + reprise du socle entre 7 500 et 15 000 € + second coude 8 % au-delà de 60 000 € | marginal limite 73 %, maximum 73 % à 9870058302 € | -95 / -154 / -247 | 9,1 | 33,7 % | Δ vs A : +24 / +9 / −11 | socle en plus (€/mois, bas / central / haut) : +56 / +21 / −26 |
+| E (ancienne recommandation : limite 73 %, mais maximum 74,1 % dans la zone de reprise, qui commence à 8 000 €). B2 + C + D | marginal limite 73 %, maximum 74,1 % à 166427 € | -96 / -156 / -246 | 7,5 | 33,9 % | Δ vs A : +23 / +7 / −10 | socle en plus (€/mois, bas / central / haut) : +54 / +17 / −24 |
+| E75 (la plus dure admissible : maximum 75,0 %). B2 + C + second coude 9,36 % au-delà de 60 000 € | marginal limite 74,4 %, maximum 75 % à 166427 € | -94 / -156 / -248 | 7,4 | 33,9 % | Δ vs A : +25 / +7 / −13 | socle en plus (€/mois, bas / central / haut) : +59 / +17 / −29 |
+| E70 (variante : limite 70 %, maximum 72,2 %). B2 + C + second coude 5 % au-delà de 60 000 € | marginal limite 70 %, maximum 72,2 % à 166427 € | -101 / -156 / -241 | 7,1 | 33,9 % | Δ vs A : +18 / +7 / −5 | socle en plus (€/mois, bas / central / haut) : +43 / +17 / −13 |
+| F (ÉCARTÉE : limite 77 % > 75 %). B + C + second coude 12 % au-delà de 60 000 € | marginal limite 77 %, maximum 77 % à 9870058302 € | -91 / -157 / -254 | 6,7 | 33,9 % | Δ vs A : +29 / +7 / −18 | socle en plus (€/mois, bas / central / haut) : +68 / +16 / −41 |
+| G (plus légère : limite 71 %, maximum 72,1 %). B2 + C + second coude 6 % au-delà de 80 000 € | marginal limite 71 %, maximum 72,1 % à 166427 € | -103 / -158 / -243 | 5,4 | 34,1 % | Δ vs A : +17 / +5 / −7 | socle en plus (€/mois, bas / central / haut) : +39 / +12 / −17 |
+
+## B. Profils (€/mois ; écart de revenu disponible en espèces et en % du revenu avant ; central, taux plat 35 %)
+| Profil | avant | A | B | B2 | E73 | E | E70 | E75 | G | F |
+| Smic à 35 h | 1707 | +85 (+5 %) | +85 (+5 %) | +85 (+5 %) | +85 (+5 %) | +85 (+5 %) | +85 (+5 %) | +85 (+5 %) | +85 (+5 %) | +85 (+5 %) |
+| Salarié médian (2 116 € nets) | 2116 | +636 (+30 %) | +636 (+30 %) | +636 (+30 %) | +636 (+30 %) | +636 (+30 %) | +636 (+30 %) | +636 (+30 %) | +636 (+30 %) | +636 (+30 %) |
+| Cadre à 60 k€ brut (≈ 4 000 € nets) | 3383 | +968 (+29 %) | +968 (+29 %) | +968 (+29 %) | +940 (+28 %) | +940 (+28 %) | +950 (+28 %) | +935 (+28 %) | +967 (+29 %) | +926 (+27 %) |
+| Cadre à 8 000 € nets (coût employeur 14 712 €) | 6290 | +1156 (+18 %) | +1156 (+18 %) | +1156 (+18 %) | +330 (+5 %) | +311 (+5 %) | +440 (+7 %) | +252 (+4 %) | +490 (+8 %) | +138 (+2 %) |
+| Cadre à 15 000 € nets (coût employeur 27 584 €) | 10473 | +1856 (+18 %) | +1856 (+18 %) | +1856 (+18 %) | +233 (+2 %) | +233 (+2 %) | +654 (+6 %) | +42 (+0 %) | +669 (+6 %) | −329 (−3 %) |
+| Dirigeant avec holding (30 000 € brut + 300 000 € retenus par an) | 15221 | +2528 (+7 % du revenu économique) | −7194 (−21 % du revenu économique) | −4277 (−13 % du revenu économique) | −8724 (−26 % du revenu économique) | −8724 (−26 % du revenu économique) | −7244 (−21 % du revenu économique) | −9395 (−28 % du revenu économique) | −7492 (−22 % du revenu économique) | −13614 (−40 % du revenu économique) |
+
+revenu économique du dirigeant (espèces + bénéfices retenus après IS et impôt différé) : A 33971 → 26777 (−7194) ; B 33971 → 26777 (−7194) ; B2 33971 → 26777 (−7194) ; E73 33971 → 22330 (−11640) ; E 33971 → 22330 (−11640) ; E70 33971 → 23810 (−10160) ; E75 33971 → 21659 (−12311) ; G 33971 → 23562 (−10409) ; F 33971 → 20357 (−13614)
+taux marginal total maximal (reprise comprise) : A 65 % ; B 65 % ; B2 65 % ; E73 73 % ; E 74,1 % ; E70 72,2 % ; E75 75 % ; G 72,1 % ; F 77 %
+t2 maximal compatible avec le plafond, B2 + C fixés : 75 % 10 % ; 73 % 8 % ; 70 % 3,6 %
+E73 avec l'ancienne élasticité unique (0,12 / 0,25 / 0,40) : soldes bas / central / haut -97 / -156 / -250 ; Δ vs A +23 / +7 / −14
+part passive du dirigeant (H133) 0 / 50 / 70 / 100 % : espèces +2528 / −2333 / −4277 / −7194
+taux marginal total à 175 k€ (cadre 8 k) / 328 k€ (cadre 15 k) / 808 k€ (dirigeant) : A 60,9 % / 62,8 % / 64,1 % ; B 60,9 % / 62,8 % / 64,1 % ; B2 60,9 % / 62,8 % / 64,1 % ; E73 72,9 % / 69,4 % / 71,5 % ; E 66,2 % / 69,4 % / 71,5 % ; E70 64,2 % / 66,9 % / 68,7 % ; E75 67,1 % / 70,5 % / 72,8 % ; G 64,2 % / 67,4 % / 69,5 % ; F 68,8 % / 72,6 % / 75,2 %
+retraité à 3 500 € nets (palier 1, hautes pensions, inchangé par les correctifs) : 3096 → 2896 (−200)
+
+## C. Taux plat retenu et soldes à ce taux, option E73
+taux plat exact 33,7 %, retenu 34 % ; soldes bas / central / haut -110,6 / -166 / -253
+
+## D. Recette nette de E73 par bande (central, Md€/an) et par scénario
+bas : total 24,3 ; D6 0,1, D7 0,2, D8 0,9, D9 2,9, D10a 1,8, D10b 6,1, D10c 3,3, D10d (1 %) 5,1, D10e (0,1 %) 3,9
+central : total 9,1 ; D7 0,1, D8 0,1, D9 1,7, D10a -2,9, D10b 3,6, D10c 2,2, D10d (1 %) 2, D10e (0,1 %) 2,3
+haut : total -11,3 ; D8 0,1, D9 0,4, D10a -7,2, D10b -2,8, D10c 1,1, D10d (1 %) -2,3, D10e (0,1 %) -0,6
+
+## E. Équation à deux coudes : impôt et taux marginal par revenu annuel R par adulte (option E73 ; plat 35 % + continu 30 % R0 = 24 000 + second coude)
+| 24000 | impôt 8400 (35 %) | marginal 35 % |
+| 40000 | impôt 15122 (37,8 %) | marginal 47 % |
+| 60000 | impôt 25203 (42 %) | marginal 53 % |
+| 80000 | impôt 36351 (45,4 %) | marginal 58 % |
+| 120000 | impôt 60685 (50,6 %) | marginal 63 % |
+| 175200 | impôt 96440 (55 %) | marginal 66,2 % |
+| 300000 | impôt 181089 (60,4 %) | marginal 69 % |
+| 600000 | impôt 391772 (65,3 %) | marginal 71 % |
+| 1000000 | impôt 677642 (67,8 %) | marginal 71,8 % |
+
+## F. Frontière sous plafond (garde-fous : aucun des deux cadres ne perd, le cadre à 4 k perd au plus 60 € de plus, médian intact ; objectif : minimiser le plus grand des gains des cadres à 8 k et 15 k)
+gain du salarié médian (palier 1, taux plat 35 %) : +636 ; gains sans correctif (cadre 8 k / 15 k) : +1156 / +1856
+| plafond 70 % | R1 60000, zone 7000-18000, t2 5 % | maximum 70 % | cadre 4 k +945 | cadre 8 k +590 | cadre 15 k +655 | sous le médian : NON |
+| plafond 71 % | R1 60000, zone 7000-16000, t2 6 % | maximum 71 % | cadre 4 k +940 | cadre 8 k +469 | cadre 15 k +515 | sous le médian : oui |
+| plafond 72 % | R1 60000, zone 7000-15000, t2 7 % | maximum 72 % | cadre 4 k +936 | cadre 8 k +373 | cadre 15 k +375 | sous le médian : oui |
+| plafond 73 % | R1 60000, zone 7000-14000, t2 8 % | maximum 73 % | cadre 4 k +932 | cadre 8 k +311 | cadre 15 k +234 | sous le médian : oui |
+| plafond 74 % | R1 60000, zone 7000-14000, t2 9 % | maximum 74 % | cadre 4 k +928 | cadre 8 k +268 | cadre 15 k +94 | sous le médian : oui |
+| plafond 75 % | R1 60000, zone 8000-14000, t2 9,4 % | maximum 75 % | cadre 4 k +935 | cadre 8 k +252 | cadre 15 k +42 | sous le médian : oui |

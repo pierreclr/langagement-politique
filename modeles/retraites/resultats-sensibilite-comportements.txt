@@ -1,0 +1,28 @@
+== 0. Contrôle : reproduction du modèle actuel (défauts), 2040, [favorable ; central ; défavorable] ==
+reproduit : [28.5 ; -5.6 ; -26.5] ; attendu (resultats-age-reference.txt) : [28.5 ; -5.6 ; -26.5]
+ok  reproduction à 0,15 Md€ près
+
+== 1. Valeurs proposées, jointes (tous les paramètres au même rang), sans puis avec coût de substitution ==
+proposé sans substitution 2030 : total [-4.7 ; -19.9 ; -34.9] ; centre : âge de réf. 0 (subst. 0), âge libre -27.2, pénibilité -0.6, niveau 7.9
+proposé sans substitution 2040 : total [28.1 ; -4.1 ; -25.1] ; centre : âge de réf. 4.2 (subst. 0), âge libre -17.4, pénibilité -3.7, niveau 12.8
+proposé sans substitution 2060 : total [103.9 ; 24.7 ; -13.2] ; centre : âge de réf. 17.5 (subst. 0), âge libre -5.7, pénibilité -9.4, niveau 22.3
+proposé avec substitution  2030 : total [-4.7 ; -19.9 ; -34.9] ; centre : âge de réf. 0 (subst. 0), âge libre -27.2, pénibilité -0.6, niveau 7.9
+proposé avec substitution  2040 : total [26.8 ; -5 ; -25.3] ; centre : âge de réf. 4.2 (subst. -0.8), âge libre -17.4, pénibilité -3.7, niveau 12.8
+proposé avec substitution  2060 : total [98.2 ; 21.2 ; -14.2] ; centre : âge de réf. 17.5 (subst. -3.5), âge libre -5.7, pénibilité -9.4, niveau 22.3
+proposé, substitution symétrique (hypothèse) 2030 : total [-3.2 ; -14.5 ; -22.7] ; centre : âge de réf. 0 (subst. 0), âge libre -21.8, pénibilité -0.6, niveau 7.9
+proposé, substitution symétrique (hypothèse) 2040 : total [27.7 ; -1.5 ; -17.1] ; centre : âge de réf. 4.2 (subst. -0.8), âge libre -13.9, pénibilité -3.7, niveau 12.8
+proposé, substitution symétrique (hypothèse) 2060 : total [98.4 ; 22.3 ; -10.7] ; centre : âge de réf. 17.5 (subst. -3.5), âge libre -4.6, pénibilité -9.4, niveau 22.3
+
+== 2. Un paramètre à la fois : le central actuel (solde 2040 = -5.6), un seul paramètre déplacé aux bornes proposées ==
+passage : valeur centrale actuelle 0.8 -> bornes proposées 0.8 / 0.5 / 0.33 => solde 2040 [-5.6 ; -8.4 ; -10]
+contrepartie : valeur centrale actuelle 0.25 -> bornes proposées 0 / 0.25 / 0.5 => solde 2040 [-5.4 ; -5.6 ; -5.9]
+partEnEmploi : valeur centrale actuelle 0.65 -> bornes proposées 0.75 / 0.5 / 0.35 => solde 2040 [-5.2 ; -6.2 ; -6.8]
+subst : valeur centrale actuelle 0 -> bornes proposées 0.1 / 0.2 / 0.3 => solde 2040 [-6.4 ; -7.1 ; -7.9]
+passageLibre : valeur centrale actuelle 0.35 -> bornes proposées 0.2 / 0.35 / 0.5 => solde 2040 [2 ; -5.6 ; -13.2]
+partPenibilite : valeur centrale actuelle 0.2 -> bornes proposées 0.05 / 0.1 / 0.2 => solde 2040 [-0.1 ; -1.9 ; -5.6]
+partEmploiDeparts : valeur centrale actuelle 0.5 -> bornes proposées 0.4 / 0.45 / 0.55 => solde 2040 [-3.7 ; -4.7 ; -6.6]
+
+== 3. Tirage aléatoire (graine fixe) : paramètres tirés indépendamment dans [défavorable ; favorable] proposés (loi triangulaire de mode central) ==
+valeurs proposées, sans substitution : n=300 ; P5 -10.6 ; P25 -7.1 ; médiane -4.7 ; P75 -1.9 ; P95 1.1 ; part des tirages à solde > 0 : 12 %
+valeurs proposées, avec substitution : n=300 ; P5 -11.1 ; P25 -8.2 ; médiane -5.4 ; P75 -3.2 ; P95 -0.5 ; part des tirages à solde > 0 : 4 %
+valeurs ACTUELLES (rappel) : n=300 ; P5 -11.1 ; P25 -7.8 ; médiane -5.3 ; P75 -2.8 ; P95 0.8 ; part des tirages à solde > 0 : 7 %

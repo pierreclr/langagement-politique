@@ -1,0 +1,12 @@
+# source: voir colonne source ; consulté 2026-11-03. prix en euros courants hors taxes ; ⚠️ = non confirmé (registre V6090-V6129)
+cas,grandeur,valeur,unite,annee,source,source_url,remarque
+oz_prix_bas,prix_robot,21000,EUR,2017-2019,Techniques de l'ingénieur / Réussir (recherche web),https://www.techniques-ingenieur.fr/actualite/articles/naio-technologies-robotise-desherbage-41063/,"21 000 à 25 000 € ; ancien ⚠️ V6095 ; capacité environ 1 ha par jour"
+oz_prix_haut,prix_robot,25000,EUR,2017-2019,idem,idem,
+dino_prix_bas,prix_robot,75000,EUR,2017-2019,idem,idem,"75 000 à 100 000 € ; parcelles de plus de 10 ha ⚠️ V6095"
+dino_prix_haut,prix_robot,100000,EUR,2017-2019,idem,idem,
+naio_parc_monde,robots_en_service,300,robots,non daté,Naïo (recherche web),https://www.reussir.fr/robotique-agricole-naio-technologies-leve-32-millions-deuros-afin-daccelerer-sa-croissance,"« plus de 300 » ; date inconnue ⚠️ V6095"
+naio_redressement,evenement,2025-06-06,date,2025,Réussir (recherche web),https://www.reussir.fr/machinisme/naio-technologies-place-en-redressement-judiciaire,"redressement judiciaire ; reprise par une nouvelle société pour 170 000 €, 20 salariés sur 49 conservés ; une dépêche de juin 2026 évoque une liquidation et une reprise par des actionnaires : séquence à confirmer ⚠️ V6096"
+naio_objectif_ca,chiffre_affaires_cible,11,M EUR en 2030,2025,FreshPlaza,https://www.freshplaza.com/asia/article/9784595/naio-technologies-targets-sales-of-eur11-million-by-2030,objectif de l'entreprise (pas un fait)
+traite_part_elevages_2018,part_elevages_equipes,0.08,part,2018,Sorel 2019 cité par Idele (recherche web),https://hal.inrae.fr/hal-04123285v1/document,"plus de 8 % des élevages laitiers ; près d'une installation de traite sur deux robotisée ⚠️ V6097"
+small_fields_wheat_gain_rect,surcout_evite,15-29,EUR par tonne de blé,2023,Harper Adams (Hands Free Hectare),https://hau.repository.guildhe.ac.uk/id/eprint/17937/,"petites parcelles rectangulaires ; modélisation sur un seul projet"
+small_fields_wheat_gain_irreg,surcout_evite,24-46,EUR par tonne de blé,2023,idem,idem,"petites parcelles non rectangulaires"

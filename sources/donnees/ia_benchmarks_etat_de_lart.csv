@@ -1,0 +1,176 @@
+# source: Epoch AI Benchmarking Hub, https://epoch.ai/benchmarks ; archive https://epoch.ai/data/benchmark_data.zip (CC-BY) ; consulte 2026-10-25
+# contenu: record glissant (etat de l art) par benchmark selon la date de sortie du modele ; score en fraction 0-1 ; les resultats '_external' sont rapportes par des tiers et non reproduits par Epoch
+# attention: benchmarks satures (score proche de 1) ne mesurent plus le progres ; risque de contamination ; config de raisonnement maximale (souvent couteuse)
+benchmark,description,date_sortie_modele,modele,organisation,score_0_1,statut,source_url
+SWE-bench Verified,resolution de vraies issues GitHub Python (500 taches verifiees),2024-11-20,gpt-4o-2024-11-20,OpenAI,0.31,mesure,https://epoch.ai/benchmarks/swe-bench-verified
+SWE-bench Verified,resolution de vraies issues GitHub Python (500 taches verifiees),2025-02-24,claude-3-7-sonnet-20250219,Anthropic,0.61,mesure,https://epoch.ai/benchmarks/swe-bench-verified
+SWE-bench Verified,resolution de vraies issues GitHub Python (500 taches verifiees),2025-04-16,o3-2025-04-16_medium,OpenAI,0.623,mesure,https://epoch.ai/benchmarks/swe-bench-verified
+SWE-bench Verified,resolution de vraies issues GitHub Python (500 taches verifiees),2025-05-22,claude-opus-4-20250514,Anthropic,0.707,mesure,https://epoch.ai/benchmarks/swe-bench-verified
+SWE-bench Verified,resolution de vraies issues GitHub Python (500 taches verifiees),2025-08-05,claude-opus-4-1-20250805,Anthropic,0.733,mesure,https://epoch.ai/benchmarks/swe-bench-verified
+SWE-bench Verified,resolution de vraies issues GitHub Python (500 taches verifiees),2025-08-07,gpt-5-2025-08-07_high,OpenAI,0.736,mesure,https://epoch.ai/benchmarks/swe-bench-verified
+SWE-bench Verified,resolution de vraies issues GitHub Python (500 taches verifiees),2025-11-24,claude-opus-4-5-20251101,Anthropic,0.767,mesure,https://epoch.ai/benchmarks/swe-bench-verified
+SWE-bench Verified,resolution de vraies issues GitHub Python (500 taches verifiees),2026-02-05,claude-opus-4-6,Anthropic,0.787,mesure,https://epoch.ai/benchmarks/swe-bench-verified
+SWE-bench Verified,resolution de vraies issues GitHub Python (500 taches verifiees),2026-04-16,claude-opus-4-7_max,Anthropic,0.835,mesure,https://epoch.ai/benchmarks/swe-bench-verified
+FrontierMath niveaux 1-3,problemes de maths inedits niveau recherche (Epoch AI),2024-01-25,gpt-3.5-turbo-0125,OpenAI,0.0,mesure,https://epoch.ai/frontiermath
+FrontierMath niveaux 1-3,problemes de maths inedits niveau recherche (Epoch AI),2024-04-09,gpt-4-turbo-2024-04-09,OpenAI,0.007,mesure,https://epoch.ai/frontiermath
+FrontierMath niveaux 1-3,problemes de maths inedits niveau recherche (Epoch AI),2024-12-17,o1-2024-12-17_low,OpenAI,0.084,mesure,https://epoch.ai/frontiermath
+FrontierMath niveaux 1-3,problemes de maths inedits niveau recherche (Epoch AI),2024-12-17,o1-2024-12-17_medium,OpenAI,0.102,mesure,https://epoch.ai/frontiermath
+FrontierMath niveaux 1-3,problemes de maths inedits niveau recherche (Epoch AI),2024-12-17,o1-2024-12-17_high,OpenAI,0.147,mesure,https://epoch.ai/frontiermath
+FrontierMath niveaux 1-3,problemes de maths inedits niveau recherche (Epoch AI),2025-01-31,o3-mini-2025-01-31_high,OpenAI,0.186,mesure,https://epoch.ai/frontiermath
+FrontierMath niveaux 1-3,problemes de maths inedits niveau recherche (Epoch AI),2025-04-16,o3-2025-04-16_low,OpenAI,0.193,mesure,https://epoch.ai/frontiermath
+FrontierMath niveaux 1-3,problemes de maths inedits niveau recherche (Epoch AI),2025-04-16,o4-mini-2025-04-16_medium,OpenAI,0.288,mesure,https://epoch.ai/frontiermath
+FrontierMath niveaux 1-3,problemes de maths inedits niveau recherche (Epoch AI),2025-04-16,o3-2025-04-16_medium,OpenAI,0.298,mesure,https://epoch.ai/frontiermath
+FrontierMath niveaux 1-3,problemes de maths inedits niveau recherche (Epoch AI),2025-04-16,o3-2025-04-16_high,OpenAI,0.333,mesure,https://epoch.ai/frontiermath
+FrontierMath niveaux 1-3,problemes de maths inedits niveau recherche (Epoch AI),2025-04-16,o4-mini-2025-04-16_high,OpenAI,0.361,mesure,https://epoch.ai/frontiermath
+FrontierMath niveaux 1-3,problemes de maths inedits niveau recherche (Epoch AI),2025-08-07,gpt-5-2025-08-07_low,OpenAI,0.372,mesure,https://epoch.ai/frontiermath
+FrontierMath niveaux 1-3,problemes de maths inedits niveau recherche (Epoch AI),2025-08-07,gpt-5-mini-2025-08-07_high,OpenAI,0.467,mesure,https://epoch.ai/frontiermath
+FrontierMath niveaux 1-3,problemes de maths inedits niveau recherche (Epoch AI),2025-08-07,gpt-5-2025-08-07_high,OpenAI,0.554,mesure,https://epoch.ai/frontiermath
+FrontierMath niveaux 1-3,problemes de maths inedits niveau recherche (Epoch AI),2025-10-07,gpt-5-pro-2025-10-06_high,OpenAI,0.558,mesure,https://epoch.ai/frontiermath
+FrontierMath niveaux 1-3,problemes de maths inedits niveau recherche (Epoch AI),2025-12-11,gpt-5.2-2025-12-11_xhigh,OpenAI,0.674,mesure,https://epoch.ai/frontiermath
+FrontierMath niveaux 1-3,problemes de maths inedits niveau recherche (Epoch AI),2025-12-11,gpt-5.2-pro-2025-12-11_xhigh,OpenAI,0.74,mesure,https://epoch.ai/frontiermath
+FrontierMath niveaux 1-3,problemes de maths inedits niveau recherche (Epoch AI),2026-03-05,gpt-5.4-2026-03-05_xhigh,OpenAI,0.786,mesure,https://epoch.ai/frontiermath
+FrontierMath niveaux 1-3,problemes de maths inedits niveau recherche (Epoch AI),2026-03-05,gpt-5.4-pro-2026-03-05_xhigh,OpenAI,0.825,mesure,https://epoch.ai/frontiermath
+FrontierMath niveaux 1-3,problemes de maths inedits niveau recherche (Epoch AI),2026-04-23,gpt-5.5_xhigh,OpenAI,0.853,mesure,https://epoch.ai/frontiermath
+FrontierMath niveaux 1-3,problemes de maths inedits niveau recherche (Epoch AI),2026-04-23,gpt-5.5-pro_xhigh,OpenAI,0.877,mesure,https://epoch.ai/frontiermath
+FrontierMath niveaux 1-3,problemes de maths inedits niveau recherche (Epoch AI),2026-07-09,gpt-5.6-sol_max,OpenAI,0.891,mesure,https://epoch.ai/frontiermath
+FrontierMath niveaux 1-3,problemes de maths inedits niveau recherche (Epoch AI),2026-09-01,claude-fable-5-1_max,Anthropic,0.902,mesure,https://epoch.ai/frontiermath
+FrontierMath niveaux 1-3,problemes de maths inedits niveau recherche (Epoch AI),2026-09-03,gpt-6-astra_max,OpenAI,0.937,mesure,https://epoch.ai/frontiermath
+FrontierMath niveau 4,problemes de maths les plus durs (~quelques dizaines de problemes ; erreur-type elevee),2025-01-31,o3-mini-2025-01-31_high,OpenAI,0.0,mesure,https://epoch.ai/frontiermath
+FrontierMath niveau 4,problemes de maths les plus durs (~quelques dizaines de problemes ; erreur-type elevee),2025-04-16,o4-mini-2025-04-16_high,OpenAI,0.049,mesure,https://epoch.ai/frontiermath
+FrontierMath niveau 4,problemes de maths les plus durs (~quelques dizaines de problemes ; erreur-type elevee),2025-08-07,gpt-5-mini-2025-08-07_high,OpenAI,0.122,mesure,https://epoch.ai/frontiermath
+FrontierMath niveau 4,problemes de maths les plus durs (~quelques dizaines de problemes ; erreur-type elevee),2025-08-07,gpt-5-2025-08-07_high,OpenAI,0.22,mesure,https://epoch.ai/frontiermath
+FrontierMath niveau 4,problemes de maths les plus durs (~quelques dizaines de problemes ; erreur-type elevee),2025-12-11,gpt-5.2-2025-12-11_xhigh,OpenAI,0.317,mesure,https://epoch.ai/frontiermath
+FrontierMath niveau 4,problemes de maths les plus durs (~quelques dizaines de problemes ; erreur-type elevee),2025-12-11,gpt-5.2-pro-2025-12-11_xhigh,OpenAI,0.46,mesure,https://epoch.ai/frontiermath
+FrontierMath niveau 4,problemes de maths les plus durs (~quelques dizaines de problemes ; erreur-type elevee),2026-03-05,gpt-5.4-2026-03-05_xhigh,OpenAI,0.49,mesure,https://epoch.ai/frontiermath
+FrontierMath niveau 4,problemes de maths les plus durs (~quelques dizaines de problemes ; erreur-type elevee),2026-03-05,gpt-5.4-pro-2026-03-05_xhigh,OpenAI,0.585,mesure,https://epoch.ai/frontiermath
+FrontierMath niveau 4,problemes de maths les plus durs (~quelques dizaines de problemes ; erreur-type elevee),2026-04-23,gpt-5.5_xhigh,OpenAI,0.725,mesure,https://epoch.ai/frontiermath
+FrontierMath niveau 4,problemes de maths les plus durs (~quelques dizaines de problemes ; erreur-type elevee),2026-04-23,gpt-5.5-pro_xhigh,OpenAI,0.78,mesure,https://epoch.ai/frontiermath
+FrontierMath niveau 4,problemes de maths les plus durs (~quelques dizaines de problemes ; erreur-type elevee),2026-06-09,claude-fable-5_max,Anthropic,0.902,mesure,https://epoch.ai/frontiermath
+FrontierMath niveau 4,problemes de maths les plus durs (~quelques dizaines de problemes ; erreur-type elevee),2026-09-03,gpt-6-astra_medium,OpenAI,0.976,mesure,https://epoch.ai/frontiermath
+FrontierMath niveau 4,problemes de maths les plus durs (~quelques dizaines de problemes ; erreur-type elevee),2026-09-03,gpt-6-astra_high,OpenAI,0.976,mesure,https://epoch.ai/frontiermath
+FrontierMath niveau 4,problemes de maths les plus durs (~quelques dizaines de problemes ; erreur-type elevee),2026-09-29,gpt-6.1-sol_max,OpenAI,1.0,mesure,https://epoch.ai/frontiermath
+GPQA Diamond,QCM sciences niveau doctorat (198 questions) ; experts humains ~65-70%,2023-03-14,gpt-4-0314,OpenAI,0.357,mesure,https://epoch.ai/benchmarks/gpqa-diamond
+GPQA Diamond,QCM sciences niveau doctorat (198 questions) ; experts humains ~65-70%,2023-11-06,gpt-4-1106-preview,OpenAI,0.424,mesure,https://epoch.ai/benchmarks/gpqa-diamond
+GPQA Diamond,QCM sciences niveau doctorat (198 questions) ; experts humains ~65-70%,2024-02-29,claude-3-opus-20240229,Anthropic,0.472,mesure,https://epoch.ai/benchmarks/gpqa-diamond
+GPQA Diamond,QCM sciences niveau doctorat (198 questions) ; experts humains ~65-70%,2024-05-13,gpt-4o-2024-05-13,OpenAI,0.489,mesure,https://epoch.ai/benchmarks/gpqa-diamond
+GPQA Diamond,QCM sciences niveau doctorat (198 questions) ; experts humains ~65-70%,2024-06-20,claude-3-5-sonnet-20240620,Anthropic,0.54,mesure,https://epoch.ai/benchmarks/gpqa-diamond
+GPQA Diamond,QCM sciences niveau doctorat (198 questions) ; experts humains ~65-70%,2024-09-12,o1-mini-2024-09-12_medium,OpenAI,0.595,mesure,https://epoch.ai/benchmarks/gpqa-diamond
+GPQA Diamond,QCM sciences niveau doctorat (198 questions) ; experts humains ~65-70%,2024-09-12,o1-mini-2024-09-12_high,OpenAI,0.624,mesure,https://epoch.ai/benchmarks/gpqa-diamond
+GPQA Diamond,QCM sciences niveau doctorat (198 questions) ; experts humains ~65-70%,2024-12-17,o1-2024-12-17_low,OpenAI,0.742,mesure,https://epoch.ai/benchmarks/gpqa-diamond
+GPQA Diamond,QCM sciences niveau doctorat (198 questions) ; experts humains ~65-70%,2024-12-17,o1-2024-12-17_medium,OpenAI,0.758,mesure,https://epoch.ai/benchmarks/gpqa-diamond
+GPQA Diamond,QCM sciences niveau doctorat (198 questions) ; experts humains ~65-70%,2024-12-17,o1-2024-12-17_high,OpenAI,0.768,mesure,https://epoch.ai/benchmarks/gpqa-diamond
+GPQA Diamond,QCM sciences niveau doctorat (198 questions) ; experts humains ~65-70%,2025-01-31,o3-mini-2025-01-31_high,OpenAI,0.77,mesure,https://epoch.ai/benchmarks/gpqa-diamond
+GPQA Diamond,QCM sciences niveau doctorat (198 questions) ; experts humains ~65-70%,2025-02-24,claude-3-7-sonnet-20250219_64K,Anthropic,0.785,mesure,https://epoch.ai/benchmarks/gpqa-diamond
+GPQA Diamond,QCM sciences niveau doctorat (198 questions) ; experts humains ~65-70%,2025-03-25,gemini-2.5-pro-exp-03-25,Google DeepMind,0.838,mesure,https://epoch.ai/benchmarks/gpqa-diamond
+GPQA Diamond,QCM sciences niveau doctorat (198 questions) ; experts humains ~65-70%,2025-06-05,gemini-2.5-pro-preview-06-05,Google DeepMind,0.848,mesure,https://epoch.ai/benchmarks/gpqa-diamond
+GPQA Diamond,QCM sciences niveau doctorat (198 questions) ; experts humains ~65-70%,2025-06-17,gemini-2.5-pro,Google DeepMind,0.853,mesure,https://epoch.ai/benchmarks/gpqa-diamond
+GPQA Diamond,QCM sciences niveau doctorat (198 questions) ; experts humains ~65-70%,2025-07-09,grok-4-0709,xAI,0.87,mesure,https://epoch.ai/benchmarks/gpqa-diamond
+GPQA Diamond,QCM sciences niveau doctorat (198 questions) ; experts humains ~65-70%,2025-11-13,gpt-5.1-2025-11-13_high,OpenAI,0.876,mesure,https://epoch.ai/benchmarks/gpqa-diamond
+GPQA Diamond,QCM sciences niveau doctorat (198 questions) ; experts humains ~65-70%,2025-11-18,gemini-3-pro-preview,Google DeepMind,0.926,mesure,https://epoch.ai/benchmarks/gpqa-diamond
+GPQA Diamond,QCM sciences niveau doctorat (198 questions) ; experts humains ~65-70%,2026-02-19,gemini-3.1-pro-preview,Google DeepMind,0.941,mesure,https://epoch.ai/benchmarks/gpqa-diamond
+GPQA Diamond,QCM sciences niveau doctorat (198 questions) ; experts humains ~65-70%,2026-02-19,gemini-3.1-pro-preview_high,Google DeepMind,0.944,mesure,https://epoch.ai/benchmarks/gpqa-diamond
+GPQA Diamond,QCM sciences niveau doctorat (198 questions) ; experts humains ~65-70%,2026-03-05,gpt-5.4-pro-2026-03-05_xhigh,OpenAI,0.946,mesure,https://epoch.ai/benchmarks/gpqa-diamond
+GPQA Diamond,QCM sciences niveau doctorat (198 questions) ; experts humains ~65-70%,2026-08-13,gemini-3.7-flash_high,Google DeepMind,0.948,mesure,https://epoch.ai/benchmarks/gpqa-diamond
+GPQA Diamond,QCM sciences niveau doctorat (198 questions) ; experts humains ~65-70%,2026-09-02,gemini-3.8-flash_high,Google DeepMind,0.954,mesure,https://epoch.ai/benchmarks/gpqa-diamond
+GPQA Diamond,QCM sciences niveau doctorat (198 questions) ; experts humains ~65-70%,2026-09-03,gpt-6-astra_max,OpenAI,0.958,mesure,https://epoch.ai/benchmarks/gpqa-diamond
+GPQA Diamond,QCM sciences niveau doctorat (198 questions) ; experts humains ~65-70%,2026-09-30,gemini-4-argon_high,Google DeepMind,0.964,mesure,https://epoch.ai/benchmarks/gpqa-diamond
+Humanity's Last Exam,2500 questions expertes multidomaines (resultats externes),2024-09-24,gemini-1.5-pro-002,Google DeepMind,0.046,mesure,https://lastexam.ai/
+Humanity's Last Exam,2500 questions expertes multidomaines (resultats externes),2024-12-17,o1-2024-12-17_unknown,OpenAI,0.08,mesure,https://lastexam.ai/
+Humanity's Last Exam,2500 questions expertes multidomaines (resultats externes),2025-02-24,claude-3-7-sonnet-20250219_unknown,Anthropic,0.08,mesure,https://lastexam.ai/
+Humanity's Last Exam,2500 questions expertes multidomaines (resultats externes),2025-03-19,o1-pro-2025-03-19,OpenAI,0.081,mesure,https://lastexam.ai/
+Humanity's Last Exam,2500 questions expertes multidomaines (resultats externes),2025-03-25,gemini-2.5-pro-exp-03-25,Google DeepMind,0.182,mesure,https://lastexam.ai/
+Humanity's Last Exam,2500 questions expertes multidomaines (resultats externes),2025-04-16,o3-2025-04-16_medium,OpenAI,0.192,mesure,https://lastexam.ai/
+Humanity's Last Exam,2500 questions expertes multidomaines (resultats externes),2025-04-16,o3-2025-04-16_high,OpenAI,0.203,mesure,https://lastexam.ai/
+Humanity's Last Exam,2500 questions expertes multidomaines (resultats externes),2025-06-05,gemini-2.5-pro-preview-06-05,Google DeepMind,0.216,mesure,https://lastexam.ai/
+Humanity's Last Exam,2500 questions expertes multidomaines (resultats externes),2025-08-07,gpt-5-2025-08-07_high,OpenAI,0.253,mesure,https://lastexam.ai/
+Humanity's Last Exam,2500 questions expertes multidomaines (resultats externes),2025-10-07,gpt-5-pro-2025-10-06_unknown,OpenAI,0.316,mesure,https://lastexam.ai/
+Humanity's Last Exam,2500 questions expertes multidomaines (resultats externes),2025-11-18,gemini-3-pro-preview,Google DeepMind,0.375,mesure,https://lastexam.ai/
+Humanity's Last Exam,2500 questions expertes multidomaines (resultats externes),2026-02-19,gemini-3.1-pro-preview,Google DeepMind,0.464,mesure,https://lastexam.ai/
+Humanity's Last Exam,2500 questions expertes multidomaines (resultats externes),2026-09-01,claude-fable-5-1_xhigh,Anthropic,0.465,mesure,https://lastexam.ai/
+Humanity's Last Exam,2500 questions expertes multidomaines (resultats externes),2026-09-03,gpt-6-astra_unknown,OpenAI,0.548,mesure,https://lastexam.ai/
+ARC-AGI-2,raisonnement visuel abstrait (resultats ARC Prize),2024-07-18,gpt-4o-mini-2024-07-18,OpenAI,0.0,mesure,https://arcprize.org/leaderboard
+ARC-AGI-2,raisonnement visuel abstrait (resultats ARC Prize),2024-09-12,o1-mini-2024-09-12_unknown,OpenAI,0.008,mesure,https://arcprize.org/leaderboard
+ARC-AGI-2,raisonnement visuel abstrait (resultats ARC Prize),2025-01-20,DeepSeek-R1,DeepSeek,0.013,mesure,https://arcprize.org/leaderboard
+ARC-AGI-2,raisonnement visuel abstrait (resultats ARC Prize),2025-01-31,o3-mini-2025-01-31_medium,OpenAI,0.021,mesure,https://arcprize.org/leaderboard
+ARC-AGI-2,raisonnement visuel abstrait (resultats ARC Prize),2025-01-31,o3-mini-2025-01-31_high,OpenAI,0.03,mesure,https://arcprize.org/leaderboard
+ARC-AGI-2,raisonnement visuel abstrait (resultats ARC Prize),2025-04-16,o4-mini-2025-04-16_high,OpenAI,0.061,mesure,https://arcprize.org/leaderboard
+ARC-AGI-2,raisonnement visuel abstrait (resultats ARC Prize),2025-04-16,o3-2025-04-16_high,OpenAI,0.065,mesure,https://arcprize.org/leaderboard
+ARC-AGI-2,raisonnement visuel abstrait (resultats ARC Prize),2025-05-22,claude-opus-4-20250514_16K,Anthropic,0.086,mesure,https://arcprize.org/leaderboard
+ARC-AGI-2,raisonnement visuel abstrait (resultats ARC Prize),2025-07-09,grok-4-0709,xAI,0.16,mesure,https://arcprize.org/leaderboard
+ARC-AGI-2,raisonnement visuel abstrait (resultats ARC Prize),2025-10-07,gpt-5-pro-2025-10-06_unknown,OpenAI,0.183,mesure,https://arcprize.org/leaderboard
+ARC-AGI-2,raisonnement visuel abstrait (resultats ARC Prize),2025-11-18,gemini-3-pro-preview,Google DeepMind,0.311,mesure,https://arcprize.org/leaderboard
+ARC-AGI-2,raisonnement visuel abstrait (resultats ARC Prize),2025-11-24,claude-opus-4-5-20251101_64K,Anthropic,0.376,mesure,https://arcprize.org/leaderboard
+ARC-AGI-2,raisonnement visuel abstrait (resultats ARC Prize),2025-12-11,gpt-5.2-pro-2025-12-11_medium,OpenAI,0.385,mesure,https://arcprize.org/leaderboard
+ARC-AGI-2,raisonnement visuel abstrait (resultats ARC Prize),2025-12-11,gpt-5.2-2025-12-11_high,OpenAI,0.433,mesure,https://arcprize.org/leaderboard
+ARC-AGI-2,raisonnement visuel abstrait (resultats ARC Prize),2025-12-11,gpt-5.2-2025-12-11_xhigh,OpenAI,0.529,mesure,https://arcprize.org/leaderboard
+ARC-AGI-2,raisonnement visuel abstrait (resultats ARC Prize),2025-12-11,gpt-5.2-pro-2025-12-11_high,OpenAI,0.542,mesure,https://arcprize.org/leaderboard
+ARC-AGI-2,raisonnement visuel abstrait (resultats ARC Prize),2026-02-05,claude-opus-4-6_120K,Anthropic,0.646,mesure,https://arcprize.org/leaderboard
+ARC-AGI-2,raisonnement visuel abstrait (resultats ARC Prize),2026-02-05,claude-opus-4-6_120K,Anthropic,0.662,mesure,https://arcprize.org/leaderboard
+ARC-AGI-2,raisonnement visuel abstrait (resultats ARC Prize),2026-02-05,claude-opus-4-6_120K,Anthropic,0.688,mesure,https://arcprize.org/leaderboard
+ARC-AGI-2,raisonnement visuel abstrait (resultats ARC Prize),2026-02-05,claude-opus-4-6_120K,Anthropic,0.692,mesure,https://arcprize.org/leaderboard
+ARC-AGI-2,raisonnement visuel abstrait (resultats ARC Prize),2026-02-12,gemini-3-deep-think-preview,Google DeepMind,0.846,mesure,https://arcprize.org/leaderboard
+ARC-AGI-2,raisonnement visuel abstrait (resultats ARC Prize),2026-04-23,gpt-5.5_xhigh,OpenAI,0.85,mesure,https://arcprize.org/leaderboard
+ARC-AGI-2,raisonnement visuel abstrait (resultats ARC Prize),2026-06-09,claude-fable-5_high,Anthropic,0.875,mesure,https://arcprize.org/leaderboard
+ARC-AGI-2,raisonnement visuel abstrait (resultats ARC Prize),2026-06-09,claude-fable-5_xhigh,Anthropic,0.883,mesure,https://arcprize.org/leaderboard
+ARC-AGI-2,raisonnement visuel abstrait (resultats ARC Prize),2026-06-09,claude-fable-5_max,Anthropic,0.892,mesure,https://arcprize.org/leaderboard
+ARC-AGI-2,raisonnement visuel abstrait (resultats ARC Prize),2026-07-09,gpt-5.6-sol_xhigh,OpenAI,0.9,mesure,https://arcprize.org/leaderboard
+ARC-AGI-2,raisonnement visuel abstrait (resultats ARC Prize),2026-07-09,gpt-5.6-sol_max,OpenAI,0.925,mesure,https://arcprize.org/leaderboard
+ARC-AGI-2,raisonnement visuel abstrait (resultats ARC Prize),2026-09-03,gpt-6-astra_xhigh,OpenAI,0.933,mesure,https://arcprize.org/leaderboard
+ARC-AGI-2,raisonnement visuel abstrait (resultats ARC Prize),2026-09-03,gpt-6-astra_max,OpenAI,0.95,mesure,https://arcprize.org/leaderboard
+OTIS Mock AIME 2024-2025,problemes type olympiades AIME,2023-03-14,gpt-4-0314,OpenAI,0.006,mesure,https://epoch.ai/benchmarks
+OTIS Mock AIME 2024-2025,problemes type olympiades AIME,2023-06-13,gpt-4-0613,OpenAI,0.011,mesure,https://epoch.ai/benchmarks
+OTIS Mock AIME 2024-2025,problemes type olympiades AIME,2023-07-11,claude-2.0,Anthropic,0.025,mesure,https://epoch.ai/benchmarks
+OTIS Mock AIME 2024-2025,problemes type olympiades AIME,2024-02-29,claude-3-opus-20240229,Anthropic,0.047,mesure,https://epoch.ai/benchmarks
+OTIS Mock AIME 2024-2025,problemes type olympiades AIME,2024-04-09,gpt-4-turbo-2024-04-09,OpenAI,0.067,mesure,https://epoch.ai/benchmarks
+OTIS Mock AIME 2024-2025,problemes type olympiades AIME,2024-05-14,gemini-1.5-pro-001,Google DeepMind,0.068,mesure,https://epoch.ai/benchmarks
+OTIS Mock AIME 2024-2025,problemes type olympiades AIME,2024-07-18,gpt-4o-mini-2024-07-18,OpenAI,0.069,mesure,https://epoch.ai/benchmarks
+OTIS Mock AIME 2024-2025,problemes type olympiades AIME,2024-07-23,Llama-3.1-405B-Instruct,Meta AI,0.097,mesure,https://epoch.ai/benchmarks
+OTIS Mock AIME 2024-2025,problemes type olympiades AIME,2024-09-12,o1-preview-2024-09-12,OpenAI,0.311,mesure,https://epoch.ai/benchmarks
+OTIS Mock AIME 2024-2025,problemes type olympiades AIME,2024-09-12,o1-mini-2024-09-12_medium,OpenAI,0.447,mesure,https://epoch.ai/benchmarks
+OTIS Mock AIME 2024-2025,problemes type olympiades AIME,2024-09-12,o1-mini-2024-09-12_high,OpenAI,0.469,mesure,https://epoch.ai/benchmarks
+OTIS Mock AIME 2024-2025,problemes type olympiades AIME,2024-12-17,o1-2024-12-17_low,OpenAI,0.533,mesure,https://epoch.ai/benchmarks
+OTIS Mock AIME 2024-2025,problemes type olympiades AIME,2024-12-17,o1-2024-12-17_high,OpenAI,0.733,mesure,https://epoch.ai/benchmarks
+OTIS Mock AIME 2024-2025,problemes type olympiades AIME,2025-01-31,o3-mini-2025-01-31_high,OpenAI,0.769,mesure,https://epoch.ai/benchmarks
+OTIS Mock AIME 2024-2025,problemes type olympiades AIME,2025-04-09,grok-3-mini-beta_high,xAI,0.778,mesure,https://epoch.ai/benchmarks
+OTIS Mock AIME 2024-2025,problemes type olympiades AIME,2025-04-16,o4-mini-2025-04-16_high,OpenAI,0.817,mesure,https://epoch.ai/benchmarks
+OTIS Mock AIME 2024-2025,problemes type olympiades AIME,2025-04-16,o3-2025-04-16_high,OpenAI,0.839,mesure,https://epoch.ai/benchmarks
+OTIS Mock AIME 2024-2025,problemes type olympiades AIME,2025-04-16,o3-2025-04-16_medium,OpenAI,0.844,mesure,https://epoch.ai/benchmarks
+OTIS Mock AIME 2024-2025,problemes type olympiades AIME,2025-07-25,Qwen3-235B-A22B-Thinking-2507,Alibaba,0.867,mesure,https://epoch.ai/benchmarks
+OTIS Mock AIME 2024-2025,problemes type olympiades AIME,2025-08-05,openai/gpt-oss-120b_high,OpenAI,0.889,mesure,https://epoch.ai/benchmarks
+OTIS Mock AIME 2024-2025,problemes type olympiades AIME,2025-08-07,gpt-5-2025-08-07_high,OpenAI,0.914,mesure,https://epoch.ai/benchmarks
+OTIS Mock AIME 2024-2025,problemes type olympiades AIME,2025-12-11,gpt-5.2-2025-12-11_medium,OpenAI,0.939,mesure,https://epoch.ai/benchmarks
+OTIS Mock AIME 2024-2025,problemes type olympiades AIME,2025-12-11,gpt-5.2-2025-12-11_xhigh,OpenAI,0.961,mesure,https://epoch.ai/benchmarks
+OTIS Mock AIME 2024-2025,problemes type olympiades AIME,2025-12-11,gpt-5.2-2025-12-11_high,OpenAI,0.961,mesure,https://epoch.ai/benchmarks
+OTIS Mock AIME 2024-2025,problemes type olympiades AIME,2026-03-05,gpt-5.4-2026-03-05_high,OpenAI,0.978,mesure,https://epoch.ai/benchmarks
+OTIS Mock AIME 2024-2025,problemes type olympiades AIME,2026-04-16,claude-opus-4-7_xhigh,Anthropic,0.978,mesure,https://epoch.ai/benchmarks
+OTIS Mock AIME 2024-2025,problemes type olympiades AIME,2026-04-23,gpt-5.5-pre-release_xhigh,OpenAI,1.0,mesure,https://epoch.ai/benchmarks
+OSWorld 2,usage autonome d un ordinateur (taches bureautiques reelles),2026-02-17,claude-sonnet-4-6_max,Anthropic,0.083,mesure,https://osworld-v2.xlang.ai/
+OSWorld 2,usage autonome d un ordinateur (taches bureautiques reelles),2026-02-17,claude-sonnet-4-6_medium,Anthropic,0.093,mesure,https://osworld-v2.xlang.ai/
+OSWorld 2,usage autonome d un ordinateur (taches bureautiques reelles),2026-04-16,claude-opus-4-7_max,Anthropic,0.139,mesure,https://osworld-v2.xlang.ai/
+OSWorld 2,usage autonome d un ordinateur (taches bureautiques reelles),2026-04-16,claude-opus-4-7_max,Anthropic,0.182,mesure,https://osworld-v2.xlang.ai/
+OSWorld 2,usage autonome d un ordinateur (taches bureautiques reelles),2026-05-28,claude-opus-4-8_max,Anthropic,0.185,mesure,https://osworld-v2.xlang.ai/
+OSWorld 2,usage autonome d un ordinateur (taches bureautiques reelles),2026-05-28,claude-opus-4-8_max,Anthropic,0.206,mesure,https://osworld-v2.xlang.ai/
+OSWorld 2,usage autonome d un ordinateur (taches bureautiques reelles),2026-07-09,gpt-5.6-sol_max,OpenAI,0.273,mesure,https://osworld-v2.xlang.ai/
+OSWorld 2,usage autonome d un ordinateur (taches bureautiques reelles),2026-07-24,claude-opus-5_high,Anthropic,0.29,mesure,https://osworld-v2.xlang.ai/
+OSWorld 2,usage autonome d un ordinateur (taches bureautiques reelles),2026-07-24,claude-opus-5_xhigh,Anthropic,0.302,mesure,https://osworld-v2.xlang.ai/
+OSWorld 2,usage autonome d un ordinateur (taches bureautiques reelles),2026-07-24,claude-opus-5_max,Anthropic,0.314,mesure,https://osworld-v2.xlang.ai/
+GDPval,taches de 44 metiers ; taux ou le livrable IA est juge >= expert humain (victoire+egalite),2024-11-20,gpt-4o-2024-11-20,OpenAI,0.123,mesure,https://openai.com/index/gdpval/
+GDPval,taches de 44 metiers ; taux ou le livrable IA est juge >= expert humain (victoire+egalite),2025-04-16,o4-mini-2025-04-16_high,OpenAI,0.278,mesure,https://openai.com/index/gdpval/
+GDPval,taches de 44 metiers ; taux ou le livrable IA est juge >= expert humain (victoire+egalite),2025-04-16,o3-2025-04-16_medium,OpenAI,0.341,mesure,https://openai.com/index/gdpval/
+GDPval,taches de 44 metiers ; taux ou le livrable IA est juge >= expert humain (victoire+egalite),2025-08-05,claude-opus-4-1-20250805,Anthropic,0.476,mesure,https://openai.com/index/gdpval/
+GDPval,taches de 44 metiers ; taux ou le livrable IA est juge >= expert humain (victoire+egalite),2025-09-29,claude-sonnet-4-5-20250929,Anthropic,0.503,mesure,https://openai.com/index/gdpval/
+GDPval,taches de 44 metiers ; taux ou le livrable IA est juge >= expert humain (victoire+egalite),2025-11-18,gemini-3-pro-preview,Google DeepMind,0.535,mesure,https://openai.com/index/gdpval/
+GDPval,taches de 44 metiers ; taux ou le livrable IA est juge >= expert humain (victoire+egalite),2025-11-24,claude-opus-4-5-20251101,Anthropic,0.596,mesure,https://openai.com/index/gdpval/
+GDPval,taches de 44 metiers ; taux ou le livrable IA est juge >= expert humain (victoire+egalite),2025-12-11,gpt-5.2-2025-12-11_none,OpenAI,0.709,mesure,https://openai.com/index/gdpval/
+Remote Labor Index,part de vrais projets freelance automatises a un niveau acceptable par le client,2025-06-05,gemini-2.5-pro-preview-06-05,Google DeepMind,0.008,mesure,https://www.remotelabor.ai/
+Remote Labor Index,part de vrais projets freelance automatises a un niveau acceptable par le client,2025-08-07,gpt-5-2025-08-07_unknown,OpenAI,0.017,mesure,https://www.remotelabor.ai/
+Remote Labor Index,part de vrais projets freelance automatises a un niveau acceptable par le client,2025-09-29,claude-sonnet-4-5-20250929_unknown,Anthropic,0.021,mesure,https://www.remotelabor.ai/
+Remote Labor Index,part de vrais projets freelance automatises a un niveau acceptable par le client,2025-11-24,claude-opus-4-5-20251101_unknown,Anthropic,0.037,mesure,https://www.remotelabor.ai/
+Remote Labor Index,part de vrais projets freelance automatises a un niveau acceptable par le client,2026-02-05,claude-opus-4-6_unknown,Anthropic,0.042,mesure,https://www.remotelabor.ai/
+Remote Labor Index,part de vrais projets freelance automatises a un niveau acceptable par le client,2026-04-23,gpt-5.5_unknown,OpenAI,0.062,mesure,https://www.remotelabor.ai/
+Remote Labor Index,part de vrais projets freelance automatises a un niveau acceptable par le client,2026-05-28,claude-opus-4-8_unknown,Anthropic,0.083,mesure,https://www.remotelabor.ai/
+Remote Labor Index,part de vrais projets freelance automatises a un niveau acceptable par le client,2026-06-09,claude-fable-5_unknown,Anthropic,0.158,mesure,https://www.remotelabor.ai/
+Remote Labor Index,part de vrais projets freelance automatises a un niveau acceptable par le client,2026-06-09,claude-fable-5,Anthropic,0.161,mesure,https://www.remotelabor.ai/
+Remote Labor Index,part de vrais projets freelance automatises a un niveau acceptable par le client,2026-09-01,claude-fable-5-1_unknown,Anthropic,0.179,mesure,https://www.remotelabor.ai/
+Remote Labor Index,part de vrais projets freelance automatises a un niveau acceptable par le client,2026-09-03,gpt-6-astra_unknown,OpenAI,0.208,mesure,https://www.remotelabor.ai/
+Remote Labor Index,part de vrais projets freelance automatises a un niveau acceptable par le client,2026-09-22,claude-opus-5-5_unknown,Anthropic,0.212,mesure,https://www.remotelabor.ai/

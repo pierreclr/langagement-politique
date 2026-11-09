@@ -1,0 +1,80 @@
+## A. Dépenses publiques par fonction (Eurostat gov_10a_exp, S13, % du PIB, 2024)
+| Indicateur | France | UE-27 | Médiane des 27 | Rang de la France (1 = le plus haut) | Maximum | Minimum | Unité |
+|---|---|---|---|---|---|---|---|
+| Dépenses publiques totales | 57,3 | 48,8 | 46,8 | 2/27 | Finlande 57,7 | Irlande 22,4 | % PIB |
+| Services généraux | 6,2 | 6,0 | 5,5 | 7/27 | Hongrie 10,0 | Irlande 2,0 | % PIB |
+|   dont charge de la dette | 2,0 | 1,9 | 1,4 | 9/27 | Hongrie 5,0 | Luxembourg 0,4 | % PIB |
+| Défense | 1,9 | 1,5 | 1,5 | 7/27 | Estonie 3,7 | Irlande 0,1 | % PIB |
+| Ordre et sécurité | 1,8 | 1,7 | 1,7 | 10/27 | Lettonie 3,2 | Irlande 0,7 | % PIB |
+| Affaires économiques | 5,7 | 5,3 | 5,5 | 12/27 | Hongrie 7,7 | Irlande 2,1 | % PIB |
+| Environnement | 1,0 | 0,8 | 0,7 | 6/27 | Pays-Bas 1,6 | Finlande 0,2 | % PIB |
+| Logement et équipements collectifs | 1,4 | 0,7 | 0,6 | 4/27 | Chypre 2,1 | Danemark 0,3 | % PIB |
+| Santé | 8,9 | 7,3 | 6,6 | 4/27 | Autriche 9,5 | Hongrie 4,7 | % PIB |
+| Culture, loisirs, cultes | 1,5 | 1,2 | 1,3 | 6/27 | Hongrie 2,5 | Irlande 0,4 | % PIB |
+| Éducation | 5,1 | 4,7 | 5,0 | 11/27 | Suède 7,2 | Irlande 2,7 | % PIB |
+| Protection sociale | 23,7 | 19,5 | 17,1 | 2/27 | Finlande 26,5 | Irlande 8,2 | % PIB |
+|   dont vieillesse | 13,4 | 10,6 | 9,8 | 4/27 | Finlande 15,5 | Irlande 3,0 | % PIB |
+|   dont maladie et invalidité | 2,9 | 2,8 | 2,2 | 10/27 | Danemark 4,8 | Chypre 0,5 | % PIB |
+|   dont famille et enfants | 2,3 | 2,0 | 1,8 | 8/27 | Danemark 4,1 | Malte 0,9 | % PIB |
+|   dont chômage | 1,7 | 1,2 | 0,7 | 1/27 | France 1,7 | Roumanie 0,0 | % PIB |
+
+## B. Fiscalité (DG TAXUD, Taxation trends 2026, % du PIB sauf mention, 2024)
+| Indicateur | France | UE-27 | Médiane des 27 | Rang de la France (1 = le plus haut) | Maximum | Minimum | Unité |
+|---|---|---|---|---|---|---|---|
+| Prélèvements obligatoires totaux | 43,5 | 39,4 | 36,8 | 2/27 | Danemark 45,2 | Irlande 21,7 | % PIB |
+| Cotisations sociales | 14,6 | 13,0 | 11,7 | 6/27 | Slovénie 16,9 | Danemark 0,1 | % PIB |
+|   dont cotisations employeurs | 10,0 | 7,1 | 5,8 | 2/27 | Estonie 11,2 | Danemark 0,1 | % PIB |
+| TVA | 7,1 | 7,1 | 7,9 | 18/27 | Croatie 13,3 | Irlande 3,9 | % PIB |
+| Impôt sur le revenu des personnes | 9,4 | 9,6 | 7,1 | 9/27 | Danemark 26,3 | Roumanie 2,9 | % PIB |
+| Impôt sur les sociétés | 2,9 | 3,1 | 3,0 | 18/27 | Chypre 6,9 | Hongrie 1,6 | % PIB |
+| Autres impôts sur la production | 4,4 | 2,4 | 1,5 | 2/27 | Suède 10,2 | Malte 0,5 | % PIB |
+| Fiscalité de la consommation (fonction économique) | 10,8 | 10,6 | 11,2 | 19/27 | Croatie 18,5 | Irlande 5,6 | % PIB |
+| Fiscalité du travail (fonction économique) | 22,4 | 20,3 | 18,1 | 5/27 | Autriche 24,4 | Irlande 9,0 | % PIB |
+| Fiscalité du capital (fonction économique) | 10,3 | 8,5 | 7,5 | 4/27 | Luxembourg 12,6 | Estonie 3,5 | % PIB |
+| Impôts sur la propriété | 3,4 | 1,8 | 0,9 | 1/27 | France 3,4 | Estonie 0,3 | % PIB |
+|   dont successions et donations | 0,7 | 0,3 | 0,1 | 1/24 | France 0,7 | Slovaquie 0,0 | % PIB |
+| Impôts environnementaux | 1,9 | 2,1 | 2,1 | 19/27 | Grèce 3,8 | Irlande 1,0 | % PIB |
+| Taux implicite sur la consommation | 16,40 | 16,48 | 18,18 | 21/27 | Croatie 22,37 | Espagne 13,59 | % |
+| Taux implicite sur le travail | 38,76 | 37,09 | 35,19 | 6/27 | Grèce 44,80 | Malte 24,35 | % |
+| Coin fiscal, bas salaires (Eurostat earn_nt_taxwedge, 2025) | 38,0 | 39,5 | 38,3 | 15/27 | Allemagne 44,7 | Irlande 22,5 | % |
+
+## B bis. Dette et solde (Eurostat gov_10dd_edpt1, S13, % du PIB, 2024)
+| Indicateur | France | UE-27 | Médiane des 27 | Rang de la France (1 = le plus haut) | Maximum | Minimum | Unité |
+|---|---|---|---|---|---|---|---|
+| Dette brute | 112,6 | 80,3 | 56,5 | 3/27 | Grèce 153,5 | Estonie 23,5 | % PIB |
+| Solde des administrations publiques (négatif = déficit ; rang 1 = le plus haut excédent) | -5,8 | -3,1 | -2,5 | 25/27 | Irlande 4,2 | Roumanie -9,2 | % PIB |
+
+## C. Concurrence fiscale sur les sociétés
+| Indicateur | France | UE-27 | Médiane des 27 | Rang de la France (1 = le plus haut) | Maximum | Minimum | Unité |
+|---|---|---|---|---|---|---|---|
+| Taux légal combiné de l'IS, 2024 (OCDE) | 25,8 | n.d. | 21,5 | 5/26 | Malte 35,0 | Hongrie 9,0 | % |
+| Taux légal combiné de l'IS, 2025 (OCDE) | 36,1 | n.d. | 22,0 | 1/22 | France 36,1 | Hongrie 9,0 | % |
+
+Profits transférés (Tørsløv-Wier-Zucman 2022, Tables 2 et 3, données 2015, milliards de dollars courants) :
+
+| Pays | Profits transférés hors du pays (Md$) | en % des profits déclarés dans le pays | Perte d'IS en % de l'IS collecté |
+|---|---|---|---|
+| France | 32,1 | 17,1 % | 21,0 % |
+| Suède | 8,5 | 13,5 % | 12,8 % |
+| Hongrie | 2,4 | 11,6 % | 20,7 % |
+| Finlande | 2,7 | 10,8 % | 10,8 % |
+| Italie | 22,7 | 10,7 % | 19,1 % |
+| Allemagne | 54,9 | 9,9 % | 27,9 % |
+| Portugal | 2,6 | 9,9 % | 8,9 % |
+| Espagne | 14,4 | 9,0 % | 14,2 % |
+| Autriche | 3,6 | 7,5 % | 10,6 % |
+| Slovénie | 0,2 | 6,6 % | 6,1 % |
+| Estonie | 0,2 | 6,0 % | 10,4 % |
+| Danemark | 3,0 | 5,7 % | 8,4 % |
+| Slovaquie | 0,6 | 5,5 % | 4,8 % |
+| Tchéquie | 1,8 | 5,2 % | 5,0 % |
+| Lettonie | 0,2 | 4,8 % | 7,0 % |
+| Grèce | 1,0 | 4,6 % | 7,2 % |
+| Pologne | 3,7 | 4,2 % | 8,0 % |
+
+Rang de la France parmi les 17 États membres tabulés individuellement (hors refuges BE, IE, LU, MT, NL ; BG, HR, CY, LT, RO non tabulés) : 2e en montant, 1e en part des profits déclarés, 2e en perte relative d'IS (rang 1 = le plus touché).
+Profits reçus par les refuges de l'UE (Md$, 2015) : Irlande 106, Pays-Bas 57, Luxembourg 47, Belgique 13, Malte 12 ; total 236 Md$.
+
+## D. Infractions au droit de l'UE (stock de procédures ouvertes, Commission, état du 03/11/2026)
+France : 86 dossiers actifs, rang 7/27 (1 = le plus de dossiers) ; médiane 71 ; maximum Espagne 124 ; minimum Danemark 36.
+Taille des États : le stock brut n'est pas rapporté à la population ; la France, 3e population de l'UE, est dans la moitié haute sans être en tête.

@@ -1,0 +1,102 @@
+Un point de taux plat = 10.4 Md€/an (central, v5.4)
+
+== 1. Holdings (Md€/an)
+fluxImpute : favorable 5.43 ; central 9.04 ; défavorable 12.66
+imputationBrute : favorable 2.28 ; central 3.8 ; défavorable 5.32
+creditN04 : favorable 1.36 ; central 2.26 ; défavorable 3.17
+imputationNette : favorable 0.92 ; central 1.54 ; défavorable 2.15
+protectionDeLaBase : favorable 20.54 ; central 35.69 ; défavorable 42.83
+valeurTotaleTransparence : favorable 22.82 ; central 39.49 ; défavorable 48.15
+netDuCredit : favorable 21.46 ; central 37.23 ; défavorable 44.98
+report150Flux : favorable 8.63 ; central 3.7 ; défavorable 0.76
+compte : favorable 30.09 ; central 40.93 ; défavorable 45.75
+stockUneFois : favorable 50.94 ; central 30.93 ; défavorable 15.28
+finPurge150 : favorable 2.62 ; central 1.16 ; défavorable 0.38
+taxeActifsPassifs : favorable 1.18 ; central 0.77 ; défavorable 0.36
+plancherRevenu : favorable 4.6 ; central 3.28 ; défavorable 1.97
+mereFilleStatique : favorable 1.61 ; central 2.69 ; défavorable 3.76
+
+== 2. Sommet de la distribution
+tranche T1 : favorable 287000 foyers, 4.7 M€ en moyenne ; central 287000 foyers, 4.7 M€ en moyenne ; défavorable 287000 foyers, 4.7 M€ en moyenne
+tranche T2 : favorable 20200 foyers, 28 M€ en moyenne ; central 16160 foyers, 28 M€ en moyenne ; défavorable 12120 foyers, 28 M€ en moyenne
+tranche T3 : favorable 1800 foyers, 735 M€ en moyenne ; central 1440 foyers, 735 M€ en moyenne ; défavorable 1080 foyers, 735 M€ en moyenne
+
+(a) Zucman fidèle, plancher de 2 % au-dessus de 100 M€, net de la taxe de 1 % et du prélèvement unique
+(a) foyers : favorable 1800 ; central 1440 ; défavorable 1080
+(a) patrimoineTotal : favorable 1323 ; central 1058.4 ; défavorable 793.8
+(a) complement : favorable 0.0086 ; central 0.0052 ; défavorable 0.001
+(a) brut : favorable 11.32 ; central 5.5 ; défavorable 0.79
+(a) net : favorable 4.43 ; central -0.01 ; défavorable -0.4
+(a) externalite : favorable 1.13 ; central 0.88 ; défavorable 0.18
+(a) recetteNetteParPoint : favorable 0.43 ; central 0 ; défavorable -0.04
+(a) sensibilité érosion ×0,5 / ×1 / ×2 : favorable 7.65 / 4.43 / -0.54 ; central 2.45 / -0.01 / -2.61 ; défavorable 0.11 / -0.4 / 0.08
+(a) sur le droit actuel (statique / net) : favorable 19.8 / 12.3 ; central 15.9 / 5.8 ; défavorable 11.9 / 0.8
+
+(b) barème 0 / 1 % / 2 % au-dessus de 10 M€ / 3 % au-dessus de 100 M€, seuil par adulte
+(b) S=300000 écart net de recette vs N07 : favorable -71.1 ; central -68.6 ; défavorable -59.6
+(b) S=300000 recette variante : favorable 34.5 ; central 17.8 ; défavorable 6.1
+(b) S=300000 points de taux plat (négatif = à financer) : favorable -6.84 ; central -6.6 ; défavorable -5.74
+(b) S=300000 ménages imposés (millions) / exonérés : favorable 3.54 / 89 % ; central 3.53 / 89 % ; défavorable 3.53 / 89 %
+(b) S=500000 écart net de recette vs N07 : favorable -81 ; central -77 ; défavorable -66.4
+(b) S=500000 recette variante : favorable 24.6 ; central 9.4 ; défavorable -0.6
+(b) S=500000 points de taux plat (négatif = à financer) : favorable -7.79 ; central -7.41 ; défavorable -6.39
+(b) S=500000 ménages imposés (millions) / exonérés : favorable 1.67 / 95 % ; central 1.66 / 95 % ; défavorable 1.66 / 95 %
+(b) décomposition à 300 000 € : dettes déduites (S=0) / seuil / haut du barème (S=0 brut) : favorable -16.7 / -71.8 / 7.3 ; central -14.7 / -62.7 / 0 ; défavorable -12.3 / -52 / -2.7
+(b) sans comportement, S=0 brut (statique du haut du barème) : favorable 23.3 ; central 18.6 ; défavorable 14
+
+(c) à recette égale de la taxe de 1 %
+(c) taux du milieu avec seuil 300 000 € (assiette brute) : favorable 3.46 % ; central 4.24 % ; défavorable 4.52 %
+(c) seuil par adulte à taux 1 / 2 / 3 % (assiette brute) : favorable 17 k€ ; central 0 k€ ; défavorable aucun (même 0 ne suffit pas)
+
+Qui gagne, qui perd (central, seuil 300 000 € par adulte, € par ménage et par an avant comportement)
+  D1 : 3090000 ménages, patrimoine brut moyen 3100 €, avant 0 €, après 0 €, écart 0 €
+  D2 : 3090000 ménages, patrimoine brut moyen 11350 €, avant 4 €, après 0 €, écart -4 €
+  D3 : 3090000 ménages, patrimoine brut moyen 28300 €, avant 15 €, après 0 €, écart -15 €
+  D4 : 3090000 ménages, patrimoine brut moyen 76100 €, avant 247 €, après 0 €, écart -247 €
+  D5 : 3090000 ménages, patrimoine brut moyen 158600 €, avant 1121 €, après 0 €, écart -1121 €
+  D6 : 3090000 ménages, patrimoine brut moyen 244150 €, avant 1892 €, après 0 €, écart -1892 €
+  D7 : 3090000 ménages, patrimoine brut moyen 332500 €, avant 2610 €, après 0 €, écart -2610 €
+  D8 : 3090000 ménages, patrimoine brut moyen 455900 €, avant 3563 €, après 0 €, écart -3563 €
+  D9 : 3090000 ménages, patrimoine brut moyen 693850 €, avant 5343 €, après 22 €, écart -5320 €
+  P90-95 : 1545000 ménages, patrimoine brut moyen 1062950 €, avant 8583 €, après 2208 €, écart -6376 €
+  P95-99 : 1236000 ménages, patrimoine brut moyen 1801589 €, avant 14773 €, après 7871 €, écart -6902 €
+  T1 (3 à 10 M€) : 287000 ménages, patrimoine brut moyen 4710580 €, avant 40040 €, après 34940 €, écart -5100 €
+  T2 (10 à 100 M€) : 16160 ménages, patrimoine brut moyen 28000000 €, avant 238000 €, après 370900 €, écart 132900 €
+  T3 (plus de 100 M€) : 1440 ménages, patrimoine brut moyen 735000000 €, avant 6247500 €, après 17637400 €, écart 11389900 €
+
+== 3. Héritage : taux de 60 % au-delà du seuil (héritage reçu à vie par héritier)
+Pareto : alpha 1.82 ; part du dernier millième 3 % du flux
+seuil 1 M€ : héritiers / excédent 17213 / 21.1 Md€ ; statique / net / départs : favorable 1.81 / 1.09 / 258 ; central 1.65 / -0.53 / 689 ; défavorable 1.5 / -2.71 / 2066
+seuil 3 M€ : héritiers / excédent 2343 / 8.6 Md€ ; statique / net / départs : favorable 0.74 / 0.45 / 35 ; central 0.67 / -0.22 / 94 ; défavorable 0.61 / -1.11 / 281
+seuil 5 M€ : héritiers / excédent 927 / 5.7 Md€ ; statique / net / départs : favorable 0.49 / 0.29 / 14 ; central 0.44 / -0.14 / 37 ; défavorable 0.41 / -0.73 / 111
+seuil 10 M€ : héritiers / excédent 264 / 3.2 Md€ ; statique / net / départs : favorable 0.28 / 0.17 / 4 ; central 0.25 / -0.08 / 11 ; défavorable 0.23 / -0.41 / 32
+seuil 30 M€ : héritiers / excédent 36 / 1.3 Md€ ; statique / net / départs : favorable 0.11 / 0.07 / 1 ; central 0.1 / -0.03 / 1 ; défavorable 0.09 / -0.17 / 4
+
+== 4. Montages (Md€/an) : coût actuel ; gain net ; statut
+favorable
+  (a) coût actuel 7 ; gain net 11.85 ; à ajouter 0 ; supprimé et compté (implicite)
+  (b) coût actuel 5.5 ; gain net 5.36 ; à ajouter 0 ; supprimé et compté (implicite)
+  (c) coût actuel 5 ; gain net 4.87 ; à ajouter 0 ; supprimé et compté (implicite)
+  (d) coût actuel 23.58 ; gain net 0 ; à ajouter 0 ; supprimé mais non compté en recette (le crédit contre les droits absorbe tout)
+  (e) coût actuel 4 ; gain net 8.63 ; à ajouter 0 ; supprimé pour le flux futur et compté (N05) ; stock et fin de purge non comptés
+  (f) coût actuel 4 ; gain net 5.19 ; à ajouter 0 ; supprimé et compté (cumul à vie dans la fonction continue)
+  (g) coût actuel 1.8 ; gain net 2.34 ; à ajouter 2.34 ; maintenu (non modélisé) ; trusts déjà taxés à 45 % ou 60 % en droit actuel
+  somme a+b+c+f dans N06 : 27.3
+central
+  (a) coût actuel 5.6 ; gain net 7.75 ; à ajouter 0 ; supprimé et compté (implicite)
+  (b) coût actuel 4 ; gain net 3.18 ; à ajouter 0 ; supprimé et compté (implicite)
+  (c) coût actuel 4.5 ; gain net 3.58 ; à ajouter 0 ; supprimé et compté (implicite)
+  (d) coût actuel 10.69 ; gain net 0 ; à ajouter 0 ; supprimé mais non compté en recette (le crédit contre les droits absorbe tout)
+  (e) coût actuel 4 ; gain net 3.7 ; à ajouter 0 ; supprimé pour le flux futur et compté (N05) ; stock et fin de purge non comptés
+  (f) coût actuel 3 ; gain net 3.18 ; à ajouter 0 ; supprimé et compté (cumul à vie dans la fonction continue)
+  (g) coût actuel 0.72 ; gain net 0.76 ; à ajouter 0.76 ; maintenu (non modélisé) ; trusts déjà taxés à 45 % ou 60 % en droit actuel
+  somme a+b+c+f dans N06 : 17.7
+défavorable
+  (a) coût actuel 4.2 ; gain net 4.16 ; à ajouter 0 ; supprimé et compté (implicite)
+  (b) coût actuel 3.3 ; gain net 1.88 ; à ajouter 0 ; supprimé et compté (implicite)
+  (c) coût actuel 4 ; gain net 2.28 ; à ajouter 0 ; supprimé et compté (implicite)
+  (d) coût actuel 3 ; gain net 0 ; à ajouter 0 ; supprimé mais non compté en recette (le crédit contre les droits absorbe tout)
+  (e) coût actuel 4 ; gain net 0.76 ; à ajouter 0 ; supprimé pour le flux futur et compté (N05) ; stock et fin de purge non comptés
+  (f) coût actuel 1.5 ; gain net 1.14 ; à ajouter 0 ; supprimé et compté (cumul à vie dans la fonction continue)
+  (g) coût actuel 0.24 ; gain net 0.18 ; à ajouter 0.18 ; maintenu (non modélisé) ; trusts déjà taxés à 45 % ou 60 % en droit actuel
+  somme a+b+c+f dans N06 : 9.5

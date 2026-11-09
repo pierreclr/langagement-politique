@@ -1,0 +1,44 @@
+id,grandeur,valeur,unite,annee,perimetre,source,cote,statut
+1,Coût complet système électrique M0 (100 % EnR, sortie nucléaire 2050),77,Md€ (€2021)/an,2060,"production+flexibilité+réseau, CMPC 4 %",RTE FE2050 rapport complet ch.11 fig.11.37 (lu sur la figure),A,à confirmer par lecture visuelle (V18001)
+2,Coût complet M1 (100 % EnR, production diffuse),81,Md€/an,2060,idem,idem,A,à confirmer (V18001)
+3,Coût complet M23 (100 % EnR grands parcs),71,Md€/an,2060,idem,idem,A,
+4,Coût complet N1 (nouveau nucléaire plus limité),66,Md€/an,2060,idem,idem,A,
+5,Coût complet N2 (parc nucléaire total proche de 40 GW),61,Md€/an,2060,idem,idem,A,
+6,Coût complet N03 (scénario le plus nucléaire),59,Md€/an,2060,idem,idem,A,
+7,Coût complet M0 à CMPC 7 %,96,Md€/an,2060,idem,idem,A,
+8,Coût complet M23 à CMPC 7 %,90,Md€/an,2060,idem,idem,A,
+9,Coût complet N2 à CMPC 7 %,82,Md€/an,2060,idem,idem,A,
+10,Coût complet M23 à CMPC 1 %,55,Md€/an,2060,idem,idem,A,
+11,Coût complet N2 à CMPC 1 %,45,Md€/an,2060,idem,idem,A,
+12,Écart M23 moins N2 (référence),10,Md€/an,2060,idem,idem texte 11.6.5.7,A,fourchette 0 à 16
+13,Effet stress test coût nouveau nucléaire = Flamanville 3 sur l'écart M23-N2,6,Md€/an (réduction),2060,idem,idem,A,l'écart reste positif (~4)
+14,Seuil de coût complet du nouveau nucléaire en dessous duquel N2 reste moins cher que M23,110,€/MWh,2060,coût complet,idem,A,100 si EnR peu chères
+15,Investissement à consentir 2020-2060 selon le scénario,750-1000,Md€,40 ans,"production, flexibilité, réseaux",RTE FE2050 principaux résultats p.52,A,soit 20-25 Md€/an
+16,Facture énergétique de la France,61,Md€,2024,importations nettes d'énergie,RTE Bilan prévisionnel 2025 résumé exécutif p.4,A,
+17,Consommation d'électricité 2035 trajectoire lente / rapide,505 / 580,TWh,2035,France,RTE Bilan prévisionnel 2025,A,
+18,Export net d'électricité (record),89,TWh,2024,France,RTE BP2025,A,
+19,Économie possible en priorisant les filières les moins chères en coûts système,3,Md€/an,2030-2035,France,RTE BP2025,A,
+20,Coût EPR2 (6 réacteurs) estimation initiale,51.7,Md€2020,2022,hors financement,Cour des comptes jan. 2025 (via dossier recherche-energie-nucleaire-fusion),A,
+21,Coût EPR2 estimation fin 2023,67.4,Md€2020,2023,hors financement,Cour des comptes jan. 2025,A,
+22,Coût EPR2 estimation EDF déc. 2025 (non audité),72.8,Md€2020,2025,hors financement,"EDF via AFP/Connaissance des énergies 18/12/2025",C,presse ; audit d'État attendu T1 2026 (V18002)
+23,Capex overnight EPR2 implicite,7354,€2020/kW,2025,"72,8 Md€ / 9,9 GW",calcul Claude,estimation,
+24,Capex EPR1 Flamanville 3 (stress test RTE),7900,€2020/kW,2022,hors intérêts intercalaires,RTE FE2050 ch.11,A,
+25,Capex central RTE EPR2 premiers / série,5400 / 4500,€2020/kW,2021,overnight,RTE FE2050 ch.11,A,
+26,Flamanville 3 coût total,23.7,Md€2023,2025,avec financement,Cour des comptes jan. 2025,A,
+27,Prêt d'État bonifié (fonds d'épargne) part du programme,60,%,2026,programme EPR2,Conseil de politique nucléaire 12/03/2026 via AFP/Localtis,C,V18003
+28,Prix garanti plafond (contrat sur la production),100,€2024/MWh,2026,EPR2,idem,C,V18003
+29,Soutien public aux renouvelables électriques et biométhane cumulé,26.3,Md€,2016-2024,charges de service public,Cour des comptes mars 2026 via AFP,B,
+30,Soutien public aux renouvelables 2024 / 2025,3.9 / 7.3,Md€,2024-2025,idem,idem,B,2025 prévisionnel
+31,Engagements à long terme sur renouvelables,87,Md€,2024,fin 2024,idem,B,incertitudes élevées
+32,Dépenses publiques totales,1671.8,Md€,2024,APU consolidé COFOG,Eurostat gov_10a_exp (fichier local) ; grand-livre 1672.6,A,
+33,PIB déduit,2917.6,Md€,2024,France,Eurostat (dépenses / % PIB),A,déduit
+34,Dépenses vieillesse,392.0,Md€,2024,COFOG GF1002,Eurostat,A,
+35,Dépenses santé,261.2,Md€,2024,COFOG GF07,Eurostat,A,
+36,Transactions de la dette publique,58.9,Md€,2024,COFOG GF0107,Eurostat,A,
+37,EPR2 dépense annuelle overnight (central),5.1,Md€2024/an,2027-2042,"72,8 Md€2020 x1,13 / 16 ans",calcul Claude,estimation,voir sources/calculs/nucleaire_budget.py
+38,EPR2 en % des dépenses publiques,0.31,%,2024,central,calcul Claude,estimation,bas 0.28 haut 0.43
+39,EPR2 en % du PIB,0.176,%,2024,central,calcul Claude,estimation,
+40,Grand carénage 2014-2035,100.8,Md€,2014-2035,parc existant,Cour des comptes via presse,C,V18004
+41,LCOE EPR2 à 4 % / 7 %,86 / 141,€/MWh,hypothèses,"CF 85 %, 60 ans, IDC 7 ans",calcul Claude,estimation,
+42,Coût de prolongation du parc existant,42,€/MWh,2022,LCOE,ADEME note feuilleton mix électrique (données Cour des comptes),A/B,
+43,Coût complet du parc existant 2011-2025,61.6,€/MWh,2011-2025,investissement initial amorti,Cour des comptes via Vie publique,B,V18004

@@ -1,0 +1,234 @@
+etat;competence;niveau;role;regles;statut;source;note
+actuel;C01;N-COM;responsable;R019,R058;fait;"CGCT L2122-32 ; code civil art. 55";
+actuel;C02;N-COM;operateur;R020;fait;CGCT L1611-2-1 : réception, saisie et remise des titres;
+actuel;C02;N-ETAT;responsable;;fait;"fiche service-public F1341 ; décret n° 55-1397 du 22/10/1955 (cité par la fiche)";instruction et délivrance par l'État
+actuel;C02;N-OPE;operateur;;fait;fiche F1341 (ANTS : pré-demande, rendez-vous, suivi);
+actuel;C03;N-COM;responsable;R057;fait;"code électoral L17 ; fiche F1367";
+actuel;C04;N-COM;responsable;R035;fait;code de l'éducation L212-4;
+actuel;C04;N-SYN;optionnel;;fait;BANATIC, export du 28/10/2026 (modeles/cartographie-nationale/donnees/syndicats_domaines_chevauchement.csv);179 syndicats déclarent les équipements du premier degré en même temps que leur EPCI
+actuel;C04;N-EPCI;optionnel;;fait;BANATIC, export du 28/10/2026 (modeles/cartographie-nationale/donnees/syndicats_domaines_chevauchement.csv);"compétence déclarée par des EPCI (les 179 chevauchements le supposent) ; nombre d'EPCI non compté"
+actuel;C05;N-ETAT;responsable;R040;fait;code de l'éducation L211-1;
+actuel;C06;N-COM;responsable;;fait;OFGL 2024 via apul.csv : 3,26 Md€ de restauration scolaire (communes de 3 500 hab. ou plus);compétence facultative
+actuel;C06;N-SYN;optionnel;;fait;BANATIC, export du 28/10/2026 (modeles/cartographie-nationale/donnees/syndicats_domaines_chevauchement.csv);336 syndicats en chevauchement avec leur EPCI sur le périscolaire
+actuel;C06;N-EPCI;optionnel;;fait;BANATIC, export du 28/10/2026 (modeles/cartographie-nationale/donnees/syndicats_domaines_chevauchement.csv);
+actuel;C07;N-DEP;responsable;R037;fait;;
+actuel;C07;N-MET;optionnel;R011;fait;CGCT L5217-2 IV 8° (par convention avec le département);
+actuel;C07;N-EPCI;optionnel;R010;fait;CGCT L5215-20 I 1° d (communautés urbaines);
+actuel;C08;N-REG;responsable;R038;fait;;
+actuel;C08;N-EPCI;optionnel;R010;fait;CGCT L5215-20 I 1° d (communautés urbaines);
+actuel;C09;N-ETAT;responsable;R039;fait;"code de l'éducation L531-1 ; fiche F984 (DSDEN)";
+actuel;C10;N-REG;responsable;R048;fait;;
+actuel;C10;N-SYN;operateur;;fait;BANATIC, export du 28/10/2026 (modeles/cartographie-nationale/donnees/syndicats_domaines_chevauchement.csv);228 syndicats organisent des transports scolaires en chevauchement avec leur EPCI
+actuel;C11;N-EPCI;responsable;R046,R009;fait;"code des transports L1231-1 I ; CGCT L5216-5 I 2°";
+actuel;C11;N-MET;responsable;R011;fait;;
+actuel;C11;N-REG;responsable_partiel;R046;fait;L1231-1 II : la région est AOM sur les communautés de communes qui n'ont pas pris la compétence;
+actuel;C11;N-SYN;responsable_partiel;R046;fait;L1231-1 I : syndicats mixtes AOM après transfert;
+actuel;C12;N-REG;responsable;R047;fait;;
+actuel;C13;N-COM;responsable;R050;fait;;
+actuel;C13;N-EPCI;responsable_partiel;R008,R010;fait;"L5214-16 II 3° (voirie d'intérêt communautaire, option) ; L5215-20 I 2° b";
+actuel;C13;N-MET;responsable;R011;fait;L5217-2 I 2° b;
+actuel;C14;N-DEP;responsable;R049;fait;;
+actuel;C14;N-MET;optionnel;R011;fait;L5217-2 IV 9° (routes départementales par convention);
+actuel;C15;N-ETAT;responsable;R051;fait;;
+actuel;C15;N-DEP;optionnel;;⚠️;loi 3DS (2022), transferts de routes nationales : source secondaire (modeles/cartographie-grenoble/competences.md), article non extrait;⚠️ V19003
+actuel;C15;N-REG;optionnel;;⚠️;idem (expérimentation régionale);⚠️ V19003
+actuel;C16;N-EPCI;responsable;R008,R009;fait;"L5214-16 I 5° ; L5216-5 I 7°";
+actuel;C16;N-MET;responsable;R011;fait;L5217-2 I 6° a;
+actuel;C16;N-COM;responsable_partiel;R014;fait;"CGCT L2224-13 (communes ou EPCI) ; propreté urbaine : 1,00 Md€ communes (OFGL 2024)";
+actuel;C16;N-SYN;operateur;R014;fait;L2224-13 : transfert du traitement à un syndicat mixte;
+actuel;C16;N-DEP;optionnel;R014;fait;L2224-13 : le département peut se voir confier le traitement;
+actuel;C17;N-REG;responsable;R061;fait;;
+actuel;C18;N-EPCI;responsable;R009;fait;L5216-5 I 8° à 10° (communautés d'agglomération);
+actuel;C18;N-MET;responsable;R011;fait;L5217-2 I 5° a;
+actuel;C18;N-COM;responsable_partiel;R008;fait;L5214-16 : eau et assainissement facultatifs pour les communautés de communes depuis la loi n° 2025-327 du 11/04/2025;
+actuel;C18;N-SYN;operateur;;fait;BANATIC, export du 28/10/2026 (modeles/cartographie-nationale/donnees/syndicats_domaines_chevauchement.csv);34 syndicats d'eau et 71 d'assainissement en chevauchement avec leur EPCI
+actuel;C19;N-EPCI;responsable;R009;fait;L5216-5 I 8° à 10° (communautés d'agglomération);
+actuel;C19;N-MET;responsable;R011;fait;L5217-2 I 5° a;
+actuel;C19;N-COM;responsable_partiel;R008;fait;L5214-16 : eau et assainissement facultatifs pour les communautés de communes depuis la loi n° 2025-327 du 11/04/2025;
+actuel;C19;N-SYN;operateur;;fait;BANATIC, export du 28/10/2026 (modeles/cartographie-nationale/donnees/syndicats_domaines_chevauchement.csv);34 syndicats d'eau et 71 d'assainissement en chevauchement avec leur EPCI
+actuel;C20;N-EPCI;responsable;R008,R060;fait;L5214-16 I 3°;
+actuel;C20;N-MET;responsable;R011;fait;;
+actuel;C20;N-SYN;operateur;;fait;BANATIC, export du 28/10/2026 (modeles/cartographie-nationale/donnees/syndicats_domaines_chevauchement.csv);6 syndicats GEMAPI en chevauchement
+actuel;C21;N-EPCI;responsable;R008,R009,R045;fait;"L5214-16 I 1° ; L5216-5 I 2° ; code de l'urbanisme L153-1";
+actuel;C21;N-MET;responsable;R011;fait;;
+actuel;C21;N-COM;responsable_partiel;R045;fait;L153-1 : PLU communal là où le PLUi n'a pas été pris;
+actuel;C22;N-COM;responsable;R044;fait;code de l'urbanisme L422-1 a;
+actuel;C22;N-ETAT;responsable_partiel;R044;⚠️;L422-1 (communes sans document d'urbanisme : délivrance au nom de l'État) : alinéa b à relire;⚠️ V19004
+actuel;C22;N-EPCI;operateur;;fait;CRC Auvergne-Rhône-Alpes, déc. 2023 (Grenoble : service commun d'instruction de la métropole) cité dans cartographie-grenoble/competences.md;
+actuel;C23;N-EPCI;responsable;R055,R009;fait;"CCH L302-1 ; L5216-5 I 3°";
+actuel;C23;N-MET;responsable;R011;fait;L5217-2 I 3°;
+actuel;C23;N-REG;partage;R007;fait;CGCT L4221-1 : soutien à l'accès au logement;
+actuel;C23;N-DEP;responsable_partiel;R011;fait;fonds de solidarité pour le logement (L5217-2 IV 1° le cite comme compétence départementale);
+actuel;C23;N-COM;operateur;R056;fait;CCH L441-2-1 : enregistrement des demandes (guichets enregistreurs);
+actuel;C24;N-ETAT;responsable;R032;fait;CCH L821-1;
+actuel;C24;N-SECU;operateur;;fait;fiche F12006 (Caf, MSA);
+actuel;C25;N-DEP;responsable;R023;fait;CASF L262-13 : attribution par le président du conseil départemental;
+actuel;C25;N-SECU;operateur;R024;fait;"CASF L262-15 ; fiche F19778 (Caf, MSA)";
+actuel;C25;N-COM;operateur;R024,R030;fait;L262-15 : instruction possible par le CCAS;
+actuel;C25;N-OPE;operateur;R024,R053;fait;L262-15 et code du travail L5312-1 (France Travail);
+actuel;C26;N-SECU;operateur;R034;fait;fiche F2882 (Caf, MSA);
+actuel;C26;N-ETAT;responsable;;⚠️;financement par l'État : article non extrait;⚠️ V19005
+actuel;C27;N-SECU;responsable;R033;fait;"CSS L521-1 ; fiche F13213";
+actuel;C28;N-DEP;responsable;R025,R026;fait;"CASF L146-3 (une MDPH par département) ; L241-6 (CDAPH)";
+actuel;C29;N-ETAT;responsable;R031;fait;"CSS L821-1 ; financement : programme 157 du budget de l'État (grand livre, etat.csv)";
+actuel;C29;N-SECU;operateur;;fait;fiche F12242 (versement par la Caf ou la MSA);
+actuel;C29;N-DEP;partage;R026;fait;la CDAPH de la MDPH décide de l'éligibilité (fiche F12242);
+actuel;C30;N-DEP;responsable;R028;fait;;
+actuel;C30;N-SECU;finance;;fait;modeles/grand-livre/asso.csv GL-ASSO-D731-CNSA-DEP : concours de la CNSA aux départements (APA, PCH), 5,409 Md€ en 2024;
+actuel;C31;N-DEP;responsable;R027,R064;fait;;
+actuel;C31;N-SECU;finance;;fait;modeles/grand-livre/asso.csv GL-ASSO-D731-CNSA-DEP;
+actuel;C31;N-COM;operateur;;fait;"fiche F10009 (CASVP à Paris ; points d'information locaux)";
+actuel;C32;N-DEP;responsable;R029;fait;;
+actuel;C32;N-MET;optionnel;R011;fait;L5217-2 IV 5° (prévention spécialisée);
+actuel;C33;N-DEP;responsable;R054;fait;;
+actuel;C34;N-DEP;chef_de_file;R003,R022;fait;"CGCT L1111-9 III 1° ; CASF L121-1";
+actuel;C34;N-COM;responsable_partiel;R030;fait;CASF L123-5 (CCAS);
+actuel;C34;N-EPCI;optionnel;R008;fait;L5214-16 II 5° (action sociale d'intérêt communautaire);
+actuel;C34;N-MET;optionnel;R011;fait;L5217-2 IV 2°, 4°, 6°;
+actuel;C35;N-OPE;responsable;R053;fait;code du travail L5312-1 (France Travail);
+actuel;C35;N-DEP;partage;R011;fait;programme départemental d'insertion (L5217-2 IV 3° le cite comme compétence départementale);
+actuel;C36;N-REG;responsable;R052;fait;;
+actuel;C36;N-OPE;partage;;fait;modeles/grand-livre/instances.csv INS-OP-104 (France Compétences, 15,18 Md€ de charges en 2024);
+actuel;C37;N-REG;responsable;R012,R013;fait;"CGCT L1511-2 (aides aux entreprises) ; L4251-12 (SRDEII)";
+actuel;C37;N-EPCI;responsable_partiel;R008,R009;fait;"zones d'activité et actions de développement économique (L5214-16 I 2° ; L5216-5 I 1°)";
+actuel;C37;N-MET;responsable_partiel;R011;fait;L5217-2 I 1° a et b;
+actuel;C38;N-COM;partage;R002;fait;CGCT L1111-4;
+actuel;C38;N-DEP;partage;R002;fait;CGCT L1111-4;
+actuel;C38;N-REG;partage;R002;fait;CGCT L1111-4;
+actuel;C38;N-EPCI;responsable_partiel;R008,R009;fait;promotion du tourisme et offices de tourisme;
+actuel;C38;N-MET;responsable_partiel;R011;fait;;
+actuel;C39;N-COM;partage;R002;fait;CGCT L1111-4;
+actuel;C39;N-DEP;partage;R002;fait;CGCT L1111-4;
+actuel;C39;N-REG;partage;R002;fait;CGCT L1111-4;
+actuel;C39;N-ETAT;responsable_partiel;;fait;"modeles/grand-livre/etat.csv (missions Culture ; Sport, jeunesse et vie associative)";
+actuel;C39;N-EPCI;optionnel;R010;fait;équipements culturels et sportifs d'intérêt communautaire (L5215-20 I 1° c);
+actuel;C39;N-MET;optionnel;R011;fait;L5217-2 I 1° c;
+actuel;C40;N-COM;partage;R002;fait;CGCT L1111-4;
+actuel;C40;N-DEP;partage;R002;fait;CGCT L1111-4;
+actuel;C40;N-REG;partage;R002;fait;CGCT L1111-4;
+actuel;C40;N-ETAT;responsable_partiel;;fait;"modeles/grand-livre/etat.csv (missions Culture ; Sport, jeunesse et vie associative)";
+actuel;C40;N-EPCI;optionnel;R010;fait;équipements culturels et sportifs d'intérêt communautaire (L5215-20 I 1° c);
+actuel;C40;N-MET;optionnel;R011;fait;L5217-2 I 1° c;
+actuel;C41;N-COM;responsable;R041,R043;fait;code du patrimoine L212-6 et L212-11;
+actuel;C41;N-EPCI;optionnel;R043;fait;L212-11 : dépôt des archives des communes de moins de 2 000 hab. au groupement;
+actuel;C41;N-DEP;responsable;R042;fait;L212-8 : archives départementales, qui reçoivent aussi celles des services de l'État;
+actuel;C41;N-REG;responsable;R041;fait;L212-6 (les régions peuvent confier leurs archives au département);
+actuel;C41;N-ETAT;controle;R041;fait;L212-6 : contrôle scientifique et technique de l'administration des archives;
+actuel;C42;N-DEP;responsable;R017;fait;"CGCT L1424-1 ; dépenses : 3,25 Md€ des départements (OFGL 2024)";
+actuel;C42;N-MET;responsable_partiel;R011;fait;L5217-2 I 5° d;
+actuel;C42;N-COM;finance;;fait;modeles/grand-livre/apul.csv : contributions des communes au SDIS (flux GL-APUL-COM-C35-securite-e-incendie-et-secours, 0,86 Md€);
+actuel;C42;N-EPCI;finance;;fait;modeles/grand-livre/apul.csv : contributions des EPCI au SDIS (1,42 Md€);
+actuel;C43;N-ETAT;responsable;;fait;modeles/grand-livre/etat.csv (mission Sécurités : police et gendarmerie nationales);
+actuel;C43;N-COM;responsable_partiel;R018;fait;CGCT L2212-2 (police municipale du maire);
+actuel;C44;N-COM;responsable;R059;fait;;
+actuel;C44;N-EPCI;optionnel;R010;fait;L5215-20 I 5° b (intérêt communautaire);
+actuel;C44;N-MET;optionnel;R011;fait;L5217-2 I 5° b;
+actuel;C45;N-EPCI;responsable;R008,R009;fait;;
+actuel;C45;N-MET;responsable;R011;fait;;
+actuel;C46;N-EPCI;responsable;R009,R010;fait;;
+actuel;C46;N-MET;responsable;R011;fait;;
+actuel;C46;N-REG;partage;R007;fait;CGCT L4221-1 : soutien à la politique de la ville;
+actuel;C47;N-MET;responsable;R011;fait;L5217-2 I 6° (concessions, réseaux de chaleur, plan climat);
+actuel;C47;N-REG;chef_de_file;R003;fait;L1111-9 II 3° (climat, air, énergie);
+actuel;C48;N-REG;responsable;R003;fait;L1111-9 II 1° et 2°;
+actuel;C49;N-SECU;responsable;;fait;modeles/grand-livre/asso.csv (CNAM);
+actuel;C50;N-SECU;responsable;R066;fait;"CSS L161-17-1-2 (régimes de base et complémentaires) ; fiche F13941";
+actuel;C50;N-ETAT;responsable_partiel;R066;fait;L161-17-1-2 : services de l'État chargés de la liquidation des pensions;
+actuel;C51;N-SECU;responsable;R067;fait;"code du travail L1221-10 ; fiche F23107";
+actuel;C52;N-ETAT;responsable;;fait;fiche F358 (service des impôts des particuliers);
+actuel;C53;N-OPE;responsable;R068;fait;"code de commerce L123-33 ; fiche F36746 (guichet des formalités des entreprises)";
+actuel;C53;N-OPE;operateur;;fait;fiche F36746 (chambres de métiers, de commerce, d'agriculture : aide);
+actuel;C54;N-ETAT;responsable;;fait;fiche F1050;
+actuel;C54;N-OPE;operateur;;fait;fiche F1050 (ANTS);
+actuel;C55;N-COM;chef_de_file;R003;fait;L1111-9 IV 2° (organisation des services publics de proximité);
+actuel;C55;N-EPCI;optionnel;R008;fait;L5214-16 II 8° (participation à une convention France Services);
+actuel;C55;N-DEP;partage;R006;fait;CGCT L3211-1 : faciliter l'accès aux droits et aux services;
+actuel;C55;N-OPE;operateur;;fait;ANCT, page France services (consultée le 06/11/2026) : programme piloté par l'ANCT, 12 opérateurs partenaires;
+actuel;C55;N-SECU;operateur;;fait;fiches F12006, F19778, F13213 (accueils des caisses);
+actuel;C56;N-REG;chef_de_file;R003;fait;L1111-9 II 4°;
+actuel;C56;N-COM;partage;R002;fait;"CGCT L1111-4 (éducation populaire ; politiques de jeunesse de l'État et des collectivités)";
+actuel;C56;N-DEP;partage;R002;fait;"CGCT L1111-4 (éducation populaire ; politiques de jeunesse de l'État et des collectivités)";
+actuel;C56;N-ETAT;partage;R002;fait;"CGCT L1111-4 (éducation populaire ; politiques de jeunesse de l'État et des collectivités)";
+actuel;C57;N-ETAT;responsable;;fait;modeles/grand-livre/odac.csv (ARS);
+actuel;C57;N-DEP;partage;R006;fait;L3211-1 : accès aux soins de proximité;
+actuel;C57;N-REG;partage;R007;fait;L4221-1 : développement sanitaire;
+actuel;C58;N-COM;responsable_partiel;;⚠️;"OFGL 2024 (apul.csv, coopération décentralisée : régions 2,84 Md€) ; article CGCT non extrait";⚠️ V19007
+actuel;C58;N-DEP;responsable_partiel;;⚠️;"OFGL 2024 (apul.csv, coopération décentralisée : régions 2,84 Md€) ; article CGCT non extrait";⚠️ V19007
+actuel;C58;N-REG;responsable_partiel;;⚠️;"OFGL 2024 (apul.csv, coopération décentralisée : régions 2,84 Md€) ; article CGCT non extrait";⚠️ V19007
+actuel;C59;N-COM;responsable_partiel;;fait;"chaque personne publique gère ses propres systèmes d'information (constat d'organisation) ; document de travail de l'atelier, non publié (28/10/2026)";compétence de fait, non attribuée par un texte
+actuel;C59;N-EPCI;responsable_partiel;;fait;"chaque personne publique gère ses propres systèmes d'information (constat d'organisation) ; document de travail de l'atelier, non publié (28/10/2026)";compétence de fait, non attribuée par un texte
+actuel;C59;N-DEP;responsable_partiel;;fait;"chaque personne publique gère ses propres systèmes d'information (constat d'organisation) ; document de travail de l'atelier, non publié (28/10/2026)";compétence de fait, non attribuée par un texte
+actuel;C59;N-REG;responsable_partiel;;fait;"chaque personne publique gère ses propres systèmes d'information (constat d'organisation) ; document de travail de l'atelier, non publié (28/10/2026)";compétence de fait, non attribuée par un texte
+actuel;C59;N-ETAT;responsable_partiel;;fait;"chaque personne publique gère ses propres systèmes d'information (constat d'organisation) ; document de travail de l'atelier, non publié (28/10/2026)";compétence de fait, non attribuée par un texte
+actuel;C59;N-OPE;responsable_partiel;;fait;"chaque personne publique gère ses propres systèmes d'information (constat d'organisation) ; document de travail de l'atelier, non publié (28/10/2026)";compétence de fait, non attribuée par un texte
+actuel;C59;N-SECU;responsable_partiel;;fait;"chaque personne publique gère ses propres systèmes d'information (constat d'organisation) ; document de travail de l'atelier, non publié (28/10/2026)";compétence de fait, non attribuée par un texte
+propose;C01;P-PROX;responsable;;hypothèse;"scénario P1 (SCHEMA.md, hypothèses) ; document de travail de l'atelier, non publié (06/11/2026, 19 h 44)";"H1 ; "
+propose;C01;P-PLAT;operateur;;hypothèse;"scénario P1 (SCHEMA.md, hypothèses) ; document de travail de l'atelier, non publié (06/11/2026, 19 h 44)";registre national d'état civil
+propose;C02;P-ETAT;responsable;;hypothèse;"scénario P1 (SCHEMA.md, hypothèses) ; document de travail de l'atelier, non publié (06/11/2026, 19 h 44)";
+propose;C02;P-PROX;operateur;;hypothèse;"scénario P1 (SCHEMA.md, hypothèses) ; document de travail de l'atelier, non publié (06/11/2026, 19 h 44)";recueil des demandes
+propose;C02;P-PLAT;operateur;;hypothèse;"scénario P1 (SCHEMA.md, hypothèses) ; document de travail de l'atelier, non publié (06/11/2026, 19 h 44)";ANTS absorbée (instances.csv INS-OP-022)
+propose;C03;P-PROX;responsable;;hypothèse;"scénario P1 (SCHEMA.md, hypothèses) ; document de travail de l'atelier, non publié (06/11/2026, 19 h 44)";
+propose;C03;P-PLAT;operateur;;hypothèse;"scénario P1 (SCHEMA.md, hypothèses) ; document de travail de l'atelier, non publié (06/11/2026, 19 h 44)";
+propose;C04;P-PROX;responsable;;hypothèse;"scénario P1 (SCHEMA.md, hypothèses) ; document de travail de l'atelier, non publié (06/11/2026, 19 h 44)";"H1 ; "
+propose;C05;P-ETAT;responsable;;hypothèse;"scénario P1 (SCHEMA.md, hypothèses) ; document de travail de l'atelier, non publié (06/11/2026, 19 h 44)";
+propose;C06;P-PROX;responsable;;hypothèse;"scénario P1 (SCHEMA.md, hypothèses) ; document de travail de l'atelier, non publié (06/11/2026, 19 h 44)";"H1 ; "
+propose;C07;P-REG;responsable;;hypothèse;"scénario P1 (SCHEMA.md, hypothèses) ; document de travail de l'atelier, non publié (06/11/2026, 19 h 44)";"H3 ; collèges et lycées réunis"
+propose;C08;P-REG;responsable;;hypothèse;"scénario P1 (SCHEMA.md, hypothèses) ; document de travail de l'atelier, non publié (06/11/2026, 19 h 44)";"H3 ; "
+propose;C09;P-ETAT;responsable;;hypothèse;"scénario P1 (SCHEMA.md, hypothèses) ; document de travail de l'atelier, non publié (06/11/2026, 19 h 44)";
+propose;C09;P-PLAT;operateur;;hypothèse;"scénario P1 (SCHEMA.md, hypothèses) ; document de travail de l'atelier, non publié (06/11/2026, 19 h 44)";
+propose;C10;P-REG;responsable;;hypothèse;"scénario P1 (SCHEMA.md, hypothèses) ; document de travail de l'atelier, non publié (06/11/2026, 19 h 44)";
+propose;C11;P-PROX;responsable;;hypothèse;"scénario P1 (SCHEMA.md, hypothèses) ; document de travail de l'atelier, non publié (06/11/2026, 19 h 44)";"H1 ; "
+propose;C12;P-REG;responsable;;hypothèse;"scénario P1 (SCHEMA.md, hypothèses) ; document de travail de l'atelier, non publié (06/11/2026, 19 h 44)";
+propose;C13;P-PROX;responsable;;hypothèse;"scénario P1 (SCHEMA.md, hypothèses) ; document de travail de l'atelier, non publié (06/11/2026, 19 h 44)";"H1 ; "
+propose;C14;P-REG;responsable;;hypothèse;"scénario P1 (SCHEMA.md, hypothèses) ; document de travail de l'atelier, non publié (06/11/2026, 19 h 44)";"H3 ; "
+propose;C15;P-ETAT;responsable;;hypothèse;"scénario P1 (SCHEMA.md, hypothèses) ; document de travail de l'atelier, non publié (06/11/2026, 19 h 44)";
+propose;C16;P-PROX;responsable;;hypothèse;"scénario P1 (SCHEMA.md, hypothèses) ; document de travail de l'atelier, non publié (06/11/2026, 19 h 44)";"H1 ; à l'échelle de l'intercommunalité actuelle"
+propose;C18;P-PROX;responsable;;hypothèse;"scénario P1 (SCHEMA.md, hypothèses) ; document de travail de l'atelier, non publié (06/11/2026, 19 h 44)";"H1 ; à l'échelle de l'intercommunalité actuelle"
+propose;C19;P-PROX;responsable;;hypothèse;"scénario P1 (SCHEMA.md, hypothèses) ; document de travail de l'atelier, non publié (06/11/2026, 19 h 44)";"H1 ; à l'échelle de l'intercommunalité actuelle"
+propose;C20;P-PROX;responsable;;hypothèse;"scénario P1 (SCHEMA.md, hypothèses) ; document de travail de l'atelier, non publié (06/11/2026, 19 h 44)";"H1 ; à l'échelle de l'intercommunalité actuelle"
+propose;C21;P-PROX;responsable;;hypothèse;"scénario P1 (SCHEMA.md, hypothèses) ; document de travail de l'atelier, non publié (06/11/2026, 19 h 44)";"H1 ; à l'échelle de l'intercommunalité actuelle"
+propose;C22;P-PROX;responsable;;hypothèse;"scénario P1 (SCHEMA.md, hypothèses) ; document de travail de l'atelier, non publié (06/11/2026, 19 h 44)";"H1 ; à l'échelle de l'intercommunalité actuelle"
+propose;C23;P-PROX;responsable;;hypothèse;"scénario P1 (SCHEMA.md, hypothèses) ; document de travail de l'atelier, non publié (06/11/2026, 19 h 44)";"H1 ; à l'échelle de l'intercommunalité actuelle"
+propose;C17;P-REG;responsable;;hypothèse;"scénario P1 (SCHEMA.md, hypothèses) ; document de travail de l'atelier, non publié (06/11/2026, 19 h 44)";
+propose;C28;P-SECU;responsable;;hypothèse;"scénario P1 (SCHEMA.md, hypothèses) ; document de travail de l'atelier, non publié (06/11/2026, 19 h 44)";"H5 ; branche autonomie unifiée (ex-MDPH, ex-CNSA)"
+propose;C28;P-PROX;operateur;;hypothèse;"scénario P1 (SCHEMA.md, hypothèses) ; document de travail de l'atelier, non publié (06/11/2026, 19 h 44)";"H4 ; dépôt, accompagnement, évaluation de proximité"
+propose;C30;P-SECU;responsable;;hypothèse;"scénario P1 (SCHEMA.md, hypothèses) ; document de travail de l'atelier, non publié (06/11/2026, 19 h 44)";"H5 ; "
+propose;C31;P-SECU;responsable;;hypothèse;"scénario P1 (SCHEMA.md, hypothèses) ; document de travail de l'atelier, non publié (06/11/2026, 19 h 44)";"H5 ; "
+propose;C31;P-PROX;operateur;;hypothèse;"scénario P1 (SCHEMA.md, hypothèses) ; document de travail de l'atelier, non publié (06/11/2026, 19 h 44)";"H4 ; "
+propose;C32;P-PROX;responsable;;hypothèse;"scénario P1 (SCHEMA.md, hypothèses) ; document de travail de l'atelier, non publié (06/11/2026, 19 h 44)";"H6 ; "
+propose;C33;P-PROX;responsable;;hypothèse;"scénario P1 (SCHEMA.md, hypothèses) ; document de travail de l'atelier, non publié (06/11/2026, 19 h 44)";"H6 ; "
+propose;C34;P-PROX;responsable;;hypothèse;"scénario P1 (SCHEMA.md, hypothèses) ; document de travail de l'atelier, non publié (06/11/2026, 19 h 44)";"H6 ; "
+propose;C35;P-ETAT;responsable;;hypothèse;"scénario P1 (SCHEMA.md, hypothèses) ; document de travail de l'atelier, non publié (06/11/2026, 19 h 44)";"service public de l'emploi ; sort de France Travail « à examiner » (instances.csv)"
+propose;C35;P-PROX;operateur;;hypothèse;"scénario P1 (SCHEMA.md, hypothèses) ; document de travail de l'atelier, non publié (06/11/2026, 19 h 44)";"H4 ; "
+propose;C36;P-ETAT;responsable;;hypothèse;"scénario P1 (SCHEMA.md, hypothèses) ; document de travail de l'atelier, non publié (06/11/2026, 19 h 44)";"guichet unique de la formation (instances.csv, cible) ; arbitrage 48"
+propose;C37;P-REG;responsable;;hypothèse;"scénario P1 (SCHEMA.md, hypothèses) ; document de travail de l'atelier, non publié (06/11/2026, 19 h 44)";
+propose;C38;P-REG;responsable;;hypothèse;"scénario P1 (SCHEMA.md, hypothèses) ; document de travail de l'atelier, non publié (06/11/2026, 19 h 44)";promotion
+propose;C38;P-PROX;operateur;;hypothèse;"scénario P1 (SCHEMA.md, hypothèses) ; document de travail de l'atelier, non publié (06/11/2026, 19 h 44)";animation locale
+propose;C39;P-PROX;responsable;;hypothèse;"scénario P1 (SCHEMA.md, hypothèses) ; document de travail de l'atelier, non publié (06/11/2026, 19 h 44)";"H1 ; "
+propose;C39;P-ETAT;operateur;;hypothèse;"scénario P1 (SCHEMA.md, hypothèses) ; document de travail de l'atelier, non publié (06/11/2026, 19 h 44)";établissements nationaux
+propose;C40;P-PROX;responsable;;hypothèse;"scénario P1 (SCHEMA.md, hypothèses) ; document de travail de l'atelier, non publié (06/11/2026, 19 h 44)";"H1 ; "
+propose;C40;P-ETAT;operateur;;hypothèse;"scénario P1 (SCHEMA.md, hypothèses) ; document de travail de l'atelier, non publié (06/11/2026, 19 h 44)";sport de haut niveau
+propose;C41;P-ETAT;responsable;;hypothèse;"scénario P1 (SCHEMA.md, hypothèses) ; document de travail de l'atelier, non publié (06/11/2026, 19 h 44)";"H7 ; plateforme nationale unique des archives (registre des positions de l'auteur (non publié), archives)"
+propose;C41;P-PROX;operateur;;hypothèse;"scénario P1 (SCHEMA.md, hypothèses) ; document de travail de l'atelier, non publié (06/11/2026, 19 h 44)";archives courantes
+propose;C42;P-REG;responsable;;hypothèse;"scénario P1 (SCHEMA.md, hypothèses) ; document de travail de l'atelier, non publié (06/11/2026, 19 h 44)";"H3 ; SDIS régionaux (alternative : État)"
+propose;C43;P-ETAT;responsable;;hypothèse;"scénario P1 (SCHEMA.md, hypothèses) ; document de travail de l'atelier, non publié (06/11/2026, 19 h 44)";
+propose;C43;P-PROX;operateur;;hypothèse;"scénario P1 (SCHEMA.md, hypothèses) ; document de travail de l'atelier, non publié (06/11/2026, 19 h 44)";police municipale
+propose;C44;P-PROX;responsable;;hypothèse;"scénario P1 (SCHEMA.md, hypothèses) ; document de travail de l'atelier, non publié (06/11/2026, 19 h 44)";"H1 ; "
+propose;C45;P-PROX;responsable;;hypothèse;"scénario P1 (SCHEMA.md, hypothèses) ; document de travail de l'atelier, non publié (06/11/2026, 19 h 44)";"H1 ; "
+propose;C46;P-PROX;responsable;;hypothèse;"scénario P1 (SCHEMA.md, hypothèses) ; document de travail de l'atelier, non publié (06/11/2026, 19 h 44)";"H1 ; "
+propose;C47;P-PROX;responsable;;hypothèse;"scénario P1 (SCHEMA.md, hypothèses) ; document de travail de l'atelier, non publié (06/11/2026, 19 h 44)";"H1 ; "
+propose;C56;P-PROX;responsable;;hypothèse;"scénario P1 (SCHEMA.md, hypothèses) ; document de travail de l'atelier, non publié (06/11/2026, 19 h 44)";"H1 ; "
+propose;C48;P-REG;responsable;;hypothèse;"scénario P1 (SCHEMA.md, hypothèses) ; document de travail de l'atelier, non publié (06/11/2026, 19 h 44)";
+propose;C49;P-SECU;responsable;;hypothèse;"scénario P1 (SCHEMA.md, hypothèses) ; document de travail de l'atelier, non publié (06/11/2026, 19 h 44)";
+propose;C50;P-SECU;responsable;;hypothèse;"scénario P1 (SCHEMA.md, hypothèses) ; document de travail de l'atelier, non publié (06/11/2026, 19 h 44)";régime unique de retraite (instances.csv)
+propose;C53;P-PLAT;responsable;;hypothèse;"scénario P1 (SCHEMA.md, hypothèses) ; document de travail de l'atelier, non publié (06/11/2026, 19 h 44)";guichet unique des formalités
+propose;C54;P-ETAT;responsable;;hypothèse;"scénario P1 (SCHEMA.md, hypothèses) ; document de travail de l'atelier, non publié (06/11/2026, 19 h 44)";
+propose;C54;P-PLAT;operateur;;hypothèse;"scénario P1 (SCHEMA.md, hypothèses) ; document de travail de l'atelier, non publié (06/11/2026, 19 h 44)";
+propose;C55;P-PROX;responsable;;hypothèse;"scénario P1 (SCHEMA.md, hypothèses) ; document de travail de l'atelier, non publié (06/11/2026, 19 h 44)";"H4 ; guichet universel outillé par l'État"
+propose;C55;P-PLAT;operateur;;hypothèse;"scénario P1 (SCHEMA.md, hypothèses) ; document de travail de l'atelier, non publié (06/11/2026, 19 h 44)";outils et données
+propose;C57;P-ETAT;responsable;;hypothèse;"scénario P1 (SCHEMA.md, hypothèses) ; document de travail de l'atelier, non publié (06/11/2026, 19 h 44)";santé centralisée (registre des positions de l'auteur (non publié), 06/11)
+propose;C57;P-PROX;operateur;;hypothèse;"scénario P1 (SCHEMA.md, hypothèses) ; document de travail de l'atelier, non publié (06/11/2026, 19 h 44)";
+propose;C58;P-REG;responsable;;hypothèse;"scénario P1 (SCHEMA.md, hypothèses) ; document de travail de l'atelier, non publié (06/11/2026, 19 h 44)";non tranché
+propose;C59;P-PLAT;responsable;;hypothèse;"scénario P1 (SCHEMA.md, hypothèses) ; document de travail de l'atelier, non publié (06/11/2026, 19 h 44)";"H9 ; entreprise d'État de la technologie (instances.csv, cible) ; agence nationale du cyberespace (registre des positions de l'auteur (non publié), 28/10)"
+propose;C60;P-PLAT;responsable;;hypothèse;document de travail de l'atelier, non publié;"H8 ; "
+propose;C61;P-PLAT;responsable;;hypothèse;document de travail de l'atelier, non publié;

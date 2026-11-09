@@ -1,0 +1,89 @@
+## A. Pensions : moyenne, queue, effectifs concernés par seuil (nets 2025 = nets 2020 × 1.155)
+pension moyenne nette 2025 : 1743 €/mois ; exposant de queue 3,9
+seuil 2000 : 33,4 % des retraités (5,5 M) ; excédent total 58,5 Md€/an (pension seule, brut de toute fuite)
+seuil 2500 : 17,8 % des retraités (2,9 M) ; excédent total 34,1 Md€/an (pension seule, brut de toute fuite)
+seuil 3000 : 9,6 % des retraités (1,6 M) ; excédent total 21 Md€/an (pension seule, brut de toute fuite)
+seuil 4000 : 3,5 % des retraités (0,6 M) ; excédent total 9,2 Md€/an (pension seule, brut de toute fuite)
+
+## B. Contribution (Md€/an) : seuil S × taux sur l'excédent, base pension seule ou pension + capital (majoration capital +10 pts), brute / nette bas / central / haut
+S 2000 taux 10 % | pension seule : brut 5,9, net 5,7 / 5,4 / 5 | + capital (maj 0) : brut 11,1, net 10,4 / 9,3 / 8,1 | + capital (maj +10) : brut 16,3 (dont capital 10,4), net 15,1 / 13,2 / 11,2 | concernés 8,2 M (49 %)
+S 2000 taux 20 % | pension seule : brut 11,7, net 11,4 / 10,8 / 10 | + capital (maj 0) : brut 22,2, net 20,8 / 18,6 / 16,2 | + capital (maj +10) : brut 27,4 (dont capital 15,7), net 25,5 / 22,5 / 19,4 | concernés 8,2 M (49 %)
+S 2000 taux 30 % | pension seule : brut 17,6, net 17 / 16,2 / 14,9 | + capital (maj 0) : brut 33,2, net 31,1 / 27,9 / 24,3 | + capital (maj +10) : brut 38,4 (dont capital 20,9), net 35,8 / 31,8 / 27,5 | concernés 8,2 M (49 %)
+S 2500 taux 10 % | pension seule : brut 3,4, net 3,3 / 3,1 / 2,9 | + capital (maj 0) : brut 7,2, net 6,7 / 6 / 5,2 | + capital (maj +10) : brut 11 (dont capital 7,6), net 10,1 / 8,8 / 7,5 | concernés 4,9 M (30 %)
+S 2500 taux 20 % | pension seule : brut 6,8, net 6,6 / 6,3 / 5,8 | + capital (maj 0) : brut 14,4, net 13,4 / 12 / 10,4 | + capital (maj +10) : brut 18,2 (dont capital 11,4), net 16,9 / 14,8 / 12,6 | concernés 4,9 M (30 %)
+S 2500 taux 30 % | pension seule : brut 10,2, net 9,9 / 9,4 / 8,7 | + capital (maj 0) : brut 21,6, net 20,2 / 18 / 15,5 | + capital (maj +10) : brut 25,4 (dont capital 15,2), net 23,6 / 20,8 / 17,8 | concernés 4,9 M (30 %)
+S 3000 taux 10 % | pension seule : brut 2,1, net 2 / 1,9 / 1,8 | + capital (maj 0) : brut 4,8, net 4,5 / 3,9 / 3,4 | + capital (maj +10) : brut 7,5 (dont capital 5,4), net 6,9 / 6 / 5 | concernés 3,3 M (20 %)
+S 3000 taux 20 % | pension seule : brut 4,2, net 4,1 / 3,9 / 3,6 | + capital (maj 0) : brut 9,6, net 8,9 / 7,9 / 6,8 | + capital (maj +10) : brut 12,3 (dont capital 8,1), net 11,3 / 9,9 / 8,4 | concernés 3,3 M (20 %)
+S 3000 taux 30 % | pension seule : brut 6,3, net 6,1 / 5,8 / 5,3 | + capital (maj 0) : brut 14,4, net 13,4 / 11,8 / 10,2 | + capital (maj +10) : brut 17,1 (dont capital 10,8), net 15,8 / 13,9 / 11,8 | concernés 3,3 M (20 %)
+
+## C. Minimum garanti : coût (Md€/an, ASPA comprise) et surcoût vs ASPA actuelle
+minimum 1044 € : manque moyen 116 €/mois par retraité ; coût 4,6 ; surcoût 0
+minimum 1100 € : manque moyen 130,7 €/mois par retraité ; coût 5,2 ; surcoût 0,6
+minimum 1200 € : manque moyen 159,9 €/mois par retraité ; coût 6,3 ; surcoût 1,7
+minimum 1300 € : manque moyen 193 €/mois par retraité ; coût 7,7 ; surcoût 3,1
+minimum 1400 € : manque moyen 230,4 €/mois par retraité ; coût 9,1 ; surcoût 4,5
+
+## D. Fraude : recettes nettes (Md€/an) bas / central / haut avec 2000 postes : 2,8 / 1,4 / 0,5
+   sensibilité aux postes (central) : 1 000 → 0,7 ; 5 000 → 3,5
+
+## E. Hauts salaires : masse au-dessus de seuils (secteur privé, 2023, Pareto entre D9, top 1 % et top 0,1 %)
+> 4000 € nets/mois : 12,1 % des salariés (3275 k) ; masse nette 252 Md€/an ; excédent au-dessus du seuil 94,7 Md€/an
+> 6000 € nets/mois : 4,1 % des salariés (1114 k) ; masse nette 129 Md€/an ; excédent au-dessus du seuil 48,3 Md€/an
+> 10000 € nets/mois : 1,1 % des salariés (286 k) ; masse nette 55 Md€/an ; excédent au-dessus du seuil 20,7 Md€/an
+Recettes du modèle : t_max 30 → 40 % : 13,6 Md€ ; 30 → 45 % : 13,3 Md€ (central, plat 40 %, socle 650, rétroactions comprises)
+
+## F. Socle maximal finançable (non retraités), plafond de taux marginal 70 % : équilibre (solde central avec santé ≥ 0) | Δ ≥ 0 ; personnel / IS + dividende
+colonnes : équilibre personnel | équilibre IS+div | Δ≥0 personnel | Δ≥0 IS+div | recettes nouvelles bas/central/haut (Md€)
+R (référence : fraude comprise, aucune contribution) | 483 | 235 | 840 | 595 | recettes R2 2,8 / 1,4 / 0,5
+R2 S 2000 taux 10 % pension + capital (+10 pts) | 511 | 263 | 867 | 623 | recettes R2 17,9 / 14,6 / 11,7
+R2 S 2000 taux 20 % pension + capital (+10 pts) | 531 | 283 | 886 | 643 | recettes R2 28,3 / 23,9 / 19,9
+R2 S 2000 taux 30 % pension + capital (+10 pts) | 551 | 302 | 905 | 663 | recettes R2 38,6 / 33,2 / 28
+R2 S 2500 taux 10 % pension + capital (+10 pts) | 502 | 253 | 858 | 614 | recettes R2 12,9 / 10,2 / 8
+R2 S 2500 taux 20 % pension + capital (+10 pts) | 515 | 266 | 870 | 627 | recettes R2 19,7 / 16,2 / 13,1
+R2 S 2500 taux 30 % pension + capital (+10 pts) | 527 | 279 | 882 | 639 | recettes R2 26,4 / 22,2 / 18,3
+R2 S 3000 taux 10 % pension + capital (+10 pts) | 496 | 247 | 852 | 608 | recettes R2 9,7 / 7,4 / 5,5
+R2 S 3000 taux 20 % pension + capital (+10 pts) | 504 | 256 | 860 | 616 | recettes R2 14,1 / 11,3 / 8,9
+R2 S 3000 taux 30 % pension + capital (+10 pts) | 513 | 264 | 868 | 625 | recettes R2 18,6 / 15,3 / 12,3
+R2 S 2500 taux 20 % pension seule | 497 | 248 | 853 | 608 | recettes R2 9,4 / 7,7 / 6,3
+R2 S 2500 taux 20 % capital sans majoration | 509 | 260 | 864 | 620 | recettes R2 16,2 / 13,4 / 10,9
+R2 S 2500 taux 20 % + minimum garanti 1 200 € | 511 | 262 | 867 | 623 | recettes R2 17,9 / 14,5 / 11,4
+R2 S 2500 taux 20 % + minimum garanti 1 300 € | 508 | 260 | 864 | 620 | recettes R2 16,6 / 13,2 / 10,1
+R2 progressive : 15 % de 2 500 à 4 000 €, 30 % au-delà | 514 | 266 | 870 | 626 | recettes R2 19,4 / 15,9 / 12,9
+
+## G. Perdants (retraités, avant fuite) selon la variante
+S 2000 taux 20 % : ret3500 3096 → 2796 (-300 €, -9,7 %, marginal total 56 %) ; ret2200cap 2977 → 2562 (-415 €, -13,9 %, marginal total 43 %) ; ret1750 1719 → 1719 (0 €, 0 %, marginal total 23 %) ; ret800 1044 → 1044 (0 €, 0 %, marginal total 8 %)
+S 2500 taux 20 % : ret3500 3096 → 2896 (-200 €, -6,5 %, marginal total 56 %) ; ret2200cap 2977 → 2692 (-285 €, -9,6 %, marginal total 23 %) ; ret1750 1719 → 1719 (0 €, 0 %, marginal total 23 %) ; ret800 1044 → 1044 (0 €, 0 %, marginal total 8 %)
+S 3000 taux 20 % : ret3500 3096 → 2996 (-100 €, -3,2 %, marginal total 56 %) ; ret2200cap 2977 → 2842 (-135 €, -4,5 %, marginal total 23 %) ; ret1750 1719 → 1719 (0 €, 0 %, marginal total 23 %) ; ret800 1044 → 1044 (0 €, 0 %, marginal total 8 %)
+S 2500 taux 30 % : ret3500 3096 → 2796 (-300 €, -9,7 %, marginal total 66 %) ; ret2200cap 2977 → 2597 (-380 €, -12,8 %, marginal total 23 %) ; ret1750 1719 → 1719 (0 €, 0 %, marginal total 23 %) ; ret800 1044 → 1044 (0 €, 0 %, marginal total 8 %)
+
+## H. Actifs (structure : socle 500, plat 45 %, t_max 20 % / plat 40 %, t_max 30 %)
+socle 500 plat 45 % t_max 20 % : cadre8k 6290 → 6847 (557, 8,9 %) ; cadre60 3423 → 3897 (474, 13,8 %) ; dirigeantHolding 15221 → 16938 (1717, 11,3 %)
+socle 650 plat 40 % t_max 30 % : cadre8k 6290 → 6861 (571, 9,1 %) ; cadre60 3423 → 4145 (722, 21,1 %) ; dirigeantHolding 15221 → 15782 (561, 3,7 %)
+socle 650 plat 30 % t_max 40 % : cadre8k 6290 → 7460 (1170, 18,6 %) ; cadre60 3423 → 4599 (1176, 34,4 %) ; dirigeantHolding 15221 → 16592 (1372, 9 %)
+
+## I. Taux plat nécessaire (Δ ≥ 0 puis équilibre), socle 500 / 650 / 800, t_max 30 %
+S 500 | R (référence) | plat Δ ≥ 0 : 33,9 % | plat équilibre : 49,9 %
+S 500 | R2 S 3000 20 % | plat Δ ≥ 0 : 33,2 % | plat équilibre : 48,6 %
+S 500 | R2 S 2500 20 % | plat Δ ≥ 0 : 32,8 % | plat équilibre : 48,1 %
+S 500 | R2 S 2000 30 % | plat Δ ≥ 0 : 31,6 % | plat équilibre : 46,1 %
+S 650 | R (référence) | plat Δ ≥ 0 : 39,7 % | plat équilibre : aucun
+S 650 | R2 S 3000 20 % | plat Δ ≥ 0 : 38,9 % | plat équilibre : aucun
+S 650 | R2 S 2500 20 % | plat Δ ≥ 0 : 38,4 % | plat équilibre : aucun
+S 650 | R2 S 2000 30 % | plat Δ ≥ 0 : 37 % | plat équilibre : 56,5 %
+S 800 | R (référence) | plat Δ ≥ 0 : 46,7 % | plat équilibre : aucun
+S 800 | R2 S 3000 20 % | plat Δ ≥ 0 : 45,6 % | plat équilibre : aucun
+S 800 | R2 S 2500 20 % | plat Δ ≥ 0 : 45,1 % | plat équilibre : aucun
+S 800 | R2 S 2000 30 % | plat Δ ≥ 0 : 43,3 % | plat équilibre : aucun
+
+## J. Soldes bas / central / haut de R2 à S 2500, taux 20 %, socle 650, plat Δ ≥ 0 central
+bas : solde -113 Md€ (plat 38,4 %)
+central : solde -169 Md€ (plat 38,4 %)
+haut : solde -262 Md€ (plat 38,4 %)
+
+## K. Recalage du capital des retraités (H134) et variante de patrimoine (H135) : contribution à 20 % au-dessus de 2 500 €, capital sans majoration, Md€/an
+Jeu | assiette capital | brut central | net bas / central / haut | concernés
+ancien (H20 : 25 % du capital, clé 1-2-3-4-6-8-10-14-20-32 %) | tous les retraités | 19,1 | 17,6 / 15,5 / 13,1 | 5,6 M
+recalé (H134 : 20 %, clé 3-5-6-6-7-9-10-12-16-26 %) | tous les retraités | 14,4 | 13,4 / 12 / 10,4 | 4,9 M
+recalé + seuil de patrimoine hors résidence principale 300 k€ (H135) | retraités à patrimoine hors RP > 300 k€ | 14,8 | 14,1 / 12,2 / 10,4 | 4,4 M
+ancien + seuil 300 k€ (comparaison) | retraités à patrimoine hors RP > 300 k€ | 19 | 17,9 / 15,4 / 13 | 4,4 M
+Repère de la recherche (`sources/recherche-pensions-patrimoine.md` § 1, individus simulés) : brut 16,2, net 13,3 (8,1 à 24,7) ; le modèle, qui lisse le capital à la moyenne de chaque décile de pension, retombe plus bas (H135, limite 1).

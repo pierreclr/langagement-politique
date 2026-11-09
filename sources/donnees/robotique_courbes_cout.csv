@@ -1,0 +1,13 @@
+# source: Graetz & Michaels (IZA DP 8938, 2015, données IFR 2006) ; IFR ; prospectus Unitree ; Goldman Sachs ; BloombergNEF ; ARK Invest ; date consultation: 2026-10-25
+annee,serie,valeur,unite,statut,source_url,note
+1990,"prix robots industriels (6 pays, nominal, indice)",100,indice 1990=100,mesure,https://epflicht.ulb.uni-bonn.de/download/pdf/201268,"US, FR, DE, IT, SE, UK"
+2005,"prix robots industriels (6 pays, nominal, indice)",50,indice 1990=100,mesure,https://epflicht.ulb.uni-bonn.de/download/pdf/201268,'roughly halved'
+2005,prix robots industriels ajustés qualité (indice),20,indice 1990=100,mesure,https://epflicht.ulb.uni-bonn.de/download/pdf/201268,'about one fifth of their 1990 level' (-80 %)
+2018,prix moyen implicite robot industriel (valeur IFR/unités),39100,USD courants,estimation,https://ifr.org/downloads/press2018/2019-09-18_Press_Release_IFR_World_Robotics_2019_Industrial_Robots_English.pdf,"calcul 16,5 Md$/422 000"
+2025,prix moyen implicite robot industriel (valeur IFR/unités),30800,USD courants,estimation,https://ifr.org/img/worldrobotics/Executive_Summary_WR_2026_-_Industrial_Robots.pdf,"calcul 18,6 Md$/603 307"
+2025,prévision ARK prix robot industriel,11000,USD,projection,https://ark-invest.com/articles/analyst-research/industrial-robot-cost-declines/,prévision ARK (taux d'apprentissage 50 %) – à comparer au ~31 000 USD implicite IFR
+2023,prix moyen de vente humanoïde Unitree,593400,CNY,mesure,https://www.therobotreport.com/unitree-ipo-shows-a-real-hardware-business-the-humanoid-case-is-still-early/,
+2025,prix moyen de vente humanoïde Unitree (9 mois),167600,CNY,mesure,https://www.therobotreport.com/unitree-ipo-shows-a-real-hardware-business-the-humanoid-case-is-still-early/,
+2023,coût de fabrication humanoïde (fourchette haute),250000,USD,estimation,https://www.goldmansachs.com/insights/articles/the-global-market-for-robots-could-reach-38-billion-by-2035,fourchette 50 000-250 000
+2024,coût de fabrication humanoïde (fourchette haute),150000,USD,estimation,https://www.goldmansachs.com/insights/articles/the-global-market-for-robots-could-reach-38-billion-by-2035,fourchette 30 000-150 000 ; baisse ~40 % vs 15-20 %/an attendus
+2025,prix pack batterie Li-ion moyen,108,USD/kWh,mesure,https://about.bnef.com/insights/clean-transport/lithium-ion-battery-pack-prices-fall-to-108-per-kilowatt-hour-despite-rising-metal-prices-bloombergnef/,-8 % vs 2024 ; LFP 81 $/kWh ; Chine 84 $/kWh

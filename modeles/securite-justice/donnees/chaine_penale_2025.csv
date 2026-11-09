@@ -1,0 +1,28 @@
+cle,valeur,unite,annee,perimetre,source,statut
+affaires_nouvelles,4562900,affaires,2025,parquets France entiere,Chiffres cles Justice 2026 p.15,sourcé
+affaires_traitees,4240265,affaires,2025,hors 242847 affaires non enregistrees,Chiffres cles Justice 2026 p.15,sourcé
+affaires_sans_mis_en_cause,2527313,affaires,2025,,Chiffres cles Justice 2026 p.15,sourcé
+affaires_un_mis_en_cause,1510423,affaires,2025,,Chiffres cles Justice 2026 p.15,sourcé
+affaires_plusieurs_mis_en_cause,202529,affaires,2025,,Chiffres cles Justice 2026 p.15,sourcé
+mis_en_cause,1917263,personnes,2025,auteurs dans les affaires traitees,Chiffres cles Justice 2026 p.4 et p.15,sourcé
+poursuivables,1213435,personnes,2025,mis en cause dans affaires poursuivables,Chiffres cles Justice 2026 p.15,sourcé
+non_poursuivables,703828,personnes,2025,,Chiffres cles Justice 2026 p.15,sourcé
+poursuivis,664768,personnes,2025,poursuivis (a),Chiffres cles Justice 2026 p.15,sourcé
+reponse_penale_ou_alternative,1065120,personnes,2025,poursuivis + alternatives reussies + compositions,Chiffres cles Justice 2026 p.4,sourcé
+taux_reponse_penale,0.878,part,2025,(a+b+c)/d,Chiffres cles Justice 2026 p.4,sourcé
+classements_infraction_mal_caracterisee,431621,personnes,2025,orientation des poursuivables,Chiffres cles Justice 2026 p.15,sourcé
+classements_defaut_elucidation,89253,personnes,2025,,Chiffres cles Justice 2026 p.15,sourcé
+condamnations_total,555955,condamnations,2025,provisoire,Chiffres cles Justice 2026 p.18,sourcé
+condamnes_total,437059,personnes,2025,provisoire,Chiffres cles Justice 2026 p.20,sourcé
+condamnations_crimes,3130,condamnations,2025,,Chiffres cles Justice 2026 p.18,sourcé
+condamnations_delits,528567,condamnations,2025,,Chiffres cles Justice 2026 p.18,sourcé
+peines_emprisonnement,254217,condamnations,2025,⚠️ rattachement chiffre-legende lu dans un PDF extrait,Chiffres cles Justice 2026 p.20,⚠️ V6272
+peines_emprisonnement_ferme_total_ou_partie,122339,condamnations,2025,,Chiffres cles Justice 2026 p.20,sourcé
+quantum_moyen_ferme,11.2,mois,2025,,Chiffres cles Justice 2026 p.20,sourcé
+peines_ferme_mises_a_execution,99800,peines,2025,tribunaux correctionnels,Infos Rapides Justice n41 (via sources/recherche-securite-justice-statistiques.md),⚠️ V6273 non relu
+part_amenagees_avant_incarceration,0.41,part,2025,,Infos Rapides Justice n41 (idem),⚠️ V6273 non relu
+delai_moyen_crime_mois,68.8,mois,2024,commission des faits a condamnation,Condamnations en France en 2024 p.17,sourcé
+delai_moyen_delit_mois,13.3,mois,2024,commission des faits a condamnation,Condamnations en France en 2024 p.17 (via sources/recherche-securite-justice-statistiques.md),sourcé
+delai_theorique_ecoulement_stock_ta_mois,12.3,mois,2025,tribunaux ADMINISTRATIFS (pas correctionnels ; corrigé le 03/11/2026),Chiffres cles Justice 2026 p.33 (PDF p.35),sourcé V6274
+taux_recidivistes_delits,0.214,part,2025,recidive legale,Chiffres cles Justice 2026 p.21,sourcé
+taux_reiterants_delits,0.236,part,2025,reiteration (condamne dans les 5 ans),Chiffres cles Justice 2026 p.21,sourcé
