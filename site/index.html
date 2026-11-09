@@ -61,6 +61,7 @@ td.plus{color:var(--vert)}
 .assume h3{margin:0 0 8px}
 footer{padding:28px 0 40px;color:var(--doux);font-size:.85rem;border-top:1px solid var(--trait)}
 .lien-comparer{margin-right:12px;font-weight:700;color:var(--accent,#1f3b8f);text-decoration:none;font-size:.9rem;white-space:nowrap}.lien-comparer:hover{text-decoration:underline}
+.etat-projet{font-size:.92rem;color:var(--doux,#5f5c55);margin:18px 0 0;max-width:46em}
 </style>
 </head>
 <body>
@@ -79,7 +80,9 @@ footer{padding:28px 0 40px;color:var(--doux);font-size:.85rem;border-top:1px sol
       <a class="btn vide" href="/direction/methode.html">Notre méthode</a>
       <a class="btn vide" href="#pour-vous">Ce que ça change pour vous</a>
     </div>
+    <p class="etat-projet">Version 0.2, une version de travail, mise en ligne tôt pour être contredite. Le travail a commencé le 25 octobre 2026, il y a <span id="jours">16</span> jours. La version 1.0 sera le programme officiel.</p>
   </div>
+<script>(function(){var d=Math.floor((Date.now()-new Date(2026,9,25).getTime())/864e5);var e=document.getElementById('jours');if(e&&d>0)e.textContent=d})()</script>
 
   <section>
     <h2>Ce qu'on veut, et comment on s'y prend</h2>
@@ -97,11 +100,12 @@ footer{padding:28px 0 40px;color:var(--doux);font-size:.85rem;border-top:1px sol
     <div class="chiffres">
       <div class="chiffre"><b>877 €</b><span>par mois : personne ne descend en dessous, sans démarche à faire.</span></div>
       <div class="chiffre"><b>+96 €</b><span>par mois pour un salarié au Smic, sans que son employeur paie plus.</span></div>
-      <div class="chiffre"><b>40 000 €</b><span>au plus d'apport dans son logement pour un jeune qui n'hérite pas (moins pour qui hérite), en échange de quoi le logement revient au pays après lui. Droit de chacun ou réservé à qui entre dans ce logement : point encore ouvert.</span></div>
+      <div class="chiffre"><b>40 000 €</b><span>au plus d'apport dans son logement, d'autant plus élevé qu'on hérite peu. <a href="/direction/capital-de-depart.html">Comment, et ce qui reste ouvert</a></span></div>
       <div class="chiffre"><b>300 000 €</b><span>reçus au cours d'une vie sans rien payer sur l'héritage : 85 % des héritiers ne paient rien.</span></div>
-      <div class="chiffre"><b>4</b><span>votations par an : les citoyens votent eux-mêmes les lois, chaque texte expliqué et contredit avant le vote.</span></div>
+      <div class="chiffre"><b>4</b><span>fois par an, les citoyens votent les lois. Chaque texte est expliqué et contredit avant la votation*.</span></div>
       <div class="chiffre"><b>1</b><span>seule application à la place des déclarations, des dossiers et des guichets multiples.</span></div>
     </div>
+    <p class="intro" style="font-size:.85rem;margin-top:12px">* Votation : terme employé en Suisse pour désigner le jour où l'on vote sur plusieurs textes à la fois.</p>
   </section>
 
   <section class="logique">
@@ -271,7 +275,7 @@ footer{padding:28px 0 40px;color:var(--doux);font-size:.85rem;border-top:1px sol
 </main>
 
 <footer><div class="page">
-  Écrit par Pierre Clocher avec une intelligence artificielle (Claude, Anthropic). Version de travail, ouverte à tous : texte sous licence CC BY-SA 4.0, code et données sous licence MIT. Elle contient des erreurs, dites-les-nous sur <a href="https://github.com/pierreclr/langagement-politique">GitHub</a>.
+  Coécrit avec une intelligence artificielle (Claude, Anthropic), sous la supervision de son auteur, Pierre Clocher. Version 0.2, version de travail, ouverte à tous : texte sous licence CC BY-SA 4.0, code et données sous licence MIT. Elle contient des erreurs, dites-les-nous sur <a href="https://github.com/pierreclr/langagement-politique">GitHub</a>.
 </div></footer>
 <script>(function(){function g(){var d=document.documentElement,m=d.scrollHeight-innerHeight;d.style.setProperty('--lu',(m>0?Math.min(100,100*scrollY/m):100)+'%')}g();addEventListener('scroll',g,{passive:true});addEventListener('resize',g)})()</script>
 </body>

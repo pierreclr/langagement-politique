@@ -6,7 +6,7 @@ date: 2026-11-09
 
 # Payer la contribution sur le patrimoine en nue-propriété : méthode
 
-Écrit par Claude (IA d'Anthropic) pour l'auteur, le 09/11/2026. Origine : trois positions de l'auteur du 09/11 (payer l'impôt sur le patrimoine en nue-propriété, récompenser ceux qui font circuler le capital, faire converger l'épargne salariale) et sa remarque du même jour : ces mécanismes réduisent les prélèvements à court terme. Tâche T82. Page concernée : `outils/publication/direction/circuler.html`, dont l'encadré « Ce qu'on ne sait pas encore » annonce justement ce chiffrage.
+Écrit par Claude (IA d'Anthropic) pour l'auteur, le 09/11/2026. Origine : trois positions de l'auteur du 09/11 (payer l'impôt sur le patrimoine en nue-propriété, récompenser ceux qui font circuler le capital, faire converger l'épargne salariale) et sa remarque du même jour : ces mécanismes réduisent les prélèvements à court terme. Tâche T82. Sur le site, l'idée est présentée comme étudiée puis écartée, dans la page « Notre méthode ».
 
 **Risque propre à cette tâche** : l'idée est celle de l'auteur et elle est séduisante (reprendre la main sur le capital sans prélèvement brutal). Le modèle sépare donc trois choses qui se confondent facilement : l'argent qui manque (trésorerie), les biens reçus (patrimoine), et le prix que les marchés font payer à la dette brute (taux endogène).
 

@@ -2,7 +2,7 @@
 titre: "Idéologie et direction"
 statut: brouillon
 version: 0.2
-publication: non (aperçu local seulement, à relire par l'auteur)
+publication: oui (version de travail, depuis le 09/11/2026)
 sources_principales: [modeles/banc-programmes/resultats.md, modeles/taux-endogene/resultats.md, modeles/entreprise-interet-public/resultats.md, modeles/fonciere-afflux/resultats.md, modeles/nue-propriete/resultats.md, la note de conception de la foncière (atelier, non publiée), sources/experiences-etrangeres-mesures.md, modeles/erosion-capital/resultats.md]
 ---
 
@@ -22,7 +22,7 @@ L'intelligence artificielle rend ce travail possible pour une personne seule. Ce
 
 Un programme qui ne fait que corriger les comptes ne donne envie à personne. Celui-ci a deux étages. Le premier remet les finances d'aplomb : il simplifie, il arrête les dépenses qui ne marchent pas et il stabilise la dette. Le second dit à quoi servira la marge ainsi dégagée : bâtir, avec de l'argent public, des biens qui appartiennent à tous et qui rapportent.
 
-Notre mot est **réconcilier**. Réconcilier ceux qui reprochent à la France sa bureaucratie et ceux qui lui reprochent son injustice. Réconcilier ceux qui ne voient que le mal dans le marché et ce que la propriété a de bon. Réconcilier ceux qui n'ont pas accès au capital et un projet commun dont ils deviennent membres à part entière.
+Le pays est devenu trop compliqué, et le départ dans la vie y est trop inégal. Les deux reproches sont justes. Nous voulons répondre aux deux.
 
 ### Les grandes directions
 
@@ -93,7 +93,7 @@ En lisant un numéro, chacun sait ce qui est compatible avec quoi.
 
 Son capital appartient à tous. L'investissement de l'État y entre comme une part commune. Chacun peut aussi y placer son épargne et recevoir des parts.
 
-Ces parts ont une règle particulière : elles rapportent à leur détenteur toute sa vie, puis reviennent au bien commun à son décès. Elles ne s'héritent pas. Ce n'est pas une interdiction : c'est la condition que l'on accepte en y entrant, et personne n'est obligé d'y placer son épargne. Elles sont moins imposées que d'autres placements, justement parce qu'elles reviennent à tous : cet allègement est un coût, que nous n'avons pas encore chiffré.
+Ces parts ont une règle particulière : elles rapportent à leur détenteur toute sa vie, et s'éteignent avec lui. Elles ne se vendent pas et ne s'héritent pas. Ce n'est pas une interdiction : c'est la condition que l'on accepte en y entrant, et personne n'est obligé d'y placer son épargne.
 
 Une entreprise privée peut aussi rejoindre le groupe volontairement. Ses propriétaires sont payés en parts de ce type, au prix fixé par un évaluateur indépendant. Le droit français connaît déjà des outils voisins : le démembrement de propriété (garder l'usage et les revenus, céder la propriété finale) et le fonds de pérennité créé en 2019.
 
@@ -105,7 +105,7 @@ Ses bénéfices servent à trois choses, selon une règle publique : réinvestir
 
 Nous créons deux foncières, parce que les métiers ne sont pas les mêmes : une **foncière du logement**, rattachée au ministère du Logement, qui travaille avec les bâtisseurs, et une **foncière agricole**, rattachée au ministère de l'Agriculture, qui travaille avec les agriculteurs. La foncière agricole reprend les missions de la SAFER, régulation des prix et contrôle des ventes de terres comprises.
 
-Leur règle commune : **la propriété appartient à ceux qui produisent la valeur, jusqu'à la fin de leur vie, et pas au-delà.** Personne n'est obligé d'y entrer : le droit de vendre ou de léguer reste entier pour tout ce que l'on possède hors des foncières. Celui qui entre renonce à léguer ce bien-là. Ce n'est pas le perdre : c'est transmettre autrement. Ceux qui y renoncent ne lèguent pas une maison à leurs enfants, ils leur lèguent un pays qui leur ouvrira les mêmes portes, ou de plus larges.
+Leur règle commune : **ce que le pays possède sert à chacun, une vie après l'autre.** Celui qui entre a l'usage du bien toute sa vie ; ensuite, un autre y entre. Cela ne concerne que les biens des foncières : la propriété privée continue comme aujourd'hui, et chacun peut avoir les deux. Personne n'est obligé d'y entrer.
 
 ### Se loger : le principe
 
@@ -143,17 +143,9 @@ Avec elle naît une **école des rénovateurs**, adossée au compagnonnage. Des 
 
 Aujourd'hui, s'installer en agriculture sans hériter d'une ferme est difficile : la terre est chère et rare. La foncière agricole forme ceux qui veulent s'installer et leur propose l'usufruit à vie d'une terre, qu'ils cultivent et dont ils vivent. À leur décès, elle revient à d'autres qui veulent s'installer. Le même principe vaut pour la forêt : qui veut en vivre peut accéder à une parcelle qu'il exploite toute sa vie.
 
-## Faire circuler le capital vers ceux qui produisent
+## Une idée étudiée, puis écartée
 
-Notre impôt sur le patrimoine est une courbe : plus on possède, plus on contribue. Nous y ajoutons une règle simple : **un coefficient selon le type de propriété**. Un bien détenu en pleine propriété compte en entier. Un bien dont on garde l'usage et les revenus, mais dont la propriété finale revient au pays, compte beaucoup moins.
-
-- **Céder aux salariés.** Un dirigeant pourra transférer la propriété finale de son entreprise au pays et les revenus à ceux qui y travaillent. Celui qui fait ce choix sera récompensé dans le calcul de son impôt. Garder la propriété finale au pays dans ce cas est un point ouvert : cela obligerait l'État à détenir des parts d'entreprises qu'il ne gère pas, la raison même pour laquelle nous avons écarté l'idée décrite plus bas.
-- **L'épargne salariale** et les actions proposées aux salariés suivront la même règle : les revenus aux salariés, la propriété finale au pays, un avantage fiscal pour celui qui l'offre, avec la même question ouverte.
-- **Des titres numériques.** Pour que ces règles restent simples, les parts des entreprises volontaires seront inscrites sur un registre public numérique : une cession se fait en quelques clics, sans acte à chaque fois.
-
-Toutes ces récompenses passent par un seul coefficient, plutôt que par des niches séparées. Ce coefficient reste un allègement d'impôt, donc un coût, que nous n'avons pas encore chiffré.
-
-**Une idée écartée.** Nous avons envisagé de permettre de payer l'impôt sur le patrimoine en cédant la nue-propriété d'un bien. Chiffrée, l'idée ferait perdre de 5 à 9 Md€ de recettes par an et ajouterait environ 14 points de dette en 2058 si un contribuable concerné sur cinq la choisissait, et elle obligerait l'État à détenir des parts de biens qu'il ne choisit pas.[^nue] Nous l'avons écartée, et nous la publions comme telle : une idée qui ne tient pas aux chiffres mérite d'être montrée.
+Nous avons envisagé de permettre de payer l'impôt sur le patrimoine en cédant la nue-propriété d'un bien. Chiffrée, l'idée ferait perdre de 5 à 9 Md€ de recettes par an et ajouterait environ 14 points de dette en 2058 si un contribuable concerné sur cinq la choisissait, et elle obligerait l'État à détenir des parts de biens qu'il ne choisit pas.[^nue] Nous l'avons écartée, et nous la publions comme telle : une idée qui ne tient pas aux chiffres mérite d'être montrée.
 
 ## Une épargne qui protège
 
@@ -169,7 +161,7 @@ Nous ne voulons pas d'abord taxer ni interdire. Nous voulons proposer mieux.
 
 - **Des objets réparables.** La réparabilité entre dans les étiquettes des appareils, et à terme dans le classement des logements loués meublés. La réparation est taxée au taux le plus bas que permet le droit européen, et nous demanderons l'ouverture du taux zéro.
 - **Des métiers de la réparation** : réparateurs, cordonniers, couturiers, formés sur tous les modèles.
-- **Manger sain sans passer par la livraison à domicile** : des cuisines publiques, avec des personnes en insertion, qui vendent à prix coûtant des repas équilibrés à emporter.
+- **Manger sain, à prix coûtant** : des cuisines publiques, avec des personnes en insertion, qui vendent à prix coûtant des repas équilibrés à emporter.
 - **Un prix qui dit tout.** Un appareil bon marché qui casse au bout de trois ans coûte plus cher qu'un appareil qui dure vingt ans. Nous l'afficherons.
 
 ## Proposer avant d'interdire
@@ -195,7 +187,7 @@ Ce second étage est un pari, et nous le présentons comme tel. Il n'est pas fin
 
 S'il échoue, il aura coûté de l'argent, et nous disons combien. Selon notre modèle de l'entreprise, si tout s'arrête au second jalon, la perte est de 7 à 10 Md€ au total. Mais les tranches protègent contre l'échec technique, pas contre l'échec commercial : si des séries sont lancées et ne trouvent pas leur marge, la perte est de 29 à 38 Md€ sur trente ans.[^eip] Ces 3 Md€ auraient pu réduire le déficit : c'est un coût dès aujourd'hui, pour un bien commun qui rapportera peut-être demain.
 
-C'est l'inverse de ce qui a été fait pendant des décennies. Quand l'État a privatisé les autoroutes, il a encaissé une recette tout de suite et renoncé à des revenus pour longtemps. Nous faisons le contraire. Nous ne vendrons pas le bien commun pour boucler un budget.
+Ce qui est ainsi bâti appartient au commun. Une infrastructure du pays ne peut être vendue au privé que si les citoyens le votent : on ne vend pas le bien commun pour boucler un budget.
 
 La foncière du logement suit la même règle de prudence. Sans plafond d'entrées, notre modèle lui donne une dette de l'ordre de 530 Md€ à trente ans, et des recettes qui couvrent un peu moins de la moitié de ses coûts : en dessous de la moitié, elle compterait dans la dette publique.[^afflux] C'est pourquoi elle commence par une ville, avec un nombre de droits plafonné, et ne grandit qu'à mesure que ses comptes le permettent.
 

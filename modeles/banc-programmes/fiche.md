@@ -68,6 +68,17 @@ Le code des programmes porte environ 90 marques ⚠️ (29 pour La France insoum
 - Notre système : le déficit public de 2038 est sous 3 % dans 34 % des tirages seulement (médiane 3,7 %) ; prélèvements obligatoires 51,5 % [50,2 ; 52,9] (§ 1 et § 7).
 - Avec des hypothèses d'exil des grandes fortunes moins sévères, appliquées à tous, le classement ne change pas (§ 10).
 
+## Le détail, poste par poste
+
+Pour chaque programme, une page reprend chaque ligne : la mesure dans les mots du parti et sa source, ce que le parti annonce, l'estimation du banc (médiane et intervalle), la façon de la calculer, le modèle utilisé, la même famille de mesures chez les autres, la fiabilité et les choix posés par l'IA. Une page à part, « les mêmes modèles pour tous », vérifie dans le code que les mesures qui se ressemblent passent par le même modèle avec les mêmes paramètres, et liste les cas où ce n'est pas vrai, avec leur effet quand il se calcule. Ces pages sont produites par un programme (`detail.py`) à partir des fichiers de mesures et des résultats, sans aucun chiffre recopié à la main ; un test vérifie que leurs totaux sont ceux du tableau comparatif.
+
+- [La France insoumise](https://langagement-politique.vercel.app/fr/modeles/banc-programmes/detail-lfi.html)
+- [Rassemblement national](https://langagement-politique.vercel.app/fr/modeles/banc-programmes/detail-rn.html)
+- [Les Républicains (plan Retailleau)](https://langagement-politique.vercel.app/fr/modeles/banc-programmes/detail-lr.html)
+- [PS et Place publique (contre-budget 2027)](https://langagement-politique.vercel.app/fr/modeles/banc-programmes/detail-ps.html)
+- [Notre système](https://langagement-politique.vercel.app/fr/modeles/banc-programmes/detail-langagement.html)
+- [Les mêmes modèles pour tous](https://langagement-politique.vercel.app/fr/modeles/banc-programmes/memes-modeles.html)
+
 ## Comment le refaire
 
 Depuis la racine du dépôt :
@@ -76,6 +87,8 @@ Depuis la racine du dépôt :
 python3 -I modeles/banc-programmes/tests/test_banc.py     # 45 tests, environ 11 secondes
 python3 -I modeles/banc-programmes/relancer.py            # recalcule à partir des données en cache et réécrit resultats.md
 python3 -I modeles/banc-programmes/relancer.py --ponts    # relance d'abord les modèles JavaScript et OpenFisca
+python3 -I modeles/banc-programmes/detail.py              # réécrit les pages de détail (sans nouveau tirage)
+python3 -I modeles/banc-programmes/tests/test_detail.py   # vérifie les pages de détail
 ```
 
 Les 45 tests passent (lancés le 9 novembre 2026 pour cette fiche). Le calcul complet n'a pas été relancé. L'option `--ponts` demande OpenFisca-France 176.1.10 installé dans un environnement Python à part, et le moteur JavaScript du système (`jsc`).

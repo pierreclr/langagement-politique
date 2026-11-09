@@ -2,7 +2,7 @@
 
 Liste des fichiers publiés dans ce dépôt (générée automatiquement : ne pas modifier à la main).
 
-1505 fichiers, 40.6 Mo.
+1490 fichiers, 40.5 Mo.
 
 | Dossier | Fichiers | Taille (Ko) |
 |---|---|---|
@@ -13,11 +13,11 @@ Liste des fichiers publiés dans ce dépôt (générée automatiquement : ne pas
 | `LICENSE-TEXTE.md` | 1 | 0 |
 | `README.md` | 1 | 15 |
 | `atelier-modele` | 11 | 13 |
-| `chapitres` | 17 | 699 |
+| `chapitres` | 17 | 700 |
 | `donnees-brutes` | 7 | 1095 |
 | `modeles/acceleration` | 14 | 132 |
 | `modeles/agriculture` | 15 | 126 |
-| `modeles/banc-programmes` | 39 | 655 |
+| `modeles/banc-programmes` | 47 | 1268 |
 | `modeles/bascule-existant` | 9 | 109 |
 | `modeles/batisseurs-et-repas` | 8 | 60 |
 | `modeles/capital-commun-retraite` | 7 | 72 |
@@ -31,7 +31,6 @@ Liste des fichiers publiés dans ce dépôt (générée automatiquement : ne pas
 | `modeles/etat-as-code` | 35 | 1379 |
 | `modeles/etat-plateforme` | 10 | 111 |
 | `modeles/fiscalite-orientation` | 12 | 125 |
-| `modeles/flux-legislatif` | 23 | 685 |
 | `modeles/fonciere-afflux` | 17 | 432 |
 | `modeles/fonciere-usufruit` | 11 | 836 |
 | `modeles/gagnants-perdants` | 26 | 552 |
@@ -149,6 +148,12 @@ Ces fichiers sont cités par un lien relatif mais ne sont pas (encore) dans le d
 - `modeles/agriculture/test_modele.py`
 - `modeles/banc-programmes/.gitignore`
 - `modeles/banc-programmes/README.md`
+- `modeles/banc-programmes/detail-langagement.md`
+- `modeles/banc-programmes/detail-lfi.md`
+- `modeles/banc-programmes/detail-lr.md`
+- `modeles/banc-programmes/detail-ps.md`
+- `modeles/banc-programmes/detail-rn.md`
+- `modeles/banc-programmes/detail.py`
 - `modeles/banc-programmes/donnees/cache/demographie.json`
 - `modeles/banc-programmes/donnees/cache/incertitudes.json`
 - `modeles/banc-programmes/donnees/cache/ir_openfisca.json`
@@ -171,6 +176,7 @@ Ces fichiers sont cités par un lien relatif mais ne sont pas (encore) dans le d
 - `modeles/banc-programmes/js/prelude_moins_severe.js`
 - `modeles/banc-programmes/leviers2.py`
 - `modeles/banc-programmes/leviers_rn.py`
+- `modeles/banc-programmes/memes-modeles.md`
 - `modeles/banc-programmes/moteur.py`
 - `modeles/banc-programmes/ponts.py`
 - `modeles/banc-programmes/programmes/__init__.py`
@@ -186,6 +192,7 @@ Ces fichiers sont cités par un lien relatif mais ne sont pas (encore) dans le d
 - `modeles/banc-programmes/rn_openfisca.py`
 - `modeles/banc-programmes/smic_openfisca.py`
 - `modeles/banc-programmes/tests/test_banc.py`
+- `modeles/banc-programmes/tests/test_detail.py`
 - `modeles/bascule-existant/donnees/jurisprudence.csv`
 - `modeles/bascule-existant/donnees/parametres_transition.csv`
 - `modeles/bascule-existant/donnees/precedents_transition.csv`
@@ -346,29 +353,6 @@ Ces fichiers sont cités par un lien relatif mais ne sont pas (encore) dans le d
 - `modeles/fiscalite-orientation/modele.js`
 - `modeles/fiscalite-orientation/resultats.md`
 - `modeles/fiscalite-orientation/test_modele.js`
-- `modeles/flux-legislatif/code/comparer.py`
-- `modeles/flux-legislatif/code/extraire.py`
-- `modeles/flux-legislatif/code/flux.py`
-- `modeles/flux-legislatif/fiche.md`
-- `modeles/flux-legislatif/methode.md`
-- `modeles/flux-legislatif/pilote-licenciement/affichage.md`
-- `modeles/flux-legislatif/pilote-licenciement/reecriture.md`
-- `modeles/flux-legislatif/pilote-licenciement/regles.py`
-- `modeles/flux-legislatif/pilote-licenciement/resultats/stress_test.csv`
-- `modeles/flux-legislatif/pilote-licenciement/resultats/stress_test_synthese.csv`
-- `modeles/flux-legislatif/pilote-licenciement/stress_test.py`
-- `modeles/flux-legislatif/pilote-licenciement/tests/test_pilote.py`
-- `modeles/flux-legislatif/references/sgg_indicateurs_2026.csv`
-- `modeles/flux-legislatif/resultats.md`
-- `modeles/flux-legislatif/resultats/comparaison_sgg.csv`
-- `modeles/flux-legislatif/resultats/evenements_par_annee.csv`
-- `modeles/flux-legislatif/resultats/jorf_par_annee.csv`
-- `modeles/flux-legislatif/resultats/jorf_par_mandat.csv`
-- `modeles/flux-legislatif/resultats/par_mandat.csv`
-- `modeles/flux-legislatif/resultats/par_mandat_et_code.csv`
-- `modeles/flux-legislatif/resultats/stock_annuel.csv`
-- `modeles/flux-legislatif/resultats/stock_codes_suivis_sgg.csv`
-- `modeles/flux-legislatif/tests/test_flux.py`
 - `modeles/fonciere-afflux/code/afflux.py`
 - `modeles/fonciere-afflux/code/calculer.py`
 - `modeles/fonciere-afflux/code/experimentation.py`
