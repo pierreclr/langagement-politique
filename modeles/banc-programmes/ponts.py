@@ -20,7 +20,7 @@ LISTE_SYSTEME = ("modele.js fiscalite_actuelle.js voies.js sante.js optimisation
     "decisions_0511.js decisions_0511b.js decisions_0511c.js grandes_fortunes_0511.js decisions_0511d.js ../retraites/modele.js ../retraites/age_libre.js decisions_0511e.js decisions_0511f.js "
     "../fiscalite-orientation/modele.js decisions_0511g.js decisions_0511h.js diagnostic_couple_smic.js hauts_revenus.js decisions_0511i.js decisions_0511j.js variante_dette_stable.js "
     "bareme_unique_v6.js bareme_deux_fonctions_v7.js bareme_v71.js decisions_0611_v72.js decisions_0611_v73.js decisions_0611_v74.js decisions_0611_v75.js base_0611.js cas_types_nets_0611.js "
-    "variante_nationalite_0611.js transmissions_0611.js retraites_aisees_0611.js consolidation_0611.js decisions_0711.js decisions_0811.js correction_0811.js").split()
+    "variante_nationalite_0611.js transmissions_0611.js retraites_aisees_0611.js consolidation_0611.js decisions_0711.js decisions_0811.js correction_0811.js decisions_1111.js decisions_1111b.js patrimoine_balayage_1111c.js decisions_1111c.js decisions_1111d.js").split()
 
 
 def _lire(nom):
@@ -57,6 +57,19 @@ def pont_incertitudes(regenerer=False):
         _ecrire('incertitudes.json', d)
         return d, 'jsc'
     return _lire('incertitudes.json'), 'cache'
+
+
+def pont_incertitudes_serie(regenerer=False):
+    """Comme pont_incertitudes, avec en plus le central année par année des modules à profil « serie » (js/pont_incertitudes_serie.js) : filtre de faisabilité commun du banc v2."""
+    if regenerer and os.path.exists(JSC):
+        brut = _jsc(os.path.join(RACINE, 'modeles', 'systeme-ideal'), LISTE_SYSTEME + ['../banc-programmes/js/pont_incertitudes_serie.js'])
+        # format du cache lu par relancer_v2 : séries centrales des modules à profil « serie » (c_serie) et séries / valeurs fixes (M-M2, TR03)
+        d = {'annees': brut['annees'], 'c_serie': {m['id']: m['c_serie'] for m in brut['modules'] if m.get('c_serie')},
+             'fixe': {f['id']: f['c_serie'] for f in brut['fixe'] if f.get('c_serie')}}
+        d['fixe']['TR03'] = next(f['valeur'] for f in brut['fixe'] if f['id'] == 'TR03')
+        _ecrire('incertitudes_serie.json', d)
+        return d, 'jsc'
+    return _lire('incertitudes_serie.json'), 'cache'
 
 
 def pont_retraites(regenerer=False):
@@ -167,6 +180,6 @@ def pont_modules_moins_severes(regenerer=False):
 
 
 if __name__ == '__main__':
-    for nom, f in (('systeme', pont_systeme), ('incertitudes', pont_incertitudes), ('retraites', pont_retraites), ('demographie', pont_demographie), ('rn_openfisca', pont_rn_openfisca), ('systeme_moins_severe', pont_systeme_moins_severe), ('modules_moins_severes', pont_modules_moins_severes)):
+    for nom, f in (('systeme', pont_systeme), ('incertitudes', pont_incertitudes), ('incertitudes_serie', pont_incertitudes_serie), ('retraites', pont_retraites), ('demographie', pont_demographie), ('rn_openfisca', pont_rn_openfisca), ('systeme_moins_severe', pont_systeme_moins_severe), ('modules_moins_severes', pont_modules_moins_severes)):
         d, src = f(True)
         print(nom, src, len(json.dumps(d)))

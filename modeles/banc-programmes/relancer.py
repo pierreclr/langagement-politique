@@ -23,8 +23,9 @@ OFFRE = {'forme': 'tri', 'bas': -0.010, 'central': -0.003, 'haut': 0.0}
 ANNEES_CLES = (2028, 2032, 2038, 2058)
 # Programmes chiffrés. Chaque programme a son propre générateur (même graine) : en ajouter un ne change pas les tirages des autres.
 # 'lr' (plan Retailleau du 12/10/2026) et 'ps' (contre-budget 2027 du groupe socialiste, candidat R. Glucksmann) ajoutés le 09/11/2026 ; ils ne sont pas rejoués dans la variante « moins sévère » (§ 10).
-PROGRAMMES = ('fil_de_l_eau', 'lfi', 'rn', 'langagement', 'lr', 'ps')
-AJOUTS_0911 = ('lr', 'ps')
+# 'gl' (livret climat de R. Glucksmann, 09/11/2026 ; chiffrage partiel, colonne distincte du PS) ajouté le 11/11/2026, même règle.
+PROGRAMMES = ('fil_de_l_eau', 'lfi', 'rn', 'langagement', 'lr', 'ps', 'gl')
+AJOUTS_0911 = ('lr', 'ps', 'gl')
 
 
 def charger_programme(cle):

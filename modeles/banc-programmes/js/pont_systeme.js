@@ -62,10 +62,21 @@ out.succession_params = { dmtg: T.S.dmtg, flux: T.S.flux, cohorte: T.S.cohorte }
 
 // --- 4. Trajectoire de notre système (S3, macro de référence et prudente) et droit actuel ---
 function serie(t, n) { return { ratio: t.ratio.slice(0, n), primaire: t.primaire ? t.primaire.slice(0, n) : null, deficit: t.deficit.slice(0, n), interets: t.interets ? t.interets.slice(0, n) : null }; }
-var s3 = this.Correction0811.s3();   // S3 après correction du double compte du différé (V32012, V32018), couche CORRECTION0811
+var s3 = this.Decisions1111D.s3();   // S3 avec grand ménage (central) et patrimoine à 1,25 % (DECISIONS1111D, 11/11/2026) ; avant : DECISIONS1111B ; S3 après décisions du 11/11 (DECISIONS1111) et gains d'abord au déficit (DECISIONS1111B : leviers F gardés à leur valeur d'avant le recalibrage)
 out.systeme = { F: s3.F, a: s3.a, revenus: s3.revenus, credit: s3.credit, transmissions: s3.transmissions, patrimoineNat: s3.patrimoineNat, pension: s3.pension, eco: s3.eco,
                 effetCouche: s3.effetCouche, po_md: s3.po.md, po_pct: s3.po.pct, po_elargi: s3.po.elargisPct, picAn: s3.picAn, pic: s3.pic,
                 reference: serie(s3.traj, 30), prudente: serie(s3.trajPrudente, 30), annee1: 2029 };
+// Décisions du 11/11/2026 : la couche précédente (CORRECTION0811) pour l'avant / après, et la variante « leviers inchangés » (F de la couche précédente, non recalibré)
+var s3av = this.Correction0811.s3(), s3fx = this.Decisions1111B.s3(), s3rc = this.Decisions1111.s3();   // s3rc : leviers recalibrés par la règle supprimée le 11/11 (DECISIONS1111)
+var s3b = this.Decisions1111B.s3(), s3c = this.Decisions1111C.s3();   // avant 1111D : B = leviers F gardés sans grand ménage ni taux ; C = avec grand ménage, patrimoine à 3 % (v7.5)
+out.avant_1111d = { po_pct: s3b.po.pct, po_md: s3b.po.md, F: s3b.F, a: s3b.a, reference: serie(s3b.traj, 30), prudente: serie(s3b.trajPrudente, 30), sous3: this.Decisions1111B.sous3(s3b.traj), sous3_prudente: this.Decisions1111B.sous3(s3b.trajPrudente) };
+out.avec_grand_menage_seul = { reference: serie(s3c.trajC, 30), po_pct: s3b.po.pct, po_md: s3b.po.md };
+out.patrimoine_1125 = { ligne: this.Decisions1111D.ligne(), ecart: s3.ecartPatrimoine, po_md_avant: s3.po.avantMd, po_md_apres: s3.po.md, po_pct_avant: s3.po.avantPct, po_pct_apres: s3.po.pct, taux: s3.tauxPatrimoine };
+out.avant_1111 = { F: s3av.F, a: s3av.a, po_pct: s3av.po.pct, picAn: s3av.picAn, pic: s3av.pic, reference: serie(s3av.traj, 30), prudente: serie(s3av.trajPrudente, 30) };
+out.leviers_inchanges_1111 = { F: s3fx.F, a: s3fx.a, po_pct: s3fx.po.pct, reference: serie(s3fx.traj, 30), prudente: serie(s3fx.trajPrudente, 30) };
+out.recalibre_1111 = { F: s3rc.F, a: s3rc.a, po_pct: s3rc.po.pct, picAn: s3rc.picAn, pic: s3rc.pic, sous3: this.Decisions1111B.sous3(s3rc.traj), reference: serie(s3rc.traj, 30), prudente: serie(s3rc.trajPrudente, 30) };
+out.sous3_central = this.Decisions1111B.sous3(s3.traj); out.sous3_prudente = this.Decisions1111B.sous3(s3.trajPrudente); out.sous3_modele = out.sous3_central;
+out.v6_avant_2038 = this.Decisions0511g.v6('central', 2038); out.v6_apres_2038 = this.Decisions1111.v6('central', 2038); out.delta_2038 = this.Decisions1111.delta('central', 2038);
 var ECO = ST.ECO;
 out.eco = { dette0: ECO.dette0, pib0: ECO.pib0, interets0: ECO.interets0, imarche: ECO.imarche, dureeDette: ECO.dureeDette, gNominal: ECO.gNominal, preroll: ST.PREROLL,
             macro: DS.HYP.macro, deficit2024: 169.1 };

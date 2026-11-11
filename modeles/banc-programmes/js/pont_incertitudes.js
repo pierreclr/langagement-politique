@@ -22,7 +22,7 @@ function sub(a, b) { return a.map(function (x, i) { return x - b[i]; }); }
 function zero() { return cst(0); }
 function fav(a, b) { var s = a.reduce(function (p, x) { return p + x; }, 0) >= b.reduce(function (p, x) { return p + x; }, 0); return s ? [a, b] : [b, a]; }   // [plus favorable, moins favorable]
 
-var CO = this.Correction0811, s = CO.s3(), mods = [], fixe = [];   // S3 après correction du double compte du différé (couche CORRECTION0811)
+var CO = this.Correction0811, N1 = this.Decisions1111, N1B = this.Decisions1111B, N1D = this.Decisions1111D, s = N1D.s3(), mods = [], fixe = [];   // S3 après correction du double compte du différé (CORRECTION0811) et décisions du 11/11 (DECISIONS1111 : retraites de la loi de 2023, entreprise d'État à 1 Md€)
 function mod(id, lib, source, cote, facteur, lam, sens, profil, dFav, dDef, c) {
   mods.push({ id: id, libelle: lib, source: source, cote: cote, facteur: facteur, lambda: lam, sens: sens, profil: profil, central: c === undefined ? null : c, d_fav: dFav, d_def: dDef });
 }
@@ -75,12 +75,14 @@ GBT.forEach(function (g) {
 // Interaction BT08 / CS01 : les deux lignes décrivent la même mutuelle. Les bornes de M-TITRES (BT08 favorable = +7,59) et de M-CS (CS01 favorable = 0, central = +3,80) restent indépendantes dans le banc ; voir README.
 
 // ------------------------------------------------------------------------------------------------ 3. Patrimoine v7.5 et ses comportements (BT01) : érosion, exil, rendement, au scénario de la chaîne de la v7.4
-var v75 = Bt.v75(), tInf = Bt.S.v75.tInf, old = A.HYP.patrimoine.tInf;
-function rr(sc) { A.HYP.patrimoine.tInf = tInf; try { var rc = A.recettePatrimoine(sc); return { nette: rc.nette, tauxEff: rc.tauxEffectif, ratio: rc.nette / rc.tauxEffectif, erosion: rc.erosionTop }; } finally { A.HYP.patrimoine.tInf = old; } }
-var rb = rr('bas'), rcn = rr('central'), rh = rr('haut'), fN = v75.fonction;
-var pF = fav([fN * (rb.ratio / rcn.ratio - 1)], [fN * (rh.ratio / rcn.ratio - 1)]);
-mod('M-PAT', 'Fonction du patrimoine v7.5 : comportements (érosion, exil, rendement) au scénario favorable / défavorable de la chaîne de la v7.4, appliqués à la part « fonction » (la part résidence principale est calée sans érosion)',
-    'decisions_0611_v75.js recette() ; decisions_0611_v74.js recettePatrimoine(sc) ; ratio recette nette / dû statique au scénario', 'B', 'comportement', 0.8, 'po', 'const', cst(pF[0][0]), cst(pF[1][0]), v75.recette);
+var v75 = Bt.v75(), LP = N1D.ligne();   // patrimoine à 1,25 % (DECISIONS1111D) : recette nette RP + fonction aux trois scénarios de comportement et de plafonnement de la grille de patrimoine_balayage_1111c.js
+mod('M-PAT', 'Fonction du patrimoine à 1,25 % (taux marginal maximal, K = 700 k€, plafonnement à 75 % du revenu) : comportements (érosion, exil, rendement) et plafonnement (−5 % / −15 % / −30 % de la fonction) au scénario favorable / défavorable',
+    'patrimoine_balayage_1111c.js ligne(0,0125) ; decisions_0611_v74.js recettePatrimoine(sc) ; decisions_1111d.js', 'B', 'comportement', 0.8, 'po', 'const', cst(LP.favorable - LP.central), cst(LP.defavorable - LP.central), LP.central);
+// Grand ménage (DECISIONS1111C) : net_additionnel année par année, bas = économie prudente (défavorable), haut = favorable ; avant 2028 : 0 ; après 2038 : valeur de 2038 (HG2, HG3)
+(function () { var G = this.Decisions1111C, c = [], f = [], d = [];
+  AN.forEach(function (y) { var cc = G.grandMenage('central', y); c.push(cc); var h = G.grandMenage('haut', y), l = G.grandMenage('bas', y); f.push(Math.max(0, Math.max(h, l) - cc)); d.push(Math.min(0, Math.min(h, l) - cc)); });   // écarts bornés par le central (en transition 2029-2030, bas et haut sont tous deux sous le central)   // comme les autres modules à profil « serie » : au sein d'une année, le plus favorable des deux scénarios
+  mod('M-GM', 'Grand ménage (non-remplacement, gestion, regroupements d\'organismes) : économie nette additionnelle, transition comprise, année par année, scénarios bas / central / haut du modèle du grand ménage',
+      'modeles/grand-menage/donnees/serie_2028_2038.json via decisions_1111c.js grandMenage(sc, an)', 'C', 'cout', 0.5, 'dep', 'serie', f, d, c[9]); }).call(this);
 
 // ------------------------------------------------------------------------------------------------ 4. Leviers votés : rendement réel au scénario, niveau voté fixé
 var cfgT = { A: R.S.transReco.A, K: R.S.transReco.K, top: true, k: 1, nationalite: 'court' };
@@ -116,7 +118,7 @@ function levSc(id) { return AN.map(function (y) { return [Y.leviers([id])('bas',
 function netSc(f) { return AN.map(function (y) { return [f('bas', y), f('central', y), f('haut', y)]; }); }
 function ecartsDe(f) { var L = netSc(f), dF = [], dD = [], cc = []; L.forEach(function (t) { dF.push(Math.max(t[0], t[2]) - t[1]); dD.push(Math.min(t[0], t[2]) - t[1]); cc.push(t[1]); }); return { dF: dF, dD: dD, c: cc }; }
 var POSTES = [
-  ['M-V6', 'Dispositif retraites V6 (âge libre, sous-indexation) : effet net par année au scénario', function (sc, y) { return G.v6(sc, y); }, 'cout', 0.5, 'dep', 'decisions_0511g.js v6(sc, an), modeles/retraites/'],
+  ['M-V6', 'Dispositif retraites (loi de 2023 gardée ; pénibilité, sous-indexation des hautes pensions) : effet net par année au scénario', function (sc, y) { return N1.v6(sc, y); }, 'cout', 0.5, 'dep', 'decisions_1111.js v6(sc, an) (loi de 2023 : pénibilité et indexation au-dessus de 2 000 €, sans âge libre ni indexation sur l\'espérance de vie), modeles/retraites/'],
   ['M-FO', 'Fiscalité d\'orientation (9,59 Md€ au bas de sa fourchette) : réactions des assiettes', function (sc, y) { return G.fo(sc, y); }, 'comportement', 0.8, 'po', 'decisions_0511g.js fo(sc, an), modeles/fiscalite-orientation/'],
   ['M-FIOUL', 'Taxe sur le fioul de chauffage : érosion du parc, au scénario', function (sc, y) { return H.fioulCompte(sc, y); }, 'comportement', 0.5, 'po', 'decisions_0511h.js fioul(sc, an)'],
   ['M-GRAT', 'Gratuité des transports urbains : coût net (recettes perdues, offre, collecte)', function (sc, y) { return -H.tu(sc, y); }, 'cout', 0.3, 'dep', 'decisions_0511h.js gratuite(sc)'],
@@ -133,7 +135,7 @@ POSTES.forEach(function (p) {
 function trajSc(sc) {
   var lc0 = Y.leviers(['M1f', 'M2m', 'M3']), u = K.urssaf().v[1] + s.effetCouche, r = R.S.rampe;
   var lc = function (ss, y) { return lc0(ss, y) - K.recouvrement('M1f', y).total + u; };
-  var fn = function (ss, y) { return Bt.S.corrT65 + Bt.totaux().central + lc(ss, y) + ramp(y) * s.F + CO.correction(y); };
+  var fn = function (ss, y) { return Bt.S.corrT65 + Bt.totaux().central + lc(ss, y) + ramp(y) * s.F + CO.correction(y) + N1.delta(ss, y); };
   var t = A.trajectoire(sc, 'reference', fn);
   return t.primaire[9] * ST.ECO.pib0;
 }

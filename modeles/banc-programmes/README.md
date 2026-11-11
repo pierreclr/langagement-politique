@@ -57,3 +57,6 @@ Pas de colonne : aucun document chiffré d'ensemble n'est publié (08/11/2026 ; 
 
 ## Limites
 Voir `resultats.md` § 9 : population stylisée pour l'impôt sur le revenu, convention des scénarios, intervalle de notre système propagé module par module mais sous-estimé (socle hérité fixé au central), test de validité qui valide la chaîne dette et non les leviers.
+
+## Version 2 (11/11/2026) : une seule règle de faisabilité pour tous les programmes, nous compris
+`faisabilite.py` (règle écrite en tête : score M + J + E, grille de parts réalisables, plancher commun 0,9 à 1,3 pour les coûts), `relancer_v2.py` (Monte-Carlo, taux endogène, année sous 3 %, PO bruts et nets ; `--grille-v1` pour la sensibilité à la grille), `rapport_v2.py` (écrit `resultats-v2.md`), `js/pont_incertitudes_serie.js` (séries centrales des modules, cache `donnees/cache/incertitudes_serie.json`), `tests/test_v2.py`. La version 1 n'est pas modifiée. Relancer : `python3 -I modeles/banc-programmes/relancer_v2.py && python3 -I modeles/banc-programmes/relancer_v2.py --grille-v1 && python3 -I modeles/banc-programmes/rapport_v2.py`. Résultats et limites : `resultats-v2.md`.

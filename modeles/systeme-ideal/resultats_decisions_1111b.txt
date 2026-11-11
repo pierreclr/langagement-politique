@@ -1,0 +1,11 @@
+# Décision du 11/11/2026 (couche DECISIONS1111B) : les gains d'abord au déficit, pas aux baisses d'impôts
+leviers F : 33,27 (DECISIONS1111 recalibrée : 9,49) ; coefficient a : 0,6515 (0,6264) ; fonction des revenus 1,41 (−22,66)
+PO : 51,6 % (recalibrée 50,8 % ; CORRECTION0811 51,6 %)
+  2029 : dette 124,7 % (recalibrée 124,7 % ; avant 11/11 125,0 %) ; déficit 4,8 % (4,8 % ; 5,0 %)
+  2033 : dette 127,0 % (recalibrée 127,9 % ; avant 11/11 128,9 %) ; déficit 4,1 % (4,4 % ; 4,6 %)
+  2038 : dette 125,2 % (recalibrée 129,2 % ; avant 11/11 130,4 %) ; déficit 2,8 % (3,7 % ; 3,7 %)
+  2043 : dette 121,1 % (recalibrée 129,1 % ; avant 11/11 130,3 %) ; déficit 2,7 % (3,8 % ; 3,8 %)
+  2058 : dette 108,2 % (recalibrée 128,9 % ; avant 11/11 124,6 %) ; déficit 2,2 % (3,7 % ; 2,9 %)
+année de passage durable sous 3 % de déficit : 2038 (recalibrée : null ; CORRECTION0811 : 2058)
+pic de dette : 127,1 % en 2034 ; macro prudente : dette 2038 138,0 %, déficit 2038 3,7 %, passage sous 3 % : null
+EXPORT {"F":33.26911560104282,"a":0.6515162013956646,"po":0.5157458716416314,"sous3":2038,"sous3_prudente":null}

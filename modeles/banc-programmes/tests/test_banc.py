@@ -39,8 +39,8 @@ class TestDette(unittest.TestCase):
 
     def test_moteur_retrouve_notre_systeme(self):
         v = R.test_validite(CTX)
-        self.assertAlmostEqual(v['reference']['moteur_2038'], 1.3035, delta=0.001)    # 130,4 % (après correction du différé)
-        self.assertAlmostEqual(v['reference']['moteur_2058'], 1.2460, delta=0.001)    # 124,6 %
+        self.assertAlmostEqual(v['reference']['moteur_2038'], 1.3893, delta=0.001)    # 138,9 % après patrimoine à 1,25 % et grand ménage (DECISIONS1111D) ; 125,2 % (leviers F gardés, DECISIONS1111B ; 129,2 % avec leviers recalibrés) ; (après correction du différé et décisions du 11/11 : retraites de la loi de 2023, entreprise d'État à 1 Md€ ; 130,4 % avant)
+        self.assertAlmostEqual(v['reference']['moteur_2058'], 1.5044, delta=0.001)    # 150,4 % (DECISIONS1111D) ; 108,2 % (DECISIONS1111B ; 128,9 % recalibré) ; (124,6 % avant les décisions du 11/11)
         for k, x in v.items():
             self.assertAlmostEqual(x['moteur_2038'], x['modele_2038'], delta=1e-6, msg=k)
             self.assertAlmostEqual(x['moteur_2058'], x['modele_2058'], delta=1e-6, msg=k)
@@ -270,8 +270,8 @@ class TestSystemeAvecIncertitudes(unittest.TestCase):
         delta, rec, par = M.effet_modules(self.mesures, t0, [2029 + k for k in range(30)])
         self.assertTrue(all(abs(x) < 1e-12 for x in delta))
         tr = M.trajectoire_dette({an: eff[an] + delta[i] for i, an in enumerate(range(2029, 2059))}, CTX['eco'], CTX['macros']['reference'])
-        self.assertAlmostEqual(tr[2038]['ratio'], 1.3035, delta=0.0005)       # 130,4 % : valeur centrale du modèle (après correction du différé, V32018)
-        self.assertAlmostEqual(tr[2058]['ratio'], 1.2460, delta=0.0005)       # 124,6 %
+        self.assertAlmostEqual(tr[2038]['ratio'], 1.3893, delta=0.0005)       # 138,9 % après patrimoine à 1,25 % et grand ménage (DECISIONS1111D) ; 125,2 % (DECISIONS1111B ; 129,2 % recalibré) ; : valeur centrale du modèle (après correction du différé V32018 et décisions du 11/11 ; 130,4 % avant)
+        self.assertAlmostEqual(tr[2058]['ratio'], 1.5044, delta=0.0005)       # 150,4 % (DECISIONS1111D) ; 108,2 % (DECISIONS1111B ; 128,9 % recalibré) ; (124,6 % avant les décisions du 11/11)
 
     def test_mediane_proche_de_la_valeur_centrale(self):
         c = self.res['central']
@@ -382,7 +382,7 @@ class TestAjouts0911(unittest.TestCase):
         """Chaque programme a son générateur (même graine) : le RN tiré seul ou après les deux nouveaux programmes donne exactement les mêmes valeurs."""
         prog, mesures, _ = R.charger_programme('rn')
         a = R.simuler(prog, R.preparer([dict(m) for m in mesures], CTX), CTX, 300, R.GRAINE)[0]['solde']
-        for cle in ('lr', 'ps'):
+        for cle in ('lr', 'ps', 'gl'):
             p2, m2, _ = R.charger_programme(cle)
             R.simuler(p2, R.preparer(m2, CTX), CTX, 50, R.GRAINE)
         b = R.simuler(prog, R.preparer([dict(m) for m in mesures], CTX), CTX, 300, R.GRAINE)[0]['solde']
@@ -396,7 +396,8 @@ class TestAjouts0911(unittest.TestCase):
         if d.get('tirages') != 10000:
             self.skipTest('resultats.json écrit avec un autre nombre de tirages')
         ref = {'fil_de_l_eau': (0.0, 1.5711708855002064, 2.4024247759491457), 'lfi': (-246.54402462535268, 2.3988604883779097, 5.033879542457721),
-               'rn': (-32.38031474628301, 1.6972359229649188, 2.762665687819363), 'langagement': (114.4749468129349, 1.305629154545636, 1.218767228450166)}
+               'rn': (-33.006621364136365, 1.6993619662555024, 2.7689943635342606), 'langagement': (97.14158397954537, 1.3887243500962614, 1.4876927920644996)}   # notre système : valeurs du 11/11/2026 après patrimoine à 1,25 % et grand ménage (DECISIONS1111D ; avant : 135.607, 1.2538, 1.0736 du 08/11)   # RN : valeurs du 11/11/2026 après relecture du dossier primaire (lignes H06, F04, F07, G03, T04 corrigées ; avant : (-32.38031474628301, 1.6972359229649188, 2.762665687819363)) ; notre système : valeurs du 11/11/2026 après DECISIONS1111B (gains d'abord au déficit, leviers F gardés) ; avant : (111.92531291221965, 1.293404077100781, 1.2781484333744682) avec leviers recalibrés ; (retraites de la loi de 2023, entreprise d'État à 1 Md€) ; 08/11 : (114.4749468129349, 1.305629154545636, 1.218767228450166)
+
         for cle, (s, d38, d58) in ref.items():
             self.assertAlmostEqual(d[cle]['solde_regime']['p50'], s, places=9, msg=cle)
             self.assertAlmostEqual(d[cle]['dette2038']['p50'], d38, places=12, msg=cle)

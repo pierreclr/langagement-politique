@@ -24,7 +24,7 @@ class TestTotaux(unittest.TestCase):
         """Le total de chaque page de détail est celui du tableau comparatif (§ 11.1, et § 1 pour LFI et le RN)."""
         entete = ligne_tableau('### 11.1', '')  # première ligne : en-tête
         cells = ligne_tableau('### 11.1', 'Réduction (+) ou aggravation')
-        col = {'LR (Retailleau)': 'lr', 'PS et Place publique': 'ps', 'RN': 'rn', 'LFI': 'lfi', 'Notre système': 'langagement', "Fil de l'eau": 'fil_de_l_eau'}
+        col = {'LR (Retailleau)': 'lr', 'PS et Place publique': 'ps', 'Glucksmann (livret climat, partiel)': 'gl', 'RN': 'rn', 'LFI': 'lfi', 'Notre système': 'langagement', "Fil de l'eau": 'fil_de_l_eau'}
         vus = set()
         for nom, val in zip(entete[1:], cells[1:]):
             cle = col[nom]
@@ -33,7 +33,7 @@ class TestTotaux(unittest.TestCase):
                 continue
             self.assertEqual(DT.totaux(cle, D), val, cle)
             self.assertIn('**%s**' % val, PAGES[DT.FICHIERS[cle]], cle)
-        self.assertEqual(vus, set(DT.COLONNES))
+        self.assertEqual(vus, set(DT.PAGES) | {'fil_de_l_eau'})
         c1 = ligne_tableau('## 1. Tableau comparatif', 'Réduction (+) ou aggravation')
         self.assertEqual(DT.totaux('lfi', D), c1[1])
         self.assertEqual(DT.totaux('rn', D), c1[2])

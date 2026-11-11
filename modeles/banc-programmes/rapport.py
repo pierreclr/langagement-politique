@@ -404,17 +404,20 @@ def ecrire_ajouts(R, meta, ctx, cles_ajout):
     A = L.append
     pib0 = ctx['eco']['pib0']
     DEF0 = ctx['eco']['deficit2024']
-    noms = {'lfi': 'LFI', 'rn': 'RN', 'langagement': 'Notre système', 'fil_de_l_eau': 'Fil de l\'eau', 'lr': 'LR (Retailleau)', 'ps': 'PS et Place publique'}
-    dossiers = {'lr': 'sources/chiffrage-programme-lr-2027.md', 'ps': 'sources/chiffrage-programme-ps-2027.md'}
+    noms = {'lfi': 'LFI', 'rn': 'RN', 'langagement': 'Notre système', 'fil_de_l_eau': 'Fil de l\'eau', 'lr': 'LR (Retailleau)', 'ps': 'PS et Place publique', 'gl': 'Glucksmann (livret climat, partiel)'}
+    dossiers = {'lr': 'sources/chiffrage-programme-lr-2027.md', 'ps': 'sources/chiffrage-programme-ps-2027.md', 'gl': 'modeles/banc-programmes/sources-programmes-2027.md § 3'}
     cols = list(cles_ajout) + ['rn', 'lfi', 'langagement', 'fil_de_l_eau']
     def c100(d, n=0):
         return iv({k: 100 * v for k, v in d.items()}, n) if d else 'n.d.'
     def restant(p):
         return {'p10': DEF0 - p['p90'], 'p50': DEF0 - p['p50'], 'p90': DEF0 - p['p10']}
     A('')
-    A('## 11. Programmes ajoutés le 09/11/2026 : Les Républicains (plan Retailleau) et PS et Place publique (contre-budget 2027)')
+    A('## 11. Programmes ajoutés le 09/11/2026 : Les Républicains (plan Retailleau) et PS et Place publique (contre-budget 2027) ; ajouté le 11/11/2026 : Glucksmann, livret climat (chiffrage partiel)')
     A('')
     A('Demande de l\'auteur du 09/11/2026 : chiffrer plus de programmes. Recensement et choix : %s ; dossiers : %s. **Même méthode, sans rien changer aux autres colonnes** : mêmes leviers, mêmes facteurs communs (comportement, coût, isf), mêmes 10 000 tirages, même graine, même chaîne dette ; chaque programme a son propre générateur, si bien que les sections 1 à 10 sont identiques à celles d\'avant l\'ajout (contrôle : `tests/test_banc.py`). Les deux documents sont relayés par la presse, le document original n\'a pas été trouvé (⚠️ V-LR-01, V-PS-01). Le contre-budget du PS est un budget annuel de 2027, pas le programme présidentiel de Raphaël Glucksmann, qui n\'a publié aucun chiffrage (H-PS-PERIMETRE). Mêmes conventions que pour le RN : pour chaque économie ou recette annoncée, la borne haute est l\'annonce et la médiane est notre estimation réalisable, la contrainte étant nommée ligne par ligne ; les baisses d\'impôts et dépenses nouvelles sont comptées à leur montant (0,95 à 1,15 fois). Ordres de grandeur sous hypothèses, jamais des prédictions.' % ('`sources/chiffrage-programme-lr-2027.md` § 0 et `sources/chiffrage-programme-ps-2027.md` § 0', ', '.join('`%s`' % dossiers[c] for c in cles_ajout if c in dossiers)))
+    if 'gl' in cles_ajout:
+        A('')
+        A('**Colonne Glucksmann (11/11/2026) : chiffrage PARTIEL.** Elle repose sur le seul livret « Révolution écologique : les premiers 100 jours » (partie climat et énergie), qui ne donne que deux montants : 200 Md€ d\'argent public sur le quinquennat (lus comme 40 Md€ par an de 2028 à 2032, puis arrêtés) et 50 Md€ de contribution exceptionnelle sur les plus hauts patrimoines, une seule année. Tout le reste du programme est à zéro : cette colonne ne dit pas ce que coûterait ou rapporterait le programme complet, elle dit ce que deviennent la dette et le déficit avec ces deux seuls montants. Elle est distincte de la colonne PS (contre-budget du groupe socialiste). Les lignes « en régime » de ce tableau mélangent un coût de cinq ans et une recette d\'un an : lire les effets par année (§ 4 de la v2) pour cette colonne.')
     A('')
     A('### 11.1 Tableau comparatif (statique, médiane [intervalle à 80 %])')
     A('')

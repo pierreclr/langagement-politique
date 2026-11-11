@@ -2,7 +2,7 @@
 
 Liste des fichiers publiés dans ce dépôt (générée automatiquement : ne pas modifier à la main).
 
-1491 fichiers, 40.6 Mo.
+1524 fichiers, 41.3 Mo.
 
 | Dossier | Fichiers | Taille (Ko) |
 |---|---|---|
@@ -17,7 +17,7 @@ Liste des fichiers publiés dans ce dépôt (générée automatiquement : ne pas
 | `donnees-brutes` | 7 | 1095 |
 | `modeles/acceleration` | 14 | 132 |
 | `modeles/agriculture` | 15 | 126 |
-| `modeles/banc-programmes` | 47 | 1268 |
+| `modeles/banc-programmes` | 64 | 1903 |
 | `modeles/bascule-existant` | 9 | 109 |
 | `modeles/batisseurs-et-repas` | 8 | 60 |
 | `modeles/capital-commun-retraite` | 7 | 72 |
@@ -47,12 +47,12 @@ Liste des fichiers publiés dans ce dépôt (générée automatiquement : ne pas
 | `modeles/retraites` | 27 | 551 |
 | `modeles/risques` | 7 | 137 |
 | `modeles/securite-justice` | 12 | 73 |
-| `modeles/systeme-ideal` | 245 | 4506 |
+| `modeles/systeme-ideal` | 261 | 4572 |
 | `modeles/taux-endogene` | 7 | 178 |
 | `outils/droit` | 7 | 117 |
 | `prototypes` | 16 | 341 |
 | `registre-anomalies` | 465 | 3022 |
-| `site` | 2 | 36 |
+| `site` | 2 | 22 |
 | `sources` | 171 | 9698 |
 | `sources/calculs` | 52 | 872 |
 
@@ -148,14 +148,20 @@ Ces fichiers sont cités par un lien relatif mais ne sont pas (encore) dans le d
 - `modeles/agriculture/test_modele.py`
 - `modeles/banc-programmes/.gitignore`
 - `modeles/banc-programmes/README.md`
+- `modeles/banc-programmes/detail-glucksmann.md`
 - `modeles/banc-programmes/detail-langagement.md`
 - `modeles/banc-programmes/detail-lfi.md`
 - `modeles/banc-programmes/detail-lr.md`
 - `modeles/banc-programmes/detail-ps.md`
 - `modeles/banc-programmes/detail-rn.md`
 - `modeles/banc-programmes/detail.py`
+- `modeles/banc-programmes/donnees/avant-1111-langagement.json`
+- `modeles/banc-programmes/donnees/avant-1111b-langagement.json`
+- `modeles/banc-programmes/donnees/avant-1111c-rn.json`
+- `modeles/banc-programmes/donnees/avant-1111d-langagement.json`
 - `modeles/banc-programmes/donnees/cache/demographie.json`
 - `modeles/banc-programmes/donnees/cache/incertitudes.json`
+- `modeles/banc-programmes/donnees/cache/incertitudes_serie.json`
 - `modeles/banc-programmes/donnees/cache/ir_openfisca.json`
 - `modeles/banc-programmes/donnees/cache/modules_moins_severes.json`
 - `modeles/banc-programmes/donnees/cache/pension_min.json`
@@ -164,11 +170,15 @@ Ces fichiers sont cités par un lien relatif mais ne sont pas (encore) dans le d
 - `modeles/banc-programmes/donnees/cache/smic_openfisca.json`
 - `modeles/banc-programmes/donnees/cache/systeme.json`
 - `modeles/banc-programmes/donnees/cache/systeme_moins_severe.json`
+- `modeles/banc-programmes/donnees/resultats-v2-grille-v1.json`
+- `modeles/banc-programmes/donnees/resultats-v2.json`
 - `modeles/banc-programmes/donnees/resultats.json`
+- `modeles/banc-programmes/faisabilite.py`
 - `modeles/banc-programmes/fiche.md`
 - `modeles/banc-programmes/ir_openfisca.py`
 - `modeles/banc-programmes/js/diagnostic_saut_2041.js`
 - `modeles/banc-programmes/js/pont_incertitudes.js`
+- `modeles/banc-programmes/js/pont_incertitudes_serie.js`
 - `modeles/banc-programmes/js/pont_isf_abs.js`
 - `modeles/banc-programmes/js/pont_modules_ms.js`
 - `modeles/banc-programmes/js/pont_retraites.js`
@@ -181,18 +191,25 @@ Ces fichiers sont cités par un lien relatif mais ne sont pas (encore) dans le d
 - `modeles/banc-programmes/ponts.py`
 - `modeles/banc-programmes/programmes/__init__.py`
 - `modeles/banc-programmes/programmes/fil_de_l_eau/mesures.py`
+- `modeles/banc-programmes/programmes/gl/mesures.py`
 - `modeles/banc-programmes/programmes/langagement/mesures.py`
 - `modeles/banc-programmes/programmes/lfi/mesures.py`
+- `modeles/banc-programmes/programmes/lfi_cb/mesures.py`
 - `modeles/banc-programmes/programmes/lr/mesures.py`
 - `modeles/banc-programmes/programmes/ps/mesures.py`
 - `modeles/banc-programmes/programmes/rn/mesures.py`
 - `modeles/banc-programmes/rapport.py`
+- `modeles/banc-programmes/rapport_v2.py`
 - `modeles/banc-programmes/relancer.py`
+- `modeles/banc-programmes/relancer_v2.py`
+- `modeles/banc-programmes/resultats-v2.md`
 - `modeles/banc-programmes/resultats.md`
 - `modeles/banc-programmes/rn_openfisca.py`
 - `modeles/banc-programmes/smic_openfisca.py`
+- `modeles/banc-programmes/sources-programmes-2027.md`
 - `modeles/banc-programmes/tests/test_banc.py`
 - `modeles/banc-programmes/tests/test_detail.py`
+- `modeles/banc-programmes/tests/test_v2.py`
 - `modeles/bascule-existant/donnees/jurisprudence.csv`
 - `modeles/bascule-existant/donnees/parametres_transition.csv`
 - `modeles/bascule-existant/donnees/precedents_transition.csv`
@@ -633,6 +650,10 @@ Ces fichiers sont cités par un lien relatif mais ne sont pas (encore) dans le d
 - `modeles/systeme-ideal/decisions_0611_v75.js`
 - `modeles/systeme-ideal/decisions_0711.js`
 - `modeles/systeme-ideal/decisions_0811.js`
+- `modeles/systeme-ideal/decisions_1111.js`
+- `modeles/systeme-ideal/decisions_1111b.js`
+- `modeles/systeme-ideal/decisions_1111c.js`
+- `modeles/systeme-ideal/decisions_1111d.js`
 - `modeles/systeme-ideal/demographie.js`
 - `modeles/systeme-ideal/diagnostic_couple_smic.js`
 - `modeles/systeme-ideal/dvf_patrimoine.js`
@@ -669,6 +690,7 @@ Ces fichiers sont cités par un lien relatif mais ne sont pas (encore) dans le d
 - `modeles/systeme-ideal/options_financement.js`
 - `modeles/systeme-ideal/palier1.js`
 - `modeles/systeme-ideal/pas_a_pas_v51.py`
+- `modeles/systeme-ideal/patrimoine_balayage_1111c.js`
 - `modeles/systeme-ideal/patrimoine_financier.js`
 - `modeles/systeme-ideal/patrimoine_immobilier.js`
 - `modeles/systeme-ideal/rapport.js`
@@ -699,6 +721,9 @@ Ces fichiers sont cités par un lien relatif mais ne sont pas (encore) dans le d
 - `modeles/systeme-ideal/rapport_decisions_0611_v75.js`
 - `modeles/systeme-ideal/rapport_decisions_0711.js`
 - `modeles/systeme-ideal/rapport_decisions_0811.js`
+- `modeles/systeme-ideal/rapport_decisions_1111.js`
+- `modeles/systeme-ideal/rapport_decisions_1111b.js`
+- `modeles/systeme-ideal/rapport_decisions_1111c.js`
 - `modeles/systeme-ideal/rapport_demographie.js`
 - `modeles/systeme-ideal/rapport_foyer.js`
 - `modeles/systeme-ideal/rapport_garantie_transition.js`
@@ -763,6 +788,9 @@ Ces fichiers sont cités par un lien relatif mais ne sont pas (encore) dans le d
 - `modeles/systeme-ideal/resultats_decisions_0611_v75.txt`
 - `modeles/systeme-ideal/resultats_decisions_0711.txt`
 - `modeles/systeme-ideal/resultats_decisions_0811.txt`
+- `modeles/systeme-ideal/resultats_decisions_1111.txt`
+- `modeles/systeme-ideal/resultats_decisions_1111b.txt`
+- `modeles/systeme-ideal/resultats_decisions_1111c.txt`
 - `modeles/systeme-ideal/resultats_garantie_transition.txt`
 - `modeles/systeme-ideal/resultats_retraites_aisees_0611.txt`
 - `modeles/systeme-ideal/resultats_transmissions_0611.txt`
@@ -812,6 +840,10 @@ Ces fichiers sont cités par un lien relatif mais ne sont pas (encore) dans le d
 - `modeles/systeme-ideal/test_decisions_0611_v75.js`
 - `modeles/systeme-ideal/test_decisions_0711.js`
 - `modeles/systeme-ideal/test_decisions_0811.js`
+- `modeles/systeme-ideal/test_decisions_1111.js`
+- `modeles/systeme-ideal/test_decisions_1111b.js`
+- `modeles/systeme-ideal/test_decisions_1111c.js`
+- `modeles/systeme-ideal/test_decisions_1111d.js`
 - `modeles/systeme-ideal/test_demographie.js`
 - `modeles/systeme-ideal/test_diagnostic_couple_smic.js`
 - `modeles/systeme-ideal/test_fiscalite_actuelle.js`
@@ -825,6 +857,7 @@ Ces fichiers sont cités par un lien relatif mais ne sont pas (encore) dans le d
 - `modeles/systeme-ideal/test_options_0411.js`
 - `modeles/systeme-ideal/test_options_financement.js`
 - `modeles/systeme-ideal/test_palier1.js`
+- `modeles/systeme-ideal/test_patrimoine_balayage_1111c.js`
 - `modeles/systeme-ideal/test_patrimoine_financier.js`
 - `modeles/systeme-ideal/test_patrimoine_immobilier.js`
 - `modeles/systeme-ideal/test_retraites2.js`

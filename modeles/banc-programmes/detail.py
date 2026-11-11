@@ -3,7 +3,7 @@
 """
 Pages de détail du banc d'essai : le chiffrage poste par poste de chaque programme, et « les mêmes modèles pour tous ».
 
-Écrit (dans ce dossier) : detail-lfi.md, detail-rn.md, detail-lr.md, detail-ps.md, detail-langagement.md, memes-modeles.md.
+Écrit (dans ce dossier) : detail-lfi.md, detail-rn.md, detail-lr.md, detail-ps.md, detail-glucksmann.md, detail-langagement.md, memes-modeles.md.
 Ne relance PAS le tirage de Monte-Carlo : lit les définitions des mesures (programmes/<cle>/mesures.py), les résultats
 (donnees/resultats.json, écrits par relancer.py), les caches des modèles (donnees/cache/, mêmes fichiers que le banc),
 quelques tableaux de resultats.md (§ 10) et quelques constantes du code des modèles (lues dans les fichiers .js).
@@ -28,13 +28,14 @@ import relancer as R    # noqa: E402
 import rapport as RP    # noqa: E402
 
 SITE = 'https://langagement-politique.vercel.app/fr/modeles/'
-PAGES = ('lfi', 'rn', 'lr', 'ps', 'langagement')
+PAGES = ('lfi', 'rn', 'lr', 'ps', 'gl', 'langagement')
 FICHIERS = {c: 'detail-%s.md' % c for c in PAGES}
+FICHIERS['gl'] = 'detail-glucksmann.md'
 FICHIERS['memes'] = 'memes-modeles.md'
 COLONNES = ('lfi', 'rn', 'lr', 'ps', 'langagement', 'fil_de_l_eau')
 NOMS = {'lfi': 'La France insoumise', 'rn': 'Rassemblement national', 'lr': 'Les Républicains (plan Retailleau)',
-        'ps': 'PS et Place publique (contre-budget 2027)', 'langagement': 'notre système', 'fil_de_l_eau': "fil de l'eau"}
-COURTS = {'lfi': 'LFI', 'rn': 'RN', 'lr': 'LR', 'ps': 'PS', 'langagement': 'notre système', 'fil_de_l_eau': "fil de l'eau"}
+        'ps': 'PS et Place publique (contre-budget 2027)', 'gl': 'Glucksmann, Place publique (livret climat, chiffrage partiel)', 'langagement': 'notre système', 'fil_de_l_eau': "fil de l'eau"}
+COURTS = {'lfi': 'LFI', 'rn': 'RN', 'lr': 'LR', 'ps': 'PS', 'gl': 'Glucksmann', 'langagement': 'notre système', 'fil_de_l_eau': "fil de l'eau"}
 
 # ------------------------------------------------------------------ familles de mesures (classement, pas un chiffre)
 FAMILLES = [
@@ -86,9 +87,10 @@ AFFECTATION = {
                "etat: LR03 LR04 LR07 LR08 LR09 LR10 ; collectivites: LR05 LR18 ; fraude: LR17 ; immigration: LR16 ; autres: LR11"),
     'ps': _aff("ir: PS10 ; patrimoine: PS01 PS02 ; entreprises: PS03 ; niches: PS04 PS05 ; salaires: PS09 ; sante: PS06 PS12 ; etat: PS07 ;"
                "services: PS13 PS14 PS15 ; logement: PS11 ; fraude: PS08a PS08b ; autres: PS08c"),
+    'gl': _aff("patrimoine: GL02 ; logement: GL01"),
     'langagement': _aff("ir: M-REV ; capital: M-CAP M-EPAR ; patrimoine: M-PAT M-TRANS M-TH ; entreprises: M-CRED ; niches: M-CONV M-FRP ;"
                         "retraites: M-V6 M-PENS ; prestations: M-GT M-PL M-RESID M-DET ; sante: M-SECU M-GA ; tva: M-TVA M-RESTO M-FO M-FIOUL ;"
-                        "effectifs: M-M1 M-M3 ; etat: M-ECO M-URSSAF M-FORM ; services: M-08 M-OM M-GRAT ; autres: M-FANT"),
+                        "effectifs: M-M1 M-M3 ; etat: M-ECO M-URSSAF M-FORM M-GM ; services: M-08 M-OM M-GRAT ; autres: M-FANT"),
     'fil_de_l_eau': {},
 }
 
@@ -146,14 +148,15 @@ def charger():
     """Données nécessaires aux pages (aucun tirage)."""
     ctx = R.construire_ctx(False)
     progs = {}
-    for cle in COLONNES:
+    for cle in COLONNES + ('gl',):
         p, ms, mod = R.charger_programme(cle)
         if cle != 'langagement':
             ms = R.preparer(ms, ctx)
         progs[cle] = (p, ms, mod)
     res = lire_json(os.path.join(ICI, 'donnees', 'resultats.json'))
     taux = os.path.join(RACINE, 'modeles', 'taux-endogene', 'donnees', 'resultats.json')
-    return {'ctx': ctx, 'progs': progs, 'R': res, 'taux': lire_json(taux) if os.path.exists(taux) else None,
+    v2 = os.path.join(ICI, 'donnees', 'resultats-v2.json')
+    return {'v2': lire_json(v2) if os.path.exists(v2) else None, 'ctx': ctx, 'progs': progs, 'R': res, 'taux': lire_json(taux) if os.path.exists(taux) else None,
             'resultats_md': open(os.path.join(ICI, 'resultats.md'), encoding='utf-8').read(), 'js': constantes_js()}
 
 
@@ -387,6 +390,8 @@ def texte_lien(cle, m, mod):
         return 'livre du programme' if lien.startswith(mod.LIEN) else 'source'
     if cle == 'rn' and lien == getattr(mod, 'DOSSIER', None):
         return 'annexe du contre-budget'
+    if cle == 'gl':
+        return 'livret'
     return 'article cité'
 
 
@@ -406,6 +411,8 @@ def nature_source(cle, m, mod):
     if cle == 'rn':
         return ("Annexe du contre-budget du groupe RN (cote D, auteur = le programme)." if lien == getattr(mod, 'DOSSIER', None)
                 else "Déclaration rapportée par la presse (cote C) ; le texte du parti n'est pas paru.")
+    if cle == 'gl':
+        return "Livret « Révolution écologique » (24 p., 09/11/2026), lu en entier (cote D, auteur = le programme)."
     return "Article de presse qui rapporte le document du parti, que nous n'avons pas trouvé (montants : cote D, auteur = le programme)."
 
 
@@ -423,6 +430,8 @@ def texte_annonce(cle, m, mod):
     if not a:
         return "Aucun montant publié par le parti pour cette ligne"
     t = '%s Md€ par an (%s)' % (nb(a), signe)
+    if cle == 'gl':
+        t += " ; le livret donne le total (%s Md€ sur le quinquennat, ou 50 Md€ en une fois), la répartition par année est celle du fichier des mesures" % ('200' if m['sens'] == 'depense' else '50')
     if cle == 'rn' and m.get('an1_rn') is not None and abs(m['an1_rn'] - a) > 1e-9:
         t += " en régime, selon le fichier des mesures (les valeurs de 2031 de l'annexe ne sont connues que par la note de l'Institut de l'Entreprise) ; %s Md€ en 2027 dans l'annexe" % nb(m['an1_rn'])
     return t
@@ -733,13 +742,31 @@ def objection_langagement(D):
     return out
 
 
-OBJECTIONS = {'lfi': objection_lfi, 'rn': objection_rn, 'lr': objection_lr, 'ps': objection_ps, 'langagement': objection_langagement}
+def objection_gl(D):
+    pm = D['R']['gl']['par_mesure']
+    ms = {m['id']: m for m in D['progs']['gl'][1]}
+    r = D['R']['gl']
+    return [
+        "**C'est un chiffrage partiel, et le dire en premier ne suffit pas à le rendre juste.** Le livret ne donne que deux montants ; tout le reste du programme (retraites, impôts, santé, seconde partie écologique) est à zéro ici. "
+        "Le résultat ci-dessus n'est donc ni le coût ni le bénéfice du programme de Raphaël Glucksmann : un programme complet pourrait l'aggraver comme l'améliorer.",
+        "**Les 200 Md€ ne sont peut-être pas tous nouveaux.** Nous les lisons comme de la dépense en plus du droit actuel (%s Md€ par an de 2028 à 2032) ; le texte dit seulement « nous investirons », et une partie peut être déjà au budget ou financée hors du budget de l'État "
+        "(livret d'épargne, emprunt européen, investissements privés « mobilisés »). Si la moitié seulement est nouvelle, le coût est surestimé de moitié." % nb(ms['GL01']['annonce']),
+        "**La contribution exceptionnelle de 50 Md€ est notre point le plus sévère.** Le livret ne donne ni seuil, ni taux, ni assiette : nous la lisons avec le score le plus bas de la règle commune (M 0, J 0, E 0), soit %s Md€ en médiane contre 50 annoncés. "
+        "Ses défenseurs diront qu'un prélèvement unique sur quelques milliers de foyers est conçu pour passer, et que des études (non relues ici) évaluent l'assiette à plus de 1 000 Md€ ; un prélèvement de l'ordre de 4 %% serait alors possible sur le papier. "
+        "Le banc ne dit pas qu'il est impossible : il dit que le texte ne permet pas de savoir s'il est conforme à la Constitution." % iv(pm['GL02'], 1),
+        "**Le livret promet la stabilisation de la dette à l'horizon 2032 ; nous trouvons une dette de %s %% du PIB en 2032** (à taux fixe, avec ces deux seuls montants). Ce n'est pas une réfutation : l'objectif repose sur des mesures non chiffrées "
+        "(effet d'entraînement, croissance, seconde partie du programme)." % iv({k: 100 * v for k, v in r['dette2032'].items()}, 0),
+    ]
+
+
+OBJECTIONS = {'lfi': objection_lfi, 'rn': objection_rn, 'lr': objection_lr, 'ps': objection_ps, 'gl': objection_gl, 'langagement': objection_langagement}
 
 INTRO_SOURCE = {
     'lfi': lambda mod: "Programme lu : *L'Avenir en commun*, édition 2027 (%s), et %s." % (mod.LIEN, mod.DOC.replace('Document', 'le document')),
     'rn': lambda mod: "Programme lu : %s (cote D, auteur = le programme)." % mod.SRC_RN,
     'lr': lambda mod: "Programme lu : %s (cote D, auteur = le programme)." % mod.SRC_LR,
     'ps': lambda mod: "Programme lu : %s (cote D, auteur = le programme)." % mod.SRC_PS,
+    'gl': lambda mod: "Programme lu : %s (cote D, auteur = le programme)." % mod.SRC_GL,
     'langagement': lambda mod: "Programme lu : notre propre modèle du système ([page du modèle](%ssysteme-ideal/)), tel qu'il est exporté pour le banc. Ce n'est pas une annonce indépendante : c'est le chiffrage que nous défendons, et nous le passons dans le même banc que les autres." % SITE,
 }
 
@@ -775,6 +802,12 @@ def page_programme(cle, D):
     a('')
     a(INTRO_SOURCE[cle](mod))
     a('')
+    if cle == 'gl':
+        a("**Chiffrage partiel : à lire avant tout chiffre.** Le livret ne couvre que la partie climat et énergie du projet de Raphaël Glucksmann ; la seconde partie (biodiversité, eau, agriculture, pêche, alimentation, pollutions, santé) est annoncée « dans quelques semaines » "
+          "et le programme complet (« Acte Un », 88 pages) n'est pas chiffré. Le livret ne donne que **deux montants** : 200 Md€ d'argent public sur le quinquennat et 50 Md€ de contribution exceptionnelle sur les plus hauts patrimoines, une seule année. "
+          "Tout le reste est à zéro dans cette colonne, qui est **distincte** de celle du PS (contre-budget du groupe socialiste) : elle ne dit pas ce que coûterait le programme, elle dit ce que deviennent la dette et le déficit avec ces deux seuls montants. "
+          "L'effet sur le solde s'arrête en 2032, faute de montant au-delà : lire l'effet année par année (`resultats-v2.md`, § 4) plutôt que « en régime », qui additionne ici un coût de cinq ans et une recette d'un an.")
+        a('')
     a("Unités : milliards d'euros (Md€) par an, euros de 2025 ; un nombre positif améliore le solde public, un nombre négatif l'aggrave. "
       "Chaque estimation est une médiane de %s tirages, suivie entre crochets de l'intervalle qui en contient 80 %% (centiles 10 et 90). Régime : %d. "
       "Résultats complets : `modeles/banc-programmes/resultats.md`. Pages voisines : %s."
@@ -795,7 +828,7 @@ def page_programme(cle, D):
         a('| dont recettes nouvelles et économies | %s |' % iv(r['recettes_regime'], 0))
         a('| dont dépenses nouvelles et baisses d\'impôts | %s |' % iv(r['depenses_regime'], 0))
         a('| Somme des médianes des postes ci-dessous | %s |' % f(sum(v['p50'] for v in pm.values()), 0))
-        if cle in ('rn', 'lr', 'ps'):
+        if cle in ('rn', 'lr', 'ps', 'gl'):
             a('| Somme des montants annoncés par le parti, ligne par ligne (même signe) | %s |' % f(somme_annonces(ms), 0))
         a('| Part des tirages où le programme aggrave le déficit | %s |' % pc(r['part_solde_negatif']))
     a('| Dette publique en 2038 (%% du PIB ; taux d\'intérêt fixe de %s %%) | %s |' % (f(100 * D['ctx']['macros']['reference']['r'], 2), iv({k: 100 * v for k, v in r['dette2038'].items()}, 0)))
@@ -809,6 +842,26 @@ def page_programme(cle, D):
         a("Les nationalisations ajoutent en outre %s Md€ de capital engagé de %d à %d : une opération financière, qui augmente la dette et non le déficit."
           % (iv(r['capital'], 0), prog['debut'], prog['debut'] + 2))
     a('')
+    if cle == 'lfi' and D.get('v2') and 'lfi_cb' in D['v2']['programmes']:
+        a('## Sensibilité : le contre-budget 2027 de LFI contre le programme complet')
+        a('')
+        a("La colonne de cette page chiffre *L'Avenir en commun* en entier. LFI a aussi publié en octobre 2026 un document budgétaire annuel, « Comment nous allons remettre de l'ordre dans les comptes publics » (24 p. ; inventaire dans `sources-programmes-2027.md`), "
+          "qui chiffre 37 lignes : **106,4 Md€** de recettes supplémentaires et **81,7 Md€** de dépenses d'urgence, soit 24,7 Md€ de réduction du déficit annoncée (p. 6, 12-14) ; il dit lui-même ne pas constituer un chiffrage complet du programme (p. 7). "
+          "Le banc le chiffre à part, en sensibilité (`programmes/lfi_cb/mesures.py`) : mêmes recettes que ci-dessus (mêmes modèles, même règle de faisabilité, sans l'impôt sur le revenu à 14 tranches), dépenses limitées aux 14 lignes chiffrées du document, à leur montant de première année lu comme permanent. "
+          "Les deux colonnes ci-dessous passent par la règle de faisabilité commune de la version 2 (`resultats-v2.md`), pas par celle de cette page.")
+        a('')
+        a('| (règle v2, médiane [intervalle à 80 %]) | LFI, programme complet | LFI, contre-budget 2027 |')
+        a('|---|---|---|')
+        V = D['v2']['programmes']
+        for lib, k, fct in (("Effet sur le solde en régime (Md€)", 'solde_regime', lambda x: iv(x, 0)), ("dont recettes nouvelles et économies (Md€)", 'recettes_regime', lambda x: iv(x, 0)),
+                            ("dont dépenses nouvelles et baisses d'impôts (Md€)", 'depenses_regime', lambda x: iv(x, 0)), ("Déficit public 2038 (% du PIB)", 'deficit2038_pct', lambda x: iv({q: 100 * v for q, v in x.items()}, 1)),
+                            ("Dette publique 2032 (% du PIB)", 'dette2032', lambda x: iv({q: 100 * v for q, v in x.items()}, 0)), ("Dette publique 2038 (% du PIB)", 'dette2038', lambda x: iv({q: 100 * v for q, v in x.items()}, 0))):
+            a('| %s | %s | %s |' % (lib, fct(V['lfi'][k]), fct(V['lfi_cb'][k])))
+        a('')
+        a("Lecture. L'écart entre les deux colonnes est celui d'un budget d'une année et d'un programme complet : le document budgétaire laisse de côté le Smic à 1 700 € net, le blocage du prix des carburants, les nationalisations, la retraite à 60 ans à plein effet, "
+          "« 100 % Sécu », la garantie d'emploi et la plupart des services publics du programme, et chiffre les mesures qu'il retient à leur coût de la première année. Ce n'est pas un chiffrage plus exact : c'est un chiffrage plus étroit. "
+          "Les 106,4 Md€ de recettes sont les mêmes lignes dans les deux colonnes ; leur médiane (après la règle de faisabilité) est bien inférieure au montant annoncé.")
+        a('')
     a('## Ce que nous n\'avons pas pu chiffrer')
     a('')
     for x in non_chiffrees(cle, D):
@@ -816,7 +869,7 @@ def page_programme(cle, D):
     a('')
     a('## La meilleure objection à notre chiffrage')
     a('')
-    sujet = {'lfi': 'La France insoumise', 'rn': 'le Rassemblement national', 'lr': 'Les Républicains', 'ps': 'le PS et Place publique', 'langagement': 'un contradicteur'}[cle]
+    sujet = {'lfi': 'La France insoumise', 'rn': 'le Rassemblement national', 'lr': 'Les Républicains', 'ps': 'le PS et Place publique', 'gl': 'Raphaël Glucksmann', 'langagement': 'un contradicteur'}[cle]
     a("Ce que %s %s opposer à ce chiffrage, dit aussi loyalement que possible :" % (sujet, 'peuvent' if cle in ('lr', 'ps') else 'peut'))
     a('')
     for x in OBJECTIONS[cle](D):
