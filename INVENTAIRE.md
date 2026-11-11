@@ -2,7 +2,7 @@
 
 Liste des fichiers publiés dans ce dépôt (générée automatiquement : ne pas modifier à la main).
 
-1524 fichiers, 41.3 Mo.
+1528 fichiers, 41.4 Mo.
 
 | Dossier | Fichiers | Taille (Ko) |
 |---|---|---|
@@ -17,7 +17,7 @@ Liste des fichiers publiés dans ce dépôt (générée automatiquement : ne pas
 | `donnees-brutes` | 7 | 1095 |
 | `modeles/acceleration` | 14 | 132 |
 | `modeles/agriculture` | 15 | 126 |
-| `modeles/banc-programmes` | 64 | 1903 |
+| `modeles/banc-programmes` | 68 | 2075 |
 | `modeles/bascule-existant` | 9 | 109 |
 | `modeles/batisseurs-et-repas` | 8 | 60 |
 | `modeles/capital-commun-retraite` | 7 | 72 |
@@ -175,6 +175,10 @@ Ces fichiers sont cités par un lien relatif mais ne sont pas (encore) dans le d
 - `modeles/banc-programmes/donnees/resultats.json`
 - `modeles/banc-programmes/faisabilite.py`
 - `modeles/banc-programmes/fiche.md`
+- `modeles/banc-programmes/grande-france/README.md`
+- `modeles/banc-programmes/grande-france/lancer.py`
+- `modeles/banc-programmes/grande-france/mesures_gf.py`
+- `modeles/banc-programmes/grande-france/resultats-gf.json`
 - `modeles/banc-programmes/ir_openfisca.py`
 - `modeles/banc-programmes/js/diagnostic_saut_2041.js`
 - `modeles/banc-programmes/js/pont_incertitudes.js`
