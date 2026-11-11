@@ -71,3 +71,49 @@ def regle_reference(sigma, tolerance):
     finançable (la tolérance)."""
     from statistics import NormalDist
     return dict(bloquees=1 - NormalDist().cdf(math.log(1 + tolerance) / sigma), max_gonflement=tolerance)
+
+
+# ------------------------------------------------------------------ schéma « usufruit à 60 % » (11/11/2026) ----------
+def pib(t):
+    """PIB nominal (Md€ courants) de l'année de dispositif t (2027 = 0), convention de fonciere.py."""
+    return F.PIB_2025 * (1 + F.G_PIB) ** (t + 2)
+
+
+def nue_propriete_payee(sim, t):
+    """Nue-propriété payée par la foncière l'année t (Md€ de 2026) : acquisitions (achats + frais + rénovation − décote)
+    moins l'usufruit vendu aux jeunes (H-FA93)."""
+    return sim[t]['acquisitions_md'] - sim[t]['usufruit_vendu_md']
+
+
+def maastricht(sim, t):
+    """Si la foncière est classée dans les administrations publiques (test des 50 % raté), hausse de la dette publique
+    au sens de Maastricht l'année t : variation de (dette de la foncière + cumul des dépenses de l'État pour elle), en
+    Md€ courants, en Md€ de 2026 et en points de PIB de l'année (H-FA95). Brut : l'actif (nue-propriété, prêts) ne se
+    déduit pas."""
+    niv = lambda k: sim[k]['dette_publique_dans_apu_pib'] * pib(k) if k >= 0 else 0.0
+    d = niv(t) - niv(t - 1)
+    return dict(md_courants=d, md_2026=d / (1 + F.COMMUN['pi']) ** (t + 1), pts_pib=d / pib(t), niveau_pts=sim[t]['dette_publique_dans_apu_pib'])
+
+
+def avantage_cache(res, reg, bareme, usu=None):
+    """Écart entre la valeur fiscale de l'usufruit (CGI art. 669 : `bareme(âge)`) et le prix payé f, par contrat (€) et
+    pour une génération de contrats (Md€ par an) ; avec `usu` (dict âge → valeur actuarielle), même calcul à la valeur
+    actuarielle (H-FA96). Prix moyen des contrats, âges des contrats de agreger."""
+    P = res['prix_contrat']
+    fisc = sum(w * (bareme(a) - reg['f']) for a, w in res['ages_contrats']) * P
+    out = dict(fiscal_contrat=fisc, fiscal_md=fisc * res['contrats'] / 1e9,
+               bareme_moyen=sum(w * bareme(a) for a, w in res['ages_contrats']))
+    if usu:
+        act = sum(w * (usu[a] - reg['f']) for a, w in res['ages_contrats']) * P
+        out.update(actuariel_contrat=act, actuariel_md=act * res['contrats'] / 1e9,
+                   usu_moyen=sum(w * usu[a] for a, w in res['ages_contrats']))
+    return out
+
+
+def deficit(sim, t):
+    """Part de la hausse de dette qui pèse sur le déficit public l'année t (Md€ de 2026), si la foncière est une
+    administration publique : nue-propriété payée + intérêts payés − intérêts reçus + gestion − aides évitées. Les prêts
+    aux jeunes (et leur remboursement) sont des opérations financières : ils font la dette, pas le déficit (H-FA95 ⚠️ ;
+    traitement d'une nue-propriété achetée comme acquisition de logement existant, non vérifié dans le SEC 2010)."""
+    r = sim[t]
+    return nue_propriete_payee(sim, t) + r['interets_payes_md'] - r['interets_recus_md'] + r['gestion_md'] - r['aide_evitee_md']

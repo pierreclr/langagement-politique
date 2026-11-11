@@ -211,5 +211,57 @@ class TestExperimentation(unittest.TestCase):
         self.assertLess(X.net_alternant(1200.0, 1867.02), 1200.0)
 
 
+class TestUsufruit60(unittest.TestCase):
+    """Schéma du 11/11/2026 : usufruit à 60 %, sans capital de départ (H-FA90 à H-FA97)."""
+
+    def test_reglage_par_defaut_inchange(self):
+        """Le nouveau paramètre `preteur` ne change rien aux réglages existants (valeur par défaut 'mixte')."""
+        self.assertEqual(A.reglage()['f'], 0.85)
+        self.assertEqual(A.reglage()['G'], 40000.0)
+        self.assertAlmostEqual(ag()['jeunes_F'], ag(preteur='mixte')['jeunes_F'], places=9)
+
+    def test_sans_capital(self):
+        """Sans capital de départ : aucun apport, aucune part à vie, coût du capital nul ; effectifs conservés."""
+        r = A.agreger(A.reglage_usufruit60(), H, HER, S, Q)
+        self.assertEqual(r['cout_capital_md'], 0.0)
+        self.assertEqual(r['apport_contrat'], 0.0)
+        _, jamais = A.ages_emploi_stable(H)
+        self.assertAlmostEqual(r['A']['F'] + r['A']['banque'] + r['A']['loue'], 1 - jamais, places=9)
+
+    def test_preteur(self):
+        """'banque' : la foncière ne prête rien et la banque prête l'essentiel du prix ; 'fonciere' : aucune part bancaire."""
+        rb = A.agreger(A.reglage_usufruit60(preteur='banque'), H, HER, S, Q)
+        rf = A.agreger(A.reglage_usufruit60(preteur='fonciere'), H, HER, S, Q)
+        self.assertEqual(rb['lf_contrat'], 0.0)
+        self.assertEqual(rf['banque_contrat'], 0.0)
+        self.assertGreater(rb['banque_contrat'], 0.5 * rb['prix_contrat'])
+
+    def test_moins_cher_plus_d_entrants(self):
+        """Usufruit vendu moins cher : au moins autant d'entrants."""
+        n = [A.agreger(A.reglage_usufruit60(f=f), H, HER, S, Q)['jeunes_F'] for f in (0.55, 0.60, 0.70)]
+        self.assertGreaterEqual(n[0], n[1])
+        self.assertGreater(n[1], n[2])
+
+    def test_avantage_cache(self):
+        """Barème de l'article 669 : 80 % de 21 à 30 ans, 70 % de 31 à 40 ans ; avantage = (barème − f) × prix × contrats."""
+        self.assertEqual(A.U.bareme_fiscal(25), 0.80)
+        self.assertEqual(A.U.bareme_fiscal(31), 0.70)
+        res = dict(prix_contrat=100000.0, contrats=1000.0, ages_contrats=((25, 0.5), (34, 0.5)))
+        av = FI.avantage_cache(res, dict(f=0.60), A.U.bareme_fiscal)
+        self.assertAlmostEqual(av['fiscal_contrat'], 0.5 * 20000.0 + 0.5 * 10000.0)
+        self.assertAlmostEqual(av['fiscal_md'], 15000.0 * 1000 / 1e9)
+
+    def test_maastricht_somme(self):
+        """Les hausses annuelles de dette publique (Md€ courants) somment au niveau final ; la foncière qui ne prête rien
+        couvre moins de 50 % de ses coûts."""
+        reg = A.reglage_usufruit60()
+        r = A.agreger(reg, H, HER, S, Q)
+        sim = FI.simuler(FI.params_fonciere(r, reg), Q)
+        tot = sum(FI.maastricht(sim, t)['md_courants'] for t in range(12))
+        self.assertAlmostEqual(tot, sim[11]['dette_publique_dans_apu_pib'] * FI.pib(11), places=6)
+        self.assertLess(FI.F.ratio_min(sim, a=30), 0.5)
+        self.assertGreater(FI.nue_propriete_payee(sim, 9), 0.0)
+
+
 if __name__ == '__main__':
     unittest.main(verbosity=1)

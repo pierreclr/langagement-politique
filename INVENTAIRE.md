@@ -2,7 +2,7 @@
 
 Liste des fichiers publiés dans ce dépôt (générée automatiquement : ne pas modifier à la main).
 
-1528 fichiers, 41.4 Mo.
+1533 fichiers, 41.7 Mo.
 
 | Dossier | Fichiers | Taille (Ko) |
 |---|---|---|
@@ -31,7 +31,7 @@ Liste des fichiers publiés dans ce dépôt (générée automatiquement : ne pas
 | `modeles/etat-as-code` | 35 | 1379 |
 | `modeles/etat-plateforme` | 10 | 111 |
 | `modeles/fiscalite-orientation` | 12 | 125 |
-| `modeles/fonciere-afflux` | 17 | 432 |
+| `modeles/fonciere-afflux` | 19 | 630 |
 | `modeles/fonciere-usufruit` | 11 | 836 |
 | `modeles/gagnants-perdants` | 26 | 552 |
 | `modeles/grand-age` | 13 | 60 |
@@ -53,7 +53,7 @@ Liste des fichiers publiés dans ce dépôt (générée automatiquement : ne pas
 | `prototypes` | 16 | 341 |
 | `registre-anomalies` | 465 | 3022 |
 | `site` | 2 | 22 |
-| `sources` | 171 | 9698 |
+| `sources` | 174 | 9763 |
 | `sources/calculs` | 52 | 872 |
 
 ## Fichiers volumineux ou tiers non redistribués
@@ -379,6 +379,7 @@ Ces fichiers sont cités par un lien relatif mais ne sont pas (encore) dans le d
 - `modeles/fonciere-afflux/code/experimentation.py`
 - `modeles/fonciere-afflux/code/finances.py`
 - `modeles/fonciere-afflux/code/offre_prix.py`
+- `modeles/fonciere-afflux/code/usufruit60.py`
 - `modeles/fonciere-afflux/donnees/dpe_classe_surface.csv`
 - `modeles/fonciere-afflux/donnees/grenoble.csv`
 - `modeles/fonciere-afflux/donnees/parametres.json`
@@ -386,6 +387,7 @@ Ces fichiers sont cités par un lien relatif mais ne sont pas (encore) dans le d
 - `modeles/fonciere-afflux/donnees/preparer_dpe.py`
 - `modeles/fonciere-afflux/donnees/preparer_grenoble.py`
 - `modeles/fonciere-afflux/donnees/preparer_parc.py`
+- `modeles/fonciere-afflux/donnees/resultats-usufruit-60.json`
 - `modeles/fonciere-afflux/donnees/resultats.json`
 - `modeles/fonciere-afflux/fiche.md`
 - `modeles/fonciere-afflux/methode.md`
@@ -1567,6 +1569,8 @@ Ces fichiers sont cités par un lien relatif mais ne sont pas (encore) dans le d
 - `sources/garantie-transition.md`
 - `sources/hypotheses-chiffrage-lfi-boetie.md`
 - `sources/impot-nationalite-et-erosion.md`
+- `sources/impot-patrimoine-balayage.md`
+- `sources/impot-patrimoine-constitutionnel.md`
 - `sources/imprevus-et-verifications-0711.md`
 - `sources/inference-publique-plan.md`
 - `sources/inventaire-demarches.csv`
@@ -1601,5 +1605,6 @@ Ces fichiers sont cités par un lien relatif mais ne sont pas (encore) dans le d
 - `sources/retraites-france-allemagne.md`
 - `sources/rules-as-code-analyse-statique.md`
 - `sources/synthese-france-face-ue.md`
+- `sources/tableau-ce-qu-on-supprime.md`
 - `sources/transmissions-credit-is-0611.md`
 - `sources/verifications-2026-11-06-soir.md`

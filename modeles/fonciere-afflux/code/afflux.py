@@ -11,6 +11,8 @@ vie, à son premier emploi stable et au plus tard à 35 ans ; il achète l'usufr
 l'argent libre ; le reste est financé par la foncière sur 25 ou 30 ans à un taux proche du taux bancaire ; au-delà d'un
 plafond de financement, une banque prête le complément (financement mixte) ; il paie la contribution sur la résidence
 principale (0,25 % par an). Qui n'entre pas reçoit la moitié de son capital en parts à vie.
+Schéma du 11/11/2026 (reglage_usufruit60, H-FA90 à H-FA97) : usufruit à 60 %, sans capital ni parts à vie ; paramètre
+`preteur` (mixte, foncière, banque) ; les réglages antérieurs sont inchangés.
 
 Réutilise sans les modifier : modeles/fonciere-usufruit/code/usufruit.py (mensualités, mortalité, usufruit) et
 modeles/capital-de-depart-options/code/options.py (capital(), poids_revenu(), aide_logement(), transition(),
@@ -55,7 +57,18 @@ def hypotheses(P, sc='central', **surcharges):
 def reglage(**kw):
     """Réglage du dispositif (ce que l'auteur choisit) : forfait f, durée, taux du contrat, plafond d'entrées, priorité."""
     r = dict(f=0.85, duree=25, taux=0.0332, marge=0.0, quota=None, priorite='heritage', mixte=True, G=40000.0,
-             K=80000.0, parts_a_vie=0.5)
+             K=80000.0, parts_a_vie=0.5, preteur='mixte')
+    r.update(kw)
+    return r
+
+
+def reglage_usufruit60(**kw):
+    """Schéma décidé par l'auteur le 11/11/2026 (H-FA90 à H-FA97), qui remplace le capital de départ : le jeune achète
+    l'usufruit à vie à 60 % de la valeur, sans apport (prêt de la foncière, ou d'une banque au-delà du plafond mixte) ;
+    la foncière paie la nue-propriété (40 %) ; plus de capital de départ (G = 0) ni de parts à vie pour qui n'entre pas.
+    preteur : 'mixte' (foncière jusqu'au plafond H-FA15, banque au-delà), 'fonciere' (tout par la foncière), 'banque'
+    (tout le prêt par une banque : la foncière ne débourse que la nue-propriété)."""
+    r = reglage(f=0.60, G=0.0, parts_a_vie=0.0)
     r.update(kw)
     return r
 
@@ -128,7 +141,13 @@ def financement(reg, h, s, P, cap):
     (part foncière, part bancaire, mensualité totale)."""
     V = reg['f'] * P
     besoin = max(0.0, V - cap)
-    plafond = reg['f'] * s['prix_T3'] * h['plafond_mixte'] if reg['mixte'] else float('inf')
+    preteur = reg.get('preteur', 'mixte')
+    if preteur == 'banque':
+        plafond = 0.0                    # la banque prête tout (variante H-FA92)
+    elif preteur == 'fonciere' or not reg['mixte']:
+        plafond = float('inf')
+    else:
+        plafond = reg['f'] * s['prix_T3'] * h['plafond_mixte']
     lf = min(besoin, plafond)
     lb = besoin - lf
     tf = reg['taux'] + reg['marge']
