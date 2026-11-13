@@ -29,14 +29,14 @@
    "titre": "Investissement public climat : 200 Md€ sur le quinquennat",
    "detail": "Lus comme 40 Md€ par an de 2028 à 2032, en plus du budget actuel (hypothèse haute : le texte ne dit pas si une partie est déjà au budget).",
    "annonce_md": -40,
-   "estimation_md": -41.1,
+   "estimation_md": -42.2,
    "ref": "detail-glucksmann.md#gl01"
   },
   {
    "titre": "Contribution exceptionnelle sur les plus hauts patrimoines : 50 Md€, une seule année",
    "detail": "Le livret ne donne ni seuil, ni taux, ni assiette ; notre médiane est de 5,5 Md€ (intervalle à 80 % : 1,0 à 41,0), faute de mécanisme décrit.",
    "annonce_md": 50,
-   "estimation_md": 5.5,
+   "estimation_md": 5.1,
    "ref": "detail-glucksmann.md#gl02"
   },
   {

@@ -30,14 +30,14 @@
     }
   },
   "mesures": [
-    {"titre": "Retraite à 60 ans à taux plein (40 annuités)", "detail": "Abrogation de la réforme de 2023 et suppression de la décote ; notre estimation suppose qu'une partie seulement des assurés part à 60 ans (âge effectif moyen central 61,5 ans).", "annonce_md": -9, "estimation_md": -55.1, "ref": "detail-lfi.md#d05"},
-    {"titre": "« 100 % Sécu »", "detail": "Soins pris en charge à 100 %, fin des franchises, arrêts maladie à 100 % sans carence.", "annonce_md": null, "estimation_md": -30.4, "ref": "detail-lfi.md#d07"},
-    {"titre": "Planification écologique de l'État", "detail": "Rénovation de 700 000 logements par an, bâtiments publics, sécurité civile.", "annonce_md": -10, "estimation_md": -24.4, "ref": "detail-lfi.md#d14"},
-    {"titre": "Pension minimale au niveau du Smic", "detail": "Pension de carrière complète au Smic revalorisé et minimum vieillesse au seuil de pauvreté ; environ 4,2 millions de retraités concernés.", "annonce_md": null, "estimation_md": -22.9, "ref": "detail-lfi.md#p01"},
-    {"titre": "Garantie d'autonomie", "detail": "Revenu de chaque personne porté au seuil de pauvreté (1 337 €), d'abord pour les jeunes.", "annonce_md": -9.5, "estimation_md": -20.4, "ref": "detail-lfi.md#d04"},
+    {"titre": "Retraite à 60 ans à taux plein (40 annuités)", "detail": "Abrogation de la réforme de 2023 et suppression de la décote ; notre estimation suppose qu'une partie seulement des assurés part à 60 ans (âge effectif moyen central 61,5 ans).", "annonce_md": -9, "estimation_md": -55.2, "ref": "detail-lfi.md#d05"},
+    {"titre": "« 100 % Sécu »", "detail": "Soins pris en charge à 100 %, fin des franchises, arrêts maladie à 100 % sans carence.", "annonce_md": null, "estimation_md": -30.3, "ref": "detail-lfi.md#d07"},
+    {"titre": "Planification écologique de l'État", "detail": "Rénovation de 700 000 logements par an, bâtiments publics, sécurité civile.", "annonce_md": -10, "estimation_md": -24.3, "ref": "detail-lfi.md#d14"},
+    {"titre": "Pension minimale au niveau du Smic", "detail": "Pension de carrière complète au Smic revalorisé et minimum vieillesse au seuil de pauvreté ; environ 4,2 millions de retraités concernés.", "annonce_md": null, "estimation_md": -23.0, "ref": "detail-lfi.md#p01"},
+    {"titre": "Garantie d'autonomie", "detail": "Revenu de chaque personne porté au seuil de pauvreté (1 337 €), d'abord pour les jeunes.", "annonce_md": -9.5, "estimation_md": -20.5, "ref": "detail-lfi.md#d04"},
     {"titre": "Point d'indice +10 %", "detail": "Hausse du point d'indice de la fonction publique, avec compensation des collectivités.", "annonce_md": -17, "estimation_md": -19.8, "ref": "detail-lfi.md#d01"},
-    {"titre": "Rabot des niches fiscales et sociales", "detail": "Suppression de niches jugées injustes, dont le crédit d'impôt recherche et le pacte Dutreil ; recette de LFI ramenée par la même règle que pour tous.", "annonce_md": 22, "estimation_md": 14.8, "ref": "detail-lfi.md#r02"},
-    {"titre": "Successions : plafond d'héritage de 12 M€", "detail": "Exonération sous 150 000 € et plafond de 12 M€ sur ce qu'une personne reçoit ; notre estimation tient compte de la planification et des départs.", "annonce_md": 20, "estimation_md": 13.5, "ref": "detail-lfi.md#r05"}
+    {"titre": "Rabot des niches fiscales et sociales", "detail": "Suppression de niches jugées injustes, dont le crédit d'impôt recherche et le pacte Dutreil ; recette de LFI ramenée par la même règle que pour tous.", "annonce_md": 22, "estimation_md": 15.4, "ref": "detail-lfi.md#r02"},
+    {"titre": "Successions : plafond d'héritage de 12 M€", "detail": "Exonération sous 150 000 € et plafond de 12 M€ sur ce qu'une personne reçoit ; notre estimation tient compte de la planification et des départs.", "annonce_md": 20, "estimation_md": 8.6, "ref": "detail-lfi.md#r05"}
   ],
   "themes": {
     "finances": {

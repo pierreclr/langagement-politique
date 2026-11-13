@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>La dette publique</title>
+<meta name="description" content="La dette publique française : la différence avec le déficit, ce qu'elle coûte, à qui elle est due, ce qui se passe si rien ne change jusqu'en 2050, et les positions des partis.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Source+Serif+4:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/redressement.css">
+<link rel="stylesheet" href="/graphiques-site.css">
+<script src="/graphiques-site.js"></script>
+<style>
+.verdict{display:inline-block;font-size:.78rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase;border-radius:999px;padding:2px 10px;white-space:nowrap}
+.v-juste{background:var(--vert-doux);color:var(--vert)}
+.v-faux{background:#fbe9ec;color:var(--rouge)}
+.v-partie{background:var(--ambre-doux);color:var(--ambre)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="clair"]) .v-faux{background:#2a1b1e}}
+.lignes{display:grid;gap:12px;margin-top:20px}
+.lignes div{background:var(--surface);border:1px solid var(--trait);border-radius:12px;padding:14px 16px}
+.lignes .dit{font-family:var(--serif);font-size:1.08rem;margin:0 0 6px}
+.lignes p{margin:6px 0 0;font-size:.97rem}
+.sources li{font-size:.9rem;margin-bottom:6px;overflow-wrap:anywhere}
+</style>
+</head>
+<body>
+<div class="proto">Dossier mis à jour le 13/11/2026. Une erreur ? <a href="https://github.com/pierreclr/langagement-politique/issues">Signalez-la</a>, on corrige.</div>
+<header><div class="page large">
+  <a class="marque" href="/">Langagement politique</a>
+  <nav></nav>
+</div></header>
+<main>
+<section class="ouverture"><div class="page">
+  <p class="etiq">Comprendre</p>
+  <h1>La dette publique : d'où elle vient, ce qu'elle coûte, où elle va.</h1>
+  <p class="doux">Un dossier pour comprendre, sans prendre parti : ce que mesurent les chiffres, ce qui est établi, ce qui est débattu, et ce que chaque programme donne dans notre simulateur.</p>
+</div></section>
+
+<section class="bloc" id="en-bref"><div class="page">
+  <p class="etiq">1. En bref</p>
+  <h2>Cinq phrases.</h2>
+  <p>Le <strong>déficit</strong> est ce qui manque sur une année (l'État dépense plus qu'il ne reçoit) ; la <strong>dette</strong> est la somme de tous les manques passés, non encore remboursés. Fin 2025, la dette des administrations publiques françaises est de 3 460 milliards d'euros, soit 115,6 % du PIB, et le déficit de l'année est de 5,1 % du PIB. Les intérêts payés en 2025 sont d'environ 65 milliards d'euros. Si rien ne change (droit actuel, hypothèses ci-dessous), notre simulation donne une dette de 118 % du PIB en 2026 et de 205 % en 2050, et des intérêts qui passent d'environ 70 à environ 200 milliards d'euros par an, en euros d'aujourd'hui. C'est un ordre de grandeur sous hypothèses, pas une prévision : la trajectoire dépend de la croissance, des taux d'intérêt et des choix budgétaires.</p>
+</div></section>
+
+<section class="bloc" id="chiffres"><div class="page">
+  <p class="etiq">2. Chiffres clés en graphiques</p>
+  <h2>Où on en est, et où on va si rien ne change.</h2>
+
+  <h3>Dette publique, en % du PIB : 2025 mesuré, 2030 à 2050 projeté</h3>
+  <svg data-graph="barres" data-lw="60" data-max="220" data-lignes='[["2025",115.6,"var(--accent)",null,"115,6 %"],["2030",129.5,"var(--ambre)",null,"129,5 %"],["2035",146.2,"var(--ambre)",null,"146,2 %"],["2040",164.7,"var(--rouge)",null,"164,7 %"],["2045",184.6,"var(--rouge)",null,"184,6 %"],["2050",205.4,"var(--rouge)",null,"205,4 %"]]' viewBox="0 0 640 256"></svg>
+  <p class="src">2025 : Insee, dette au sens de Maastricht (3 460,5 Md€ ; 115,6 % du PIB), publication du 27/03/2026, susceptible de révision. 2030 à 2050 : notre simulation « si rien ne change » (voir encadré ci-dessous). Barre bleue : mesure ; ambre et rouge : projection.</p>
+
+  <h3>Intérêts payés par an, en milliards d'euros d'aujourd'hui</h3>
+  <svg data-graph="barres" data-lw="60" data-max="220" data-lignes='[["2025",65,"var(--accent)",null,"≈ 65 Md€"],["2030",97,"var(--ambre)",null,"≈ 97 Md€"],["2035",126,"var(--ambre)",null,"≈ 126 Md€"],["2040",151,"var(--rouge)",null,"≈ 151 Md€"],["2045",175,"var(--rouge)",null,"≈ 175 Md€"],["2050",198,"var(--rouge)",null,"≈ 198 Md€"]]' viewBox="0 0 640 256"></svg>
+  <p class="src">2025 : Insee, charge d'intérêts des administrations publiques, 64,7 Md€ (2,2 % du PIB). 2030 à 2050 : notre simulation, montants ramenés à la taille de l'économie de 2025 pour pouvoir les comparer. En 2050, la projection donne des intérêts de 6,6 % du PIB.</p>
+
+  <h3>À qui la France doit de l'argent : part de la dette négociable de l'État</h3>
+  <svg data-graph="barres" data-lw="110" data-max="100" data-lignes='[["Non-résidents",56.0,"var(--accent)",null,"56,0 %"],["Résidents",44.0,"var(--doux)",null,"44,0 %"]]' viewBox="0 0 640 96"></svg>
+  <p class="src">Banque de France via Agence France Trésor, 4e trimestre 2025 : 56,0 % des titres de dette négociable de l'État détenus par des non-résidents (chiffre relevé dans un document parlementaire qui cite l'AFT ; à recouper avec le bulletin mensuel de l'AFT). Il s'agit des titres négociables de l'État, pas de toute la dette publique.</p>
+
+  <div class="note" style="margin-top:20px"><strong>Hypothèses de la projection « si rien ne change ».</strong> Le solde hors intérêts de 2024 est maintenu en part du PIB (un déficit hors intérêts d'environ 3,5 % du PIB) ; croissance de l'économie en euros courants (inflation comprise) de 3,0 % par an ; taux d'emprunt de marché de 3,45 % ; la dette se renouvelle en moyenne en 8 ans. Le déficit total passe ainsi de 5,8 % du PIB en 2026 à 10,1 % en 2050, sous l'effet des intérêts.</div>
+</div></section>
+
+<section class="bloc" id="mecanique"><div class="page">
+  <p class="etiq">3. Comment ça marche</p>
+  <h2>Avec des exemples.</h2>
+  <div class="lignes">
+    <div><p class="dit">Déficit et dette : le flux et le stock</p><p>Pensez à une baignoire. Le déficit est le débit du robinet pendant l'année ; la dette est le niveau de l'eau. Chaque année de déficit ajoute de l'eau. Un excédent en retirerait. Un déficit de 5,1 % du PIB signifie que, sur 100 euros produits dans le pays en un an, environ 5 ont été dépensés par les administrations publiques sans être couverts par leurs recettes.</p></div>
+    <div><p class="dit">Pourquoi mesurer la dette en % du PIB</p><p>3 460 milliards d'euros ne disent rien sans point de comparaison. Le PIB est la richesse produite en un an : il donne la taille de l'économie qui doit rembourser. C'est comme comparer une dette à un revenu annuel : 20 000 € de dette ne pèsent pas pareil pour quelqu'un qui gagne 20 000 € par an et pour quelqu'un qui en gagne 100 000. Une dette de 115,6 % du PIB équivaut à un peu plus d'une année entière de production du pays. Limite : le PIB n'est pas la recette de l'État, et le ratio ne dit rien de ce que les prêteurs accepteront.</p></div>
+    <div><p class="dit">À qui la France doit de l'argent</p><p>L'État emprunte surtout en émettant des titres (obligations, bons du Trésor) achetés par des banques, des assureurs, des fonds de placement et des banques centrales, en France et à l'étranger. Fin 2025, un peu plus de la moitié des titres négociables de l'État (56,0 %) est détenue par des non-résidents. Un non-résident n'est pas forcément un État étranger : ce peut être un fonds ou un assureur européen. Les parts des autres catégories de détenteurs ne sont pas détaillées ici, faute de source consultée.</p></div>
+    <div><p class="dit">Les intérêts : ce que coûte la dette</p><p>En 2025, les intérêts sont d'environ 65 milliards d'euros, soit 2,2 % du PIB, en hausse de 11,2 % sur un an d'après l'Insee. Rapporté à la dette, cela fait un taux moyen apparent d'environ 1,9 % (65 ÷ 3 460), nettement sous le taux de marché de 3,45 % retenu dans notre simulation : une part de la dette a été empruntée quand les taux étaient plus bas. À mesure que ces anciens emprunts arrivent à échéance et sont renouvelés à des taux plus élevés, le coût moyen monte, même sans nouvelle dette. Exemple : 100 milliards empruntés à 1 % coûtent 1 milliard par an ; renouvelés à 3,45 %, ils en coûtent 3,45.</p></div>
+    <div><p class="dit">Ce qui fait monter ou baisser la dette en % du PIB</p><p>Trois éléments suffisent à résumer la mécanique. <strong>1. Le solde hors intérêts</strong> (recettes moins dépenses, sans compter les intérêts) : un déficit hors intérêts fait monter la dette. <strong>2. Le taux d'intérêt</strong> : plus il est élevé, plus la dette grossit d'elle-même. <strong>3. La croissance</strong> de l'économie en euros courants : elle agrandit le PIB et fait baisser le ratio, comme une hausse de salaire allège une mensualité fixe. Quand le taux dépasse la croissance, la dette gonfle par effet « boule de neige » ; quand la croissance dépasse le taux, elle peut baisser même avec un déficit modéré. Dans la projection « si rien ne change », le taux (3,45 %) dépasse un peu la croissance (3,0 %) et le solde hors intérêts reste négatif : les deux poussent la dette vers le haut.</p></div>
+    <div><p class="dit">Quand les taux montent avec la dette</p><p>Les prêteurs peuvent demander un taux plus élevé à un pays plus endetté ou plus déficitaire. Dans une variante de notre simulation où le taux de l'État suit la dette et le déficit, sans aucun effort supplémentaire, la prime de risque dépasse 3 points vers 2037 : à ce stade, la simulation ne décrit plus rien (dans la réalité : plan d'ajustement, aide européenne ou intervention de la Banque centrale européenne). La Grèce en est un exemple historique, mais d'une situation très différente de celle de la France : voir <a href="/comprendre/grece.html">notre dossier sur la Grèce</a>.</p></div>
+  </div>
+</div></section>
+
+<section class="bloc" id="etabli"><div class="page">
+  <p class="etiq">4. Établi, débattu, inconnu</p>
+  <h2>Ce que l'on sait, ce qui se discute.</h2>
+  <h3>Établi</h3>
+  <ul>
+    <li>Fin 2025 : dette de 3 460,5 Md€ (115,6 % du PIB, après 112,6 % fin 2024), déficit de 5,1 % du PIB, intérêts d'environ 65 Md€ (Insee).</li>
+    <li>La charge d'intérêts augmente : +11,2 % en 2025 selon l'Insee, parce que les anciens emprunts sont renouvelés à des taux plus élevés.</li>
+    <li>La dette en % du PIB évolue selon trois facteurs : solde hors intérêts, taux d'intérêt et croissance. C'est une identité comptable, pas une opinion.</li>
+    <li>Plus de la moitié des titres négociables de l'État est détenue par des non-résidents (56,0 % au 4e trimestre 2025).</li>
+  </ul>
+  <h3>Débattu</h3>
+  <ul>
+    <li><strong>À partir de quel niveau la dette devient-elle dangereuse ?</strong> Aucune étude consultée ici ne fixe de seuil précis, valable pour tous les pays et toutes les époques ; le risque dépend du niveau des taux, de la confiance des prêteurs, de la monnaie et de la durée moyenne de la dette.</li>
+    <li><strong>Faut-il réduire le déficit vite ou lentement ?</strong> Une réduction rapide stabilise la dette plus tôt mais peut freiner l'activité (les économistes discutent de la taille de cet effet, appelé « multiplicateur budgétaire ») ; une réduction lente laisse plus longtemps la dette augmenter.</li>
+    <li><strong>Que financent les emprunts ?</strong> Beaucoup d'économistes distinguent une dette qui finance des dépenses courantes et une dette qui finance des investissements durables ; d'autres rappellent que la distinction est difficile à tracer dans les comptes.</li>
+    <li><strong>Faut-il s'inquiéter de la part détenue à l'étranger ?</strong> Certains y voient une dépendance, d'autres une preuve de la confiance des marchés et une diversification des prêteurs.</li>
+  </ul>
+  <h3>Inconnu ou incertain</h3>
+  <ul>
+    <li>L'évolution des taux et de la croissance sur 25 ans : la projection à 2050 est un exercice de calcul, pas une prévision.</li>
+    <li>Le niveau à partir duquel les prêteurs demanderaient des taux sensiblement plus élevés à la France : il n'est connu qu'après coup.</li>
+    <li>Les chiffres de 2025 peuvent être révisés par l'Insee ; certaines sources donnent 115,7 % du PIB pour la même dette.</li>
+  </ul>
+</div></section>
+
+<section class="bloc" id="partis"><div class="page">
+  <p class="etiq">5. Les positions des partis</p>
+  <h2>Ce que donne chaque programme dans notre simulateur.</h2>
+  <p class="doux">Nous avons chiffré, avec la même méthode et les mêmes hypothèses, les mesures publiées par chaque camp, puis calculé la dette en 2038 (valeur médiane de 10 000 simulations ; taux de marché fixe de 3,45 %). « Fil de l'eau » = aucune mesure nouvelle. Ce sont des ordres de grandeur sous hypothèses, jamais des prédictions : les écarts entre programmes sont plus fiables que les niveaux. Les programmes ne visent pas tous le même objectif (la dette n'est pas le seul critère) et certains ne sont chiffrés que partiellement. Le programme de ce site figure dans la liste (« notre système ») : il est conçu par les auteurs du simulateur, ce qui est un conflit d'intérêts que nous déclarons.</p>
+
+  <h3>Dette en 2038, taux d'intérêt fixe (% du PIB)</h3>
+  <svg data-graph="barres" data-lw="200" data-max="320" data-lignes='[["Notre système",148,"var(--accent)",null,"148 %"],["LR (Retailleau)",149,"var(--ambre)",null,"149 %"],["Fil de l’eau (droit actuel)",157,"var(--ambre)",null,"157 %"],["PS et Place publique",163,"var(--ambre)",null,"163 %"],["Glucksmann (chiffrage partiel)",164,"var(--ambre)",null,"164 %"],["LFI, contre-budget 2027",170,"var(--ambre)",null,"170 %"],["RN",175,"var(--ambre)",null,"175 %"],["LFI, programme complet",241,"var(--rouge)",null,"241 %"]]' viewBox="0 0 640 336"></svg>
+  <p class="src">Notre simulateur ; détail sur <a href="/etudes.html#modeles">la page des études et modèles</a>. La dette de 2025 est de 115,6 %.</p>
+
+  <h3>Dette en 2038, si le taux d'intérêt suit la dette et le déficit (% du PIB)</h3>
+  <svg data-graph="barres" data-lw="200" data-max="320" data-lignes='[["Notre système",168,"var(--accent)",null,"168 %"],["LR (Retailleau)",168,"var(--ambre)",null,"168 %"],["Fil de l’eau (droit actuel)",179,"var(--ambre)",null,"179 %"],["PS et Place publique",186,"var(--ambre)",null,"186 %"],["Glucksmann (chiffrage partiel)",190,"var(--ambre)",null,"190 %"],["LFI, contre-budget 2027",197,"var(--ambre)",null,"197 %"],["RN",204,"var(--ambre)",null,"204 %"],["LFI, programme complet",311,"var(--rouge)",null,"311 %"]]' viewBox="0 0 640 336"></svg>
+  <p class="src">Même simulateur, variante « taux endogène » : la prime demandée par les prêteurs augmente avec la dette et le déficit. Hypothèses de cette variante discutables ; elle vaut comme test de sensibilité.</p>
+
+  <div class="lignes">
+    <div><p class="dit">Ce qu'on voit</p><p>Dans le cas du taux fixe, la dette de 2038 va de 148 % (notre système) à 241 % (programme complet de LFI) ; avec les mesures du droit actuel sans changement, elle est de 157 %. Deux programmes (notre système et LR) finissent sous le fil de l'eau, les autres au-dessus. Quand le taux suit la dette, tous les niveaux montent (de 168 % à 311 %), mais le classement reste le même.</p></div>
+    <div><p class="dit">Ce que ça ne dit pas</p><p>Ces chiffres ne jugent ni les objectifs de chaque camp (protection sociale, climat, pouvoir d'achat, défense), ni leurs effets sur la croissance, qui sont ici peu pris en compte. Les mesures non chiffrées par un parti ou peu détaillées sont traitées avec des hypothèses prudentes qui sont les nôtres. Un programme peut aussi avoir un effet sur la dette après 2038 qui diffère de celui de 2038.</p></div>
+  </div>
+</div></section>
+
+<section class="bloc" id="choix"><div class="page">
+  <p class="etiq">6. Ce que ça change pour les choix politiques</p>
+  <h2>Les arbitrages, sans réponse imposée.</h2>
+  <ul>
+    <li><strong>Plus de marge, ou moins.</strong> Plus les intérêts augmentent, moins il reste à dépenser pour le reste : à 65 milliards en 2025 (2,2 % du PIB) et environ 200 milliards d'euros d'aujourd'hui en 2050 sans changement, la part consacrée aux intérêts augmente sans décision de personne.</li>
+    <li><strong>Trois leviers.</strong> Réduire le déficit hors intérêts (dépenses ou recettes), soutenir la croissance, ou obtenir de meilleurs taux. Chaque camp en privilégie un ou deux, et chacun a un coût ou une incertitude : un effort budgétaire a un coût pour les bénéficiaires ou les contribuables, une politique de croissance n'a pas de résultat garanti, et les taux ne se décident pas à Paris.</li>
+    <li><strong>Le calendrier.</strong> Un même effort est moins lourd s'il est étalé, mais la dette augmente plus longtemps ; plus tôt, il pèse davantage sur l'activité à court terme.</li>
+    <li><strong>La question de la confiance.</strong> Un programme chiffré et crédible peut influencer le taux demandé par les prêteurs, d'après notre variante de taux endogène : cet effet est une hypothèse, pas un constat.</li>
+    <li><strong>Ce que la Grèce enseigne, et n'enseigne pas.</strong> Perdre l'accès aux marchés force un ajustement rapide et coûteux ; la situation française est différente (déficit, cadre européen, protection de la BCE) : voir <a href="/comprendre/grece.html">le dossier Grèce</a>.</li>
+  </ul>
+</div></section>
+
+<section class="bloc" id="plus-loin"><div class="page">
+  <p class="etiq">7. Pour aller plus loin</p>
+  <h2>Prolonger.</h2>
+  <ul>
+    <li><a href="/comparer.html">Comparer les programmes</a>, mesure par mesure.</li>
+    <li><a href="/comprendre/grece.html">La Grèce, 2009-2018 : ce qui s'est passé</a>.</li>
+    <li><a href="/etudes.html#modeles">Nos études et modèles</a>, avec les hypothèses et les résultats détaillés.</li>
+  </ul>
+</div></section>
+
+<section class="bloc" id="video"><div class="page">
+  <p class="etiq">8. Vidéo</p>
+  <div class="lignes"><div><p class="dit">La vidéo de ce dossier arrive bientôt.</p><p>Elle résumera ce dossier en quelques minutes. Le texte ci-dessus reste la référence.</p></div></div>
+</div></section>
+
+<section class="bloc" id="sources"><div class="page">
+  <p class="etiq">9. Sources</p>
+  <h2>Où vérifier.</h2>
+  <p class="doux">Consultées le 13/11/2026. Fiabilité : A = statistique publique ou publication à comité de lecture, B = institution reconnue, document parlementaire, C = presse ou think tank, D = communication commerciale ou militante.</p>
+  <ul class="sources">
+    <li>(A) Insee, Informations rapides, dette, déficit et charge d'intérêts des administrations publiques en 2025 (publication du 27/03/2026) : https://www.insee.fr/fr/statistiques/8956575</li>
+    <li>(B) Agence France Trésor, bulletins mensuels (part des non-résidents dans la dette négociable de l'État, source Banque de France) : https://www.aft.gouv.fr/files/medias-aft/7_Publications/7.2_BM/435_Bulletin%20mensuel%20aout%202026.pdf</li>
+    <li>(B) Assemblée nationale, amendement citant la part de 56,0 % de non-résidents au 4e trimestre 2025 (relais d'un chiffre AFT, à recouper avec le bulletin de l'AFT) : https://www.assemblee-nationale.fr/dyn/17/amendements/2694/AN/10</li>
+    <li>(C) Public Sénat, « Qui détient la dette française et faut-il s'inquiéter de la part détenue à l'étranger ? » (éclairage de presse, sans chiffre repris ici) : https://www.publicsenat.fr/actualites/politique/qui-detient-la-dette-francaise-et-faut-il-sinquieter-de-la-part-detenue-a-letranger</li>
+    <li>(C) Public Sénat, déficit de 5,1 % du PIB en 2025, 27/03/2026 : https://www.publicsenat.fr/actualites/economie/le-deficit-public-de-la-france-a-finalement-ete-moins-elevee-que-prevu-en-2025-51-du-pib-au-lieu-de-54</li>
+    <li>(A) Eurostat et Insee, déficit et dette de la France (voir aussi <a href="/comprendre/grece.html">dossier Grèce</a>) : https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/gov_10dd_edpt1</li>
+    <li>(B) Simulateur de ce site : trajectoire « si rien ne change » jusqu'en 2050, dette 2038 par programme, variante de taux endogène ; sources et hypothèses détaillées sur https://langagement-politique.vercel.app/etudes.html#modeles (conflit d'intérêts : modèle construit par les auteurs du site, qui y chiffrent aussi leur propre programme).</li>
+  </ul>
+  <p class="note">Dernière mise à jour : 13/11/2026. Méthode : chiffres de 2025 relevés auprès des publications officielles ; projections issues du simulateur, présentées comme des ordres de grandeur sous hypothèses ; points non établis signalés comme tels. Rédaction faite avec l'aide d'une IA (Claude, d'Anthropic) ; les choix sont ceux de l'auteur.</p>
+</div></section>
+</main>
+<footer class="page" style="padding:28px 16px;color:var(--doux);font-size:.85rem">Texte sous licence CC BY-SA 4.0. Version de travail.</footer>
+</body>
+</html>

@@ -1,0 +1,562 @@
+[
+ {
+  "id": "a",
+  "nom": "60 %, sans plafond",
+  "params": {
+   "f": 0.6,
+   "marge": 0.0,
+   "quota": null
+  },
+  "ind": {
+   "jeunes": 413753.60474826995,
+   "contrats": 322955.29482836754,
+   "D15": 0.5494450416631226,
+   "D15_sans": 0.10484262875108116,
+   "proprio": 0.4984983189738192,
+   "pmax": 0.20514243624095335,
+   "secteur_max": "villes_moyennes",
+   "m2032": 0.00983757578043203,
+   "m2038": 0.016201920791145526,
+   "md2032": 36.18683136057152,
+   "md2038": 71.16268380457649,
+   "cout10": 55.07768875392427,
+   "np10": 22.191783492048238,
+   "ratio30": 0.30942399669390547,
+   "test50": false,
+   "avantage_md": 9.486315602296687,
+   "avantage_contrat": 29373.463616189125,
+   "bareme_moyen": 0.7917808290769666,
+   "dette30": 1167.5882501770861
+  },
+  "issues": {
+   "entrent": 413753.60474826995,
+   "ecartes": 0.0,
+   "banque": 0.0,
+   "loue": 316646.3952517294,
+   "jamais": 99600.0,
+   "total": 829999.9999999993
+  },
+  "demande_sans_plafond": 413753.60474826995,
+  "ecartes_loue": 0.0,
+  "mens": {
+   "metropoles_T2": {
+    "prix": 160000.0,
+    "loyer": 808.2800000000001,
+    "mensualite": 471.381088032946,
+    "avec_contribution": 504.71442136627934,
+    "rapport": 0.6244301744027804,
+    "tout_compris": 604.7144213662793,
+    "rapport_tout": 0.7481496775452557
+   },
+   "metropoles_T2_choc": {
+    "prix": 160000.0,
+    "loyer": 808.2800000000001,
+    "mensualite": 545.657477183304,
+    "avec_contribution": 578.9908105166373,
+    "rapport": 0.7163245540117748,
+    "tout_compris": 678.9908105166373,
+    "rapport_tout": 0.8400440571542501
+   },
+   "villes_moyennes_T2": {
+    "prix": 119000.0,
+    "loyer": 614.24,
+    "mensualite": 350.5896842245036,
+    "avec_contribution": 375.3813508911703,
+    "rapport": 0.6111313996014104,
+    "tout_compris": 449.7563508911703,
+    "rapport_tout": 0.732215991943166
+   },
+   "villes_moyennes_T2_choc": {
+    "prix": 119000.0,
+    "loyer": 614.24,
+    "mensualite": 405.8327486550823,
+    "avec_contribution": 430.624415321749,
+    "rapport": 0.7010686626102972,
+    "tout_compris": 504.999415321749,
+    "rapport_tout": 0.8221532549520529
+   }
+  },
+  "cohorte": 830000,
+  "secteur_nom": "Villes moyennes"
+ },
+ {
+  "id": "b",
+  "nom": "60 %, plafond 8 %",
+  "params": {
+   "f": 0.6,
+   "marge": 0.0,
+   "quota": 0.08
+  },
+  "ind": {
+   "jeunes": 66399.99999999996,
+   "contrats": 51177.070618339996,
+   "D15": 0.2668509786442386,
+   "D15_sans": 0.10484262875108116,
+   "proprio": 0.23815853497079337,
+   "pmax": 0.041026287562342535,
+   "secteur_max": "villes_moyennes",
+   "m2032": 0.00153473163562596,
+   "m2038": 0.0025278468427347564,
+   "md2032": 5.645402497696615,
+   "md2038": 11.102903655364173,
+   "cout10": 8.59286533150747,
+   "np10": 3.461742792874885,
+   "ratio30": 0.3111957393081093,
+   "test50": false,
+   "avantage_md": 1.4749681254771065,
+   "avantage_contrat": 28820.87832804818,
+   "bareme_moyen": 0.7913572647639464,
+   "dette30": 180.82377339201048
+  },
+  "issues": {
+   "entrent": 66399.99999999996,
+   "ecartes": 347353.60474827077,
+   "banque": 131271.58402575852,
+   "loue": 532728.4159742403,
+   "jamais": 99600.0,
+   "total": 829999.9999999988
+  },
+  "demande_sans_plafond": 413753.60474826995,
+  "ecartes_loue": 216082.02072251085,
+  "mens": {
+   "metropoles_T2": {
+    "prix": 160000.0,
+    "loyer": 808.2800000000001,
+    "mensualite": 471.381088032946,
+    "avec_contribution": 504.71442136627934,
+    "rapport": 0.6244301744027804,
+    "tout_compris": 604.7144213662793,
+    "rapport_tout": 0.7481496775452557
+   },
+   "metropoles_T2_choc": {
+    "prix": 160000.0,
+    "loyer": 808.2800000000001,
+    "mensualite": 545.657477183304,
+    "avec_contribution": 578.9908105166373,
+    "rapport": 0.7163245540117748,
+    "tout_compris": 678.9908105166373,
+    "rapport_tout": 0.8400440571542501
+   },
+   "villes_moyennes_T2": {
+    "prix": 119000.0,
+    "loyer": 614.24,
+    "mensualite": 350.5896842245036,
+    "avec_contribution": 375.3813508911703,
+    "rapport": 0.6111313996014104,
+    "tout_compris": 449.7563508911703,
+    "rapport_tout": 0.732215991943166
+   },
+   "villes_moyennes_T2_choc": {
+    "prix": 119000.0,
+    "loyer": 614.24,
+    "mensualite": 405.8327486550823,
+    "avec_contribution": 430.624415321749,
+    "rapport": 0.7010686626102972,
+    "tout_compris": 504.999415321749,
+    "rapport_tout": 0.8221532549520529
+   }
+  },
+  "cohorte": 830000,
+  "secteur_nom": "Villes moyennes"
+ },
+ {
+  "id": "b2",
+  "nom": "60 %, marge 2 pt, plafond 8 %",
+  "params": {
+   "f": 0.6,
+   "marge": 0.02,
+   "quota": 0.08
+  },
+  "ind": {
+   "jeunes": 66399.99999999988,
+   "contrats": 49474.61902659745,
+   "D15": 0.2602177535304386,
+   "D15_sans": 0.10484262875108116,
+   "proprio": 0.23523991592072124,
+   "pmax": 0.04261483562493786,
+   "secteur_max": "villes_moyennes",
+   "m2032": 0.0014293914132292858,
+   "m2038": 0.0022818220587615705,
+   "md2032": 5.257915890382659,
+   "md2038": 10.022304377311833,
+   "cout10": 7.8790443148078815,
+   "np10": 3.2916563125699554,
+   "ratio30": 0.57753478497855,
+   "test50": true,
+   "avantage_md": 1.3960263869586027,
+   "avantage_contrat": 28217.021463229496,
+   "bareme_moyen": 0.7906907339722581,
+   "dette30": 152.75363693535598
+  },
+  "issues": {
+   "entrent": 66399.99999999988,
+   "ecartes": 292305.02385174687,
+   "banque": 128849.13021419874,
+   "loue": 535150.8697858001,
+   "jamais": 99600.0,
+   "total": 829999.9999999987
+  },
+  "demande_sans_plafond": 358705.0238517454,
+  "ecartes_loue": 163455.89363754648,
+  "mens": {
+   "metropoles_T2": {
+    "prix": 160000.0,
+    "loyer": 808.2800000000001,
+    "mensualite": 579.249238134382,
+    "avec_contribution": 612.5825714677154,
+    "rapport": 0.7578841137572566,
+    "tout_compris": 712.5825714677154,
+    "rapport_tout": 0.881603616899732
+   },
+   "metropoles_T2_choc": {
+    "prix": 160000.0,
+    "loyer": 808.2800000000001,
+    "mensualite": 661.4575814041038,
+    "avec_contribution": 694.7909147374372,
+    "rapport": 0.859591867592217,
+    "tout_compris": 794.7909147374372,
+    "rapport_tout": 0.9833113707346923
+   },
+   "villes_moyennes_T2": {
+    "prix": 119000.0,
+    "loyer": 614.24,
+    "mensualite": 430.81662086244665,
+    "avec_contribution": 455.60828752911334,
+    "rapport": 0.7417431094183272,
+    "tout_compris": 529.9832875291133,
+    "rapport_tout": 0.8628277017600829
+   },
+   "villes_moyennes_T2_choc": {
+    "prix": 119000.0,
+    "loyer": 614.24,
+    "mensualite": 491.9590761693022,
+    "avec_contribution": 516.7507428359688,
+    "rapport": 0.8412847467373809,
+    "tout_compris": 591.1257428359688,
+    "rapport_tout": 0.9623693390791365
+   }
+  },
+  "cohorte": 830000,
+  "secteur_nom": "Villes moyennes"
+ },
+ {
+  "id": "c",
+  "nom": "65 %, plafond 8 %",
+  "params": {
+   "f": 0.65,
+   "marge": 0.0,
+   "quota": 0.08
+  },
+  "ind": {
+   "jeunes": 66399.99999999996,
+   "contrats": 50765.52158558615,
+   "D15": 0.266977592683818,
+   "D15_sans": 0.10484262875108116,
+   "proprio": 0.23821424514820816,
+   "pmax": 0.0419961424821365,
+   "secteur_max": "villes_moyennes",
+   "m2032": 0.00149399749488915,
+   "m2038": 0.00243471348078933,
+   "md2032": 5.4955648228100085,
+   "md2038": 10.693839812057298,
+   "cout10": 8.320342175962924,
+   "np10": 2.9807695320734746,
+   "ratio30": 0.3471111602720083,
+   "test50": false,
+   "avantage_md": 1.0725980206056323,
+   "avantage_contrat": 21128.474348428143,
+   "bareme_moyen": 0.7918871244975105,
+   "dette30": 170.2750469733962
+  },
+  "issues": {
+   "entrent": 66399.99999999996,
+   "ecartes": 314431.618494887,
+   "banque": 131317.8234730128,
+   "loue": 532682.1765269858,
+   "jamais": 99600.0,
+   "total": 829999.9999999986
+  },
+  "demande_sans_plafond": 380831.6184948855,
+  "ecartes_loue": 197975.4908950268,
+  "mens": {
+   "metropoles_T2": {
+    "prix": 160000.0,
+    "loyer": 808.2800000000001,
+    "mensualite": 510.66284536902486,
+    "avec_contribution": 543.9961787023582,
+    "rapport": 0.6730293694046099,
+    "tout_compris": 643.9961787023582,
+    "rapport_tout": 0.7967488725470853
+   },
+   "metropoles_T2_choc": {
+    "prix": 160000.0,
+    "loyer": 808.2800000000001,
+    "mensualite": 591.128933615246,
+    "avec_contribution": 624.4622669485793,
+    "rapport": 0.7725816139810205,
+    "tout_compris": 724.4622669485793,
+    "rapport_tout": 0.8963011171234959
+   },
+   "villes_moyennes_T2": {
+    "prix": 119000.0,
+    "loyer": 614.24,
+    "mensualite": 379.80549124321226,
+    "avec_contribution": 404.59715790987894,
+    "rapport": 0.6586955553364792,
+    "tout_compris": 478.97215790987894,
+    "rapport_tout": 0.7797801476782348
+   },
+   "villes_moyennes_T2_choc": {
+    "prix": 119000.0,
+    "loyer": 614.24,
+    "mensualite": 439.65214437633915,
+    "avec_contribution": 464.44381104300584,
+    "rapport": 0.7561275902627732,
+    "tout_compris": 538.8188110430058,
+    "rapport_tout": 0.8772121826045288
+   }
+  },
+  "cohorte": 830000,
+  "secteur_nom": "Villes moyennes"
+ },
+ {
+  "id": "d",
+  "nom": "70 %, marge 1 pt, plafond 8 %",
+  "params": {
+   "f": 0.7,
+   "marge": 0.01,
+   "quota": 0.08
+  },
+  "ind": {
+   "jeunes": 66400.00000000009,
+   "contrats": 49292.01672226235,
+   "D15": 0.2855628610369825,
+   "D15_sans": 0.10484262875108116,
+   "proprio": 0.24639176322360037,
+   "pmax": 0.047276340899826144,
+   "secteur_max": "villes_moyennes",
+   "m2032": 0.001406197548192419,
+   "m2038": 0.0022248477673196343,
+   "md2032": 5.172598887350425,
+   "md2038": 9.77205975884116,
+   "cout10": 7.717224901006048,
+   "np10": 2.4602662968284914,
+   "ratio30": 0.545097556345516,
+   "test50": true,
+   "avantage_md": 0.6568468430512271,
+   "avantage_contrat": 13325.623229259503,
+   "bareme_moyen": 0.7906175246594263,
+   "dette30": 145.77587695022638
+  },
+  "issues": {
+   "entrent": 66400.00000000009,
+   "ecartes": 143563.0989358315,
+   "banque": 138105.16347558823,
+   "loue": 525894.8365244087,
+   "jamais": 99600.0,
+   "total": 829999.999999997
+  },
+  "demande_sans_plafond": 209963.09893583102,
+  "ecartes_loue": 139808.88606567046,
+  "mens": {
+   "metropoles_T2": {
+    "prix": 160000.0,
+    "loyer": 808.2800000000001,
+    "mensualite": 611.1449912360636,
+    "avec_contribution": 644.4783245693969,
+    "rapport": 0.7973453810182076,
+    "tout_compris": 744.4783245693969,
+    "rapport_tout": 0.921064884160683
+   },
+   "metropoles_T2_choc": {
+    "prix": 160000.0,
+    "loyer": 808.2800000000001,
+    "mensualite": 702.5701480648536,
+    "avec_contribution": 735.903481398187,
+    "rapport": 0.9104561307940156,
+    "tout_compris": 835.903481398187,
+    "rapport_tout": 1.034175633936491
+   },
+   "villes_moyennes_T2": {
+    "prix": 119000.0,
+    "loyer": 614.24,
+    "mensualite": 454.5390872318223,
+    "avec_contribution": 479.330753898489,
+    "rapport": 0.7803639520358312,
+    "tout_compris": 553.705753898489,
+    "rapport_tout": 0.9014485443775869
+   },
+   "villes_moyennes_T2_choc": {
+    "prix": 119000.0,
+    "loyer": 614.24,
+    "mensualite": 522.5365476232348,
+    "avec_contribution": 547.3282142899014,
+    "rapport": 0.8910657304797822,
+    "tout_compris": 621.7032142899014,
+    "rapport_tout": 1.0121503228215378
+   }
+  },
+  "cohorte": 830000,
+  "secteur_nom": "Villes moyennes"
+ },
+ {
+  "id": "e",
+  "nom": "70 %, plafond 15 %",
+  "params": {
+   "f": 0.7,
+   "marge": 0.0,
+   "quota": 0.15
+  },
+  "ind": {
+   "jeunes": 124499.99999999962,
+   "contrats": 95609.66536825897,
+   "D15": 0.44325079004943085,
+   "D15_sans": 0.10484262875108116,
+   "proprio": 0.31577445198907705,
+   "pmax": 0.08775508545159316,
+   "secteur_max": "villes_moyennes",
+   "m2032": 0.0027804994211129523,
+   "m2038": 0.004481426699812344,
+   "md2032": 10.227871774072614,
+   "md2038": 19.683490330752605,
+   "cout10": 15.399983105716982,
+   "np10": 4.8082294223859385,
+   "ratio30": 0.38395655284482527,
+   "test50": false,
+   "avantage_md": 1.2937708208895469,
+   "avantage_contrat": 13531.799488120165,
+   "bareme_moyen": 0.7912841238971431,
+   "dette30": 307.35537635477647
+  },
+  "issues": {
+   "entrent": 124499.99999999962,
+   "ecartes": 116712.11210243149,
+   "banque": 137592.79515093434,
+   "loue": 468307.20484906243,
+   "jamais": 99600.0,
+   "total": 829999.9999999964
+  },
+  "demande_sans_plafond": 241212.11210243095,
+  "ecartes_loue": 113470.26755692554,
+  "mens": {
+   "metropoles_T2": {
+    "prix": 160000.0,
+    "loyer": 808.2800000000001,
+    "mensualite": 549.9446027051036,
+    "avec_contribution": 583.277936038437,
+    "rapport": 0.7216285644064395,
+    "tout_compris": 683.277936038437,
+    "rapport_tout": 0.8453480675489149
+   },
+   "metropoles_T2_choc": {
+    "prix": 160000.0,
+    "loyer": 808.2800000000001,
+    "mensualite": 636.600390047188,
+    "avec_contribution": 669.9337233805213,
+    "rapport": 0.8288386739502663,
+    "tout_compris": 769.9337233805213,
+    "rapport_tout": 0.9525581770927417
+   },
+   "villes_moyennes_T2": {
+    "prix": 119000.0,
+    "loyer": 614.24,
+    "mensualite": 409.0212982619209,
+    "avec_contribution": 433.8129649285876,
+    "rapport": 0.7062597110715478,
+    "tout_compris": 508.1879649285876,
+    "rapport_tout": 0.8273443034133036
+   },
+   "villes_moyennes_T2_choc": {
+    "prix": 119000.0,
+    "loyer": 614.24,
+    "mensualite": 473.47154009759606,
+    "avec_contribution": 498.26320676426275,
+    "rapport": 0.8111865179152493,
+    "tout_compris": 572.6382067642628,
+    "rapport_tout": 0.932271110257005
+   }
+  },
+  "cohorte": 830000,
+  "secteur_nom": "Villes moyennes"
+ },
+ {
+  "id": "e2",
+  "nom": "70 %, marge 1 pt, plafond 15 %",
+  "params": {
+   "f": 0.7,
+   "marge": 0.01,
+   "quota": 0.15
+  },
+  "ind": {
+   "jeunes": 124499.99999999993,
+   "contrats": 93591.97836768402,
+   "D15": 0.43821016523535217,
+   "D15_sans": 0.10484262875108116,
+   "proprio": 0.3154550941327969,
+   "pmax": 0.0876851401015489,
+   "secteur_max": "villes_moyennes",
+   "m2032": 0.0026786290063802553,
+   "m2038": 0.004237738353875112,
+   "md2032": 9.853148610476136,
+   "md2038": 18.613153243419802,
+   "cout10": 14.699773892617596,
+   "np10": 4.684309761270351,
+   "ratio30": 0.5429667479594965,
+   "test50": true,
+   "avantage_md": 1.255391797266766,
+   "avantage_contrat": 13413.455075549884,
+   "bareme_moyen": 0.7909469813999838,
+   "dette30": 279.0412813365507
+  },
+  "issues": {
+   "entrent": 124499.99999999993,
+   "ecartes": 85463.098935831,
+   "banque": 137327.72813022148,
+   "loue": 468572.27186977526,
+   "jamais": 99600.0,
+   "total": 829999.9999999966
+  },
+  "demande_sans_plafond": 209963.09893583102,
+  "ecartes_loue": 82486.32141103702,
+  "mens": {
+   "metropoles_T2": {
+    "prix": 160000.0,
+    "loyer": 808.2800000000001,
+    "mensualite": 611.1449912360636,
+    "avec_contribution": 644.4783245693969,
+    "rapport": 0.7973453810182076,
+    "tout_compris": 744.4783245693969,
+    "rapport_tout": 0.921064884160683
+   },
+   "metropoles_T2_choc": {
+    "prix": 160000.0,
+    "loyer": 808.2800000000001,
+    "mensualite": 702.5701480648536,
+    "avec_contribution": 735.903481398187,
+    "rapport": 0.9104561307940156,
+    "tout_compris": 835.903481398187,
+    "rapport_tout": 1.034175633936491
+   },
+   "villes_moyennes_T2": {
+    "prix": 119000.0,
+    "loyer": 614.24,
+    "mensualite": 454.5390872318223,
+    "avec_contribution": 479.330753898489,
+    "rapport": 0.7803639520358312,
+    "tout_compris": 553.705753898489,
+    "rapport_tout": 0.9014485443775869
+   },
+   "villes_moyennes_T2_choc": {
+    "prix": 119000.0,
+    "loyer": 614.24,
+    "mensualite": 522.5365476232348,
+    "avec_contribution": 547.3282142899014,
+    "rapport": 0.8910657304797822,
+    "tout_compris": 621.7032142899014,
+    "rapport_tout": 1.0121503228215378
+   }
+  },
+  "cohorte": 830000,
+  "secteur_nom": "Villes moyennes"
+ }
+]

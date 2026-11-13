@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Les retraites : répartition, capitalisation, nos voisins</title>
+<meta name="description" content="Comment fonctionne la retraite par répartition, ce que coûterait une bascule vers la capitalisation, ce que font la Suède, la Suisse et les Pays-Bas, et ce que coûte de changer l'âge de départ.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Source+Serif+4:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/redressement.css">
+<link rel="stylesheet" href="/graphiques-site.css">
+<script src="/graphiques-site.js"></script>
+<style>
+.verdict{display:inline-block;font-size:.78rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase;border-radius:999px;padding:2px 10px;white-space:nowrap}
+.v-juste{background:var(--vert-doux);color:var(--vert)}
+.v-faux{background:#fbe9ec;color:var(--rouge)}
+.v-partie{background:var(--ambre-doux);color:var(--ambre)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="clair"]) .v-faux{background:#2a1b1e}}
+.lignes{display:grid;gap:12px;margin-top:20px}
+.lignes div{background:var(--surface);border:1px solid var(--trait);border-radius:12px;padding:14px 16px}
+.lignes .dit{font-family:var(--serif);font-size:1.08rem;margin:0 0 6px}
+.lignes p{margin:6px 0 0;font-size:.97rem}
+.sources li{font-size:.9rem;margin-bottom:6px;overflow-wrap:anywhere}
+</style>
+</head>
+<body>
+<div class="proto">Dossier mis à jour le 13/11/2026. Une erreur ? <a href="https://github.com/pierreclr/langagement-politique/issues">Signalez-la</a>, on corrige.</div>
+<header><div class="page large">
+  <a class="marque" href="/">Langagement politique</a>
+  <nav></nav>
+</div></header>
+<main>
+<section class="ouverture"><div class="page">
+  <p class="etiq">Comprendre</p>
+  <h1>Les retraites : répartition, capitalisation, et ce que font nos voisins.</h1>
+  <p class="doux">Ce dossier explique comment la retraite est payée, ce que changerait chaque grand choix, et ce que d'autres pays ont fait. Il remet les chiffres au milieu et ne prend pas parti.</p>
+</div></section>
+
+<section class="bloc" id="en-bref"><div class="page">
+  <p class="etiq">1. En bref</p>
+  <h2>Cinq phrases.</h2>
+  <p>En France, les pensions d'un mois sont payées par les cotisations du même mois : c'est la répartition. Il y avait 1,77 cotisant pour un retraité en 2025 ; le Conseil d'orientation des retraites (COR) en attend 1,30 en 2070. Passer en partie à la capitalisation (placer une part des cotisations pour qu'elle serve plus tard) est possible, mais la génération qui fait la bascule paie deux fois : environ 45 milliards d'euros par an pour placer 10 % des cotisations, environ 90 pour 20 %, selon notre modèle. La Suède a changé de système en 1994-1999 (comptes individuels fictifs, une petite part réellement placée, un frein automatique) ; la Suisse a trois piliers, dont deux obligatoires ; les Pays-Bas basculent leurs pensions d'entreprise vers un nouveau modèle d'ici 2028. Quant à l'âge de départ, revenir à 62 ans coûterait de l'ordre de 24 milliards par an en 2032, et 60 ans de l'ordre de 55, selon notre estimation, avec une marge d'erreur importante.</p>
+</div></section>
+
+<section class="bloc" id="chiffres"><div class="page">
+  <p class="etiq">2. Chiffres clés en graphiques</p>
+  <h2>Quatre séries à retenir.</h2>
+
+  <h3>Cotisants pour un retraité (France, tous régimes)</h3>
+  <svg data-graph="barres" data-lw="60" data-max="2" data-lignes='[["2025",1.77,"var(--vert)",null,"1,77"],["2030",1.75,"var(--vert)",null,"1,75"],["2040",1.64,"var(--ambre)",null,"1,64"],["2050",1.54,"var(--ambre)",null,"1,54"],["2060",1.44,"var(--rouge)",null,"1,44"],["2070",1.30,"var(--rouge)",null,"1,30"]]' viewBox="0 0 640 256"></svg>
+  <p class="src">COR, rapport annuel de juin 2026, scénario de référence (17,4 millions de retraités et 30,6 millions de cotisants en 2025). Notre reconstitution à partir des projections de l'Insee 2026 donne 1,76 en 2025 et 1,27 en 2070, à 3 % près. Ce sont des projections sous hypothèses d'emploi, pas des prévisions.</p>
+
+  <h3>Coût de la bascule vers la capitalisation, au plus haut (milliards d'euros par an)</h3>
+  <svg data-graph="barres" data-lw="200" data-max="100" data-lignes='[["10 % des cotisations placées",45,"var(--ambre)",null,"≈ 45 Md€ par an"],["20 % des cotisations placées",90,"var(--rouge)",null,"≈ 90 Md€ par an"]]' viewBox="0 0 640 96"></svg>
+  <p class="src">Notre modèle « capital commun et retraite », euros constants de 2025, scénario central, pic vers 2038 (1,4 % du PIB pour 10 %, 2,8 % pour 20 %). Ordre de grandeur sous hypothèses.</p>
+
+  <h3>Total cumulé de cette double charge (milliards d'euros)</h3>
+  <svg data-graph="barres" data-lw="200" data-max="3500" data-lignes='[["10 % des cotisations placées",1580,"var(--ambre)",null,"≈ 1 580 Md€ (53 % du PIB)"],["20 % des cotisations placées",3160,"var(--rouge)",null,"≈ 3 160 Md€ (105 % du PIB)"]]' viewBox="0 0 640 96"></svg>
+  <p class="src">Même modèle. La charge ne baisse de moitié qu'après environ 25 ans et ne s'éteint qu'après environ 70 ans.</p>
+
+  <h3>Coût d'un changement d'âge de départ, en 2032 (milliards d'euros par an)</h3>
+  <svg data-graph="barres" data-lw="200" data-max="70" data-lignes='[["62 ans (mesure du RN)",24.1,"var(--rouge)",null,"coût ≈ 24 (18 à 31)"],["60 ans (mesure de LFI)",55.2,"var(--rouge)",null,"coût ≈ 55 (44 à 69)"],["63 ans + décote (mesure de LR)",12.0,"var(--vert)",null,"économie ≈ 12 (10 à 12)"]]' viewBox="0 0 640 136"></svg>
+  <p class="src">Banc des programmes de notre site, estimation 2032, intervalle entre parenthèses. Les mesures sont lues dans les déclarations des partis (voir la section 5) ; les barres rouges aggravent le solde public, la barre verte l'améliore.</p>
+</div></section>
+
+<section class="bloc" id="fonctionnement"><div class="page">
+  <p class="etiq">3. Comment ça marche, avec des exemples</p>
+  <h2>La répartition, puis ce que changerait la capitalisation.</h2>
+
+  <h3>La répartition</h3>
+  <p>Les cotisations retraite prélevées sur les salaires d'un mois servent à payer les pensions de ce même mois. Rien n'est mis de côté pour chacun : en cotisant, chaque actif acquiert des droits (des « points » ou des trimestres) que la génération suivante honorera. C'est un pacte entre générations, pas un compte d'épargne.</p>
+  <div class="lignes">
+    <div><p class="dit">Exemple 1 : ce que pèse chaque actif</p><p>Si une pension vaut « 1 » et qu'il y a 1,77 cotisant par retraité, chaque cotisant finance en moyenne 0,56 pension (1 ÷ 1,77). Avec 1,30 cotisant par retraité (projection COR 2070), c'est 0,77 (1 ÷ 1,30), à pension et cotisation identiques. C'est un calcul d'illustration : en pratique, on peut ajuster le taux de cotisation, le montant des pensions ou l'âge de départ pour rééquilibrer.</p></div>
+    <div><p class="dit">Exemple 2 : la dépense</p><p>Selon le COR (scénario de référence), les retraites représentent 14,1 % du PIB en 2030. Dans notre modèle, cela correspond à environ 430 milliards d'euros par an vers 2027 (ordre de grandeur de notre calcul).</p></div>
+  </div>
+
+  <h3>Pourquoi le ratio baisse</h3>
+  <p>Deux mouvements jouent ensemble : les générations nombreuses nées après la guerre partent à la retraite, et l'espérance de vie augmente. Selon l'Insee (projection 2026), il y avait 2,51 personnes de 20 à 64 ans pour une personne de 65 ans ou plus en 2025 ; ce nombre tomberait à 1,58 en 2070. L'emploi des seniors et l'âge de départ amortissent une partie de ce choc : un an d'âge effectif de départ en plus vaut, dans notre modèle, environ 0,09 point de ratio en 2070.</p>
+
+  <h3>La capitalisation</h3>
+  <p>Chacun place une partie de ses cotisations dans un fonds ; il reçoit plus tard le capital et ses rendements. Le niveau de la pension dépend alors du rendement des placements, et non plus du nombre d'actifs.</p>
+  <div class="lignes">
+    <div><p class="dit">Exemple 3 : pourquoi on ne peut pas basculer d'un coup</p><p>Si, dès demain, 10 % des cotisations partent dans un fonds, les retraités d'aujourd'hui doivent quand même être payés en entier. Il faut donc trouver ces 10 % ailleurs : impôts, dette, économies. Sur 100 euros de pensions à verser, les actifs paient 100 euros pour les retraités actuels, plus 10 euros qu'ils placent pour eux-mêmes. La génération de transition paie deux fois. Notre modèle chiffre le pic à environ 45 milliards par an pour 10 % (soit 1,4 % du PIB), et environ 90 pour 20 %.</p></div>
+    <div><p class="dit">Exemple 4 : ce que cela rapporte, et à quelle condition</p><p>Au scénario central de notre modèle (rendement réel de 3,5 % par an), la pension de la génération partant en 2060 serait plus élevée de 6,6 % avec 10 % placés et de 13 % avec 20 %. Avec un rendement de 0,83 % (obligations françaises, 1870-2015), elle serait plus basse de 0,4 à 0,7 %. Un krach de 30 % l'année avant le départ ramène le gain de 6,6 % à 2,5 %. Le gain vient surtout de la prime de risque des actions : il n'est pas garanti.</p></div>
+    <div><p class="dit">Exemple 5 : ce que la capitalisation ne fait pas</p><p>Elle n'efface pas la contrainte démographique : avec 20 % de capitalisation, la dépendance aux évolutions démographiques recule de 20 %, pas davantage. Dans notre modèle, la baisse du taux de remplacement due au vieillissement passe d'environ 10 points à environ 9 points.</p></div>
+  </div>
+</div></section>
+
+<section class="bloc" id="etabli"><div class="page">
+  <p class="etiq">4. Établi, débattu, inconnu</p>
+  <h2>Trois colonnes.</h2>
+  <h3>Établi</h3>
+  <ul>
+    <li><strong>Le principe de la répartition</strong> : les cotisations d'aujourd'hui paient les pensions d'aujourd'hui, et le COR projette moins de cotisants par retraité (1,77 en 2025, 1,30 en 2070).</li>
+    <li><strong>La double charge de la bascule</strong> : tout passage partiel à la capitalisation coûte d'abord, puisque les pensions en cours restent dues. L'ordre de grandeur dépend de la part placée.</li>
+    <li><strong>La Suède, la Suisse et les Pays-Bas combinent des étages différents</strong> (voir la section 6) : aucun pays comparé n'a un système purement unique.</li>
+  </ul>
+  <h3>Débattu</h3>
+  <ul>
+    <li><strong>Le rendement futur des placements.</strong> Notre modèle l'encadre de 0,83 % à 4,34 % par an ; les économistes ne s'accordent pas sur la bonne valeur, ni sur la part qui revient à la prime de risque.</li>
+    <li><strong>Qui supporte le coût de la transition</strong> : la dette (donc les générations suivantes), l'impôt, ou des économies sur les pensions. C'est un choix de société, pas un résultat de calcul.</li>
+    <li><strong>Le bon levier d'équilibre</strong> : âge, durée de cotisation, montant des pensions, taux de cotisation. Chaque levier a des effets différents selon les personnes (carrières longues, métiers pénibles, femmes).</li>
+  </ul>
+  <h3>Inconnu ou incertain</h3>
+  <ul>
+    <li><strong>La réaction des gens à un report de l'âge.</strong> Combien restent en emploi, combien passent au chômage, en invalidité ou en maladie ? Les études portent surtout sur la réforme de 2010 ; aucune n'est calibrée sur celle de 2023. Dans notre modèle, ce paramètre est la première source d'incertitude.</li>
+    <li><strong>Le nombre de personnes qui partiraient à 60 ans</strong> avec 40 annuités : les textes ne le précisent pas, d'où l'intervalle large (44 à 69 milliards).</li>
+    <li><strong>Le texte exact des réformes annoncées</strong> : le RN doit présenter le sien le 17/11/2026 ; nos chiffres sont fondés sur des déclarations de presse.</li>
+  </ul>
+</div></section>
+
+<section class="bloc" id="partis"><div class="page">
+  <p class="etiq">5. Les positions des partis</p>
+  <h2>Ce qu'ils proposent, ce que nous chiffrons.</h2>
+  <p class="doux">Les positions sont lues dans les déclarations et les documents publiés (cotes C et D : presse ou document du parti lui-même). Les chiffres « notre estimation » viennent de notre simulateur, avec la même méthode pour tous. Ils ne jugent pas l'utilité des mesures.</p>
+  <div class="lignes">
+    <div><p class="dit">Rassemblement national : 62 ans</p><p>Âge légal de 62 ans, avec un départ à 60 ans pour qui a commencé à travailler tôt (40 annuités), et une durée de cotisation portée progressivement à 42 ans. Montant annoncé : environ 9 milliards par an en régime de croisière (déclaration rapportée par la presse). Notre estimation en 2032 : coût de 24,1 milliards (de 18,3 à 31,1). Le texte du parti n'est pas encore paru.</p></div>
+    <div><p class="dit">La France insoumise : 60 ans</p><p>Retraite à 60 ans à taux plein pour 40 annuités, abrogation de la réforme de 2023, suppression de la décote. Montant annoncé : 9 milliards la première année (document budgétaire du 14/10/2026). Notre estimation en 2032 : coût de 55,2 milliards (de 43,6 à 69,3). L'écart vient surtout du nombre de personnes qui partiraient réellement à 60 ans.</p></div>
+    <div><p class="dit">Les Républicains : 63 ans minimum, taux plein à 65 ans</p><p>Âge minimal de 63 ans avec une décote de 7 % par année manquante, taux plein automatique à 65 ans (lié à l'espérance de vie). Économie annoncée : 12 milliards par an. Notre estimation en 2032 : 12,0 milliards (de 10,1 à 12,0). Le plan comprend aussi d'autres leviers, dont une capitalisation partielle pour les jeunes : 30 milliards annoncés, 3,0 milliards dans notre estimation (de −2,6 à 12,6), car la transition coûte avant de rapporter.</p></div>
+    <div><p class="dit">Parti socialiste</p><p>Notre banc de programmes ne contient pas de mesure sur les retraites pour le contre-budget du PS : nous ne l'avons pas chiffrée et nous ne prêtons pas de position au parti.</p></div>
+    <div><p class="dit">Le programme de ce site : 64 ans gardé</p><p>Le point de départ est l'âge légal de 64 ans pour la génération 1969 (décalage de la réforme suspendu par la loi de financement de la sécurité sociale pour 2026). Il s'y ajoute un âge de référence qui suit aux deux tiers les gains d'espérance de vie : 64 ans 4 mois pour la génération 1975, 65 ans 2 mois pour celle de 1990. Chiffres de notre simulateur, scénario central : le solde public s'améliorerait de 3,4 milliards en 2040 et de 14,0 milliards en 2060 (aucun effet en 2030). La capitalisation partielle y est étudiée avec un point de départ à 10 % au plus, un test publié avant chaque palier et un fonds indiciel mondial.</p></div>
+  </div>
+  <p class="note" style="margin-top:12px">Les estimations sont des ordres de grandeur sous hypothèses. Notre propre programme est évalué avec la même méthode que les autres.</p>
+</div></section>
+
+<section class="bloc" id="voisins"><div class="page">
+  <p class="etiq">6. Ce que font nos voisins</p>
+  <h2>Suède, Suisse, Pays-Bas.</h2>
+
+  <h3>La Suède : comptes fictifs, frein automatique</h3>
+  <ul>
+    <li><strong>La réforme.</strong> Votée en 1994 (loi-cadre) et 1998 (loi définitive), appliquée à partir de 1999. Elle est née d'une récession qui avait réduit d'environ 10 % la base des cotisations au début des années 1990. Selon la littérature, elle s'applique par étapes selon les générations ; nous n'avons pas vérifié ici les années de naissance concernées.</li>
+    <li><strong>Le taux.</strong> 18,5 % du revenu : 16 points vont à la retraite « de revenu » et 2,5 points à la retraite « premium » (Pensionsmyndigheten).</li>
+    <li><strong>Les 16 points : des comptes notionnels.</strong> Chaque cotisation est inscrite sur un compte individuel, indexé sur le revenu moyen du pays. À la retraite, le capital inscrit est divisé par l'espérance de vie restante. Mais l'argent n'est pas placé : les pensions de chaque mois sont payées avec les cotisations du même mois, via des fonds tampons. C'est de la répartition présentée comme un compte.</li>
+    <li><strong>Les 2,5 points : un vrai placement.</strong> Chacun choisit ses fonds (486 en 2020) ou reçoit un fonds par défaut public (AP7 Såfa). Rendement annuel moyen depuis 1995 : 3,1 % pour la partie notionnelle, 7,7 % pour la partie placée (Pensionsmyndigheten, données 2020). Ces chiffres ne sont pas comparables sans tenir compte du risque : la partie placée peut perdre en une année.</li>
+    <li><strong>Le frein automatique.</strong> Si les engagements du système dépassent ses actifs, les comptes et les pensions sont indexés sur un indice plus faible que le revenu moyen, jusqu'au retour à l'équilibre. Il a été activé à plusieurs reprises ; la dernière période a pris fin en 2018 selon Pensionsmyndigheten. Nous n'avons pas vérifié son état actuel. Le mécanisme garantit que le taux de 16 % ne change pas ; ce sont les pensions qui s'ajustent.</li>
+    <li><strong>L'âge.</strong> Pas d'âge légal unique : la pension se prend à partir d'un âge minimum (62 ans en 2020) et elle est plus élevée si l'on part plus tard. Une pension de garantie financée par l'impôt protège les petits revenus.</li>
+    <li><strong>Selon l'OCDE (2025)</strong>, la dépense publique de retraites de la Suède devrait baisser d'environ un point de PIB d'ici 2050, alors qu'elle augmente en moyenne dans les 32 pays étudiés (de 8,8 % du PIB en 2023-2024 à 10,0 % en 2050).</li>
+  </ul>
+  <svg data-graph="barres" data-lw="200" data-max="9" data-lignes='[["Partie notionnelle (16 points)",3.1,"var(--ambre)",null,"3,1 % par an"],["Partie placée (2,5 points)",7.7,"var(--vert)",null,"7,7 % par an"]]' viewBox="0 0 640 96"></svg>
+  <p class="src">Pensionsmyndigheten, rendement annuel moyen depuis 1995, publié en 2020. Le rendement passé ne prédit pas le futur, et la partie placée porte un risque que la partie notionnelle n'a pas.</p>
+
+  <h3>La Suisse : trois piliers</h3>
+  <ul>
+    <li><strong>1er pilier (AVS)</strong> : la pension de base, destinée à assurer le minimum vital (OFAS). Obligatoire. Son mode de financement n'est pas détaillé dans les sources consultées ici ; le dossier sur la 13e rente ci-dessous montre qu'il repose sur les cotisations salariales et sur la TVA.</li>
+    <li><strong>2e pilier (caisses de pension d'entreprise)</strong> : financé par capitalisation, chaque classe d'âge constitue un capital tout au long de la vie active (OFAS). Objectif : conserver dans une large mesure son niveau de vie antérieur. Obligatoire pour les salariés concernés.</li>
+    <li><strong>3e pilier</strong> : l'épargne privée, facultative, avec avantage fiscal pour une partie.</li>
+    <li>Le principe des trois piliers est inscrit dans la Constitution fédérale depuis 1972.</li>
+    <li><strong>Une répartition qui demande des ressources nouvelles</strong> : le Parlement a décidé de financer la 13e rente AVS (versée dès le 1er décembre 2026, coût de 4,2 milliards de francs en 2026) par une hausse de la TVA de 0,4 point (de 8,1 à 8,5 %), la hausse des cotisations salariales ayant été refusée. Sources de presse et de syndicats : à recouper.</li>
+    <li><strong>La démographie suisse vieillit aussi, un peu moins vite.</strong> L'Office fédéral de la statistique projette 47,9 personnes de 65 ans ou plus pour 100 de 20 à 64 ans en 2070 (33,7 en 2026). Notre reconstitution donne 53,1, avec un écart non expliqué ; l'Office fait foi.</li>
+  </ul>
+  <svg data-graph="barres" data-lw="200" data-max="70" data-lignes='[["Suisse 2026",33.7,"var(--ambre)",null,"33,7"],["Suisse 2070",47.9,"var(--ambre)",null,"47,9"],["France 2025",39.8,"var(--ambre)",null,"39,8"],["France 2070",63.3,"var(--rouge)",null,"63,3"]]' viewBox="0 0 640 176"></svg>
+  <p class="src">Personnes de 65 ans ou plus pour 100 personnes de 20 à 64 ans. Suisse : Office fédéral de la statistique, scénario de référence. France : Insee 2026, scénario central, calculé à partir du rapport 2,51 (2025) et 1,58 (2070) personnes de 20 à 64 ans par personne de 65 ans ou plus (1 ÷ 2,51 et 1 ÷ 1,58).</p>
+
+  <h3>Les Pays-Bas : un deuxième étage capitalisé en pleine réforme</h3>
+  <ul>
+    <li>Le pays complète une pension publique de base par des pensions d'entreprise capitalisées. La loi « Wtp » (Wet toekomst pensioenen) est entrée en vigueur le 1er juillet 2023 ; les fonds doivent avoir basculé vers un nouveau modèle, à cotisation uniforme quel que soit l'âge, avant le 1er janvier 2028.</li>
+    <li>Une source de cabinet de conseil indique que des fonds représentant environ 9,5 millions de salariés ont basculé le 1er janvier 2026 ; à vérifier auprès des autorités néerlandaises.</li>
+    <li>Cette réforme montre un point commun avec le dossier français : changer de modèle prend des années et crée des perdants et des gagnants selon l'âge, puisque les plus âgés peuvent acquérir moins de droits que sous l'ancien système.</li>
+  </ul>
+  <p class="note" style="margin-top:12px">L'Allemagne n'est pas traitée ici : nous n'avons pas de source vérifiée sur son système pour ce dossier.</p>
+</div></section>
+
+<section class="bloc" id="aller-plus-loin"><div class="page">
+  <p class="etiq">7. Pour aller plus loin</p>
+  <h2>Trois pages du site.</h2>
+  <p><a class="bouton" href="/constat.html">Le constat : les chiffres de l'État →</a></p>
+  <p><a class="bouton" href="/comparer.html">Comparer les programmes →</a></p>
+  <p><a class="bouton" href="/etudes.html#modeles">Nos études et leurs modèles →</a></p>
+</div></section>
+
+<section class="bloc" id="video"><div class="page">
+  <p class="etiq">8. La vidéo</p>
+  <div class="lignes">
+    <div><p class="dit">La vidéo de ce dossier arrive bientôt.</p><p>Elle reprendra l'essentiel de cette page en quelques minutes. Revenez voir : le lien sera ajouté ici.</p></div>
+  </div>
+</div></section>
+
+<section class="bloc" id="sources"><div class="page">
+  <p class="etiq">9. Sources</p>
+  <h2>Où vérifier.</h2>
+  <p class="doux">Consultées le 13/11/2026. Fiabilité : A = statistique publique, texte officiel ou publication à comité de lecture, B = institution reconnue, C = presse, think tank ou cabinet, D = communication commerciale, militante ou document du parti concerné. Les modèles de notre site reposent sur des hypothèses publiées et rejouables, sans valeur de prédiction.</p>
+  <ul class="sources">
+    <li>(B) Conseil d'orientation des retraites, rapport annuel de juin 2026 (cotisants et retraités, dépense en % du PIB ; conflit d'intérêts : organisme consultatif placé auprès du Premier ministre) : https://www.cor-retraites.fr/sites/default/files/2026-07/RA_2026_def_0.pdf</li>
+    <li>(A) Insee, projections de population 2026 (via notre modèle de prospective démographique, rapport 20-64 ans / 65 ans et plus).</li>
+    <li>(A) Pensionsmyndigheten (Agence suédoise des pensions), « Så fungerar den allmänna pensionen », Orange rapport 2020 (taux 18,5 %, 16 et 2,5 points, comptes notionnels, balancement, rendements moyens depuis 1995) : https://www.pensionsmyndigheten.se/statistik/publikationer/orange-rapport-2020/4-sa-fungerar-den-allmanna-pensionen.pdf</li>
+    <li>(A) Pensionsmyndigheten, Working Papers in Social Insurance 2000:1 (historique de la réforme de 1994-1999 ; date de 1999 et taux de crédit de 16 %, à recouper avec d'autres textes) : https://www.pensionsmyndigheten.se/content/dam/pensionsmyndigheten/blanketter---broschyrer---faktablad/publikationer/rapporter/2000/Working%2BPapers%2Bin%2BSocial%2BInsurance%2B2000-01.pdf</li>
+    <li>(B) OCDE, Pensions at a Glance 2025, projections de la dépense publique de retraites (Suède, moyenne OCDE) : https://www.oecd.org/en/publications/pensions-at-a-glance-2025_e40274c1-en/full-report/long-term-projections-of-public-pension-expenditure_af4ed734.html</li>
+    <li>(A) Office fédéral des assurances sociales (OFAS), page « LPP et 3e pilier » (financement du 2e pilier par capitalisation) : https://www.bsv.admin.ch/fr/lpp-3e-pilier</li>
+    <li>(C) Allnews.ch, dépêches sur le financement de la 13e rente AVS (TVA +0,4 point, coût de 4,2 milliards de francs en 2026) : https://allnews.ch/node/155744 et https://allnews.ch/node/143729</li>
+    <li>(D) Union syndicale suisse, communiqué du 20/08/2026 (part des cotisations salariales dans les recettes de l'AVS ; conflit d'intérêts : organisation de salariés ; non utilisé pour un chiffre de ce dossier) : https://www.uss.ch/fileadmin/redaktion/docs/communiques/260820_Financement_13e_AVS.pdf</li>
+    <li>(A) Office fédéral de la statistique suisse, scénario de référence A-00-2025 (via notre projection démographique de la Suisse, validation à 1,2 % près en 2070 sur la population ; écart de 5,3 points sur le rapport 65+/20-64 non expliqué).</li>
+    <li>(C) Cabinets de conseil (Clifford Chance, Lockton, Manulife), loi néerlandaise Wtp, entrée en vigueur du 01/07/2023 et échéance du 01/01/2028 (à vérifier auprès du gouvernement néerlandais) : https://www.cliffordchance.com/content/dam/cliffordchance/briefings/2023/06/the-future-of-pensions-act-the-new-dutch-pension-system.pdf et https://global.lockton.com/us/en/news-insights/the-netherlands-reforms-its-pension-system</li>
+    <li>(C) Journal du Net, Marine Le Pen maintient le retour à la retraite à 62 ans, 28/08/2026 : https://www.journaldunet.com/business/action-publique/1554113-marine-le-pen-maintient-le-retour-a-la-retraite-a-62-ans/</li>
+    <li>(D) Annexe du contre-budget du groupe RN, octobre 2026 (montants annoncés ; auteur = le parti) : https://nicolasdragon.com/wp-content/uploads/2026/10/grn-contre-budget-2027-dossier.pdf</li>
+    <li>(D) La France insoumise, livre du programme, chapitre « Mettre en sécurité sociale » (retraite à 60 ans ; auteur = le parti) : https://melenchon2027.fr/programme/livre/mettre-en-securite-sociale/chapitre1</li>
+    <li>(C) Public Sénat et 24matins, plan Retailleau (12 milliards pour la décote, environ 42 milliards au total ; le document du parti n'a pas été retrouvé) : https://www.publicsenat.fr/actualites/economie/presidentielle-2027-bruno-retailleau-sengage-sur-un-plan-deconomies-de-pres-de-200-milliards-deuros-sil-est-elu et https://www.24matins.fr/retraites-le-projet-de-bruno-retailleau-durcit-lage-de-depart-1421188</li>
+    <li>(B) Code de la sécurité sociale, art. L161-17-2 (âge légal par génération, issu de la loi de financement de la sécurité sociale pour 2026), via notre modèle des retraites.</li>
+    <li>(B) Nos modèles (hypothèses et code ouverts) : « Retraites », « Capital commun et retraite », « Banc des programmes », « Prospective démographique », « Démographie de la Suisse » : https://langagement-politique.vercel.app/etudes.html#modeles</li>
+  </ul>
+  <p class="note">Dernière mise à jour : 13/11/2026. Méthode : chiffres relevés dans des sources publiques et dans nos modèles ; points non vérifiés signalés comme tels. Rédaction faite avec l'aide d'une IA (Claude, d'Anthropic) ; les choix sont ceux de l'auteur.</p>
+</div></section>
+</main>
+<footer class="page" style="padding:28px 16px;color:var(--doux);font-size:.85rem">Texte sous licence CC BY-SA 4.0. Version de travail.</footer>
+</body>
+</html>

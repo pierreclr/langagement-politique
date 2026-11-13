@@ -1,5 +1,5 @@
 /* Graphiques et calculateurs du site (accueil, constat, programme), 13/11/2026. Chaque graphique ne se dessine que si son élément est sur la page. */
-(function(){
+(function(f){if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",f);else f()})(function(){
 var NS="http://www.w3.org/2000/svg";
 function el(p,n,a,t){var e=document.createElementNS(NS,n);for(var k in a)e.setAttribute(k,a[k]);if(t!==undefined)e.textContent=t;p.appendChild(e);return e}
 function fr(x,d){return x.toLocaleString("fr-FR",{minimumFractionDigits:d||0,maximumFractionDigits:d||0})}
@@ -82,7 +82,7 @@ barres("g-vote",[["18-34 ans",24,ROUGE,null,"24 %"],["50-69 ans",9,BLEU,null,"9 
 (function(){var s=document.getElementById("g-vote");if(!s)return;el(s,"text",{x:150,y:110,"font-size":12,class:"doux"},"Part des inscrits qui n'ont voté à aucun tour en 2022 (présidentielle et législatives)");})();
 
 /* 6. Âge de départ */
-barres("g-age",[["RN, retour à 62 ans",24.1,"#8a8a8a",[18.4,31.1],"≈ 24 Md€"],["LFI, retour à 60 ans",55.1,"#8a8a8a",[43.4,69.0],"≈ 55 Md€"],["Notre plan, 64 ans inchangé",0,BLEU,null,"0"]],{max:80,lw:220,h:44});
+barres("g-age",[["RN, retour à 62 ans",24.1,"#8a8a8a",[18.3,31.1],"≈ 24 Md€"],["LFI, retour à 60 ans",55.2,"#8a8a8a",[43.6,69.3],"≈ 55 Md€"],["Notre plan, 64 ans inchangé",0,BLEU,null,"0"]],{max:80,lw:220,h:44});
 
 /* 7. Dette 2038 */
 barres("g-dette",[["Notre programme",148,BLEU,null,"148 %"],["LR (Retailleau)",149,"#8a8a8a",null,"149 %"],["Si rien ne change",157,"var(--encre)",null,"157 %"],["PS et Place publique",163,"#8a8a8a",null,"163 %"],["LFI, budget de 1re année seul",170,"#b5b5b5",null,"170 %"],["RN",175,"#8a8a8a",null,"175 %"],["LFI, programme complet",241,"#8a8a8a",null,"241 %"]],{max:260,lw:220,h:40,ref:157});
@@ -129,4 +129,4 @@ function m(R){return A-(A-M0)*Math.exp(-R/K)}
 /* Graphiques déclarés dans la page : <svg data-graph="barres" data-lignes='[[libellé, valeur, couleur, [bas, haut] ou null, texte], …]' data-max data-lw data-ref> */
 document.querySelectorAll('svg[data-graph="barres"]').forEach(function(s,k){if(!s.id)s.id="g-auto-"+k;
  barres(s.id,JSON.parse(s.getAttribute("data-lignes")),{max:+s.getAttribute("data-max")||100,lw:+s.getAttribute("data-lw")||210,h:+s.getAttribute("data-h")||40,ref:s.getAttribute("data-ref")?+s.getAttribute("data-ref"):null});});
-})();
+});

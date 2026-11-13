@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Patrimoine et héritage en France</title>
+<meta name="description" content="Qui possède quoi en France : concentration du patrimoine, âge, propriété, héritage, ce que disent les économistes et ce que proposent les partis.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Source+Serif+4:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/redressement.css">
+<link rel="stylesheet" href="/graphiques-site.css">
+<script src="/graphiques-site.js"></script>
+<style>
+.verdict{display:inline-block;font-size:.78rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase;border-radius:999px;padding:2px 10px;white-space:nowrap}
+.v-juste{background:var(--vert-doux);color:var(--vert)}
+.v-faux{background:#fbe9ec;color:var(--rouge)}
+.v-partie{background:var(--ambre-doux);color:var(--ambre)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="clair"]) .v-faux{background:#2a1b1e}}
+.lignes{display:grid;gap:12px;margin-top:20px}
+.lignes div{background:var(--surface);border:1px solid var(--trait);border-radius:12px;padding:14px 16px}
+.lignes .dit{font-family:var(--serif);font-size:1.08rem;margin:0 0 6px}
+.lignes p{margin:6px 0 0;font-size:.97rem}
+.sources li{font-size:.9rem;margin-bottom:6px;overflow-wrap:anywhere}
+</style>
+</head>
+<body>
+<div class="proto">Dossier mis à jour le 13/11/2026. Une erreur ? <a href="https://github.com/pierreclr/langagement-politique/issues">Signalez-la</a>, on corrige.</div>
+<header><div class="page large">
+  <a class="marque" href="/">Langagement politique</a>
+  <nav></nav>
+</div></header>
+<main>
+<section class="ouverture"><div class="page">
+  <p class="etiq">Comprendre</p>
+  <h1>Le patrimoine et l'héritage : qui possède quoi en France.</h1>
+  <p class="doux">Ce dossier décrit comment le patrimoine est réparti, ce que les économistes en disent et ce que proposent les partis. Il distingue ce qui est établi de ce qui est débattu, et ne prend pas parti.</p>
+</div></section>
+
+<section class="bloc" id="en-bref"><div class="page">
+  <p class="etiq">1. En bref</p>
+  <h2>Cinq idées.</h2>
+  <ul>
+    <li><strong>Le patrimoine est plus concentré que le revenu.</strong> Début 2024, les 10 % de ménages les mieux dotés détiennent 48 % du patrimoine brut ; la moitié la moins dotée en détient 7 % (Insee).</li>
+    <li><strong>L'âge compte, mais il n'explique pas tout.</strong> Les ménages de 60 ans et plus sont 40 % des ménages et détiennent environ 53 % du patrimoine net. Un patrimoine plus élevé à 65 ans qu'à 25 ans est normal : on épargne au fil de la vie.</li>
+    <li><strong>57 % des ménages sont propriétaires de leur résidence principale, 17 % avant 30 ans.</strong> Ce taux moyen est stable depuis 2013, mais l'accès à la propriété du quart de ménages le plus modeste a été divisé par deux entre 1984 et 2013.</li>
+    <li><strong>L'héritage arrive tard et il est très inégal.</strong> L'âge moyen à l'héritage est d'environ 50 ans ; la moitié d'une génération hérite de moins de 70 000 euros sur toute sa vie.</li>
+    <li><strong>Les économistes s'accordent sur les grandes lignes, pas sur les remèdes.</strong> Ils débattent de la mesure du haut de la distribution, de l'impôt sur la fortune et des droits de succession.</li>
+  </ul>
+</div></section>
+
+<section class="bloc" id="chiffres"><div class="page">
+  <p class="etiq">2. Chiffres clés en graphiques</p>
+  <h2>Sept graphiques.</h2>
+  <p class="doux">Sauf mention contraire, ce sont des données de l'Insee, enquête Histoire de vie et Patrimoine, début 2024, France hors Mayotte, ménages en logement ordinaire.</p>
+
+  <h3>Part du patrimoine brut détenue, en %</h3>
+  <svg data-graph="barres" data-lw="200" data-max="60" data-lignes='[["50 % les moins dotés",7.2,"var(--accent)",null,"7,2 %"],["10 % les mieux dotés",47.9,"var(--accent)",null,"47,9 %"],["5 % les mieux dotés",34.2,"var(--accent)",null,"34,2 %"],["1 % les mieux dotés",15.4,"var(--accent)",null,"15,4 %"]]' viewBox="0 0 640 176"></svg>
+  <p class="src">Insee, enquête Histoire de vie et Patrimoine 2024 ; le chiffre de 7,2 % est calculé (100 − 92,8). Les groupes se recouvrent : le 1 % fait partie des 5 %, qui font partie des 10 %. L'enquête mesure mal le très haut de la distribution : la part réelle du 1 % est plus élevée (voir la partie 4).</p>
+
+  <h3>Âge : part des ménages et part du patrimoine net, en %</h3>
+  <svg data-graph="barres" data-lw="200" data-max="60" data-lignes='[["Moins de 40 ans : ménages",24.0,"var(--ambre)",null,"24,0 %"],["Moins de 40 ans : patrimoine",9.3,"var(--accent)",null,"9,3 %"],["40-59 ans : ménages",35.6,"var(--ambre)",null,"35,6 %"],["40-59 ans : patrimoine",37.6,"var(--accent)",null,"37,6 %"],["60 ans et plus : ménages",40.3,"var(--ambre)",null,"40,3 %"],["60 ans et plus : patrimoine",53.1,"var(--accent)",null,"53,1 %"]]' viewBox="0 0 640 256"></svg>
+  <p class="src">Insee, patrimoine par âge (tableaux 2024) ; parts calculées : part des ménages × patrimoine moyen de la tranche ÷ patrimoine moyen d'ensemble. Estimation, reproductible.</p>
+
+  <h3>Propriétaires de leur résidence principale, selon l'âge, en %</h3>
+  <svg data-graph="barres" data-lw="200" data-max="80" data-lignes='[["Moins de 30 ans",17.2,"var(--accent)",null,"17,2 %"],["30-39 ans",47.7,"var(--accent)",null,"47,7 %"],["40-49 ans",57.0,"var(--accent)",null,"57,0 %"],["50-59 ans",61.6,"var(--accent)",null,"61,6 %"],["60-69 ans",63.1,"var(--accent)",null,"63,1 %"],["70 ans et plus",71.3,"var(--accent)",null,"71,3 %"],["Ensemble des ménages",57.2,"var(--ambre)",null,"57,2 %"]]' viewBox="0 0 640 296"></svg>
+  <p class="src">Insee, Histoire de vie et Patrimoine 2024 (taux de détention). 20,5 % des ménages détiennent en plus un autre logement.</p>
+
+  <h3>Accès à la propriété en quatre ans, selon le revenu, en %</h3>
+  <svg data-graph="barres" data-lw="200" data-max="30" data-lignes='[["Quart le plus modeste, 1984",7.8,"var(--ambre)",null,"7,8 %"],["Quart le plus modeste, 2013",3.7,"var(--accent)",null,"3,7 %"],["Quart le plus aisé, 1984",16.0,"var(--ambre)",null,"16,0 %"],["Quart le plus aisé, 2013",23.6,"var(--accent)",null,"23,6 %"]]' viewBox="0 0 640 176"></svg>
+  <p class="src">Insee, <em>Les conditions de logement en France</em>, édition 2017 : part des ménages non propriétaires quatre ans plus tôt qui le sont devenus. Données de 2013, les plus récentes relues ici ; métropole.</p>
+
+  <h3>Part des personnes ayant déjà reçu un héritage, en %</h3>
+  <svg data-graph="barres" data-lw="200" data-max="60" data-lignes='[["Moins de 30 ans",7.2,"var(--accent)",null,"7,2 %"],["Ensemble",30,"var(--ambre)",null,"30 %"],["70 ans et plus",52.7,"var(--accent)",null,"52,7 %"]]' viewBox="0 0 640 136"></svg>
+  <p class="src">Insee, Histoire de vie et Patrimoine 2021, repris dans Insee Références, <em>Revenus et patrimoine des ménages</em>, édition 2024.</p>
+
+  <h3>Part héritée dans le patrimoine total, en % (estimation)</h3>
+  <svg data-graph="barres" data-lw="200" data-max="70" data-lignes='[["Début des années 1970",35,"var(--ambre)",null,"35 %"],["Années 2020",60,"var(--accent)",null,"60 %"]]' viewBox="0 0 640 96"></svg>
+  <p class="src">Conseil d'analyse économique, Note n° 69 (décembre 2021). Estimation macroéconomique qui dépend d'hypothèses de rendement, pas une mesure d'enquête.</p>
+
+  <h3>Multipropriétaires, en 2022 : part des propriétaires et part des logements, en %</h3>
+  <svg data-graph="barres" data-lw="200" data-max="70" data-lignes='[["2 logements ou plus : propriétaires",35.0,"var(--ambre)",null,"35,0 %"],["2 logements ou plus : logements",65.3,"var(--accent)",null,"65,3 %"],["5 à 9 logements : propriétaires",3.5,"var(--ambre)",null,"3,5 %"],["5 à 9 logements : logements",14.2,"var(--accent)",null,"14,2 %"],["10 logements ou plus : propriétaires",0.9,"var(--ambre)",null,"0,9 %"],["10 logements ou plus : logements",7.4,"var(--accent)",null,"7,4 %"]]' viewBox="0 0 640 256"></svg>
+  <p class="src">Insee Première n° 2046 (avril 2025), base de la propriété foncière 2022 : personnes physiques résidant en France, logements possédés en nom propre ou par une société civile immobilière. Les catégories se recouvrent (on ne peut pas les additionner) et les logements des sociétés, des bailleurs sociaux et des investisseurs institutionnels sont exclus.</p>
+</div></section>
+
+<section class="bloc" id="comment"><div class="page">
+  <p class="etiq">3. Comment ça marche</p>
+  <h2>Quelques notions pour lire les chiffres.</h2>
+  <div class="lignes">
+    <div><p class="dit">Patrimoine brut, net, médian, moyen</p><p>Le patrimoine brut additionne ce que l'on possède (logement, épargne, placements, entreprise). Le patrimoine net retire les dettes. La médiane est la valeur qui coupe les ménages en deux moitiés égales ; la moyenne additionne tout et divise. Début 2024, le patrimoine brut médian est de 205 100 euros et le moyen de 374 900 euros : la moyenne est 1,8 fois la médiane, ce qui reflète la concentration.</p></div>
+    <div><p class="dit">Patrimoine et revenu ne se mesurent pas pareil</p><p>L'indice de Gini va de 0 (égalité parfaite) à 1 (un seul ménage possède tout). Pour le patrimoine brut, il est de 0,652 en 2024 ; pour le revenu disponible, il est d'environ 0,29. Le patrimoine est donc plus de deux fois plus concentré que le revenu.</p></div>
+    <div><p class="dit">Le cycle de vie</p><p>On accumule du patrimoine en travaillant, on le dépense à la retraite. Les ménages de moins de 30 ans ont un patrimoine net médian de 23 100 euros, ceux de 70 ans et plus de 245 600 euros. Cet écart est en partie normal. Pour savoir si une génération est mieux ou moins bien lotie qu'une autre, il faut la comparer à âge égal : en 1986, le patrimoine net médian des trentenaires dépassait de 45 % celui des plus de 70 ans ; en 2015, il était trois fois plus faible (France Stratégie).</p></div>
+    <div><p class="dit">Acheter un logement</p><p>Le prix du logement par rapport au revenu a augmenté. D'après une note de l'IGEDD remise au Sénat en janvier 2024, il faut environ 29 ans de revenus consacrés au crédit pour acheter un même logement, contre 15 ans en 1965 ou en 2000. L'allongement des crédits et la baisse des taux ont compensé une partie de la hausse pendant des années : le taux de propriétaires des moins de 40 ans a même progressé entre 1998 et 2021. L'aide de la famille (don, prêt, héritage anticipé) intervient pour environ 30 % des nouveaux propriétaires, surtout les plus jeunes.</p></div>
+    <div><p class="dit">Hériter</p><p>Les successions et les donations représentent un flux d'environ 15 % du revenu national par an, contre 5 % en 1950 (CAE). L'âge moyen à l'héritage est d'environ 50 ans, huit ans de plus qu'en 1980. La moitié des personnes d'une génération héritent de moins de 70 000 euros sur toute leur vie ; moins de 10 % héritent de plus de 500 000 euros ; le centile supérieur reçoit plus de 4,2 millions d'euros (données fiscales de 2006, nets de droits). Les donations du vivant, qui représentent plus de 40 % des sommes taxables, rapprochent un peu l'âge de réception (environ 37 ans en moyenne).</p></div>
+    <div><p class="dit">Ce que la loi taxe aujourd'hui</p><p>Les droits de succession (droits de mutation à titre gratuit) rapportent environ 15 milliards d'euros par an, soit 0,6 % du PIB (CAE, 2021). L'impôt sur la fortune immobilière (IFI) a remplacé en 2018 l'impôt de solidarité sur la fortune (ISF) : l'ISF comptait 358 000 redevables en 2017, l'IFI environ 130 000 en 2018 et rapporte environ 2,7 milliards d'euros en 2024. Le Conseil constitutionnel a validé en 2012 un taux de 1,5 % avec un plafonnement à 75 % du revenu (décision 2012-662 DC).</p></div>
+  </div>
+</div></section>
+
+<section class="bloc" id="debat"><div class="page">
+  <p class="etiq">4. Établi, débattu, inconnu</p>
+  <h2>Ce que la recherche permet de dire.</h2>
+  <h3>Établi</h3>
+  <ul>
+    <li><strong>Le patrimoine est nettement plus concentré que le revenu</strong>, selon l'enquête Insee comme selon les données fiscales.</li>
+    <li><strong>Dans l'enquête Insee, la concentration est stable depuis 2015</strong> : 47,8 % du patrimoine brut aux 10 % les mieux dotés en 2015, 47,9 % en 2024. Il n'y a pas d'augmentation récente dans cette source.</li>
+    <li><strong>Le taux de propriétaires est stable autour de 57-58 % depuis 2013</strong>, mais le quart le plus modeste y accède de moins en moins (7,8 % en 1984, 3,7 % en 2013), alors que l'accès progresse pour le quart le plus aisé.</li>
+    <li><strong>L'héritage est tardif et très inégal</strong>, et il pèse davantage dans le patrimoine total qu'il y a cinquante ans (estimation du CAE).</li>
+    <li><strong>Le revenu moyen des retraités n'est pas supérieur à celui de l'ensemble</strong> (100,2 % en 2023, Conseil d'orientation des retraites). L'écart entre âges est surtout un écart de patrimoine, pas de revenu.</li>
+  </ul>
+  <h3>Débattu</h3>
+  <ul>
+    <li><strong>La mesure du haut de la distribution.</strong> L'enquête sous-estime les plus gros patrimoines (non-réponse, sous-déclaration). À partir de comptes distribués et de données fiscales, la part du 1 % le plus riche est passée d'environ 15 % à 25 % du patrimoine entre 1985 et 2015 (Garbinti, Goupille-Lebret et Piketty, repris par le CAE). Les deux chiffres, 15,4 % pour l'enquête 2024 et 25 % pour les comptes distribués, ne se comparent pas directement : le champ et la méthode diffèrent.</li>
+    <li><strong>Les droits à retraite sont-ils du patrimoine ?</strong> Pour les 50-65 ans, leur valeur est en moyenne de 447 000 euros en 2017, soit 56 % de plus que le patrimoine privé moyen ; elle est beaucoup moins inégale (France Stratégie). Les inclure réduit l'inégalité mesurée, mais ces droits ne se transmettent pas.</li>
+    <li><strong>La part de l'héritage (60 %).</strong> C'est une estimation macroéconomique qui dépend des hypothèses de rendement. Une partie de la hausse des patrimoines vient aussi de la hausse des prix de l'immobilier.</li>
+    <li><strong>L'impôt sur la fortune.</strong> Il y a eu environ 950 départs de redevables par an en moyenne de 2011 à 2016 (370 retours), soit 0,3 % des redevables par an ; sous l'IFI, environ 260 départs et 380 retours par an (DGFiP, via France Stratégie, 2023). Des études internationales trouvent que de forts impôts sur la fortune réduisent le nombre de personnes riches ou le patrimoine déclaré (Brülhart et coauteurs, 2022 ; Jakobsen, Kleven et coauteurs, 2026), avec une part de mobilité estimée à 24 % dans le cas suisse. Les économistes divergent sur le poids de ces effets par rapport aux recettes.</li>
+    <li><strong>Les droits de succession.</strong> Le CAE estime qu'une réforme de l'assiette (niches comme le pacte Dutreil, l'assurance-vie, le démembrement) rapporterait de 9 à 19 milliards d'euros par an selon la réforme ; l'élasticité migratoire serait faible (de l'ordre de 10 % selon Kleven et coauteurs) et les effets sur l'épargne et le travail plutôt faibles, avec des incertitudes. Les objections portent sur la liberté de transmettre, la transmission des entreprises familiales (le pacte Dutreil existe pour cela) et la concurrence fiscale entre pays. Cet impôt est aussi jugé impopulaire et mal compris par une partie des enquêtés (Stantcheva).</li>
+  </ul>
+  <h3>Inconnu ou non établi</h3>
+  <ul>
+    <li>La part du 1 % en patrimoine net en 2024, calée sur les comptes nationaux, n'a pas été trouvée.</li>
+    <li>Le patrimoine des 0,1 % les plus riches n'est pas couvert par l'enquête.</li>
+    <li>Il n'y a pas de données fiscales exploitables sur les successions depuis 2006, ce qui limite l'étude des héritages récents.</li>
+    <li>La multipropriété des ménages (et non des personnes) n'est pas mesurée après 2017.</li>
+    <li>Le taux d'accès à la propriété par niveau de revenu n'a pas été relu pour les années après 2013.</li>
+  </ul>
+</div></section>
+
+<section class="bloc" id="partis"><div class="page">
+  <p class="etiq">5. Les positions des partis</p>
+  <h2>Ce qu'ils proposent, sans jugement.</h2>
+  <p class="doux">Ces mesures sont tirées de documents des partis (programme, contre-budget ou livret) ou d'articles de presse qui les rapportent. Les montants sont ceux annoncés par les partis, non vérifiés. Beaucoup de seuils et de taux ne sont pas publiés. Nous n'avons pas relevé de mesure sur le patrimoine ou l'héritage pour Les Républicains ni pour les autres partis non cités.</p>
+  <ul>
+    <li><strong>La France insoumise</strong> : rétablissement et renforcement de l'ISF (10 milliards d'euros annoncés la première année, taux et seuil non publiés) ; garantie d'impôt de 2 % sur le patrimoine des centimillionnaires (15 milliards annoncés) ; successions exonérées sous 150 000 euros et plafond d'héritage de 12 millions d'euros (20 milliards annoncés).</li>
+    <li><strong>Parti socialiste et Place publique (contre-budget 2027)</strong> : impôt minimal de 2 % sur les patrimoines de plus de 100 millions d'euros (« taxe Zucman », de 10 à 15 milliards annoncés selon les articles de presse) ; contribution sociale généralisée sur les gros héritages, calculée sur le total reçu au cours de la vie pour les 10 % d'héritiers les plus aisés (10 milliards annoncés).</li>
+    <li><strong>Glucksmann, Place publique (livret climat, novembre 2026)</strong> : contribution exceptionnelle sur les plus hauts patrimoines, une seule année, 50 milliards d'euros annoncés, sans seuil ni taux indiqués.</li>
+    <li><strong>Rassemblement national (contre-budget 2027 du groupe RN)</strong> : impôt sur la fortune financière en remplacement de l'IFI (5 milliards annoncés) ; allègement des droits de succession (successions, pour l'immobilier jusqu'à 300 000 euros) et des donations (coût annoncé : 1,2 et 0,5 milliard d'euros).</li>
+  </ul>
+  <p class="note" style="margin-top:12px">Deux familles de mesures se distinguent : taxer davantage le haut du patrimoine (ISF, impôt minimal, contribution exceptionnelle, plafond ou CSG sur les héritages), ou alléger la transmission des biens courants (successions et donations). Chacune a été examinée par des économistes (partie 4) ; leur faisabilité juridique (Conseil constitutionnel, droit européen) est une question distincte de leur intérêt économique.</p>
+</div></section>
+
+<section class="bloc" id="choix"><div class="page">
+  <p class="etiq">6. Ce que ça change pour les choix politiques</p>
+  <h2>Les questions que posent les chiffres.</h2>
+  <ul>
+    <li><strong>Que veut-on mesurer, et corriger ?</strong> L'écart entre générations, l'écart entre ménages d'un même âge, ou la concentration tout en haut ? Les chiffres ne disent pas la même chose selon la question. Selon l'âge, 60 ans et plus : 53 % du patrimoine net ; à âge égal, l'écart entre ceux qui reçoivent une aide familiale ou un héritage et les autres est important.</li>
+    <li><strong>Où placer la cible ?</strong> Les très grandes fortunes sont peu nombreuses (donc une base étroite), les patrimoines moyens sont plus nombreux (une base large). L'ISF a eu 358 000 redevables en 2017. Pour les successions, le CAE chiffre le coût des dispositifs d'exonération : 2 à 3 milliards d'euros pour le pacte Dutreil, 4 à 5 pour l'assurance-vie.</li>
+    <li><strong>Taxer le patrimoine détenu ou la transmission reçue ?</strong> Le premier se paie chaque année par le détenteur ; le second se paie une fois, par celui qui reçoit, ce qui peut se calculer sur tous les héritages reçus dans la vie.</li>
+    <li><strong>Quel risque de départ ?</strong> Les départs d'un impôt sur la fortune existent (de l'ordre de mille par an sous l'ISF) ; leur effet sur les recettes dépend du taux, du seuil et des règles de sortie.</li>
+    <li><strong>Et l'accès à la propriété ?</strong> Les leviers possibles sont l'offre de logements, le crédit, les aides, la fiscalité de la transmission. Aucun n'est présenté ici comme préférable.</li>
+  </ul>
+</div></section>
+
+<section class="bloc" id="plus-loin"><div class="page">
+  <p class="etiq">7. Pour aller plus loin</p>
+  <h2>Sur ce site.</h2>
+  <ul>
+    <li><a href="/constat.html">Le constat : chiffres sur le patrimoine, le logement et les générations</a></li>
+    <li><a href="/comparer.html">Comparer : les mesures des programmes côte à côte</a></li>
+    <li><a href="/etudes.html#modeles">Nos études : les modèles de chiffrage</a></li>
+  </ul>
+</div></section>
+
+<section class="bloc" id="video"><div class="page">
+  <div style="background:var(--surface);border:1px solid var(--trait);border-radius:12px;padding:16px 18px">
+    <p class="etiq">Vidéo</p>
+    <p style="margin:0"><strong>La vidéo de ce dossier arrive bientôt.</strong></p>
+  </div>
+</div></section>
+
+<section class="bloc" id="sources"><div class="page">
+  <p class="etiq">9. Sources</p>
+  <h2>Où vérifier.</h2>
+  <p class="doux">Consultées le 13/11/2026. Fiabilité : A = statistique publique, texte officiel ou publication à comité de lecture ; B = institution reconnue ; C = presse ou think tank ; D = programme ou communication d'un parti (source orientée : un parti décrit ses propres mesures).</p>
+  <ul class="sources">
+    <li>(A) Insee, <em>Patrimoine et endettement des ménages en 2024 et en séries longues</em>, Insee Résultats, 26/02/2026 : https://www.insee.fr/fr/statistiques/8736842</li>
+    <li>(A) Insee, répartition de la masse totale de patrimoine brut entre les ménages : https://www.insee.fr/fr/statistiques/2502915</li>
+    <li>(A) Insee Focus n° 371, « Les montants de patrimoine détenus par les ménages en 2024 », 09/12/2025 : https://www.insee.fr/fr/statistiques/8672665</li>
+    <li>(A) Insee Première n° 2046, « Un tiers des propriétaires possède deux logements ou plus », 02/04/2025 : https://www.insee.fr/fr/statistiques/8538622</li>
+    <li>(A) Insee, <em>Les conditions de logement en France</em>, édition 2017, dossier sur l'accès à la propriété : https://www.insee.fr/fr/statistiques/fichier/2586022/LOGFRA17c_D2_proprietaire.pdf</li>
+    <li>(A) Insee Références, <em>Revenus et patrimoine des ménages</em>, édition 2024 : https://www.insee.fr/fr/statistiques/fichier/7941439/RPM2024-VE2.pdf</li>
+    <li>(A) Conseil constitutionnel, décision n° 2012-662 DC (plafonnement, taux de 1,5 %).</li>
+    <li>(A) DGFiP, repris par France Stratégie (2023), départs et retours de redevables de l'ISF et de l'IFI.</li>
+    <li>(A) Brülhart et coauteurs, <em>American Economic Journal: Economic Policy</em>, 2022, et Jakobsen, Kleven et coauteurs, NBER 32153 (<em>American Economic Review</em>, 2026), effets des impôts sur la fortune.</li>
+    <li>(B) Conseil d'analyse économique, Note n° 69, décembre 2021 (héritage, concentration, fiscalité des successions) : https://cae-eco.fr/static/pdf/cae-note069.pdf</li>
+    <li>(B) France Stratégie, Note d'analyse n° 51, janvier 2017 (patrimoine par âge, héritage) ; Dherbécourt, Maigne et Viennot, « La retraite, patrimoine de ceux qui n'en ont pas ? », mai 2020 : https://www.strategie-plan.gouv.fr/en/publications/retraite-patrimoine-de-nen-ont</li>
+    <li>(B) Conseil d'orientation des retraites, rapport annuel, juin 2026 (niveau de vie des retraités) : https://www.cor-retraites.fr/sites/default/files/2026-06/RA_Part3_Chap2.pdf</li>
+    <li>(B) IGEDD (Friggit), note au Sénat, 24/01/2024 (durée d'endettement pour acheter un logement).</li>
+    <li>(C) LCP, propositions socialistes pour le budget, impôt minimal sur les très hauts patrimoines : https://lcp.fr/actualites/budget-a-l-assemblee-les-socialistes-presentent-leurs-propositions-et-previennent-qu-ils</li>
+    <li>(C) Selectra, CSG sur les gros héritages : https://selectra.info/finance/actualites/marche/csg-progressive-2027-salaire-net-smic</li>
+    <li>(D) La France insoumise, livre du programme 2027, chapitre 2 (ISF, garantie d'impôt, successions) : https://melenchon2027.fr/programme/livre/une-economie-au-service-des-besoins/chapitre2</li>
+    <li>(D) Groupe RN, annexe du contre-budget 2027 : https://nicolasdragon.com/wp-content/uploads/2026/10/grn-contre-budget-2027-dossier.pdf</li>
+    <li>(D) Place publique, livret « Révolution écologique », 09/11/2026 : https://glucks2027.fr/wp-content/uploads/2026/11/livret_progr_revolution_ecologique_2027.pdf</li>
+  </ul>
+  <p class="note">Dernière mise à jour : 13/11/2026. Méthode : chiffres relevés dans les publications citées, calculs signalés comme tels ; points non établis signalés comme tels. Rédaction faite avec l'aide d'une IA (Claude, d'Anthropic) ; les choix sont ceux de l'auteur.</p>
+</div></section>
+</main>
+<footer class="page" style="padding:28px 16px;color:var(--doux);font-size:.85rem">Texte sous licence CC BY-SA 4.0. Version de travail.</footer>
+</body>
+</html>

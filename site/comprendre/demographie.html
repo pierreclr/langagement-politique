@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>La démographie et la pyramide des âges</title>
+<meta name="description" content="Fécondité, espérance de vie, migrations : ce que la pyramide des âges de 2026 et de 2070 change pour les retraites, la santé, le travail et la dette, avec ce qui est certain et ce qui ne l'est pas.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Source+Serif+4:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/redressement.css">
+<link rel="stylesheet" href="/graphiques-site.css">
+<script src="/graphiques-site.js"></script>
+<style>
+.verdict{display:inline-block;font-size:.78rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase;border-radius:999px;padding:2px 10px;white-space:nowrap}
+.v-juste{background:var(--vert-doux);color:var(--vert)}
+.v-faux{background:#fbe9ec;color:var(--rouge)}
+.v-partie{background:var(--ambre-doux);color:var(--ambre)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="clair"]) .v-faux{background:#2a1b1e}}
+.lignes{display:grid;gap:12px;margin-top:20px}
+.lignes div{background:var(--surface);border:1px solid var(--trait);border-radius:12px;padding:14px 16px}
+.lignes .dit{font-family:var(--serif);font-size:1.08rem;margin:0 0 6px}
+.lignes p{margin:6px 0 0;font-size:.97rem}
+.sources li{font-size:.9rem;margin-bottom:6px;overflow-wrap:anywhere}
+</style>
+</head>
+<body>
+<div class="proto">Dossier mis à jour le 13/11/2026. Une erreur ? <a href="https://github.com/pierreclr/langagement-politique/issues">Signalez-la</a>, on corrige.</div>
+<header><div class="page large">
+  <a class="marque" href="/">Langagement politique</a>
+  <nav></nav>
+</div></header>
+<main>
+<section class="ouverture"><div class="page">
+  <p class="etiq">Comprendre</p>
+  <h1>La démographie : pourquoi la pyramide des âges décide de tant de choses.</h1>
+  <p class="doux">Combien de naissances, combien de décès, qui arrive, qui part : ces quatre nombres déterminent qui travaille, qui est à la retraite et qui a besoin de soins. Ce dossier remet les chiffres au milieu, sans prendre parti.</p>
+</div></section>
+
+<section class="bloc" id="en-bref"><div class="page">
+  <p class="etiq">1. En bref</p>
+  <h2>Trois phrases.</h2>
+  <p>La France vieillit : les 65 ans ou plus sont 15,3 millions en 2026 et seraient 21,1 millions en 2070 selon l'Insee, alors que le nombre de personnes de 20 à 64 ans passerait de 38,2 à 34,1 millions. Une grande partie de cet avenir est déjà écrite, parce que les personnes de 65 ans en 2070 sont presque toutes déjà nées ; ce qui reste ouvert, c'est la fécondité, les migrations et l'espérance de vie, qui font varier la population de 2070 de 54,6 à 78,3 millions selon les hypothèses. La démographie ne dicte pas les choix (âge de départ, financement, immigration, natalité), mais elle fixe le terrain sur lequel ils se font.</p>
+</div></section>
+
+<section class="bloc" id="chiffres"><div class="page">
+  <p class="etiq">2. Les chiffres clés</p>
+  <h2>Cinq images.</h2>
+  <p class="doux">France entière sauf mention. Les chiffres de 2026 sont une estimation provisoire de l'Insee ; ceux de 2040, 2050 et 2070 sont des projections conditionnelles de l'Insee (juin 2026) : ce qui se passerait si les hypothèses se vérifiaient, pas des prévisions.</p>
+
+  <h3>Nombre d'enfants par femme (indicateur conjoncturel de fécondité, France métropolitaine)</h3>
+  <svg data-graph="barres" data-lw="60" data-max="3.2" data-lignes='[["1938",2.13,"var(--accent)",null,"2,13"],["1946",3.0,"var(--accent)",null,"3,00"],["1964",2.91,"var(--accent)",null,"2,91"],["1975",1.93,"var(--accent)",null,"1,93"],["2000",1.87,"var(--accent)",null,"1,87"],["2010",2.02,"var(--accent)",null,"2,02"],["2020",1.78,"var(--accent)",null,"1,78"],["2025",1.53,"var(--ambre)",null,"1,53 (1,56 avec les DOM)"]]' viewBox="0 0 640 336"></svg>
+  <p class="src">Insee, bilan démographique 2025, indicateur conjoncturel de fécondité (cote A). 2025 : estimation provisoire. Le seuil de « remplacement des générations » est d'environ 2,1 enfants par femme.</p>
+
+  <h3>La pyramide en 2026 : population par tranche d'âge, en millions</h3>
+  <svg data-graph="barres" data-lw="70" data-max="18" data-lignes='[["0-19 ans",15.53,"var(--accent)",null,"15,5 M"],["20-39 ans",16.36,"var(--accent)",null,"16,4 M"],["40-59 ans",17.51,"var(--accent)",null,"17,5 M"],["60-74 ans",12.0,"var(--accent)",null,"12,0 M"],["75-89 ans",6.65,"var(--accent)",null,"6,7 M"],["90 ans+",1.04,"var(--accent)",null,"1,0 M"]]' viewBox="0 0 640 256"></svg>
+  <h3>La pyramide en 2070 (scénario central de l'Insee), en millions</h3>
+  <svg data-graph="barres" data-lw="70" data-max="18" data-lignes='[["0-19 ans",10.71,"var(--accent)",null,"10,7 M"],["20-39 ans",12.97,"var(--accent)",null,"13,0 M"],["40-59 ans",16.64,"var(--accent)",null,"16,6 M"],["60-74 ans",12.85,"var(--accent)",null,"12,9 M"],["75-89 ans",10.08,"var(--accent)",null,"10,1 M"],["90 ans+",2.62,"var(--accent)",null,"2,6 M"]]' viewBox="0 0 640 256"></svg>
+  <p class="src">Insee, Première n° 2108, figure 4 (pyramide par âge et sexe, hommes et femmes additionnés, regroupée en tranches par nos soins) : 69,08 M en 2026 et 65,88 M en 2070 (cote A).</p>
+
+  <h3>Personnes de 65 ans ou plus pour 100 personnes de 20 à 64 ans</h3>
+  <svg data-graph="barres" data-lw="60" data-max="70" data-lignes='[["1975",24.6,"var(--accent)",null,"24,6"],["2000",27.1,"var(--accent)",null,"27,1"],["2026",40.1,"var(--accent)",null,"40,1"],["2040",48.6,"var(--accent)",null,"48,6"],["2050",51.9,"var(--accent)",null,"51,9"],["2070",61.9,"var(--ambre)",null,"61,9"]]' viewBox="0 0 640 256"></svg>
+  <p class="src">Insee, Première n° 2108, figure 6 (cote A). 1975 : France métropolitaine ; 2000 et 2026 : champs de la série Insee ; 2040 à 2070 : scénario central. Autrement dit, il y avait environ 4,1 personnes de 20 à 64 ans pour une personne de 65 ans ou plus en 1975, 2,5 en 2026 et 1,6 en 2070 (calcul : 100 divisé par le rapport).</p>
+
+  <h3>Naissances et décès par an (scénario central)</h3>
+  <svg data-graph="barres" data-lw="200" data-max="900" data-lignes='[["Naissances 2025",645,"var(--accent)",null,"645 000"],["Décès 2025",651,"var(--ambre)",null,"651 000"],["Naissances 2040",608,"var(--accent)",null,"608 000"],["Décès 2040",789,"var(--ambre)",null,"789 000"],["Naissances 2070",476,"var(--accent)",null,"476 000"],["Décès 2070",820,"var(--ambre)",null,"820 000"]]' viewBox="0 0 640 256"></svg>
+  <p class="src">Insee, Première n° 2108, figure 2 ; 2025 : bilan démographique, estimation provisoire (cote A). Le solde naturel (naissances moins décès) est de −6 000 en 2025, −181 000 en 2040 et −343 000 en 2070.</p>
+
+  <h3>Population de la France en 2070 selon l'hypothèse changée, en millions</h3>
+  <svg data-graph="barres" data-lw="200" data-max="80" data-lignes='[["2026 (observé)",69.08,"var(--ambre)",null,"69,1 M"],["Central",65.89,"var(--accent)",null,"65,9 M"],["Fécondité basse (1,20)",61.33,"var(--accent)",null,"61,3 M"],["Fécondité haute (1,70)",70.84,"var(--accent)",null,"70,8 M"],["Migration basse (+70 000/an)",60.93,"var(--accent)",null,"60,9 M"],["Migration haute (+230 000/an)",70.84,"var(--accent)",null,"70,8 M"],["Espérance de vie basse",63.82,"var(--accent)",null,"63,8 M"],["Espérance de vie haute",68.03,"var(--accent)",null,"68,0 M"],["Toutes hypothèses basses",54.64,"var(--accent)",null,"54,6 M"],["Toutes hypothèses hautes",78.26,"var(--accent)",null,"78,3 M"]]' viewBox="0 0 640 416"></svg>
+  <p class="src">Insee, Première n° 2108, figure 3 (cote A). Chaque ligne change une seule hypothèse ; les lignes « toutes hypothèses » combinent les trois à la fois.</p>
+</div></section>
+
+<section class="bloc" id="mecanique"><div class="page">
+  <p class="etiq">3. Comment ça marche</p>
+  <h2>Trois leviers, et un calendrier.</h2>
+  <p>Une population ne change que de trois manières : on naît, on meurt, on arrive ou on part. La pyramide des âges montre le résultat de toute l'histoire récente : chaque tranche d'âge est la trace d'une année de naissances, diminuée des décès et modifiée par les migrations.</p>
+  <div class="lignes">
+    <div><p class="dit">La fécondité</p><p>C'est le nombre moyen d'enfants par femme, calculé pour une année donnée. Il était d'environ 3 juste après la guerre (3,00 en 1946 en métropole : c'est le baby-boom), puis il est tombé à 1,93 en 1975. Il est remonté à 2,02 en 2010 et vaut 1,56 en 2025 en France (estimation provisoire). L'Insee suppose 1,45 à partir de 2028 dans son scénario central.</p></div>
+    <div><p class="dit">L'espérance de vie</p><p>En 2025, l'espérance de vie à la naissance est estimée à 85,9 ans pour les femmes et 80,3 ans pour les hommes. L'Insee suppose 89,5 et 86,7 ans en 2070. Plus on vit longtemps, plus la tranche des personnes âgées grossit, même si le nombre de naissances ne change pas.</p></div>
+    <div><p class="dit">Les migrations</p><p>Le solde migratoire est la différence entre les personnes qui arrivent et celles qui partent (Français et étrangers). L'Insee l'estime à 176 000 par an en moyenne sur 2020-2022 (hors Ukraine) et suppose 150 000 par an dans son scénario central. Les personnes qui arrivent sont en majorité jeunes adultes : l'effet sur le nombre d'actifs est donc rapide.</p></div>
+  </div>
+  <h3>Pourquoi l'effet est lent, puis massif</h3>
+  <p>Exemple : un enfant né en 2026 n'entrera dans la tranche des 20-64 ans qu'en 2046, et ne prendra sa retraite que vers 2090. Une hausse des naissances aujourd'hui ne change donc presque rien aux actifs avant vingt ans. À l'inverse, la génération du baby-boom (nés de 1946 à 1964 environ) a passé 60 ans : à périmètre égal (métropole), les 60 ans ou plus étaient 9,7 millions en 1975 et 19,2 millions en 2026, soit environ deux fois plus pour une population totale multipliée par 1,27.</p>
+  <h3>Le point de bascule : les décès dépassent les naissances</h3>
+  <p>En 2025, les décès (651 000) dépassent déjà légèrement les naissances (645 000). Dans le scénario central, la population continue de croître un temps grâce aux migrations, puis diminue à partir de 2037 ; avec une migration à +70 000 par an elle diminue dès 2028, avec +230 000 dès 2053 (Insee).</p>
+</div></section>
+
+<section class="bloc" id="etabli"><div class="page">
+  <p class="etiq">4. Ce qui est établi, débattu, inconnu</p>
+  <h2>Trois niveaux de certitude.</h2>
+  <div class="lignes">
+    <div><p class="dit"><span class="verdict v-juste">Établi</span> Les personnes déjà nées</p><p>Les 65 ans ou plus de 2070 sont, pour l'essentiel, déjà nés (aux migrants près) : ils seraient environ 21 millions quelles que soient les hypothèses de fécondité (calcul fait avec le modèle de projection du site, qui retrouve les chiffres de l'Insee à 1 % près en 2070). La hausse de la part des personnes âgées est donc très probable dans tous les scénarios : même avec 2,1 enfants par femme dès 2035, le rapport 65+/20-64 serait de 53 % en 2070 contre 40 % en 2026.</p></div>
+    <div><p class="dit"><span class="verdict v-juste">Établi</span> La baisse récente de la fécondité</p><p>2,03 enfants par femme en 2010 (France), 1,56 en 2025 (provisoire). C'est un fait mesuré, pas une projection.</p></div>
+    <div><p class="dit"><span class="verdict v-partie">Débattu</span> Les causes de la baisse de la fécondité et l'effet des politiques familiales</p><p>Âge de la première naissance, logement, emploi, préférences, coût des enfants : les études en sciences sociales avancent des explications différentes et n'ont pas de réponse tranchée sur ce qui permettrait de la remonter. Ce dossier ne cite pas d'étude précise sur ce point.</p></div>
+    <div><p class="dit"><span class="verdict v-partie">Débattu</span> Ce que la démographie implique pour les comptes publics</p><p>Le rapport entre 65+ et 20-64 ans mesure une contrainte, pas une facture : la productivité, le taux d'emploi réel des seniors, leur état de santé et le niveau des pensions peuvent la réduire ou l'aggraver. Les économistes divergent sur ces paramètres.</p></div>
+    <div><p class="dit"><span class="verdict v-faux">Inconnu</span> La fécondité, les migrations et l'espérance de vie dans cinquante ans</p><p>L'Insee ne les prévoit pas : il publie des hypothèses. En 2021, il supposait 1,8 enfant par femme ; la valeur observée en 2025 est de 1,56. La population de 2070 va de 54,6 à 78,3 millions selon les hypothèses. Au-delà de 2050, l'incertitude domine.</p></div>
+    <div><p class="dit"><span class="verdict v-partie">Limite</span> Un indicateur grossier</p><p>Compter les 20-64 ans comme « actifs » et les 65+ comme « retraités » est une simplification : une partie des 20-64 ans n'a pas d'emploi, une partie des 65+ travaille encore.</p></div>
+  </div>
+</div></section>
+
+<section class="bloc" id="positions"><div class="page">
+  <p class="etiq">5. Les positions des uns et des autres</p>
+  <h2>Ce que défendent les différents camps.</h2>
+  <div class="lignes">
+    <div><p class="dit">Agir sur la natalité</p><p>Argument : sans naissances, le rapport entre actifs et retraités se dégrade à long terme (la fécondité fait baisser le rapport de 4 à 8 points en 2070 selon la cible, dans le modèle du site). Objection : l'effet n'apparaît qu'après vingt ans, la 2,1 n'a pas été atteinte en métropole depuis 1974, et l'efficacité des aides est débattue.</p></div>
+    <div><p class="dit">Agir sur l'âge de départ et le travail des seniors</p><p>Argument : c'est le levier qui joue le plus vite sur le rapport retraités/actifs, et c'est un choix politique, pas une donnée. Objection : il suppose que les personnes de 62 à 66 ans puissent travailler (santé, emploi des seniors), et les métiers pénibles sont inégalement concernés.</p></div>
+    <div><p class="dit">S'appuyer sur l'immigration</p><p>Argument : les arrivants sont jeunes, et l'effet sur le nombre d'actifs est immédiat ; avec un solde nul, la population en âge de travailler serait plus basse de 1,7 million en 2050 (Eurostat). Objection : l'effet sur le rapport 65+/20-64 est limité à long terme (même à +400 000 par an, il resterait à 56 % en 2070 dans notre modèle), l'accueil suppose des logements et de l'intégration, et le bilan budgétaire des migrations est discuté (de −0,5 % à +0,5 % du PIB selon les études).</p></div>
+    <div><p class="dit">Compter sur la productivité et l'automatisation</p><p>Argument : si chaque actif produit plus, un rapport démographique moins favorable est supportable. Objection : c'est une hypothèse, pas un fait établi, et les gains éventuels ne sont pas forcément partagés vers les retraites.</p></div>
+    <div><p class="dit">Accepter une pension moyenne plus basse</p><p>Argument : le COR projette déjà que la pension moyenne passe de 54,6 % à 45,3 % du revenu d'activité moyen d'ici 2070. Objection : cela dégrade le niveau de vie des retraités.</p></div>
+  </div>
+</div></section>
+
+<section class="bloc" id="politique"><div class="page">
+  <p class="etiq">6. Ce que ça change pour les choix politiques</p>
+  <h2>Quatre domaines.</h2>
+  <div class="lignes">
+    <div><p class="dit">Les retraites</p><p>Avec un âge de départ constant, le nombre de retraités pour 100 personnes de 20 ans à l'âge de départ passerait de 50 (2026) à 75 (2070) à 62 ans, et à 54 à 67 ans (modèle du site, estimation). Le Conseil d'orientation des retraites projette des dépenses de 14,1 % du PIB en 2025 et 15,3 % en 2070 (avec un âge moyen de départ de 64,6 ans en 2070).</p></div>
+    <div><p class="dit">La santé et la dépendance</p><p>Les 75 ans ou plus passeraient de 7,7 à 13,2 millions entre 2026 et 2070, et les 80 ans ou plus de 4,3 à 8,9 millions (Insee et modèle du site). Les besoins en soins et en aide à l'autonomie augmentent avec l'âge ; le chiffrage dépend du temps passé en bonne santé, que ce dossier ne documente pas.</p></div>
+    <div><p class="dit">Le travail</p><p>Les 20-64 ans passeraient de 38,2 à 34,1 millions entre 2026 et 2070 (Insee, scénario central), et 4,8 millions de moins de 20 ans (10,7 contre 15,5 millions). Les entreprises auront moins de jeunes à recruter, d'où l'importance du taux d'emploi, de la formation et des migrations.</p></div>
+    <div><p class="dit">La dette</p><p>La démographie pèse sur la dette de manière indirecte, par les dépenses de retraite et de santé et par le nombre de contribuables. Ce dossier ne chiffre pas ce lien : ce chiffrage dépend du niveau des pensions, de la croissance et du taux d'emploi, qui ne sont pas des données démographiques.</p></div>
+  </div>
+  <p class="doux">Ce que la démographie établit : le vieillissement est largement acquis, la migration agit vite, la natalité agit lentement, l'espérance de vie fait le plus varier le nombre de 65+. Ce qu'elle laisse à choisir : l'âge de départ, le niveau des pensions, le volume et les conditions de l'immigration, la politique familiale.</p>
+</div></section>
+
+<section class="bloc" id="plus-loin"><div class="page">
+  <p class="etiq">7. Pour aller plus loin</p>
+  <h2>Les autres pages du site.</h2>
+  <ul>
+    <li><a href="/constat.html">Le constat : les chiffres de l'État et de ses comptes</a></li>
+    <li><a href="/etudes.html#modeles">Nos études et modèles, dont le modèle de projection démographique</a></li>
+    <li><a href="/comparer.html">Comparer la France à ses voisins</a></li>
+  </ul>
+</div></section>
+
+<section class="bloc" id="video"><div class="page">
+  <div class="lignes"><div><p class="dit">La vidéo de ce dossier arrive bientôt</p><p>Une version courte de ce dossier, en vidéo, sera ajoutée ici.</p></div></div>
+</div></section>
+
+<section class="bloc" id="sources"><div class="page">
+  <p class="etiq">9. Sources</p>
+  <h2>D'où viennent les chiffres.</h2>
+  <ul class="sources">
+    <li>(A) Insee, Première n° 2108, « Projections de population à l'horizon 2070 », 08/06/2026 (hypothèses, scénarios, pyramide 2070, naissances et décès) ; fichier de données : https://www.insee.fr/fr/statistiques/9004289 ; https://www.insee.fr/fr/statistiques/fichier/9004289/ip2108.xlsx</li>
+    <li>(A) Insee, bilan démographique 2025, population au 1er janvier par âge : https://www.insee.fr/fr/statistiques/fichier/8721185/3_Pop1janv_age.xlsx</li>
+    <li>(A) Insee, bilan démographique 2025, indicateur conjoncturel de fécondité et âge moyen des mères : https://www.insee.fr/fr/statistiques/fichier/8721207/3_ICF_age_moyen_femmes.xlsx</li>
+    <li>(B) Conseil d'orientation des retraites, rapport annuel de juin 2026 (dépenses de retraite en % du PIB, pension moyenne) : https://www.cor-retraites.fr/sites/default/files/2026-07/RA_2026_def_0.pdf</li>
+    <li>(B) Eurostat, projections de population EUROPOP2023 (effet d'un solde migratoire nul, cité d'après notre synthèse sur l'immigration) : https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/</li>
+    <li>(C) Calculs de ce site à partir des fichiers de l'Insee (tranches d'âge, retraités pour 100 personnes de 20 ans à l'âge de départ, sensibilité à une hypothèse) : méthode et code dans les modèles de démographie, voir <a href="/etudes.html#modeles">Nos études</a>. Conflits d'intérêts : aucun lien connu entre l'Insee et la thèse de l'auteur du site.</li>
+  </ul>
+  <p class="note">Dernière mise à jour : 13/11/2026. Méthode : chiffres relevés dans les fichiers publics de l'Insee, recoupés avec d'autres publications ; projections présentées comme des hypothèses. Rédaction faite avec l'aide d'une IA (Claude, d'Anthropic) ; les choix sont ceux de l'auteur.</p>
+</div></section>
+</main>
+<footer class="page" style="padding:28px 16px;color:var(--doux);font-size:.85rem">Texte sous licence CC BY-SA 4.0. Version de travail.</footer>
+</body>
+</html>

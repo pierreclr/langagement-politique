@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Qui paie, qui reçoit</title>
+<meta name="description" content="Combien de personnes travaillent, combien vivent de transferts, ce que disent les ratios entre les deux, et ce que représentent dépenses publiques, prélèvements et niches fiscales.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Source+Serif+4:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/redressement.css">
+<link rel="stylesheet" href="/graphiques-site.css">
+<script src="/graphiques-site.js"></script>
+<style>
+.verdict{display:inline-block;font-size:.78rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase;border-radius:999px;padding:2px 10px;white-space:nowrap}
+.v-juste{background:var(--vert-doux);color:var(--vert)}
+.v-faux{background:#fbe9ec;color:var(--rouge)}
+.v-partie{background:var(--ambre-doux);color:var(--ambre)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="clair"]) .v-faux{background:#2a1b1e}}
+.lignes{display:grid;gap:12px;margin-top:20px}
+.lignes div{background:var(--surface);border:1px solid var(--trait);border-radius:12px;padding:14px 16px}
+.lignes .dit{font-family:var(--serif);font-size:1.08rem;margin:0 0 6px}
+.lignes p{margin:6px 0 0;font-size:.97rem}
+.sources li{font-size:.9rem;margin-bottom:6px;overflow-wrap:anywhere}
+</style>
+</head>
+<body>
+<div class="proto">Dossier mis à jour le 13/11/2026. Une erreur ? <a href="https://github.com/pierreclr/langagement-politique/issues">Signalez-la</a>, on corrige.</div>
+<header><div class="page large">
+  <a class="marque" href="/">Langagement politique</a>
+  <nav></nav>
+</div></header>
+<main>
+<section class="ouverture"><div class="page">
+  <p class="etiq">Comprendre</p>
+  <h1>Qui paie, qui reçoit : l'argent public en France.</h1>
+  <p class="doux">Combien de personnes travaillent, combien vivent de transferts, et ce que disent (et ne disent pas) les ratios entre les deux. Ce dossier décrit, il ne prend pas parti.</p>
+</div></section>
+
+<section class="bloc" id="en-bref"><div class="page">
+  <p class="etiq">1. En bref</p>
+  <h2>Quatre phrases.</h2>
+  <p>En France, environ 29,5 millions de personnes sont en emploi (23,6 millions dans le privé, 5,9 millions agents publics) et environ 22 millions d'adultes vivent de transferts sans travailler, dont 17 millions de retraités. Cela donne environ 1,3 personne en emploi pour un adulte vivant de transferts (1,06 si l'on ne compte que le privé, 0,84 si l'on rapproche l'emploi privé de tous les revenus payés par de l'argent public, agents publics compris). Ces ratios sont des ordres de grandeur, avec des fourchettes : ils ne jugent personne et ne mesurent pas qui finance quoi. Les dépenses publiques représentent 57 % du PIB en 2024 et les prélèvements obligatoires 42,7 %.</p>
+</div></section>
+
+<section class="bloc" id="chiffres"><div class="page">
+  <p class="etiq">2. Chiffres clés en graphiques</p>
+  <h2>Qui travaille, qui reçoit.</h2>
+  <p class="doux">France, 2024-2025 selon les postes. Les années sont mélangées faute de série unique : voir la section 4.</p>
+
+  <h3>Personnes en emploi, en millions (29,5 au total)</h3>
+  <svg data-graph="barres" data-lw="280" data-max="25" data-lignes='[["Salariés du privé",20.3,"var(--accent)",null,"20,3 M"],["Non-salariés",3.26,"var(--accent)",null,"3,3 M"],["Agents publics",5.9,"var(--ambre)",null,"5,9 M"]]' viewBox="0 0 640 136"></svg>
+  <p class="src">Urssaf (salariés du privé, 2024), Insee (agents publics fin 2024 ; non-salariés 2024).</p>
+
+  <h3>Adultes vivant de transferts sans travailler, en millions (environ 22,2 au total, estimation)</h3>
+  <svg data-graph="barres" data-lw="280" data-max="18" data-lignes='[["Retraités (hors cumul emploi-retraite)",16.9,"var(--accent)",null,"16,9 M"],["Chômeurs indemnisés sans activité",1.73,"var(--ambre)",null,"1,7 M"],["RSA, adultes sans activité",1.65,"var(--ambre)",null,"1,7 M"],["AAH, ASS et autres minima",1.31,"var(--ambre)",null,"1,3 M"],["Pensions d’invalidité",0.59,"var(--ambre)",null,"0,6 M"]]' viewBox="0 0 640 216"></svg>
+  <p class="src">COR (retraités, 2025), DREES (minima sociaux, fin 2023), Unédic (chômeurs indemnisés, 2024). Plusieurs postes sont des estimations ; les doubles comptes sont retirés (un adulte n'est compté qu'une fois).</p>
+
+  <h3>Les trois ratios (central, avec fourchette)</h3>
+  <svg data-graph="barres" data-lw="260" data-max="1.5" data-lignes='[["Emploi total / adultes de transferts",1.33,"var(--accent)",null,"1,33 (1,28 à 1,38)"],["Emploi privé / adultes de transferts",1.06,"var(--accent)",null,"1,06 (1,02 à 1,10)"],["Emploi privé / revenus d’argent public",0.84,"var(--ambre)",null,"0,84 (0,81 à 0,86)"]]' viewBox="0 0 640 136"></svg>
+  <p class="src">Calcul à partir des deux graphiques précédents. Hypothèses et fourchettes détaillées dans l'étude.</p>
+
+  <h3>Cotisants pour un retraité, projection (modèle calé sur le COR)</h3>
+  <svg data-graph="barres" data-lw="60" data-max="2" data-lignes='[["2025",1.76,"var(--accent)",null,"1,76"],["2030",1.71,"var(--accent)",null,"1,71"],["2040",1.59,"var(--ambre)",null,"1,59"],["2050",1.49,"var(--ambre)",null,"1,49"],["2060",1.39,"var(--ambre)",null,"1,39"],["2070",1.27,"var(--rouge)",null,"1,27"]]' viewBox="0 0 640 256"></svg>
+  <p class="src">Modèle de prospective démographique, scénario central de l'Insee 2026 et hypothèses d'emploi du COR (chômage de long terme 7 %). Le COR publie 1,77 en 2025 et 1,30 en 2070. Une projection sous hypothèses, pas une prédiction.</p>
+
+  <h3>Autres repères</h3>
+  <div class="lignes">
+    <div><p class="dit">Dépenses publiques : 57,0 % du PIB, soit 1 672 Md€ en 2024</p><p>Toutes les administrations (État, collectivités, Sécurité sociale). Les retraites et la santé en représentent une grande part ; l'Insee les détaille par fonction.</p></div>
+    <div><p class="dit">Prélèvements obligatoires : 42,7 % du PIB en 2024</p><p>Impôts et cotisations sociales. L'écart avec les dépenses (57,0 %) est le déficit, financé par la dette.</p></div>
+    <div><p class="dit">Niches fiscales : 465 dispositifs, environ 88 Md€ par an</p><p>88,3 Md€ prévus en 2026 (89,4 Md€ en 2024). Une niche est une règle qui réduit un impôt pour certains contribuables ou certaines dépenses. Le chiffrage est de qualité inégale : 124 fiches sur 465 sont déclarées « ordre de grandeur », et 88 sont non chiffrables en 2026.</p></div>
+  </div>
+</div></section>
+
+<section class="bloc" id="mecanique"><div class="page">
+  <p class="etiq">3. Comment ça marche</p>
+  <h2>Trois ratios, trois questions.</h2>
+  <ul>
+    <li><strong>1,33 : combien de personnes en emploi (public et privé) pour un adulte qui vit de transferts sans travailler ?</strong> On compte au numérateur toutes les personnes en emploi (29,5 millions), au dénominateur les adultes dont le revenu principal est une pension, une indemnité de chômage, un minimum social ou une pension d'invalidité, sans activité (environ 22,2 millions). Fourchette : 1,28 à 1,38.</li>
+    <li><strong>1,06 : la même chose avec le privé seul</strong> (salariés du privé et non-salariés, 23,6 millions). Fourchette : 1,02 à 1,10.</li>
+    <li><strong>0,84 : combien d'emplois privés pour un revenu payé par l'argent public ?</strong> Le dénominateur ajoute les agents publics (5,9 millions) aux adultes de transferts, soit 28,1 millions. Fourchette : 0,81 à 0,86. Autrement dit, environ 84 emplois privés pour 100 adultes dont le revenu principal vient de l'argent public.</li>
+  </ul>
+  <p>Les enfants, les étudiants et les inactifs sans prestation sont laissés de côté. Si l'on comptait toutes les personnes qui ne travaillent pas, enfants et étudiants compris, le premier ratio tomberait autour de 0,76.</p>
+  <h3>Pourquoi ce n'est ni un jugement ni un ratio de financement</h3>
+  <ul>
+    <li>Les retraités forment 76 % du dénominateur et ont cotisé toute leur vie : une pension est un droit acquis, pas une aide.</li>
+    <li>Les agents publics travaillent et produisent des services (école, soins, justice, sécurité). Les rapprocher des « bénéficiaires » ne dit pas qu'ils ne produisent rien.</li>
+    <li>Les agents publics sont payés par l'impôt, qui est aussi payé par d'autres agents publics, des retraités et des chômeurs (TVA, CSG). Le ratio ne dit donc pas « le privé finance le reste ».</li>
+    <li>Un contrôle : le rapport entre emploi et retraités seuls (1,74) est proche du rapport cotisants/retraités du COR (1,77), ce qui conforte l'ordre de grandeur sans valider chaque poste.</li>
+  </ul>
+  <p>Pour la solidarité hors retraites, le même calcul donne environ 5,5 personnes en emploi pour un adulte aidé sans travailler.</p>
+  <h3>Ce qui les fait évoluer</h3>
+  <ul>
+    <li><strong>La démographie.</strong> Le nombre de retraités passe de 17,4 millions (2025) à environ 22,5 millions (2070) dans la projection, pendant que la population de 15 à 64 ans baisse. La fécondité observée (1,56 en 2025) est plus basse que celle supposée en 2021 (1,80).</li>
+    <li><strong>L'emploi des seniors et l'âge de départ.</strong> Un an d'âge effectif de départ en plus vaut environ 0,09 point de rapport cotisants/retraités en 2070. À taux d'activité figés, le rapport tomberait à 1,13 au lieu de 1,27.</li>
+    <li><strong>Le chômage.</strong> Chaque point de chômage de long terme pèse environ 0,014 point de rapport en 2070 : l'effet est réel mais plus faible que celui de l'âge de départ.</li>
+  </ul>
+</div></section>
+
+<section class="bloc" id="etabli"><div class="page">
+  <p class="etiq">4. Établi, débattu, inconnu</p>
+  <h2>Ce que l'on sait, et ce qu'il faut garder en tête.</h2>
+  <h3>Établi</h3>
+  <ul>
+    <li>Les effectifs : 20,3 millions de salariés du privé, 5,9 millions d'agents publics, 17,4 millions de retraités (tous régimes), 2,62 millions de chômeurs indemnisés, environ 4,2 millions de personnes touchant un minimum social (après doubles comptes, fin 2023).</li>
+    <li>Les dépenses publiques à 57,0 % du PIB et les prélèvements obligatoires à 42,7 % en 2024.</li>
+    <li>Le rapport cotisants/retraités baisse sous toutes les hypothèses étudiées, même si l'ampleur varie.</li>
+  </ul>
+  <h3>Débattu</h3>
+  <ul>
+    <li><strong>Faut-il rapprocher agents publics et bénéficiaires ?</strong> Le troisième ratio est un choix de présentation : il répond à « combien de revenus privés pour les revenus d'argent public », pas à « qui est utile ».</li>
+    <li><strong>Faut-il compter les retraites comme des transferts ?</strong> Pour certains, c'est un salaire différé ; pour d'autres, un transfert entre générations dans un système par répartition. Les deux lectures sont compatibles avec les chiffres.</li>
+    <li><strong>Les niches fiscales sont-elles des dépenses ?</strong> Elles réduisent une recette plutôt que de verser une somme, mais leur effet sur le budget est le même ; leur utilité dépend de chaque dispositif.</li>
+  </ul>
+  <h3>Inconnu ou fragile</h3>
+  <ul>
+    <li>Plusieurs paramètres sont des estimations non vérifiées ligne à ligne : cumul emploi-retraite (0,5 million, entre 0,4 et 0,6), conjoints adultes au RSA, part de l'AAH en emploi, pensions d'invalidité, part des chômeurs indemnisés sans activité. Ils pèsent environ ±1 million sur 22, soit ±0,05 sur le ratio.</li>
+    <li>Les années sont mélangées (2023 à 2025) ; l'AAH et l'ASS ont augmenté depuis.</li>
+    <li>Le numérateur (29,5 millions de personnes en emploi) diffère des 30,6 millions de cotisants du COR : définitions différentes, à ne pas mélanger.</li>
+    <li>Nous n'avons pas retrouvé de sondage fiable sur ce que les Français pensent de ce ratio : nous n'en citons aucun.</li>
+  </ul>
+</div></section>
+
+<section class="bloc" id="partis"><div class="page">
+  <p class="etiq">5. Les positions des partis</p>
+  <h2>Trois grandes familles de réponses.</h2>
+  <p class="doux">Résumés de tendances, pas des citations : nous n'avons pas rassemblé ici les programmes de chaque parti. Pour une comparaison point par point, voir <a href="/comparer.html">Comparer</a>.</p>
+  <ul>
+    <li><strong>Défendre le niveau des protections et des services publics</strong> : les pensions et les prestations sont des droits ; il faut plutôt chercher de nouvelles recettes (impôts sur les hauts revenus ou patrimoines, remise en cause de niches).</li>
+    <li><strong>Réduire la dépense et encourager le travail</strong> : le poids des dépenses publiques (57 % du PIB) et des prélèvements pèse sur l'emploi ; il faut allonger la vie active et réduire certaines dépenses ou niches.</li>
+    <li><strong>Réformer la forme du système</strong> : simplifier, regrouper les aides, individualiser ou rendre plus lisibles les droits, sans fixer d'avance le niveau global.</li>
+  </ul>
+</div></section>
+
+<section class="bloc" id="choix"><div class="page">
+  <p class="etiq">6. Ce que ça change pour les choix politiques</p>
+  <h2>Quelques leviers, et leur ordre de grandeur.</h2>
+  <ul>
+    <li><strong>Plus de personnes en emploi</strong> (seniors, chômeurs de longue durée) améliore le ratio, mais le chômage pèse moins que l'âge de départ dans la projection du COR.</li>
+    <li><strong>Reculer l'âge effectif de départ</strong> augmente le nombre de cotisants et réduit celui de pensionnés ; son coût est de rester plus longtemps en activité, notamment dans les métiers pénibles.</li>
+    <li><strong>Agir sur les recettes ou les dépenses</strong> : les prélèvements sont à 42,7 % du PIB et les dépenses à 57,0 %. Les 88 Md€ de niches sont un levier possible, mais chaque niche a ses bénéficiaires et sa finalité ; en supprimer une ne rapporte pas toujours son coût affiché, car les comportements changent.</li>
+    <li><strong>La démographie ne se décide pas à court terme</strong> : fécondité et migrations jouent sur des décennies et restent incertaines.</li>
+  </ul>
+  <p>Ces ratios ne désignent aucune politique. Ils aident à voir l'échelle du sujet : une mesure qui change l'emploi d'un million de personnes ou d'une année d'âge de départ a un effet visible, une niche de quelques centaines de millions d'euros beaucoup moins.</p>
+</div></section>
+
+<section class="bloc" id="plus-loin"><div class="page">
+  <p class="etiq">7. Pour aller plus loin</p>
+  <h2>Trois pages.</h2>
+  <ul>
+    <li><a href="/constat.html">Le constat : dette, intérêts, trajectoire</a></li>
+    <li><a href="/etudes.html#modeles">Nos études et modèles</a></li>
+    <li><a href="/comparer.html">Comparer les programmes</a></li>
+  </ul>
+</div></section>
+
+<section class="bloc" id="video"><div class="page">
+  <p class="etiq">8. Vidéo</p>
+  <div class="lignes"><div><p class="dit">La vidéo de ce dossier arrive bientôt.</p><p>Elle résumera ces chiffres en quelques minutes.</p></div></div>
+</div></section>
+
+<section class="bloc" id="sources"><div class="page">
+  <p class="etiq">9. Sources</p>
+  <h2>Où vérifier.</h2>
+  <p class="doux">Consultées le 13/11/2026. Fiabilité : A = statistique publique ou publication à comité de lecture, B = institution reconnue, rapport parlementaire ou organisme international, C = presse ou think tank, D = communication commerciale ou militante. Les lignes marquées « estimation » sont des ordres de grandeur non vérifiés.</p>
+  <ul class="sources">
+    <li>(A) Insee, « Usage de l'argent public : les dépenses publiques par fonction en 2024 », Insee Première n° 2093 (dépenses de 57,0 % du PIB, 1 672 Md€) : https://www.insee.fr/fr/statistiques/8735252</li>
+    <li>(A) Insee, Informations rapides n° 81 et Insee Première n° 2054, compte des administrations publiques en 2024 : https://www.insee.fr/fr/statistiques/8574492</li>
+    <li>(A) Insee Première n° 2094, les agents publics fin 2024 (recherche « Insee Première 2094 » sur insee.fr)</li>
+    <li>(A) Urssaf, effectifs salariés du secteur privé 2024 : https://open.urssaf.fr/explore/dataset/nombre-etab-effectifs-salaries-et-masse-salariale-secteur-prive-tranche-ent/</li>
+    <li>(A) Unédic, rapport financier 2024 (non-salariés ; chômeurs indemnisés, 2,62 millions) : https://www.unedic.org/qui-sommes-nous/rapports/rapport-financier-de-l-unedic-2024</li>
+    <li>(A) DREES, Minima sociaux, édition 2025, fiches 06 et 23 : https://www.drees.solidarites-sante.gouv.fr/sites/default/files/2025-12/MS2025%20-%20Fiche%2023%20-%20Le%20revenu%20de%20solidarit%C3%A9%20active%20%28RSA%29.pdf</li>
+    <li>(B) Conseil d'orientation des retraites, rapport de juin 2026 (retraités, cotisants, rapport 1,77) : https://www.cor-retraites.fr/sites/default/files/2026-07/RA_2026_def_0.pdf (conflit d'intérêts : organisme consultatif placé auprès du Premier ministre)</li>
+    <li>(B) Ministère de l'Économie, Évaluation des voies et moyens, tome II, Dépenses fiscales, PLF 2026 (465 dispositifs, 88,3 Md€) : https://www.budget.gouv.fr/</li>
+    <li>(C) Estimations internes : cumul emploi-retraite, conjoints au RSA, AAH en emploi, pensions d'invalidité, chômeurs sans activité réduite, enfants et étudiants (non vérifiées ; sources à consulter : DREES, Cnam, France Travail, Insee).</li>
+    <li>(C) Modèles de prospective démographique et de prélèvements du projet (hypothèses, pas des prédictions) : voir /etudes.html#modeles</li>
+  </ul>
+  <p class="note">Dernière mise à jour : 13/11/2026. Rédaction faite avec l'aide d'une IA (Claude, d'Anthropic) ; les choix sont ceux de l'auteur.</p>
+</div></section>
+</main>
+<footer class="page" style="padding:28px 16px;color:var(--doux);font-size:.85rem">Texte sous licence CC BY-SA 4.0. Version de travail.</footer>
+</body>
+</html>

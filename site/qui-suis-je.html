@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Qui suis-je ?</title>
+<meta name="description" content="Pierre Clocher, développeur et entrepreneur : pourquoi ce projet, ce que je défends, ma méthode, le monde que j'aimerais voir, et mes tribunes.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Source+Serif+4:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/redressement.css">
+<style>
+.portrait{display:grid;grid-template-columns:220px 1fr;gap:28px;align-items:center}
+.portrait img{width:220px;height:220px;border-radius:50%;object-fit:cover;filter:grayscale(1)}
+@media (max-width:640px){.portrait{grid-template-columns:1fr}.portrait img{width:160px;height:160px}}
+.liste-crois{list-style:none;padding:0;display:grid;gap:12px}
+.liste-crois li{border-left:3px solid var(--accent);padding-left:14px;font-family:var(--serif);font-size:1.15rem}
+.vision{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:18px}
+.vision div{background:var(--surface);border:1px solid var(--trait);border-radius:14px;padding:18px}
+.vision b{display:block;font-family:var(--serif);font-size:1.15rem;margin-bottom:6px}
+@media (max-width:700px){.vision{grid-template-columns:1fr}}
+.tribunes a{display:block;background:var(--surface);border:1px solid var(--trait);border-radius:14px;padding:18px;text-decoration:none;color:var(--encre);margin-top:14px}
+.tribunes a b{display:block;font-family:var(--serif);font-size:1.2rem;color:var(--accent)}
+.tribunes a span{color:var(--doux);font-size:.95rem}
+</style>
+</head>
+<body>
+<div class="proto">Cette page est engagée : elle dit ce que je pense. Les faits sont dans « Comprendre » et « Vérifier ».</div>
+<header><div class="page large">
+  <a class="marque" href="/">Langagement politique</a>
+  <nav></nav>
+</div></header>
+<main>
+<section class="ouverture"><div class="page">
+  <div class="portrait">
+    <img src="/images/pierre-clocher.jpg" alt="Portrait de Pierre Clocher" width="220" height="220">
+    <div>
+      <p class="etiq">Qui suis-je ?</p>
+      <h1 style="margin-bottom:12px">Pierre Clocher</h1>
+      <p>Développeur et entrepreneur, pas homme politique de carrière. Je propose un programme de gauche, avec des méthodes de droite : la justice comme but, l'efficacité comme méthode.</p>
+    </div>
+  </div>
+</div></section>
+
+<section class="bloc"><div class="page">
+  <p class="etiq">Pourquoi je fais ça</p>
+  <h2>J'avais besoin de comprendre.</h2>
+  <p>J'avais besoin de clarifier, pour moi-même, ce que voter en 2027 voulait dire, et ce que j'aimerais comme avenir. Comme beaucoup, je recevais la politique par les réseaux sociaux, triée par des algorithmes et très polarisée, et je ne m'y sentais pas bien. Alors j'ai voulu aller chercher par moi-même : comprendre les chiffres, les mécanismes, les programmes.</p>
+  <p>Ce site est le résultat de cette démarche. Je ne sais pas encore si elle me mènera à me présenter à une élection ; ce n'est pas ce qui la guide aujourd'hui.</p>
+</div></section>
+
+<section class="bloc"><div class="page">
+  <p class="etiq">Ce que je défends</p>
+  <ul class="liste-crois">
+    <li>Un État qui rend des comptes, en toute transparence.</li>
+    <li>Les mêmes règles pour tous.</li>
+    <li>Le marché crée la richesse ; elle doit profiter à tous.</li>
+    <li>Les citoyens doivent décider plus souvent que tous les cinq ans.</li>
+    <li>Un État fort, et des communes proches.</li>
+  </ul>
+  <a class="lien-suite" href="/programme.html" style="display:inline-block;margin-top:16px;font-weight:700;text-decoration:none">Le programme, mesure par mesure →</a>
+</div></section>
+
+<section class="bloc"><div class="page">
+  <p class="etiq">Ma méthode</p>
+  <h2>Chercher les solutions dans les faits, pas dans ce qui plaît à entendre.</h2>
+  <p>Ne pas être dogmatique : quand un adversaire a raison, je le dis. Chiffrer avant de promettre, avec la même règle pour tous les programmes, le mien compris. Publier les erreurs et les idées écartées.</p>
+  <p>Et dire mes biais. Je viens du logiciel : j'ai tendance à être très technique, et je suis plutôt optimiste sur la technologie. Ce site a besoin de lecteurs moins techniques que moi pour me dire ce qui doit être mieux expliqué. <a href="https://github.com/pierreclr/langagement-politique/issues">Dites-le-moi ici.</a></p>
+</div></section>
+
+<section class="bloc"><div class="page">
+  <p class="etiq">Le monde que j'aimerais voir</p>
+  <h2>Une vision, assumée comme engagée.</h2>
+  <p>Ce n'est pas un chiffrage, c'est un cap. Pour l'atteindre, pas de grand soir ni cinquante mille projets lancés en même temps : des priorités, du temps, et une partie de l'argent redirigée vers ces méthodes.</p>
+  <div class="vision">
+    <div><b>Bâtir du bien commun</b>Des entreprises publiques à la pointe, rentables et en concurrence, où il est passionnant de travailler, et où chacun est rémunéré à la hauteur de ce qu'il apporte.</div>
+    <div><b>Inventer les technologies de demain, et en rester propriétaires</b>L'intelligence artificielle est là. Plutôt que de se diviser dessus, la comprendre en profondeur et s'en saisir, ensemble.</div>
+    <div><b>Sortir de la consommation jetable</b>Aujourd'hui, on choisit entre deux cents appareils fabriqués à l'autre bout du monde, bon marché à l'achat mais chers dans le temps. J'aimerais une entreprise publique qui publie librement les plans d'appareils très réparables, comme le logiciel libre publie son code.</div>
+    <div><b>Repenser sans renier</b>Le libéralisme a apporté énormément de progrès. Mais des décisions passées nous ont mis devant le fait accompli. Il faut les repenser, une par une, avec confiance et un vrai projet de société plus juste.</div>
+  </div>
+</div></section>
+
+<section class="bloc"><div class="page">
+  <p class="etiq">Pourquoi tout est ouvert</p>
+  <h2>Partageur et capitaliste à la fois : le logiciel libre le prouve.</h2>
+  <p>Je viens du logiciel, un monde à la fois très partageur, avec le logiciel libre, et très capitaliste, avec les fortunes qu'il crée. Les deux ne sont pas incompatibles : le logiciel libre le montre tous les jours. C'est la même idée que je défends pour le pays. Alors tout est public : les données, les calculs, le code, les textes. Chacun peut vérifier, contester et contribuer.</p>
+  <a class="bouton" href="https://github.com/pierreclr/langagement-politique">Contribuer sur GitHub →</a>
+</div></section>
+
+<section class="bloc tribunes"><div class="page">
+  <p class="etiq">Mes tribunes</p>
+  <h2>Ce que je pense, signé.</h2>
+  <p>Des textes d'opinion sur les paradoxes et les choix de société.</p>
+  <a href="/tribunes/etat-systeme-information.html"><b>L'État est un système d'information. Il est temps de le maîtriser.</b><span>Pourquoi voir l'État comme un système d'information change la façon de le réformer.</span></a>
+</div></section>
+</main>
+<footer class="page" style="padding:28px 16px;color:var(--doux);font-size:.85rem">Texte sous licence CC BY-SA 4.0. Lien d'intérêts : l'auteur a cofondé une entreprise de logiciel ; tout usage de ses travaux dans ce projet serait déclaré.</footer>
+</body>
+</html>

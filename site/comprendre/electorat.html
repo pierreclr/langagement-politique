@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>La réalité électorale</title>
+<meta name="description" content="Qui vote selon l'âge, comment sont faits les sondages, ce que la loi encadre, et ce que disent les sondages de 2026 sur la présidentielle de 2027, avec leurs limites.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Source+Serif+4:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/redressement.css">
+<link rel="stylesheet" href="/graphiques-site.css">
+<script src="/graphiques-site.js"></script>
+<style>
+.verdict{display:inline-block;font-size:.78rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase;border-radius:999px;padding:2px 10px;white-space:nowrap}
+.v-juste{background:var(--vert-doux);color:var(--vert)}
+.v-faux{background:#fbe9ec;color:var(--rouge)}
+.v-partie{background:var(--ambre-doux);color:var(--ambre)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="clair"]) .v-faux{background:#2a1b1e}}
+.lignes{display:grid;gap:12px;margin-top:20px}
+.lignes div{background:var(--surface);border:1px solid var(--trait);border-radius:12px;padding:14px 16px}
+.lignes .dit{font-family:var(--serif);font-size:1.08rem;margin:0 0 6px}
+.lignes p{margin:6px 0 0;font-size:.97rem}
+.sources li{font-size:.9rem;margin-bottom:6px;overflow-wrap:anywhere}
+</style>
+</head>
+<body>
+<div class="proto">Dossier mis à jour le 13/11/2026. Une erreur ? <a href="https://github.com/pierreclr/langagement-politique/issues">Signalez-la</a>, on corrige.</div>
+<header><div class="page large">
+  <a class="marque" href="/">Langagement politique</a>
+  <nav></nav>
+</div></header>
+<main>
+<section class="ouverture"><div class="page">
+  <p class="etiq">Comprendre</p>
+  <h1>La réalité électorale : qui vote, et ce que disent les sondages.</h1>
+  <p class="doux">Qui va voter, comment on mesure les intentions de vote, ce que les sondages de 2026 affichent, et ce qu'ils ne peuvent pas dire. Ce dossier décrit, il ne recommande aucun vote.</p>
+</div></section>
+
+<section class="bloc" id="en-bref"><div class="page">
+  <p class="etiq">1. En bref</p>
+  <h2>Quatre phrases.</h2>
+  <p>Les électeurs ne sont pas un échantillon fidèle de la population : en 2022, 24 % des inscrits de 18 à 34 ans n'ont voté à aucun des tours de la présidentielle et des législatives, contre environ 9 % des 50-69 ans, alors que les 60 ans et plus forment un peu plus d'un tiers des adultes. Un sondage est une photo à une date donnée, prise sur un échantillon de 1 000 à 3 000 personnes, avec une marge d'erreur de l'ordre de 2 à 3 points qui, pour un écart entre deux candidats, est à peu près doublée. La loi française encadre les sondages (notice déposée, Commission des sondages, interdiction de publication à partir du samedi à zéro heure avant un dimanche de vote). En novembre 2026, les sondages publiés placent Marine Le Pen en tête du premier tour (de 30,5 % à 37 % selon l'institut et l'hypothèse), et les hypothèses de second tour publiées en octobre donnent la victoire à Marine Le Pen contre chacun des adversaires testés, mais ces hypothèses ont changé de sens plusieurs fois depuis 2025.</p>
+</div></section>
+
+<section class="bloc" id="chiffres"><div class="page">
+  <p class="etiq">2. Chiffres clés en graphiques</p>
+  <h2>Cinq repères.</h2>
+  <p class="doux">Les couleurs ne désignent aucun parti : les barres sont toutes grises.</p>
+
+  <h3>Abstention systématique en 2022, selon l'âge (% des inscrits)</h3>
+  <svg data-graph="barres" data-lw="200" data-max="60" data-lignes='[["18-34 ans",24,"#8a8a8a",null,"24 %"],["50-69 ans (environ)",9,"#8a8a8a",null,"environ 9 %"],["90 ans et plus",56,"#8a8a8a",null,"56 %"]]' viewBox="0 0 640 136"></svg>
+  <p class="src">Insee Première n° 1928, novembre 2022 : n'ont voté à aucun tour de la présidentielle ni des législatives de 2022. Chez les plus de 70 ans, l'abstention remonte avec l'âge (santé, mobilité).</p>
+
+  <h3>Part des adultes de 60 ans et plus et de 65 ans et plus, France, 1er janvier 2024 (%)</h3>
+  <svg data-graph="barres" data-lw="200" data-max="50" data-lignes='[["60 ans et plus",34.9,"#8a8a8a",null,"34,9 %"],["65 ans et plus",27.1,"#8a8a8a",null,"27,1 %"]]' viewBox="0 0 640 96"></svg>
+  <p class="src">Estimation à partir d'Eurostat (population par âge au 1er janvier 2024). La population de 18 ans et plus est estimée à 54,5 millions en retirant les 0-14 ans et trois cinquièmes des 15-19 ans.</p>
+
+  <h3>Marge d'erreur d'un résultat proche de 50 %, selon la taille de l'échantillon (points, confiance à 95 %)</h3>
+  <svg data-graph="barres" data-lw="200" data-max="5" data-lignes='[["500 personnes",4.4,"#8a8a8a",null,"± 4,4"],["1 000 personnes",3.1,"#8a8a8a",null,"± 3,1"],["1 500 personnes",2.5,"#8a8a8a",null,"± 2,5"],["3 000 personnes",1.8,"#8a8a8a",null,"± 1,8"]]' viewBox="0 0 640 176"></svg>
+  <p class="src">Calcul : 1,96 × racine de (p × (1 − p) / n), avec p = 0,5. Il vaut pour un tirage au sort pur ; il est indicatif pour les quotas (voir la partie 4). La marge est plus petite pour un score de 20 % (environ ± 2,5 points à 1 000 personnes).</p>
+
+  <h3>Second tour, hypothèse Le Pen contre Mélenchon : part de Marine Le Pen selon les sondages (%)</h3>
+  <svg data-graph="barres" data-lw="200" data-max="80" data-lignes='[["Harris, 5-8 oct.",67,"#8a8a8a",null,"67 %"],["Ifop, 17-19 oct.",68,"#8a8a8a",null,"68 %"],["YouGov, oct.",68,"#8a8a8a",null,"68 %"],["Elabe, oct.",69,"#8a8a8a",null,"69 %"],["Harris, 19-21 oct.",70,"#8a8a8a",null,"70 %"]]' viewBox="0 0 640 216"></svg>
+  <p class="src">Relevé repris de L'Essentiel de l'éco, 29/10/2026, qui cite ces instituts ; non recoupé avec les publications des instituts (voir la partie 5).</p>
+
+  <h3>Hypothèses de second tour, Ifop, 17-19 octobre 2026 : part de l'adversaire de Marine Le Pen (%)</h3>
+  <svg data-graph="barres" data-lw="200" data-max="60" data-lignes='[["Édouard Philippe",44,"#8a8a8a",null,"44 %"],["Raphaël Glucksmann",43,"#8a8a8a",null,"43 %"],["Gabriel Attal",42,"#8a8a8a",null,"42 %"],["Jean-Luc Mélenchon",32,"#8a8a8a",null,"32 %"]]' viewBox="0 0 640 176"></svg>
+  <p class="src">Même source, pour la vague Ifop du 17 au 19 octobre 2026. Dans ces hypothèses, Marine Le Pen obtient le complément à 100 %. Seuil de victoire : 50 %.</p>
+</div></section>
+
+<section class="bloc" id="qui-vote"><div class="page">
+  <p class="etiq">3. Qui vote</p>
+  <h2>Un électorat qui ne ressemble pas exactement à la population.</h2>
+  <p>Ce qui suit décrit une contrainte du système, pas un reproche : chaque groupe d'âge vote ou ne vote pas pour des raisons qui lui sont propres (santé, mobilité, vie professionnelle, confiance dans la politique).</p>
+  <h3>Le poids des âges</h3>
+  <p>Au 1er janvier 2024, nous estimons que les 60 ans et plus représentent 34,9 % des adultes, et les 65 ans et plus 27,1 %. Ces parts devraient augmenter avec le vieillissement du pays.</p>
+  <h3>La participation selon l'âge</h3>
+  <p>L'enquête de l'Insee sur la participation en 2022 (inscrits en France et dans les départements d'outre-mer) mesure ce que chacun a fait sur l'ensemble de la séquence présidentielle et législatives :</p>
+  <ul>
+    <li>16 % des inscrits n'ont voté à aucun tour, 36 % ont voté à tous les tours, 48 % par intermittence.</li>
+    <li>L'abstention systématique est de 24 % chez les 18-34 ans, contre environ 9 % chez les 50-69 ans. Elle remonte après 70 ans, jusqu'à 56 % à 90 ans et plus.</li>
+    <li>Le vote à tous les tours est majoritaire chez les 70-79 ans (plus de la moitié), contre moins d'un jeune sur cinq de 18 à 34 ans.</li>
+    <li>À la présidentielle seule, 74 % des moins de 30 ans ont voté au moins une fois ; aux législatives, 35 %.</li>
+  </ul>
+  <p class="doux">Ce que nous ne savons pas : la part exacte de chaque tranche d'âge dans les suffrages exprimés. L'Insee ne publie pas cette répartition dans les sources consultées, et nous n'avons pas retenu les sondages réalisés à la sortie des urnes comme source primaire. Il faut donc éviter la formule « les retraités décident ».</p>
+  <h3>Pourquoi les promesses suivent souvent ceux qui votent</h3>
+  <p>Un parti qui veut gagner s'intéresse aux électeurs qu'il peut convaincre et qui iront voter. C'est un mécanisme d'incitation, courant dans toutes les démocraties : un groupe qui vote beaucoup est écouté, un groupe qui vote peu l'est moins. L'âge de départ à la retraite en est un exemple parlant, car il concerne beaucoup plus directement ceux qui en sont proches que ceux qui commencent leur carrière ; le coût annuel de plusieurs âges de départ est chiffré <a href="/constat.html">sur la page « Le constat »</a>.</p>
+  <p><strong>La meilleure objection :</strong> les électeurs ne votent pas seulement selon leur intérêt immédiat, et les âges ne forment pas des blocs. Beaucoup de personnes âgées votent pour leurs enfants et petits-enfants, et les écarts entre anciens ouvriers et anciens cadres sont aussi grands qu'entre générations. Le lien entre poids électoral et contenu des programmes est une hypothèse plausible, que nous n'avons pas mesurée ici.</p>
+</div></section>
+
+<section class="bloc" id="sondages"><div class="page">
+  <p class="etiq">4. Comment marchent les sondages</p>
+  <h2>Une photo, pas une prévision.</h2>
+  <h3>L'échantillon, les quotas, le redressement</h3>
+  <ul>
+    <li><strong>Échantillon.</strong> Un institut interroge de 1 000 à 3 000 personnes inscrites sur les listes, le plus souvent par internet ou par téléphone. Les instituts qui interrogent par internet s'appuient sur des panels de personnes volontaires.</li>
+    <li><strong>Quotas.</strong> En France, il est le plus souvent impossible de tirer les personnes au sort dans le recensement. Les instituts fixent donc des quotas (sexe, âge, profession, région) pour que l'échantillon ressemble à la population.</li>
+    <li><strong>Redressement.</strong> Les résultats bruts sont ensuite pondérés selon des critères sociodémographiques et politiques, par exemple le vote déclaré à l'élection précédente. Ce choix de pondération influence le résultat : avant 2007, certains instituts publiaient jusqu'à 48 hypothèses de redressement par sondage, et la Commission a depuis demandé un redressement de référence unique.</li>
+  </ul>
+  <h3>La marge d'erreur, plus grande qu'on ne le croit</h3>
+  <ul>
+    <li>Pour un tirage au sort pur, un score de 50 % mesuré sur 1 000 personnes a une marge d'environ ± 3 points (graphique de la partie 2). À 1 500 personnes, ± 2,5 points.</li>
+    <li>Pour un <em>écart</em> entre deux candidats (par exemple 52-48 au second tour), l'incertitude est à peu près le double de celle d'un score isolé, puisque le gain de l'un est la perte de l'autre : un 52-48 sur 1 000 personnes est compatible avec une égalité (calcul de ce dossier).</li>
+    <li>Les quotas ne permettent pas de calculer une marge d'erreur rigoureuse : la loi demande de la donner « le cas échéant par référence à la méthode aléatoire » et la Commission des sondages note elle-même que la marge de la méthode des quotas n'est pas calculable. Même quand l'échantillon est très grand, les biais éventuels (personnes qui répondent ou non, souvenir du vote erroné) ne diminuent pas avec la taille.</li>
+    <li>Les marges ne couvrent pas tout : abstention, indécis, et personnes qui changent d'avis entre la date du sondage et le vote. Le sondage indique des <em>intentions</em> à une date, pas un résultat.</li>
+  </ul>
+  <h3>Ce que la loi encadre</h3>
+  <ul>
+    <li><strong>Notice.</strong> Avant toute publication, l'institut dépose une notice auprès de la Commission des sondages (méthode, composition de l'échantillon, proportion de personnes sans réponse, critères de redressement). La Commission la rend publique sur son site.</li>
+    <li><strong>Mentions obligatoires</strong> à la première publication : institut, commanditaire, nombre de personnes interrogées, dates, texte intégral des questions, mention que tout sondage a des marges d'erreur, et ces marges.</li>
+    <li><strong>Commission des sondages.</strong> Neuf membres : deux du Conseil d'État, deux de la Cour de cassation, deux de la Cour des comptes et trois personnalités qualifiées. Elle vérifie le respect de la loi. Les personnes rémunérées par des médias ou des instituts de sondage dans les trois ans précédents ne peuvent pas y siéger.</li>
+    <li><strong>Interdiction avant le vote.</strong> Pour la présidentielle, aucun sondage électoral ne peut être publié, diffusé ou commenté à partir du samedi précédant le scrutin à zéro heure, jusqu'à la fermeture du dernier bureau de vote en métropole. Les sondages publiés avant restent consultables et commentables, à condition d'indiquer la date de première publication, le média et l'institut.</li>
+  </ul>
+  <p class="doux">Le texte consulté est la version consolidée de la loi n° 77-808 du 19 juillet 1977 en date de janvier 2017. Des modifications ont pu avoir lieu depuis ; le texte à jour est sur Légifrance.</p>
+  <h3>Ce que la recherche dit de leur effet sur les électeurs</h3>
+  <ul>
+    <li><strong>Vote utile (ou stratégique) :</strong> voter pour un candidat qui a une chance plutôt que pour son premier choix. C'est un phénomène étudié dans la recherche, mais difficile à séparer de l'effet d'entraînement : les deux peuvent produire le même comportement.</li>
+    <li><strong>Effet d'entraînement</strong> (se rallier au candidat qui monte) <strong>et sympathie pour l'outsider :</strong> une expérience menée au Québec en 2014 auprès de 1 065 électeurs (Labbé St-Vincent et Blais, 2016) observe un effet d'entraînement d'une importance comparable à celle du vote stratégique. Plusieurs synthèses et enseignements concluent à l'inverse que ces effets sont faibles ; l'effet « outsider » est celui qui a le moins de soutien empirique.</li>
+    <li>Nous n'avons pas trouvé d'étude française récente qui chiffre l'effet des sondages sur le résultat d'une présidentielle.</li>
+  </ul>
+  <h3>Leur fiabilité passée en France</h3>
+  <ul>
+    <li>Pour 2017 et 2022, la Commission des sondages juge que les derniers sondages ont été « plus que satisfaisants », avec des écarts aux résultats inférieurs aux marges d'incertitude, en précisant que cela vaut pour des scrutins où la participation avoisine 70 % des votants.</li>
+    <li>2022, premier tour, estimations publiées le soir du vote (non des sondages d'avant campagne) : Jean-Luc Mélenchon, qui a obtenu 21,95 %, était estimé entre 20 % et 20,2 % par toutes les chaînes (sous-estimation d'environ 2 points). Éric Zemmour, 7,05 % au résultat, était estimé de 7 % à 7,1 % chez les deux estimations les plus proches. Emmanuel Macron et Marine Le Pen étaient estimés un peu au-dessus de leur résultat, de l'ordre d'un demi-point à un point.</li>
+    <li>Nous n'avons pas consulté de comparaison chiffrée des derniers sondages d'avant le vote avec les résultats de 2017 : cette ligne reste à compléter.</li>
+    <li>Les sondages portant sur un scrutin lointain sont autre chose : en 2019-2020, six sondages donnaient à Marine Le Pen entre 41,5 % et 45 % pour un second tour de 2022, contre 33,9 % lors de son second tour de 2017 (Institut Montaigne) ; ils portaient sur une élection encore éloignée et sur des hypothèses.</li>
+  </ul>
+</div></section>
+
+<section class="bloc" id="aujourdhui"><div class="page">
+  <p class="etiq">5. Ce que disent les sondages aujourd'hui</p>
+  <h2>Premier tour, puis hypothèses de second tour, tels que publiés.</h2>
+  <p class="doux">Présidentielle prévue en 2027. Les candidats testés changent d'un sondage à l'autre (avec ou sans Gabriel Attal, avec ou sans Bruno Retailleau, Marine Le Pen ou Jordan Bardella), donc les chiffres ne sont pas directement comparables.</p>
+  <h3>Intentions de vote au premier tour, derniers sondages</h3>
+  <ul>
+    <li><strong>Ifop pour LCI</strong>, terrain du 27 au 29 octobre 2026, publié le 3 novembre, 1 501 inscrits : Marine Le Pen de 35 % à 37 %, Jean-Luc Mélenchon de 17,5 % à 18 %, Édouard Philippe 15 % sans candidature de Gabriel Attal et 9,5 % quand plusieurs candidats du centre et de la droite sont présents, Raphaël Glucksmann de 10 % à 13 % (de 12 % à 16 % à la mi-octobre), David Lisnard jusqu'à 9 %. Marge d'erreur non indiquée dans l'article consulté.</li>
+    <li><strong>OpinionWay</strong> pour Les Echos et Radio Classique, terrain du 9 au 10 novembre 2026, 982 personnes : première hypothèse Le Pen 34 %, Mélenchon 17 %, Philippe 11 %, Glucksmann 11 %, Lisnard 10 %. <em>Relevé dans l'index Wikipédia des sondages, non recoupé avec l'institut.</em></li>
+    <li><strong>Cluster17</strong> pour Politico, terrain du 9 au 10 novembre 2026, 1 164 personnes : première hypothèse Le Pen 30,5 %, Mélenchon 20 %, Philippe 13,5 %, Glucksmann 11 %, Lisnard 10 %. <em>Même remarque : index Wikipédia, non recoupé.</em></li>
+    <li><strong>Cluster17</strong>, terrain du 19 au 22 octobre 2026, 3 000 personnes : Mélenchon 18,5 %. <strong>OpinionWay</strong> (CNews), même période, 973 personnes : Mélenchon 16 %. <strong>Ipsos</strong> et <strong>Harris Interactive</strong> (Toluna), même période : Mélenchon 17 % (relevé L'Essentiel de l'éco, 29/10/2026).</li>
+  </ul>
+  <p>Les écarts entre instituts, par exemple 18,5 % et 16 % pour un même candidat à la même période, sont du même ordre que la marge d'erreur, et la presse les attribue en partie au mode d'interrogation (téléphone ou internet).</p>
+
+  <h3>Hypothèses de second tour : ce que publient les instituts</h3>
+  <ul>
+    <li><strong>Le Pen contre Mélenchon</strong> (octobre 2026, relevé L'Essentiel de l'éco, 29/10/2026) : Marine Le Pen entre 67 % et 70 % selon l'institut (Harris Interactive du 5 au 8 octobre 67 % ; Ifop du 17 au 19 octobre 68 % ; YouGov 68 % ; Elabe 69 % ; Harris Interactive du 19 au 21 octobre 70 %). Échantillons non précisés dans cette source, sauf OpinionWay (973 personnes).</li>
+    <li><strong>Le Pen contre d'autres candidats</strong>, Ifop du 17 au 19 octobre 2026 : Philippe 44 %, Glucksmann 43 %, Attal 42 %, Mélenchon 32 % (même relevé ; l'échantillon de cette vague est de 1 928 inscrits selon Sud Radio). Dans toutes ces hypothèses, Marine Le Pen est donnée au-dessus de 50 %.</li>
+    <li><strong>Avant, avec Jordan Bardella.</strong> Odoxa-Mascaret pour Public Sénat, terrain des 19 et 20 novembre 2025, 1 004 personnes, quotas, marge de ± 2,5 points pour 20 % ou 80 % : Bardella 53 % contre Philippe, 56 % contre Attal, 58 % contre Glucksmann, 74 % contre Mélenchon. Le même article indique qu'en avril 2025, Philippe l'emportait sur Bardella, 54 % contre 46 %. Des relevés de presse spécialisée (non recoupés) donnent Philippe devant Bardella en mars 2026 (Elabe 51,5 % contre 48,5 % ; Odoxa 52 % contre 48 %) et Bardella devant Philippe en mai 2026 chez Odoxa (52 % contre 48 %).</li>
+  </ul>
+
+  <h3>Comment lire ces hypothèses</h3>
+  <p>« Tel candidat, qualifié face à Marine Le Pen, gagnerait ou perdrait » est une phrase qui demande beaucoup de précautions :</p>
+  <ul>
+    <li><strong>Elles sont conditionnelles.</strong> Chaque hypothèse suppose que ce duel aura lieu. Or, au premier tour, plusieurs candidats sont proches, et l'identité des finalistes est incertaine. La Commission des sondages recommande d'ailleurs, quand les qualifiés sont incertains, de publier plusieurs hypothèses et d'inciter à les interpréter avec prudence.</li>
+    <li><strong>Elles changent avec le temps et avec le candidat testé.</strong> Le sens du duel Philippe contre le Rassemblement national s'est inversé entre avril 2025 (Philippe devant), novembre 2025 (Bardella devant), mars 2026 (Philippe devant selon un relevé non recoupé) et octobre 2026 (Le Pen devant).</li>
+    <li><strong>Les écarts de 2 à 6 points sont dans la marge.</strong> Un 52-48 sur 1 000 personnes ne permet pas de dire qui est devant ; les écarts d'octobre 2026 contre Philippe, Glucksmann ou Attal (12 à 16 points) sont nettement plus grands que cette marge, celui contre Mélenchon (plus de 30 points) encore plus.</li>
+    <li><strong>Elles mesurent une opinion à date.</strong> Elles ne mesurent ni la participation au second tour, ni les reports de voix réels, ni l'effet d'une campagne qui n'a pas eu lieu.</li>
+  </ul>
+  <p>Ce que cela dit : à la date des sondages, les sondages publiés placent Marine Le Pen en tête du premier tour et gagnante des duels testés. Ce que cela ne dit pas : le résultat de 2027. À chacun de décider ce qu'il en fait.</p>
+</div></section>
+
+<section class="bloc" id="etabli"><div class="page">
+  <p class="etiq">6. Établi, débattu, inconnu</p>
+  <h2>Trois colonnes.</h2>
+  <div class="lignes">
+    <div><p class="dit">Établi</p><p>Les 60 ans et plus sont environ 35 % des adultes ; l'abstention systématique en 2022 est de 24 % chez les 18-34 ans et d'environ 9 % chez les 50-69 ans (Insee). La loi impose notice, mentions et interdiction de publication à partir du samedi à zéro heure avant le vote. Les marges d'erreur d'un sondage sont de l'ordre de 2 à 3 points sur un score isolé et plus sur un écart. Les derniers sondages de 2017 et 2022 ont été jugés satisfaisants par la Commission des sondages, avec une sous-estimation de Jean-Luc Mélenchon en 2022 dans les estimations du soir.</p></div>
+    <div><p class="dit">Débattu</p><p>Si les promesses des partis suivent le poids électoral des âges, et dans quelle mesure. L'ampleur de l'effet d'entraînement et du vote utile, et leur séparation. L'existence d'un effet « outsider ». La valeur d'une marge d'erreur pour les sondages par quotas et par internet. Le poids des sondages d'hypothèses de second tour dans la formation du choix.</p></div>
+    <div><p class="dit">Inconnu ou non mesuré ici</p><p>La part de chaque âge dans les suffrages exprimés. Le détail chiffré des écarts de 2017. Une étude française récente de l'effet des sondages sur une présidentielle. L'évolution des opinions d'ici le vote, ce qu'aucun sondage ne peut dire.</p></div>
+  </div>
+</div></section>
+
+<section class="bloc" id="plus-loin"><div class="page">
+  <p class="etiq">7. Pour aller plus loin</p>
+  <h2>Sur ce site.</h2>
+  <ul>
+    <li><a href="/constat.html">Le constat</a> : démographie, patrimoine, retraites, et la place du vote des plus âgés dans l'ensemble.</li>
+    <li><a href="/comparer.html">Comparer</a> : confronter les propositions des programmes aux mêmes chiffres.</li>
+  </ul>
+</div></section>
+
+<section class="bloc" id="video"><div class="page">
+  <div class="lignes"><div><p class="dit">La vidéo de ce dossier arrive bientôt.</p><p>Une version courte, à voir en quelques minutes, sera ajoutée ici.</p></div></div>
+</div></section>
+
+<section class="bloc" id="sources"><div class="page">
+  <p class="etiq">9. Sources</p>
+  <h2>Où vérifier.</h2>
+  <p class="doux">Consultées le 13/11/2026. Fiabilité : A = statistique publique, texte officiel ou publication à comité de lecture, B = institution reconnue, C = presse ou think tank, D = communication commerciale ou militante. Conflits d'intérêts signalés quand ils sont connus.</p>
+  <ul class="sources">
+    <li>(A) Insee, Première n° 1928, « Élections présidentielle et législatives de 2022 : seul un tiers des électeurs a voté à tous les tours », novembre 2022 : https://www.insee.fr/fr/statistiques/6658145</li>
+    <li>(A) Eurostat, population par groupe d'âge au 1er janvier 2024 (demo_pjangroup) : https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/demo_pjangroup (calcul du site pour la part des adultes)</li>
+    <li>(A) Loi n° 77-808 du 19 juillet 1977, version consolidée au 30 janvier 2017, publiée par la Commission des sondages (à comparer à la version en vigueur sur Légifrance) : https://www.commission-des-sondages.fr/pdf/Loi77.pdf</li>
+    <li>(B) Commission des sondages, Rapport d'activité 2022, élection présidentielle et élections législatives (nombre de sondages, marges d'erreur, redressement, fiabilité 2017 et 2022) : https://www.commission-des-sondages.fr/hist/pdf/rapport-annuel-2022.pdf</li>
+    <li>(B) Institut Montaigne, Bruno Cautrès, « Présidentielle 2022 : comment lire les sondages avec attention », 12/02/2021 (quotas, pondération, intervalle de confiance ; think tank) : https://institutmontaigne.org/expressions/presidentielle-2022-comment-lire-les-sondages-avec-attention</li>
+    <li>(A) Labbé St-Vincent et Blais, « Le vote à l'Élection d'à côté », Politique et Sociétés, 35(1), 2016 (expérience au Québec, 1 065 électeurs) : https://doi.org/10.7202/1035792ar</li>
+    <li>(C) Ozap, bilan des estimations du soir du premier tour 2022 (conflit d'intérêts : site de presse télévisuelle) : https://www.ozap.com/actu/presidentielle-quelle-chaine-avait-les-meilleures-estimations-a-20h/615759</li>
+    <li>(C) i24NEWS, sondage Ifop pour LCI (terrain 27-29 octobre, publié le 3 novembre 2026) : https://www.i24news.tv/fr/actu/france/artc-presidentielle-2027-un-nouveau-sondage-ifop-confirme-l-hypothese-d-un-duel-le-pen-melenchon</li>
+    <li>(C) Public Sénat, sondage Odoxa-Mascaret du 25/11/2025 (terrain 19-20 novembre 2025) : https://www.publicsenat.fr/actualites/politique/sondage-jordan-bardella-remporterait-la-presidentielle-2027-quel-que-soit-son-adversaire</li>
+    <li>(C) L'Essentiel de l'éco, « Mélenchon peut-il gagner ? Ce que disent vraiment les sondages », 29/10/2026 (relevé secondaire de plusieurs instituts, à recouper) : https://lessentieldeleco.fr/9166-melenchon-peut-il-gagner-ce-que-disent-vraiment-les-sondages/</li>
+    <li>(C) Sud Radio, sondage Ifop-Fiducial du 17 au 19 octobre 2026 (échantillon de 1 928 inscrits) : https://www.sudradio.fr/politique/exclu-presidentielle-2027-apres-les-violences-du-17-octobre-marine-le-pen-senvole</li>
+    <li>(C) ÉlyséeScope, bilan des sondages de juin 2026 (relevés Elabe et Odoxa de mars à mai 2026 ; site d'analyse, non recoupé) : https://www.elyseescope.com/questions/sondages-presidentielle-2027-en-temps-reel</li>
+    <li>(C) Wikipédia, « Liste de sondages sur l'élection présidentielle française de 2027 », utilisée comme index uniquement (dates et tailles d'échantillon des vagues de novembre 2026) : https://fr.wikipedia.org/wiki/Liste_de_sondages_sur_l%27%C3%A9lection_pr%C3%A9sidentielle_fran%C3%A7aise_de_2027</li>
+    <li>(A) Commission des sondages, notices publiques des sondages : https://www.commission-des-sondages.fr</li>
+  </ul>
+  <p class="note">Dernière mise à jour : 13/11/2026. Méthode : chiffres relevés dans les sources citées, recoupés quand c'était possible ; points non recoupés signalés comme tels. Rédaction faite avec l'aide d'une IA (Claude, d'Anthropic) ; les choix sont ceux de l'auteur.</p>
+</div></section>
+</main>
+
+<footer class="page" style="padding:28px 16px;color:var(--doux);font-size:.85rem">Texte sous licence CC BY-SA 4.0. Version de travail.</footer>
+</body>
+</html>

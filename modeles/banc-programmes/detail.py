@@ -5,7 +5,8 @@ Pages de détail du banc d'essai : le chiffrage poste par poste de chaque progra
 
 Écrit (dans ce dossier) : detail-lfi.md, detail-rn.md, detail-lr.md, detail-ps.md, detail-glucksmann.md, detail-langagement.md, memes-modeles.md.
 Ne relance PAS le tirage de Monte-Carlo : lit les définitions des mesures (programmes/<cle>/mesures.py), les résultats
-(donnees/resultats.json, écrits par relancer.py), les caches des modèles (donnees/cache/, mêmes fichiers que le banc),
+(pages de détail : donnees/resultats-v2.json, écrits par relancer_v2.py, règle de faisabilité commune de faisabilite.py, depuis le 13/11/2026 ;
+« les mêmes modèles pour tous » et les rappels de la version 1 : donnees/resultats.json, écrits par relancer.py), les caches des modèles (donnees/cache/, mêmes fichiers que le banc),
 quelques tableaux de resultats.md (§ 10) et quelques constantes du code des modèles (lues dans les fichiers .js).
 Aucun chiffre n'est tapé à la main dans les pages : tout vient de ces fichiers. Les seuls textes écrits ici sont les
 phrases de liaison, les familles de mesures, les notes de famille (vérifiées dans le code) et les objections.
@@ -26,6 +27,7 @@ sys.path.insert(0, ICI)
 import moteur as M      # noqa: E402
 import relancer as R    # noqa: E402
 import rapport as RP    # noqa: E402
+import faisabilite as FA  # noqa: E402
 
 SITE = 'https://langagement-politique.vercel.app/fr/modeles/'
 PAGES = ('lfi', 'rn', 'lr', 'ps', 'gl', 'langagement')
@@ -155,8 +157,8 @@ def charger():
         progs[cle] = (p, ms, mod)
     res = lire_json(os.path.join(ICI, 'donnees', 'resultats.json'))
     taux = os.path.join(RACINE, 'modeles', 'taux-endogene', 'donnees', 'resultats.json')
-    v2 = os.path.join(ICI, 'donnees', 'resultats-v2.json')
-    return {'v2': lire_json(v2) if os.path.exists(v2) else None, 'ctx': ctx, 'progs': progs, 'R': res, 'taux': lire_json(taux) if os.path.exists(taux) else None,
+    v2 = lire_json(os.path.join(ICI, 'donnees', 'resultats-v2.json'))
+    return {'v2': v2, 'V': v2, 'ctx': ctx, 'progs': progs, 'R': res, 'taux': lire_json(taux) if os.path.exists(taux) else None,
             'resultats_md': open(os.path.join(ICI, 'resultats.md'), encoding='utf-8').read(), 'js': constantes_js()}
 
 
@@ -395,13 +397,6 @@ def texte_lien(cle, m, mod):
     return 'article cité'
 
 
-def ecart_annonces(ms, pm):
-    """Écart entre la somme des annonces et la somme de nos médianes : part des économies filtrées, part du reste (Md€)."""
-    fil = sum((m.get('annonce') or 0.0) - pm[m['id']]['p50'] for m in ms if convention(m) == 'filtre')
-    tot = somme_annonces(ms) - sum(pm[m['id']]['p50'] for m in ms)
-    return tot, fil, tot - fil
-
-
 def nature_source(cle, m, mod):
     """Nature et cote de la source de la ligne (règle 11 : A à D)."""
     lien = m.get('lien') or ''
@@ -416,9 +411,13 @@ def nature_source(cle, m, mod):
     return "Article de presse qui rapporte le document du parti, que nous n'avons pas trouvé (montants : cote D, auteur = le programme)."
 
 
-def texte_annonce(cle, m, mod):
+def texte_annonce(cle, m, mod, D=None):
     if cle == 'langagement':
-        return "%s Md€ en 2038, sans tirage (c'est notre propre chiffrage, pas une annonce indépendante ; aucun filtre de faisabilité ne lui est appliqué)" % f(m.get('central') or 0.0, 1)
+        c2 = mods_v2(D)[m['id']]['central_2038'] if D else m.get('central') or 0.0
+        t = "%s Md€ en 2038, sans tirage (c'est notre propre chiffrage, pas une annonce indépendante ; la règle de faisabilité commune s'applique ensuite, comme aux autres programmes)" % f(c2, 1)
+        if abs(c2 - (m.get('central') or 0.0)) > 1e-6:
+            t += " ; valeur du modèle avant ajustement : %s Md€ (ramenée au coût d'un recrutement, comme LR01 : écart n° 7 de `memes-modeles.md`)" % f(m['central'], 1)
+        return t
     signe = 'recette ou économie' if m['sens'] == 'recette' else 'coût'
     if cle == 'lfi':
         a = m.get('an1') or 0.0
@@ -549,13 +548,14 @@ def comment(cle, m, D):
     return s + ' ' + calendrier(m, prog)
 
 
-def choix_ia(cle, m):
-    """Choix posés par l'IA pour la ligne : hypothèses sans source (estimation de Claude), conventions de loi, poids de corrélation."""
+def choix_ia(cle, m, D=None):
+    """Choix posés par l'IA pour la ligne : hypothèses sans source (estimation de Claude), conventions de loi, poids de corrélation ; avec D, ceux de la règle v2."""
     out = []
+    remp = D is not None and remplacee_v2(cle, m, D)
     for h in m.get('hypotheses', []):
         if 'Claude' in (h[2] or '') or (h[3] == 'D' and h[4] == 'sans objet'):
             out.append('%s : %s' % (h[0], esc(h[1]).rstrip('.')))
-    c = convention(m)
+    c = 'remplacee' if remp else convention(m)
     if c == 'filtre':
         out.append("la médiane réalisable et le plancher (jugement écrit dans la lecture et la contrainte)")
     elif c in ('montant', 'derive'):
@@ -564,8 +564,10 @@ def choix_ia(cle, m):
         out.append('la borne basse à une fraction fixe du montant de LFI')
     if m['levier'] == 'module_systeme':
         out.append("lire les bornes du modèle comme centiles 10 et 90")
-    if m.get('facteur'):
+    if m.get('facteur') and not remp:
         out.append('le poids %s sur le facteur commun « %s »' % (nb(m.get('lambda', 0)), FACTEUR.get(m['facteur'], m['facteur'])))
+    if D is not None and score_v2(cle, m['id'], D) is not None and (cle == 'langagement' or m['sens'] == 'recette'):
+        out.append("les réponses (M, J, E) de la règle v2 et la grille des parts réalisables (convention de Claude), avec le poids %s sur le facteur « coût »" % nb(FA.LAMBDA_PART))
     return out
 
 
@@ -631,7 +633,7 @@ def ailleurs(cle, m, D):
             continue
         par = {}
         for m2 in lst:
-            par.setdefault(comparer(m, m2), []).append(m2['id'])
+            par.setdefault(traitement_v2(c2, m2, D) if remplacee_v2(c2, m2, D) else comparer(m, m2), []).append(m2['id'])
         grp.append('%s : %s' % (NOMS[c2], ' ; '.join('%s (%s)' % (', '.join(lien_poste(c2, i) for i in ids), t) for t, ids in par.items())))
     lien = '[note de famille « %s »](./memes-modeles.md#f-%s)' % (TITRE_FAMILLE[fam], fam)
     if not grp:
@@ -639,10 +641,106 @@ def ailleurs(cle, m, D):
     return '%s. Ce que le code confirme et ce qui diffère : %s.' % (' — '.join(grp), lien)
 
 
+# ------------------------------------------------------------------ règle v2 (faisabilité commune), lue dans resultats-v2.json et faisabilite.py
+def RV(cle, D):
+    """Résultats v2 d'un programme (donnees/resultats-v2.json)."""
+    return D['V']['programmes'][cle]
+
+
+def mods_v2(D):
+    """Lignes de notre système sous la règle v2 : {id: {kind, sens, score, central_2038, ...}}."""
+    return {m['id']: m for m in D['V']['modules_systeme']}
+
+
+def journal_v2(cle, D):
+    return {e[0]: e for e in D['V']['journal'].get(cle, [])}
+
+
+def part_txt(s):
+    b, c, h = FA.GRILLE[s]
+    return 'de %s à %s, médiane %s' % (pc(b), pc(h), pc(c))
+
+
+def classement_txt(cle, i):
+    mm, jj, ee, motif = FA.CLASSEMENT[cle][i]
+    if mm is None:
+        return 'score %d par défaut (%s)' % (FA.SCORE_NON_EVALUE, esc(motif))
+    return 'M %s, J %s, E %s, score %d (%s)' % (nb(mm), nb(jj), nb(ee), FA.score(mm, jj, ee), esc(motif))
+
+
+def score_v2(cle, i, D):
+    if cle == 'langagement':
+        return mods_v2(D).get(i, {}).get('score')
+    if i in FA.CLASSEMENT.get(cle, {}):
+        mm, jj, ee, _ = FA.CLASSEMENT[cle][i]
+        return FA.score(mm, jj, ee)
+    return None
+
+
+def remplacee_v2(cle, m, D):
+    """Vrai si la loi de la ligne (version 1) est remplacée par la règle v2 : recette ou économie sans modèle, classée."""
+    e = journal_v2(cle, D).get(m['id'])
+    return cle != 'langagement' and e is not None and e[1] != 'cout' and e[2] is not None
+
+
+def regle_v2(cle, m, D):
+    """Ce que la règle de faisabilité commune (version 2) fait de la ligne."""
+    i = m['id']
+    if cle == 'langagement':
+        mv = mods_v2(D)[i]
+        k = mv['kind']
+        if k == 'filtre':
+            return ("Ligne positive en 2038 (%s Md€ au central) : classée %s ; part réalisable %s (grille commune, convention de Claude ⚠️), tirée avec le facteur « coût » (poids %s) et un aléa propre, "
+                    "appliquée à la valeur du module." % (f(mv['central_2038'], 1), classement_txt('langagement', i), part_txt(mv['score']), nb(FA.LAMBDA_PART)))
+        if k == 'cout':
+            return ("Module de coût : plancher commun des coûts (écart favorable au plus %s du coût, défavorable au moins %s), comme les dépenses nouvelles des autres programmes."
+                    % (pc(1 - FA.COUT_BAS), pc(FA.COUT_HAUT - 1)))
+        if i == 'M-V6':
+            return "Non filtré : modèle de coût des retraites, comme les leviers de retraite des autres programmes ; laissé à sa valeur centrale dans le tirage (sensibilité « sans M-V6 » au § 6 de `resultats-v2.md`)."
+        return "Non classé par la règle (valeur centrale nulle ou ligne neutre) : valeur centrale, sans tirage."
+    e = journal_v2(cle, D).get(i)
+    if m['sens'] == 'recette':
+        if m['levier'] == 'nationalisation':
+            return "Opération de capital : non touchée par la règle (les nationalisations sont un modèle de coût, dont l'incertitude vient des paramètres)."
+        if i in FA.EXEMPTEES.get(cle, {}):
+            return 'Exemptée de la règle : %s.' % FA.EXEMPTEES[cle][i]
+        s = score_v2(cle, i, D)
+        t = ("Classée %s. Part réalisable %s (grille commune, la même pour tous les programmes, y compris le nôtre ; convention de Claude ⚠️), tirée avec le facteur « coût » (poids %s) et un aléa propre. "
+             % (classement_txt(cle, i), part_txt(s), nb(FA.LAMBDA_PART)))
+        if e is not None and e[2] is not None:
+            b, c, h = e[4]
+            t += ("Elle s'applique au plus haut du montant annoncé et de la borne haute de la version 1 (%s Md€) : loi de %s à %s Md€, médiane %s, qui remplace la loi décrite ci-dessus."
+                  % (nb(e[2]), nb(b), nb(h), nb(c)))
+        else:
+            t += "Elle s'applique au résultat du modèle, en plus de l'érosion et de l'exil que le modèle compte déjà."
+        return t
+    if e is not None and e[1] == 'cout':
+        a, b = e[2], e[3]
+        if all(abs(x - y) < 1e-9 for x, y in zip(a, b)):
+            return "Dépense : la fourchette de la ligne couvre déjà le plancher commun (%s à %s fois le montant du programme) : inchangée." % (nb(FA.COUT_BAS), nb(FA.COUT_HAUT))
+        return ("Dépense : fourchette élargie au plancher commun (%s à %s fois le montant du programme) : de %s–%s à %s–%s Md€, valeur la plus probable %s inchangée."
+                % (nb(FA.COUT_BAS), nb(FA.COUT_HAUT), nb(a[0]), nb(a[2]), nb(b[0]), nb(b[2]), nb(b[1])))
+    if m['levier'] == 'cout_unitaire':
+        return "Dépense : loi de la ligne inchangée (le plancher commun ne s'applique qu'à une fourchette triangulaire centrée sur le montant du programme)."
+    return "Modèle de coût : non touché par la règle ; son incertitude vient de ses paramètres."
+
+
+def traitement_v2(cle, m, D):
+    """Cellule « Modèle ou traitement » du tableau : traitement de la ligne, puis ce qu'en fait la règle v2."""
+    s = score_v2(cle, m['id'], D)
+    if cle == 'langagement':
+        k = mods_v2(D)[m['id']]['kind']
+        suf = {'filtre': 'règle v2 : score %s' % s, 'cout': 'règle v2 : plancher des coûts', 'neutre': 'règle v2 : non filtré'}[k]
+        return '%s ; %s' % (libelle_traitement(m), suf)
+    if s is not None:
+        return ('règle v2, score %d (part médiane %s), appliquée %s' % (s, pc(FA.GRILLE[s][1]), "au montant annoncé" if remplacee_v2(cle, m, D) else "au résultat : " + libelle_traitement(m)))
+    return libelle_traitement(m)
+
+
 # ------------------------------------------------------------------ page d'un programme
 def totaux(cle, D):
-    r = D['R'][cle]
-    return iv(r['solde_regime'], 0)
+    """Total en régime, règle v2 (celui du § 1 de resultats-v2.md)."""
+    return iv(RV(cle, D)['solde_regime'], 0)
 
 
 def somme_annonces(ms):
@@ -652,53 +750,75 @@ def somme_annonces(ms):
 OBJECTIONS = {}
 
 
+def classees(cle, ms, D):
+    """Lignes passées par la part réalisable de la règle v2 (recettes et économies classées)."""
+    return [m for m in ms if score_v2(cle, m['id'], D) is not None and m['sens'] == 'recette']
+
+
+def ecart_annonces_v2(cle, ms, pm, D):
+    """Écart entre la somme des annonces (même signe) et la somme de nos médianes v2 : part des lignes classées par la règle, part du reste (Md€)."""
+    cl = {m['id'] for m in classees(cle, ms, D)}
+    fil = sum((m.get('annonce') or 0.0) - pm[m['id']]['p50'] for m in ms if m['id'] in cl)
+    tot = somme_annonces(ms) - sum(pm[m['id']]['p50'] for m in ms)
+    return tot, fil, tot - fil
+
+
+def relance_v1(cle, D):
+    r1 = D['R'][cle]
+    return ("Sous la règle de la version 1 (§ 2 de `resultats.md` ; la relance n'est pas rejouée en version 2), l'effet passe de %s à %s Md€ avec la relance"
+            % (iv(r1['solde_regime'], 0), iv(r1['solde_rel'], 0)))
+
+
 def objection_lfi(D):
-    pm = D['R']['lfi']['par_mesure']
+    pm = RV('lfi', D)['par_mesure']
+    pm1 = D['R']['lfi']['par_mesure']
     ms_ = D['R']['moins_severe']['lfi']['par_mesure']
     ms = {m['id']: m for m in D['progs']['lfi'][1]}
-    gain = sum(ms_[k]['p50'] - pm[k]['p50'] for k in ('R01a', 'R04', 'R05'))
-    r = D['R']['lfi']
-    CC = conventions_communes(D)
+    gain = sum(ms_[k]['p50'] - pm1[k]['p50'] for k in ('R01a', 'R04', 'R05'))
+    jr = journal_v2('lfi', D)
+    sans = [m for m in ms.values() if remplacee_v2('lfi', m, D)]
     return [
-        "**Les recettes sont nettes de réactions, celles de LFI sont brutes.** L'ISF rétabli, inscrit à %s Md€ la première année, rapporte %s Md€ dans le banc ; les successions, inscrites à %s Md€, %s Md€. "
-        "L'écart vient de l'érosion de l'assiette et de l'exil que notre module des grandes fortunes retire, et que les chiffrages proches de LFI ne retiennent pas : l'Institut La Boétie l'a dit lui-même en audition, ses montants sont bruts. "
-        "Avec des hypothèses d'exil moins sévères, appliquées à tous, ces trois lignes gagnent %s Md€ en médiane (§ 10 des résultats) : le signe du total ne change pas."
+        "**Les recettes sont nettes de réactions et ramenées à une part réalisable, celles de LFI sont brutes.** L'ISF rétabli, inscrit à %s Md€ la première année, rapporte %s Md€ dans le banc ; les successions, inscrites à %s Md€, %s Md€. "
+        "L'écart vient de l'érosion de l'assiette et de l'exil que notre module retire, que les chiffrages proches de LFI ne retiennent pas (l'Institut La Boétie l'a dit lui-même en audition : ses montants sont bruts), "
+        "puis de la part réalisable de la règle commune (score 1 pour les successions, à cause du plafond d'héritage). Avec des hypothèses d'exil moins sévères, appliquées à tous, ces trois lignes gagnaient %s Md€ en médiane sous la règle de la version 1 (§ 10 de `resultats.md`, non rejoué en version 2) : le signe du total ne change pas."
         % (nb(ms['R01a']['an1']), iv(pm['R01a'], 1), nb(ms['R05']['an1']), iv(pm['R05'], 1), f(gain, 1)),
-        "**Les recettes des entreprises sont ramenées par une convention sans source.** Faute de chiffre indépendant, la borne basse de %d lignes est fixée à %s du montant de LFI. "
-        "C'est le point le plus faible de notre côté ; ces lignes pèsent ensemble %s Md€ en médiane." % (CC['n_decote'], pc(CC['decote_bas']), f(sum(pm[m['id']]['p50'] for m in ms.values() if convention(m) == 'decote'), 1)),
-        "**La relance.** Le programme du Nouveau Front populaire de 2024, soutenu par LFI, présentait la dépense comme largement autofinancée par l'activité. Avec les multiplicateurs de la littérature, appliqués de la même façon à tous, l'effet passe de %s à %s Md€ (§ 2) : il reste négatif, mais un multiplicateur plus fort que nos bornes le réduirait encore."
-        % (iv(r['solde_regime'], 0), iv(r['solde_rel'], 0)),
+        "**Les recettes sans modèle passent par une grille sans source.** Faute de chiffre indépendant, %d lignes de recette (entreprises, niches, superprofits…) sont ramenées par la part réalisable de la règle commune, selon leur score : "
+        "inscrites ensemble pour %s Md€, elles pèsent %s Md€ en somme des médianes. La grille est une convention de Claude (⚠️), la même pour tous les programmes : c'est le point le plus faible de notre côté, et les réponses (M, J, E) sont listées ligne par ligne en annexe de `resultats-v2.md`."
+        % (len(sans), f(sum(jr[m['id']][2] for m in sans), 1), f(sum(pm[m['id']]['p50'] for m in sans), 1)),
+        "**La relance.** Le programme du Nouveau Front populaire de 2024, soutenu par LFI, présentait la dépense comme largement autofinancée par l'activité. %s, avec les multiplicateurs de la littérature appliqués de la même façon à tous : il reste négatif, mais un multiplicateur plus fort que nos bornes le réduirait encore."
+        % relance_v1('lfi', D),
         "**La retraite à 60 ans.** Notre lecture suppose qu'une partie seulement des assurés part à 60 ans (âge effectif moyen central : %s ans). Si tous partaient à 60 ans, le coût serait plus élevé, pas plus bas."
         % nb(ms['D05']['parametres']['age_effectif']['central']),
     ]
 
 
 def objection_rn(D):
-    pm = D['R']['rn']['par_mesure']
+    r = RV('rn', D)
+    pm = r['par_mesure']
     ms = {m['id']: m for m in D['progs']['rn'][1]}
-    r = D['R']['rn']
     tot = somme_annonces(ms.values())
     sm = sum(v['p50'] for v in pm.values())
     return [
-        "**Nos médianes pour les économies sont des jugements.** Pour chaque économie annoncée, nous retenons une part de l'annonce, compte tenu d'un obstacle juridique ou pratique que nous nommons. "
-        "Le parti peut répondre que plusieurs obstacles se lèvent par un référendum, une révision de la Constitution ou une négociation européenne. Si chaque ligne rapportait son annonce, "
-        "la somme nette serait de %s Md€ ; nous retenons %s Md€ en somme des médianes, et %s en médiane du total. Sur cet écart de %s Md€, %s viennent des économies passées par le filtre "
-        "et %s des autres lignes (surtout la retraite). Ce filtre n'est appliqué ni à La France insoumise ni à notre système "
-        "(voir [les mêmes modèles pour tous](./memes-modeles.md#asymetries))." % ((f(tot, 0), f(sm, 0), iv(r['solde_regime'], 0)) + tuple(f(x, 0) for x in ecart_annonces(list(ms.values()), pm))),
+        "**Nos médianes pour les économies sont des jugements.** Chaque recette ou économie est classée (mécanisme décrit, obstacle juridique, précédent : M, J, E) puis ramenée à une part réalisable par une grille commune, "
+        "la même pour tous les programmes, y compris le nôtre. Le parti peut répondre que plusieurs obstacles se lèvent par un référendum, une révision de la Constitution ou une négociation européenne. Si chaque ligne rapportait son annonce, "
+        "la somme nette serait de %s Md€ ; nous retenons %s Md€ en somme des médianes, et %s en médiane du total. Sur cet écart de %s Md€, %s viennent des recettes et économies passées par la règle "
+        "et %s des autres lignes (surtout la retraite). La grille est une convention de Claude (⚠️) : les réponses ligne par ligne sont en annexe de `resultats-v2.md`."
+        % ((f(tot, 0), f(sm, 0), iv(r['solde_regime'], 0)) + tuple(f(x, 0) for x in ecart_annonces_v2('rn', list(ms.values()), pm, D))),
         "**La retraite.** Le parti chiffre le retour à 62 ans à %s Md€ en régime ; notre modèle des retraites donne %s Md€, parce qu'il part de l'âge effectif de la loi de 2023 dans son scénario (%s ans). "
         "Le texte de la réforme n'est pas paru." % (nb(ms['D01']['annonce']), iv(pm['D01'], 1), nb(D['ctx']['retraites']['ageBase2032'])),
         "**Les retours dynamiques** (impôt sur les sociétés, TVA, coût de la dette : %s Md€ dans l'annexe) sont comptés à zéro dans le solde statique. La relance est calculée à part, "
-        "avec les mêmes multiplicateurs que pour tous : l'effet passe alors de %s à %s Md€ (§ 2)." % (nb(ms['G04']['annonce']), iv(r['solde_regime'], 0), iv(r['solde_rel'], 0)),
+        "avec les mêmes multiplicateurs que pour tous. %s." % (nb(ms['G04']['annonce']), relance_v1('rn', D)),
     ]
 
 
 def objection_lr(D):
-    pm = D['R']['lr']['par_mesure']
+    r = RV('lr', D)
+    pm = r['par_mesure']
     ms = {m['id']: m for m in D['progs']['lr'][1]}
     return [
-        "**Nos médianes pour les économies sont des jugements**, comme pour le Rassemblement national : la somme des annonces nettes est de %s Md€, la somme de nos médianes de %s Md€, "
+        "**Nos médianes pour les économies sont des jugements**, comme pour tous les programmes (grille commune de la règle v2) : la somme des annonces nettes est de %s Md€, la somme de nos médianes de %s Md€, "
         "et la médiane du total de %s Md€. Le candidat peut répondre que la méthode des budgets « base zéro » et le non-remplacement des départs produisent plus que nos médianes."
-        % (f(somme_annonces(ms.values()), 0), f(sum(v['p50'] for v in pm.values()), 0), iv(D['R']['lr']['solde_regime'], 0)),
+        % (f(somme_annonces(ms.values()), 0), f(sum(v['p50'] for v in pm.values()), 0), iv(r['solde_regime'], 0)),
         "**Notre lecture des montants lui est favorable.** Nous lisons les « 197 milliards cumulés jusqu'en 2032 » comme le niveau annuel atteint en 2032 ; lus comme une somme de cinq ans, "
         "ils vaudraient beaucoup moins par an. Nous comptons aussi les économies par rapport au droit actuel, pas par rapport à une dépense tendancielle qui croîtrait plus vite (H-LR-TENDANCIEL).",
         "**Les retraites ne passent pas par le modèle des retraites.** La mesure (« %s ») est chiffrée par un jugement (%s Md€ en médiane), parce que notre modèle ne traite "
@@ -707,12 +827,12 @@ def objection_lr(D):
 
 
 def objection_ps(D):
-    pm = D['R']['ps']['par_mesure']
+    pm = RV('ps', D)['par_mesure']
     ms = {m['id']: m for m in D['progs']['ps'][1]}
     return [
         "**Un budget annuel lu comme un programme.** Le contre-budget 2027 est un budget d'une année ; nous le lisons comme permanent (H-PS-PERMANENCE) et comme la base du candidat (H-PS-PERIMETRE), "
         "ce que le candidat peut récuser : il n'a pas publié de chiffrage propre.",
-        "**L'impôt minimal sur les très grands patrimoines** est annoncé à %s Md€ ; notre module des grandes fortunes, le même que pour l'ISF de La France insoumise, en retient %s Md€ après érosion et exil. "
+        "**L'impôt minimal sur les très grands patrimoines** est annoncé à %s Md€ ; notre module des grandes fortunes, le même que pour l'ISF de La France insoumise, en retient %s Md€ après érosion, exil et part réalisable. "
         "Les défenseurs de la mesure citent des estimations bien plus hautes ; la variante moins sévère du banc n'a pas encore été rejouée pour ce programme." % (nb(ms['PS01']['annonce']), iv(pm['PS01'], 1)),
         "**La CSG progressive** pèse %s Md€ sur le solde dans notre lecture, contre un coût annoncé de %s Md€ : notre chiffre est un calcul de coin de table, pas un calcul OpenFisca (T-PS-1). Le parti peut le contester à bon droit."
         % (iv(pm['PS10'], 1), nb(ms['PS10']['annonce'])),
@@ -720,32 +840,31 @@ def objection_ps(D):
 
 
 def objection_langagement(D):
-    L = D['R']['langagement']
-    ms = D['progs']['langagement'][1]
-    somme = sum(m['central'] for m in ms)
-    tot = L['central']['solde_2038']
-    F = L['ensemble2038']['composition']['F']
-    t = D['taux']['programmes']['langagement'] if D['taux'] else None
-    out = [
+    L = RV('langagement', D)
+    pm = L['par_mesure']
+    MV = mods_v2(D)
+    S = D['V']['sensibilites']
+    rg = S['regle_complete']['solde_regime']['p50']
+    return [
         "**Le banc est notre outil, et il chiffre notre propre programme.** C'est l'objection la plus forte. L'auteur est partie prenante ; le code et les hypothèses sont ouverts pour que chacun refasse le calcul.",
-        "**Nos leviers votés sont réglés pour stabiliser la dette.** %s Md€ par an sont calés dans notre modèle pour que la dette cesse de monter après 2038, à taux fixe ; aucun autre programme n'a de levier réglé ainsi. "
-        "Même avec ce réglage, la dette ne reste stable après 2038 que dans %s des tirages." % (f(F, 1), pc(L['stats']['part_dette_stable_des_2038'])),
-        "**Plus de la moitié de notre effet n'est pas détaillée module par module.** Au central, les %d modules font %s Md€ sur %s ; le reste (%s Md€, dont les leviers votés) "
-        "réunit le socle hérité des premières versions du modèle, les corrections du grand livre, l'impôt de suite et le point d'indice, fixés à leur valeur centrale. "
-        "Notre intervalle est donc trop étroit : les scénarios d'ensemble du modèle vont de %s à %s Md€ en 2038." % (len(ms), f(somme, 1), f(tot, 1), f(tot - somme, 1), f(L['ensemble2038']['ensemble2038']['haut'], 0), f(L['ensemble2038']['ensemble2038']['bas'], 0)),
-        "**Nos économies ne passent pas par le filtre** de faisabilité appliqué aux économies du Rassemblement national, des Républicains et du PS.",
+        "**La grille de faisabilité est la nôtre.** Les parts réalisables (score 0 à 3) et les réponses (M, J, E) sont des conventions de Claude (⚠️), appliquées à tous les programmes, le nôtre compris ; un contradicteur peut juger nos lignes trop bien classées. "
+        "Exemple : la fonction du patrimoine (M-PAT) est classée %d ; classée %d, notre total passerait de %s à %s Md€ (sensibilité à 3 000 tirages, § 6 de `resultats-v2.md`)."
+        % (MV['M-PAT']['score'], 2, f(rg, 1), f(S['M-PAT_classe_2']['solde_regime']['p50'], 1)),
+        "**Une partie de notre effet n'est pas décomposée.** Le socle hérité des premières versions du modèle (%s Md€ au central en 2038) n'est pas détaillé ligne par ligne : il reçoit la classe du milieu par défaut, soit %s Md€ en médiane. "
+        "Non filtré, il porterait le total à %s Md€ ; classé 1, à %s Md€ (§ 6)."
+        % (f(MV['SOCLE']['central_2038'], 1), iv(pm['SOCLE'], 1), f(S['socle_non_filtre']['solde_regime']['p50'], 1), f(S['socle_classe_1']['solde_regime']['p50'], 1)),
+        "**Nos leviers votés ne garantissent plus une dette stable.** Les hausses de taux calées dans notre modèle (%s Md€ au central) passent par la règle comme les autres hausses (%s Md€ en médiane) ; "
+        "le calage qui stabilisait la dette a été supprimé le 11/11/2026, et la dette ne reste stable après 2038 que dans %s des tirages." % (f(MV['F']['central_2038'], 1), iv(pm['F'], 1), pc(L['part_dette_stable_des_2038'], 1)),
+        "**Le taux fixe nous flatte.** Avec un taux qui suit la dette, notre dette de 2038 passe de %s à %s %% du PIB, et notre système entre en zone de crise avant 2058 dans %s des tirages (§ 1 de `resultats-v2.md`)."
+        % (iv({k: 100 * v for k, v in L['dette2038'].items()}, 0), iv({k: 100 * v for k, v in L['dette2038_endo'].items()}, 0), pc(L['part_crise_avant_2058'])),
+        "**Ce qui n'est pas dans la trajectoire.** Le capital de départ et quelques lignes nouvelles n'y sont pas encore (chapitre 12) : un concurrent peut nous faire le reproche que nous faisons aux autres.",
     ]
-    if t:
-        out.append("**Le taux fixe nous flatte.** Avec un taux qui suit la dette, notre système entre en zone de crise avant 2058 dans %s des tirages, et il lui manque environ %s Md€ par an pour stabiliser la dette."
-                   % (pc(t['variantes']['central']['part_crise_2058']), nb(t['effort_supplementaire']['central'])))
-    out.append("**Ce qui n'est pas dans la trajectoire.** Le capital de départ et quelques lignes nouvelles n'y sont pas encore (chapitre 12) : un concurrent peut nous faire le reproche que nous faisons aux autres.")
-    return out
 
 
 def objection_gl(D):
-    pm = D['R']['gl']['par_mesure']
+    r = RV('gl', D)
+    pm = r['par_mesure']
     ms = {m['id']: m for m in D['progs']['gl'][1]}
-    r = D['R']['gl']
     return [
         "**C'est un chiffrage partiel, et le dire en premier ne suffit pas à le rendre juste.** Le livret ne donne que deux montants ; tout le reste du programme (retraites, impôts, santé, seconde partie écologique) est à zéro ici. "
         "Le résultat ci-dessus n'est donc ni le coût ni le bénéfice du programme de Raphaël Glucksmann : un programme complet pourrait l'aggraver comme l'améliorer.",
@@ -774,8 +893,9 @@ INTRO_SOURCE = {
 def non_chiffrees(cle, D):
     mod = D['progs'][cle][2]
     if cle == 'langagement':
-        out = ['%s : fixé à sa valeur centrale (%s)' % (x['libelle'], x['raison']) for x in mod.FIXE]
-        out += ["socle hérité des premières versions du modèle et corrections du grand livre : fixés à leur valeur centrale, non propagés (§ 6 ter des résultats)",
+        pm = RV('langagement', D)['par_mesure']
+        out = ["%s : %s ; sous la règle v2, seule sa part réalisable est tirée : %s Md€" % (x['libelle'], x['raison'], iv(pm[x['id']], 1)) for x in mod.FIXE]
+        out += ["socle hérité des premières versions du modèle et corrections du grand livre : non décomposés ; tirés en bloc par la règle v2 (score %d par défaut) : %s Md€" % (FA.SCORE_NON_EVALUE, iv(pm['SOCLE'], 1)),
                 "capital de départ et quelques lignes nouvelles : hors de la trajectoire (chapitre 12)"]
         return out
     return list(getattr(mod, 'NON_CHIFFREES', []))
@@ -783,17 +903,23 @@ def non_chiffrees(cle, D):
 
 def page_programme(cle, D):
     prog, ms, mod = D['progs'][cle]
-    r = D['R'][cle]
+    r = RV(cle, D)
+    r1 = D['R'][cle]
     pm = r['par_mesure']
+    mo = r['moments_par_mesure']
     A = []
     a = A.append
     titre = 'Chiffrage poste par poste : %s' % (NOMS[cle] if cle != 'langagement' else 'notre système')
     a('---')
     a('titre: "%s"' % titre)
-    a('statut: généré par detail.py (ne pas éditer à la main) ; ordres de grandeur sous hypothèses, jamais des prédictions')
+    a('statut: généré par detail.py (ne pas éditer à la main) ; règle de faisabilité commune (version 2, resultats-v2.md) ; ordres de grandeur sous hypothèses, jamais des prédictions')
     a('---')
     a('')
     a('# %s' % titre)
+    a('')
+    a("**Règle de chiffrage : version 2** (depuis le 13/11/2026). Toutes les estimations de cette page, ligne par ligne comme au total, suivent la règle de faisabilité commune (`faisabilite.py`, `relancer_v2.py`) : "
+      "chaque recette ou économie est classée puis ramenée à une part réalisable par la même grille pour tous les programmes, y compris le nôtre, et les dépenses reçoivent le même plancher. "
+      "Ce sont les chiffres de `resultats-v2.md` (mêmes %s tirages, même graine %d). Les rappels de la version 1 sont signalés comme tels." % (nb(D['V']['tirages']), D['V']['graine']))
     a('')
     a("Cette page détaille, ligne par ligne, comment le banc d'essai chiffre ce programme : ce que dit la mesure, ce que le parti annonce, ce que nous estimons, "
       "comment nous l'estimons, avec quel modèle, et si le même modèle sert aux autres programmes quand les mesures se ressemblent. "
@@ -810,37 +936,48 @@ def page_programme(cle, D):
         a('')
     a("Unités : milliards d'euros (Md€) par an, euros de 2025 ; un nombre positif améliore le solde public, un nombre négatif l'aggrave. "
       "Chaque estimation est une médiane de %s tirages, suivie entre crochets de l'intervalle qui en contient 80 %% (centiles 10 et 90). Régime : %d. "
-      "Résultats complets : `modeles/banc-programmes/resultats.md`. Pages voisines : %s."
-      % (nb(D['R']['tirages']), prog['regime'], ', '.join('[%s](./%s)' % (NOMS[c], FICHIERS[c]) for c in PAGES if c != cle)))
+      "Résultats complets : `modeles/banc-programmes/resultats-v2.md`. Pages voisines : %s."
+      % (nb(D['V']['tirages']), prog['regime'] if cle != 'langagement' else 2038, ', '.join('[%s](./%s)' % (NOMS[c], FICHIERS[c]) for c in PAGES if c != cle)))
     a('')
     a('## Le total')
     a('')
     a('| | %s |' % NOMS[cle])
     a('|---|---|')
+    sm = sum(v['p50'] for v in pm.values())
+    smo = sum(v['moyenne'] for v in mo.values())
     if cle == 'langagement':
-        a('| Réduction (+) ou aggravation (−) du déficit par rapport au droit actuel, en %d (Md€) | **%s** |' % (prog['regime'], totaux(cle, D)))
-        a('| Même effet, valeur centrale du modèle (sans tirage) | %s |' % f(r['central']['solde_2038'], 1))
-        a('| Somme des valeurs centrales des %d modules | %s |' % (len(ms), f(sum(m['central'] for m in ms), 1)))
-        a('| Hors modules (leviers votés, socle hérité, corrections), fixé au central | %s |' % f(r['central']['solde_2038'] - sum(m['central'] for m in ms), 1))
-        a('| dont leviers votés, réglés pour stabiliser la dette | %s |' % f(r['ensemble2038']['composition']['F'], 1))
+        MV = mods_v2(D)
+        ids_p = [m['id'] for m in ms]
+        hors = [i for i in pm if i not in ids_p]
+        a('| Réduction (+) ou aggravation (−) du déficit par rapport au droit actuel, en 2038 (Md€) | **%s** |' % totaux(cle, D))
+        a('| Somme des médianes des %d modules détaillés ci-dessous | %s |' % (len(ids_p), f(sum(pm[i]['p50'] for i in ids_p), 1)))
+        for i in hors:
+            a('| Ligne hors modules, tirée par la même règle : %s (%s) | %s |' % (esc(MV[i]['libelle']), i, iv(pm[i], 1)))
+        a('| Somme des médianes des %d lignes | %s |' % (len(pm), f(sm, 1)))
+        a('| Moyenne du total = somme des moyennes des %d lignes | %s = %s |' % (len(pm), f(r['moments_solde']['moyenne'], 1), f(smo, 1)))
+        a('| Valeur centrale du modèle, avant la règle (somme des valeurs centrales des %d lignes, sans tirage) | %s |' % (len(pm), f(sum(m['central_2038'] for m in MV.values()), 1)))
     else:
         a('| Réduction (+) ou aggravation (−) du déficit par rapport au droit actuel, en régime (Md€) | **%s** |' % totaux(cle, D))
         a('| dont recettes nouvelles et économies | %s |' % iv(r['recettes_regime'], 0))
         a('| dont dépenses nouvelles et baisses d\'impôts | %s |' % iv(r['depenses_regime'], 0))
-        a('| Somme des médianes des postes ci-dessous | %s |' % f(sum(v['p50'] for v in pm.values()), 0))
+        a('| Somme des médianes des postes ci-dessous | %s |' % f(sm, 0))
+        a('| Moyenne du total = somme des moyennes des postes | %s = %s |' % (f(r['moments_solde']['moyenne'], 1), f(smo, 1)))
         if cle in ('rn', 'lr', 'ps', 'gl'):
             a('| Somme des montants annoncés par le parti, ligne par ligne (même signe) | %s |' % f(somme_annonces(ms), 0))
         a('| Part des tirages où le programme aggrave le déficit | %s |' % pc(r['part_solde_negatif']))
     a('| Dette publique en 2038 (%% du PIB ; taux d\'intérêt fixe de %s %%) | %s |' % (f(100 * D['ctx']['macros']['reference']['r'], 2), iv({k: 100 * v for k, v in r['dette2038'].items()}, 0)))
     a('| Dette publique en 2058 (%% du PIB) | %s |' % iv({k: 100 * v for k, v in r['dette2058'].items()}, 0))
     a('')
-    a(("Lecture. La médiane du total n'est pas la somme des médianes des postes : les postes sont tirés ensemble, avec des lois souvent asymétriques%s. "
-       % (" (pour une économie passée par le filtre, la moitié des tirages tombe entre la médiane et l'annonce, plus haut : la médiane du total est donc au-dessus de la somme des médianes)"
-          if any(convention(m) == 'filtre' for m in ms) else '')) +
-      "Le total est celui du tableau comparatif des résultats (§ 1 et § 11.1 de `modeles/banc-programmes/resultats.md`) ; un test vérifie qu'il est recopié sans écart.")
+    a("Lecture. Le total est celui du tableau comparatif de la version 2 (§ 1 de `modeles/banc-programmes/resultats-v2.md`) ; un test vérifie qu'il est recopié sans écart. "
+      "Dans chaque tirage, le total est exactement la somme des lignes : la moyenne du total est donc la somme des moyennes des lignes (ci-dessus). La médiane, elle, ne s'additionne pas : "
+      "la médiane du total (%s) est %s de %s Md€ à la somme des médianes (%s), parce que les lois des lignes sont asymétriques (part réalisable des scores 0 et 1, dont la moyenne dépasse la médiane ; "
+      "fourchettes de coût de %s à %s fois le montant, plus longues du côté de la dérive) et que les lignes sont tirées ensemble (facteurs communs). %s"
+      % ((("Le total, somme de nombreuses lignes, est presque symétrique : sa médiane reste proche de sa moyenne, et l'écart avec la somme des médianes vient, pour l'essentiel, des écarts entre moyenne et médiane de chaque ligne.")
+          if len(pm) >= 10 else ("Avec %d lignes seulement, le total n'est pas symétrique non plus : sa médiane et sa moyenne diffèrent (%s contre %s)." % (len(pm), f(r['solde_regime']['p50'], 1), f(r['moments_solde']['moyenne'], 1)))),
+         f(r['solde_regime']['p50'], 1), 'supérieure' if r['solde_regime']['p50'] >= sm else 'inférieure', f(abs(r['solde_regime']['p50'] - sm), 1), f(sm, 1), nb(FA.COUT_BAS), nb(FA.COUT_HAUT)))
     if cle == 'lfi':
-        a("Les nationalisations ajoutent en outre %s Md€ de capital engagé de %d à %d : une opération financière, qui augmente la dette et non le déficit."
-          % (iv(r['capital'], 0), prog['debut'], prog['debut'] + 2))
+        a("Les nationalisations ajoutent en outre %s Md€ de capital engagé de %d à %d (version 1 ; les nationalisations, modèle de coût, ne sont pas touchées par la règle v2) : une opération financière, qui augmente la dette et non le déficit."
+          % (iv(r1['capital'], 0), prog['debut'], prog['debut'] + 2))
     a('')
     if cle == 'lfi' and D.get('v2') and 'lfi_cb' in D['v2']['programmes']:
         a('## Sensibilité : le contre-budget 2027 de LFI contre le programme complet')
@@ -848,7 +985,7 @@ def page_programme(cle, D):
         a("La colonne de cette page chiffre *L'Avenir en commun* en entier. LFI a aussi publié en octobre 2026 un document budgétaire annuel, « Comment nous allons remettre de l'ordre dans les comptes publics » (24 p. ; inventaire dans `sources-programmes-2027.md`), "
           "qui chiffre 37 lignes : **106,4 Md€** de recettes supplémentaires et **81,7 Md€** de dépenses d'urgence, soit 24,7 Md€ de réduction du déficit annoncée (p. 6, 12-14) ; il dit lui-même ne pas constituer un chiffrage complet du programme (p. 7). "
           "Le banc le chiffre à part, en sensibilité (`programmes/lfi_cb/mesures.py`) : mêmes recettes que ci-dessus (mêmes modèles, même règle de faisabilité, sans l'impôt sur le revenu à 14 tranches), dépenses limitées aux 14 lignes chiffrées du document, à leur montant de première année lu comme permanent. "
-          "Les deux colonnes ci-dessous passent par la règle de faisabilité commune de la version 2 (`resultats-v2.md`), pas par celle de cette page.")
+          "Les deux colonnes ci-dessous passent par la règle de faisabilité commune de la version 2 (`resultats-v2.md`), comme le reste de cette page.")
         a('')
         a('| (règle v2, médiane [intervalle à 80 %]) | LFI, programme complet | LFI, contre-budget 2027 |')
         a('|---|---|---|')
@@ -882,12 +1019,12 @@ def page_programme(cle, D):
     ordre = [m for fam, _ in FAMILLES for m in ms if AFFECTATION[cle].get(m['id']) == fam]
     for m in ordre:
         if cle == 'langagement':
-            ann = f(m['central'], 1)
+            ann = f(mods_v2(D)[m['id']]['central_2038'], 1)
         elif cle == 'lfi':
             ann = (nb(m['an1']) + ' (an 1)') if m.get('an1') else '—'
         else:
             ann = nb(m['annonce']) if m.get('annonce') else '—'
-        a('| [%s](#%s) | %s | %s | %s | %s |' % (m['id'], ancre(m['id']), esc(m['libelle']), ann, iv(pm[m['id']], 1), libelle_traitement(m)))
+        a('| [%s](#%s) | %s | %s | %s | %s |' % (m['id'], ancre(m['id']), esc(m['libelle']), ann, iv(pm[m['id']], 1), traitement_v2(cle, m, D)))
     a('')
     a('## Le détail, poste par poste')
     a('')
@@ -908,15 +1045,16 @@ def page_programme(cle, D):
                 a('- **La mesure, %s.** %s. Source : [%s](%s)%s.'
                   % ('dans les mots du programme' if mots else 'résumée par nous (pas de citation exacte relevée)', cap(cit or esc(m['libelle'])),
                      texte_lien(cle, m, mod), m['lien'], (', ' + esc(m.get('chapitre'))) if m.get('chapitre') else '') + ' ' + nature_source(cle, m, mod))
-            a('- **%s** %s.' % ('Notre valeur centrale.' if cle == 'langagement' else 'Annoncé par le parti.', texte_annonce(cle, m, mod)))
+            a('- **%s** %s.' % ('Notre valeur centrale.' if cle == 'langagement' else 'Annoncé par le parti.', texte_annonce(cle, m, mod, D)))
             v = pm[m['id']]
             a('- **Notre estimation.** **%s** Md€ par an en %d : %s.' % (iv(v, 1), prog['regime'], sens_effet(v['p50'])))
-            if cle == 'lfi' and m['id'] in (r.get('detail_nouvelles') or {}):
-                dn = r['detail_nouvelles'][m['id']]
-                a('  Composantes (tirage à part de 2 000 tirages, § 5 bis des résultats ; médiane [centiles 10 ; 90]) : %s.'
+            if cle == 'lfi' and m['id'] in (r1.get('detail_nouvelles') or {}):
+                dn = r1['detail_nouvelles'][m['id']]
+                a('  Composantes (version 1 : tirage à part de 2 000 tirages, § 5 bis de `resultats.md` ; médiane [centiles 10 ; 90]) : %s.'
                   % ' ; '.join('%s : %s' % (COMPOSANTES[k], iv({kk: 100 * vv for kk, vv in x.items()}, 0) + ' %' if k.startswith('part_') else iv(x, 1))
                                for k, x in dn.items() if k in COMPOSANTES))
-            a('- **Comment nous l\'évaluons.** %s' % comment(cle, m, D))
+            a('- **Comment nous l\'évaluons.** %s%s' % ('*Loi de la version 1, remplacée par la règle v2 (point suivant) :* ' if remplacee_v2(cle, m, D) else '', comment(cle, m, D)))
+            a('- **Règle v2 (faisabilité commune).** %s' % regle_v2(cle, m, D))
             interp = m.get('interpretation') if cle != 'langagement' else None
             if interp:
                 a('- **Lecture retenue, telle qu\'écrite dans le fichier des mesures.** %s' % esc(interp))
@@ -924,16 +1062,16 @@ def page_programme(cle, D):
             if convention(m) in ('module', 'systeme', 'produit'):
                 a('- **Modèle utilisé.** %s : %s%s.' % (cap(nom_mod), fich, (' ; ' + lien_modele(slug)) if slug else ''))
             else:
-                a('- **Modèle utilisé.** Aucun : %s (loi de la ligne, tirée par `moteur.evaluer_mesure`).' % libelle_traitement(m))
+                a('- **Modèle utilisé.** Aucun : %s (loi de la ligne, tirée par `moteur.evaluer_mesure`).' % (traitement_v2(cle, m, D) if remplacee_v2(cle, m, D) else libelle_traitement(m)))
             a('- **La même famille ailleurs.** %s' % ailleurs(cle, m, D))
             a('- **Fiabilité.** %s' % fiabilite(cle, m, D))
-            ch = choix_ia(cle, m)
+            ch = choix_ia(cle, m, D)
             if ch:
                 a('- **Choix posés par l\'IA.** %s.' % ' ; '.join(ch))
             a('')
     a('---')
     a('')
-    a("Page générée par `modeles/banc-programmes/detail.py` à partir de `programmes/%s/mesures.py` et de `donnees/resultats.json` ; aucun chiffre n'y est tapé à la main. "
+    a("Page générée par `modeles/banc-programmes/detail.py` à partir de `programmes/%s/mesures.py`, de `faisabilite.py` et de `donnees/resultats-v2.json` (règle v2 ; rappels de la version 1 : `donnees/resultats.json`) ; aucun chiffre n'y est tapé à la main. "
       "Écrite par Claude (IA d'Anthropic) pour l'auteur ; même banc pour tous, conflit d'intérêts déclaré." % cle)
     return '\n'.join(A) + '\n'
 

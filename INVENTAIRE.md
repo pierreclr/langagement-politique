@@ -2,7 +2,7 @@
 
 Liste des fichiers publiés dans ce dépôt (générée automatiquement : ne pas modifier à la main).
 
-1558 fichiers, 42.0 Mo.
+1572 fichiers, 42.4 Mo.
 
 | Dossier | Fichiers | Taille (Ko) |
 |---|---|---|
@@ -17,7 +17,7 @@ Liste des fichiers publiés dans ce dépôt (générée automatiquement : ne pas
 | `donnees-brutes` | 7 | 1095 |
 | `modeles/acceleration` | 14 | 132 |
 | `modeles/agriculture` | 15 | 126 |
-| `modeles/banc-programmes` | 70 | 2079 |
+| `modeles/banc-programmes` | 70 | 2215 |
 | `modeles/bascule-existant` | 9 | 109 |
 | `modeles/batisseurs-et-repas` | 8 | 60 |
 | `modeles/capital-commun-retraite` | 7 | 72 |
@@ -31,7 +31,7 @@ Liste des fichiers publiés dans ce dépôt (générée automatiquement : ne pas
 | `modeles/etat-as-code` | 35 | 1379 |
 | `modeles/etat-plateforme` | 10 | 111 |
 | `modeles/fiscalite-orientation` | 12 | 125 |
-| `modeles/fonciere-afflux` | 19 | 630 |
+| `modeles/fonciere-afflux` | 21 | 656 |
 | `modeles/fonciere-usufruit` | 11 | 836 |
 | `modeles/gagnants-perdants` | 26 | 552 |
 | `modeles/grand-age` | 13 | 60 |
@@ -52,7 +52,7 @@ Liste des fichiers publiés dans ce dépôt (générée automatiquement : ne pas
 | `outils/droit` | 7 | 117 |
 | `prototypes` | 16 | 341 |
 | `registre-anomalies` | 465 | 3022 |
-| `site` | 25 | 338 |
+| `site` | 37 | 581 |
 | `sources` | 174 | 9763 |
 | `sources/calculs` | 52 | 872 |
 
@@ -377,11 +377,13 @@ Ces fichiers sont cités par un lien relatif mais ne sont pas (encore) dans le d
 - `modeles/fiscalite-orientation/resultats.md`
 - `modeles/fiscalite-orientation/test_modele.js`
 - `modeles/fonciere-afflux/code/afflux.py`
+- `modeles/fonciere-afflux/code/arbitrage.py`
 - `modeles/fonciere-afflux/code/calculer.py`
 - `modeles/fonciere-afflux/code/experimentation.py`
 - `modeles/fonciere-afflux/code/finances.py`
 - `modeles/fonciere-afflux/code/offre_prix.py`
 - `modeles/fonciere-afflux/code/usufruit60.py`
+- `modeles/fonciere-afflux/donnees/arbitrage-60-70.json`
 - `modeles/fonciere-afflux/donnees/dpe_classe_surface.csv`
 - `modeles/fonciere-afflux/donnees/grenoble.csv`
 - `modeles/fonciere-afflux/donnees/parametres.json`
@@ -1384,20 +1386,29 @@ Ces fichiers sont cités par un lien relatif mais ne sont pas (encore) dans le d
 - `registre-anomalies/selection-manifeste.md`
 - `site/approche.html`
 - `site/comparer.html`
+- `site/comprendre/demographie.html`
+- `site/comprendre/dette.html`
+- `site/comprendre/electorat.html`
+- `site/comprendre/grece.html`
 - `site/comprendre/index.html`
+- `site/comprendre/patrimoine.html`
 - `site/comprendre/programme-gl.html`
 - `site/comprendre/programme-lfi.html`
 - `site/comprendre/programme-lr.html`
 - `site/comprendre/programme-ps.html`
 - `site/comprendre/programme-rn.html`
+- `site/comprendre/qui-paie.html`
+- `site/comprendre/retraites.html`
 - `site/constat.html`
 - `site/detail.html`
+- `site/donnees/etudes.json`
 - `site/donnees/programmes/gl.json`
 - `site/donnees/programmes/langagement.json`
 - `site/donnees/programmes/lfi.json`
 - `site/donnees/programmes/lr.json`
 - `site/donnees/programmes/ps.json`
 - `site/donnees/programmes/rn.json`
+- `site/entete-site.css`
 - `site/etudes.html`
 - `site/generateur/rubriques.py`
 - `site/graphiques-site.css`
@@ -1405,7 +1416,10 @@ Ces fichiers sont cités par un lien relatif mais ne sont pas (encore) dans le d
 - `site/grece.html`
 - `site/index.html`
 - `site/programme.html`
+- `site/qui-suis-je.html`
 - `site/redressement.css`
+- `site/theme-site.js`
+- `site/tribunes/etat-systeme-information.html`
 - `site/verifier/index.html`
 - `sources/architecture-democratique.md`
 - `sources/assurances-dossier.md`

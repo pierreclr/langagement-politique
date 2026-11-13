@@ -13,31 +13,76 @@ import detail as DT     # noqa: E402
 D = DT.charger()
 PAGES = DT.generer(D)
 RES_MD = open(os.path.join(ICI, 'resultats.md'), encoding='utf-8').read()
+RES_V2_MD = open(os.path.join(ICI, 'resultats-v2.md'), encoding='utf-8').read()
 
 
-def ligne_tableau(section, debut):
-    return DT.tableau_md(RES_MD, section, debut)
+def ligne_tableau(section, debut, texte=None):
+    return DT.tableau_md(RES_MD if texte is None else texte, section, debut)
 
 
 class TestTotaux(unittest.TestCase):
-    def test_totaux_egaux_au_tableau_comparatif(self):
-        """Le total de chaque page de détail est celui du tableau comparatif (§ 11.1, et § 1 pour LFI et le RN)."""
-        entete = ligne_tableau('### 11.1', '')  # première ligne : en-tête
-        cells = ligne_tableau('### 11.1', 'Réduction (+) ou aggravation')
-        col = {'LR (Retailleau)': 'lr', 'PS et Place publique': 'ps', 'Glucksmann (livret climat, partiel)': 'gl', 'RN': 'rn', 'LFI': 'lfi', 'Notre système': 'langagement', "Fil de l'eau": 'fil_de_l_eau'}
+    def test_totaux_egaux_au_tableau_comparatif_v2(self):
+        """Le total de chaque page de détail est celui du tableau comparatif de la version 2 (§ 1 de resultats-v2.md)."""
+        entete = ligne_tableau('## 1. Tableau comparatif v2', '', RES_V2_MD)
+        cells = ligne_tableau('## 1. Tableau comparatif v2', 'Effet sur le solde, en régime', RES_V2_MD)
+        col = {'LR (Retailleau)': 'lr', 'PS et Place publique': 'ps', 'Glucksmann, livret climat (chiffrage partiel)': 'gl', 'RN': 'rn', 'LFI (programme complet)': 'lfi',
+               'LFI, contre-budget 2027 (sensibilité)': 'lfi_cb', 'Notre système': 'langagement', "Fil de l'eau": 'fil_de_l_eau'}
         vus = set()
         for nom, val in zip(entete[1:], cells[1:]):
             cle = col[nom]
             vus.add(cle)
-            if cle == 'fil_de_l_eau':
+            if cle not in DT.PAGES:
                 continue
             self.assertEqual(DT.totaux(cle, D), val, cle)
             self.assertIn('**%s**' % val, PAGES[DT.FICHIERS[cle]], cle)
-        self.assertEqual(vus, set(DT.PAGES) | {'fil_de_l_eau'})
-        c1 = ligne_tableau('## 1. Tableau comparatif', 'Réduction (+) ou aggravation')
-        self.assertEqual(DT.totaux('lfi', D), c1[1])
-        self.assertEqual(DT.totaux('rn', D), c1[2])
-        self.assertTrue(c1[3].startswith(DT.totaux('langagement', D)))
+        self.assertTrue(set(DT.PAGES) <= vus)
+
+    def test_pages_annoncent_la_regle_v2(self):
+        for cle in DT.PAGES:
+            texte = PAGES[DT.FICHIERS[cle]]
+            self.assertIn('**Règle de chiffrage : version 2**', texte, cle)
+            self.assertNotIn('`modeles/banc-programmes/resultats.md`. Pages voisines', texte, cle)
+
+
+class TestCoherenceV2(unittest.TestCase):
+    """Les lignes d'une page et son total viennent des mêmes 10 000 tirages de la règle v2.
+
+    Identité exacte : dans chaque tirage, le total est la somme des lignes (relancer_v2.moments_lignes enregistre le reste, total moins somme des lignes, tirage par tirage).
+    Donc la moyenne du total est la somme des moyennes des lignes, à l'arrondi flottant près (tolérance 1e-6 Md€).
+    La médiane, elle, ne s'additionne pas. Tolérance justifiée pour l'écart « somme des médianes − médiane du total » : pour toute loi, |moyenne − médiane| ≤ écart-type ;
+    comme somme des moyennes = moyenne du total, |Σ médianes − médiane du total| ≤ Σ écarts-types des lignes + écart-type du total. Cette borne ne dépend d'aucune hypothèse de forme ;
+    on vérifie de plus que la médiane du total est à moins d'un écart-type du total de sa moyenne, et on affiche les écarts restants."""
+
+    def test_reste_nul_tirage_par_tirage(self):
+        for cle in DT.PAGES:
+            rh = DT.RV(cle, D)['reste_hors_lignes']
+            self.assertLess(max(abs(rh['min']), abs(rh['max'])), 1e-9, cle)
+
+    def test_moyenne_du_total_egale_somme_des_moyennes(self):
+        for cle in DT.PAGES:
+            r = DT.RV(cle, D)
+            sm = sum(v['moyenne'] for v in r['moments_par_mesure'].values()) + r['reste_hors_lignes']['moyenne']
+            self.assertAlmostEqual(r['moments_solde']['moyenne'], sm, delta=1e-6, msg=cle)
+
+    def test_ecart_somme_des_medianes_borne(self):
+        for cle in DT.PAGES:
+            r = DT.RV(cle, D)
+            pm, mo = r['par_mesure'], r['moments_par_mesure']
+            ecart = sum(v['p50'] for v in pm.values()) - r['solde_regime']['p50']
+            borne = sum(v['ecart_type'] for v in mo.values()) + r['moments_solde']['ecart_type']
+            self.assertLessEqual(abs(ecart), borne, cle)
+            self.assertLessEqual(abs(r['solde_regime']['p50'] - r['moments_solde']['moyenne']), r['moments_solde']['ecart_type'], cle)
+
+    def test_toutes_les_lignes_du_tirage_sont_sur_la_page(self):
+        """Chaque ligne tirée en v2 a sa médiane sur la page : poste détaillé (ancre) ou, pour notre système, ligne hors modules du tableau du total."""
+        for cle in DT.PAGES:
+            texte = PAGES[DT.FICHIERS[cle]]
+            ids = {m['id'] for m in D['progs'][cle][1]}
+            for i, v in DT.RV(cle, D)['par_mesure'].items():
+                if i in ids:
+                    continue
+                self.assertEqual(cle, 'langagement', (cle, i))
+                self.assertIn('(%s) | %s |' % (i, DT.iv(v, 1)), texte, i)
 
 
 class TestPostes(unittest.TestCase):
@@ -61,11 +106,11 @@ class TestPostes(unittest.TestCase):
         self.assertIn('{#asymetries}', memes)
 
     def test_estimations_reprises_des_resultats(self):
-        """Chaque estimation affichée est la médiane [p10 ; p90] de donnees/resultats.json."""
+        """Chaque estimation affichée est la médiane [p10 ; p90] de la règle v2 (donnees/resultats-v2.json)."""
         for cle in DT.PAGES:
             texte = PAGES[DT.FICHIERS[cle]]
             for m in D['progs'][cle][1]:
-                self.assertIn('**%s** Md€ par an' % DT.iv(D['R'][cle]['par_mesure'][m['id']], 1), texte, (cle, m['id']))
+                self.assertIn('**%s** Md€ par an' % DT.iv(DT.RV(cle, D)['par_mesure'][m['id']], 1), texte, (cle, m['id']))
 
 
 class TestMemesModules(unittest.TestCase):

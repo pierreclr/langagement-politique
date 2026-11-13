@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>La Grèce, 2009-2018</title>
+<meta name="description" content="Ce qui s'est passé en Grèce entre 2009 et 2018 : chiffres, chronologie, causes, sortie de crise, et ce que cela dit (ou non) de la France aujourd'hui.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Source+Serif+4:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/redressement.css">
+<link rel="stylesheet" href="/graphiques-site.css">
+<script src="/graphiques-site.js"></script>
+<style>
+.verdict{display:inline-block;font-size:.78rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase;border-radius:999px;padding:2px 10px;white-space:nowrap}
+.v-juste{background:var(--vert-doux);color:var(--vert)}
+.v-faux{background:#fbe9ec;color:var(--rouge)}
+.v-partie{background:var(--ambre-doux);color:var(--ambre)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="clair"]) .v-faux{background:#2a1b1e}}
+.lignes{display:grid;gap:12px;margin-top:20px}
+.lignes div{background:var(--surface);border:1px solid var(--trait);border-radius:12px;padding:14px 16px}
+.lignes .dit{font-family:var(--serif);font-size:1.08rem;margin:0 0 6px}
+.lignes p{margin:6px 0 0;font-size:.97rem}
+.sources li{font-size:.9rem;margin-bottom:6px;overflow-wrap:anywhere}
+</style>
+</head>
+<body>
+<div class="proto">Dossier mis à jour le 13/11/2026. Une erreur ? <a href="https://github.com/pierreclr/langagement-politique/issues">Signalez-la</a>, on corrige.</div>
+<header><div class="page large">
+  <a class="marque" href="/">Langagement politique</a>
+  <nav></nav>
+</div></header>
+<main>
+<section class="ouverture"><div class="page">
+  <p class="etiq">Comprendre</p>
+  <h1>La Grèce, 2009-2018 : ce qui s'est passé.</h1>
+  <p class="doux">Ce dossier complète <a href="/grece.html">notre vérification d'une vidéo sur la Grèce</a>. Il raconte la crise, dit ce qui est établi et ce qui est débattu, et ne la tire pas vers un camp.</p>
+</div></section>
+
+<section class="bloc" id="en-bref"><div class="page">
+  <p class="etiq">1. En bref</p>
+  <h2>Trois phrases.</h2>
+  <p>En 2009, la Grèce découvre que son déficit est de 15,4 % du PIB (comptes publics sous-estimés) et ne trouve plus à emprunter ; trois plans d'aide européens et du FMI, de 2010 à 2018, lui prêtent contre un ajustement très rapide. Le PIB recule de plus d'un quart, le chômage dépasse 27 % en 2013, la dette passe de 111 % à plus de 180 % du PIB, et des centaines de milliers de personnes en âge de travailler quittent le pays. Les comptes publics sont rétablis dès 2016 (excédent), mais la production d'avant-crise n'est toujours pas retrouvée en 2024.</p>
+</div></section>
+
+<section class="bloc" id="chiffres"><div class="page">
+  <p class="etiq">2. Les chiffres clés</p>
+  <h2>Quatre courbes, une même histoire.</h2>
+  <p class="doux">Séries Eurostat telles que publiées aujourd'hui. Elles ont été révisées depuis 2010 : la dette de 2009 est de 128,5 % dans la série actuelle, contre 126,8 % dans la première notification, et celle de 2019 de 183,2 %, contre 176,6 % dans la notification d'avril 2020. Les ordres de grandeur sont les mêmes.</p>
+
+  <h3>Dette publique, en % du PIB</h3>
+  <svg data-graph="barres" data-lw="60" data-max="220" data-lignes='[["2008",110.9,"var(--ambre)",null,"110,9 %"],["2009",128.5,"var(--ambre)",null,"128,5 %"],["2010",147.8,"var(--rouge)",null,"147,8 %"],["2011",175.1,"var(--rouge)",null,"175,1 %"],["2013",180.4,"var(--rouge)",null,"180,4 %"],["2016",183.1,"var(--rouge)",null,"183,1 %"],["2018",189.0,"var(--rouge)",null,"189,0 %"],["2020",209.4,"var(--rouge)",null,"209,4 %"],["2022",177.8,"var(--ambre)",null,"177,8 %"],["2024",153.5,"var(--ambre)",null,"153,5 %"]]' viewBox="0 0 640 416"></svg>
+  <p class="src">Eurostat, dette brute des administrations publiques, Grèce (gov_10dd_edpt1).</p>
+
+  <h3>Solde public, en % du PIB (négatif = déficit)</h3>
+  <svg data-graph="barres" data-lw="60" data-max="16" data-lignes='[["2008",10.3,"var(--rouge)",null,"−10,3 %"],["2009",15.4,"var(--rouge)",null,"−15,4 %"],["2010",11.4,"var(--rouge)",null,"−11,4 %"],["2011",10.5,"var(--rouge)",null,"−10,5 %"],["2012",9.3,"var(--rouge)",null,"−9,3 %"],["2013",13.6,"var(--rouge)",null,"−13,6 %"],["2014",3.8,"var(--ambre)",null,"−3,8 %"],["2015",5.9,"var(--ambre)",null,"−5,9 %"],["2016",0.2,"var(--vert)",null,"+0,2 %"],["2018",0.9,"var(--vert)",null,"+0,9 %"],["2020",9.9,"var(--rouge)",null,"−9,9 %"],["2024",1.4,"var(--vert)",null,"+1,4 %"]]' viewBox="0 0 640 496"></svg>
+  <p class="src">Eurostat, capacité ou besoin de financement des administrations publiques, Grèce (gov_10dd_edpt1). Barres vertes : excédents ; la longueur est proportionnelle à la valeur absolue. Le niveau de 2013 (−13,6 %) n'est pas expliqué ici : nous n'avons pas consulté de source sur sa composition.</p>
+
+  <h3>PIB en volume, base 100 en 2008</h3>
+  <svg data-graph="barres" data-lw="60" data-max="110" data-lignes='[["2008",100,"var(--ambre)",null,"100"],["2009",95.9,"var(--ambre)",null,"95,9"],["2010",90.4,"var(--rouge)",null,"90,4"],["2011",81.5,"var(--rouge)",null,"81,5"],["2012",74.7,"var(--rouge)",null,"74,7"],["2013",73.0,"var(--rouge)",null,"73,0"],["2016",73.4,"var(--rouge)",null,"73,4"],["2019",77.7,"var(--ambre)",null,"77,7"],["2022",81.0,"var(--ambre)",null,"81,0"],["2024",84.4,"var(--ambre)",null,"84,4"]]' viewBox="0 0 640 416"></svg>
+  <p class="src">Calcul à partir d'Eurostat, PIB en volumes chaînés (base 2015), Grèce (nama_10_gdp) : 238 866 M€ en 2008, 174 383 M€ en 2013, 201 551 M€ en 2024 (provisoire). Baisse de 27 % de 2008 à 2013 dans la série actuelle ; l'Elstat parlait de près de 24 % en 2014, avant révision.</p>
+
+  <h3>Taux de chômage, en % de la population active (15-74 ans)</h3>
+  <svg data-graph="barres" data-lw="60" data-max="30" data-lignes='[["2009",9.8,"var(--ambre)",null,"9,8 %"],["2010",12.9,"var(--ambre)",null,"12,9 %"],["2011",18.1,"var(--rouge)",null,"18,1 %"],["2012",24.8,"var(--rouge)",null,"24,8 %"],["2013",27.8,"var(--rouge)",null,"27,8 %"],["2015",25.0,"var(--rouge)",null,"25,0 %"],["2018",19.7,"var(--rouge)",null,"19,7 %"],["2020",17.6,"var(--ambre)",null,"17,6 %"],["2022",12.5,"var(--ambre)",null,"12,5 %"],["2024",10.1,"var(--ambre)",null,"10,1 %"]]' viewBox="0 0 640 416"></svg>
+  <p class="src">Eurostat, taux de chômage annuel, Grèce (une_rt_a). La série de 2008 n'est pas disponible dans l'extraction consultée.</p>
+</div></section>
+
+<section class="bloc" id="chronologie"><div class="page">
+  <p class="etiq">3. La chronologie</p>
+  <h2>Qui gouvernait, et ce qui a été décidé.</h2>
+  <div class="lignes">
+    <div><p class="dit">Jusqu'à octobre 2009 : Kostas Karamanlis</p><p>Le gouvernement de centre droit (Nouvelle Démocratie) est en place depuis 2004. Fin 2009, Eurostat révise le déficit à 15,4 % du PIB et la dette à 126,8 % (première notification), avec des comptes qui avaient été sous-estimés.</p></div>
+    <div><p class="dit">Octobre 2009 à novembre 2011 : George Papandréou (socialiste)</p><p>Le pays perd l'accès aux marchés. En mai 2010 est signé le premier programme : 73 milliards d'euros versés au total, dont 52,9 milliards de prêts bilatéraux de la zone euro et 20,1 milliards du FMI. Les conditions : réduction du déficit, coupes dans les dépenses publiques, hausses d'impôts, réformes.</p></div>
+    <div><p class="dit">Novembre 2011 à juin 2012 : Lucas Papadémos</p><p>Gouvernement de coalition, dirigé par un ancien banquier central. Deuxième programme décidé en février 2012 : 153,8 milliards d'euros versés de 2012 à 2015 (141,8 par le fonds européen EFSF, 12,0 par le FMI). En mars 2012, la dette détenue par les créanciers privés est restructurée : environ 206 milliards d'euros d'obligations concernés, 53,5 % de décote nominale ; l'effet sur la dette publique est estimé à 107 milliards d'euros (Zettelmeyer et coauteurs, cité par le Mécanisme européen de stabilité).</p></div>
+    <div><p class="dit">Juin 2012 à janvier 2015 : Antonis Samaras (Nouvelle Démocratie)</p><p>Gouvernement de coalition qui poursuit le deuxième programme. Le solde public s'améliore (−3,8 % du PIB en 2014 contre −13,6 % en 2013), le PIB cesse de reculer en 2014.</p></div>
+    <div><p class="dit">Janvier 2015 à juillet 2019 : Alexis Tsipras (Syriza, gauche radicale)</p><p>Élu pour mettre fin à l'austérité, il organise le référendum du 5 juillet 2015 sur les conditions proposées par les créanciers : le « non » l'emporte avec plus de 61 %. Un accord est pourtant conclu en juillet, et le troisième programme est signé en août 2015 : jusqu'à 86 milliards d'euros prévus, 61,9 milliards versés par le Mécanisme européen de stabilité. Le 20 août 2018, la Grèce sort du dernier programme. Les créanciers saluent la sortie en insistant sur la poursuite des réformes.</p></div>
+    <div><p class="dit">Depuis juillet 2019 : Kyriakos Mitsotakis (Nouvelle Démocratie)</p><p>La dette redescend de 209,4 % du PIB (2020, année du Covid) à 153,5 % en 2024, et le solde public est excédentaire en 2024 (+1,4 %). Total des trois programmes : 288,7 milliards d'euros versés, dont 32,1 milliards par le FMI.</p></div>
+  </div>
+  <p class="note" style="margin-top:12px">Les dates de début et de fin de chaque gouvernement varient de quelques jours selon les sources ; nous donnons le mois. Les programmes électoraux de chaque parti n'ont pas été détaillés ici : nous nous en tenons aux décisions prises.</p>
+</div></section>
+
+<section class="bloc" id="pourquoi"><div class="page">
+  <p class="etiq">4. Pourquoi ça a si mal tourné</p>
+  <h2>Ce qui est établi, et ce qui est débattu.</h2>
+  <h3>Établi</h3>
+  <ul>
+    <li><strong>Des comptes sous-estimés.</strong> Eurostat a révisé le déficit de 2009 à 15,4 % du PIB. La confiance des prêteurs s'est effondrée d'un coup.</li>
+    <li><strong>L'euro : pas de dévaluation possible.</strong> Un pays qui a sa monnaie peut la laisser baisser pour regagner en compétitivité ; la Grèce ne le pouvait pas, et l'ajustement s'est fait par les salaires, l'emploi et les prix (le salaire minimum a baissé de 22 % en 2012, d'après Eurofound).</li>
+    <li><strong>Un ajustement très rapide, en pleine récession.</strong> Le déficit passe de −15,4 % (2009) à −3,8 % (2014) selon Eurostat, en cinq ans, pendant que le PIB perd plus d'un quart.</li>
+    <li><strong>Un effet de l'austérité sous-estimé.</strong> Blanchard et Leigh (FMI, 2013) observent que, dans les pays avancés, un plan d'économies plus fort que prévu a été associé à une croissance plus faible que prévue, surtout au début de la crise. Ils en concluent que les « multiplicateurs budgétaires » étaient nettement plus élevés que ceux supposés par les prévisionnistes. Sur ces chiffres, la dette rapportée au PIB peut monter quand le PIB baisse plus vite que la dette.</li>
+  </ul>
+  <h3>Débattu</h3>
+  <ul>
+    <li><strong>Quelle part revient à l'austérité, quelle part aux faiblesses d'avant la crise ?</strong> Les deux camps s'accordent sur l'existence de déséquilibres antérieurs ; ils divergent sur le poids de chacun. Nous n'avons pas trouvé d'estimation qui fasse consensus.</li>
+    <li><strong>Le rythme.</strong> Un ajustement plus lent aurait-il été finançable ? Cela dépendait de ce que les prêteurs étaient prêts à financer, ce qui est une question de choix politique autant que d'économie.</li>
+    <li><strong>Le rôle des banques.</strong> La restructuration de 2012 et la situation des banques grecques ont pesé sur l'économie, mais nous n'avons pas consulté de source chiffrée sur ce point : nous ne l'affirmons pas ici.</li>
+  </ul>
+</div></section>
+
+<section class="bloc" id="sortie"><div class="page">
+  <p class="etiq">5. Comment le pays s'en est sorti, et à quel prix</p>
+  <h2>Un redressement réel, une décennie perdue.</h2>
+  <p>Le solde public est positif de 2016 à 2019 (de +0,2 % à +0,9 % du PIB), le chômage redescend de 27,8 % (2013) à 10,1 % (2024), et la dette recule de 209,4 % à 153,5 % du PIB entre 2020 et 2024. Mais le PIB en volume de 2024 reste à environ 84 % de celui de 2008.</p>
+  <div class="lignes">
+    <div><p class="dit">Émigration</p><p>Selon l'institut ENA, environ 796 000 personnes en âge de travailler ont quitté le pays de 2010 à 2018, dont environ 162 600 âgées de 15 à 24 ans, et environ 1,08 million de 2010 à 2022. Une autre estimation, citée dans la presse et attribuée au ministère des Finances, donne environ 600 000 sur 2010-2021 : les définitions et les périodes diffèrent, et une partie des partants est revenue.</p></div>
+    <div><p class="dit">Pauvreté</p><p>Part de la population menacée de pauvreté ou d'exclusion sociale : 32,4 % en 2015, 26,9 % en 2024 (Eurostat). Nous n'avons pas la série d'avant 2015 dans l'extraction consultée.</p></div>
+    <div><p class="dit">Santé</p><p>Une étude publiée dans <em>The Lancet</em> en 2014 (Kentikelenis et coauteurs) rapporte une baisse de plus de 25 % du budget des hôpitaux publics de 2009 à 2011, une multiplication par plus de dix des nouveaux cas de VIH chez les usagers de drogues injectables de 2009 à 2012, et une hausse de 43 % de la mortalité infantile de 2008 à 2010. Les auteurs reconnaissent que les effets de long terme restent difficiles à mesurer, et un critique a contesté leurs conclusions dans le <em>BMJ</em> ; les auteurs ont répondu.</p></div>
+  </div>
+</div></section>
+
+<section class="bloc" id="camps"><div class="page">
+  <p class="etiq">6. Ce que chaque camp en retient</p>
+  <h2>Trois lectures.</h2>
+  <p class="doux">Ce sont des résumés de positions, pas des citations : nous n'avons pas rassemblé de textes de référence pour chaque camp.</p>
+  <ul>
+    <li><strong>À gauche</strong> : l'austérité imposée a aggravé la récession, les créanciers ont fait payer la population de leurs propres erreurs de prêt, et le référendum de 2015 montre que le pays refusait cette voie. L'étude du FMI sur les multiplicateurs est souvent citée à l'appui.</li>
+    <li><strong>À droite</strong> : un État qui s'est endetté et a caché ses comptes ne peut pas échapper à un ajustement ; ce sont les réformes et le retour à l'excédent primaire qui ont permis la sortie des programmes, et l'alternative aurait été la sortie de l'euro, plus coûteuse encore.</li>
+    <li><strong>Chez beaucoup d'économistes</strong> : le diagnostic est partagé en deux. L'ajustement était nécessaire, mais son rythme et ses multiplicateurs ont été sous-estimés (Blanchard et Leigh, FMI, 2013), et l'absence de monnaie propre a rendu la baisse des coûts très douloureuse.</li>
+  </ul>
+</div></section>
+
+<section class="bloc" id="france"><div class="page">
+  <p class="etiq">7. Ce que ça dit, et ne dit pas, de la France</p>
+  <h2>Faits seulement.</h2>
+  <ul>
+    <li><strong>Déficit.</strong> France, administrations publiques (Eurostat) : −5,4 % du PIB en 2023, −5,8 % en 2024, −5,1 % en 2025. La Grèce était à −15,4 % en 2009.</li>
+    <li><strong>Dette.</strong> France : 109,5 % du PIB en 2023, 112,6 % en 2024, 115,7 % en 2025. La Grèce était à 110,9 % en 2008, un niveau proche de celui de la France actuelle, avant la crise ; elle est passée à 147,8 % deux ans plus tard.</li>
+    <li><strong>Accès aux marchés.</strong> La France emprunte aujourd'hui sur les marchés ; la Grèce, en 2010, ne le pouvait plus. Nous n'avons pas chiffré ici les taux d'emprunt des deux pays.</li>
+    <li><strong>La protection de la BCE.</strong> Depuis le 21 juillet 2022, la Banque centrale européenne dispose d'un instrument (« TPI ») pour acheter les obligations d'un État dont les taux montent sans justification économique. Il n'est pas automatique : il est réservé aux pays qui respectent le cadre budgétaire européen, sans déséquilibre macroéconomique grave, avec une dette jugée soutenable. Ce dispositif n'existait pas en 2010.</li>
+  </ul>
+  <p style="margin-top:16px"><strong>Ce que cela dit :</strong> un pays dont la dette est déjà élevée et dont le déficit reste durablement élevé réduit ses marges de choix, et les prêteurs comme la BCE regardent la trajectoire. <strong>Ce que cela ne dit pas :</strong> que la France subira le sort de la Grèce. Les échelles de déficit, la situation des comptes publics et le cadre européen sont différents ; aucune étude consultée ici ne fixe un seuil à partir duquel un pays perd l'accès aux marchés.</p>
+  <a class="bouton" href="/grece.html">Voir la vérification de la vidéo →</a>
+</div></section>
+
+<section class="bloc" id="sources"><div class="page">
+  <p class="etiq">8. Sources</p>
+  <h2>Où vérifier.</h2>
+  <p class="doux">Consultées le 13/11/2026. Fiabilité : A = statistique publique ou publication à comité de lecture, B = institution reconnue, C = presse ou think tank.</p>
+  <ul class="sources">
+    <li>(A) Eurostat, dette et solde des administrations publiques, Grèce et France : https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/gov_10dd_edpt1</li>
+    <li>(A) Eurostat, taux de chômage annuel : https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/une_rt_a</li>
+    <li>(A) Eurostat, PIB en volumes chaînés : https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/nama_10_gdp</li>
+    <li>(A) Eurostat, risque de pauvreté ou d'exclusion sociale : https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/ilc_peps01n</li>
+    <li>(C) Al Jazeera, révision du déficit grec de 2009 à 15,4 % et de la dette à 126,8 %, 15/11/2010 : https://www.aljazeera.com/economy/2010/11/15/data-reveals-higher-greek-debt</li>
+    <li>(C) Irish Times, recul du PIB de près de 24 % (Elstat) : https://www.irishtimes.com/business/economy/greek-recession-slightly-deeper-than-expected-1.1720476</li>
+    <li>(B) Mécanisme européen de stabilité, les trois programmes (montants versés) : https://www.esm.europa.eu/assistance/greece/explainer-esm-and-efsf-financial-assistance-greece</li>
+    <li>(B) Mécanisme européen de stabilité, restructuration de la dette privée de mars 2012 : https://www.esm.europa.eu/content/what-was-private-sector-debt-restructuring-march-2012</li>
+    <li>(A) Blanchard et Leigh, « Growth Forecast Errors and Fiscal Multipliers », FMI, WP/13/1, 2013 (conflit d'intérêts : le FMI était lui-même créancier de la Grèce) : https://www.imf.org/en/Publications/WP/Issues/2016/12/31/Growth-Forecast-Errors-and-Fiscal-Multipliers-40200</li>
+    <li>(B) Eurofound, baisse du salaire minimum (loi 4046/2012) : https://www.eurofound.europa.eu/en/publications/all/troika-approves-new-set-changes-jobs-and-pay</li>
+    <li>(C) Presse, résultat du référendum du 5 juillet 2015 (plus de 61 % de « non ») : https://fortune.com/2015/07/05/greeks-vote-no-in-referendum-putting-future-in-doubt/</li>
+    <li>(C) Prothema, troisième mémorandum, 14/08/2015 : https://en.protothema.gr/2015/08/14/terms-for-3rd-memorandum-passed-by-greek-parliament</li>
+    <li>(C) RNZ, sortie du dernier programme le 20/08/2018 : https://www.rnz.co.nz/news/world/364470/greece-exits-final-bailout-programme-for-debt-crisis</li>
+    <li>(C) Liste des Premiers ministres grecs (dates à quelques jours près) : https://www.globalsecurity.org/military/world/europe/gr-prime-minister-list.htm</li>
+    <li>(C) Institut ENA, émigration 2010-2022, repris par Greek Reporter, 22/07/2024 (conflit d'intérêts : institut de gauche, à recouper) : https://greekreporter.com/2024/07/22/greece-emigration-brain-drain-problem-economic-crisis/</li>
+    <li>(A) Kentikelenis et coauteurs, « Greece's health crisis: from austerity to denialism », The Lancet, 21/02/2014, présenté par la London School of Hygiene and Tropical Medicine : https://www.lshtm.ac.uk/newsevents/news/2014/greece_health_crisis.html</li>
+    <li>(B) Banque centrale européenne, communiqué du 21/07/2022 sur l'instrument de protection de la transmission : https://www.ecb.europa.eu/press/pr/date/2022/html/ecb.pr220721~973e6e7273.en.html</li>
+    <li>(A) Eurostat, notification d'avril 2020 (dette de 2019) : https://ec.europa.eu/eurostat/documents/1015035/10718819/EL-2020-04.pdf/f314081e-002a-f695-20c8-346c2cb7ee46</li>
+  </ul>
+  <p class="note">Dernière mise à jour : 13/11/2026. Méthode : chiffres relevés dans les bases publiques, recoupés avec des publications ; points non établis signalés comme tels. Rédaction faite avec l'aide d'une IA (Claude, d'Anthropic) ; les choix sont ceux de l'auteur.</p>
+</div></section>
+</main>
+<footer class="page" style="padding:28px 16px;color:var(--doux);font-size:.85rem">Texte sous licence CC BY-SA 4.0. Version de travail.</footer>
+</body>
+</html>

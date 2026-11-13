@@ -13,6 +13,7 @@ import afflux as A            # noqa: E402
 import offre_prix as OP       # noqa: E402
 import finances as FI         # noqa: E402
 import experimentation as X   # noqa: E402
+import arbitrage as AR        # noqa: E402
 import importlib.util         # noqa: E402
 _s = importlib.util.spec_from_file_location('calc_fonciere', os.path.join(A.MODELES, 'fonciere-usufruit', 'code', 'calculer.py'))
 CF = importlib.util.module_from_spec(_s)
@@ -26,6 +27,7 @@ P = A.charger_parametres()
 H = A.hypotheses(P)
 OFF = OP.charger_offre()
 _CACHE = {}
+VAR = {v[0]: v[2] for v in AR.VARIANTES}
 
 
 def ag(**kw):
@@ -261,6 +263,38 @@ class TestUsufruit60(unittest.TestCase):
         self.assertAlmostEqual(tot, sim[11]['dette_publique_dans_apu_pib'] * FI.pib(11), places=6)
         self.assertLess(FI.F.ratio_min(sim, a=30), 0.5)
         self.assertGreater(FI.nue_propriete_payee(sim, 9), 0.0)
+
+
+class TestArbitrage(unittest.TestCase):
+    """code/arbitrage.py (note arbitrage-60-70.md, 13/11/2026)."""
+    def test_mensualite_cas(self):
+        """Recoupe le calcul du 11/11 (registre des positions de l'auteur (non publié)) : T2 à 160 000 €, 60 % sur 25 ans à 3 % : ≈ 455 € par mois."""
+        m = AR.mensualite_cas(160000.0, 808.0, 0.60, 0.03)
+        self.assertAlmostEqual(m['mensualite'], 455.2, delta=0.5)
+        self.assertAlmostEqual(m['avec_contribution'] - m['mensualite'], 0.0025 * 160000 / 12)
+
+    def test_issues_et_plafond(self):
+        """Conservation (entrent + banque + loue + jamais = cohorte) ; le plafond sert au plus 8 % d'une génération ;
+        les écartés qui restent locataires sont une partie des écartés."""
+        N = H['cohorte']
+        libre = A.agreger(AR.reglage_variante(dict(f=0.60, marge=0.0, quota=None)), H, HER, S, Q)
+        plaf = A.agreger(AR.reglage_variante(dict(f=0.60, marge=0.0, quota=0.08)), H, HER, S, Q)
+        for r in (libre, plaf):
+            i = AR.issues(r, N)
+            self.assertAlmostEqual(i['total'], N, delta=1e-6 * N)
+        self.assertLessEqual(plaf['jeunes_F'], 0.08 * N + 1e-6 * N)
+        i = AR.issues(plaf, N)
+        self.assertAlmostEqual(i['ecartes'] + plaf['jeunes_F'], libre['jeunes_F'], delta=1e-6 * N)
+        el = AR.ecartes_locataires(plaf, libre, N)
+        self.assertGreaterEqual(el, -1e-6 * N)
+        self.assertLessEqual(el, i['ecartes'] + 1e-6 * N)
+
+    def test_variante_a_reproduit_le_central(self):
+        """La variante (a) est le central publié dans resultats-usufruit-60 (≈ 414 000 jeunes par an)."""
+        r = A.agreger(AR.reglage_variante(dict(VAR['a'])), H, HER, S, Q)
+        with open(os.path.join(RACINE, 'donnees', 'resultats-usufruit-60.json'), encoding='utf-8') as fh:
+            ref = json.load(fh)['afflux']['central']['jeunes']
+        self.assertAlmostEqual(r['jeunes_F'], ref, delta=1.0)
 
 
 if __name__ == '__main__':

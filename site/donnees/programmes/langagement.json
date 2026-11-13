@@ -10,7 +10,7 @@
     "retraites": "On garde 64 ans. Les retraités les plus aisés contribuent sur les hautes pensions adossées à un gros patrimoine. Un départ plus libre quand les comptes le permettront.",
     "travail": "Les mêmes règles pour tous les statuts ; un contrat de travail commun au public et au privé, droits acquis garantis ; un filet de 877 € par mois pour une personne seule.",
     "logement": "Une foncière publique : au premier emploi stable, le droit d'acquérir l'usage à vie d'un logement, sans apport, moins cher qu'un loyer ; le logement reste un bien commun (schéma à l'étude).",
-    "etat": "Une seule application pour toutes les démarches, un seul système d'information pour l'État, des organismes fusionnés, des postes devenus inutiles non renouvelés (départs volontaires aidés, formation).",
+    "etat": "Un État fort qui mène la stratégie, et des communes proches, guichet unique des habitants ; moins d'échelons intermédiaires, les moyens vont à la proximité. Une seule application pour toutes les démarches, un seul système d'information pour l'État, des organismes fusionnés, des postes devenus inutiles non renouvelés (départs volontaires aidés, formation).",
     "economie": "Des entreprises publiques rentables et en concurrence, financées par les économies : le numérique public d'abord (1 Md€ par an pris sur le crédit d'impôt recherche), puis la production en France, les travaux publics ; transports urbains gratuits.",
     "democratie": "Des ministres élus un par un ; des lois proposées par les citoyens (un million de signatures) et votées par tous (adoptées à 60 %) ; un référendum sur la nouvelle organisation.",
     "energie": "Calibrer la fiscalité plutôt qu'interdire (pollueur-payeur) ; le nucléaire bas carbone comme atout.",
@@ -18,8 +18,16 @@
     "immigration": null
   },
   "themes_libelles": {
-    "finances": "Finances publiques", "impots": "Impôts et niches", "retraites": "Retraites", "travail": "Travail et salaires",
-    "logement": "Logement", "etat": "État et services publics", "economie": "Économie et industrie", "democratie": "Démocratie et institutions",
-    "energie": "Énergie et climat", "europe": "Europe", "immigration": "Immigration et sécurité"
+    "finances": "Finances publiques",
+    "impots": "Impôts et niches",
+    "retraites": "Retraites",
+    "travail": "Travail et salaires",
+    "logement": "Logement",
+    "etat": "État et services publics",
+    "economie": "Économie et industrie",
+    "democratie": "Démocratie et institutions",
+    "energie": "Énergie et climat",
+    "europe": "Europe",
+    "immigration": "Immigration et sécurité"
   }
 }

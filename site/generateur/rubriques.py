@@ -25,7 +25,7 @@ CSS = """
 .v{display:inline-block;font-size:.74rem;font-weight:700;border-radius:999px;padding:2px 9px;white-space:nowrap}
 .v-accord{background:var(--vert-doux);color:var(--vert)}.v-partiel{background:var(--ambre-doux);color:var(--ambre)}
 .v-desaccord{background:#fbe9ec;color:var(--rouge)}.v-sans{background:var(--fond);color:var(--doux);border:1px solid var(--trait)}
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .v-desaccord{background:#2a1b1e}}
+@media (prefers-color-scheme:dark){:root:not([data-theme="clair"]) .v-desaccord{background:#2a1b1e}}
 .matrice{overflow-x:auto;margin-top:18px;border:1px solid var(--trait);border-radius:12px;background:var(--surface)}
 .matrice table{min-width:720px;font-size:.88rem}.matrice td,.matrice th{vertical-align:top;padding:10px}
 .matrice td .v{display:block;margin:0 0 4px;text-align:center}
@@ -215,9 +215,9 @@ def comparer(fiches, nous):
 
 def page_programme(f, nous):
     fin = f.get("finances") or {}
-    # seul le montant annoncé : les estimations ligne à ligne de detail-*.md datent de la règle précédente (13/11/2026)
-    mesures = "".join("<tr><td><b>%s</b><br><span class=\"note\">%s</span></td><td class=\"nb\">%s</td></tr>" % (
-        e(m.get("titre")), e(m.get("detail")), md(m.get("annonce_md"))) for m in (f.get("mesures") or []))
+    # annoncé par le parti et notre estimation (médiane, même règle pour tous, version 2 ; régénérée le 13/11/2026)
+    mesures = "".join("<tr><td><b>%s</b><br><span class=\"note\">%s</span></td><td class=\"nb\">%s</td><td class=\"nb\">%s</td></tr>" % (
+        e(m.get("titre")), e(m.get("detail")), md(m.get("annonce_md")), md(m.get("estimation_md"))) for m in (f.get("mesures") or []))
     themes = []
     for k, lib in nous["themes_libelles"].items():
         t = (f.get("themes") or {}).get(k) or {}
@@ -248,8 +248,8 @@ def page_programme(f, nous):
   </div>
   <p class="note">%s + : réduit le déficit ; − : l'augmente. Notre simulateur, même règle pour tous.</p>
   <h2 style="margin-top:34px">Les principales mesures</h2>
-  <div class="tableau"><table><thead><tr><th>Mesure</th><th>Annoncé par le parti</th></tr></thead><tbody>%s</tbody></table></div>
-  <p class="note">Md€ par an, une fois la mesure appliquée, tel qu'annoncé par le parti ; notre estimation de chaque ligne est dans le détail. <a href="https://github.com/pierreclr/langagement-politique/blob/main/modeles/banc-programmes/%s">Chaque mesure, ligne par ligne →</a></p>
+  <div class="tableau"><table><thead><tr><th>Mesure</th><th>Annoncé par le parti</th><th>Notre estimation</th></tr></thead><tbody>%s</tbody></table></div>
+  <p class="note">Md€ par an, une fois la mesure appliquée ; + réduit le déficit, − l'augmente. Notre estimation est la médiane de nos simulations, avec la même règle pour tous ; la somme des lignes n'est pas exactement le total, parce que les incertitudes ne sont pas symétriques. <a href="https://github.com/pierreclr/langagement-politique/blob/main/modeles/banc-programmes/%s">Chaque mesure, ligne par ligne →</a></p>
   <div class="fiches" style="margin-top:26px"><article><h3>Ce qui est juste</h3><ul>%s</ul></article><article><h3>Points de vigilance</h3><ul>%s</ul></article></div>
   %s
   <h2 style="margin-top:34px">Les documents lus</h2><ul class="sources">%s</ul>
@@ -306,6 +306,50 @@ def verifier(verifs):
     return page("Vérifier", "Des déclarations et des vidéos politiques vérifiées point par point : ce qui est vrai, ce qui est faux, ce qui est omis, avec les sources.", corps)
 
 
+PANS = ["Finances publiques et dette", "Retraites et vieillissement", "Démographie et société", "Impôts, patrimoine et héritage", "Logement",
+        "État et services publics", "Travail, économie et industrie", "Technologie, IA et énergie", "Démocratie et opinion"]
+STATUTS = {"conclue": ("Conclue", "v-accord"), "en cours": ("En cours", "v-partiel"), "écartée": ("Écartée", "v-sans"), "à vérifier": ("À vérifier", "v-partiel")}
+
+
+def etudes(liste, slugs_publies):
+    """Page « Nos études » (13/11/2026) : chaque étude et chaque modèle, au même format, rangés par grand thème."""
+    par_pan = {}
+    for x in liste:
+        par_pan.setdefault(x.get("pan") if x.get("pan") in PANS else "Démocratie et opinion", []).append(x)
+    puces, blocs = [], []
+    for k, pan in enumerate([p for p in PANS if p in par_pan]):
+        ancre = "pan-%d" % k
+        puces.append('<a href="#%s">%s <span class="note">(%d)</span></a>' % (ancre, e(pan), len(par_pan[pan])))
+        cartes = []
+        for x in par_pan[pan]:
+            lib, cls = STATUTS.get(x.get("statut"), ("", "v-sans"))
+            liens = []
+            if x.get("dossier"):
+                d = x["dossier"] if x["dossier"].endswith((".html", "/")) else x["dossier"] + ".html"
+                liens.append('<a href="%s">Le dossier pour comprendre →</a>' % e(d))
+            if x.get("modele") and x["modele"] in slugs_publies:
+                liens.append('<a href="/fr/modeles/%s/">Le modèle complet : hypothèses, calculs, code →</a>' % e(x["modele"]))
+            cartes.append("""<article class="etude-carte"><p><span class="v %s">%s</span> <span class="note">%s</span></p>
+<h3>%s</h3><p>%s</p>
+<details><summary>Ce qu'on peut conclure, et ce qu'on ne peut pas</summary><p><b>On peut conclure :</b> %s</p><p><b>On ne peut pas conclure :</b> %s</p></details>
+<p class="liens">%s</p></article>""" % (cls, e(lib), e(x.get("date")), e(x.get("question")), e(x.get("trouve")), e(x.get("conclure")), e(x.get("pas_conclure")), " ".join(liens)))
+        blocs.append('<section class="bloc" id="%s"><div class="page"><p class="etiq">%s</p><div class="etudes-grille">%s</div></div></section>' % (ancre, e(pan), "".join(cartes)))
+    corps = """<section class="ouverture"><div class="page">
+  <p class="etiq">Nos études</p>
+  <h1>Ce qu'on a cherché, <span>ce qu'on a trouvé.</span></h1>
+  <p>%d études : chaque chiffre du site vient de l'une d'elles. Pour chacune, la question, le résultat, ce qu'on peut et ne peut pas en conclure, et le modèle complet pour refaire le calcul. Des ordres de grandeur sous hypothèses, jamais des prédictions. Une erreur, une meilleure hypothèse ? <a href="https://github.com/pierreclr/langagement-politique/issues">Dites-le-nous</a>.</p>
+  <nav class="sommaire-accueil" aria-label="Thèmes">%s</nav>
+</div></section>
+%s""" % (len(liste), "".join(puces), "".join(blocs))
+    css = ("<style>.etudes-grille{display:grid;grid-template-columns:1fr 1fr;gap:14px}.etude-carte{background:var(--surface);border:1px solid var(--trait);"
+           "border-radius:14px;padding:16px 18px}.etude-carte h3{font-family:var(--serif);font-size:1.15rem;margin:6px 0 8px;line-height:1.3}"
+           ".etude-carte p{font-size:.95rem;margin:0 0 8px}.etude-carte details{margin-top:6px}.etude-carte .liens a{display:block;font-weight:600;font-size:.9rem;"
+           "text-decoration:none;margin-top:4px}@media (max-width:760px){.etudes-grille{grid-template-columns:1fr}}"
+           ".sommaire-accueil{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}.sommaire-accueil a{border:1px solid var(--trait);border-radius:999px;"
+           "padding:6px 12px;font-size:.88rem;text-decoration:none;font-weight:600;background:var(--surface)}</style>")
+    return page("Nos études", "Toutes nos études, rangées par thème : la question, ce qu'on a trouvé, ce qu'on peut et ne peut pas conclure, et le modèle pour refaire le calcul.", css + corps)
+
+
 def construire(sortie):
     """Écrit les pages ; renvoie [(chemin relatif, entrée de menu courante)] et la liste des erreurs de contrôle."""
     fiches = charger()
@@ -320,6 +364,10 @@ def construire(sortie):
              ("verifier/index.html", verifier(verifs), "Vérifier")]
     for i, f in fiches.items():
         pages.append(("comprendre/programme-%s.html" % i, page_programme(f, nous), "Comprendre"))
+    f_etudes = os.path.join(CONTENU, "etudes.json")
+    if os.path.exists(f_etudes):   # « Nos études » générée (sinon la page écrite à la main reste)
+        slugs = set(os.listdir(os.path.join(sortie, "fr", "modeles"))) if os.path.isdir(os.path.join(sortie, "fr", "modeles")) else set()
+        pages.append(("etudes.html", etudes(json.load(open(f_etudes, encoding="utf-8")), slugs), "La méthode"))
     genere = os.path.join(ICI, "genere")
     for chemin, texte, _ in pages:
         for base in (sortie, genere):

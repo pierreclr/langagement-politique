@@ -168,6 +168,27 @@ def serie_med(rows):
     return [M.centile([r[i] for r in rows], 0.5) for i in range(len(rows[0]))]
 
 
+def _moy_et(xs):
+    n = len(xs)
+    mo = sum(xs) / n
+    return {'moyenne': mo, 'ecart_type': math.sqrt(sum((x - mo) ** 2 for x in xs) / n)}
+
+
+def moments_lignes(res, par):
+    """Pour les pages de détail (detail.py) et leur test de cohérence : moyenne et écart-type de chaque ligne et du total, part des tirages où le total aggrave le déficit,
+    et le reste « hors lignes » de chaque tirage (total moins somme des lignes). Programmes du banc : reste nul à l'arrondi près (le total d'un tirage est la somme de ses lignes).
+    Notre système : reste constant (trajectoire centrale moins somme des centraux des lignes, plus les ajustements fixes), puisque les lignes sont lues en 2038 autour de ce central.
+    La médiane du total n'est pas la somme des médianes ; la moyenne, elle, s'additionne : moyenne du total = somme des moyennes des lignes + reste."""
+    n = len(res['solde'])
+    if not n:
+        return {}
+    ids = list(par)
+    reste = [res['solde'][k] - sum(par[i][k] for i in ids) for k in range(n)]
+    return {'moments_par_mesure': {i: _moy_et(par[i]) for i in ids}, 'moments_solde': _moy_et(res['solde']),
+            'part_solde_negatif': sum(1 for x in res['solde'] if x < 0) / n,
+            'reste_hors_lignes': {'moyenne': sum(reste) / n, 'min': min(reste), 'max': max(reste)}}
+
+
 def sortie(res, par, prog, tirages):
     n = len(res['solde'])
     sous = [a for a in res['an_sous3'] if a is not None]
@@ -185,6 +206,7 @@ def sortie(res, par, prog, tirages):
            'serie_eff_mediane': dict(zip(map(str, ANNEES_SERIE), serie_med(res['serie_eff']))),
            'serie_deficit_mediane': dict(zip(map(str, ANNEES_SERIE), serie_med(res['serie_def']))),
            'par_mesure': {k: resumer(v) for k, v in par.items()}}
+    out.update(moments_lignes(res, par))
     if 'po_net' in res:
         out['po_net_pct'] = resumer(res['po_net'])
         out['part_dette_stable_des_2038'] = sum(res['stable']) / n

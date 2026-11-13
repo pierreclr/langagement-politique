@@ -1,0 +1,21 @@
+/* En-tête unique de toutes les pages du site (13/11/2026) : nom, menu, bouton « Contribuer » vers GitHub ;
+   sur le manifeste et les modèles, une seconde ligne avec leurs outils propres. */
+header.entete{position:sticky;top:0;z-index:50;display:block;padding:0;margin:0;background:var(--fond,#fbfaf7);border-bottom:1px solid var(--trait,#e2ded6);font-family:"Inter",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+header.entete .entete-in{max-width:1060px;margin:0 auto;padding:12px 16px;display:flex;align-items:center;gap:10px 18px;flex-wrap:wrap}
+header.entete .marque{font-family:"Source Serif 4",Georgia,serif;font-weight:700;font-size:1.1rem;text-decoration:none;color:var(--encre,#1d1c1a);margin-right:auto}
+header.entete nav.entete-nav{display:flex;gap:4px 18px;flex-wrap:wrap;font-size:.95rem;margin:0;padding:0;border:0;background:none}
+header.entete nav.entete-nav a{text-decoration:none;color:var(--doux,#5f5c55);font-weight:600;border:0;padding:0;background:none}
+header.entete nav.entete-nav a[aria-current]{color:var(--accent,#1f3b8f)}
+header.entete .entete-gh{display:inline-flex;align-items:center;gap:6px;padding:6px 12px;border-radius:8px;background:var(--accent,#1f3b8f);color:var(--fond,#fff)!important;font-size:.85rem;font-weight:700;text-decoration:none;white-space:nowrap}
+header.entete .entete-gh:hover{filter:brightness(1.12)}
+header.entete .entete-gh svg{width:16px;height:16px;fill:currentColor}
+header.entete .entete-barre{max-width:1060px;margin:0 auto;padding:0 16px 10px;display:flex;flex-wrap:wrap;align-items:center;gap:8px 16px;font-size:.88rem}
+header.entete .entete-barre .eb-titre{font-weight:700;color:var(--rouge,#c8102e);text-transform:uppercase;letter-spacing:.06em;font-size:.74rem}
+header.entete .entete-barre > a{color:var(--doux,#5f5c55);font-weight:600;text-decoration:none}
+header.entete .entete-barre form{margin:0}
+header.entete .entete-barre input[type=search]{font:inherit;padding:4px 10px;border:1px solid var(--trait,#e2ded6);border-radius:8px;background:var(--surface,#fff);color:inherit;width:11em}
+header.entete .entete-barre .niveaux{display:inline-flex;gap:4px;border:0!important;padding:0!important;background:none!important;box-shadow:none!important}
+header.entete .entete-barre .niveaux button,header.entete .entete-barre button.theme{font:inherit;font-size:.8rem;padding:3px 9px;border:1px solid var(--trait,#e2ded6);border-radius:999px;background:var(--surface,#fff);color:inherit;cursor:pointer}
+header.entete .entete-barre .niveaux button[aria-pressed=true]{background:var(--accent,#1f3b8f);color:var(--fond,#fff);border-color:var(--accent,#1f3b8f)}
+@media (max-width:560px){header.entete .entete-gh span{display:none}}
+header.entete .entete-theme{font:inherit;font-size:.95rem;width:34px;height:34px;border:1px solid var(--trait,#e2ded6);border-radius:999px;background:var(--surface,#fff);color:var(--encre,#1d1c1a);cursor:pointer;display:inline-flex;align-items:center;justify-content:center}

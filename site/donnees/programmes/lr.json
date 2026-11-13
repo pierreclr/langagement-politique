@@ -50,56 +50,56 @@
    "titre": "Suppression des impôts de production",
    "detail": "30 Md€ par an de baisse pour les entreprises.",
    "annonce_md": -30,
-   "estimation_md": -30.8,
+   "estimation_md": -31.7,
    "ref": "detail-lr.md#lrt1"
   },
   {
    "titre": "Allègements pour les ménages",
    "detail": "Heures supplémentaires sans cotisations, baisse de la facture d'électricité : 21 Md€.",
    "annonce_md": -21,
-   "estimation_md": -21.6,
+   "estimation_md": -22.2,
    "ref": "detail-lr.md#lrt2"
   },
   {
    "titre": "Retraites : autres leviers",
    "detail": "Capitalisation partielle pour les jeunes, réserves, Agirc-Arrco, fin des régimes spéciaux.",
    "annonce_md": 30,
-   "estimation_md": 1.0,
+   "estimation_md": 3.0,
    "ref": "detail-lr.md#lr13"
   },
   {
    "titre": "Assurance chômage et prestations sociales",
    "detail": "Économies annoncées sans détail de mécanisme publié.",
    "annonce_md": 30,
-   "estimation_md": 8.2,
+   "estimation_md": 10.6,
    "ref": "detail-lr.md#lr14"
   },
   {
    "titre": "Non-remplacement de 400 000 agents",
    "detail": "Départs à la retraite non remplacés d'ici 2032, 1 623 heures de travail par an, appui de l'IA.",
    "annonce_md": 25,
-   "estimation_md": 12.0,
+   "estimation_md": 17.5,
    "ref": "detail-lr.md#lr01"
   },
   {
    "titre": "Postes agrégés d'aides",
    "detail": "Soutien au photovoltaïque et à l'éolien, aide au développement, audiovisuel public, contrats aidés, SNU, MaPrimeRénov'.",
    "annonce_md": 23,
-   "estimation_md": 9.0,
+   "estimation_md": 8.0,
    "ref": "detail-lr.md#lr09"
   },
   {
    "titre": "Retraites : âge et décote",
    "detail": "Âge minimal de 63 ans, décote de 7 % par an, taux plein automatique à 65 ans.",
    "annonce_md": 12,
-   "estimation_md": 5.0,
+   "estimation_md": 12.0,
    "ref": "detail-lr.md#lr12"
   },
   {
    "titre": "Budgets « base zéro » de l'État",
    "detail": "Réexamen de toutes les interventions de l'État.",
    "annonce_md": 11.5,
-   "estimation_md": 2.5,
+   "estimation_md": 4.0,
    "ref": "detail-lr.md#lr04"
   }
  ],

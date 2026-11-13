@@ -1,8 +1,8 @@
 /* Prototype privé, 11/11/2026 : accueil centré sur le redressement. Chiffres provisoires. */
 :root{--fond:#fbfaf7;--surface:#fff;--encre:#1d1c1a;--doux:#5f5c55;--trait:#e2ded6;--accent:#1f3b8f;--accent-doux:#e9eef9;--rouge:#c8102e;--vert:#2f6b3a;--vert-doux:#eef6ef;--ambre:#8a5a00;--ambre-doux:#fdf4e3;
 --serif:"Source Serif 4","Iowan Old Style",Palatino,Georgia,serif;--sans:"Inter",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--fond:#161514;--surface:#1f1e1c;--encre:#e9e6df;--doux:#a8a397;--trait:#34322e;--accent:#9db4ff;--accent-doux:#1b2340;--rouge:#ff6b7a;--vert:#8fcf9b;--vert-doux:#18261b;--ambre:#f0c674;--ambre-doux:#2a2215}}
-:root[data-theme="dark"]{--fond:#161514;--surface:#1f1e1c;--encre:#e9e6df;--doux:#a8a397;--trait:#34322e;--accent:#9db4ff;--accent-doux:#1b2340;--rouge:#ff6b7a;--vert:#8fcf9b;--vert-doux:#18261b;--ambre:#f0c674;--ambre-doux:#2a2215}
+@media (prefers-color-scheme:dark){:root:not([data-theme="clair"]){--fond:#161514;--surface:#1f1e1c;--encre:#e9e6df;--doux:#a8a397;--trait:#34322e;--accent:#9db4ff;--accent-doux:#1b2340;--rouge:#ff6b7a;--vert:#8fcf9b;--vert-doux:#18261b;--ambre:#f0c674;--ambre-doux:#2a2215}}
+:root[data-theme="sombre"]{--fond:#161514;--surface:#1f1e1c;--encre:#e9e6df;--doux:#a8a397;--trait:#34322e;--accent:#9db4ff;--accent-doux:#1b2340;--rouge:#ff6b7a;--vert:#8fcf9b;--vert-doux:#18261b;--ambre:#f0c674;--ambre-doux:#2a2215}
 *{box-sizing:border-box}
 body{margin:0;background:var(--fond);color:var(--encre);font-family:var(--sans);font-size:18px;line-height:1.6}
 a{color:var(--accent)}
