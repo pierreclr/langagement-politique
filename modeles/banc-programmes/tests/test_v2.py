@@ -237,3 +237,83 @@ class TestDocumentsPrimaires1111(unittest.TestCase):
 
 
 ANN = V2.ANNEES_SERIE
+
+
+class TestPhilippe1311(unittest.TestCase):
+    """Horizons (Édouard Philippe, programme du 12/11/2026 non chiffré par le candidat) : lecture de notre simulateur, même règle que les autres (13/11/2026)."""
+
+    @classmethod
+    def setUpClass(cls):
+        cls.prog, cls.ms, cls.mod = R.charger_programme('philippe')
+        import json
+        with open(os.path.join(BANC, 'donnees', 'resultats-v2.json'), encoding='utf-8') as fh:
+            cls.res = json.load(fh)
+
+    def test_avertissement_et_methode(self):
+        self.assertIn("n'est pas chiffré par son auteur (12/11/2026)", self.mod.AVERTISSEMENT)
+        self.assertIn('lecture de notre simulateur', self.mod.AVERTISSEMENT)
+        self.assertEqual(self.prog['avertissement'], self.mod.AVERTISSEMENT)
+        self.assertTrue(len(self.mod.NON_CHIFFREES) >= 10)
+        self.assertTrue(any('croissance' in x for x in self.mod.NON_CHIFFREES))      # le quart attendu de la croissance n'est pas crédité
+
+    def test_seuls_montants_publies(self):
+        """Deux montants publiés seulement (50 contre 50 Md€) ; toutes les autres lignes portent une hypothèse H-PH et aucune annonce."""
+        ann = {m['id']: m['annonce'] for m in self.ms if m.get('annonce')}
+        self.assertEqual(ann, {'PH05': 50.0, 'PHT1': 50.0})
+        for m in self.ms:
+            if m['id'] not in ann:
+                self.assertIsNotNone(m.get('lecture'), m['id'])
+                self.assertIn(m['hyp'], self.mod.HYP)
+                self.assertTrue(any(h[0] == m['hyp'] for h in m['hypotheses']), m['id'])
+
+    def test_hypotheses_symetriques(self):
+        for k, v in self.mod.HYP.items():
+            b, c, h = v[:3]
+            if b is None:
+                continue
+            self.assertAlmostEqual(c - b, h - c, places=9, msg=k)
+            self.assertIn(v[5], ('A', 'B', 'C', 'D'), k)
+
+    def test_economies_classees_comme_leurs_voisines(self):
+        F.appliquer_programme('philippe', self.ms)
+        self.assertEqual(F.CLASSEMENT['philippe']['PH01'][:3], F.CLASSEMENT['lr']['LR12'][:3])
+        self.assertEqual(F.CLASSEMENT['philippe']['PH02'][:3], F.CLASSEMENT['lr']['LR01'][:3])
+        self.assertEqual(F.CLASSEMENT['philippe']['PH04'][:3], F.CLASSEMENT['lr']['LR15'][:3])
+        self.assertEqual(F.CLASSEMENT['philippe']['PH05'][:3], F.CLASSEMENT['ps']['PS04'][:3])
+
+    def test_regle_appliquee_a_la_lecture(self):
+        ms, jr = F.appliquer_programme('philippe', self.ms)
+        j = {e[0]: e for e in jr}
+        for m in self.ms:
+            if m['sens'] == 'recette':
+                a = m['annonce'] or m['lecture']
+                self.assertAlmostEqual(j[m['id']][2], a, places=9)                         # la part s'applique au montant lu (ou annoncé), pas à zéro
+            else:
+                v = [x for x in ms if x['id'] == m['id']][0]['valeur']
+                ref = m['annonce'] or m['lecture']
+                self.assertLessEqual(v['bas'], F.COUT_BAS * ref + 1e-9, m['id'])              # fourchette commune des coûts
+                self.assertGreaterEqual(v['haut'], F.COUT_HAUT * ref - 1e-9, m['id'])
+
+    def test_retraites_lues_dans_le_modele(self):
+        p = M.levier_retraites_age(CTX, {'age_effectif': CTX['retraites']['ageBase2032'] - 1.0})[1]
+        self.assertAlmostEqual(self.mod.COUT_AGE_2032, p, delta=0.01)
+        ph01 = [m for m in self.ms if m['id'] == 'PH01'][0]
+        self.assertAlmostEqual(ph01['lecture'], self.mod.HYP['H-PH1'][1] * p, delta=0.01)
+
+    def test_variantes_ordonnees(self):
+        S = self.res['sensibilites_philippe']
+        c = self.res['programmes']['philippe']['solde_regime']['p50']
+        self.assertLess(S['defavorable']['solde_regime']['p50'], c)
+        self.assertGreater(S['favorable']['solde_regime']['p50'], c)
+        for v in self.mod.VARIANTES:
+            ms = self.mod.construire(v)
+            self.assertEqual([m['id'] for m in ms], [m['id'] for m in self.ms])
+
+    def test_ajout_sans_effet_sur_les_autres(self):
+        """Chaque programme a son propre générateur : rejouer LR seul (200 tirages) donne les mêmes tirages, que Philippe soit dans ORDRE ou non."""
+        self.assertIn('philippe', V2.ORDRE)
+        o1, _ = V2.simuler_programme('lr', CTX, 200)
+        _ = V2.simuler_programme('philippe', CTX, 200)
+        o2, _ = V2.simuler_programme('lr', CTX, 200)
+        self.assertEqual(o1['solde_regime'], o2['solde_regime'])
+        self.assertAlmostEqual(self.res['programmes']['lfi']['dette2038']['p50'], 2.41, delta=0.02)

@@ -17,9 +17,9 @@ import ponts                # noqa: E402
 
 O = json.load(open(os.path.join(ICI, 'donnees', 'resultats.json'), encoding='utf-8'))
 N = json.load(open(os.path.join(ICI, 'donnees', 'resultats-v2.json'), encoding='utf-8'))
-ORDRE = ('lr', 'ps', 'gl', 'rn', 'lfi', 'lfi_cb', 'langagement', 'fil_de_l_eau')
-ANCIENS = ('lr', 'ps', 'rn', 'lfi')          # programmes de la v1 comparables ligne à ligne (gl : chiffrage partiel ; lfi_cb : sensibilité)
-NOM = {'lr': 'LR (Retailleau)', 'ps': 'PS et Place publique', 'gl': 'Glucksmann, livret climat (chiffrage partiel)', 'rn': 'RN', 'lfi': 'LFI (programme complet)', 'lfi_cb': 'LFI, contre-budget 2027 (sensibilité)', 'langagement': 'Notre système', 'fil_de_l_eau': "Fil de l'eau"}
+ORDRE = ('lr', 'ps', 'gl', 'rn', 'lfi', 'lfi_cb', 'philippe', 'langagement', 'fil_de_l_eau')      # philippe placé avant notre système : les numéros de ligne cités par les fiches du site (§ 1 à § 4) ne bougent pas
+ANCIENS = ('lr', 'ps', 'rn', 'lfi')          # programmes de la v1 comparables ligne à ligne (gl : chiffrage partiel ; lfi_cb : sensibilité ; philippe : ajouté en v2 seulement, lecture de notre simulateur)
+NOM = {'lr': 'LR (Retailleau)', 'philippe': 'Horizons (Philippe), lecture de notre simulateur', 'ps': 'PS et Place publique', 'gl': 'Glucksmann, livret climat (chiffrage partiel)', 'rn': 'RN', 'lfi': 'LFI (programme complet)', 'lfi_cb': 'LFI, contre-budget 2027 (sensibilité)', 'langagement': 'Notre système', 'fil_de_l_eau': "Fil de l'eau"}
 DEF0 = 169.1
 PIB0 = 2935.0 * 1.0   # remplacé plus bas par le PIB de 2025 du contexte
 
@@ -215,13 +215,15 @@ def ecrire():
     gv1 = os.path.join(ICI, 'donnees', 'resultats-v2-grille-v1.json')
     if os.path.exists(gv1):
         G = json.load(open(gv1, encoding='utf-8'))['programmes']
+        G = {c: G.get(c) for c in ORDRE}
+        G = {c: (v if v is not None else {k: None for k in ('solde_regime', 'dette2038', 'dette2038_endo')}) for c, v in G.items()}
         A('## 6 bis. Sensibilité à la grille : alignée sur les médianes de la v1 (3 : 60 %, 2 : 36 %, 1 : 25 %, 0 : 18 %), pour tous les programmes\n')
         A('| | ' + ' | '.join(NOM[c] for c in ORDRE) + ' |\n|---|' + '---|' * len(ORDRE))
         A(ligne('Effet sur le solde en régime (Md€)', lambda c: iv(G[c]['solde_regime'])))
         A(ligne('Dette 2038 (%) : grille de la v2', lambda c: pc(P[c]['dette2038'])))
         A(ligne('Dette 2038 (%) : grille alignée sur la v1', lambda c: pc(G[c]['dette2038'])))
         A(ligne('Taux endogène, dette 2038 (%) : grille alignée sur la v1', lambda c: pc(G[c]['dette2038_endo'])))
-        A('\nLe classement des programmes par dette 2038 : ' + ' < '.join('%s %s' % (NOM[c], fr(100 * G[c]['dette2038']['p50'])) for c in sorted(ORDRE, key=lambda c: G[c]['dette2038']['p50'])) + '.\n')
+        A('\nLe classement des programmes par dette 2038 : ' + ' < '.join('%s %s' % (NOM[c], fr(100 * G[c]['dette2038']['p50'])) for c in sorted([c for c in ORDRE if G[c]['dette2038']], key=lambda c: G[c]['dette2038']['p50'])) + '.\n')
     # ------------------------------------------------------------------ 7 fragile
     A('## 7. Ce qui reste fragile\n')
     sv6 = N['sensibilites']['sans_M-V6']
@@ -412,6 +414,7 @@ def ecrire():
       'les variantes « modèles moins sévères » (§ 10 de `resultats.md`) reposent encore sur le patrimoine à 3 %% et ne sont pas rejouées ici.\n' % (
           fr(-pp['ecart'], 1), fr(100 * (sn['reference']['deficit'][9] - sg['reference']['deficit'][9]), 1),
           fr(100 * AVD['dette2038']['p50'], 1), fr(100 * apN['dette2038']['p50'], 1), fr(AVD['par_mesure']['M-PAT']['p50'], 1), fr(apN['par_mesure']['M-PAT']['p50'], 1)))
+    philippe_section(A, P)
     A('## 8. Les douze écarts de `memes-modeles.md` : statut\n')
     A('| N° | Écart | Statut v2 |\n|---|---|---|')
     for row in ECARTS:
@@ -434,7 +437,7 @@ def ecrire():
     A('## Annexe. Classement ligne par ligne (M, J, E, score, part médiane v1 → v2)\n')
     A('Les lignes issues d\'un de nos modèles (ISF, plancher, successions, impôt sur le revenu, IFF, Zucman) n\'ont pas de « part v1 » : leur part v2 s\'applique au résultat du modèle.\n')
     A('| Programme | Ligne | Libellé | M | J | E | Score | Montant nominal (Md€) | Part médiane v1 | Part médiane v2 | Motif |\n|---|---|---|---|---|---|---|---|---|---|---|')
-    for c in ('lfi', 'rn', 'lr', 'ps', 'gl'):
+    for c in ('lfi', 'rn', 'lr', 'philippe', 'ps', 'gl'):
         _, mes, _ = R.charger_programme(c)
         lib = {m['id']: m['libelle'] for m in mes}
         jr = {e[0]: e for e in N['journal'][c] if e[1] != 'cout'}
@@ -443,7 +446,7 @@ def ecrire():
             if not e:
                 continue
             nom = e[2]
-            v1 = '%s %%' % fr(100 * e[3][2] / e[2]) if e[3] and e[2] else '—'
+            v1 = '%s %%' % fr(100 * e[3][2] / e[2]) if e[3] and e[2] and c != 'philippe' else '—'      # Philippe : pas de version 1
             v2 = '%s %%' % fr(100 * F.GRILLE[e[1]][1])
             A('| %s | %s | %s | %d | %d | %d | %d | %s | %s | %s | %s |' % (NOM[c], i, lib[i][:70].replace('|', '/'), mm, jj, ee, e[1], fr(nom, 1) if nom else 'sortie du modèle', v1, v2, mot))
     A('| LFI, contre-budget 2027 | R01a à R12 | mêmes 13 lignes de recette que LFI (hors R13) | | | | | | | | mêmes réponses (M, J, E) que la colonne principale de LFI (`F.CLASSEMENT[\'lfi_cb\']`) |')
@@ -459,6 +462,45 @@ def ecrire():
     return '\n'.join(L)
 
 
+def philippe_section(A, P):
+    """§ 14 : la colonne d'Édouard Philippe (lecture de notre simulateur) et sa sensibilité aux hypothèses H-PH."""
+    if 'philippe' not in P:
+        return
+    _, mes, mod = R.charger_programme('philippe')
+    p = P['philippe']
+    S = N.get('sensibilites_philippe', {})
+    A('## 14. 13/11/2026 : Horizons (Édouard Philippe), lecture de notre simulateur\n')
+    A('**%s**\n' % mod.AVERTISSEMENT)
+    A('Document lu : %s. Mesures chiffrées : %d lignes (%d économies passées par la règle commune, %d baisses d\'impôts et dépenses nouvelles comptées en entier) ; %d annonces sans contenu chiffrable restent hors du calcul (`programmes/philippe/mesures.py`, `NON_CHIFFREES`). '
+      'Montants publiés par le candidat : 50 Md€ d\'aides aux entreprises en moins et 50 Md€ d\'impôts de production en moins ; tous les autres montants sont nos hypothèses H-PH1 à H-PH12, écrites une par une dans `detail-philippe.md`. '
+      'Le quart de l\'effort que le programme attend « de la croissance et de l\'emploi » n\'est pas crédité : aucun effet de croissance n\'est compté, pour aucun programme.\n'
+      % (mod.SRC_PH, len(mes), sum(1 for m in mes if m['sens'] == 'recette'), sum(1 for m in mes if m['sens'] == 'depense'), len(mod.NON_CHIFFREES)))
+    cols = [('central', 'Hypothèses au central (colonne du § 1)', p)] + [(v, lib, S[v]) for v, lib in (('bas', 'Toutes à leur borne basse'), ('haut', 'Toutes à leur borne haute'),
+                                                                                                    ('defavorable', 'Économies basses, coûts hauts'), ('favorable', 'Économies hautes, coûts bas')) if v in S]
+    A('| (médiane [intervalle à 80 %%], %s tirages, même graine) | %s |' % (fr(N['tirages']), ' | '.join(c[1] for c in cols)))
+    A('|---|' + '---|' * len(cols))
+    for lib, f in (("Effet sur le solde en régime, 2032 (Md€)", lambda d: iv(d['solde_regime'])),
+                   ("dont économies, après la règle (Md€)", lambda d: iv(d['recettes_regime'])),
+                   ("dont baisses d'impôts et dépenses nouvelles (Md€)", lambda d: iv(d['depenses_regime'])),
+                   ("Déficit public 2032 (% du PIB, médiane)", lambda d: fr(100 * d['serie_deficit_mediane']['2032'], 1)),
+                   ("Déficit public 2038 (% du PIB)", lambda d: pc(d['deficit2038_pct'], 1)),
+                   ("Dette publique 2032 (% du PIB)", lambda d: pc(d['dette2032'])),
+                   ("Dette publique 2038 (% du PIB)", lambda d: pc(d['dette2038'])),
+                   ("Dette 2038, taux endogène (% du PIB)", lambda d: pc(d['dette2038_endo']))):
+        A('| %s | %s |' % (lib, ' | '.join(f(c[2]) for c in cols)))
+    fil = P['fil_de_l_eau']
+    pm = p['par_mesure']
+    lourdes = sorted(pm, key=lambda i: -abs(pm[i]['p50']))[:6]
+    libs = {m['id']: m for m in mes}
+    A('\nLecture. (1) **La cible du candidat est un déficit de 2 %% du PIB en fin de mandat ; notre lecture donne %s %% en 2032** (fil de l\'eau : %s %%) : avec la même règle pour tous, les mesures publiées ne suffisent pas à l\'atteindre, '
+      'parce que le pacte fiscal compte 50 Md€ de baisse d\'impôts en entier contre une économie d\'aides non désignées ramenée à sa part réalisable (score 2, médiane 70 %%), parce que les dépenses nouvelles (familles, professeurs, heures supplémentaires) '
+      'ne sont pas financées ligne à ligne, et parce que le quart attendu de la croissance n\'est pas crédité. Ce n\'est pas une réfutation : la cible pourrait être tenue par des mesures que le programme ne détaille pas. '
+      '(2) Les lignes qui pèsent le plus (médiane, Md€) : %s. (3) Les bornes basse et haute de toutes les hypothèses bougent ensemble économies et coûts et se compensent en partie ; les colonnes « défavorable » et « favorable » donnent l\'écart utile : de %s à %s Md€ de solde.\n'
+      % (fr(100 * p['serie_deficit_mediane']['2032'], 1), fr(100 * fil['serie_deficit_mediane']['2032'], 1),
+         ' ; '.join('%s %s (%s)' % (i, fr(pm[i]['p50'], 1), libs[i]['libelle'][:60]) for i in lourdes),
+         fr(S['defavorable']['solde_regime']['p50']) if 'defavorable' in S else '—', fr(S['favorable']['solde_regime']['p50']) if 'favorable' in S else '—'))
+
+
 ECARTS = [
     ('1', "Filtre de faisabilité asymétrique", "**Traité** : une seule règle (score M + J + E, grille unique) pour toutes les économies et toutes les recettes nouvelles de tous les programmes, nous compris (§ 0, annexe)."),
     ('2', "Fourchettes des dépenses nouvelles", "**Traité** : plancher commun 0,9 à 1,3 fois pour les dépenses chiffrées par leur auteur seul, y compris les modules de coût de notre système ; les fourchettes plus larges et sourcées sont gardées."),
@@ -470,7 +512,7 @@ ECARTS = [
     ('8', "Baisses de TVA du RN hors de notre fonction de TVA", "**Non traité** : il faudrait relancer le modèle JavaScript (`changementTva`) hors de ce dossier ; ce sont des coûts (le plancher commun 0,9-1,3 s'applique)."),
     ('9', "Réactions de l'impôt sur le revenu différentes selon les programmes", "**Non traité** : il faut une table d'élasticités partagée avec le modèle JavaScript, hors de ce dossier."),
     ('10', "Médianes « relatives » qui ne reprennent pas celles qu'elles disent reprendre", "**Levé** : la part est fixée par le score, appliqué par le code ; plus de jugement ligne par ligne sur la médiane, seulement sur les trois réponses."),
-    ('11', "Édouard Philippe hors du banc", "**Non traité** : aucun document chiffré d'ensemble publié."),
+    ('11', "Édouard Philippe hors du banc", "**Traité le 13/11/2026, avec une réserve** : le programme publié le 12/11/2026 n'est pas chiffré par le candidat ; la colonne est une lecture de notre simulateur (hypothèses H-PH1 à H-PH12, § 14), sous la même règle que les autres."),
     ('12', "Variante « moins sévère » non rejouée pour LR et le PS", "**Non traité en v2** : la v2 ne rejoue pas la variante ; la v1 (§ 10) reste la référence ; effet connu : +1 à +7 Md€ selon le programme."),
 ]
 

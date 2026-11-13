@@ -16,8 +16,8 @@ import re
 ICI = os.path.dirname(os.path.abspath(__file__))
 DEPOT = os.path.dirname(os.path.dirname(ICI))
 CONTENU = os.path.join(ICI, "contenu")
-ORDRE = ["langagement", "lr", "ps", "gl", "rn", "lfi"]
-NOMS_COURTS = {"langagement": "Nous", "lr": "LR", "ps": "PS", "gl": "Place publique", "rn": "RN", "lfi": "LFI"}
+ORDRE = ["langagement", "lr", "philippe", "ps", "gl", "rn", "lfi"]
+NOMS_COURTS = {"langagement": "Nous", "lr": "LR", "philippe": "Horizons", "ps": "PS", "gl": "Place publique", "rn": "RN", "lfi": "LFI"}
 VERDICTS = {"accord": ("D'accord", "v-accord"), "partiel": ("En partie", "v-partiel"), "desaccord": ("Pas d'accord", "v-desaccord"),
             "sans objet": ("Sans objet", "v-sans")}
 
@@ -125,13 +125,39 @@ CORRESPONDANCE = {"langagement": "Notre système", "lr": "LR (Retailleau)", "ps"
                   "gl": "Glucksmann, livret climat (chiffrage partiel)", "rn": "RN", "lfi": "LFI (programme complet)"}
 
 
+def ref_programme(ref, i):
+    """Valeur du classement pour la fiche i ; pour Horizons, la première entrée qui contient « Philippe »."""
+    if i in CORRESPONDANCE:
+        return ref.get(CORRESPONDANCE[i])
+    for k, v in ref.items():
+        if i == "philippe" and "Philippe" in k:
+            return v
+    return None
+
+
+def deficits_2032():
+    """Déficit 2032 (% du PIB) de chaque programme, tableau des trajectoires de resultats-v2.md."""
+    t = open(os.path.join(DEPOT, "modeles", "banc-programmes", "resultats-v2.md"), encoding="utf-8").read()
+    out = {}
+    tete = re.search(r"\| Programme \| 2028 \| 2030 \| 2032 \|", t)
+    if not tete:
+        return out
+    for nom, cols in re.findall(r"^\| ([^|]+?) : déficit \| ([^\n]+)$", t[tete.start():], flags=re.M):
+        v = [c.strip() for c in cols.split("|")]
+        try:
+            out[nom.strip()] = float(v[2].replace(",", "."))
+        except (ValueError, IndexError):
+            pass
+    return out
+
+
 def controler(fiches):
     """Écarts entre la dette 2038 des fiches et le classement du banc ; renvoie une liste d'erreurs."""
     ref, err = dettes_reference(), []
     for i, f in fiches.items():
         fin = f.get("finances") or {}
         v = fin.get("dette_2038_pct")
-        r = ref.get(CORRESPONDANCE.get(i, ""))
+        r = ref_programme(ref, i)
         if v is not None and r is not None and abs(v - r) > 0.6:
             err.append("%s : dette 2038 %s dans la fiche, %s dans resultats-v2.md" % (i, v, r))
     return err
@@ -150,8 +176,10 @@ def barres_dette(fiches):
               ["Si rien ne change", ref.get("Fil de l'eau"), "var(--encre)", None, nombre(ref.get("Fil de l'eau")) + " %"]]
     for i in ORDRE[1:]:
         if i in fiches:
-            v = ref.get(CORRESPONDANCE[i])
-            lignes.append([fiches[i]["nom"].split(" (")[0] if i != "gl" else "Place publique (partiel)", v, "#8a8a8a", None, nombre(v) + " %"])
+            v = ref_programme(ref, i)
+            if v is None:
+                continue
+            lignes.append([{"gl": "Place publique (partiel)", "philippe": "Horizons (notre lecture)"}.get(i, fiches[i]["nom"].split(" (")[0]), v, "#8a8a8a", None, nombre(v) + " %"])
     lignes.sort(key=lambda r: r[1] or 0)
     return lignes
 
@@ -182,6 +210,21 @@ def comparer(fiches, nous):
 <p><b>Ce qui est juste</b></p><ul>%s</ul><p><b>Points de vigilance</b></p><ul>%s</ul>
 <a class="lien-suite" href="/comprendre/programme-%s.html">Comprendre ce programme →</a></article>""" % (
             e(f["nom"]), e(f.get("en_bref")), md(fin.get("effet_2038_md")), nombre(fin.get("dette_2038_pct")), juste, vig, i))
+    d32 = deficits_2032()
+    lignes_annonce = []
+    for i in partis:
+        f = fiches[i]
+        a = f.get("annonce") or {}
+        fin = f.get("finances") or {}
+        d = None
+        for k, v in d32.items():
+            if (CORRESPONDANCE.get(i) == k) or (i == "philippe" and "Philippe" in k):
+                d = v
+        avert = ' <span class="note">(lecture de notre simulateur : programme non chiffré par son auteur)</span>' if f.get("avertissement") else ""
+        lignes_annonce.append("<tr><th>%s%s</th><td>%s%s</td><td class=\"nb\">%s</td><td class=\"nb\">%s</td><td class=\"note\">%s</td></tr>" % (
+            e(NOMS_COURTS.get(i, f["nom"])), avert, e(a.get("texte") or "Pas d'annonce chiffrée d'ensemble."),
+            (" Cible : " + e(a["deficit_cible"]) + ".") if a.get("deficit_cible") else "",
+            md(fin.get("effet_2032_md")), (nombre(d, 1) + " %") if d is not None else "—", e(a.get("notre_lecture") or "")))
     corps = """<section class="ouverture"><div class="page">
   <p class="etiq">Comparer</p>
   <h1>Tous les programmes, la même règle. <span>Le nôtre aussi.</span></h1>
@@ -197,6 +240,14 @@ def comparer(fiches, nous):
 </div></section>
 
 <section class="bloc"><div class="page">
+  <p class="etiq">Ce qu'ils annoncent, ce que nous trouvons</p>
+  <h2>Leur chiffrage, et le nôtre.</h2>
+  <p>Pour chaque parti : ce qu'il promet pour les comptes publics, puis ce que donne notre simulateur avec la même règle pour tous, et d'où vient l'écart.</p>
+  <div class="tableau"><table style="min-width:820px"><thead><tr><th>Parti</th><th>Ce qu'il annonce</th><th>Notre estimation : effet sur le déficit en 2032</th><th>Notre estimation : déficit en 2032</th><th>D'où vient l'écart</th></tr></thead><tbody>%s</tbody></table></div>
+  <p class="note">Effet sur le déficit : + le réduit, − l'augmente, en Md€ par an. Les sources de chaque annonce sont sur la page de chaque programme.</p>
+</div></section>
+
+<section class="bloc"><div class="page">
   <p class="etiq">But et méthode</p>
   <h2>D'accord sur le but ? D'accord sur la méthode ?</h2>
   <p>Dans chaque case : partageons-nous le but du parti sur ce sujet, et sa méthode ? Cliquez pour le détail. Les sujets sur lesquels nous n'avons pas encore de position publiée n'y figurent pas.</p>
@@ -208,7 +259,7 @@ def comparer(fiches, nous):
   <p class="etiq">Parti par parti</p>
   <div class="fiches">%s</div>
   <p class="note">Programmes non encore chiffrés : ceux qui n'ont pas publié de programme détaillé. Nous les ajouterons dès qu'ils le feront.</p>
-</div></section>""" % (json.dumps(lignes_dette, ensure_ascii=False).replace("'", "&#39;"), 16 + 40 * len(lignes_dette), tete, "".join(corps_mat),
+</div></section>""" % (json.dumps(lignes_dette, ensure_ascii=False).replace("'", "&#39;"), 16 + 40 * len(lignes_dette), "".join(lignes_annonce), tete, "".join(corps_mat),
                        badge("accord"), badge("partiel"), badge("desaccord"), badge("sans objet"), "".join(cartes))
     return page("Comparer les programmes", "Tous les programmes chiffrés avec la même règle, le nôtre aussi : les comptes, et nos accords et désaccords sur le but et la méthode, sujet par sujet.", corps)
 
@@ -301,9 +352,30 @@ def verifier(verifs):
   <p class="etiq">Vérifier</p>
   <h1>Ce qui est dit, <span>vérifié point par point.</span></h1>
   <p>Des déclarations, des vidéos, des chiffres qui circulent : ce qui est vrai, ce qui est faux, ce qui est omis, avec les sources pour que chacun puisse refaire la vérification. Tous les bords, nous compris : une erreur dans nos chiffres se signale <a href="https://github.com/pierreclr/langagement-politique/issues">ici</a>.</p>
+  <a class="bouton" href="#demander">Demander une vérification</a>
 </div></section>
-<section class="bloc"><div class="page"><div class="liste-dossiers">%s</div></div></section>""" % cartes
-    return page("Vérifier", "Des déclarations et des vidéos politiques vérifiées point par point : ce qui est vrai, ce qui est faux, ce qui est omis, avec les sources.", corps)
+<section class="bloc"><div class="page"><div class="liste-dossiers">%s</div></div></section>
+<section class="bloc" id="demander"><div class="page">
+  <p class="etiq">Demander une vérification</p>
+  <h2>Une déclaration, une vidéo, un chiffre qui circule ? Envoyez-le.</h2>
+  <p>Votre demande devient une discussion publique sur GitHub, où chacun peut apporter des sources ; nous y répondons, et les vérifications faites sont publiées ici. Il faut un compte GitHub, gratuit. Les demandes sont publiques : n'y mettez ni adresse électronique ni téléphone ; pour être prévenu de la réponse, suivez la discussion depuis votre compte.</p>
+  <form id="demande" class="calc" onsubmit="return false">
+    <label for="d-quoi">Ce qu'il faut vérifier : la phrase, le chiffre, ou un lien vers la vidéo ou l'article</label>
+    <textarea id="d-quoi" rows="4" required style="width:100%%;font:inherit;padding:8px;border:1px solid var(--trait);border-radius:8px;background:var(--surface);color:inherit"></textarea>
+    <label for="d-qui">Qui l'a dit, où et quand</label>
+    <input id="d-qui" type="text" style="width:100%%;font:inherit;padding:8px;border:1px solid var(--trait);border-radius:8px;background:var(--surface);color:inherit">
+    <label for="d-pourquoi">Ce qui vous semble douteux (facultatif)</label>
+    <textarea id="d-pourquoi" rows="3" style="width:100%%;font:inherit;padding:8px;border:1px solid var(--trait);border-radius:8px;background:var(--surface);color:inherit"></textarea>
+    <p style="margin-top:14px"><button type="submit" class="bouton" id="d-envoyer" style="border:0;cursor:pointer">Préparer ma demande sur GitHub</button></p>
+    <p class="note">Le bouton ouvre GitHub avec votre demande déjà remplie : il ne reste qu'à la relire et à la publier.</p>
+  </form>
+</div></section>""" % cartes
+    script = """<script>document.getElementById("d-envoyer").addEventListener("click",function(){var q=document.getElementById("d-quoi").value.trim(),w=document.getElementById("d-qui").value.trim(),p=document.getElementById("d-pourquoi").value.trim();
+if(!q){document.getElementById("d-quoi").focus();return}
+var corps="**Ce qu'il faut vérifier**\n\n"+q+"\n\n**Qui l'a dit, où et quand**\n\n"+(w||"(non précisé)")+"\n\n**Ce qui semble douteux**\n\n"+(p||"(non précisé)")+"\n\n_Demande envoyée depuis la page Vérifier du site._";
+var titre="Vérification : "+(w?w+" : ":"")+q.replace(/\s+/g," ").slice(0,70);
+window.open("https://github.com/pierreclr/langagement-politique/issues/new?labels=verification&title="+encodeURIComponent(titre)+"&body="+encodeURIComponent(corps),"_blank","noopener")})</script>"""
+    return page("Vérifier", "Des déclarations et des vidéos politiques vérifiées point par point : ce qui est vrai, ce qui est faux, ce qui est omis, avec les sources. Demandez une vérification.", corps, script)
 
 
 PANS = ["Finances publiques et dette", "Retraites et vieillissement", "Démographie et société", "Impôts, patrimoine et héritage", "Logement",

@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Vérifier</title>
-<meta name="description" content="Des déclarations et des vidéos politiques vérifiées point par point : ce qui est vrai, ce qui est faux, ce qui est omis, avec les sources.">
+<meta name="description" content="Des déclarations et des vidéos politiques vérifiées point par point : ce qui est vrai, ce qui est faux, ce qui est omis, avec les sources. Demandez une vérification.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Source+Serif+4:wght@600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/redressement.css">
@@ -51,11 +51,43 @@
   <p class="etiq">Vérifier</p>
   <h1>Ce qui est dit, <span>vérifié point par point.</span></h1>
   <p>Des déclarations, des vidéos, des chiffres qui circulent : ce qui est vrai, ce qui est faux, ce qui est omis, avec les sources pour que chacun puisse refaire la vérification. Tous les bords, nous compris : une erreur dans nos chiffres se signale <a href="https://github.com/pierreclr/langagement-politique/issues">ici</a>.</p>
+  <a class="bouton" href="#demander">Demander une vérification</a>
 </div></section>
-<section class="bloc"><div class="page"><div class="liste-dossiers"><a href="/grece.html"><span class="theme">Clémence Guetté (LFI) · 13/11/2026</span><b>La Grèce n&#x27;est pas la France</b><span>Une vidéo compare l&#x27;austérité grecque de la Troïka aux programmes d&#x27;économies français. L&#x27;histoire est en partie vraie, la conclusion ne l&#x27;est pas.</span></a></div></div></section>
+<section class="bloc"><div class="page"><div class="liste-dossiers"><a href="/verifier/premier-emploi-27-ans-bardella.html"><span class="theme">Jordan Bardella (RN) · 10/11/2026</span><b>Premier emploi à 27 ans : que disent les données ?</b><span>Jordan Bardella affirme que les jeunes ont leur premier emploi significatif à 27 ans en moyenne, et qu&#x27;il y a 1,7 actif par retraité. Ce qui est juste, ce qui est à nuancer, chiffres et sources à l&#x27;appui.</span></a><a href="/verifier/smic-5-euros-tondelier.html"><span class="theme">Marine Tondelier (Les Écologistes) · 12/11/2026</span><b>Le SMIC et les « 5 euros ».</b><span>Une élue écologiste affirme que le gouvernement ajoute 5 euros au SMIC, soit une baguette par semaine. Ce qui est juste, ce qui est inexact, chiffres et sources à l&#x27;appui.</span></a><a href="/verifier/immigres-pauvrete-retailleau.html"><span class="theme">Bruno Retailleau (LR) · 03/11/2026</span><b>Immigrés : pauvreté et chômage.</b><span>Bruno Retailleau affirme que 50-51 % des immigrés sont en situation de précarité ou de pauvreté et que le chômage les touche presque deux fois plus que les nationaux. Ce qui est juste, ce qui ne l&#x27;est pas, chiffres et so</span></a><a href="/verifier/smic-emplois-farandou.html"><span class="theme">Jean-Pierre Farandou (gouvernement) · 07/11/2026</span><b>Smic à 1 700 euros net : 230 000 emplois détruits ?</b><span>Le ministre du Travail affirme qu&#x27;un Smic à 1 700 euros net détruirait plus de 230 000 emplois. Ce qui est établi, ce qui ne l&#x27;est pas, sources à l&#x27;appui.</span></a><a href="/verifier/smic-europe-melenchon.html"><span class="theme">Jean-Luc Mélenchon (LFI) · 11/11/2026</span><b>Le SMIC en Europe depuis dix ans.</b><span>Jean-Luc Mélenchon compare la hausse du SMIC en France et dans six pays européens sur dix ans. Les pourcentages sont exacts ; ce qu&#x27;ils prouvent l&#x27;est moins. Chiffres et sources.</span></a><a href="/grece.html"><span class="theme">Clémence Guetté (LFI) · 13/11/2026</span><b>La Grèce n&#x27;est pas la France</b><span>Une vidéo compare l&#x27;austérité grecque de la Troïka aux programmes d&#x27;économies français. L&#x27;histoire est en partie vraie, la conclusion ne l&#x27;est pas.</span></a></div></div></section>
+<section class="bloc" id="demander"><div class="page">
+  <p class="etiq">Demander une vérification</p>
+  <h2>Une déclaration, une vidéo, un chiffre qui circule ? Envoyez-le.</h2>
+  <p>Votre demande devient une discussion publique sur GitHub, où chacun peut apporter des sources ; nous y répondons, et les vérifications faites sont publiées ici. Il faut un compte GitHub, gratuit. Les demandes sont publiques : n'y mettez ni adresse électronique ni téléphone ; pour être prévenu de la réponse, suivez la discussion depuis votre compte.</p>
+  <form id="demande" class="calc" onsubmit="return false">
+    <label for="d-quoi">Ce qu'il faut vérifier : la phrase, le chiffre, ou un lien vers la vidéo ou l'article</label>
+    <textarea id="d-quoi" rows="4" required style="width:100%;font:inherit;padding:8px;border:1px solid var(--trait);border-radius:8px;background:var(--surface);color:inherit"></textarea>
+    <label for="d-qui">Qui l'a dit, où et quand</label>
+    <input id="d-qui" type="text" style="width:100%;font:inherit;padding:8px;border:1px solid var(--trait);border-radius:8px;background:var(--surface);color:inherit">
+    <label for="d-pourquoi">Ce qui vous semble douteux (facultatif)</label>
+    <textarea id="d-pourquoi" rows="3" style="width:100%;font:inherit;padding:8px;border:1px solid var(--trait);border-radius:8px;background:var(--surface);color:inherit"></textarea>
+    <p style="margin-top:14px"><button type="submit" class="bouton" id="d-envoyer" style="border:0;cursor:pointer">Préparer ma demande sur GitHub</button></p>
+    <p class="note">Le bouton ouvre GitHub avec votre demande déjà remplie : il ne reste qu'à la relire et à la publier.</p>
+  </form>
+</div></section>
 </main>
 <footer class="page" style="padding:28px 16px;color:var(--doux);font-size:.85rem">Texte sous licence CC BY-SA 4.0, code et données sous licence MIT. Version de travail. <a href="/detail.html">Modèles, sources et manifeste</a>.</footer>
 <script src="/graphiques-site.js"></script>
+<script>document.getElementById("d-envoyer").addEventListener("click",function(){var q=document.getElementById("d-quoi").value.trim(),w=document.getElementById("d-qui").value.trim(),p=document.getElementById("d-pourquoi").value.trim();
+if(!q){document.getElementById("d-quoi").focus();return}
+var corps="**Ce qu'il faut vérifier**
 
+"+q+"
+
+**Qui l'a dit, où et quand**
+
+"+(w||"(non précisé)")+"
+
+**Ce qui semble douteux**
+
+"+(p||"(non précisé)")+"
+
+_Demande envoyée depuis la page Vérifier du site._";
+var titre="Vérification : "+(w?w+" : ":"")+q.replace(/\s+/g," ").slice(0,70);
+window.open("https://github.com/pierreclr/langagement-politique/issues/new?labels=verification&title="+encodeURIComponent(titre)+"&body="+encodeURIComponent(corps),"_blank","noopener")})</script>
 </body>
 </html>

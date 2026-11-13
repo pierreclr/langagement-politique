@@ -1,0 +1,221 @@
+{
+  "id": "philippe",
+  "nom": "Horizons (Édouard Philippe)",
+  "candidat": "Édouard Philippe",
+  "date": "2026-11-13",
+  "avertissement": "Le programme d'Édouard Philippe n'est pas chiffré par son auteur (12/11/2026). Ce chiffrage est une lecture de notre simulateur : les montants manquants sont fixés par nous, hypothèse par hypothèse, et seront remplacés dès qu'un chiffrage officiel ou indépendant paraîtra.",
+  "documents": [
+    {
+      "titre": "Le programme d'Édouard Philippe, site de campagne (15 pages thématiques, mises à jour le 12 novembre 2026)",
+      "url": "https://www.edouardphilippe.fr/programme",
+      "date": "2026-11-12",
+      "cote": "D",
+      "nature": "programme"
+    },
+    {
+      "titre": "Programme, page « Finances publiques »",
+      "url": "https://www.edouardphilippe.fr/programme/comptes-publics",
+      "date": "2026-11-12",
+      "cote": "D",
+      "nature": "programme"
+    },
+    {
+      "titre": "Programme, page « Entreprises et industrie »",
+      "url": "https://www.edouardphilippe.fr/programme/entreprises",
+      "date": "2026-11-12",
+      "cote": "D",
+      "nature": "programme"
+    },
+    {
+      "titre": "Programme, page « Retraites »",
+      "url": "https://www.edouardphilippe.fr/programme/retraites",
+      "date": "2026-11-12",
+      "cote": "D",
+      "nature": "programme"
+    },
+    {
+      "titre": "Public Sénat : le « deal » de 50 milliards d'impôts de production contre 50 milliards d'aides",
+      "url": "https://www.publicsenat.fr/actualites/economie/entreprises-un-deal-a-250-milliards-deuros-sur-un-quinquennat-que-represente-la-proposition-dedouard-philippe",
+      "date": "2025-11-06",
+      "cote": "C",
+      "nature": "déclaration"
+    }
+  ],
+  "en_bref": "Édouard Philippe a publié son programme le 12/11/2026, thème par thème, sans chiffrage : il vise un déficit ramené à 2 % du PIB en fin de mandat, sous une règle d'or inscrite dans la Constitution, sans nouvel impôt pendant cinq ans. Seul montant budgétaire publié : 50 Md€ d'impôts de production en moins contre 50 Md€ d'aides aux entreprises en moins. Les autres montants de cette fiche sont fixés par nous (hypothèses H-PH1 à H-PH12) et passent par la même règle pour tous.",
+  "vision": "Une France qui remet ses comptes en ordre sans hausse d'impôts, qui produit davantage, qui récompense le travail et les familles, et qui renforce sa sécurité et sa défense.",
+  "methode": "Une règle d'or constitutionnelle votée par référendum ; un effort réparti pour moitié sur les dépenses sociales (retraites à 65 ans et 45 annuités, chômage limité à 12 mois avant 50 ans, trois jours de carence pour tous), pour un quart sur l'État et les collectivités (un départ en retraite sur trois non remplacé, opérateurs fusionnés), pour un quart sur la croissance ; un pacte fiscal de 50 Md€ ; des mesures pour les familles, les professeurs et les heures supplémentaires.",
+  "finances": {
+    "effet_2032_md": -19,
+    "effet_2038_md": -15,
+    "deficit_2038_pct": 8.9,
+    "dette_2032_pct": 139,
+    "dette_2038_pct": 164,
+    "source": "resultats-v2.md, lignes 35, 41, 42 et 44 (tableau du § 1), lignes 65 à 71 (§ 1 bis), lignes 184-185 (§ 4) et § 14 (sensibilité aux hypothèses)",
+    "lecture": "Avec notre lecture des montants et la même règle pour tous, le programme aggrave le solde d'environ 19 Md€ en 2032 et 15 Md€ par an ensuite par rapport au droit actuel ; le déficit est de 7,8 % du PIB en 2032 (7,1 % si rien ne change) et la dette atteint 139 % du PIB en 2032, 164 % en 2038 (157 % si rien ne change, 148 % pour notre système). Selon nos hypothèses, l'effet va de −35 à +2 Md€ par an."
+  },
+  "mesures": [
+    {
+      "titre": "Pacte fiscal : impôts de production en moins",
+      "detail": "50 Md€ par an de baisse, « en un coup, dès le premier projet de loi de finances » ; comptée en entier, comme toutes les baisses d'impôts.",
+      "annonce_md": -50,
+      "estimation_md": -52.8,
+      "ref": "detail-philippe.md#pht1"
+    },
+    {
+      "titre": "Pacte fiscal : aides aux entreprises en moins",
+      "detail": "50 Md€ d'« aides publiques improductives » supprimées, sans liste publiée ; part réalisable de la règle commune (score 2).",
+      "annonce_md": 50,
+      "estimation_md": 34.8,
+      "ref": "detail-philippe.md#ph05"
+    },
+    {
+      "titre": "Retraites à 65 ans et 45 annuités",
+      "detail": "En moins de dix ans, un tiers des assurés partant avant 65 ans ; montant non publié, lu par le modèle des retraites du dépôt (âge effectif +0,7 an, hypothèse H-PH1).",
+      "annonce_md": null,
+      "estimation_md": 16.0,
+      "ref": "detail-philippe.md#ph01"
+    },
+    {
+      "titre": "Un départ en retraite sur trois non remplacé",
+      "detail": "Plus de 250 000 postes sur le quinquennat, sans licenciement ; valorisés au coût d'un recrutement, comme pour LR et notre système (H-PH2).",
+      "annonce_md": null,
+      "estimation_md": 8.4,
+      "ref": "detail-philippe.md#ph02"
+    },
+    {
+      "titre": "Chômage indemnisé 12 mois avant 50 ans",
+      "detail": "Contre 18 mois aujourd'hui ; montant non publié (H-PH3).",
+      "annonce_md": null,
+      "estimation_md": 2.5,
+      "ref": "detail-philippe.md#ph03"
+    },
+    {
+      "titre": "Allocation familiale de 350 € dès le premier enfant",
+      "detail": "Dégressive selon le revenu, elle fusionne des aides existantes ; coût net non publié (H-PH7).",
+      "annonce_md": null,
+      "estimation_md": -6.0,
+      "ref": "detail-philippe.md#phd1"
+    },
+    {
+      "titre": "Salaire des professeurs relevé de 20 %",
+      "detail": "En moyenne sur le quinquennat ; coût non publié (H-PH8).",
+      "annonce_md": null,
+      "estimation_md": -9.2,
+      "ref": "detail-philippe.md#phd2"
+    },
+    {
+      "titre": "Heures supplémentaires sans impôt ni cotisation",
+      "detail": "Au-delà de 35 h pour le salarié, au-delà de 37 h pour l'employeur ; coût non publié (H-PH5).",
+      "annonce_md": null,
+      "estimation_md": -3.0,
+      "ref": "detail-philippe.md#pht2"
+    }
+  ],
+  "themes": {
+    "finances": {
+      "eux": "Règle d'or inscrite dans la Constitution par référendum ; déficit ramené de plus de 5 % à 2 % du PIB en fin de mandat ; aucun nouvel impôt pendant cinq ans ; effort pour moitié sur les dépenses sociales, un quart sur l'État et les collectivités, un quart attendu de la croissance.",
+      "vision": "accord",
+      "methode": "partiel",
+      "pourquoi": "Nous voulons aussi redresser les comptes et nous donner une règle ; notre règle porte sur la dette et nous disons que le déficit reste au-dessus de 3 % plusieurs années. Eux visent 2 % en fin de mandat ; avec notre lecture de leurs mesures et la même règle pour tous, notre simulateur donne 7,8 % en 2032, sans crédit pour la croissance, comme pour tous."
+    },
+    "impots": {
+      "eux": "50 Md€ d'impôts de production en moins contre 50 Md€ d'aides aux entreprises en moins ; heures supplémentaires sans impôt ni cotisation ; pas d'impôt sur le revenu pour les classes moyennes pendant les trois premières années d'un enfant ; aucun nouvel impôt.",
+      "vision": "partiel",
+      "methode": "desaccord",
+      "pourquoi": "Nous voulons aussi alléger ce qui pèse sur la production et trier les aides ; mais nous remplaçons impôts et niches par deux règles uniques, alors que leurs mesures pour le travail et les familles ajoutent des exonérations ciblées."
+    },
+    "retraites": {
+      "eux": "Départ à 65 ans et 45 annuités en moins de dix ans, un tiers des assurés partant plus tôt (carrières longues, handicap, incapacité, invalidité) ; capitalisation collective pour tous les salariés ; 500 € versés par l'État sur un plan d'épargne retraite au premier emploi.",
+      "vision": "partiel",
+      "methode": "desaccord",
+      "pourquoi": "Nous voulons aussi des retraites à l'équilibre et des départs anticipés pour les carrières difficiles ; nous gardons 64 ans et faisons contribuer les hautes pensions, sans capitalisation, quand eux reculent l'âge et ajoutent un étage par capitalisation."
+    },
+    "travail": {
+      "eux": "35 heures plus obligatoires (accords d'entreprise), heures supplémentaires défiscalisées, trois jours de carence pour tous dans le public comme dans le privé, chômage indemnisé 12 mois avant 50 ans, RSA à durée limitée, apprentissage développé.",
+      "vision": "partiel",
+      "methode": "partiel",
+      "pourquoi": "Nous partageons l'idée des mêmes règles pour le public et le privé, que leurs trois jours de carence pour tous appliquent ; nous gardons une indemnisation sans durée réduite et un filet de 877 € par mois, quand eux raccourcissent le chômage et le RSA."
+    },
+    "logement": {
+      "eux": "Prêt à taux zéro à chaque naissance pour faciliter un déménagement ; climatisation des logements sociaux et des lieux accueillant des personnes fragiles (lecture limitée aux pages Famille et Adaptation climatique).",
+      "vision": "partiel",
+      "methode": "desaccord",
+      "pourquoi": "Nous voulons aussi faciliter l'accès à un logement adapté à la famille ; notre moyen est une foncière publique qui donne l'usage d'un logement sans apport, le leur un prêt aidé."
+    },
+    "etat": {
+      "eux": "Un départ en retraite sur trois non remplacé (plus de 250 000 postes, sans licenciement), des dizaines d'opérateurs et d'agences fusionnés ou supprimés, démarches simplifiées par l'IA, moratoire sur les normes et fin de la surtransposition.",
+      "vision": "accord",
+      "methode": "partiel",
+      "pourquoi": "Nous voulons aussi un État plus simple, des organismes regroupés et des postes non renouvelés sans licenciement ; nous misons sur un système d'information public unique et des départs aidés, eux sur un rythme fixe de non-remplacement et des regroupements ou privatisations d'agences."
+    },
+    "economie": {
+      "eux": "Pacte fiscal de 50 Md€, « livret capital France » et capitalisation orientée vers l'innovation, préférence européenne dans l'industrie, prix du carbone aux frontières, 100 000 ingénieurs par an, France championne de la puissance de calcul.",
+      "vision": "partiel",
+      "methode": "desaccord",
+      "pourquoi": "Nous voulons aussi produire davantage en France et compter dans le numérique ; nous créons des entreprises publiques en concurrence, eux misent sur la baisse des impôts de production et l'épargne orientée vers les entreprises."
+    },
+    "democratie": {
+      "eux": "Référendum sur la règle d'or en début de quinquennat ; une vingtaine d'ordonnances en session extraordinaire en juillet 2027 (presse, octobre 2026).",
+      "vision": "partiel",
+      "methode": "desaccord",
+      "pourquoi": "Nous voulons aussi faire voter les citoyens sur les grandes règles ; nous proposons que les lois puissent être proposées par un million de citoyens et votées par tous, eux un référendum ponctuel et un gouvernement par ordonnances au début du mandat."
+    },
+    "energie": {
+      "eux": "Relance du nucléaire, baisse du prix de l'électricité pour les industriels, soutien au véhicule électrique d'occasion, prix du carbone aux frontières européennes, fonds d'adaptation climatique de 2 Md€ par an.",
+      "vision": "accord",
+      "methode": "partiel",
+      "pourquoi": "Nous voulons aussi le nucléaire bas carbone et un prix du carbone aux frontières rejoint notre principe pollueur-payeur ; nous calibrons la fiscalité, eux ajoutent des baisses de prix et des aides ciblées."
+    },
+    "europe": {
+      "eux": "Préférence européenne massive dans l'industrie, Union des marchés de capitaux, pacte européen de puissance numérique, au moins 1 % du PIB des pays européens de l'OTAN en équipements fabriqués en Europe, soutien à l'Ukraine.",
+      "vision": "partiel",
+      "methode": "partiel",
+      "pourquoi": "Nous voulons aussi une Europe plus intégrée et plus forte ; nous proposons une Europe fédérale et votée, eux une intégration par le marché, l'industrie et la défense, sans réforme fédérale lue dans le programme."
+    },
+    "immigration": {
+      "nous": null,
+      "eux": "Immigration divisée par deux, moratoire sur le regroupement familial pendant le quinquennat, dénonciation de l'accord franco-algérien de 1968, aides aux étrangers alignées sur la moyenne européenne ; aucun montant publié.",
+      "vision": "sans objet",
+      "methode": "sans objet",
+      "pourquoi": "Nous n'avons pas de position publiée sur ce thème."
+    }
+  },
+  "ce_qui_est_juste": [
+    "Le diagnostic d'une dette élevée et d'intérêts qui pèsent sur le budget est partagé par nous, comme l'idée d'une règle qui encadre le déficit.",
+    "Le non-remplacement de départs sans licenciement et le regroupement d'opérateurs rejoignent notre propre simplification de l'État.",
+    "Trois jours de carence pour tous, dans le public comme dans le privé : c'est notre principe des mêmes règles pour tous les statuts.",
+    "Une allocation familiale dès le premier enfant, qui fusionne des aides éparpillées, va dans le sens de notre allocation par enfant, plus simple que les prestations actuelles.",
+    "Le nucléaire et un prix du carbone aux frontières européennes rejoignent notre approche de l'énergie (pollueur-payeur).",
+    "Le programme est publié thème par thème avec des paramètres précis (âges, durées, effectifs), ce qui permet de le chiffrer et de le vérifier ligne à ligne dès que les montants paraîtront."
+  ],
+  "points_de_vigilance": [
+    "Aucun montant n'est publié en dehors du pacte fiscal : les autres chiffres de cette fiche sont nos hypothèses (H-PH1 à H-PH12, page de détail), à remplacer dès qu'un chiffrage officiel ou indépendant paraîtra.",
+    "Cible de 2 % du PIB en fin de mandat ; avec notre lecture et la même règle pour tous, le déficit est de 7,8 % en 2032 (7,1 % si rien ne change) : les mesures publiées ne suffisent pas, à notre lecture, à atteindre la cible.",
+    "Le pacte fiscal est présenté comme neutre ; la baisse de 50 Md€ est certaine une fois votée, alors que les 50 Md€ d'aides ne sont pas désignés : la règle commune n'en retient que 35 Md€ en médiane.",
+    "Le quart de l'effort attendu de la croissance n'est pas crédité, comme pour tous les programmes ; les dépenses nouvelles (familles, professeurs, heures supplémentaires : environ 21 Md€ par an à notre lecture) n'ont pas de financement publié ligne à ligne.",
+    "Le rythme de la réforme des retraites et le financement de la capitalisation collective ne sont pas publiés ; si cette capitalisation prend des cotisations au régime actuel, elle coûte pendant une génération."
+  ],
+  "annonce": {
+    "chiffre": false,
+    "effet_md": null,
+    "horizon": "fin du quinquennat",
+    "deficit_cible": "2 % du PIB en fin de mandat",
+    "dette_cible": null,
+    "texte": "Édouard Philippe annonce un déficit ramené de plus de 5 % à 2 % du PIB en fin de mandat, sous une règle d'or inscrite dans la Constitution, sans nouvel impôt pendant cinq ans, avec un pacte fiscal de 50 Md€ présenté comme neutre pour le déficit.",
+    "notre_lecture": "Aucun chiffrage par mesure n'est publié : nous fixons les montants nous-mêmes, nous comptons en entier les baisses d'impôts et les dépenses nouvelles, nous ne retenons qu'une part des économies non détaillées et nous ne créditons pas le quart attendu de la croissance ; le déficit ressort à 7,8 % du PIB en 2032 au lieu des 2 % visés.",
+    "sources": [
+      {
+        "titre": "Programme d'Édouard Philippe, page « Finances publiques »",
+        "url": "https://www.edouardphilippe.fr/programme/comptes-publics",
+        "date": "2026-11-12",
+        "cote": "D"
+      },
+      {
+        "titre": "Programme d'Édouard Philippe, page « Entreprises et industrie »",
+        "url": "https://www.edouardphilippe.fr/programme/entreprises",
+        "date": "2026-11-12",
+        "cote": "D"
+      }
+    ]
+  }
+}

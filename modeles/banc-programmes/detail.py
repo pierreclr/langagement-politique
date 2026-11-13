@@ -3,7 +3,7 @@
 """
 Pages de détail du banc d'essai : le chiffrage poste par poste de chaque programme, et « les mêmes modèles pour tous ».
 
-Écrit (dans ce dossier) : detail-lfi.md, detail-rn.md, detail-lr.md, detail-ps.md, detail-glucksmann.md, detail-langagement.md, memes-modeles.md.
+Écrit (dans ce dossier) : detail-lfi.md, detail-rn.md, detail-lr.md, detail-philippe.md, detail-ps.md, detail-glucksmann.md, detail-langagement.md, memes-modeles.md.
 Ne relance PAS le tirage de Monte-Carlo : lit les définitions des mesures (programmes/<cle>/mesures.py), les résultats
 (pages de détail : donnees/resultats-v2.json, écrits par relancer_v2.py, règle de faisabilité commune de faisabilite.py, depuis le 13/11/2026 ;
 « les mêmes modèles pour tous » et les rappels de la version 1 : donnees/resultats.json, écrits par relancer.py), les caches des modèles (donnees/cache/, mêmes fichiers que le banc),
@@ -30,14 +30,15 @@ import rapport as RP    # noqa: E402
 import faisabilite as FA  # noqa: E402
 
 SITE = 'https://langagement-politique.vercel.app/fr/modeles/'
-PAGES = ('lfi', 'rn', 'lr', 'ps', 'gl', 'langagement')
+PAGES = ('lfi', 'rn', 'lr', 'philippe', 'ps', 'gl', 'langagement')
 FICHIERS = {c: 'detail-%s.md' % c for c in PAGES}
 FICHIERS['gl'] = 'detail-glucksmann.md'
 FICHIERS['memes'] = 'memes-modeles.md'
 COLONNES = ('lfi', 'rn', 'lr', 'ps', 'langagement', 'fil_de_l_eau')
 NOMS = {'lfi': 'La France insoumise', 'rn': 'Rassemblement national', 'lr': 'Les Républicains (plan Retailleau)',
-        'ps': 'PS et Place publique (contre-budget 2027)', 'gl': 'Glucksmann, Place publique (livret climat, chiffrage partiel)', 'langagement': 'notre système', 'fil_de_l_eau': "fil de l'eau"}
-COURTS = {'lfi': 'LFI', 'rn': 'RN', 'lr': 'LR', 'ps': 'PS', 'gl': 'Glucksmann', 'langagement': 'notre système', 'fil_de_l_eau': "fil de l'eau"}
+        'ps': 'PS et Place publique (contre-budget 2027)', 'gl': 'Glucksmann, Place publique (livret climat, chiffrage partiel)', 'langagement': 'notre système', 'fil_de_l_eau': "fil de l'eau",
+        'philippe': 'Horizons, Édouard Philippe (lecture de notre simulateur)'}
+COURTS = {'lfi': 'LFI', 'rn': 'RN', 'lr': 'LR', 'ps': 'PS', 'gl': 'Glucksmann', 'langagement': 'notre système', 'fil_de_l_eau': "fil de l'eau", 'philippe': 'Horizons'}
 
 # ------------------------------------------------------------------ familles de mesures (classement, pas un chiffre)
 FAMILLES = [
@@ -90,6 +91,8 @@ AFFECTATION = {
     'ps': _aff("ir: PS10 ; patrimoine: PS01 PS02 ; entreprises: PS03 ; niches: PS04 PS05 ; salaires: PS09 ; sante: PS06 PS12 ; etat: PS07 ;"
                "services: PS13 PS14 PS15 ; logement: PS11 ; fraude: PS08a PS08b ; autres: PS08c"),
     'gl': _aff("patrimoine: GL02 ; logement: GL01"),
+    'philippe': _aff("ir: PHT3 ; entreprises: PHT1 ; niches: PH05 ; salaires: PHT2 ; retraites: PH01 PHD5 ; prestations: PH03 PHD1 ; sante: PH04 ; effectifs: PH02 PHD2 ;"
+                     "services: PHD3 ; logement: PHD4"),
     'langagement': _aff("ir: M-REV ; capital: M-CAP M-EPAR ; patrimoine: M-PAT M-TRANS M-TH ; entreprises: M-CRED ; niches: M-CONV M-FRP ;"
                         "retraites: M-V6 M-PENS ; prestations: M-GT M-PL M-RESID M-DET ; sante: M-SECU M-GA ; tva: M-TVA M-RESTO M-FO M-FIOUL ;"
                         "effectifs: M-M1 M-M3 ; etat: M-ECO M-URSSAF M-FORM M-GM ; services: M-08 M-OM M-GRAT ; autres: M-FANT"),
@@ -150,7 +153,7 @@ def charger():
     """Données nécessaires aux pages (aucun tirage)."""
     ctx = R.construire_ctx(False)
     progs = {}
-    for cle in COLONNES + ('gl',):
+    for cle in COLONNES + ('gl', 'philippe'):
         p, ms, mod = R.charger_programme(cle)
         if cle != 'langagement':
             ms = R.preparer(ms, ctx)
@@ -324,6 +327,8 @@ def convention(m):
         return 'module'
     v = m.get('valeur', {})
     ids = [h[0] for h in m.get('hypotheses', [])]
+    if m.get('lecture') is not None:
+        return 'lecture'
     if v.get('forme') == 'fixe':
         return 'fixe'
     if v.get('forme') == 'med':
@@ -344,6 +349,8 @@ def libelle_traitement(m):
     v = m.get('valeur', {})
     if c in ('module', 'systeme', 'produit'):
         return MODULES[m['levier']][0]
+    if c == 'lecture':
+        return 'lecture de notre simulateur (%s, montant non publié)' % m['hyp']
     if c == 'fixe':
         return 'valeur fixe (%s)' % nb(v.get('central'))
     if c == 'filtre':
@@ -394,6 +401,8 @@ def texte_lien(cle, m, mod):
         return 'annexe du contre-budget'
     if cle == 'gl':
         return 'livret'
+    if cle == 'philippe':
+        return 'page du programme' if lien.startswith('https://www.edouardphilippe.fr') else 'article cité'
     return 'article cité'
 
 
@@ -408,6 +417,8 @@ def nature_source(cle, m, mod):
                 else "Déclaration rapportée par la presse (cote C) ; le texte du parti n'est pas paru.")
     if cle == 'gl':
         return "Livret « Révolution écologique » (24 p., 09/11/2026), lu en entier (cote D, auteur = le programme)."
+    if cle == 'philippe':
+        return "Page thématique du programme du candidat, « dernière mise à jour le 12 novembre 2026 », lue par résumé automatique de page le 13/11/2026 (cote D, auteur = le programme)."
     return "Article de presse qui rapporte le document du parti, que nous n'avons pas trouvé (montants : cote D, auteur = le programme)."
 
 
@@ -426,6 +437,8 @@ def texte_annonce(cle, m, mod, D=None):
             return '%s Md€ la première année (%s, %s) ; pas de montant de régime publié' % (nb(a), signe, doc[:1].lower() + doc[1:])
         return 'Aucun montant publié par LFI pour cette ligne'
     a = m.get('annonce')
+    if not a and cle == 'philippe':
+        return "Aucun montant publié par le candidat pour cette ligne ; notre lecture : %s Md€ par an (%s)" % (nb(m['lecture']), m['hyp'])
     if not a:
         return "Aucun montant publié par le parti pour cette ligne"
     t = '%s Md€ par an (%s)' % (nb(a), signe)
@@ -526,6 +539,12 @@ def comment(cle, m, D):
         s = ("La fonction de notre modèle qui calcule ce module est rejouée au scénario favorable puis défavorable, tout le reste au central : en 2038, %s Md€ (favorable), "
              "%s (central), %s (défavorable). Ces deux bornes sont lues comme les centiles 10 et 90 ; le module est relié aux autres par le facteur « %s » (poids %s)."
              % (f(fav, 1), f(m['central'], 1), f(dfv, 1), FACTEUR.get(m.get('facteur'), m.get('facteur')), nb(m.get('lambda', 0))))
+    elif c == 'lecture':
+        b, cc, h = m['lecture_bornes']
+        s = ("Le candidat ne publie pas de montant : notre lecture du montant plein est de %s Md€ par an en régime (hypothèse %s, fourchette %s à %s Md€, bornes reprises dans la sensibilité du § 14 de `resultats-v2.md`). "
+             % (nb(cc), m['hyp'], nb(b), nb(h)))
+        s += ("La règle commune s'applique ensuite à ce montant comme à une annonce (point suivant)." if m['sens'] == 'recette'
+              else "Coût compté en entier : loi triangulaire sur ces bornes, élargie au plancher commun des coûts (point suivant).")
     elif c == 'fixe':
         s = "Valeur retenue : %s Md€. Raison : voir la lecture ci-dessous." % nb(v.get('central'))
     elif c == 'filtre':
@@ -577,7 +596,8 @@ def fiabilite(cle, m, D):
          'produit': "Coût unitaire × quantité, sourcés quand c'est possible.", 'fixe': "Laissé à une valeur fixe, avec la raison écrite.",
          'filtre': "Pas de modèle : la médiane est un jugement sur l'annonce, écrit ligne par ligne.", 'montant': "Pas de modèle : montant du parti, repris tel quel.",
          'derive': "Pas de modèle : montant de LFI, repris avec une fourchette.", 'decote': "Pas de modèle : montant de LFI, ramené par une convention.",
-         'grossier': "« Encore grossier » : ordre de grandeur sans source primaire lue.", 'propre': "Pas de modèle : fourchette propre à la ligne."}[c]
+         'grossier': "« Encore grossier » : ordre de grandeur sans source primaire lue.", 'propre': "Pas de modèle : fourchette propre à la ligne.",
+         'lecture': "Montant non publié par le candidat : lecture de notre simulateur, hypothèse écrite et bornée ; à remplacer dès qu'un chiffrage officiel ou indépendant paraît."}[c]
     if c not in ('grossier',) and any(h[0].startswith('H-GROSSIER') for h in m.get('hypotheses', [])):
         t += " Une partie de la ligne est encore « grossière »."
     cotes = sorted({h[3] for h in m.get('hypotheses', []) if h[3]})
@@ -707,7 +727,11 @@ def regle_v2(cle, m, D):
         s = score_v2(cle, i, D)
         t = ("Classée %s. Part réalisable %s (grille commune, la même pour tous les programmes, y compris le nôtre ; convention de Claude ⚠️), tirée avec le facteur « coût » (poids %s) et un aléa propre. "
              % (classement_txt(cle, i), part_txt(s), nb(FA.LAMBDA_PART)))
-        if e is not None and e[2] is not None:
+        if e is not None and e[2] is not None and cle == 'philippe':
+            b, c, h = e[4]
+            src = ("le montant publié par le candidat" if m.get('annonce') else "notre lecture du montant (%s, le candidat n'en publie pas)" % m.get('hyp'))
+            t += "Elle s'applique à %s, %s Md€ : loi de %s à %s Md€, médiane %s." % (src, nb(e[2]), nb(b), nb(h), nb(c))
+        elif e is not None and e[2] is not None:
             b, c, h = e[4]
             t += ("Elle s'applique au plus haut du montant annoncé et de la borne haute de la version 1 (%s Md€) : loi de %s à %s Md€, médiane %s, qui remplace la loi décrite ci-dessus."
                   % (nb(e[2]), nb(b), nb(h), nb(c)))
@@ -718,6 +742,9 @@ def regle_v2(cle, m, D):
         a, b = e[2], e[3]
         if all(abs(x - y) < 1e-9 for x, y in zip(a, b)):
             return "Dépense : la fourchette de la ligne couvre déjà le plancher commun (%s à %s fois le montant du programme) : inchangée." % (nb(FA.COUT_BAS), nb(FA.COUT_HAUT))
+        if cle == 'philippe' and m.get('annonce') is None:
+            return ("Dépense : fourchette de notre hypothèse (%s–%s Md€) élargie au plancher commun (%s à %s fois notre lecture) : %s–%s Md€, valeur la plus probable %s."
+                    % (nb(a[0]), nb(a[2]), nb(FA.COUT_BAS), nb(FA.COUT_HAUT), nb(b[0]), nb(b[2]), nb(b[1])))
         return ("Dépense : fourchette élargie au plancher commun (%s à %s fois le montant du programme) : de %s–%s à %s–%s Md€, valeur la plus probable %s inchangée."
                 % (nb(FA.COUT_BAS), nb(FA.COUT_HAUT), nb(a[0]), nb(a[2]), nb(b[0]), nb(b[2]), nb(b[1])))
     if m['levier'] == 'cout_unitaire':
@@ -878,7 +905,40 @@ def objection_gl(D):
     ]
 
 
-OBJECTIONS = {'lfi': objection_lfi, 'rn': objection_rn, 'lr': objection_lr, 'ps': objection_ps, 'gl': objection_gl, 'langagement': objection_langagement}
+def objection_philippe(D):
+    r = RV('philippe', D)
+    pm = r['par_mesure']
+    S = D['V'].get('sensibilites_philippe', {})
+    fav = S.get('favorable', {}).get('solde_regime', {}).get('p50')
+    return [
+        "**Ce n'est pas leur chiffrage, c'est le nôtre.** Le candidat n'a publié de montant que pour le pacte fiscal ; tous les autres montants de cette page sont nos hypothèses (H-PH1 à H-PH12). "
+        "Il peut répondre, à bon droit, que ses mesures seront calibrées pour tenir la cible de 2 %% du PIB ; tant que les paramètres ne sont pas publiés, la page dit ce que deviennent la dette et le déficit avec notre lecture, pas ce que veut le programme. "
+        "Avec toutes les hypothèses du côté favorable au solde, l'effet en régime serait de %s Md€ (§ 14 de `resultats-v2.md`)." % (f(fav, 0) if fav is not None else '—'),
+        "**Le pacte fiscal est neutre dans leur présentation, pas dans la nôtre.** Les 50 Md€ de baisse d'impôts de production sont comptés en entier ; les 50 Md€ d'aides supprimées, sans liste, passent par la règle commune (score 2 : médiane de %s Md€). "
+        "C'est la même règle que pour les niches de LFI et les exonérations du PS ; une liste précise des aides relèverait le score, et l'écart disparaîtrait en bonne partie." % iv(pm['PH05'], 1),
+        "**La croissance n'est pas créditée.** Le programme attend un quart de l'effort de redressement « de la croissance et de l'emploi » (baisse des impôts de production, heures supplémentaires, retraites plus tardives). "
+        "Le banc ne compte d'effet de croissance pour aucun programme : c'est une règle commune, pas un jugement sur celui-ci, et elle pèse davantage sur un programme qui mise sur l'offre.",
+        "**Les retraites sont lues par notre modèle, dans l'autre sens.** Nous lisons le report à 65 ans et 45 annuités comme une hausse de l'âge effectif de 0,4 à 1 an (H-PH1), valorisée par la grille du modèle des retraites qui sert au RN et à LFI pour les départs avancés : %s Md€ en régime. "
+        "Les dépenses reportées sur le chômage et l'invalidité des seniors ne sont pas retirées (même convention que pour les autres)." % iv(pm['PH01'], 1),
+    ]
+
+
+def hypotheses_philippe(D):
+    """Tableau des hypothèses H-PH fixées par nous, lu dans le fichier des mesures."""
+    mod = D['progs']['philippe'][2]
+    out = ['| Hypothèse | Valeur retenue | Fourchette (bornes de la sensibilité) | Ligne | Motif | Source et cote |', '|---|---|---|---|---|---|']
+    lignes = {}
+    for m in D['progs']['philippe'][1]:
+        for h in m.get('hypotheses', []):
+            lignes.setdefault(h[0], []).append(m['id'])
+    for k, (b, c, h, motif, src, cote, coi) in mod.HYP.items():
+        val = '—' if c is None else nb(c)
+        fo = 'calendrier (voir le motif)' if b is None else '%s à %s' % (nb(b), nb(h))
+        out.append('| %s | %s | %s | %s | %s | %s (cote %s ; %s) |' % (k, val, fo, ', '.join(lignes.get(k, [])) or '—', esc(motif), esc(src), cote, esc(coi)))
+    return out
+
+
+OBJECTIONS = {'lfi': objection_lfi, 'rn': objection_rn, 'lr': objection_lr, 'ps': objection_ps, 'gl': objection_gl, 'langagement': objection_langagement, 'philippe': objection_philippe}
 
 INTRO_SOURCE = {
     'lfi': lambda mod: "Programme lu : *L'Avenir en commun*, édition 2027 (%s), et %s." % (mod.LIEN, mod.DOC.replace('Document', 'le document')),
@@ -886,6 +946,7 @@ INTRO_SOURCE = {
     'lr': lambda mod: "Programme lu : %s (cote D, auteur = le programme)." % mod.SRC_LR,
     'ps': lambda mod: "Programme lu : %s (cote D, auteur = le programme)." % mod.SRC_PS,
     'gl': lambda mod: "Programme lu : %s (cote D, auteur = le programme)." % mod.SRC_GL,
+    'philippe': lambda mod: "Programme lu : %s (cote D, auteur = le programme)." % mod.SRC_PH,
     'langagement': lambda mod: "Programme lu : notre propre modèle du système ([page du modèle](%ssysteme-ideal/)), tel qu'il est exporté pour le banc. Ce n'est pas une annonce indépendante : c'est le chiffrage que nous défendons, et nous le passons dans le même banc que les autres." % SITE,
 }
 
@@ -904,7 +965,7 @@ def non_chiffrees(cle, D):
 def page_programme(cle, D):
     prog, ms, mod = D['progs'][cle]
     r = RV(cle, D)
-    r1 = D['R'][cle]
+    r1 = D['R'].get(cle)      # Philippe : pas de version 1
     pm = r['par_mesure']
     mo = r['moments_par_mesure']
     A = []
@@ -928,6 +989,32 @@ def page_programme(cle, D):
     a('')
     a(INTRO_SOURCE[cle](mod))
     a('')
+    if cle == 'philippe':
+        a('**%s**' % mod.AVERTISSEMENT)
+        a('')
+        a("Le programme publié le 12/11/2026 ne donne que deux montants pour ses comptes (50 Md€ d'impôts de production en moins contre 50 Md€ d'aides aux entreprises en moins) et une cible (déficit de 2 % du PIB en fin de mandat). "
+          "Les autres montants sont fixés par nous, un par un, dans le tableau des hypothèses ci-dessous ; les annonces sans contenu chiffrable restent hors du calcul (liste plus bas). "
+          "Le quart de l'effort que le programme attend de la croissance n'est pas crédité : aucun effet de croissance n'est compté, pour aucun programme. Même règle de faisabilité, mêmes tirages, même graine que pour les autres colonnes.")
+        a('')
+        a('## Les hypothèses fixées par nous (H-PH)')
+        a('')
+        for x in hypotheses_philippe(D):
+            a(x)
+        a('')
+        S = D['V'].get('sensibilites_philippe', {})
+        if S:
+            a('## Sensibilité aux hypothèses')
+            a('')
+            a('| | Hypothèses au central | Toutes à leur borne basse | Toutes à leur borne haute | Économies basses, coûts hauts | Économies hautes, coûts bas |')
+            a('|---|---|---|---|---|---|')
+            cols = [RV('philippe', D)] + [S[v] for v in ('bas', 'haut', 'defavorable', 'favorable')]
+            a('| Effet sur le solde en régime (Md€) | %s |' % ' | '.join(iv(c['solde_regime'], 0) for c in cols))
+            a('| Déficit public 2032 (%% du PIB, médiane) | %s |' % ' | '.join(f(100 * c['serie_deficit_mediane']['2032'], 1) for c in cols))
+            a('| Dette publique 2038 (%% du PIB) | %s |' % ' | '.join(iv({k: 100 * v for k, v in c['dette2038'].items()}, 0) for c in cols))
+            a('')
+            a("Lecture. Dans chaque variante, chaque hypothèse H-PH est fixée à sa borne et seule la fourchette commune du banc reste tirée. Les bornes basse et haute bougent ensemble économies et coûts, qui se compensent en partie ; "
+              "les deux dernières colonnes donnent l'écart utile.")
+            a('')
     if cle == 'gl':
         a("**Chiffrage partiel : à lire avant tout chiffre.** Le livret ne couvre que la partie climat et énergie du projet de Raphaël Glucksmann ; la seconde partie (biodiversité, eau, agriculture, pêche, alimentation, pollutions, santé) est annoncée « dans quelques semaines » "
           "et le programme complet (« Acte Un », 88 pages) n'est pas chiffré. Le livret ne donne que **deux montants** : 200 Md€ d'argent public sur le quinquennat et 50 Md€ de contribution exceptionnelle sur les plus hauts patrimoines, une seule année. "
@@ -962,7 +1049,7 @@ def page_programme(cle, D):
         a('| dont dépenses nouvelles et baisses d\'impôts | %s |' % iv(r['depenses_regime'], 0))
         a('| Somme des médianes des postes ci-dessous | %s |' % f(sm, 0))
         a('| Moyenne du total = somme des moyennes des postes | %s = %s |' % (f(r['moments_solde']['moyenne'], 1), f(smo, 1)))
-        if cle in ('rn', 'lr', 'ps', 'gl'):
+        if cle in ('rn', 'lr', 'ps', 'gl', 'philippe'):
             a('| Somme des montants annoncés par le parti, ligne par ligne (même signe) | %s |' % f(somme_annonces(ms), 0))
         a('| Part des tirages où le programme aggrave le déficit | %s |' % pc(r['part_solde_negatif']))
     a('| Dette publique en 2038 (%% du PIB ; taux d\'intérêt fixe de %s %%) | %s |' % (f(100 * D['ctx']['macros']['reference']['r'], 2), iv({k: 100 * v for k, v in r['dette2038'].items()}, 0)))
@@ -1006,8 +1093,9 @@ def page_programme(cle, D):
     a('')
     a('## La meilleure objection à notre chiffrage')
     a('')
-    sujet = {'lfi': 'La France insoumise', 'rn': 'le Rassemblement national', 'lr': 'Les Républicains', 'ps': 'le PS et Place publique', 'gl': 'Raphaël Glucksmann', 'langagement': 'un contradicteur'}[cle]
-    a("Ce que %s %s opposer à ce chiffrage, dit aussi loyalement que possible :" % (sujet, 'peuvent' if cle in ('lr', 'ps') else 'peut'))
+    sujet = {'lfi': 'La France insoumise', 'rn': 'le Rassemblement national', 'lr': 'Les Républicains', 'ps': 'le PS et Place publique', 'gl': 'Raphaël Glucksmann', 'langagement': 'un contradicteur',
+             'philippe': 'Édouard Philippe et Horizons'}[cle]
+    a("Ce que %s %s opposer à ce chiffrage, dit aussi loyalement que possible :" % (sujet, 'peuvent' if cle in ('lr', 'ps', 'philippe') else 'peut'))
     a('')
     for x in OBJECTIONS[cle](D):
         a('- %s' % x)
@@ -1053,7 +1141,8 @@ def page_programme(cle, D):
                 a('  Composantes (version 1 : tirage à part de 2 000 tirages, § 5 bis de `resultats.md` ; médiane [centiles 10 ; 90]) : %s.'
                   % ' ; '.join('%s : %s' % (COMPOSANTES[k], iv({kk: 100 * vv for kk, vv in x.items()}, 0) + ' %' if k.startswith('part_') else iv(x, 1))
                                for k, x in dn.items() if k in COMPOSANTES))
-            a('- **Comment nous l\'évaluons.** %s%s' % ('*Loi de la version 1, remplacée par la règle v2 (point suivant) :* ' if remplacee_v2(cle, m, D) else '', comment(cle, m, D)))
+            pref = ('*Avant la règle commune :* ' if cle == 'philippe' else '*Loi de la version 1, remplacée par la règle v2 (point suivant) :* ') if remplacee_v2(cle, m, D) else ''
+            a('- **Comment nous l\'évaluons.** %s%s' % (pref, comment(cle, m, D)))
             a('- **Règle v2 (faisabilité commune).** %s' % regle_v2(cle, m, D))
             interp = m.get('interpretation') if cle != 'langagement' else None
             if interp:

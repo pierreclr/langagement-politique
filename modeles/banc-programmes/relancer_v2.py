@@ -18,7 +18,9 @@ import faisabilite as F     # noqa: E402
 import ponts                # noqa: E402
 import taux as T            # noqa: E402
 
-ORDRE = ('lr', 'ps', 'gl', 'rn', 'lfi', 'lfi_cb', 'langagement', 'fil_de_l_eau')       # 'gl' (livret climat de Glucksmann, chiffrage partiel) et 'lfi_cb' (sensibilité : contre-budget 2027 de LFI) ajoutés le 11/11/2026
+ORDRE = ('lr', 'philippe', 'ps', 'gl', 'rn', 'lfi', 'lfi_cb', 'langagement', 'fil_de_l_eau')       # 'gl' (livret climat de Glucksmann, chiffrage partiel) et 'lfi_cb' (sensibilité : contre-budget 2027 de LFI) ajoutés le 11/11/2026 ;
+# 'philippe' (Horizons, programme du 12/11/2026 non chiffré par le candidat : lecture de notre simulateur) ajouté le 13/11/2026. Chaque programme a son propre générateur (random.Random(graine)) :
+# l'ajout d'un programme ne change pas les tirages des autres (test_v2 le vérifie).
 ANNEES_SERIE = list(range(2028, 2046))
 TRANSFERTS_NETS_MD = 99.3551        # sources/calculs/bilan_global.py, M['transferts_nets'] : socle + allocation par enfant - prestations remplacées + plancher (convention du modèle, v5.3) ; ⚠️ à recalculer sur la version actuelle
 PIB_TRANSFERTS = M.PIB_2024
@@ -213,6 +215,25 @@ def sortie(res, par, prog, tirages):
     return out
 
 
+def simuler_programme(cle, ctx, tirages, mesures=None):
+    """Un programme du banc (hors notre système) sous la règle v2 : (sortie, journal). `mesures` remplace les mesures du fichier (variantes de Philippe)."""
+    prog, ms, _ = R.charger_programme(cle)
+    if mesures is not None:
+        ms = [dict(m) for m in mesures]
+    ms = R.preparer(ms, ctx)
+    ms, jr = F.appliquer_programme(cle, ms)
+    ms = R.preparer(ms, ctx)
+    r, p = simuler_generique(prog, ms, ctx, tirages, R.GRAINE)
+    return sortie(r, p, prog, tirages), jr
+
+
+def sensibilites_philippe(ctx, tirages):
+    """Programme d'Édouard Philippe, hypothèses H-PH toutes à leur borne basse, puis haute, puis à la borne défavorable au solde (économies basses, coûts hauts), puis favorable.
+    Même graine, même règle ; seule la fourchette commune reste tirée autour de chaque hypothèse fixée."""
+    _, _, mod = R.charger_programme('philippe')
+    return {v: simuler_programme('philippe', ctx, tirages, mod.construire(v))[0] for v in mod.VARIANTES}
+
+
 def central_systeme(ctx):
     s = ctx['systeme']['systeme']
     eco = ctx['eco']
@@ -261,6 +282,8 @@ def main():
             json.dump(res, f, ensure_ascii=False, indent=1, sort_keys=True)
         print('grille v1 écrite')
         return
+    # sensibilités du programme d'Édouard Philippe (hypothèses H-PH à leurs bornes ; mêmes tirages que la colonne principale)
+    res['sensibilites_philippe'] = sensibilites_philippe(ctx, tirages)
     # sensibilités de notre système (moins de tirages)
     n_s = min(tirages, 3000)
     prog, _, _ = R.charger_programme('langagement')

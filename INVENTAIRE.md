@@ -2,11 +2,11 @@
 
 Liste des fichiers publiés dans ce dépôt (générée automatiquement : ne pas modifier à la main).
 
-1575 fichiers, 42.5 Mo.
+1585 fichiers, 42.8 Mo.
 
 | Dossier | Fichiers | Taille (Ko) |
 |---|---|---|
-| `.github` | 2 | 3 |
+| `.github` | 3 | 3 |
 | `.gitignore` | 1 | 0 |
 | `CONTRIBUTING.md` | 1 | 9 |
 | `LICENSE` | 1 | 1 |
@@ -17,7 +17,7 @@ Liste des fichiers publiés dans ce dépôt (générée automatiquement : ne pas
 | `donnees-brutes` | 7 | 1095 |
 | `modeles/acceleration` | 14 | 132 |
 | `modeles/agriculture` | 15 | 126 |
-| `modeles/banc-programmes` | 70 | 2215 |
+| `modeles/banc-programmes` | 72 | 2402 |
 | `modeles/bascule-existant` | 9 | 109 |
 | `modeles/batisseurs-et-repas` | 8 | 60 |
 | `modeles/capital-commun-retraite` | 7 | 72 |
@@ -52,8 +52,8 @@ Liste des fichiers publiés dans ce dépôt (générée automatiquement : ne pas
 | `outils/droit` | 7 | 117 |
 | `prototypes` | 16 | 341 |
 | `registre-anomalies` | 465 | 3022 |
-| `site` | 40 | 602 |
-| `sources` | 174 | 9763 |
+| `site` | 47 | 717 |
+| `sources` | 174 | 9773 |
 | `sources/calculs` | 52 | 872 |
 
 ## Fichiers volumineux ou tiers non redistribués
@@ -76,6 +76,7 @@ Ces fichiers sont cités par un lien relatif mais ne sont pas (encore) dans le d
 ## Liste complète
 
 - `.github/ISSUE_TEMPLATE/erreur.md`
+- `.github/ISSUE_TEMPLATE/verification.md`
 - `.github/pull_request_template.md`
 - `.gitignore`
 - `CONTRIBUTING.md`
@@ -152,6 +153,7 @@ Ces fichiers sont cités par un lien relatif mais ne sont pas (encore) dans le d
 - `modeles/banc-programmes/detail-langagement.md`
 - `modeles/banc-programmes/detail-lfi.md`
 - `modeles/banc-programmes/detail-lr.md`
+- `modeles/banc-programmes/detail-philippe.md`
 - `modeles/banc-programmes/detail-ps.md`
 - `modeles/banc-programmes/detail-rn.md`
 - `modeles/banc-programmes/detail.py`
@@ -202,6 +204,7 @@ Ces fichiers sont cités par un lien relatif mais ne sont pas (encore) dans le d
 - `modeles/banc-programmes/programmes/lfi/mesures.py`
 - `modeles/banc-programmes/programmes/lfi_cb/mesures.py`
 - `modeles/banc-programmes/programmes/lr/mesures.py`
+- `modeles/banc-programmes/programmes/philippe/mesures.py`
 - `modeles/banc-programmes/programmes/ps/mesures.py`
 - `modeles/banc-programmes/programmes/rn/mesures.py`
 - `modeles/banc-programmes/rapport.py`
@@ -1395,6 +1398,7 @@ Ces fichiers sont cités par un lien relatif mais ne sont pas (encore) dans le d
 - `site/comprendre/programme-gl.html`
 - `site/comprendre/programme-lfi.html`
 - `site/comprendre/programme-lr.html`
+- `site/comprendre/programme-philippe.html`
 - `site/comprendre/programme-ps.html`
 - `site/comprendre/programme-rn.html`
 - `site/comprendre/qui-paie.html`
@@ -1406,6 +1410,7 @@ Ces fichiers sont cités par un lien relatif mais ne sont pas (encore) dans le d
 - `site/donnees/programmes/langagement.json`
 - `site/donnees/programmes/lfi.json`
 - `site/donnees/programmes/lr.json`
+- `site/donnees/programmes/philippe.json`
 - `site/donnees/programmes/ps.json`
 - `site/donnees/programmes/rn.json`
 - `site/entete-site.css`
@@ -1423,7 +1428,12 @@ Ces fichiers sont cités par un lien relatif mais ne sont pas (encore) dans le d
 - `site/tribunes/deux-proprietes.html`
 - `site/tribunes/etat-systeme-information.html`
 - `site/tribunes/orienter-sans-interdire.html`
+- `site/verifier/immigres-pauvrete-retailleau.html`
 - `site/verifier/index.html`
+- `site/verifier/premier-emploi-27-ans-bardella.html`
+- `site/verifier/smic-5-euros-tondelier.html`
+- `site/verifier/smic-emplois-farandou.html`
+- `site/verifier/smic-europe-melenchon.html`
 - `sources/architecture-democratique.md`
 - `sources/assurances-dossier.md`
 - `sources/atlas-taux-marginaux.md`

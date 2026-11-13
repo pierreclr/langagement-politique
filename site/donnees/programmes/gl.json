@@ -161,5 +161,22 @@
   "La contribution exceptionnelle de 50 Md€ n'a ni seuil, ni taux, ni assiette publiés : notre médiane est de 5,5 Md€ (1,0 à 41,0), et la conformité à la Constitution (égalité devant les charges publiques) n'est pas établie.",
   "L'objectif de dette stabilisée en 2032 n'apparaît pas dans notre simulateur avec ces deux montants (143 % du PIB, contre 136 % sans changement) ; il repose sur des mesures non chiffrées.",
   "Le résultat est partiel : biodiversité, eau, agriculture, santé et le programme de 88 pages ne sont pas chiffrés ici, et un programme complet pourrait aggraver ou améliorer ce résultat."
- ]
+ ],
+ "annonce": {
+  "chiffre": false,
+  "effet_md": null,
+  "horizon": "quinquennat (livret climat et énergie seulement)",
+  "deficit_cible": null,
+  "dette_cible": "stabilisée à l'horizon 2032",
+  "texte": "Le livret climat de Place publique annonce 200 Md€ d'argent public sur le quinquennat et une contribution exceptionnelle de 50 Md€ sur les plus hauts patrimoines (une seule année), avec une dette stabilisée à l'horizon 2032 ; le programme complet n'est pas chiffré.",
+  "notre_lecture": "Avec ces deux seuls montants, la dépense de cinq ans pèse plus que la recette d'un an : nous trouvons −36 Md€ sur le solde et une dette de 143 % du PIB en 2032, l'objectif de stabilisation reposant sur des mesures non chiffrées.",
+  "sources": [
+   {
+    "titre": "Révolution écologique : les premiers 100 jours pour sortir des énergies fossiles (livret, pp. 8-9)",
+    "url": "https://glucks2027.fr/wp-content/uploads/2026/11/livret_progr_revolution_ecologique_2027.pdf",
+    "date": "2026-11-09",
+    "cote": "D"
+   }
+  ]
+ }
 }

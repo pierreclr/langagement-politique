@@ -26,7 +26,8 @@ class TestTotaux(unittest.TestCase):
         entete = ligne_tableau('## 1. Tableau comparatif v2', '', RES_V2_MD)
         cells = ligne_tableau('## 1. Tableau comparatif v2', 'Effet sur le solde, en régime', RES_V2_MD)
         col = {'LR (Retailleau)': 'lr', 'PS et Place publique': 'ps', 'Glucksmann, livret climat (chiffrage partiel)': 'gl', 'RN': 'rn', 'LFI (programme complet)': 'lfi',
-               'LFI, contre-budget 2027 (sensibilité)': 'lfi_cb', 'Notre système': 'langagement', "Fil de l'eau": 'fil_de_l_eau'}
+               'LFI, contre-budget 2027 (sensibilité)': 'lfi_cb', 'Notre système': 'langagement', "Fil de l'eau": 'fil_de_l_eau',
+               'Horizons (Philippe), lecture de notre simulateur': 'philippe'}
         vus = set()
         for nom, val in zip(entete[1:], cells[1:]):
             cle = col[nom]

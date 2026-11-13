@@ -98,16 +98,27 @@ function m(R){return A-(A-M0)*Math.exp(-R/K)}
  function X(r){return L+W*r/RM}function Y(t){return T+H-H*t/pm}
  [0,.2,.4,.6].forEach(function(t){el(s,"line",{x1:L,x2:L+W,y1:Y(t),y2:Y(t),stroke:TRAIT});el(s,"text",{x:L-6,y:Y(t),"text-anchor":"end","dominant-baseline":"middle","font-size":11,class:"doux"},fr(t*100)+" %")});
  [0,5000,10000,15000].forEach(function(r){el(s,"text",{x:X(r),y:T+H+16,"text-anchor":"middle","font-size":11,class:"doux"},fr(r)+" €")});
- var d1="",d2="";for(var r=0;r<=RM;r+=100){d1+=(r?"L":"M")+X(r)+","+Y(m(r));if(r>=600)d2+=(d2?"L":"M")+X(r)+","+Y(Math.max(0,C(r)/r));}
- el(s,"path",{d:d1,fill:"none",stroke:ROUGE,"stroke-width":2.5});el(s,"path",{d:d2,fill:"none",stroke:BLEU,"stroke-width":2.5});
+ /* courbes avec le minimum garanti : taux sur l'euro suivant (retrait du complément compris) et taux moyen, complément déduit */
+ function PLc(){var lo=document.getElementById("c-r-loyer");return (lo&&!lo.checked)?627:877}
+ function fil(R){var c0=Math.max(0,PLc()-S);return c0>0?Math.max(0,c0-0.25*(R-(C(R)+S))):0}
+ function meff(R){return fil(R)>0?m(R)+0.25*(1-m(R)):m(R)}
+ var p1=el(s,"path",{fill:"none",stroke:ROUGE,"stroke-width":2.5}),p2=el(s,"path",{fill:"none",stroke:BLEU,"stroke-width":2.5});
+ function dessiner(){var d1="",d2="";for(var r=0;r<=RM;r+=50){d1+=(r?"L":"M")+X(r)+","+Y(meff(r));if(r>=50)d2+=(d2?"L":"M")+X(r)+","+Y(Math.max(0,(C(r)-fil(r))/r));}
+  p1.setAttribute("d",d1);p2.setAttribute("d",d2);}
+ dessiner();
  var pt=el(s,"circle",{r:6,fill:ROUGE}),ln=el(s,"line",{y1:T,y2:T+H,stroke:"var(--encre)","stroke-dasharray":"3 3"});
  var inp=document.getElementById("c-r");if(!inp)return;
  function maj(){var R=+inp.value,c=C(R);document.getElementById("c-r-v").textContent=fr(R)+" €";
+  /* minimum garanti (chapitre 4, modèle bareme_deux_fonctions_v7) : plancher 877 € avec loyer (627 + 250 de part logement), 627 € sinon ;
+     le complément vaut plancher − S à revenu nul et se retire de 25 centimes par euro de gain net (revenu − part prélevée hors S) */
+  var lo=document.getElementById("c-r-loyer"),PL=(lo&&!lo.checked)?627:877,c0=Math.max(0,PL-S),gain=R-(c+S),f=c0>0?Math.max(0,c0-0.25*gain):0;
   document.getElementById("c-r-c").textContent=fr(Math.abs(c))+" €";
-  document.getElementById("c-r-l").textContent=c<0?"vous recevez chaque mois":"vous payez chaque mois";
-  document.getElementById("c-r-n").textContent=fr(R-c)+" €";document.getElementById("c-r-m").textContent=fr(m(R)*100,1)+" %";
-  pt.setAttribute("cx",X(R));pt.setAttribute("cy",Y(m(R)));ln.setAttribute("x1",X(R));ln.setAttribute("x2",X(R));}
- inp.addEventListener("input",maj);maj();})();
+  document.getElementById("c-r-l").textContent=c<0?"versé par la contribution":"vous payez chaque mois";
+  var fe=document.getElementById("c-r-f");if(fe)fe.textContent=f>0?"+"+fr(f)+" €":"0 €";
+  document.getElementById("c-r-n").textContent=fr(R-c+f)+" €";
+  document.getElementById("c-r-m").textContent=fr((f>0?m(R)+0.25*(1-m(R)):m(R))*100,1)+" %";
+  pt.setAttribute("cx",X(R));pt.setAttribute("cy",Y(f>0?m(R)+0.25*(1-m(R)):m(R)));ln.setAttribute("x1",X(R));ln.setAttribute("x2",X(R));}
+ inp.addEventListener("input",maj);var lo2=document.getElementById("c-r-loyer");if(lo2)lo2.addEventListener("change",function(){dessiner();maj()});maj();})();
 
 /* 10. Fonction du patrimoine */
 (function(){var rp=document.getElementById("c-rp"),w=document.getElementById("c-w");if(!rp)return;

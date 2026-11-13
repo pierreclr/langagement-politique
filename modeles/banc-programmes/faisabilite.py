@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 Règle unique de faisabilité du banc d'essai, version 2 (décision de l'auteur du 11/11/2026) : la MÊME règle s'applique à toutes les économies et à toutes les recettes nouvelles de TOUS les programmes
-(La France insoumise, Rassemblement national, Les Républicains, PS, notre système), et la MÊME fourchette à toutes les dépenses nouvelles chiffrées par leur auteur seul.
+(La France insoumise, Rassemblement national, Les Républicains, PS, Glucksmann, Horizons, notre système), et la MÊME fourchette à toutes les dépenses nouvelles chiffrées par leur auteur seul.
 Des ordres de grandeur sous hypothèses, jamais des prédictions. Fonctions pures : aucune lecture de fichier, aucune écriture.
 
 RÈGLE (écrite une fois)
@@ -133,6 +133,14 @@ CLASSEMENT = {
     'gl': {
         'GL02': (0, 0, 0, "contribution exceptionnelle de 50 Md€ sur les plus hauts patrimoines, une seule année : ni seuil, ni taux, ni assiette dans le livret (M 0) ; égalité devant les charges publiques et caractère confiscatoire, levable par la conception (J 0) ; aucun précédent récent en France (E 0)"),
     },
+    # Horizons (Édouard Philippe, programme du 12/11/2026, non chiffré par le candidat) : lecture de notre simulateur (13/11/2026) ; mêmes types, mêmes réponses que les lignes voisines des autres programmes
+    'philippe': {
+        'PH01': (1, 1, 1, "âge légal à 65 ans et 45 annuités : même type que LR12 (réformes de 2010 et 2023 exécutées et chiffrées) ; montant = notre lecture (H-PH1)"),
+        'PH02': (1, 1, 0, "non-remplacement d'un départ sur trois : même type que LR01 et M-M1 (2007-2012 partiellement réalisé)"),
+        'PH03': (1, 1, 0, "chômage limité à 12 mois pour les moins de 50 ans : paramètre précis, aucun obstacle majeur (l'État a fixé les règles par décret en 2019 et 2023) ; réforme de 2023 exécutée mais rendement constaté non relu : E 0 par prudence"),
+        'PH04': (1, 1, 0, "trois jours de carence : même type que LR15 (précédent 2012-2014 aux effets contestés)"),
+        'PH05': (0, 1, 1, "aides aux entreprises « improductives », sans liste : même type que les niches de LFI (R02) et les exonérations du PS (PS04)"),
+    },
     # notre système : un module = une ligne ; F (leviers votés), TR03 et M-M2 sont des lignes du modèle à valeur unique ; SOCLE = ce que les modules n'expliquent pas
     'langagement': {
         'M-PAT': (1, 1, 1, "fonction du patrimoine à 1,25 % de taux marginal maximal (décision du 11/11/2026), plafonnée à 75 % du revenu : M 1 (assiette et mécanisme précis, mais impôt annuel nouveau, ≈ 21 Md€ de recette nette) ; J 1 (taux inférieur au 1,5 % validé par le Conseil constitutionnel en 2012 avec plafonnement, sources/impot-patrimoine-constitutionnel.md ; ⚠️ pas de décision sur ce régime exact) ; E 1 (précédent suisse, ≈ 1,2 % du PIB de recettes ; ⚠️ fragile : avec l'ISF français seul comme précédent, ≈ 5 Md€, E serait 0). Avant le 11/11 : 3 % sans plafonnement, classé (1, 0, 0)"),
@@ -195,7 +203,7 @@ def appliquer_programme(cle, mesures):
             loi = loi_part(s)
             if m['levier'] == 'cout_unitaire':
                 v = m['valeur']
-                a = max(v.get('haut') or 0.0, m.get('annonce') or 0.0)
+                a = max(v.get('haut') or 0.0, m.get('annonce') or 0.0, m.get('lecture') or 0.0)      # `lecture` : montant lu par nous quand le programme n'en publie pas (Philippe)
                 bas = loi['bas'] * a
                 if (v.get('bas') or 0.0) < 0:
                     bas = min(bas, v['bas'])                 # coût de transition négatif conservé (LR13)
@@ -209,7 +217,7 @@ def appliquer_programme(cle, mesures):
             m['score_faisabilite'] = s
         elif m['sens'] == 'depense' and m['levier'] == 'cout_unitaire' and m['valeur'].get('forme') == 'tri':
             v = m['valeur']
-            ref = m.get('annonce') if m.get('annonce') is not None else m.get('an1')
+            ref = m.get('annonce') if m.get('annonce') is not None else (m['lecture'] if m.get('lecture') is not None else m.get('an1'))
             if ref is not None and ref > 0 and abs(v['central'] - ref) < 1e-9:
                 nb, nh = min(v['bas'], COUT_BAS * ref), max(v['haut'], COUT_HAUT * ref)
                 m['valeur'] = {'forme': 'tri', 'bas': nb, 'central': v['central'], 'haut': nh}

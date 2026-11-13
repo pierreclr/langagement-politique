@@ -1,38 +1,182 @@
 {
- "id": "ps", "nom": "Parti socialiste et Place publique (contre-budget 2027)", "candidat": "Raphaël Glucksmann (Place publique), vainqueur de la primaire du 11/10/2026 et soutenu par le PS", "date": "2026-11-13",
+ "id": "ps",
+ "nom": "Parti socialiste et Place publique (contre-budget 2027)",
+ "candidat": "Raphaël Glucksmann (Place publique), vainqueur de la primaire du 11/10/2026 et soutenu par le PS",
+ "date": "2026-11-13",
  "documents": [
-  {"titre": "Budget à l'Assemblée : les socialistes présentent leurs propositions (LCP)", "url": "https://lcp.fr/actualites/budget-a-l-assemblee-les-socialistes-presentent-leurs-propositions-et-previennent-qu-ils", "date": "2026-09-16", "cote": "C", "nature": "budget"},
-  {"titre": "CSG progressive 2027 et Smic net (Selectra)", "url": "https://selectra.info/finance/actualites/marche/csg-progressive-2027-salaire-net-smic", "date": "2026-09-17", "cote": "C", "nature": "budget"},
-  {"titre": "Contre-budget socialiste : Smic à 1 700 €, CSG progressive, taxe Zucman (Investir Mag)", "url": "https://www.investirmag.fr/contre-budget-socialiste-smic-a-1-700-eur-csg-progressive-taxe-zucman/", "date": "2026-09-16", "cote": "D", "nature": "budget"},
-  {"titre": "Budget 2027 : les socialistes présentent leur contre-projet (Moneyvox)", "url": "https://www.moneyvox.fr/impot/actualites/110407/budget-2027-les-socialistes-presentent-leur-contre-projet-et-entretiennent-le-flou-sur-la-censure", "date": "2026-09-16", "cote": "C", "nature": "budget"},
-  {"titre": "Victoire de Raphaël Glucksmann à la primaire socialiste (LCP)", "url": "https://lcp.fr/actualites/victoire-de-raphael-glucksmann-a-la-primaire-socialiste-premieres-reactions-des", "date": "2026-10-11", "cote": "C", "nature": "déclaration"}
+  {
+   "titre": "Budget à l'Assemblée : les socialistes présentent leurs propositions (LCP)",
+   "url": "https://lcp.fr/actualites/budget-a-l-assemblee-les-socialistes-presentent-leurs-propositions-et-previennent-qu-ils",
+   "date": "2026-09-16",
+   "cote": "C",
+   "nature": "budget"
+  },
+  {
+   "titre": "CSG progressive 2027 et Smic net (Selectra)",
+   "url": "https://selectra.info/finance/actualites/marche/csg-progressive-2027-salaire-net-smic",
+   "date": "2026-09-17",
+   "cote": "C",
+   "nature": "budget"
+  },
+  {
+   "titre": "Contre-budget socialiste : Smic à 1 700 €, CSG progressive, taxe Zucman (Investir Mag)",
+   "url": "https://www.investirmag.fr/contre-budget-socialiste-smic-a-1-700-eur-csg-progressive-taxe-zucman/",
+   "date": "2026-09-16",
+   "cote": "D",
+   "nature": "budget"
+  },
+  {
+   "titre": "Budget 2027 : les socialistes présentent leur contre-projet (Moneyvox)",
+   "url": "https://www.moneyvox.fr/impot/actualites/110407/budget-2027-les-socialistes-presentent-leur-contre-projet-et-entretiennent-le-flou-sur-la-censure",
+   "date": "2026-09-16",
+   "cote": "C",
+   "nature": "budget"
+  },
+  {
+   "titre": "Victoire de Raphaël Glucksmann à la primaire socialiste (LCP)",
+   "url": "https://lcp.fr/actualites/victoire-de-raphael-glucksmann-a-la-primaire-socialiste-premieres-reactions-des",
+   "date": "2026-10-11",
+   "cote": "C",
+   "nature": "déclaration"
+  }
  ],
  "en_bref": "Seul un contre-budget annuel du groupe Socialistes et apparentés, présenté le 16/09/2026, est chiffré ; le programme présidentiel du candidat n'est pas publié avec des montants, et nous n'avons pas trouvé le document du groupe lui-même, seulement les montants relayés par la presse. Le contre-budget annonce 39,5 Md€ de recettes nouvelles (impôt minimal sur les très grands patrimoines, CSG sur les gros héritages, taxe sur les géants du numérique, niches sociales), 17,5 Md€ d'économies et de lutte contre la fraude, 22 Md€ de dépenses nouvelles, une CSG progressive et un Smic à 1 700 € net, pour une réduction du déficit annoncée de 24 Md€ en 2027. Dans notre simulateur, lu comme permanent, il aggrave le solde d'environ 15 Md€ par an ; le parti peut contester cette lecture, puisqu'il présente un budget d'une année.",
  "vision": "Une société plus égalitaire, où les plus hauts patrimoines et les gros héritages contribuent davantage, où les salaires modestes augmentent et où l'école, la santé, le climat et la lutte contre les violences sexistes et sexuelles reçoivent des moyens nouveaux.",
  "methode": "Un budget annuel de redistribution : impôts ciblés sur les très hauts patrimoines, les gros héritages et les grands groupes du numérique, baisse de CSG pour les salariés sous 2 700 € net, hausse du Smic, dépenses nouvelles et économies d'organisation ; la trajectoire de la dette est renvoyée à plusieurs années.",
- "finances": {"effet_2032_md": -15, "effet_2038_md": -15, "deficit_2038_pct": 8.9, "dette_2032_pct": 138, "dette_2038_pct": 163, "source": "resultats-v2.md, lignes 35, 41, 42 et 44 (et lignes 174-175)", "lecture": "Dans notre simulateur, avec la même règle pour tous, le contre-budget lu comme permanent aggrave le solde de 15 Md€ par an (intervalle de 80 % : −23 à −7) contre 24 Md€ d'amélioration annoncés pour 2027, et la dette 2038 atteint 163 % du PIB contre 157 % si rien ne change."},
+ "finances": {
+  "effet_2032_md": -15,
+  "effet_2038_md": -15,
+  "deficit_2038_pct": 8.9,
+  "dette_2032_pct": 138,
+  "dette_2038_pct": 163,
+  "source": "resultats-v2.md, lignes 35, 41, 42 et 44 (et lignes 174-175)",
+  "lecture": "Dans notre simulateur, avec la même règle pour tous, le contre-budget lu comme permanent aggrave le solde de 15 Md€ par an (intervalle de 80 % : −23 à −7) contre 24 Md€ d'amélioration annoncés pour 2027, et la dette 2038 atteint 163 % du PIB contre 157 % si rien ne change."
+ },
  "mesures": [
-  {"titre": "CSG progressive sur les revenus d'activité", "detail": "Taux ramené de 9,2 % à 0,55 % au Smic, inchangé au-delà de 2 700 € net, soit environ 130 € par mois de plus au Smic selon la presse.", "annonce_md": -10, "estimation_md": -12.5, "ref": "detail-ps.md#ps10"},
-  {"titre": "Climat et adaptation", "detail": "10 Md€ dont un fonds de sécurité climatique de 5 Md€ et le Fonds vert des collectivités.", "annonce_md": -10, "estimation_md": -10.5, "ref": "detail-ps.md#ps11"},
-  {"titre": "Impôt plancher de 2 % sur les patrimoines de plus de 100 M€", "detail": "Annoncé à 15 Md€ (10 selon une autre source) ; notre module des grandes fortunes tient compte de l'érosion de l'assiette et des départs.", "annonce_md": 15, "estimation_md": 1.9, "ref": "detail-ps.md#ps01"},
-  {"titre": "Taxe sur les géants du numérique", "detail": "Relèvement de la taxe sur les services numériques, annoncé à 10 Md€ sans taux ni assiette publiés.", "annonce_md": 10, "estimation_md": 7.0, "ref": "detail-ps.md#ps03"},
-  {"titre": "CSG sur les gros héritages", "detail": "Calculée sur le total reçu au cours de la vie par chaque héritier, pour les 10 % d'héritiers les plus aisés.", "annonce_md": 10, "estimation_md": 3.5, "ref": "detail-ps.md#ps02"},
-  {"titre": "Accès aux soins", "detail": "Hôpital, Ehpad et mutuelle publique gratuite pour les 18-25 ans (1 Md€).", "annonce_md": -5, "estimation_md": -5.3, "ref": "detail-ps.md#ps12"},
-  {"titre": "Smic à 1 700 € net", "detail": "Aucun coût publié ; nous ne comptons que l'effet sur les finances publiques, pas le coût pour les entreprises.", "annonce_md": null, "estimation_md": -3.5, "ref": "detail-ps.md#ps09"},
-  {"titre": "Révision des exonérations de cotisations sociales", "detail": "Recentrage des niches sociales, lu comme une réduction des allègements au-dessus de 1,6 ou 2 Smic.", "annonce_md": 4, "estimation_md": 2.8, "ref": "detail-ps.md#ps04"}
+  {
+   "titre": "CSG progressive sur les revenus d'activité",
+   "detail": "Taux ramené de 9,2 % à 0,55 % au Smic, inchangé au-delà de 2 700 € net, soit environ 130 € par mois de plus au Smic selon la presse.",
+   "annonce_md": -10,
+   "estimation_md": -12.5,
+   "ref": "detail-ps.md#ps10"
+  },
+  {
+   "titre": "Climat et adaptation",
+   "detail": "10 Md€ dont un fonds de sécurité climatique de 5 Md€ et le Fonds vert des collectivités.",
+   "annonce_md": -10,
+   "estimation_md": -10.5,
+   "ref": "detail-ps.md#ps11"
+  },
+  {
+   "titre": "Impôt plancher de 2 % sur les patrimoines de plus de 100 M€",
+   "detail": "Annoncé à 15 Md€ (10 selon une autre source) ; notre module des grandes fortunes tient compte de l'érosion de l'assiette et des départs.",
+   "annonce_md": 15,
+   "estimation_md": 1.9,
+   "ref": "detail-ps.md#ps01"
+  },
+  {
+   "titre": "Taxe sur les géants du numérique",
+   "detail": "Relèvement de la taxe sur les services numériques, annoncé à 10 Md€ sans taux ni assiette publiés.",
+   "annonce_md": 10,
+   "estimation_md": 7.0,
+   "ref": "detail-ps.md#ps03"
+  },
+  {
+   "titre": "CSG sur les gros héritages",
+   "detail": "Calculée sur le total reçu au cours de la vie par chaque héritier, pour les 10 % d'héritiers les plus aisés.",
+   "annonce_md": 10,
+   "estimation_md": 3.5,
+   "ref": "detail-ps.md#ps02"
+  },
+  {
+   "titre": "Accès aux soins",
+   "detail": "Hôpital, Ehpad et mutuelle publique gratuite pour les 18-25 ans (1 Md€).",
+   "annonce_md": -5,
+   "estimation_md": -5.3,
+   "ref": "detail-ps.md#ps12"
+  },
+  {
+   "titre": "Smic à 1 700 € net",
+   "detail": "Aucun coût publié ; nous ne comptons que l'effet sur les finances publiques, pas le coût pour les entreprises.",
+   "annonce_md": null,
+   "estimation_md": -3.5,
+   "ref": "detail-ps.md#ps09"
+  },
+  {
+   "titre": "Révision des exonérations de cotisations sociales",
+   "detail": "Recentrage des niches sociales, lu comme une réduction des allègements au-dessus de 1,6 ou 2 Smic.",
+   "annonce_md": 4,
+   "estimation_md": 2.8,
+   "ref": "detail-ps.md#ps04"
+  }
  ],
  "themes": {
-  "finances": {"eux": "Un budget annuel qui réduit le déficit de 24 Md€ en 2027 (0,8 point de PIB) par 39,5 Md€ de recettes nouvelles et 17,5 Md€ d'économies, avec 22 Md€ de dépenses nouvelles ; la suite est renvoyée à plusieurs années.", "vision": "partiel", "methode": "desaccord", "pourquoi": "Nous partageons l'objectif de réduire le déficit, mais nous économisons avant toute dépense nouvelle, alors que ce budget finance des dépenses nouvelles par des recettes nouvelles (−15 Md€ dans notre simulateur)."},
-  "impots": {"eux": "Impôt plancher de 2 % sur les patrimoines de plus de 100 M€, CSG sur les gros héritages calculée sur le cumul reçu, CSG progressive pour les salariés sous 2 700 € net, réforme des niches fiscales (4 Md€) et sociales (4 Md€), taxe sur les géants du numérique.", "vision": "accord", "methode": "partiel", "pourquoi": "Nous voulons aussi que les plus hauts patrimoines contribuent davantage et que les niches disparaissent, mais par une règle unique plafonnée à 1,25 % et une règle unique sur tous les revenus, non par un plancher à 2 % et une CSG additionnelle."},
-  "retraites": {"eux": null, "vision": "sans objet", "methode": "sans objet", "pourquoi": "Aucune mesure sur les retraites dans le contre-budget tel que rapporté par la presse que nous avons lue."},
-  "travail": {"eux": "Smic porté à 1 700 € net par mois, conférence sociale sur les salaires et réouverture des négociations de branche, sans coût publié.", "vision": "partiel", "methode": "desaccord", "pourquoi": "Nous partageons le souci des bas salaires, mais nous proposons un filet de 877 € par mois et les mêmes règles pour tous les statuts, sans hausse du Smic."},
-  "logement": {"eux": null, "vision": "sans objet", "methode": "sans objet", "pourquoi": "Aucune mesure sur le logement dans le contre-budget tel que rapporté par la presse que nous avons lue."},
-  "etat": {"eux": "3,6 Md€ d'économies de fonctionnement de l'État, 4 Md€ sur les marges des dépenses de santé, 5 Md€ pour l'accès aux soins et 2 Md€ pour l'école.", "vision": "partiel", "methode": "partiel", "pourquoi": "Nous voulons aussi un État qui coûte moins cher, mais par la fusion des organismes et un système d'information unique, avec des services publics renforcés seulement après les économies."},
-  "economie": {"eux": null, "vision": "sans objet", "methode": "sans objet", "pourquoi": "Pas de volet industriel ou d'entreprises publiques dans le contre-budget rapporté, hors la taxe sur les géants du numérique classée avec les impôts."},
-  "democratie": {"eux": null, "vision": "sans objet", "methode": "sans objet", "pourquoi": "Pas de volet institutionnel dans le contre-budget rapporté par la presse que nous avons lue."},
-  "energie": {"eux": "10 Md€ pour le climat et l'adaptation, dont un fonds de sécurité climatique de 5 Md€ et le Fonds vert des collectivités.", "vision": "partiel", "methode": "desaccord", "pourquoi": "Nous partageons l'objectif de réduire les émissions, mais nous passons par un prix calibré sur le dommage (pollueur-payeur) et le nucléaire bas carbone, non par un fonds de dépense publique."},
-  "europe": {"eux": "Pour le candidat, un fonds européen de défense de 500 Md€ financé par un emprunt commun ; hors budget national.", "vision": "accord", "methode": "partiel", "pourquoi": "Nous voulons aussi une Europe plus intégrée, jusqu'à une fédération ; l'emprunt commun pour la défense est une méthode que nous n'avons pas tranchée dans nos pages publiées."},
-  "immigration": {"eux": null, "vision": "sans objet", "methode": "sans objet", "pourquoi": "Nous n'avons pas de position publiée sur ce thème et le contre-budget n'en porte pas."}
+  "finances": {
+   "eux": "Un budget annuel qui réduit le déficit de 24 Md€ en 2027 (0,8 point de PIB) par 39,5 Md€ de recettes nouvelles et 17,5 Md€ d'économies, avec 22 Md€ de dépenses nouvelles ; la suite est renvoyée à plusieurs années.",
+   "vision": "partiel",
+   "methode": "desaccord",
+   "pourquoi": "Nous partageons l'objectif de réduire le déficit, mais nous économisons avant toute dépense nouvelle, alors que ce budget finance des dépenses nouvelles par des recettes nouvelles (−15 Md€ dans notre simulateur)."
+  },
+  "impots": {
+   "eux": "Impôt plancher de 2 % sur les patrimoines de plus de 100 M€, CSG sur les gros héritages calculée sur le cumul reçu, CSG progressive pour les salariés sous 2 700 € net, réforme des niches fiscales (4 Md€) et sociales (4 Md€), taxe sur les géants du numérique.",
+   "vision": "accord",
+   "methode": "partiel",
+   "pourquoi": "Nous voulons aussi que les plus hauts patrimoines contribuent davantage et que les niches disparaissent, mais par une règle unique plafonnée à 1,25 % et une règle unique sur tous les revenus, non par un plancher à 2 % et une CSG additionnelle."
+  },
+  "retraites": {
+   "eux": null,
+   "vision": "sans objet",
+   "methode": "sans objet",
+   "pourquoi": "Aucune mesure sur les retraites dans le contre-budget tel que rapporté par la presse que nous avons lue."
+  },
+  "travail": {
+   "eux": "Smic porté à 1 700 € net par mois, conférence sociale sur les salaires et réouverture des négociations de branche, sans coût publié.",
+   "vision": "partiel",
+   "methode": "desaccord",
+   "pourquoi": "Nous partageons le souci des bas salaires, mais nous proposons un filet de 877 € par mois et les mêmes règles pour tous les statuts, sans hausse du Smic."
+  },
+  "logement": {
+   "eux": null,
+   "vision": "sans objet",
+   "methode": "sans objet",
+   "pourquoi": "Aucune mesure sur le logement dans le contre-budget tel que rapporté par la presse que nous avons lue."
+  },
+  "etat": {
+   "eux": "3,6 Md€ d'économies de fonctionnement de l'État, 4 Md€ sur les marges des dépenses de santé, 5 Md€ pour l'accès aux soins et 2 Md€ pour l'école.",
+   "vision": "partiel",
+   "methode": "partiel",
+   "pourquoi": "Nous voulons aussi un État qui coûte moins cher, mais par la fusion des organismes et un système d'information unique, avec des services publics renforcés seulement après les économies."
+  },
+  "economie": {
+   "eux": null,
+   "vision": "sans objet",
+   "methode": "sans objet",
+   "pourquoi": "Pas de volet industriel ou d'entreprises publiques dans le contre-budget rapporté, hors la taxe sur les géants du numérique classée avec les impôts."
+  },
+  "democratie": {
+   "eux": null,
+   "vision": "sans objet",
+   "methode": "sans objet",
+   "pourquoi": "Pas de volet institutionnel dans le contre-budget rapporté par la presse que nous avons lue."
+  },
+  "energie": {
+   "eux": "10 Md€ pour le climat et l'adaptation, dont un fonds de sécurité climatique de 5 Md€ et le Fonds vert des collectivités.",
+   "vision": "partiel",
+   "methode": "desaccord",
+   "pourquoi": "Nous partageons l'objectif de réduire les émissions, mais nous passons par un prix calibré sur le dommage (pollueur-payeur) et le nucléaire bas carbone, non par un fonds de dépense publique."
+  },
+  "europe": {
+   "eux": "Pour le candidat, un fonds européen de défense de 500 Md€ financé par un emprunt commun ; hors budget national.",
+   "vision": "accord",
+   "methode": "partiel",
+   "pourquoi": "Nous voulons aussi une Europe plus intégrée, jusqu'à une fédération ; l'emprunt commun pour la défense est une méthode que nous n'avons pas tranchée dans nos pages publiées."
+  },
+  "immigration": {
+   "eux": null,
+   "vision": "sans objet",
+   "methode": "sans objet",
+   "pourquoi": "Nous n'avons pas de position publiée sur ce thème et le contre-budget n'en porte pas."
+  }
  },
  "ce_qui_est_juste": [
   "Les dépenses nouvelles (22 Md€) et les économies d'organisation (niches, fonctionnement, fraude) sont modestes et annoncées avec des montants ; une partie de ces économies est plausible dans notre simulateur, même si elle est inférieure aux 17,5 Md€ annoncés.",
@@ -45,5 +189,34 @@
   "La taxe sur les géants du numérique est annoncée à 10 Md€ alors que la taxe actuelle rapporte de l'ordre de 0,7 à 0,8 Md€ (ordre de grandeur non relu en source primaire) ; risque de représailles commerciales et de report sur les clients.",
   "La CSG progressive coûterait plutôt 12,5 Md€ que 10 Md€ dans notre calcul approché, qui n'est pas une microsimulation et que le parti peut contester.",
   "Aucun programme chiffré du candidat n'existe, et le budget d'une année est lu ici comme permanent : le déficit resterait autour de 6,2 % du PIB en régime, et la dette de 163 % du PIB en 2038 contre 157 % si rien ne change."
- ]
+ ],
+ "annonce": {
+  "chiffre": true,
+  "effet_md": 24,
+  "horizon": "2027 (contre-budget annuel)",
+  "deficit_cible": "déficit réduit de 0,8 point de PIB en 2027, soit 4,9 % du PIB",
+  "dette_cible": null,
+  "texte": "Le groupe socialiste annonce une réduction du déficit de 24 Md€ en 2027 (39,5 Md€ de recettes, 17,5 Md€ d'économies et de lutte contre la fraude, 22 Md€ de dépenses nouvelles), sans trajectoire de dette chiffrée.",
+  "notre_lecture": "Les recettes et économies annoncées ne sont retenues qu'en partie alors que les dépenses nouvelles et la CSG progressive sont comptées en entier : l'effet ressort à −15 Md€ en régime.",
+  "sources": [
+   {
+    "titre": "Moneyvox, contre-budget des socialistes",
+    "url": "https://www.moneyvox.fr/impot/actualites/110407/budget-2027-les-socialistes-presentent-leur-contre-projet-et-entretiennent-le-flou-sur-la-censure",
+    "date": "2026-09-16",
+    "cote": "C"
+   },
+   {
+    "titre": "Selectra, CSG progressive et contre-budget",
+    "url": "https://selectra.info/finance/actualites/marche/csg-progressive-2027-salaire-net-smic",
+    "date": "2026-09-17",
+    "cote": "C"
+   },
+   {
+    "titre": "LCP, les socialistes présentent leurs propositions",
+    "url": "https://lcp.fr/actualites/budget-a-l-assemblee-les-socialistes-presentent-leurs-propositions-et-previennent-qu-ils",
+    "date": "2026-09-16",
+    "cote": "C"
+   }
+  ]
+ }
 }

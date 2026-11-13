@@ -4,8 +4,20 @@
   "candidat": "Jean-Luc Mélenchon",
   "date": "2026-11-13",
   "documents": [
-    {"titre": "L'Avenir en commun, édition 2027 (livre du programme)", "url": "https://melenchon2027.fr/programme/livre/", "date": "2026", "cote": "D", "nature": "programme"},
-    {"titre": "Comment nous allons remettre de l'ordre dans les comptes publics (24 p.)", "url": "https://melenchon2027.fr/wp-content/uploads/2026/10/Comment-nous-allons-remettre-de-l-ordre-dans-les-comptes-publics.pdf", "date": "2026-10-14", "cote": "D", "nature": "budget"}
+    {
+      "titre": "L'Avenir en commun, édition 2027 (livre du programme)",
+      "url": "https://melenchon2027.fr/programme/livre/",
+      "date": "2026",
+      "cote": "D",
+      "nature": "programme"
+    },
+    {
+      "titre": "Comment nous allons remettre de l'ordre dans les comptes publics (24 p.)",
+      "url": "https://melenchon2027.fr/wp-content/uploads/2026/10/Comment-nous-allons-remettre-de-l-ordre-dans-les-comptes-publics.pdf",
+      "date": "2026-10-14",
+      "cote": "D",
+      "nature": "budget"
+    }
   ],
   "en_bref": "La France insoumise propose une refonte large du modèle économique et social : retraite à 60 ans, Smic à 1 700 € net, « 100 % Sécu », garantie d'emploi, renationalisations, impôts plus progressifs sur le revenu, le patrimoine et les grandes entreprises. Son document budgétaire d'octobre 2026 annonce 106,4 Md€ de recettes et 81,7 Md€ de dépenses la première année, soit 24,7 Md€ de réduction du déficit, et dit lui-même ne pas chiffrer l'ensemble du programme. Le parti propose aussi une 6e République, avec constituante, référendum d'initiative citoyenne et proportionnelle.",
   "vision": "Une société où les besoins de chacun sont garantis (revenu au niveau du seuil de pauvreté, santé prise en charge à 100 %, logement, éducation), avec moins d'inégalités de richesse et une bifurcation écologique planifiée.",
@@ -30,14 +42,62 @@
     }
   },
   "mesures": [
-    {"titre": "Retraite à 60 ans à taux plein (40 annuités)", "detail": "Abrogation de la réforme de 2023 et suppression de la décote ; notre estimation suppose qu'une partie seulement des assurés part à 60 ans (âge effectif moyen central 61,5 ans).", "annonce_md": -9, "estimation_md": -55.2, "ref": "detail-lfi.md#d05"},
-    {"titre": "« 100 % Sécu »", "detail": "Soins pris en charge à 100 %, fin des franchises, arrêts maladie à 100 % sans carence.", "annonce_md": null, "estimation_md": -30.3, "ref": "detail-lfi.md#d07"},
-    {"titre": "Planification écologique de l'État", "detail": "Rénovation de 700 000 logements par an, bâtiments publics, sécurité civile.", "annonce_md": -10, "estimation_md": -24.3, "ref": "detail-lfi.md#d14"},
-    {"titre": "Pension minimale au niveau du Smic", "detail": "Pension de carrière complète au Smic revalorisé et minimum vieillesse au seuil de pauvreté ; environ 4,2 millions de retraités concernés.", "annonce_md": null, "estimation_md": -23.0, "ref": "detail-lfi.md#p01"},
-    {"titre": "Garantie d'autonomie", "detail": "Revenu de chaque personne porté au seuil de pauvreté (1 337 €), d'abord pour les jeunes.", "annonce_md": -9.5, "estimation_md": -20.5, "ref": "detail-lfi.md#d04"},
-    {"titre": "Point d'indice +10 %", "detail": "Hausse du point d'indice de la fonction publique, avec compensation des collectivités.", "annonce_md": -17, "estimation_md": -19.8, "ref": "detail-lfi.md#d01"},
-    {"titre": "Rabot des niches fiscales et sociales", "detail": "Suppression de niches jugées injustes, dont le crédit d'impôt recherche et le pacte Dutreil ; recette de LFI ramenée par la même règle que pour tous.", "annonce_md": 22, "estimation_md": 15.4, "ref": "detail-lfi.md#r02"},
-    {"titre": "Successions : plafond d'héritage de 12 M€", "detail": "Exonération sous 150 000 € et plafond de 12 M€ sur ce qu'une personne reçoit ; notre estimation tient compte de la planification et des départs.", "annonce_md": 20, "estimation_md": 8.6, "ref": "detail-lfi.md#r05"}
+    {
+      "titre": "Retraite à 60 ans à taux plein (40 annuités)",
+      "detail": "Abrogation de la réforme de 2023 et suppression de la décote ; notre estimation suppose qu'une partie seulement des assurés part à 60 ans (âge effectif moyen central 61,5 ans).",
+      "annonce_md": -9,
+      "estimation_md": -55.2,
+      "ref": "detail-lfi.md#d05"
+    },
+    {
+      "titre": "« 100 % Sécu »",
+      "detail": "Soins pris en charge à 100 %, fin des franchises, arrêts maladie à 100 % sans carence.",
+      "annonce_md": null,
+      "estimation_md": -30.3,
+      "ref": "detail-lfi.md#d07"
+    },
+    {
+      "titre": "Planification écologique de l'État",
+      "detail": "Rénovation de 700 000 logements par an, bâtiments publics, sécurité civile.",
+      "annonce_md": -10,
+      "estimation_md": -24.3,
+      "ref": "detail-lfi.md#d14"
+    },
+    {
+      "titre": "Pension minimale au niveau du Smic",
+      "detail": "Pension de carrière complète au Smic revalorisé et minimum vieillesse au seuil de pauvreté ; environ 4,2 millions de retraités concernés.",
+      "annonce_md": null,
+      "estimation_md": -23.0,
+      "ref": "detail-lfi.md#p01"
+    },
+    {
+      "titre": "Garantie d'autonomie",
+      "detail": "Revenu de chaque personne porté au seuil de pauvreté (1 337 €), d'abord pour les jeunes.",
+      "annonce_md": -9.5,
+      "estimation_md": -20.5,
+      "ref": "detail-lfi.md#d04"
+    },
+    {
+      "titre": "Point d'indice +10 %",
+      "detail": "Hausse du point d'indice de la fonction publique, avec compensation des collectivités.",
+      "annonce_md": -17,
+      "estimation_md": -19.8,
+      "ref": "detail-lfi.md#d01"
+    },
+    {
+      "titre": "Rabot des niches fiscales et sociales",
+      "detail": "Suppression de niches jugées injustes, dont le crédit d'impôt recherche et le pacte Dutreil ; recette de LFI ramenée par la même règle que pour tous.",
+      "annonce_md": 22,
+      "estimation_md": 15.4,
+      "ref": "detail-lfi.md#r02"
+    },
+    {
+      "titre": "Successions : plafond d'héritage de 12 M€",
+      "detail": "Exonération sous 150 000 € et plafond de 12 M€ sur ce qu'une personne reçoit ; notre estimation tient compte de la planification et des départs.",
+      "annonce_md": 20,
+      "estimation_md": 8.6,
+      "ref": "detail-lfi.md#r05"
+    }
   ],
   "themes": {
     "finances": {
@@ -119,5 +179,22 @@
     "Les recettes de la première année sont annoncées brutes : l'ISF rétabli (10 Md€ annoncés) rapporte 2,2 Md€ et les successions (20 Md€ annoncés) 13,5 Md€ dans notre estimation, à cause de l'érosion de l'assiette et des départs ; la fourchette reste large (successions : −0,6 à 31 Md€).",
     "Le contre-budget 2027 laisse de côté le Smic à 1 700 €, la retraite à 60 ans à plein effet, « 100 % Sécu », la garantie d'emploi et les nationalisations ; c'est un chiffrage plus étroit, qui ramène le déficit à 9,7 % du PIB en 2038 dans notre simulateur au lieu de 19,0 %.",
     "Les montants annoncés sont ceux de la première année : sur les 8 mesures les plus lourdes, 2 n'ont aucun montant annoncé et 6 en ont un (retraite à 60 ans : 9 Md€ annoncés pour 55 Md€ dans notre estimation) ; l'effet d'une relance sur les recettes, avec les multiplicateurs de la littérature, ramènerait l'effet à −149 Md€, qui reste négatif."
-  ]
+  ],
+  "annonce": {
+    "chiffre": false,
+    "effet_md": 24.7,
+    "horizon": "2027 (contre-budget annuel ; programme complet non chiffré dans son ensemble)",
+    "deficit_cible": null,
+    "dette_cible": null,
+    "texte": "LFI publie un contre-budget 2027 qui annonce 24,7 Md€ de réduction du déficit (106,4 Md€ de recettes, 81,7 Md€ de dépenses) et dit lui-même ne pas chiffrer le programme complet.",
+    "notre_lecture": "Avec la même règle pour tous, nous retenons une part seulement des recettes annoncées et comptons les dépenses certaines en entier : le contre-budget donne −35 Md€ sur le solde et le programme complet −249 Md€ en 2032.",
+    "sources": [
+      {
+        "titre": "Comment nous allons remettre de l'ordre dans les comptes publics (24 p.)",
+        "url": "https://melenchon2027.fr/wp-content/uploads/2026/10/Comment-nous-allons-remettre-de-l-ordre-dans-les-comptes-publics.pdf",
+        "date": "2026-10-14",
+        "cote": "D"
+      }
+    ]
+  }
 }

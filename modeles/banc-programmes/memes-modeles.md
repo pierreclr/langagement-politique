@@ -7,7 +7,7 @@ statut: généré par detail.py (ne pas éditer à la main) ; ordres de grandeur
 
 Le banc d'essai chiffre six colonnes avec le même moteur : La France insoumise, le Rassemblement national, Les Républicains (plan Retailleau), le contre-budget 2027 du PS et de Place publique, notre système et le fil de l'eau (le droit actuel). La règle est simple : **quand deux mesures se ressemblent, elles passent par le même modèle, avec les mêmes paramètres**. Cette page dit, famille par famille, si c'est vrai, en le vérifiant dans le code, et elle liste franchement les cas où ce n'est pas vrai. L'auteur est partie prenante de la comparaison : les écarts qui nous avantagent sont dits comme les autres. Ce sont des ordres de grandeur sous hypothèses, jamais des prédictions.
 
-Pages de détail : [La France insoumise](./detail-lfi.md), [Rassemblement national](./detail-rn.md), [Les Républicains (plan Retailleau)](./detail-lr.md), [PS et Place publique (contre-budget 2027)](./detail-ps.md), [Glucksmann, Place publique (livret climat, chiffrage partiel)](./detail-glucksmann.md), [notre système](./detail-langagement.md).
+Pages de détail : [La France insoumise](./detail-lfi.md), [Rassemblement national](./detail-rn.md), [Les Républicains (plan Retailleau)](./detail-lr.md), [Horizons, Édouard Philippe (lecture de notre simulateur)](./detail-philippe.md), [PS et Place publique (contre-budget 2027)](./detail-ps.md), [Glucksmann, Place publique (livret climat, chiffrage partiel)](./detail-glucksmann.md), [notre système](./detail-langagement.md).
 
 ## Le tableau : quel modèle pour quelle famille de mesures
 
