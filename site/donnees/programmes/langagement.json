@@ -1,0 +1,25 @@
+{
+  "id": "langagement",
+  "nom": "Langagement politique",
+  "note": "Colonne « nous » commune à toutes les comparaisons. Uniquement des positions déjà publiques (site, page Le programme, manifeste) ; aucune position privée ou non validée. Écrit par Claude le 13/11/2026.",
+  "vision": "Un pays plus juste, où la naissance décide moins du destin : la justice comme but.",
+  "methode": "Les outils d'une économie de marché : rentabilité, concurrence, incitation à contribuer ; économiser avant d'investir, et ne dépenser que ce qu'on a économisé : l'efficacité comme méthode.",
+  "themes": {
+    "finances": "Redresser d'abord : simplifier l'État et supprimer les niches avant toute dépense nouvelle. Effet sur le déficit : +16 Md€ par an en 2032, +62 Md€ en 2038 ; dette 148 % du PIB en 2038 (157 % si rien ne change).",
+    "impots": "Deux règles remplacent impôts et cotisations : une sur tous les revenus, travail et capital compris, sans tranches ni niches ; une sur le patrimoine, 1,25 % au maximum, qui remplace la taxe foncière, l'IFI et les droits de mutation. Fin des niches (≈ 19 Md€ par an).",
+    "retraites": "On garde 64 ans. Les retraités les plus aisés contribuent sur les hautes pensions adossées à un gros patrimoine. Un départ plus libre quand les comptes le permettront.",
+    "travail": "Les mêmes règles pour tous les statuts ; un contrat de travail commun au public et au privé, droits acquis garantis ; un filet de 877 € par mois pour une personne seule.",
+    "logement": "Une foncière publique : au premier emploi stable, le droit d'acquérir l'usage à vie d'un logement, sans apport, moins cher qu'un loyer ; le logement reste un bien commun (schéma à l'étude).",
+    "etat": "Une seule application pour toutes les démarches, un seul système d'information pour l'État, des organismes fusionnés, des postes devenus inutiles non renouvelés (départs volontaires aidés, formation).",
+    "economie": "Des entreprises publiques rentables et en concurrence, financées par les économies : le numérique public d'abord (1 Md€ par an pris sur le crédit d'impôt recherche), puis la production en France, les travaux publics ; transports urbains gratuits.",
+    "democratie": "Des ministres élus un par un ; des lois proposées par les citoyens (un million de signatures) et votées par tous (adoptées à 60 %) ; un référendum sur la nouvelle organisation.",
+    "energie": "Calibrer la fiscalité plutôt qu'interdire (pollueur-payeur) ; le nucléaire bas carbone comme atout.",
+    "europe": "Une Europe fédérale, votée et plus démocratique ; ni sortie de l'UE ni sortie de l'euro.",
+    "immigration": null
+  },
+  "themes_libelles": {
+    "finances": "Finances publiques", "impots": "Impôts et niches", "retraites": "Retraites", "travail": "Travail et salaires",
+    "logement": "Logement", "etat": "État et services publics", "economie": "Économie et industrie", "democratie": "Démocratie et institutions",
+    "energie": "Énergie et climat", "europe": "Europe", "immigration": "Immigration et sécurité"
+  }
+}

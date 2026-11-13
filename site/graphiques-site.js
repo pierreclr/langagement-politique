@@ -125,4 +125,8 @@ function m(R){return A-(A-M0)*Math.exp(-R/K)}
   el(s,"text",{x:r[0]+90,y:r[1]+52,"text-anchor":"middle","font-size":12.5},r[3]);el(s,"text",{x:r[0]+90,y:r[1]+70,"text-anchor":"middle","font-size":12.5},r[4]);});
  [[200,65,230,65],[410,65,440,65],[530,110,530,150],[440,195,410,195],[230,195,200,195],[110,150,110,110]].forEach(function(a){el(s,"line",{x1:a[0],y1:a[1],x2:a[2]-(a[2]>a[0]?2:a[2]<a[0]?-2:0),y2:a[3]-(a[3]>a[1]?2:a[3]<a[1]?-2:0),stroke:"var(--doux)","stroke-width":2,"marker-end":"url(#fl)"})});
 })();
+
+/* Graphiques déclarés dans la page : <svg data-graph="barres" data-lignes='[[libellé, valeur, couleur, [bas, haut] ou null, texte], …]' data-max data-lw data-ref> */
+document.querySelectorAll('svg[data-graph="barres"]').forEach(function(s,k){if(!s.id)s.id="g-auto-"+k;
+ barres(s.id,JSON.parse(s.getAttribute("data-lignes")),{max:+s.getAttribute("data-max")||100,lw:+s.getAttribute("data-lw")||210,h:+s.getAttribute("data-h")||40,ref:s.getAttribute("data-ref")?+s.getAttribute("data-ref"):null});});
 })();

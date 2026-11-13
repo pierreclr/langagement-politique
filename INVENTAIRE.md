@@ -2,7 +2,7 @@
 
 Liste des fichiers publiés dans ce dépôt (générée automatiquement : ne pas modifier à la main).
 
-1544 fichiers, 41.8 Mo.
+1558 fichiers, 42.0 Mo.
 
 | Dossier | Fichiers | Taille (Ko) |
 |---|---|---|
@@ -52,7 +52,7 @@ Liste des fichiers publiés dans ce dépôt (générée automatiquement : ne pas
 | `outils/droit` | 7 | 117 |
 | `prototypes` | 16 | 341 |
 | `registre-anomalies` | 465 | 3022 |
-| `site` | 11 | 114 |
+| `site` | 25 | 338 |
 | `sources` | 174 | 9763 |
 | `sources/calculs` | 52 | 872 |
 
@@ -1384,15 +1384,29 @@ Ces fichiers sont cités par un lien relatif mais ne sont pas (encore) dans le d
 - `registre-anomalies/selection-manifeste.md`
 - `site/approche.html`
 - `site/comparer.html`
+- `site/comprendre/index.html`
+- `site/comprendre/programme-gl.html`
+- `site/comprendre/programme-lfi.html`
+- `site/comprendre/programme-lr.html`
+- `site/comprendre/programme-ps.html`
+- `site/comprendre/programme-rn.html`
 - `site/constat.html`
 - `site/detail.html`
+- `site/donnees/programmes/gl.json`
+- `site/donnees/programmes/langagement.json`
+- `site/donnees/programmes/lfi.json`
+- `site/donnees/programmes/lr.json`
+- `site/donnees/programmes/ps.json`
+- `site/donnees/programmes/rn.json`
 - `site/etudes.html`
+- `site/generateur/rubriques.py`
 - `site/graphiques-site.css`
 - `site/graphiques-site.js`
 - `site/grece.html`
 - `site/index.html`
 - `site/programme.html`
 - `site/redressement.css`
+- `site/verifier/index.html`
 - `sources/architecture-democratique.md`
 - `sources/assurances-dossier.md`
 - `sources/atlas-taux-marginaux.md`

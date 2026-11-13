@@ -1,0 +1,165 @@
+{
+ "id": "gl",
+ "nom": "Place publique, livret climat « Révolution écologique »",
+ "candidat": "Raphaël Glucksmann",
+ "date": "2026-11-13",
+ "documents": [
+  {
+   "titre": "Révolution écologique : les premiers 100 jours pour sortir des énergies fossiles (livret de 24 pages)",
+   "url": "https://glucks2027.fr/wp-content/uploads/2026/11/livret_progr_revolution_ecologique_2027.pdf",
+   "date": "2026-11-09",
+   "cote": "D",
+   "nature": "programme"
+  }
+ ],
+ "en_bref": "Le livret présenté le 9 novembre 2026 ne couvre que le climat et l'énergie ; la seconde partie (biodiversité, eau, agriculture, santé) est annoncée pour plus tard, et le programme complet n'est pas chiffré. Il annonce 200 Md€ d'argent public sur le quinquennat et une contribution exceptionnelle de 50 Md€ sur les plus hauts patrimoines, une seule année. Notre chiffrage ne porte donc que sur ces deux montants : il ne dit pas ce que coûterait le programme entier.",
+ "vision": "Sortir des énergies fossiles et atteindre la neutralité carbone en 2050, en doublant les capacités renouvelables d'ici 2035, avec des mesures de soutien au pouvoir d'achat (chèque énergie, leasing social, pompes à chaleur).",
+ "methode": "Un investissement public massif de 200 Md€ sur cinq ans pour entraîner l'investissement privé, financé en partie par une contribution exceptionnelle sur les plus hauts patrimoines et par un emprunt européen ; le livret vise une dette stabilisée à l'horizon 2032.",
+ "finances": {
+  "effet_2032_md": -42,
+  "effet_2038_md": 0,
+  "deficit_2038_pct": 8.4,
+  "dette_2032_pct": 143,
+  "dette_2038_pct": 164,
+  "source": "resultats-v2.md, lignes 65 à 71 (§ 1 bis) et ligne 176 (§ 4)",
+  "lecture": "Avec ces deux seuls montants, notre simulateur trouve une dette en hausse de 2028 à 2032 (143 % du PIB en 2032, contre 136 % si rien ne change) ; l'effet est nul en 2038 parce que rien n'est chiffré après le quinquennat, pas parce que le programme serait neutre."
+ },
+ "mesures": [
+  {
+   "titre": "Investissement public climat : 200 Md€ sur le quinquennat",
+   "detail": "Lus comme 40 Md€ par an de 2028 à 2032, en plus du budget actuel (hypothèse haute : le texte ne dit pas si une partie est déjà au budget).",
+   "annonce_md": -40,
+   "estimation_md": -41.1,
+   "ref": "detail-glucksmann.md#gl01"
+  },
+  {
+   "titre": "Contribution exceptionnelle sur les plus hauts patrimoines : 50 Md€, une seule année",
+   "detail": "Le livret ne donne ni seuil, ni taux, ni assiette ; notre médiane est de 5,5 Md€ (intervalle à 80 % : 1,0 à 41,0), faute de mécanisme décrit.",
+   "annonce_md": 50,
+   "estimation_md": 5.5,
+   "ref": "detail-glucksmann.md#gl02"
+  },
+  {
+   "titre": "Chèque énergie de 500 € (6 millions de familles) et 200 € (10 millions)",
+   "detail": "Environ 5 Md€ par notre calcul, présentés par le livret comme un emploi des 200 Md€ : non ajoutés.",
+   "annonce_md": null,
+   "estimation_md": null,
+   "ref": "detail-glucksmann.md#ce-que-nous-n-avons-pas-pu-chiffrer"
+  },
+  {
+   "titre": "Leasing social, pompes à chaleur, covoiturage, pass mobilité jeunes",
+   "detail": "1 million de véhicules électriques à 100 €/mois, 1 million de pompes à chaleur à 1 €/jour, 5 000 lignes de covoiturage : aucun montant annoncé, probablement inclus dans les 200 Md€.",
+   "annonce_md": null,
+   "estimation_md": null,
+   "ref": "detail-glucksmann.md#ce-que-nous-n-avons-pas-pu-chiffrer"
+  },
+  {
+   "titre": "Rénovation des écoles, collèges et lycées",
+   "detail": "4 000 écoles primaires par an et plus de 2 800 collèges et lycées : aucun montant annoncé.",
+   "annonce_md": null,
+   "estimation_md": null,
+   "ref": "detail-glucksmann.md#ce-que-nous-n-avons-pas-pu-chiffrer"
+  },
+  {
+   "titre": "Livret de souveraineté écologique et sociale",
+   "detail": "Fusion du livret A et du LDDS, plafond doublé, rémunération à 2,5 % : aucun montant, effet sur le déficit non établi.",
+   "annonce_md": null,
+   "estimation_md": null,
+   "ref": "detail-glucksmann.md#ce-que-nous-n-avons-pas-pu-chiffrer"
+  },
+  {
+   "titre": "Fiscalité de l'aérien et superprofits pétroliers",
+   "detail": "Fin des exonérations sur le carburant des vols intérieurs, hausse de la taxe sur les billets, taxe européenne sur les superprofits pétroliers et gaziers : aucun montant annoncé.",
+   "annonce_md": null,
+   "estimation_md": null,
+   "ref": "detail-glucksmann.md#ce-que-nous-n-avons-pas-pu-chiffrer"
+  },
+  {
+   "titre": "Grand emprunt européen pour la transition",
+   "detail": "Aucun montant ; hors budget national, donc non compté dans notre résultat.",
+   "annonce_md": null,
+   "estimation_md": null,
+   "ref": "detail-glucksmann.md#ce-que-nous-n-avons-pas-pu-chiffrer"
+  }
+ ],
+ "themes": {
+  "finances": {
+   "eux": "Stabiliser la dette à l'horizon 2032 tout en investissant 200 Md€ dans la transition ; l'objectif repose sur des mesures que le livret ne chiffre pas.",
+   "vision": "partiel",
+   "methode": "partiel",
+   "pourquoi": "Nous voulons aussi une dette qui baisse, mais nous économisons avant d'investir ; le livret investit d'abord, et avec ses deux montants notre simulateur trouve 143 % du PIB en 2032 contre 136 % sans changement."
+  },
+  "impots": {
+   "eux": "Une contribution exceptionnelle de 50 Md€, une seule année, sur une infime minorité de foyers aux plus hauts patrimoines ; moratoire sur les hausses de taxes sur l'électricité.",
+   "vision": "partiel",
+   "methode": "desaccord",
+   "pourquoi": "Nous partageons l'idée de faire contribuer davantage les très grands patrimoines, mais par une règle permanente plafonnée à 1,25 % ; une contribution unique sans taux ni assiette publiés n'est pas la même méthode."
+  },
+  "retraites": {
+   "eux": null,
+   "vision": "sans objet",
+   "methode": "sans objet",
+   "pourquoi": "Le livret climat ne traite pas des retraites."
+  },
+  "travail": {
+   "eux": null,
+   "vision": "sans objet",
+   "methode": "sans objet",
+   "pourquoi": "Le livret climat ne traite pas du travail ni des salaires."
+  },
+  "logement": {
+   "eux": "Rénovation énergétique des bâtiments, pompes à chaleur à 1 € par jour pour un million de ménages, rénovation de 4 000 écoles primaires par an.",
+   "vision": "partiel",
+   "methode": "sans objet",
+   "pourquoi": "Nous n'avons pas de position publiée sur la rénovation thermique ; notre proposition porte sur l'accès à l'usage d'un logement, que le livret ne traite pas."
+  },
+  "etat": {
+   "eux": null,
+   "vision": "sans objet",
+   "methode": "sans objet",
+   "pourquoi": "Le livret climat ne traite pas de l'organisation de l'État."
+  },
+  "economie": {
+   "eux": "Un investissement public pour entraîner l'investissement privé dans les énergies renouvelables et les mobilités propres, avec un livret d'épargne fléché vers la transition.",
+   "vision": "partiel",
+   "methode": "partiel",
+   "pourquoi": "Nous voulons aussi bâtir des entreprises publiques et une production en France, mais financées par des économies préalables, alors que le livret annonce 200 Md€ sans dire lesquels sont nouveaux."
+  },
+  "democratie": {
+   "eux": null,
+   "vision": "sans objet",
+   "methode": "sans objet",
+   "pourquoi": "Le livret climat ne traite pas des institutions."
+  },
+  "energie": {
+   "eux": "Sortir des énergies fossiles, neutralité carbone en 2050, capacités renouvelables doublées d'ici 2035, prix de l'électricité qui ne progresse pas plus vite que l'inflation.",
+   "vision": "accord",
+   "methode": "partiel",
+   "pourquoi": "Nous partageons l'objectif de décarbonation ; nous préférons calibrer la fiscalité (pollueur-payeur) plutôt que subventionner massivement, et nous comptons le nucléaire bas carbone comme un atout, ce que nous n'avons pas relevé dans le livret."
+  },
+  "europe": {
+   "eux": "Un grand emprunt européen pour la transition et une taxe européenne sur les superprofits pétroliers et gaziers.",
+   "vision": "accord",
+   "methode": "partiel",
+   "pourquoi": "Nous voulons aussi une Europe fédérale ; la méthode de l'emprunt commun n'est pas dans notre proposition, et le livret ne dit pas comment obtenir l'unanimité européenne qu'une telle taxe suppose probablement."
+  },
+  "immigration": {
+   "eux": null,
+   "vision": "sans objet",
+   "methode": "sans objet",
+   "pourquoi": "Le livret climat ne traite pas de ce sujet."
+  }
+ },
+ "ce_qui_est_juste": [
+  "Le livret nomme ses deux seuls montants et dit lui-même que le chiffrage du programme complet viendra plus tard : le périmètre est annoncé, pas caché.",
+  "Faire contribuer les plus grands patrimoines et décarboner l'énergie sont deux buts que nous partageons ; l'écart porte sur le moyen.",
+  "Le livret fixe un objectif daté et vérifiable (dette stabilisée à l'horizon 2032), ce qui permet de le comparer aux résultats.",
+  "Les mesures de pouvoir d'achat (chèque énergie, leasing social, pompes à chaleur) répondent à une objection réelle : la transition ne passe que si les ménages modestes peuvent la payer."
+ ],
+ "points_de_vigilance": [
+  "Si les 200 Md€ sont entièrement nouveaux, le livret ajoute environ 41 Md€ de dépenses par an de 2028 à 2032 ; si la moitié est déjà au budget, ce coût est surestimé de moitié (le texte ne tranche pas).",
+  "La contribution exceptionnelle de 50 Md€ n'a ni seuil, ni taux, ni assiette publiés : notre médiane est de 5,5 Md€ (1,0 à 41,0), et la conformité à la Constitution (égalité devant les charges publiques) n'est pas établie.",
+  "L'objectif de dette stabilisée en 2032 n'apparaît pas dans notre simulateur avec ces deux montants (143 % du PIB, contre 136 % sans changement) ; il repose sur des mesures non chiffrées.",
+  "Le résultat est partiel : biodiversité, eau, agriculture, santé et le programme de 88 pages ne sont pas chiffrés ici, et un programme complet pourrait aggraver ou améliorer ce résultat."
+ ]
+}

@@ -1,0 +1,123 @@
+{
+  "id": "lfi",
+  "nom": "La France insoumise",
+  "candidat": "Jean-Luc Mélenchon",
+  "date": "2026-11-13",
+  "documents": [
+    {"titre": "L'Avenir en commun, édition 2027 (livre du programme)", "url": "https://melenchon2027.fr/programme/livre/", "date": "2026", "cote": "D", "nature": "programme"},
+    {"titre": "Comment nous allons remettre de l'ordre dans les comptes publics (24 p.)", "url": "https://melenchon2027.fr/wp-content/uploads/2026/10/Comment-nous-allons-remettre-de-l-ordre-dans-les-comptes-publics.pdf", "date": "2026-10-14", "cote": "D", "nature": "budget"}
+  ],
+  "en_bref": "La France insoumise propose une refonte large du modèle économique et social : retraite à 60 ans, Smic à 1 700 € net, « 100 % Sécu », garantie d'emploi, renationalisations, impôts plus progressifs sur le revenu, le patrimoine et les grandes entreprises. Son document budgétaire d'octobre 2026 annonce 106,4 Md€ de recettes et 81,7 Md€ de dépenses la première année, soit 24,7 Md€ de réduction du déficit, et dit lui-même ne pas chiffrer l'ensemble du programme. Le parti propose aussi une 6e République, avec constituante, référendum d'initiative citoyenne et proportionnelle.",
+  "vision": "Une société où les besoins de chacun sont garantis (revenu au niveau du seuil de pauvreté, santé prise en charge à 100 %, logement, éducation), avec moins d'inégalités de richesse et une bifurcation écologique planifiée.",
+  "methode": "Une action forte de l'État : planification, services et entreprises publics, renationalisations, hausse du Smic et des pensions, financées par de nouveaux impôts sur les hauts revenus, les patrimoines et les grandes entreprises, et par la suspension des règles budgétaires européennes jugées bloquantes.",
+  "finances": {
+    "effet_2032_md": -249,
+    "effet_2038_md": -254,
+    "deficit_2038_pct": 19.0,
+    "dette_2032_pct": 169,
+    "dette_2038_pct": 241,
+    "source": "resultats-v2.md, lignes 35, 41, 44 (tableau du § 1) et ligne 180 (trajectoire du § 4)",
+    "lecture": "Programme complet : dans notre simulateur, 100 % des tirages aggravent le déficit, de 249 Md€ par an en 2032 (intervalle à 80 % : −287 à −211), pour une dette de 241 % du PIB en 2038 contre 157 % si rien ne change ; le contre-budget 2027, plus étroit (14 lignes de dépenses), donne −35 Md€, un déficit de 9,7 % et une dette de 170 % en 2038.",
+    "contre_budget_2027": {
+      "effet_2032_md": -35,
+      "effet_2038_md": -35,
+      "deficit_2038_pct": 9.7,
+      "dette_2032_pct": 142,
+      "dette_2038_pct": 170,
+      "source": "resultats-v2.md, lignes 35, 41, 44 (colonne « LFI, contre-budget 2027 ») et ligne 182 (trajectoire)",
+      "annonce_parti": "106,4 Md€ de recettes, 81,7 Md€ de dépenses, réduction du déficit de 24,7 Md€ la première année (document du 14/10/2026, p. 6, 12-14)",
+      "lecture": "Le document ne tient pas ses 24,7 Md€ dans notre simulateur : la même règle pour tous ramène ses recettes à 52 Md€ en médiane et ses dépenses, lues comme permanentes, à 87 Md€."
+    }
+  },
+  "mesures": [
+    {"titre": "Retraite à 60 ans à taux plein (40 annuités)", "detail": "Abrogation de la réforme de 2023 et suppression de la décote ; notre estimation suppose qu'une partie seulement des assurés part à 60 ans (âge effectif moyen central 61,5 ans).", "annonce_md": -9, "estimation_md": -55.1, "ref": "detail-lfi.md#d05"},
+    {"titre": "« 100 % Sécu »", "detail": "Soins pris en charge à 100 %, fin des franchises, arrêts maladie à 100 % sans carence.", "annonce_md": null, "estimation_md": -30.4, "ref": "detail-lfi.md#d07"},
+    {"titre": "Planification écologique de l'État", "detail": "Rénovation de 700 000 logements par an, bâtiments publics, sécurité civile.", "annonce_md": -10, "estimation_md": -24.4, "ref": "detail-lfi.md#d14"},
+    {"titre": "Pension minimale au niveau du Smic", "detail": "Pension de carrière complète au Smic revalorisé et minimum vieillesse au seuil de pauvreté ; environ 4,2 millions de retraités concernés.", "annonce_md": null, "estimation_md": -22.9, "ref": "detail-lfi.md#p01"},
+    {"titre": "Garantie d'autonomie", "detail": "Revenu de chaque personne porté au seuil de pauvreté (1 337 €), d'abord pour les jeunes.", "annonce_md": -9.5, "estimation_md": -20.4, "ref": "detail-lfi.md#d04"},
+    {"titre": "Point d'indice +10 %", "detail": "Hausse du point d'indice de la fonction publique, avec compensation des collectivités.", "annonce_md": -17, "estimation_md": -19.8, "ref": "detail-lfi.md#d01"},
+    {"titre": "Rabot des niches fiscales et sociales", "detail": "Suppression de niches jugées injustes, dont le crédit d'impôt recherche et le pacte Dutreil ; recette de LFI ramenée par la même règle que pour tous.", "annonce_md": 22, "estimation_md": 14.8, "ref": "detail-lfi.md#r02"},
+    {"titre": "Successions : plafond d'héritage de 12 M€", "detail": "Exonération sous 150 000 € et plafond de 12 M€ sur ce qu'une personne reçoit ; notre estimation tient compte de la planification et des départs.", "annonce_md": 20, "estimation_md": 13.5, "ref": "detail-lfi.md#r05"}
+  ],
+  "themes": {
+    "finances": {
+      "eux": "Un document budgétaire pour 2027 qui chiffre 106,4 Md€ de recettes et 81,7 Md€ de dépenses d'urgence, et la suspension des règles européennes de déficit jugées bloquantes ; il précise ne pas constituer un chiffrage complet du programme.",
+      "vision": "partiel",
+      "methode": "desaccord",
+      "pourquoi": "Nous partageons l'objectif de transparence sur les comptes, mais notre simulateur donne −249 Md€ par an pour le programme complet (−35 Md€ pour le contre-budget) là où nous plaçons les économies avant toute dépense nouvelle."
+    },
+    "impots": {
+      "eux": "Un barème d'impôt sur le revenu à 14 tranches, fin de la flat tax, ISF rétabli et renforcé, garantie d'impôt de 2 % pour les patrimoines de plus de 100 M€, cotisation sociale universelle fusionnée avec la CSG, suppression de niches.",
+      "vision": "accord",
+      "methode": "partiel",
+      "pourquoi": "Les deux textes veulent imposer le capital comme le travail, taxer davantage les très grands patrimoines et supprimer des niches ; LFI le fait par des tranches et des taux plus élevés, nous par une règle continue et une règle unique sur le patrimoine plafonnée à 1,25 %."
+    },
+    "retraites": {
+      "eux": "Retraite à 60 ans à taux plein avec 40 annuités, abrogation de la réforme de 2023, pension de carrière complète au niveau du Smic, minimum vieillesse au seuil de pauvreté.",
+      "vision": "partiel",
+      "methode": "desaccord",
+      "pourquoi": "Nous partageons l'attention aux petites pensions, mais nous gardons 64 ans, alors que le départ à 60 ans coûte 55 Md€ par an dans notre estimation."
+    },
+    "travail": {
+      "eux": "Smic à 1 700 € net immédiatement, garantie d'emploi, 35 heures avec 32 heures pour les métiers pénibles, sixième semaine de congés payés, encadrement des contrats précaires et écart de salaires de 1 à 20.",
+      "vision": "partiel",
+      "methode": "desaccord",
+      "pourquoi": "Nous voulons aussi protéger les revenus des plus modestes, mais par un filet de 877 € et une règle commune aux statuts plutôt que par une hausse du Smic (coût public estimé à 6 Md€ et 91 000 emplois perdus en médiane) et un emploi garanti."
+    },
+    "logement": {
+      "eux": "200 000 logements publics par an, rénovation de 700 000 logements par an, garantie universelle des loyers, encadrement des loyers, APL +10 %, taxe unique sur les logements vacants.",
+      "vision": "accord",
+      "methode": "partiel",
+      "pourquoi": "Les deux textes veulent un accès durable au logement et une garantie des loyers ; LFI passe par la construction et la rénovation publiques financées par le budget, nous par une foncière publique et un permis automatique."
+    },
+    "etat": {
+      "eux": "Point d'indice +10 %, titularisation des contractuels, dotations des collectivités indexées, moratoire sur les fermetures de services publics, publicité des aides aux grandes entreprises.",
+      "vision": "partiel",
+      "methode": "desaccord",
+      "pourquoi": "Nous partageons la transparence sur l'argent public, mais nous cherchons des services simplifiés et fusionnés sans hausse générale des salaires, alors que LFI augmente les moyens (point d'indice : 20 Md€ par an dans notre estimation)."
+    },
+    "economie": {
+      "eux": "Un « nouveau collectivisme » : pôles publics (banque, assurance), retour sur les privatisations (autoroutes, aéroports), renationalisation de la SNCF, d'Engie et d'ArcelorMittal France, plan de reconstruction industrielle, droits de douane écologiques.",
+      "vision": "partiel",
+      "methode": "desaccord",
+      "pourquoi": "Nous voulons aussi des entreprises publiques dans le numérique et la production, mais rentables et en concurrence ; LFI nationalise des groupes existants (environ 129 Md€ de capital engagé dans notre estimation) et nous ne le proposons pas."
+    },
+    "democratie": {
+      "eux": "6e République avec constituante, référendum d'initiative citoyenne, proportionnelle, fin du 49.3, vote à 16 ans, vote obligatoire.",
+      "vision": "accord",
+      "methode": "partiel",
+      "pourquoi": "Les deux textes donnent aux citoyens un pouvoir de proposition et de décision directe ; nous prévoyons des lois votées par tous à 60 %, des ministres élus un par un et une application de vote."
+    },
+    "energie": {
+      "eux": "Planification écologique, fin des subventions aux énergies fossiles, tarifs réglementés, renationalisation d'Engie, droits de douane écologiques, blocage du prix des carburants à 1,70 € le litre.",
+      "vision": "partiel",
+      "methode": "desaccord",
+      "pourquoi": "Nous partageons la fin des subventions fossiles, mais nous calibrons le prix sur le dommage plutôt que de planifier et de bloquer les prix ; le blocage des carburants coûte entre 0 et 12,5 Md€ selon les prix de marché dans notre estimation."
+    },
+    "europe": {
+      "eux": "Suspension des règles budgétaires européennes jugées bloquantes (dont les 3 % de déficit), conditionnement de la contribution française, dette détenue par la BCE en titres perpétuels à taux nul.",
+      "vision": "partiel",
+      "methode": "desaccord",
+      "pourquoi": "Nous voulons aussi une Europe plus démocratique, mais nous respectons le cadre budgétaire européen alors que LFI propose de s'en écarter."
+    },
+    "immigration": {
+      "nous": null,
+      "eux": "Droit du sol intégral, droit de vote des étrangers aux élections locales, plan contre le racisme et les discriminations (1 Md€), fin de l'enfermement des mineurs en rétention ; sur la sécurité, interdiction des tasers et des lanceurs de balles de défense pour la police du quotidien, récépissé de contrôle.",
+      "vision": "sans objet",
+      "methode": "sans objet",
+      "pourquoi": "Nous n'avons pas de position publiée sur ce thème ; nous ne comparons donc pas."
+    }
+  },
+  "ce_qui_est_juste": [
+    "Le diagnostic d'un impôt moins lourd sur le capital que sur le travail rejoint le nôtre : la fin de la flat tax et la suppression de niches (22 Md€ annoncés, 14,8 Md€ dans notre estimation) figurent aussi dans notre programme.",
+    "Le document budgétaire est public, ligne par ligne (37 lignes) : les 81,7 Md€ de dépenses et les 106,4 Md€ de recettes se retrouvent par addition, et le texte dit lui-même qu'il ne chiffre pas tout le programme.",
+    "L'attention aux petites pensions, au revenu plancher, aux frais de santé et au logement répond à des difficultés réelles ; la pension minimale concerne environ 4,2 millions de retraités à carrière complète.",
+    "L'initiative citoyenne, la transparence des aides aux entreprises et les contrôles de police (récépissé, autorité indépendante) vont dans le sens de nos propres propositions."
+  ],
+  "points_de_vigilance": [
+    "Dans notre simulateur, le programme complet aggrave le déficit dans 100 % des tirages : −249 Md€ par an en 2032, déficit de 19,0 % du PIB et dette de 241 % en 2038 (157 % si rien ne change) ; les nationalisations ajoutent 129 Md€ de capital engagé, donc de dette, sans toucher au déficit.",
+    "Les recettes de la première année sont annoncées brutes : l'ISF rétabli (10 Md€ annoncés) rapporte 2,2 Md€ et les successions (20 Md€ annoncés) 13,5 Md€ dans notre estimation, à cause de l'érosion de l'assiette et des départs ; la fourchette reste large (successions : −0,6 à 31 Md€).",
+    "Le contre-budget 2027 laisse de côté le Smic à 1 700 €, la retraite à 60 ans à plein effet, « 100 % Sécu », la garantie d'emploi et les nationalisations ; c'est un chiffrage plus étroit, qui ramène le déficit à 9,7 % du PIB en 2038 dans notre simulateur au lieu de 19,0 %.",
+    "Les montants annoncés sont ceux de la première année : sur les 8 mesures les plus lourdes, 2 n'ont aucun montant annoncé et 6 en ont un (retraite à 60 ans : 9 Md€ annoncés pour 55 Md€ dans notre estimation) ; l'effet d'une relance sur les recettes, avec les multiplicateurs de la littérature, ramènerait l'effet à −149 Md€, qui reste négatif."
+  ]
+}

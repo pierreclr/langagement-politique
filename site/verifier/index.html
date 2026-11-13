@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Vérifier</title>
+<meta name="description" content="Des déclarations et des vidéos politiques vérifiées point par point : ce qui est vrai, ce qui est faux, ce qui est omis, avec les sources.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Source+Serif+4:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/redressement.css">
+<link rel="stylesheet" href="/graphiques-site.css">
+<style>
+.v{display:inline-block;font-size:.74rem;font-weight:700;border-radius:999px;padding:2px 9px;white-space:nowrap}
+.v-accord{background:var(--vert-doux);color:var(--vert)}.v-partiel{background:var(--ambre-doux);color:var(--ambre)}
+.v-desaccord{background:#fbe9ec;color:var(--rouge)}.v-sans{background:var(--fond);color:var(--doux);border:1px solid var(--trait)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .v-desaccord{background:#2a1b1e}}
+.matrice{overflow-x:auto;margin-top:18px;border:1px solid var(--trait);border-radius:12px;background:var(--surface)}
+.matrice table{min-width:720px;font-size:.88rem}.matrice td,.matrice th{vertical-align:top;padding:10px}
+.matrice td .v{display:block;margin:0 0 4px;text-align:center}
+.matrice th.theme{min-width:150px}.matrice td a .v{font-size:.7rem}
+.cle{display:flex;flex-wrap:wrap;gap:8px 16px;font-size:.88rem;color:var(--doux);margin-top:10px}
+.fiches{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:20px}
+.fiches article{background:var(--surface);border:1px solid var(--trait);border-radius:14px;padding:18px}
+.fiches h3{font-family:var(--serif);font-size:1.25rem;margin:0 0 6px}
+.fiches p{font-size:.95rem;margin:0 0 8px}.fiches ul{margin:4px 0 10px;padding-left:18px;font-size:.93rem}
+@media (max-width:760px){.fiches{grid-template-columns:1fr}}
+.onglets{display:flex;gap:6px;border-bottom:2px solid var(--trait);margin:26px 0 0;flex-wrap:wrap}
+.onglets button{background:none;border:0;border-bottom:3px solid transparent;margin-bottom:-2px;padding:10px 14px;font:inherit;font-weight:700;color:var(--doux);cursor:pointer}
+.onglets button[aria-selected=true]{color:var(--accent);border-bottom-color:var(--accent)}
+.panneau[hidden]{display:none}
+.chiffres4{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:18px}
+.chiffres4 div{border-left:3px solid var(--accent);padding:2px 0 2px 12px}.chiffres4 b{display:block;font-family:var(--serif);font-size:1.4rem}
+.chiffres4 span{font-size:.85rem;color:var(--doux)}
+@media (max-width:760px){.chiffres4{grid-template-columns:1fr 1fr}}
+.liste-dossiers{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:16px}
+.liste-dossiers a{display:block;background:var(--surface);border:1px solid var(--trait);border-radius:14px;padding:16px;text-decoration:none;color:var(--encre)}
+.liste-dossiers a b{display:block;font-family:var(--serif);font-size:1.12rem;color:var(--accent);margin-bottom:6px}
+.liste-dossiers a span{font-size:.9rem;color:var(--doux)}.liste-dossiers .theme{font-size:.75rem;text-transform:uppercase;letter-spacing:.06em;color:var(--rouge);display:block;margin-bottom:4px}
+@media (max-width:860px){.liste-dossiers{grid-template-columns:1fr 1fr}}@media (max-width:540px){.liste-dossiers{grid-template-columns:1fr}}
+.video-a-venir{border:2px dashed var(--trait);border-radius:14px;padding:14px;color:var(--doux);font-size:.92rem;margin-top:18px}
+</style>
+</head>
+<body>
+<div class="proto">Version de travail : les chiffres sont des ordres de grandeur, publiés pour être contestés.</div>
+<header><div class="page large">
+  <a class="marque" href="/">Langagement politique</a>
+  <nav></nav>
+</div></header>
+<main>
+<section class="ouverture"><div class="page">
+  <p class="etiq">Vérifier</p>
+  <h1>Ce qui est dit, <span>vérifié point par point.</span></h1>
+  <p>Des déclarations, des vidéos, des chiffres qui circulent : ce qui est vrai, ce qui est faux, ce qui est omis, avec les sources pour que chacun puisse refaire la vérification. Tous les bords, nous compris : une erreur dans nos chiffres se signale <a href="https://github.com/pierreclr/langagement-politique/issues">ici</a>.</p>
+</div></section>
+<section class="bloc"><div class="page"><div class="liste-dossiers"><a href="/grece.html"><span class="theme">Clémence Guetté (LFI) · 13/11/2026</span><b>La Grèce n&#x27;est pas la France</b><span>Une vidéo compare l&#x27;austérité grecque de la Troïka aux programmes d&#x27;économies français. L&#x27;histoire est en partie vraie, la conclusion ne l&#x27;est pas.</span></a></div></div></section>
+</main>
+<footer class="page" style="padding:28px 16px;color:var(--doux);font-size:.85rem">Texte sous licence CC BY-SA 4.0, code et données sous licence MIT. Version de travail. <a href="/detail.html">Modèles, sources et manifeste</a>.</footer>
+<script src="/graphiques-site.js"></script>
+
+</body>
+</html>

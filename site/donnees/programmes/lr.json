@@ -1,0 +1,187 @@
+{
+ "id": "lr",
+ "nom": "Les Républicains (plan Retailleau)",
+ "candidat": "Bruno Retailleau",
+ "date": "2026-11-13",
+ "documents": [
+  {
+   "titre": "Public Sénat : Retailleau s'engage sur un plan d'économies de près de 200 milliards d'euros",
+   "url": "https://www.publicsenat.fr/actualites/economie/presidentielle-2027-bruno-retailleau-sengage-sur-un-plan-deconomies-de-pres-de-200-milliards-deuros-sil-est-elu",
+   "date": "2026-10-12",
+   "cote": "C",
+   "nature": "déclaration"
+  },
+  {
+   "titre": "LCP : plan d'économies présenté par Bruno Retailleau",
+   "url": "https://lcp.fr/actualites/face-a-une-france-quasiment-en-faillite-bruno-retailleau-presente-un-plan-d-economies-de",
+   "date": "2026-10-12",
+   "cote": "C",
+   "nature": "déclaration"
+  },
+  {
+   "titre": "Acteurs publics : tableau remis à la presse sur la fonction publique",
+   "url": "https://acteurspublics.fr/articles/bruno-retailleau-veut-faire-travailler-davantage-les-fonctionnaires/",
+   "date": "2026-10-12",
+   "cote": "C",
+   "nature": "budget"
+  },
+  {
+   "titre": "24matins : le projet de retraites de Bruno Retailleau",
+   "url": "https://www.24matins.fr/retraites-le-projet-de-bruno-retailleau-durcit-lage-de-depart-1421188",
+   "date": "2026-09-25",
+   "cote": "C",
+   "nature": "déclaration"
+  }
+ ],
+ "en_bref": "Bruno Retailleau annonce 197 Md€ d'économies jusqu'en 2032 (État 96, social 91, collectivités 10), dont 146 Md€ pour réduire le déficit et 51 Md€ rendus aux entreprises et aux ménages, sans hausse d'impôts. Il vise un déficit sous 3 % du PIB en 2031 et 2,2 % en 2032. Nous n'avons pas trouvé le dossier du candidat : les montants sont ceux que la presse rapporte du document remis le 12/10/2026.",
+ "vision": "Une France qui sort de ce que le candidat décrit comme une quasi-faillite : moins de dépense publique, moins d'impôts sur la production, un déficit ramené sous 3 % du PIB.",
+ "methode": "Réduire la dépense par le non-remplacement de départs à la retraite, la suppression d'agences, des budgets « base zéro », un recul de l'âge de départ à la retraite et des économies sur chômage et prestations, puis baisser les impôts de production et les charges des ménages.",
+ "finances": {
+  "effet_2032_md": 27,
+  "effet_2038_md": 27,
+  "deficit_2038_pct": 7.0,
+  "dette_2032_pct": 133,
+  "dette_2038_pct": 149,
+  "source": "resultats-v2.md, lignes 35, 41 et 44 (tableau du § 1) ; trajectoire au § 4",
+  "lecture": "Avec la même règle pour tous, le plan améliore le solde d'environ 27 Md€ par an contre 146 Md€ annoncés pour le déficit ; la dette passe à 133 % du PIB en 2032 puis 149 % en 2038 (157 % si rien ne change, 148 % pour notre système)."
+ },
+ "mesures": [
+  {
+   "titre": "Suppression des impôts de production",
+   "detail": "30 Md€ par an de baisse pour les entreprises.",
+   "annonce_md": -30,
+   "estimation_md": -30.8,
+   "ref": "detail-lr.md#lrt1"
+  },
+  {
+   "titre": "Allègements pour les ménages",
+   "detail": "Heures supplémentaires sans cotisations, baisse de la facture d'électricité : 21 Md€.",
+   "annonce_md": -21,
+   "estimation_md": -21.6,
+   "ref": "detail-lr.md#lrt2"
+  },
+  {
+   "titre": "Retraites : autres leviers",
+   "detail": "Capitalisation partielle pour les jeunes, réserves, Agirc-Arrco, fin des régimes spéciaux.",
+   "annonce_md": 30,
+   "estimation_md": 1.0,
+   "ref": "detail-lr.md#lr13"
+  },
+  {
+   "titre": "Assurance chômage et prestations sociales",
+   "detail": "Économies annoncées sans détail de mécanisme publié.",
+   "annonce_md": 30,
+   "estimation_md": 8.2,
+   "ref": "detail-lr.md#lr14"
+  },
+  {
+   "titre": "Non-remplacement de 400 000 agents",
+   "detail": "Départs à la retraite non remplacés d'ici 2032, 1 623 heures de travail par an, appui de l'IA.",
+   "annonce_md": 25,
+   "estimation_md": 12.0,
+   "ref": "detail-lr.md#lr01"
+  },
+  {
+   "titre": "Postes agrégés d'aides",
+   "detail": "Soutien au photovoltaïque et à l'éolien, aide au développement, audiovisuel public, contrats aidés, SNU, MaPrimeRénov'.",
+   "annonce_md": 23,
+   "estimation_md": 9.0,
+   "ref": "detail-lr.md#lr09"
+  },
+  {
+   "titre": "Retraites : âge et décote",
+   "detail": "Âge minimal de 63 ans, décote de 7 % par an, taux plein automatique à 65 ans.",
+   "annonce_md": 12,
+   "estimation_md": 5.0,
+   "ref": "detail-lr.md#lr12"
+  },
+  {
+   "titre": "Budgets « base zéro » de l'État",
+   "detail": "Réexamen de toutes les interventions de l'État.",
+   "annonce_md": 11.5,
+   "estimation_md": 2.5,
+   "ref": "detail-lr.md#lr04"
+  }
+ ],
+ "themes": {
+  "finances": {
+   "eux": "Dépense réduite de 197 Md€ jusqu'en 2032 dont 146 Md€ pour le déficit, 51 Md€ rendus en baisses de prélèvements ; déficit sous 3 % en 2031, 2,2 % en 2032, sans hausse d'impôts.",
+   "vision": "accord",
+   "methode": "partiel",
+   "pourquoi": "Nous visons aussi de redresser avant de dépenser, mais par la suppression des niches et la simplification, et nous disons que le déficit reste au-dessus de 3 % ; eux annoncent 2,2 % en 2032, notre simulateur donne 7,0 % en 2038 pour leur plan."
+  },
+  "impots": {
+   "eux": "Suppression des impôts de production (30 Md€) et baisses ciblées pour les ménages (21 Md€), sans hausse d'impôts.",
+   "vision": "partiel",
+   "methode": "desaccord",
+   "pourquoi": "Nous voulons aussi alléger la production, mais par deux règles uniques sur le revenu et le patrimoine, pas par des baisses ciblées ; les prélèvements montent à 45,5 % du PIB dans notre simulateur contre 42,7 % aujourd'hui."
+  },
+  "retraites": {
+   "eux": "Âge minimal de 63 ans avec décote de 7 % par an, taux plein automatique à 65 ans lié à l'espérance de vie, capitalisation partielle pour les jeunes (presse).",
+   "vision": "partiel",
+   "methode": "desaccord",
+   "pourquoi": "Nous voulons aussi des comptes équilibrés, mais nous gardons 64 ans et faisons contribuer les hautes pensions ; eux jouent sur l'âge, la décote et la capitalisation."
+  },
+  "travail": {
+   "eux": "Heures supplémentaires sans cotisations, jour de carence d'ordre public dans le privé, trois jours de carence dans le public, 1 623 heures par an pour les agents, économies de 30 Md€ sur chômage et prestations.",
+   "vision": "partiel",
+   "methode": "partiel",
+   "pourquoi": "Nous partageons l'idée de rapprocher les règles du public et du privé ; nous ne chiffrons pas d'économies sur l'indemnisation et nous gardons un filet de 877 € par mois."
+  },
+  "logement": {
+   "eux": "Plan pour remettre un million de biens sur le marché et faciliter l'accession ; priorité nationale pour le logement social (synthèses de presse, non vérifié sur le dossier du candidat).",
+   "vision": "partiel",
+   "methode": "desaccord",
+   "pourquoi": "Nous voulons aussi faciliter l'accès à un logement stable ; notre moyen est une foncière publique, le leur est surtout l'offre privée."
+  },
+  "etat": {
+   "eux": "Non-remplacement de 400 000 agents, suppression de la quasi-totalité des agences et opérateurs, budgets base zéro, délégation de fonctions support au privé.",
+   "vision": "accord",
+   "methode": "partiel",
+   "pourquoi": "Nous voulons aussi un État plus léger et des postes inutiles non renouvelés ; nous fusionnons les organismes avec un système d'information unique public, eux délèguent des fonctions au privé."
+  },
+  "economie": {
+   "eux": "Fin des impôts de production, fin des soutiens au photovoltaïque et à l'éolien, aides agrégées réduites.",
+   "vision": "partiel",
+   "methode": "desaccord",
+   "pourquoi": "Nous voulons aussi une économie plus compétitive ; nous créons des entreprises publiques concurrentielles, eux baissent la fiscalité et retirent des aides."
+  },
+  "democratie": {
+   "eux": "Réforme constitutionnelle et référendum, avec élargissement du champ de l'article 11 et abaissement du seuil d'initiative (presse, à vérifier).",
+   "vision": "accord",
+   "methode": "partiel",
+   "pourquoi": "Nous voulons aussi plus de décision directe ; notre moyen est la loi proposée par un million de citoyens et votée par tous."
+  },
+  "energie": {
+   "eux": "Le nucléaire comme pilier, avec des renouvelables ; fin des soutiens publics au photovoltaïque et à l'éolien dans les postes d'économies.",
+   "vision": "accord",
+   "methode": "partiel",
+   "pourquoi": "Nous voulons aussi le nucléaire bas carbone ; nous calibrons la fiscalité (pollueur-payeur), eux coupent des subventions."
+  },
+  "europe": {
+   "eux": "Une Europe des nations qui respecte la souveraineté nationale (synthèse de presse).",
+   "vision": "desaccord",
+   "methode": "desaccord",
+   "pourquoi": "Nous proposons une Europe fédérale et plus démocratique, eux une coopération entre nations ; aucun des deux ne sort de l'euro."
+  },
+  "immigration": {
+   "nous": null,
+   "eux": "10 Md€ d'économies annoncées, dont 4,5 Md€ conditionnés à une révision de la Constitution.",
+   "vision": "sans objet",
+   "methode": "sans objet",
+   "pourquoi": "Nous n'avons pas de position publiée sur ce thème."
+  }
+ },
+ "ce_qui_est_juste": [
+  "Le diagnostic d'une dette élevée et de taux d'intérêt qui pèsent sur le budget est partagé par nous.",
+  "C'est, avec notre système, le seul programme chiffré par notre simulateur qui réduit le déficit par rapport au droit actuel : 27 Md€ par an.",
+  "Le programme détaille ses blocs (État 96, social 91, collectivités 10) et une vingtaine de lignes, ce qui permet de les vérifier une à une.",
+  "L'idée de départs non remplacés, d'agences regroupées et de budgets réexaminés rejoint notre propre simplification de l'État."
+ ],
+ "points_de_vigilance": [
+  "Écart d'annonce : 146 Md€ annoncés pour le déficit, 27 Md€ dans notre simulateur (intervalle de 4 à 54) ; presque tout l'effet dépend de lignes sans mécanisme publié.",
+  "Même après le plan, le déficit reste de 4,7 % du PIB en régime et la dette atteint 149 % du PIB en 2038 ; le passage sous 3 % n'arrive pas avant 2058 dans notre simulateur.",
+  "Les 197 Md€ sont dits « jusqu'en 2032 » : nous les lisons comme le niveau annuel de 2032 ; lus comme un cumul sur cinq ans, ils vaudraient moins par an.",
+  "Le dossier du candidat n'a pas été trouvé : tous les montants viennent de la presse (cote C)."
+ ]
+}
