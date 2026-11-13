@@ -7,6 +7,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Source+Serif+4:wght@600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/redressement.css">
+<link rel="stylesheet" href="/graphiques-site.css">
 <style>
 .etapes{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:24px}
 .etapes div{background:var(--surface);border:1px solid var(--trait);border-radius:14px;padding:18px}
@@ -102,9 +103,49 @@
   <p>Égaux devant l'impôt, égaux en droits et en devoirs, égaux devant le travail.</p>
   <div class="mesures">
     <a class="mesure" href="#"><b>La fin des niches <span class="tag j1">jour 1</span></b><span>Ce qui profite à ceux qui savent s'en servir disparaît ; les taux baissent pour tous.</span><span class="chiffre">≈ 19 Md€ par an</span></a>
-    <a class="mesure" href="#"><b>Un prélèvement unique, le capital comme le travail <span class="tag ref">référendum</span></b><span>Une seule règle, grandes fortunes comprises. Ce n'est pas taxer plus : c'est taxer tout le monde pareil.</span><span class="chiffre">grands patrimoines : ≈ 21 Md€ par an, taux maximal 1,25 %</span></a>
+    <a class="mesure" href="#"><b>Un prélèvement unique, le capital comme le travail <span class="tag ref">référendum</span></b><span>Une seule règle, grandes fortunes comprises. Ce n'est pas taxer plus : c'est taxer tout le monde pareil.</span><span class="chiffre">patrimoine : ≈ 21 Md€ par an, dont ≈ 17 Md€ à la place de la taxe foncière et ≈ 4 Md€ de plus sur les grands patrimoines ; taux maximal 1,25 %</span></a>
     <a class="mesure" href="#"><b>Un contrat de travail commun <span class="tag ref">référendum</span></b><span>La même règle pour le public et le privé ; les droits acquis sont garantis.</span></a>
     <a class="mesure" href="#"><b>Les retraites : on garde 64 ans <span class="tag j1">inchangé</span></b><span>Aujourd'hui, on ne touche pas à l'âge. Les retraités les plus aisés contribuent sur les hautes pensions adossées à un gros patrimoine. Un départ plus libre viendra quand les comptes le permettront.</span><span class="chiffre">âge inchangé</span></a>
+  </div>
+</div></section>
+
+<section class="groupe" id="calculateurs"><div class="page">
+  <h2>Faire le calcul pour sa situation</h2>
+  <p class="intro">Deux règles remplacent impôts, cotisations, taxe foncière et droits de mutation. Faites glisser les curseurs.</p>
+  <div class="calc">
+      <b>Vos revenus</b>
+      <label for="c-r">Revenu du mois : tout ce que votre employeur paie pour vous : <span id="c-r-v"></span></label>
+      <input id="c-r" type="range" min="0" max="15000" step="50" value="2500">
+      <div class="res">
+        <div><b id="c-r-c"></b><span id="c-r-l">vous payez chaque mois</span></div>
+        <div><b id="c-r-n"></b><span>ce qui vous reste</span></div>
+        <div><b id="c-r-m"></b><span>prélevé sur l'euro suivant, cotisations et impôts compris</span></div>
+      </div>
+      <svg id="g-revenus" viewBox="0 0 640 220" role="img" aria-label="Taux sur l'euro suivant et taux moyen selon le revenu" style="margin-top:14px"></svg>
+      <p class="legende"><span><i style="background:var(--rouge)"></i>Prélevé sur l'euro suivant</span><span><i style="background:var(--accent)"></i>Taux moyen</span></p>
+      <details><summary>La formule</summary>
+        <p class="formule">C(R) = 0,6515 × R − 412,5 − 677,25 × (1 − e^(−R / 1 500))</p>
+        <p>R est tout ce que l'employeur dépense pour vous : salaire, cotisations dites patronales, part de mutuelle, moitié du transport, titres-restaurant. Le premier euro est prélevé à 20 %, et le taux monte sans marche vers 65,15 %, sans jamais l'atteindre. Elle remplace l'impôt sur le revenu, la CSG et les cotisations. Sous un certain revenu, elle devient un versement. Un filet complète les plus bas revenus jusqu'à 877 € par mois pour une personne seule.</p>
+      </details>
+    </div>
+  <div class="calc">
+      <b>Votre patrimoine</b>
+      <label for="c-rp">Valeur de votre résidence principale : <span id="c-rp-v"></span></label>
+      <input id="c-rp" type="range" min="0" max="2000000" step="10000" value="300000">
+      <label for="c-w">Autre patrimoine net (placements, locatif, résidence secondaire, parts de société) : <span id="c-w-v"></span></label>
+      <input id="c-w" type="range" min="0" max="5000000" step="10000" value="50000">
+      <div class="res">
+        <div><b id="c-p-rp"></b><span>par an sur la résidence principale</span></div>
+        <div><b id="c-p-w"></b><span>par an sur le reste</span></div>
+        <div><b id="c-p-t"></b><span>du patrimoine, en tout</span></div>
+      </div>
+      <details><summary>La formule</summary>
+        <p class="formule">Résidence principale : 0,25 % × valeur, jusqu'à 1 M€<br>Reste : P(W) = 1,25 % × W² / (W + 700 000)</p>
+        <p>W comprend la part de la résidence principale au-delà d'1 M€. Elle remplace la taxe foncière, l'impôt sur la fortune immobilière et les droits de mutation. Le taux part de zéro et n'atteint jamais 1,25 %. Ce qui est payé chaque année est plafonné selon le revenu ; le reste peut être différé jusqu'à la vente ou la succession. Recette : ≈ 21 Md€ par an, dont ≈ 17 Md€ qui remplacent la taxe foncière.</p>
+      </details>
+    </div>
+  <div class="calc"><b>Pourquoi le taux de prélèvement affiché monte</b>
+    <p>Les prélèvements passent de 42,7 % à 49,7 % du PIB, parce qu'une seule contribution remplace impôts et cotisations et reverse aussi ce que versaient les aides. Sans les versements qui reviennent aux ménages, on est à 46,3 %. La question utile est : payez-vous plus, à revenu égal ? Le calculateur ci-dessus répond pour votre cas.</p>
   </div>
 </div></section>
 
@@ -113,7 +154,7 @@
   <p>Des entreprises du bien commun, rentables et en concurrence ; un patrimoine dont chacun a l'usage.</p>
   <div class="mesures">
     <a class="mesure" href="#"><b>L'entreprise d'État du numérique public <span class="tag j1">jour 1</span></b><span>1 Md€ par an au départ, issu du crédit d'impôt recherche ; elle absorbe les équipes existantes et se paie par les économies qu'elle fait.</span><span class="chiffre">1 Md€ par an</span></a>
-    <a class="mesure" href="#"><b>Se loger : l'usage d'un logement à vie <span class="tag ref">référendum</span></b><span>La foncière achète la nue-propriété ; le jeune paie l'usage, moins cher qu'un loyer, et le garde pour la vie.</span><span class="chiffre attente">à chiffrer</span></a>
+    <a class="mesure" href="#"><b>Se loger : l'usage d'un logement à vie <span class="tag ref">référendum</span></b><span>La foncière achète la nue-propriété ; le jeune paie l'usage, moins cher qu'un loyer, et le garde pour la vie.</span><span class="chiffre attente">à l'étude : ≈ 471 € par mois contre un loyer de 808 € (T2 de métropole)</span></a>
     <a class="mesure" href="#"><b>Produire chez nous, en concurrence <span class="tag p2">ensuite</span></b><span>Produits réparables, travaux publics, défense, espace : une entreprise publique gagne un contrat seulement si elle est moins chère ou meilleure.</span></a>
     <a class="mesure" href="#"><b>Les transports urbains gratuits <span class="tag p2">ensuite</span></b><span>Plus de billets, plus de billettique ni de contrôles : le bus, le tram et le métro deviennent gratuits en ville.</span><span class="chiffre attente">≈ 6 Md€ par an de recettes en moins</span></a>
     <a class="mesure" href="#"><b>La dette, seulement pour ce qui rapporte <span class="tag p2">ensuite</span></b><span>Après les premiers résultats, on emprunte pour investir dans ce qui est rentable.</span></a>
@@ -172,5 +213,6 @@
 </div></section>
 </main>
 <footer><div class="page">Prototype privé. Texte sous licence CC BY-SA 4.0, code et données sous licence MIT.</div></footer>
+<script src="/graphiques-site.js"></script>
 </body>
 </html>

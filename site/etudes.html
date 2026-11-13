@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Nos études</title>
+<meta name="description" content="Les questions que nous avons cherché à trancher, les données collectées, ce que nous avons trouvé et ce qu'on ne peut pas en conclure. Hypothèses confirmées, nuancées ou écartées.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Source+Serif+4:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/redressement.css">
+<style>
+.etude{border:1px solid var(--trait);border-radius:14px;background:var(--surface);margin:18px 0;padding:0}
+.etude>summary{list-style:none;cursor:pointer;padding:18px 20px}
+.etude>summary::-webkit-details-marker{display:none}
+.etude>summary h3{font-family:var(--serif);font-size:1.25rem;margin:6px 0 4px}
+.etude>summary p{margin:0;color:var(--doux)}
+.etude .corps{padding:0 20px 18px}
+.etude dl{display:grid;grid-template-columns:11em 1fr;gap:8px 16px;margin:0}
+.etude dt{font-weight:700}
+.etude dd{margin:0}
+@media (max-width:640px){.etude dl{grid-template-columns:1fr}.etude dt{margin-top:8px}}
+.statut{display:inline-block;font-size:.72rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;border-radius:999px;padding:2px 10px}
+.statut.cours{background:var(--ambre-doux);color:var(--ambre)}
+.statut.conclue{background:var(--vert-doux);color:var(--vert)}
+.statut.ecartee{background:var(--accent-doux);color:var(--accent)}
+.etude table{border-collapse:collapse;margin:6px 0;font-size:.93rem}
+.etude td,.etude th{border-bottom:1px solid var(--trait);padding:4px 10px 4px 0;text-align:left}
+.conclure{border-left:3px solid var(--vert);padding-left:12px}
+.pasconclure{border-left:3px solid var(--ambre);padding-left:12px}
+</style>
+</head>
+<body>
+<div class="proto">Version de travail.</div>
+<header><div class="page large">
+  <a class="marque" href="/">Langagement politique</a>
+  <nav>
+    <a href="/programme.html">Le plan</a>
+    <a href="/#depart">D'où l'on part</a>
+    <a href="/#pour-vous">Pour vous</a>
+    <a href="/comparer.html">Comparer</a>
+    <a href="/approche.html">L'approche</a>
+    <a href="/fr/modeles/">Les modèles</a>
+  </nav>
+</div></header>
+
+<main>
+<div class="page"><p class="fil"><a href="/">Accueil</a> › <a href="/approche.html">L'approche</a> › Nos études</p></div>
+<section class="titre-page"><div class="page">
+  <h1>Ce qu'on a cherché, ce qu'on a trouvé.</h1>
+  <p>Chaque étude part d'une question. On dit d'où elle vient, quelles données on a collectées, ce qu'on a trouvé, et surtout ce qu'on peut en conclure et ce qu'on ne peut pas. Une hypothèse qui ne tient pas reste ici, marquée « écartée » : c'est aussi un résultat.</p>
+</div></section>
+
+<section class="groupe"><div class="page">
+
+<details class="etude" open>
+  <summary><span class="statut cours">En cours · 11/11/2026</span>
+    <h3>Les algorithmes qui classent les contenus selon l'engagement ont-ils fait monter les extrêmes ?</h3>
+    <p>Une coïncidence dans le temps, mais asymétrique et inégale selon les pays. Aucun lien de cause à effet démontré à ce stade.</p></summary>
+  <div class="corps"><dl>
+    <dt>D'où vient la question</dt><dd>Les réseaux sociaux sont passés du fil chronologique à des fils classés selon ce qui fait réagir : temps passé, commentaires, partages. L'hypothèse : un contenu qui choque d'un côté et galvanise de l'autre est favorisé, ce qui pousserait vers les extrêmes.</dd>
+    <dt>Les dates repères</dt><dd>Vers 2009-2011, Facebook classe son fil selon l'engagement. En 2012, YouTube optimise le temps de visionnage. En 2016, Twitter et Instagram passent au fil algorithmique. En janvier 2018, Facebook donne plus de poids aux commentaires et aux réactions. De 2018 à 2021, TikTok décolle en Europe, puis Reels et Shorts le copient.</dd>
+    <dt>Les données</dt><dd>Les résultats des législatives de 31 démocraties, de 1990 à 2026 (base ParlGov, complétée pour 2019-2026 et en cours de recoupement sur les sites officiels). Les partis sont classés à l'extrême droite ou à l'extrême gauche selon The PopuList 4.0, la classification de référence des politistes. Chaque pays pèse autant dans la moyenne.</dd>
+    <dt>Ce qu'on a trouvé</dt><dd>
+      <table>
+        <tr><th>Période</th><th>Droite radicale</th><th>Gauche radicale</th></tr>
+        <tr><td>1990-2008</td><td>+0,14 point par an</td><td>stable</td></tr>
+        <tr><td>2008-2017</td><td>+0,39 point par an</td><td>+0,18 point par an</td></tr>
+        <tr><td>2017-2026</td><td>+0,80 point par an</td><td>−0,09 point par an</td></tr>
+      </table>
+      La droite radicale passe en moyenne de 6 % des voix en 2008 à 10 % en 2017, puis à 17 % en 2026. Le résultat tient sans la France et sur les seuls pays européens. Mais l'accélération après 2017 ne concerne que 14 pays sur 31.</dd>
+    <dt>Ce qu'on peut conclure</dt><dd class="conclure">Il y a une coïncidence dans le temps : la droite radicale accélère deux fois, vers 2008-2010 puis après 2017, aux moments où les fils deviennent classés par engagement. Et il y a une asymétrie : la gauche radicale recule après 2017. Un algorithme qui favoriserait « les extrêmes » en général n'explique pas ce décalage.</dd>
+    <dt>Ce qu'on ne peut pas conclure</dt><dd class="pasconclure">Que les algorithmes en sont la cause. D'autres événements tombent aux mêmes dates : crise financière de 2008, crise des migrants de 2015, Covid, inflation de 2022. Les algorithmes sont arrivés partout en même temps, mais les extrêmes n'ont pas monté partout. Et les grandes expériences menées avec Meta en 2020 n'ont trouvé aucun effet sur la polarisation après trois mois de fil chronologique.</dd>
+    <dt>Ce qui vient ensuite</dt><dd>Mesurer l'engagement des chaînes YouTube officielles des partis de six pays, de 2015 à 2025 : les extrêmes font-ils plus réagir que le centre, à audience égale ? Puis le test le plus fort : les jeunes et les gros utilisateurs des réseaux ont-ils bougé davantage que les autres après 2018 ?</dd>
+    <dt>Limites</dt><dd>Une partie des résultats 2023-2026 vient de relais (Wikipédia citant les autorités) et doit être recoupée sur les sites officiels. Les alliances françaises (NUPES, NFP) sont comptées en entier à la gauche radicale, ce qui la surestime en France. Une moyenne par pays ne dit rien des électeurs pris un à un.</dd>
+  </dl></div>
+</details>
+
+<details class="etude">
+  <summary><span class="statut conclue">Conclue · 11/11/2026</span>
+    <h3>Quel taux pour un impôt sur le patrimoine qui ne soit ni confiscatoire, ni une cause de départs ?</h3>
+    <p>1,25 % au maximum. Il rapporte environ 21 Md€, dont 17 remplacent la taxe foncière : la recette nouvelle est d'environ 3,6 Md€.</p></summary>
+  <div class="corps"><dl>
+    <dt>D'où vient la question</dt><dd>Faire contribuer le capital comme le travail, sans le faire fuir. Le premier réglage, à 3 %, rapportait beaucoup sur le papier mais n'était pas défendable.</dd>
+    <dt>Les données</dt><dd>La jurisprudence du Conseil constitutionnel (un taux de 1,5 % plafonné à 75 % du revenu, validé en 2012), les départs observés sous l'ancien ISF, et les impôts sur la fortune suisse et norvégien.</dd>
+    <dt>Ce qu'on a trouvé</dt><dd>À 1,25 %, on compte de 127 à 853 départs par an selon la méthode, soit de 13 % à 90 % du niveau de l'ancien ISF. Le total est d'environ 21 Md€, mais 17,3 Md€ viennent d'une part de 0,25 % sur la résidence principale qui remplace la taxe foncière : la recette réellement nouvelle est d'environ 3,6 Md€. À 1,5 %, elle serait de 8,4 Md€, avec des départs qui peuvent dépasser ceux de l'ISF.</dd>
+    <dt>Ce qu'on peut conclure</dt><dd class="conclure">1,25 % est sous le taux déjà validé par le Conseil constitutionnel et garde les départs sous le niveau de l'ISF selon nos deux méthodes. L'impôt sur le patrimoine ne peut pas, à lui seul, redresser les comptes.</dd>
+    <dt>Ce qu'on ne peut pas conclure</dt><dd class="pasconclure">Le nombre exact de départs : nos deux méthodes divergent d'un facteur 5. Le régime précis n'a jamais été examiné par le Conseil constitutionnel.</dd>
+  </dl></div>
+</details>
+
+<details class="etude">
+  <summary><span class="statut conclue">Conclue, avec des estimations à vérifier · 11/11/2026</span>
+    <h3>Combien de personnes en emploi pour une personne qui vit de transferts sans travailler ?</h3>
+    <p>Environ 1,3. Environ 1,06 si l'on ne compte que le privé.</p></summary>
+  <div class="corps"><dl>
+    <dt>Les données</dt><dd>Les effectifs de l'Urssaf et de l'Insee pour l'emploi, du Conseil d'orientation des retraites pour les retraités, de la Drees pour les minima sociaux, de l'Unédic pour le chômage (2023-2025).</dd>
+    <dt>Ce qu'on a trouvé</dt><dd>29,5 millions de personnes en emploi pour environ 22,2 millions d'adultes qui vivent de transferts sans travailler : 1,33. Avec le privé seul, 1,06. Les retraités font 76 % de ce total : le ratio emploi / retraités, 1,74, retrouve celui du Conseil d'orientation des retraites (1,77), ce qui valide l'ordre de grandeur.</dd>
+    <dt>Ce qu'on peut conclure</dt><dd class="conclure">C'est surtout une question de retraites : les minima sociaux et le chômage pèsent beaucoup moins dans le ratio qu'on ne le dit souvent.</dd>
+    <dt>Ce qu'on ne peut pas conclure</dt><dd class="pasconclure">Quoi que ce soit sur les personnes : un retraité a cotisé. Plusieurs lignes (cumul emploi-retraite, invalidité, conjoints) sont des estimations encore à vérifier.</dd>
+  </dl></div>
+</details>
+
+<details class="etude">
+  <summary><span class="statut cours">En cours · 11/11/2026</span>
+    <h3>Peut-on vendre l'usage d'un logement à vie à 60 % de sa valeur, la puissance publique payant le reste ?</h3>
+    <p>Pas sans limite d'entrées : trop de demandes, des prix en hausse, une dette publique en plus. Un réglage à 70 % avec un plafond d'entrées tient.</p></summary>
+  <div class="corps"><dl>
+    <dt>D'où vient la question</dt><dd>Remplacer un capital de départ versé en argent par un logement : le jeune achète l'usage à vie, la foncière garde la propriété.</dd>
+    <dt>Ce qu'on a trouvé</dt><dd>Sans plafond, environ 414 000 jeunes par an voudraient entrer, soit 29 % des ventes de logements. Les prix monteraient jusqu'à +21 % dans les secteurs les plus touchés. La foncière ne couvrirait que 31 % de ses coûts par ses recettes : sous le seuil de 50 %, sa dette compterait dans la dette publique, avec +1,6 point de PIB en 2038. Et l'écart entre la valeur fiscale de l'usage (≈ 80 %) et le prix demandé (60 %) est une aide cachée d'environ 9,5 Md€ par an.</dd>
+    <dt>Ce qu'on peut conclure</dt><dd class="conclure">La mensualité serait bien plus basse qu'un loyer (≈ 470 € contre ≈ 810 € pour un deux-pièces de métropole). Mais c'est la hausse des prix qui oblige à limiter les entrées : avec un usage vendu à 70 % et environ 66 000 entrées par an, les prix montent de moins de 5 % et la foncière passe le seuil de 50 %.</dd>
+    <dt>Ce qu'on ne peut pas conclure</dt><dd class="pasconclure">Qu'une banque prêterait 100 % du prix d'un usage sans apport, et comment les règles comptables européennes classeraient une nue-propriété publique : deux points à vérifier.</dd>
+  </dl></div>
+</details>
+
+<details class="etude">
+  <summary><span class="statut ecartee">Écartée · 09/11/2026</span>
+    <h3>Laisser payer l'impôt sur le patrimoine en nue-propriété plutôt qu'en argent ?</h3>
+    <p>Écartée : l'État y perd chaque année, sans jamais rattraper la perte.</p></summary>
+  <div class="corps"><dl>
+    <dt>Ce qu'on a trouvé</dt><dd>Si un contribuable sur cinq choisissait de payer ainsi, l'État perdrait 5 à 9 Md€ de recettes par an, et la dette serait plus haute de 14 points de PIB en 2058. Le rendement des biens reçus (≈ 2 %) ne compense jamais la recette perdue.</dd>
+    <dt>Ce qu'on peut conclure</dt><dd class="conclure">L'idée coûte plus qu'elle ne rapporte, et elle forcerait l'État à détenir des parts d'entreprises et de biens qu'il ne sait pas gérer.</dd>
+  </dl></div>
+</details>
+
+<p class="note">Données, code et calculs : <a href="https://github.com/pierreclr/langagement-politique">le dépôt public</a>. Une erreur trouvée est corrigée et publiée, avec sa date. Vous pouvez proposer une étude : <a href="https://github.com/pierreclr/langagement-politique/issues">ouvrir une demande sur GitHub</a>.</p>
+</div></section>
+</main>
+<footer><div class="page">Version de travail.</div></footer>
+</body>
+</html>

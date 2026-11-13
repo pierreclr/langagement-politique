@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Le constat</title>
+<meta name="description" content="Le constat, dans l'ordre : un système pensé pour un pays jeune, le logement qui se ferme, la richesse, qui décide, et 2050 si rien ne change.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Source+Serif+4:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/redressement.css">
+<link rel="stylesheet" href="/graphiques-site.css">
+</head>
+<body>
+<div class="proto">Version de travail. Ordres de grandeur sous hypothèses, jamais des prédictions ; en orange, ce qui est encore à l'étude.</div>
+<header><div class="page large">
+  <a class="marque" href="/">Langagement politique</a>
+  <nav></nav>
+</div></header>
+
+<main>
+<section class="ouverture"><div class="page">
+  <p class="etiq">Le constat</p>
+  <h1>Comment on en est arrivé là, <span>et où l'on va si rien ne change.</span></h1>
+  <p>Cinq étapes, chiffres à l'appui : un système pensé pour un pays jeune, le logement qui se ferme, une richesse qui se transmet plus qu'elle ne se gagne, des promesses qui suivent ceux qui votent, et 2050.</p>
+</div></section>
+<section class="depart" id="aujourdhui"><div class="page">
+  <p class="etiq">Aujourd'hui, en trois chiffres</p>
+  <div class="trois">
+    <div><b>3 460 Md€</b><span>de dette publique, 115,6 % du PIB</span></div>
+    <div><b>65 Md€</b><span>d'intérêts payés en un an</span></div>
+    <div><b>5,1 %</b><span>de déficit</span></div>
+  </div>
+  <p class="src">Insee, comptes des administrations publiques 2025.</p>
+</div></section>
+<section class="bloc" id="repartition"><div class="page">
+  <p class="etiq">1 · Un système pensé pour un pays jeune</p>
+  <h2>Ce que vous cotisez ne vous est pas mis de côté.</h2>
+  <p>Nos retraites marchent par répartition : ce que cotisent ceux qui travaillent paie, le mois même, les pensions des retraités. Votre retraite sera payée par ceux qui travailleront demain. Le système tient tant qu'il y a assez d'actifs pour chaque retraité. Or le pays vieillit.</p>
+  <div class="graph">
+    <h3>La pyramide des âges en 2026 et en 2070</h3>
+    <p class="lire">Les barres pleines sont 2026, le contour est 2070. Les plus de 65 ans passent de 22 % à 32 % de la population ; les moins de 20 ans fondent.</p>
+    <svg id="g-pyramide" viewBox="0 0 640 440" role="img" aria-label="Pyramide des âges de la France en 2026 et en 2070"></svg>
+    <p class="legende"><span><i style="background:var(--accent)"></i>Hommes 2026</span><span><i style="background:var(--rouge)"></i>Femmes 2026</span><span><i style="border:2px solid var(--encre)"></i>2070 (projection centrale)</span></p>
+    <p class="src">Insee, bilan démographique 2025 et projections 2026 (scénario central), milliers de personnes par tranche de 5 ans.</p>
+  </div>
+  <div class="deux">
+    <div class="graph">
+      <h3>Cotisants pour un retraité</h3>
+      <p class="lire">1,77 aujourd'hui, 1,30 en 2070.</p>
+      <svg id="g-ratio" viewBox="0 0 320 200" role="img" aria-label="Cotisants par retraité : 1,77 en 2025, 1,30 en 2070"></svg>
+      <p class="src">Conseil d'orientation des retraites, rapport de juin 2026, scénario de référence.</p>
+    </div>
+    <div class="graph">
+      <h3>0,84 actif du privé pour un revenu payé par l'argent public</h3>
+      <p class="lire">23,6 millions d'emplois privés pour 28,1 millions d'adultes dont le revenu est public : retraités, chômeurs indemnisés, allocataires des minima, agents publics.</p>
+      <svg id="g-public" viewBox="0 0 320 200" role="img" aria-label="23,6 millions d'emplois privés pour 28,1 millions de revenus publics"></svg>
+      <p class="src">Urssaf, Insee, COR, DREES, 2023-2025 ; fourchette 0,81 à 0,86. Ni un jugement ni un ratio de financement : les retraités ont cotisé, les agents publics produisent des services. En comptant tous les emplois, public compris, on trouve 1,33 personne en emploi par adulte qui vit de transferts sans travailler ; avec le privé seul, 1,06 ; en ajoutant les agents publics au dénominateur, 0,84 (<a href="/etudes.html">l'étude</a>).</p>
+    </div>
+  </div>
+</div></section>
+<section class="bloc" id="logement"><div class="page">
+  <p class="etiq">2 · Le logement qui se ferme</p>
+  <h2>Acheter demande deux fois plus d'années de crédit qu'en 2000.</h2>
+  <p>Il faut aujourd'hui 29 ans de crédit pour acheter le même logement que l'on payait en 15 ans en 2000. Parmi les ménages les plus modestes, 7,8 % devenaient propriétaires en quatre ans en 1984, 3,7 % en 2013 ; chez les plus aisés, de 16 % à 24 %. Ceux qui héritent achètent plus tôt.</p>
+  <p class="src">IGEDD (Friggit), note au Sénat de janvier 2024 ; Insee (accès à la propriété, 2017).</p>
+</div></section>
+<section class="bloc" id="richesse"><div class="page">
+  <p class="etiq">3 · La richesse, aujourd'hui</p>
+  <h2>La richesse se transmet plus qu'elle ne se gagne.</h2>
+  <p>L'âge n'explique pas tout. À âge égal, l'écart de patrimoine est immense, et il passe d'abord par le logement et l'héritage.</p>
+  <div class="deux">
+    <div class="graph">
+      <h3>48 % du patrimoine aux 10 % les mieux dotés</h3>
+      <p class="lire">La moitié des ménages la moins dotée en détient 7 %.</p>
+      <svg id="g-concentration" viewBox="0 0 320 200" role="img" aria-label="10 % des ménages détiennent 48 % du patrimoine brut ; la moitié la moins dotée, 7 %"></svg>
+      <p class="src">Insee, Histoire de vie et Patrimoine 2024, patrimoine brut.</p>
+    </div>
+    <div class="graph">
+      <h3>Propriétaires de leur logement, selon l'âge</h3>
+      <p class="lire">57 % des ménages sont propriétaires ; 17 % seulement avant 30 ans.</p>
+      <svg id="g-proprio" viewBox="0 0 320 200" role="img" aria-label="Part de propriétaires par âge en 2024"></svg>
+      <p class="src">Insee, Histoire de vie et Patrimoine 2024.</p>
+    </div>
+  </div>
+  <div class="graph">
+    <h3>Qui possède le patrimoine, selon l'âge ?</h3>
+    <p class="lire">Les ménages de 60 ans et plus sont 40 % des ménages et détiennent 53 % du patrimoine net. Les moins de 40 ans : 24 % des ménages, 9 % du patrimoine. Il faut 29 ans de crédit pour acheter le logement qu'on payait en 15 ans en 2000.</p>
+    <svg id="g-patrimoine" viewBox="0 0 640 170" role="img" aria-label="Part des ménages et part du patrimoine net selon l'âge"></svg>
+    <p class="legende"><span><i style="background:#9db4d8"></i>Moins de 40 ans</span><span><i style="background:#5f7fbf"></i>40 à 59 ans</span><span><i style="background:var(--accent)"></i>60 ans et plus</span></p>
+    <p class="src">Insee, Histoire de vie et Patrimoine 2024, calcul par tranche d'âge (estimation) ; IGEDD (Friggit), note au Sénat de janvier 2024.</p>
+  </div>
+  <div class="trois" style="margin-top:22px">
+    <div><b>3,5 %</b><span>des propriétaires possèdent 5 à 9 logements, et détiennent 14 % des logements des particuliers</span></div>
+    <div><b>465 niches</b><span>fiscales, 88 Md€ par an : autant d'exceptions qu'il faut connaître, et se faire conseiller, pour en profiter</span></div>
+  </div>
+  <p class="src">Insee (accès à la propriété, 2017 ; propriétaires de logements, 2022) ; annexe au projet de loi de finances 2026, Voies et moyens, tome II.</p>
+</div></section>
+<section class="bloc" id="electorat"><div class="page">
+  <p class="etiq">4 · Qui décide</p>
+  <h2>Ceux qui votent le plus sont les plus âgés. Les promesses suivent.</h2>
+  <p>Les 60 ans et plus sont 35 % des adultes, et ils votent plus souvent. Le Rassemblement national veut revenir à 62 ans, La France insoumise à 60 ans. Dans un pays qui vieillit, ces milliards se prennent sur ceux qui travaillent, donc d'abord sur les jeunes, ou sur la dette qu'ils rembourseront.</p>
+  <div>
+    <div class="graph">
+      <h3>N'ont voté à aucun tour en 2022</h3>
+      <svg id="g-vote" viewBox="0 0 640 150" role="img" aria-label="Abstention systématique : 24 % des 18-34 ans, 9 % des 50-69 ans"></svg>
+      <p class="src">Insee Première n° 1928 (présidentielle et législatives de 2022) ; Eurostat, population au 1er janvier 2024.</p>
+    </div>
+    <div class="graph">
+      <h3>Ce que coûte chaque année l'âge de départ promis</h3>
+      <svg id="g-age" viewBox="0 0 640 170" role="img" aria-label="Coût annuel : RN 62 ans, 24 milliards ; LFI 60 ans, 55 milliards ; notre plan, 64 ans inchangé"></svg>
+      <p class="src">RN, 62 ans : ≈ 24 Md€ par an (18 à 31) ; LFI, 60 ans : ≈ 55 Md€ par an (43 à 69). Banc d'essai des programmes, modèle des retraites : médiane et fourchette, une fois en place.</p>
+    </div>
+  </div>
+</div></section>
+<section class="bloc" id="2050"><div class="page">
+  <p class="etiq">5 · Demain, si rien ne change</p>
+  <h2>Si rien ne change, les intérêts de la dette auront presque triplé en 2050.</h2>
+  <div class="graph">
+    <h3>La dette et ses intérêts, si l'on ne fait rien</h3>
+    <p class="lire">La dette passe de 118 % du PIB en 2026 à 205 % en 2050. Les intérêts passent de 2,4 % à 6,6 % du PIB : à l'échelle d'aujourd'hui, de ≈ 70 à ≈ 200 Md€ par an, chaque année, pour ne rien acheter.</p>
+    <svg id="g-trajectoire" viewBox="0 0 640 260" role="img" aria-label="Dette et intérêts en % du PIB de 2026 à 2050 si rien ne change"></svg>
+    <p class="legende"><span><i style="background:var(--rouge)"></i>Dette (% du PIB, échelle de gauche)</span><span><i style="background:var(--accent)"></i>Intérêts (% du PIB, échelle de droite)</span></p>
+    <p class="src">Banc d'essai des programmes, « droit actuel » : le déficit hors intérêts de 2024 est maintenu, croissance nominale 3 %, taux 3,45 %. Une projection simple, pas une prédiction.</p>
+  </div>
+</div></section>
+<section class="bloc"><div class="page">
+  <h2>Changer de trajectoire.</h2>
+  <p>Ce constat, la droite et la gauche peuvent le partager. Ce qui nous distingue, c'est la réponse : la justice comme but, l'efficacité comme méthode.</p>
+  <a class="bouton" href="/programme.html">Ce qu'on propose →</a>
+</div></section>
+</main>
+<footer class="page" style="padding:28px 16px;color:var(--doux);font-size:.85rem">Texte sous licence CC BY-SA 4.0, code et données sous licence MIT. Version de travail.</footer>
+<script src="/graphiques-site.js"></script>
+</body>
+</html>

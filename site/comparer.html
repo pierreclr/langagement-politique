@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Comparer les programmes</title>
+<meta name="description" content="Tous les programmes chiffrés avec les mêmes modèles et la même règle, le nôtre compris.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Source+Serif+4:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/redressement.css">
+<style>
+.regle3{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:18px}
+.regle3 div{background:var(--surface);border:1px solid var(--trait);border-radius:12px;padding:14px}
+.regle3 b{display:block;font-family:var(--serif);font-size:1.1rem}
+.regle3 span{font-size:.92rem;color:var(--doux)}
+@media (max-width:700px){.regle3{grid-template-columns:1fr}}
+td.pos{color:var(--vert);font-weight:700}
+td.neg{color:var(--rouge);font-weight:700}
+td.attente{color:var(--ambre)}
+tr.nous td{background:var(--accent-doux)}
+.fiches{display:grid;gap:16px;margin-top:22px}
+.fiche-parti{background:var(--surface);border:1px solid var(--trait);border-radius:16px;padding:20px 22px}
+.fiche-parti h3{font-family:var(--serif);font-size:1.35rem;margin:0 0 4px}
+.fiche-parti .cout{font-weight:700;margin:0 0 12px}
+.fiche-parti dl{margin:0;display:grid;grid-template-columns:auto 1fr;gap:6px 14px}
+.fiche-parti dt{font-weight:700;font-size:.85rem;text-transform:uppercase;letter-spacing:.05em;color:var(--doux);padding-top:3px}
+.fiche-parti dd{margin:0}
+@media (max-width:620px){.fiche-parti dl{grid-template-columns:1fr}.fiche-parti dt{padding-top:8px}}
+</style>
+</head>
+<body>
+<div class="proto">Version de travail. Chiffres du 11/11/2026.</div>
+<header><div class="page large">
+  <a class="marque" href="/">Langagement politique</a>
+  <nav>
+    <a href="/programme.html">Le plan</a>
+    <a href="/#depart">D'où l'on part</a>
+    <a href="/#pour-vous">Pour vous</a>
+    <a href="/comparer.html" class="fort">Comparer</a>
+    <a href="/approche.html">L'approche</a>
+    <a href="/fr/modeles/">Les modèles</a>
+  </nav>
+</div></header>
+
+<main>
+<div class="page"><p class="fil"><a href="/">Accueil</a> › Comparer</p></div>
+<section class="titre-page"><div class="page">
+  <h1>Tous les programmes, chiffrés avec la même règle. Le nôtre aussi.</h1>
+  <p>Mêmes modèles, mêmes hypothèses, même sévérité. Pour chaque parti : ce qu'il propose, ce que ça coûte, où nous sommes d'accord, ce que nous ferions autrement.</p>
+</div></section>
+
+<section class="groupe"><div class="page">
+  <h2>La règle, la même pour tous</h2>
+  <p>Une économie ou une recette annoncée n'est pas comptée pour sa valeur affichée. Elle passe trois questions ; selon les réponses, on en retient de 10 % à 100 %.</p>
+  <div class="regle3">
+    <div><b>Le mécanisme</b><span>Est-il décrit, et ce qu'il taxe ou économise est-il mesuré ?</span></div>
+    <div><b>Le droit</b><span>Un obstacle juridique peut-il le bloquer (Constitution, traités européens) ?</span></div>
+    <div><b>Le précédent</b><span>A-t-il déjà marché quelque part, à au moins la moitié de ce qu'on attendait ?</span></div>
+  </div>
+  <p class="note">Ce sont des jugements, pas des certitudes : chacun est écrit, ligne par ligne, et contestable. <a href="/fr/modeles/banc-programmes/methode.html">La méthode complète</a> · <a href="/fr/modeles/banc-programmes/memes-modeles.html">Les mêmes modèles pour tous</a></p>
+</div></section>
+
+<section class="groupe"><div class="page">
+  <h2>Le résultat</h2>
+  <p>Effet de chaque programme sur le déficit, une fois appliqué, par rapport aux règles actuelles ; puis la dette qu'il laisse. Médiane des simulations.</p>
+  <div class="tableau"><table>
+    <thead><tr><th>Programme</th><th>Effet sur le déficit, par an<br>2032 · 2038</th><th>Déficit en 2038</th><th>Dette en 2032</th><th>Dette en 2038</th></tr></thead>
+    <tbody>
+      <tr class="nous"><td>Langagement politique</td><td class="pos">+16 · +62 Md€</td><td>5,9 %</td><td>135 %</td><td>148 %</td></tr>
+      <tr><td>Les Républicains (Retailleau)</td><td class="pos">+27 · +27 Md€</td><td>7,0 %</td><td>133 %</td><td>149 %</td></tr>
+      <tr><td>Si rien ne change</td><td>0 · 0</td><td>8,2 %</td><td>136 %</td><td>157 %</td></tr>
+      <tr><td>PS (contre-budget)</td><td class="neg">−15 · −15 Md€</td><td>8,9 %</td><td>138 %</td><td>163 %</td></tr>
+      <tr><td>Place publique (Glucksmann), chiffrage partiel</td><td class="neg">−42 · 0 Md€</td><td>8,4 %</td><td>143 %</td><td>164 %</td></tr>
+      <tr><td>Rassemblement national</td><td class="neg">−50 · −50 Md€</td><td>10,4 %</td><td>144 %</td><td>175 %</td></tr>
+      <tr><td>La France insoumise (programme complet)</td><td class="neg">−249 · −254 Md€</td><td>19,0 %</td><td>169 %</td><td>241 %</td></tr>
+      <tr><td>La France insoumise (contre-budget 2027 seul)</td><td class="neg">−35 · −35 Md€</td><td>9,7 %</td><td>142 %</td><td>170 %</td></tr>
+    </tbody>
+  </table></div>
+  <p class="note">+ : le programme réduit le déficit ; − : il l'augmente. Déficit en % du PIB, intérêts compris. Médiane des simulations. Taux d'intérêt fixé à 3,45 % ; si le taux suit la dette, tout se dégrade, dans le même ordre. <a href="/fr/modeles/banc-programmes/resultats.html">Tous les résultats et les fourchettes</a></p>
+  <div class="limite"><b>Ce qu'il faut retenir.</b> Notre plan est le seul dont l'effet grandit avec le temps : nos économies montent jusqu'en 2038, celles des autres plafonnent dès 2032. En 2038, nous sommes au niveau des Républicains : l'écart de dette est inférieur à un point, dans la marge d'incertitude. Mais aucun programme, le nôtre compris, ne ramène le déficit sous 3 % d'ici 2038 dans nos simulations. Il reste du travail, et nous le disons.</div>
+</div></section>
+
+<section class="groupe"><div class="page">
+  <h2>Parti par parti</h2>
+  <p>Ce que nous approuvons, ce que nous ferions autrement. Nos accords sont dits aussi clairement que nos désaccords.</p>
+  <div class="fiches">
+    <article class="fiche-parti">
+      <h3>La France insoumise</h3>
+      <p class="cout">Programme complet : creuse le déficit d'environ 250 Md€ par an. Son contre-budget 2027, plus limité : environ 35 Md€.</p>
+      <dl>
+        <dt>Propose</dt><dd>Retraite à 60 ans, hausse du Smic, nationalisations. Son contre-budget 2027 annonce 106 Md€ de recettes et 82 Md€ de dépenses nouvelles ; nous trouvons moins de recettes réalisables.</dd>
+        <dt>D'accord</dt><dd>La fin des niches et de la flat tax ; l'initiative citoyenne.</dd>
+        <dt>Autrement</dt><dd>Nous ne bâtissons pas un programme sur l'espoir qu'une relance paiera la facture : les dépenses nouvelles viennent après les économies.</dd>
+        <dt>Le détail</dt><dd><a href="/fr/modeles/banc-programmes/detail-lfi.html">Chaque mesure chiffrée</a></dd>
+      </dl>
+    </article>
+    <article class="fiche-parti">
+      <h3>Rassemblement national</h3>
+      <p class="cout">Creuse le déficit d'environ 50 Md€ par an une fois appliqué.</p>
+      <dl>
+        <dt>Propose</dt><dd>140 Md€ d'économies annoncées d'ici 2032, 30 Md€ de baisses d'impôts, une règle d'or, la primauté du droit national.</dd>
+        <dt>D'accord</dt><dd>Le nucléaire ; le référendum ; rester dans l'euro.</dd>
+        <dt>Autrement</dt><dd>Un conflit avec le droit européen peut priver la France de la protection de la Banque centrale européenne : c'est le risque de crise financière le plus sérieux de ce programme.</dd>
+        <dt>Le détail</dt><dd><a href="/fr/modeles/banc-programmes/detail-rn.html">Chaque mesure chiffrée</a></dd>
+      </dl>
+    </article>
+    <article class="fiche-parti">
+      <h3>Les Républicains (Retailleau)</h3>
+      <p class="cout">Réduit le déficit d'environ 27 Md€ par an une fois appliqué.</p>
+      <dl>
+        <dt>Propose</dt><dd>Près de 200 Md€ d'économies annoncées d'ici 2032, dont 400 000 départs à la retraite non remplacés et la suppression d'agences.</dd>
+        <dt>D'accord</dt><dd>Le nucléaire ; une part de capitalisation pour les retraites ; économiser vite, dès le début du mandat.</dd>
+        <dt>Autrement</dt><dd>Nous voulons centraliser les systèmes d'information de l'État et les construire nous-mêmes, pas les confier au privé ; et nous gardons l'âge de départ à 64 ans.</dd>
+        <dt>Le détail</dt><dd><a href="/fr/modeles/banc-programmes/detail-lr.html">Chaque mesure chiffrée</a></dd>
+      </dl>
+    </article>
+    <article class="fiche-parti">
+      <h3>PS</h3>
+      <p class="cout">Creuse le déficit d'environ 15 Md€ par an une fois appliqué.</p>
+      <dl>
+        <dt>Propose</dt><dd>Un contre-budget annuel ; le programme présidentiel n'est pas encore chiffré ici.</dd>
+        <dt>D'accord</dt><dd>À établir sur le programme complet.</dd>
+        <dt>Le détail</dt><dd><a href="/fr/modeles/banc-programmes/detail-ps.html">Chaque mesure chiffrée</a></dd>
+      </dl>
+    </article>
+    <article class="fiche-parti">
+      <h3>Place publique (Raphaël Glucksmann)</h3>
+      <p class="cout">Chiffrage partiel : creuse le déficit d'environ 42 Md€ par an jusqu'en 2032.</p>
+      <dl>
+        <dt>Propose</dt><dd>« Les 100 premiers jours » : 200 Md€ sur le quinquennat pour la transition écologique, une contribution exceptionnelle de 50 Md€. Seule la partie climat est publiée.</dd>
+        <dt>D'accord</dt><dd>Investir dans la transition ; faire contribuer les plus grandes fortunes.</dd>
+        <dt>Autrement</dt><dd>Une contribution « exceptionnelle » sans taux ni assiette publiés ne peut pas être comptée : nous chiffrons ce qui est décrit. Le document promet une dette stabilisée en 2032 ; avec ce qui est publié, nous ne la trouvons pas.</dd>
+        <dt>Le détail</dt><dd><a href="/fr/modeles/banc-programmes/detail-glucksmann.html">Chaque mesure chiffrée</a></dd>
+      </dl>
+    </article>
+    <article class="fiche-parti">
+      <h3>Langagement politique</h3>
+      <p class="cout">Réduit le déficit d'environ 16 Md€ par an en 2032, 62 Md€ en 2038.</p>
+      <dl>
+        <dt>Propose</dt><dd>Le grand ménage dans l'État, les mêmes règles pour tous, puis bâtir avec ce qu'on a économisé.</dd>
+        <dt>Nos faiblesses</dt><dd>Nos économies montent lentement : en 2032, Les Républicains font un peu mieux que nous. Et la simplification de l'État rend le service meilleur, mais elle rapporte peu : le gros des économies vient des niches supprimées et d'un impôt sur le patrimoine plafonné.</dd>
+        <dt>Le détail</dt><dd><a href="/fr/modeles/banc-programmes/detail-langagement.html">Chaque mesure chiffrée</a></dd>
+      </dl>
+    </article>
+  </div>
+  <p class="note">Programmes non encore chiffrés : Nouvelle Énergie (David Lisnard) attend le détail annoncé pour décembre 2026 ; les autres candidats n'ont pas publié de programme chiffré.</p>
+</div></section>
+</main>
+<footer><div class="page">Version de travail. Texte sous licence CC BY-SA 4.0, code et données sous licence MIT. <a href="https://github.com/pierreclr/langagement-politique">Le dépôt</a></div></footer>
+</body>
+</html>

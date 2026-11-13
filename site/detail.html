@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Le détail</title>
+<meta name="description" content="Pour aller plus loin : toutes les mesures, nos études, la méthode, les modèles et leurs sources, le manifeste complet.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Source+Serif+4:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/redressement.css">
+<style>
+.cartes{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin-top:22px}
+.cartes a{display:block;background:var(--surface);border:1px solid var(--trait);border-radius:14px;padding:18px;text-decoration:none;color:var(--encre)}
+.cartes a b{display:block;font-family:var(--serif);font-size:1.2rem;color:var(--accent);margin-bottom:6px}
+.cartes a span{font-size:.95rem;color:var(--doux)}
+@media (max-width:700px){.cartes{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div class="proto">Version de travail.</div>
+<header><div class="page large">
+  <a class="marque" href="/">Langagement politique</a>
+  <nav></nav>
+</div></header>
+<main>
+<section class="bloc"><div class="page">
+  <p class="etiq">Le détail</p>
+  <h2>Tout ce qui est derrière l'accueil.</h2>
+  <p>L'accueil résume le constat, le programme et la méthode. Ici, le détail : chaque mesure, chaque étude, chaque calcul et ses sources.</p>
+  <p class="etiq" style="margin-top:34px">Le programme</p>
+  <div class="cartes">
+    <a href="/programme.html"><b>Toutes les mesures</b><span>Le plan complet, mesure par mesure, avec ce que chacune rapporte ou coûte, et son calendrier.</span></a>
+    <a href="/programme.html#regles"><b>Le système social et fiscal refondu</b><span>Les deux fonctions, le filet, les retraites, le contrat de travail commun.</span></a>
+    <a href="/programme.html#batir"><b>Bâtir avec les économies</b><span>La foncière du logement, les entreprises du bien commun, et comment elles se financent.</span></a>
+    <a href="/programme.html#decider"><b>Décider ensemble</b><span>Des ministres élus, des lois proposées par les citoyens, des votations.</span></a>
+  </div>
+  <p class="etiq" style="margin-top:34px">La méthode</p>
+  <div class="cartes">
+    <a href="/comparer.html"><b>Comparer les programmes</b><span>Tous les partis, chiffrés avec la même règle, le nôtre aussi.</span></a>
+    <a href="/etudes.html"><b>Nos études</b><span>L'hypothèse, les données, le résultat, ce qu'on peut et ne peut pas conclure.</span></a>
+    <a href="/approche.html"><b>L'approche</b><span>Comment on chiffre, ce que fait l'IA, ce que décide l'humain.</span></a>
+    <a href="/fr/modeles/"><b>Les modèles</b><span>Chaque calcul, ses hypothèses, son code et ses résultats.</span></a>
+  </div>
+  <p class="etiq" style="margin-top:34px">Le texte</p>
+  <div class="cartes">
+    <a href="/fr/index.html"><b>Le manifeste complet</b><span>Le texte chapitre par chapitre. Version de travail : certains chiffres datent d'avant le 11/11/2026.</span></a>
+    <a href="https://github.com/pierreclr/langagement-politique"><b>Le projet sur GitHub</b><span>Données, code et texte : refaire un calcul, signaler une erreur, proposer une correction.</span></a>
+  </div>
+</div></section>
+</main>
+<footer class="page" style="padding:28px 16px;color:var(--doux);font-size:.85rem">Texte sous licence CC BY-SA 4.0, code et données sous licence MIT. Version de travail.</footer>
+</body>
+</html>

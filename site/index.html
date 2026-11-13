@@ -3,107 +3,161 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Redresser d'abord, bâtir ensuite</title>
+<title>Langagement politique</title>
+<meta name="description" content="Un programme de gauche, avec des méthodes de droite : la justice comme but, l'efficacité comme méthode. Chiffré avec la même règle que tous les autres, et ouvert à tous.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Source+Serif+4:wght@600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/redressement.css">
+<link rel="stylesheet" href="/graphiques-site.css">
+<style>
+.surtitre{font-weight:700;letter-spacing:.08em;text-transform:uppercase;font-size:.8rem;color:var(--doux);margin:0 0 14px}
+.ouverture h1{font-size:clamp(2.2rem,6.4vw,3.6rem)}
+.identite{font-family:var(--serif);font-size:clamp(1.3rem,3.4vw,1.75rem);color:var(--accent);margin:0 0 20px;font-weight:700}
+.signature{font-size:.95rem;color:var(--doux);margin-top:18px}
+.pastilles{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:22px 0 4px}
+.pastilles span{background:var(--accent-doux);color:var(--accent);font-weight:700;border-radius:999px;padding:6px 14px;font-size:.92rem}
+.pastilles i{color:var(--doux);font-style:normal}
+.boutons{display:flex;flex-wrap:wrap;gap:12px;margin-top:22px}
+.boutons .bouton{margin-top:0}
+.bouton.second{background:transparent;color:var(--accent);border:2px solid var(--accent)}
+.crois{list-style:none;padding:0;margin:20px 0 0;display:grid;gap:18px}
+.crois li{border-left:3px solid var(--accent);padding-left:16px}
+.crois b{display:block;font-family:var(--serif);font-size:clamp(1.15rem,3vw,1.4rem);line-height:1.3}
+.crois span{color:var(--doux)}
+.quatre-cartes{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin-top:22px}
+.quatre-cartes article{background:var(--surface);border:1px solid var(--trait);border-radius:14px;padding:18px}
+.quatre-cartes .num{font-family:var(--serif);color:var(--accent);font-weight:700;letter-spacing:.06em;font-size:.9rem}
+.quatre-cartes h3{font-family:var(--serif);font-size:1.3rem;margin:4px 0 8px}
+.quatre-cartes p{margin:0 0 10px;font-size:.98rem}
+@media (max-width:700px){.quatre-cartes{grid-template-columns:1fr}}
+.constat4{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:20px}
+.constat4 div{border-left:3px solid var(--rouge);padding:2px 0 2px 14px}
+.constat4 b{display:block;font-family:var(--serif);font-size:1.45rem;line-height:1.15}
+.constat4 span{color:var(--doux);font-size:.92rem}
+@media (max-width:860px){.constat4{grid-template-columns:1fr 1fr}}
+@media (max-width:480px){.constat4{grid-template-columns:1fr}}
+.limites ul{padding-left:20px}
+.limites li{margin-bottom:10px}
+.lien-suite{display:inline-block;margin-top:16px;font-weight:700;text-decoration:none}
+</style>
 </head>
 <body>
-<div class="proto">Version de travail. Les chiffres en orange sont en cours de recalcul, avec la même règle pour tous les programmes, le nôtre compris.</div>
+<div class="proto">Version de travail : les chiffres sont des ordres de grandeur, publiés pour être contestés.</div>
 <header><div class="page large">
   <a class="marque" href="/">Langagement politique</a>
-  <nav>
-    <a href="/programme.html" class="fort">Le plan</a>
-    <a href="#depart">D'où l'on part</a>
-    <a href="#pour-vous">Pour vous</a>
-    <a href="/comparer.html">Comparer</a>
-    <a href="/approche.html">L'approche</a>
-    <a href="/fr/modeles/">Les modèles</a>
-  </nav>
+  <nav></nav>
 </div></header>
 
 <main>
 <section class="ouverture"><div class="page">
-  <h1>Redresser d'abord.<br><span>Bâtir ensuite.</span></h1>
-  <p>Un grand ménage dans l'État pour assainir les finances. Puis investir ce qu'on a économisé dans ce qui rapporte, pour tous.</p>
-  <p class="doux">Pas de milliards promis. Des comptes, et de quoi les vérifier.</p>
+  <p class="surtitre">Un programme politique, chiffré et ouvert</p>
+  <h1>Un programme de gauche, avec des méthodes de droite.</h1>
+  <p class="identite">La justice comme but, l'efficacité comme méthode.</p>
+  <p>Simplifier l'État et en finir avec les niches. Les mêmes règles d'impôt pour tous, travail et capital compris. Investir ce qu'on a économisé dans des entreprises publiques rentables et en concurrence. Et décider ensemble, par le vote, pas seulement tous les cinq ans.</p>
+  <div class="pastilles"><span>Simplifier</span><i>→</i><span>Les mêmes règles</span><i>→</i><span>Bâtir</span><i>→</i><span>Décider ensemble</span></div>
+  <div class="boutons"><a class="bouton" href="/programme.html">Voir le programme</a><a class="bouton second" href="/constat.html">Pourquoi changer</a></div>
+  <p class="signature">Proposé par Pierre Clocher, développeur et entrepreneur, sans carrière politique. Construit avec une IA ; tous les calculs sont publics.</p>
 </div></section>
 
-<section class="depart" id="depart"><div class="page">
-  <p class="etiq">D'où l'on part</p>
-  <div class="trois">
-    <div><b>3 460 Md€</b><span>de dette publique, 115,6 % du PIB</span></div>
-    <div><b>65 Md€</b><span>d'intérêts payés en un an</span></div>
-    <div><b>5,1 %</b><span>de déficit</span></div>
-  </div>
-  <p class="src">Insee, comptes des administrations publiques 2025.</p>
+<section class="bloc" id="crois"><div class="page">
+  <p class="etiq">Ce que je crois</p>
+  <ul class="crois">
+    <li><b>Un État doit rendre des comptes, en toute transparence.</b><span>Dire ce qu'il fait, ce qu'il a réussi, ce qu'il a raté, et cesser de payer dix fois la même chose.</span></li>
+    <li><b>Les mêmes règles pour tous.</b><span>Le travail et le capital contribuent selon la même règle ; les niches qui profitent aux mieux conseillés disparaissent.</span></li>
+    <li><b>Le marché crée la richesse ; elle doit profiter à tous.</b><span>L'État n'investit que ce qu'il a économisé, dans ce qui rapporte, pour que la naissance décide moins du destin.</span></li>
+    <li><b>Les citoyens doivent décider plus souvent que tous les cinq ans.</b><span>Des lois proposées par les citoyens et votées par tous, des chiffres publics pour juger.</span></li>
+  </ul>
 </div></section>
 
-<section class="bloc" id="plan"><div class="page">
-  <p class="etiq">Le plan</p>
-  <h2>Trois temps, dans cet ordre.</h2>
-  <div class="temps">
-    <article>
-      <div class="num">1 · LE GRAND MÉNAGE</div>
-      <h3>Un État simple, qui ne vous fait plus courir.</h3>
-      <p>Une seule application pour toutes vos démarches, un seul système d'information pour l'État, des organismes fusionnés.</p>
-    </article>
-    <article>
-      <div class="num">2 · LES MÊMES RÈGLES POUR TOUS</div>
-      <h3>Un impôt simple, auquel personne n'échappe.</h3>
-      <p>Fin des niches ; le capital contribue comme le travail, sans faire fuir les patrimoines.</p>
-      <span class="chiffre">≈ 19 Md€ de niches supprimées · ≈ 21 Md€ sur les grands patrimoines</span>
-    </article>
-    <article>
-      <div class="num">3 · BÂTIR AVEC CE QU'ON A ÉCONOMISÉ</div>
-      <h3>Des entreprises du bien commun, en concurrence.</h3>
-      <p>D'abord le numérique de l'État ; puis le logement des jeunes, la production en France, les transports urbains gratuits.</p>
-      <span class="chiffre">1 Md€ par an au départ</span>
-    </article>
+<section class="depart" id="pourquoi-changer"><div class="page">
+  <p class="etiq">Pourquoi changer</p>
+  <h2 style="font-family:var(--serif);font-size:clamp(1.7rem,4.6vw,2.4rem);line-height:1.15;margin:0 0 12px">Si rien ne change, ce sont les jeunes qui paient.</h2>
+  <p style="max-width:34em">La dette coûte de plus en plus cher, le pays vieillit, l'héritage pèse plus que le travail, et les règles ne sont pas les mêmes pour tous. La droite et la gauche peuvent partager ce constat.</p>
+  <div class="constat4">
+    <div><b>70 → 200 Md€</b><span>d'intérêts de la dette par an (≈ 70 en 2026, ≈ 200 en 2050), si rien ne change</span></div>
+    <div><b>1,77 → 1,30</b><span>cotisant par retraité, aujourd'hui puis en 2070</span></div>
+    <div><b>48 %</b><span>du patrimoine détenu par les 10 % des ménages les mieux dotés</span></div>
+    <div><b>465 niches</b><span>fiscales, 88 Md€ par an d'exceptions</span></div>
   </div>
-  <p><a class="bouton" href="/programme.html">Toutes les mesures →</a></p>
+  <div class="graph">
+    <h3>La dette et ses intérêts, si l'on ne fait rien</h3>
+    <svg id="g-trajectoire" viewBox="0 0 640 260" role="img" aria-label="Dette et intérêts en % du PIB de 2026 à 2050 si rien ne change"></svg>
+    <p class="legende"><span><i style="background:var(--rouge)"></i>Dette (% du PIB, échelle de gauche)</span><span><i style="background:var(--accent)"></i>Intérêts (% du PIB, échelle de droite)</span></p>
+    <p class="src">Notre simulateur, droit actuel : déficit hors intérêts de 2024 maintenu. Insee, COR, Insee Histoire de vie et Patrimoine 2024, annexe au budget 2026.</p>
+  </div>
+  <a class="lien-suite" href="/constat.html">Le constat complet, étape par étape →</a>
+</div></section>
+
+<section class="bloc" id="propositions"><div class="page">
+  <p class="etiq">Ce que nous proposons</p>
+  <h2>Trois temps, dans cet ordre, et une autre façon de décider.</h2>
+  <div class="quatre-cartes">
+    <article><p class="num">1 · SIMPLIFIER</p><h3>Un État simple, qui ne fait plus courir personne.</h3><p>Une seule application pour toutes les démarches, un seul système informatique pour l'État, des organismes fusionnés, la fin des niches fiscales.</p><span class="chiffre">≈ 19 Md€ par an de niches supprimées</span></article>
+    <article><p class="num">2 · LES MÊMES RÈGLES POUR TOUS</p><h3>Une règle pour les revenus, une pour le patrimoine.</h3><p>Travail et capital contribuent selon la même règle, sans tranches ni niches. Un filet de 877 € par mois. La retraite reste à 64 ans.</p><span class="chiffre">patrimoine : 1,25 % au maximum, à la place de la taxe foncière</span></article>
+    <article><p class="num">3 · BÂTIR AVEC CE QU'ON A ÉCONOMISÉ</p><h3>L'État actionnaire du bien commun.</h3><p>Des entreprises publiques qui ne gagnent un contrat que si elles sont moins chères ou meilleures : le numérique public d'abord, puis la production en France, les travaux publics, le logement des jeunes, les transports urbains.</p><span class="chiffre">1 Md€ par an au départ, pris sur le crédit d'impôt recherche</span></article>
+    <article><p class="num">4 · DÉCIDER ENSEMBLE</p><h3>Des ministres élus, des lois votées par tous.</h3><p>Chaque ministre élu par les citoyens, avec son équipe ; des lois proposées par les citoyens, préparées en public et votées par tous ; un référendum sur la nouvelle organisation.</p><span class="chiffre">un million de signatures pour proposer une loi, adoptée à 60 %</span></article>
+  </div>
+  <p style="margin-top:18px;max-width:34em">Rien n'est dépensé avant d'avoir été économisé : pas de milliards débloqués d'un coup.</p>
+  <a class="lien-suite" href="/programme.html">Toutes les mesures, leur calendrier et les calculateurs →</a>
+</div></section>
+
+<section class="bloc verite" id="pour-vous"><div class="page">
+  <p class="etiq">Concrètement</p>
+  <h2>Ce que ça change pour vous.</h2>
+  <div class="exemples">
+    <div><b>Vous avez 25 ans</b><p class="apres">toutes vos démarches dans une seule application, prévenu avant chaque échéance ; au premier emploi stable, le droit d'acquérir l'usage à vie d'un logement, sans apport.</p></div>
+    <div><b>Vous êtes retraité propriétaire</b><p class="apres">votre âge de départ ne bouge pas. Pour une maison de 500 000 €, ≈ 1 250 € par an au lieu d'≈ 2 100 € de taxe foncière et de droits de mutation lissés aujourd'hui.</p></div>
+    <div><b>Vous travaillez ou entreprenez</b><p class="apres">les mêmes règles quel que soit votre statut, une activité créée en une démarche, des contributions qui se calculent seules.</p></div>
+  </div>
+  <a class="lien-suite" href="/programme.html#calculateurs">Faire le calcul pour ma situation →</a>
+</div></section>
+
+<section class="bloc" id="ordre"><div class="page">
+  <p class="etiq">Dans quel ordre</p>
+  <h2>Ce qui peut commencer tout de suite commence tout de suite. Le reste, les Français le votent.</h2>
+  <div class="etapes">
+    <div><b>Dès le premier jour</b><span>L'application unique, l'entreprise publique du numérique, la fin des premières niches, les fusions d'organismes.</span></div>
+    <div><b>L'audit public</b><span>Le nouveau système est publié, audité et testé avant d'être soumis au vote.</span></div>
+    <div><b>Le référendum</b><span>Les deux règles d'impôt, le contrat de travail commun, la nouvelle façon de décider : les Français disent oui ou non.</span></div>
+  </div>
 </div></section>
 
 <section class="bloc" id="comparer"><div class="page">
-  <p class="etiq">Comparer</p>
+  <p class="etiq">Comparé aux autres</p>
   <h2>Tous les programmes, chiffrés avec la même règle. Le nôtre aussi.</h2>
-  <div class="tableau"><table>
-    <thead><tr><th>Programme</th><th>Effet sur le déficit en 2038</th><th>Dette en 2038</th></tr></thead>
-    <tbody>
-      <tr><td><b>Langagement politique</b></td><td class="nb" style="color:var(--vert)">+62 Md€ par an</td><td>148 %</td></tr>
-      <tr><td>Les Républicains</td><td class="nb" style="color:var(--vert)">+27 Md€</td><td>149 %</td></tr>
-      <tr><td>Si rien ne change</td><td>0</td><td>157 %</td></tr>
-      <tr><td>Rassemblement national</td><td class="nb" style="color:var(--rouge)">−50 Md€</td><td>175 %</td></tr>
-      <tr><td>La France insoumise</td><td class="nb" style="color:var(--rouge)">−254 Md€</td><td>241 %</td></tr>
-    </tbody>
-  </table></div>
-  <p class="note">+ : réduit le déficit ; − : l'augmente. Personne, nous compris, ne repasse sous 3 % de déficit d'ici 2038 : nous le disons.</p>
-  <p><a class="bouton" href="/comparer.html">Le comparatif complet →</a></p>
+  <p>Dette publique en 2038 : 148 % avec ce programme, 157 % si rien ne change. Aucun programme, le nôtre compris, ne ramène le déficit sous 3 % d'ici 2038.</p>
+  <div class="graph">
+    <svg id="g-dette" viewBox="0 0 640 300" role="img" aria-label="Dette en 2038 selon les programmes"></svg>
+    <p class="src">Notre simulateur, médianes de 10 000 tirages ; aucun effet de croissance crédité à personne.</p>
+  </div>
+  <a class="lien-suite" href="/comparer.html">La comparaison complète, parti par parti →</a>
 </div></section>
 
-<section class="bloc" id="pour-vous"><div class="page">
-  <p class="etiq">Pour vous</p>
-  <h2>Ce que ça change, concrètement.</h2>
-  <div class="exemples">
-    <div><b>Vos démarches</b><p class="avant">Impôts, CAF, France Travail, mairie : un site, un compte et un guichet par administration, qui se renvoient la balle. Un oubli, et c'est la pénalité.</p><p class="apres">une seule application, un seul dossier. Vous êtes prévenu avant chaque échéance, et une IA répond à vos questions et vous guide jusqu'au bout.</p></div>
-    <div><b>Travailler, entreprendre</b><p class="avant">Des statuts, des contrats et des cotisations différents selon votre métier, et des semaines de formalités pour créer votre activité.</p><p class="apres">les mêmes règles pour tous, une activité créée en une démarche, et des cotisations qui se calculent seules.</p></div>
-    <div><b>Vous avez 24 ans</b><p class="avant">Vous payez un loyer toute votre vie active avant de pouvoir acheter, si vous y arrivez.</p><p class="apres">vous payez l'usage d'un logement rénové qui est le vôtre pour la vie.</p><p class="avant" style="margin:8px 0 0">Parce que posséder son chez-soi est sans doute la plus grande source d'inégalité, et la plus simple à corriger : vous payez votre logement pour vous, pas pour un autre.</p></div>
-  </div>
-  <a class="bouton" href="/fr/modeles/">Faire le calcul pour ma situation →</a>
+<section class="bloc refus limites" id="limites"><div class="page">
+  <p class="etiq">Ce qu'on vous dit franchement</p>
+  <h2>Nos limites, écrites en clair.</h2>
+  <ul>
+    <li>Nos économies montent lentement : en 2032, Les Républicains font un peu mieux que nous ; l'écart se fait ensuite (62 Md€ de déficit en moins par an en 2038).</li>
+    <li>Simplifier l'État rend le service meilleur mais rapporte peu. L'impôt sur le patrimoine rapporte ≈ 21 Md€, mais ≈ 17 Md€ remplacent la taxe foncière : la recette vraiment nouvelle est de ≈ 3,6 Md€.</li>
+    <li>Le taux de prélèvement affiché monte, de 42,7 % à 49,7 % du PIB, parce qu'une seule contribution remplace impôts et cotisations et reverse aussi ce que versaient les aides. Sans les versements qui reviennent aux ménages, on est à 46,3 %.</li>
+    <li>Sans un oui au référendum, le cœur du programme ne se fait pas.</li>
+  </ul>
+  <a class="lien-suite" href="/etudes.html">Nos études, y compris les idées écartées →</a>
 </div></section>
 
-<section class="bloc verite"><div class="page">
-  <p class="etiq">La vérité des chiffres</p>
-  <div class="trois">
-    <div><b>26 jours</b><span>de dépense publique : ce que paierait 99 % de la première fortune de France, une seule fois. Le capital doit contribuer ; il ne redressera pas seul les comptes.</span></div>
-    <div><b>119 pour 100</b><span>Pour 100 personnes qui travaillent dans le privé, 119 ont un revenu payé par l'argent public : retraités, agents publics, allocataires.</span></div>
-    <div><b>1,7</b><span>personne qui travaille pour un retraité, selon le Conseil d'orientation des retraites.</span></div>
+<section class="bloc" id="croire"><div class="page">
+  <p class="etiq">Pourquoi nous croire</p>
+  <h2>Calculer avant de promettre.</h2>
+  <div class="etapes">
+    <div><b>La même règle pour tous</b><span>Chaque programme, le nôtre compris, passe par le même calcul et la même prudence.</span></div>
+    <div><b>Les choix sont humains</b><span>L'IA chiffre, vérifie les sources et éprouve la faisabilité ; les décisions restent les miennes.</span></div>
+    <div><b>Tout est public</b><span>Les données, les hypothèses et le code : chacun peut refaire le calcul ou le contester.</span></div>
   </div>
-  <p class="src">Eurostat, Insee, Urssaf, Drees, COR ; calculs publiés.</p>
+  <p class="note"><a href="/approche.html">La méthode →</a> · <a href="https://github.com/pierreclr/langagement-politique">Le projet sur GitHub →</a></p>
 </div></section>
 
 <section class="bloc refus" id="pourquoi"><div class="page">
-  <p class="etiq">Pourquoi maintenant</p>
+  <p class="etiq">Qui parle</p>
   <blockquote>
     <p>Je suis développeur et entrepreneur. Je ne suis pas un homme politique de carrière.</p>
     <p>Pendant le dernier mandat, de 2022 à 2027, l'intelligence artificielle a redéfini mon métier, comme tant d'autres. Je sais ce que c'est que de voir une machine faire en quelques secondes ce qui était votre travail. Et ça ne va pas s'arrêter.</p>
@@ -122,19 +176,23 @@
     <p>Et je refuse les chiffres faux, y compris ceux qui m'arrangeraient.</p>
   </blockquote>
   </details>
-  <p class="signe">Pierre Clocher</p>
+  <p class="signe">Pierre Clocher. Lien d'intérêts : l'auteur a cofondé une entreprise de logiciel ; tout usage de ses travaux dans ce projet serait déclaré.</p>
 </div></section>
 
-<section class="bloc verifier" id="verifier"><div class="page">
+<section class="bloc" id="plus-loin"><div class="page">
   <p class="etiq">Aller plus loin</p>
-  <ul>
-    <li><a href="/approche.html">L'approche</a><span>Comment on chiffre, et ce que fait l'IA.</span></li>
-    <li><a href="/fr/modeles/">Les modèles</a><span>Chaque calcul, ses hypothèses, son code.</span></li>
-    <li><a href="/fr/index.html">Le manifeste</a><span>Le texte complet, chapitre par chapitre (version de travail).</span></li>
-    <li><a href="https://github.com/pierreclr/langagement-politique">Contribuer</a><span>Proposer une correction ou un meilleur modèle.</span></li>
-  </ul>
+  <div class="cartes">
+    <a href="/programme.html"><b>Le programme</b><span>Toutes les mesures, leur calendrier, les calculateurs.</span></a>
+    <a href="/constat.html"><b>Le constat</b><span>Comment on en est arrivé là, et où l'on va si rien ne change.</span></a>
+    <a href="/comparer.html"><b>Comparer</b><span>Tous les partis, chiffrés avec la même règle.</span></a>
+    <a href="/approche.html"><b>La méthode</b><span>Comment on chiffre, ce que fait l'IA, ce que décide l'humain.</span></a>
+    <a href="/etudes.html"><b>Nos études</b><span>Ce qu'on a cherché, trouvé, et ce qu'on ne peut pas conclure.</span></a>
+    <a href="/detail.html"><b>Le détail</b><span>Les modèles, leurs sources, et le manifeste complet (version de travail).</span></a>
+  </div>
 </div></section>
 </main>
-<footer><div class="page">Texte sous licence CC BY-SA 4.0, code et données sous licence MIT. Version de travail.</div></footer>
+
+<footer class="page" style="padding:28px 16px;color:var(--doux);font-size:.85rem">Texte sous licence CC BY-SA 4.0, code et données sous licence MIT. Version de travail.</footer>
+<script src="/graphiques-site.js"></script>
 </body>
 </html>
