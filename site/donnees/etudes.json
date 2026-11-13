@@ -94,7 +94,7 @@
   "id": "programmes-compares",
   "pan": "Finances publiques et dette",
   "question": "Que deviennent le déficit et la dette si l'on applique les mesures de chaque programme, chiffrées avec la même règle pour tous ?",
-  "trouve": "Dette publique en 2038, en % du PIB : 148 pour notre système, 149 pour LR, 157 si rien ne change, 163 pour PS et Place publique, 175 pour le Rassemblement national, 241 pour LFI. En 2058 : de 184 (notre système) à 506 (LFI).",
+  "trouve": "Dette publique en 2038, en % du PIB : 148 pour notre système, 149 pour LR, 157 si rien ne change, 163 pour PS et Place publique, 175 pour le Rassemblement national, 241 pour LFI. En 2058 : de 183 (notre système) à 506 (LFI).",
   "conclure": "Avec la même règle appliquée à toutes les économies annoncées, deux programmes (LR et notre système) finissent 2038 sous le niveau atteint si rien ne change (157 %) ; tous les autres finissent au-dessus.",
   "pas_conclure": "Ce sont des ordres de grandeur sous hypothèses, avec un taux d'intérêt fixe ; l'auteur est partie prenante de la comparaison et la grille de la règle commune est une convention, pas une source.",
   "statut": "en cours",

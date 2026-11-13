@@ -39,8 +39,8 @@ class TestDette(unittest.TestCase):
 
     def test_moteur_retrouve_notre_systeme(self):
         v = R.test_validite(CTX)
-        self.assertAlmostEqual(v['reference']['moteur_2038'], 1.3893, delta=0.001)    # 138,9 % après patrimoine à 1,25 % et grand ménage (DECISIONS1111D) ; 125,2 % (leviers F gardés, DECISIONS1111B ; 129,2 % avec leviers recalibrés) ; (après correction du différé et décisions du 11/11 : retraites de la loi de 2023, entreprise d'État à 1 Md€ ; 130,4 % avant)
-        self.assertAlmostEqual(v['reference']['moteur_2058'], 1.5044, delta=0.001)    # 150,4 % (DECISIONS1111D) ; 108,2 % (DECISIONS1111B ; 128,9 % recalibré) ; (124,6 % avant les décisions du 11/11)
+        self.assertAlmostEqual(v['reference']['moteur_2038'], 1.3863, delta=0.001)    # 138,6 % avec la fonction unique des revenus (DECISIONS1311, 13/11/2026) ; 138,9 % après patrimoine à 1,25 % et grand ménage (DECISIONS1111D) ; 125,2 % (leviers F gardés, DECISIONS1111B ; 129,2 % avec leviers recalibrés) ; (après correction du différé et décisions du 11/11 : retraites de la loi de 2023, entreprise d'État à 1 Md€ ; 130,4 % avant)
+        self.assertAlmostEqual(v['reference']['moteur_2058'], 1.4951, delta=0.001)    # 149,5 % (DECISIONS1311) ; 150,4 % (DECISIONS1111D) ; 108,2 % (DECISIONS1111B ; 128,9 % recalibré) ; (124,6 % avant les décisions du 11/11)
         for k, x in v.items():
             self.assertAlmostEqual(x['moteur_2038'], x['modele_2038'], delta=1e-6, msg=k)
             self.assertAlmostEqual(x['moteur_2058'], x['modele_2058'], delta=1e-6, msg=k)
@@ -270,8 +270,8 @@ class TestSystemeAvecIncertitudes(unittest.TestCase):
         delta, rec, par = M.effet_modules(self.mesures, t0, [2029 + k for k in range(30)])
         self.assertTrue(all(abs(x) < 1e-12 for x in delta))
         tr = M.trajectoire_dette({an: eff[an] + delta[i] for i, an in enumerate(range(2029, 2059))}, CTX['eco'], CTX['macros']['reference'])
-        self.assertAlmostEqual(tr[2038]['ratio'], 1.3893, delta=0.0005)       # 138,9 % après patrimoine à 1,25 % et grand ménage (DECISIONS1111D) ; 125,2 % (DECISIONS1111B ; 129,2 % recalibré) ; : valeur centrale du modèle (après correction du différé V32018 et décisions du 11/11 ; 130,4 % avant)
-        self.assertAlmostEqual(tr[2058]['ratio'], 1.5044, delta=0.0005)       # 150,4 % (DECISIONS1111D) ; 108,2 % (DECISIONS1111B ; 128,9 % recalibré) ; (124,6 % avant les décisions du 11/11)
+        self.assertAlmostEqual(tr[2038]['ratio'], 1.3863, delta=0.0005)       # 138,6 % avec la fonction unique des revenus (DECISIONS1311) ; 138,9 % après patrimoine à 1,25 % et grand ménage (DECISIONS1111D) ; 125,2 % (DECISIONS1111B ; 129,2 % recalibré) ; : valeur centrale du modèle (après correction du différé V32018 et décisions du 11/11 ; 130,4 % avant)
+        self.assertAlmostEqual(tr[2058]['ratio'], 1.4951, delta=0.0005)       # 149,5 % (DECISIONS1311) ; 150,4 % (DECISIONS1111D) ; 108,2 % (DECISIONS1111B ; 128,9 % recalibré) ; (124,6 % avant les décisions du 11/11)
 
     def test_mediane_proche_de_la_valeur_centrale(self):
         c = self.res['central']

@@ -118,6 +118,17 @@ def dettes_reference():
     out = {}
     for nom, v in re.findall(r"([^;]+?) (\d+,\d) %", m.group(1)):
         out[nom.strip()] = float(v.replace(",", "."))
+    # Valeurs non arrondies (donnees/resultats-v2.json), pour éviter un double arrondi à l'affichage (147,54 → « 147,5 » → « 147 % ») :
+    # une valeur n'est remplacée que si un seul programme du fichier lui correspond à 0,1 point près (13/11/2026).
+    try:
+        prog = json.load(open(os.path.join(DEPOT, "modeles", "banc-programmes", "donnees", "resultats-v2.json"), encoding="utf-8"))["programmes"]
+        precis = [100 * p["dette2038"]["p50"] for p in prog.values()]
+        for nom, v in out.items():
+            c = [x for x in precis if round(x, 1) == v]
+            if len(c) == 1:
+                out[nom] = round(c[0], 2)
+    except (OSError, KeyError, ValueError):
+        pass
     return out
 
 

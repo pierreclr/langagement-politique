@@ -17,19 +17,19 @@ Unités : milliards d'euros (Md€) par an, euros de 2025 ; un nombre positif am
 
 | | notre système |
 |---|---|
-| Réduction (+) ou aggravation (−) du déficit par rapport au droit actuel, en 2038 (Md€) | **62 [35 ; 88]** |
-| Somme des médianes des 31 modules détaillés ci-dessous | 9,7 |
+| Réduction (+) ou aggravation (−) du déficit par rapport au droit actuel, en 2038 (Md€) | **63 [36 ; 89]** |
+| Somme des médianes des 31 modules détaillés ci-dessous | 10,2 |
 | Ligne hors modules, tirée par la même règle : Leviers votés (hausses de taux calées pour une dette stable) (F) | 33,2 [27,9 ; 33,3] |
 | Ligne hors modules, tirée par la même règle : Point d'indice : prix − 0,5 point pendant 4 ans (M-M2) | 3,8 [3,2 ; 3,8] |
 | Ligne hors modules, tirée par la même règle : Socle hérité non décomposé (le modèle n'en publie ni les lignes ni les bornes) (SOCLE) | 16,5 [10,8 ; 22,2] |
 | Ligne hors modules, tirée par la même règle : Impôt de suite sur la fonction du patrimoine (2,28 Md€) (TR03) | 1,6 [1,0 ; 2,1] |
-| Somme des médianes des 35 lignes | 64,8 |
-| Moyenne du total = somme des moyennes des 35 lignes | 62,0 = 62,0 |
-| Valeur centrale du modèle, avant la règle (somme des valeurs centrales des 35 lignes, sans tirage) | 92,3 |
-| Dette publique en 2038 (% du PIB ; taux d'intérêt fixe de 3,45 %) | 148 [141 ; 155] |
-| Dette publique en 2058 (% du PIB) | 184 [159 ; 210] |
+| Somme des médianes des 35 lignes | 65,3 |
+| Moyenne du total = somme des moyennes des 35 lignes | 62,5 = 62,5 |
+| Valeur centrale du modèle, avant la règle (somme des valeurs centrales des 35 lignes, sans tirage) | 93,2 |
+| Dette publique en 2038 (% du PIB ; taux d'intérêt fixe de 3,45 %) | 148 [141 ; 154] |
+| Dette publique en 2058 (% du PIB) | 183 [159 ; 209] |
 
-Lecture. Le total est celui du tableau comparatif de la version 2 (§ 1 de `modeles/banc-programmes/resultats-v2.md`) ; un test vérifie qu'il est recopié sans écart. Dans chaque tirage, le total est exactement la somme des lignes : la moyenne du total est donc la somme des moyennes des lignes (ci-dessus). La médiane, elle, ne s'additionne pas : la médiane du total (Le total, somme de nombreuses lignes, est presque symétrique : sa médiane reste proche de sa moyenne, et l'écart avec la somme des médianes vient, pour l'essentiel, des écarts entre moyenne et médiane de chaque ligne.) est 62,3 de inférieure Md€ à la somme des médianes (2,4), parce que les lois des lignes sont asymétriques (part réalisable des scores 0 et 1, dont la moyenne dépasse la médiane ; fourchettes de coût de 64,8 à 0,9 fois le montant, plus longues du côté de la dérive) et que les lignes sont tirées ensemble (facteurs communs). 1,3
+Lecture. Le total est celui du tableau comparatif de la version 2 (§ 1 de `modeles/banc-programmes/resultats-v2.md`) ; un test vérifie qu'il est recopié sans écart. Dans chaque tirage, le total est exactement la somme des lignes : la moyenne du total est donc la somme des moyennes des lignes (ci-dessus). La médiane, elle, ne s'additionne pas : la médiane du total (Le total, somme de nombreuses lignes, est presque symétrique : sa médiane reste proche de sa moyenne, et l'écart avec la somme des médianes vient, pour l'essentiel, des écarts entre moyenne et médiane de chaque ligne.) est 62,8 de inférieure Md€ à la somme des médianes (2,5), parce que les lois des lignes sont asymétriques (part réalisable des scores 0 et 1, dont la moyenne dépasse la médiane ; fourchettes de coût de 65,3 à 0,9 fois le montant, plus longues du côté de la dérive) et que les lignes sont tirées ensemble (facteurs communs). 1,3
 
 ## Ce que nous n'avons pas pu chiffrer
 
@@ -43,10 +43,10 @@ Lecture. Le total est celui du tableau comparatif de la version 2 (§ 1 de `mode
 Ce que un contradicteur peut opposer à ce chiffrage, dit aussi loyalement que possible :
 
 - **Le banc est notre outil, et il chiffre notre propre programme.** C'est l'objection la plus forte. L'auteur est partie prenante ; le code et les hypothèses sont ouverts pour que chacun refasse le calcul.
-- **La grille de faisabilité est la nôtre.** Les parts réalisables (score 0 à 3) et les réponses (M, J, E) sont des conventions de Claude (⚠️), appliquées à tous les programmes, le nôtre compris ; un contradicteur peut juger nos lignes trop bien classées. Exemple : la fonction du patrimoine (M-PAT) est classée 3 ; classée 2, notre total passerait de 62,3 à 57,2 Md€ (sensibilité à 3 000 tirages, § 6 de `resultats-v2.md`).
-- **Une partie de notre effet n'est pas décomposée.** Le socle hérité des premières versions du modèle (23,5 Md€ au central en 2038) n'est pas détaillé ligne par ligne : il reçoit la classe du milieu par défaut, soit 16,5 [10,8 ; 22,2] Md€ en médiane. Non filtré, il porterait le total à 69,4 Md€ ; classé 1, à 55,4 Md€ (§ 6).
+- **La grille de faisabilité est la nôtre.** Les parts réalisables (score 0 à 3) et les réponses (M, J, E) sont des conventions de Claude (⚠️), appliquées à tous les programmes, le nôtre compris ; un contradicteur peut juger nos lignes trop bien classées. Exemple : la fonction du patrimoine (M-PAT) est classée 3 ; classée 2, notre total passerait de 62,8 à 57,6 Md€ (sensibilité à 3 000 tirages, § 6 de `resultats-v2.md`).
+- **Une partie de notre effet n'est pas décomposée.** Le socle hérité des premières versions du modèle (23,5 Md€ au central en 2038) n'est pas détaillé ligne par ligne : il reçoit la classe du milieu par défaut, soit 16,5 [10,8 ; 22,2] Md€ en médiane. Non filtré, il porterait le total à 69,9 Md€ ; classé 1, à 56,0 Md€ (§ 6).
 - **Nos leviers votés ne garantissent plus une dette stable.** Les hausses de taux calées dans notre modèle (33,3 Md€ au central) passent par la règle comme les autres hausses (33,2 [27,9 ; 33,3] Md€ en médiane) ; le calage qui stabilisait la dette a été supprimé le 11/11/2026, et la dette ne reste stable après 2038 que dans 0,8 % des tirages.
-- **Le taux fixe nous flatte.** Avec un taux qui suit la dette, notre dette de 2038 passe de 148 [141 ; 155] à 168 [160 ; 176] % du PIB, et notre système entre en zone de crise avant 2058 dans 100 % des tirages (§ 1 de `resultats-v2.md`).
+- **Le taux fixe nous flatte.** Avec un taux qui suit la dette, notre dette de 2038 passe de 148 [141 ; 154] à 168 [160 ; 176] % du PIB, et notre système entre en zone de crise avant 2058 dans 100 % des tirages (§ 1 de `resultats-v2.md`).
 - **Ce qui n'est pas dans la trajectoire.** Le capital de départ et quelques lignes nouvelles n'y sont pas encore (chapitre 12) : un concurrent peut nous faire le reproche que nous faisons aux autres.
 
 ## Les postes en un tableau
@@ -65,7 +65,7 @@ Ce que un contradicteur peut opposer à ce chiffrage, dit aussi loyalement que p
 | [M-PENS](#m-pens) | Courbe des pensions relevée à 9 Md€ : fuite sur les pensions 3 / 8 / 15 % (expatriation, cumul emploi-retraite ; retraites2.js) | 9,0 | 8,6 [7,4 ; 9,3] | notre modèle, rejoué à ses bornes ; règle v2 : score 3 |
 | [M-V6](#m-v6) | Dispositif retraites (loi de 2023 gardée ; pénibilité, sous-indexation des hautes pensions) : effet net par année au scénario | 2,2 | 2,2 | notre modèle, rejoué à ses bornes ; règle v2 : non filtré |
 | [M-GT](#m-gt) | Garantie de transition, arrêts maladie, pont vers la retraite (DG01-DG04) | −4,3 | −4,3 [−6,1 ; −3,5] | notre modèle, rejoué à ses bornes ; règle v2 : plancher des coûts |
-| [M-PL](#m-pl) | Plancher en deux parts (627 + 250 €) et coefficient de lieu (PL01, PL02) | 1,7 | 1,1 [0,2 ; 1,9] | notre modèle, rejoué à ses bornes ; règle v2 : score 2 |
+| [M-PL](#m-pl) | Plancher en deux parts (627 + 250 €) fondu dans la fonction unique des revenus (premier euro à 38 %) et coefficient de lieu (PL01, PL02, FU01, FU02) | 2,6 | 1,6 [0,4 ; 2,7] | notre modèle, rejoué à ses bornes ; règle v2 : score 2 |
 | [M-DET](#m-det) | Socle suspendu en détention : économie | 0,5 | 0,2 [0,1 ; 0,4] | notre modèle, rejoué à ses bornes ; règle v2 : score 1 |
 | [M-RESID](#m-resid) | Résidu de la mesure de la v5.10 (bonus d'activité de 100 €, reprise du socle entre 4 700 et 9 400 €) | 0,3 | 0,2 [−5,1 ; 5,8] | notre modèle, rejoué à ses bornes ; règle v2 : score 2 |
 | [M-GA](#m-ga) | Grand âge : hébergement et aide à domicile (GA01, GA02) | −4,1 | −4,1 [−7,3 ; −1,9] | notre modèle, rejoué à ses bornes ; règle v2 : plancher des coûts |
@@ -245,13 +245,13 @@ Ce que un contradicteur peut opposer à ce chiffrage, dit aussi loyalement que p
 - **Fiabilité.** Module de notre modèle, propagé dans le tirage. Cotes des sources de la ligne : B-D (selon la ligne). 2 points marqués ⚠️ (non vérifié). Cote du module : B-D (selon la ligne).
 - **Choix posés par l'IA.** lire les bornes du modèle comme centiles 10 et 90 ; le poids 0,5 sur le facteur commun « coût ».
 
-#### M-PL · Plancher en deux parts (627 + 250 €) et coefficient de lieu (PL01, PL02) {#m-pl}
+#### M-PL · Plancher en deux parts (627 + 250 €) fondu dans la fonction unique des revenus (premier euro à 38 %) et coefficient de lieu (PL01, PL02, FU01, FU02) {#m-pl}
 
-- **La mesure.** Plancher en deux parts (627 + 250 €) et coefficient de lieu (PL01, PL02). Source : `decisions_0811.js HE6-HE7 (DREES)`, [page du modèle du système](https://langagement-politique.vercel.app/fr/modeles/systeme-ideal/).
-- **Notre valeur centrale.** 1,7 Md€ en 2038, sans tirage (c'est notre propre chiffrage, pas une annonce indépendante ; la règle de faisabilité commune s'applique ensuite, comme aux autres programmes).
-- **Notre estimation.** **1,1 [0,2 ; 1,9]** Md€ par an en 2038 : améliore le solde public (recette nouvelle ou économie).
-- **Comment nous l'évaluons.** La fonction de notre modèle qui calcule ce module est rejouée au scénario favorable puis défavorable, tout le reste au central : en 2038, 2,6 Md€ (favorable), 1,7 (central), 0,4 (défavorable). Ces deux bornes sont lues comme les centiles 10 et 90 ; le module est relié aux autres par le facteur « coût » (poids 0,3). Calendrier : à plein effet dès 2029 ; valeur lue en 2038.
-- **Règle v2 (faisabilité commune).** Ligne positive en 2038 (1,7 Md€ au central) : classée M 1, J 1, E 0, score 2 (plancher en deux parts : mécanisme précis, sans précédent) ; part réalisable de 40 % à 100 %, médiane 70 % (grille commune, convention de Claude ⚠️), tirée avec le facteur « coût » (poids 0,5) et un aléa propre, appliquée à la valeur du module.
+- **La mesure.** Plancher en deux parts (627 + 250 €) fondu dans la fonction unique des revenus (premier euro à 38 %) et coefficient de lieu (PL01, PL02, FU01, FU02). Source : `decisions_0811.js HE6-HE7 (DREES) ; decisions_1311.js (fonction_unique_1311.js recette, μ = 0,38)`, [page du modèle du système](https://langagement-politique.vercel.app/fr/modeles/systeme-ideal/).
+- **Notre valeur centrale.** 2,6 Md€ en 2038, sans tirage (c'est notre propre chiffrage, pas une annonce indépendante ; la règle de faisabilité commune s'applique ensuite, comme aux autres programmes).
+- **Notre estimation.** **1,6 [0,4 ; 2,7]** Md€ par an en 2038 : améliore le solde public (recette nouvelle ou économie).
+- **Comment nous l'évaluons.** La fonction de notre modèle qui calcule ce module est rejouée au scénario favorable puis défavorable, tout le reste au central : en 2038, 3,7 Md€ (favorable), 2,6 (central), 0,5 (défavorable). Ces deux bornes sont lues comme les centiles 10 et 90 ; le module est relié aux autres par le facteur « coût » (poids 0,3). Calendrier : à plein effet dès 2029 ; valeur lue en 2038.
+- **Règle v2 (faisabilité commune).** Ligne positive en 2038 (2,6 Md€ au central) : classée M 1, J 1, E 0, score 2 (plancher en deux parts : mécanisme précis, sans précédent) ; part réalisable de 40 % à 100 %, médiane 70 % (grille commune, convention de Claude ⚠️), tirée avec le facteur « coût » (poids 0,5) et un aléa propre, appliquée à la valeur du module.
 - **Modèle utilisé.** Notre modèle, rejoué à ses bornes : `js/pont_incertitudes.js` et `moteur.effet_modules` ; [page du modèle](https://langagement-politique.vercel.app/fr/modeles/systeme-ideal/).
 - **La même famille ailleurs.** La France insoumise : [LFI D02](./detail-lfi.md#d02) (montant de LFI, 0,9 à 1,3 fois) ; [LFI D04](./detail-lfi.md#d04) (fourchette propre à la ligne) ; [LFI D06](./detail-lfi.md#d06) (ordre de grandeur sans source primaire, dit « grossier ») ; [LFI D19](./detail-lfi.md#d19), [LFI D20](./detail-lfi.md#d20) (coût unitaire × quantité) — Les Républicains (plan Retailleau) : [LR14](./detail-lr.md#lr14) (règle v2, score 1 (part médiane 35 %), appliquée au montant annoncé) — Horizons, Édouard Philippe (lecture de notre simulateur) : [Horizons PH03](./detail-philippe.md#ph03) (règle v2, score 2 (part médiane 70 %), appliquée au montant annoncé) ; [Horizons PHD1](./detail-philippe.md#phd1) (lecture de notre simulateur (H-PH7, montant non publié)). Ce que le code confirme et ce qui diffère : [note de famille « Prestations et minima sociaux »](./memes-modeles.md#f-prestations).
 - **Fiabilité.** Module de notre modèle, propagé dans le tirage. Cotes des sources de la ligne : B-D (selon la ligne). 2 points marqués ⚠️ (non vérifié). Cote du module : B-D (selon la ligne).

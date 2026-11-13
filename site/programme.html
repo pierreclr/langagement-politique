@@ -53,8 +53,8 @@
 
 <section class="groupe"><div class="page">
   <div class="trois">
-    <div><b>+16 Md€</b><span>par an d'effet sur le déficit en 2032</span></div>
-    <div><b>+62 Md€</b><span>par an en 2038</span></div>
+    <div><b>+17 Md€</b><span>par an d'effet sur le déficit en 2032</span></div>
+    <div><b>+63 Md€</b><span>par an en 2038</span></div>
     <div><b>148 %</b><span>de dette en 2038, contre 157 % si rien ne change</span></div>
   </div>
   <p class="src">Même règle de prudence que pour tous les programmes. <a href="/comparer.html">Comparer →</a></p>
@@ -115,21 +115,20 @@
   <p class="intro">Deux règles remplacent impôts, cotisations, taxe foncière et droits de mutation. Faites glisser les curseurs.</p>
   <div class="calc">
       <b>Vos revenus</b>
-      <p class="note" style="background:var(--vert-doux);color:var(--encre);border-radius:10px;padding:10px 12px;margin:8px 0 4px"><b style="color:var(--vert)">Minimum garanti : personne ne descend sous 877 € par mois</b> pour une personne seule qui paie un loyer (627 € pour tous, plus 250 € de part logement, qui remplace les aides au logement comme l'APL), 627 € sans loyer à payer, 1 316 € pour un couple. Versé automatiquement, sans dossier. Il se retire doucement : 25 centimes par euro gagné, si bien que travailler rapporte toujours.</p>
+      <p class="note" style="background:var(--vert-doux);color:var(--encre);border-radius:10px;padding:10px 12px;margin:8px 0 4px"><b style="color:var(--vert)">Minimum garanti : personne ne descend sous 877 € par mois</b> pour une personne seule qui paie un loyer (627 € pour tous, plus 250 € de part logement, qui remplace les aides au logement comme l'APL), 627 € sans loyer à payer, 1 316 € pour un couple. Il fait partie de la contribution elle-même : à revenu nul, elle vous verse ce minimum, sans dossier ; puis, à mesure que vous gagnez, elle diminue doucement. Sur le premier euro gagné, 38 % sont prélevés ; ce taux monte sans jamais redescendre, et ne dépasse jamais 65 %. Travailler rapporte donc toujours.</p>
       <label for="c-r">Revenu du mois : tout ce que votre employeur paie pour vous (0 si vous n'avez pas de revenu) : <span id="c-r-v"></span></label>
       <input id="c-r" type="range" min="0" max="15000" step="50" value="0">
       <label for="c-r-loyer" style="font-weight:400"><input id="c-r-loyer" type="checkbox" checked> Je paie un loyer (au moins 250 € par mois)</label>
-      <div class="res" style="grid-template-columns:repeat(4,1fr)">
+      <div class="res">
         <div style="background:var(--accent-doux)"><b id="c-r-n"></b><span>votre revenu net du mois, tout compris (aides et minimum garanti inclus)</span></div>
         <div><b id="c-r-c"></b><span id="c-r-l">vous payez chaque mois</span></div>
-        <div><b id="c-r-f"></b><span>complément du minimum garanti</span></div>
-        <div><b id="c-r-m"></b><span>prélevé sur l'euro suivant, retrait du complément compris</span></div>
+        <div><b id="c-r-m"></b><span>prélevé sur l'euro suivant, cotisations et impôts compris</span></div>
       </div>
       <svg id="g-revenus" viewBox="0 0 640 220" role="img" aria-label="Taux sur l'euro suivant et taux moyen selon le revenu" style="margin-top:14px"></svg>
-      <p class="legende"><span><i style="background:var(--rouge)"></i>Prélevé sur l'euro suivant</span><span><i style="background:var(--accent)"></i>Taux moyen (minimum garanti déduit ; à zéro en dessous de son seuil)</span></p>
+      <p class="legende"><span><i style="background:var(--rouge)"></i>Prélevé sur l'euro suivant</span><span><i style="background:var(--accent)"></i>Taux moyen (à zéro tant que la contribution vous verse plus qu'elle ne prélève)</span></p>
       <details><summary>La formule</summary>
-        <p class="formule">C(R) = 0,6515 × R − 412,5 − 677,25 × (1 − e^(−R / 1 500))</p>
-        <p>R est tout ce que l'employeur dépense pour vous : salaire, cotisations dites patronales, part de mutuelle, moitié du transport, titres-restaurant. Le premier euro est prélevé à 20 %, et le taux monte sans marche vers 65,15 %, sans jamais l'atteindre. Elle remplace l'impôt sur le revenu, la CSG et les cotisations. Sous un certain revenu, elle devient un versement. Un filet complète les plus bas revenus jusqu'à 877 € par mois pour une personne seule.</p>
+        <p class="formule">C(R) = 0,6515 × R − P − 0,2715 × K<sub>P</sub> × (1 − e^(−R / K<sub>P</sub>))</p>
+        <p>P est le minimum garanti : 877 € pour une personne seule qui paie un loyer (K<sub>P</sub> ≈ 784 €), 627 € sans loyer (K<sub>P</sub> ≈ 1 704 €). R est tout ce que l'employeur dépense pour vous : salaire, cotisations dites patronales, part de mutuelle, moitié du transport, titres-restaurant. Elle remplace l'impôt sur le revenu, la CSG, les cotisations et les aides comme le RSA, la prime d'activité et les aides au logement. Le premier euro gagné est prélevé à 38 %, et le taux monte sans marche vers 65,15 %, sans jamais l'atteindre ni redescendre. Pour les hauts revenus, rien ne change par rapport à la version précédente.</p>
       </details>
     </div>
   <div class="calc">

@@ -32,27 +32,27 @@ Taux d'intérêt **fixe à 3,45 %** (tableau principal, comme en v1), puis, en d
 
 | | LR (Retailleau) | PS et Place publique | Glucksmann, livret climat (chiffrage partiel) | RN | LFI (programme complet) | LFI, contre-budget 2027 (sensibilité) | Horizons (Philippe), lecture de notre simulateur | Notre système | Fil de l'eau |
 |---|---|---|---|---|---|---|---|---|---|
-| **Effet sur le solde, en régime (Md€ ; 2038 pour notre système)** | 27 [4 ; 54] | −15 [−23 ; −7] | −36 [−43 ; −22] | −50 [−68 ; −27] | −249 [−287 ; −211] | −35 [−54 ; −10] | −15 [−28 ; −2] | 62 [35 ; 88] | 0 [0 ; 0] |
+| **Effet sur le solde, en régime (Md€ ; 2038 pour notre système)** | 27 [4 ; 54] | −15 [−23 ; −7] | −36 [−43 ; −22] | −50 [−68 ; −27] | −249 [−287 ; −211] | −35 [−54 ; −10] | −15 [−28 ; −2] | 63 [36 ; 89] | 0 [0 ; 0] |
 | dont recettes nouvelles et économies (Md€, après la règle) | 82 [57 ; 110] | 23 [14 ; 32] | 5 [1 ; 21] | 52 [32 ; 77] | 59 [35 ; 88] | 52 [33 ; 78] | 61 [48 ; 75] | non détaillé | 0 |
 | dont baisses d'impôts et dépenses nouvelles (Md€) | 54 [50 ; 59] | 38 [35 ; 41] | 42 [39 ; 48] | 102 [94 ; 110] | 309 [275 ; 345] | 87 [83 ; 91] | 76 [71 ; 84] | non détaillé | 0 |
 | **Déficit restant en régime, statique (% du PIB de 2025 ; 5,7 % au droit actuel)** | 4,7 [3,8 ; 5,5] | 6,2 [5,9 ; 6,4] | 6,8 [6,4 ; 7,1] | 7,3 [6,6 ; 7,9] | 14,0 [12,7 ; 15,3] | 6,8 [6,0 ; 7,4] | 6,2 [5,7 ; 6,6] | 3,6 [2,7 ; 4,5] | 5,7 |
 | Prélèvements obligatoires **bruts** en régime (% du PIB ; 42,7 % en 2024) | 45,5 [44,6 ; 46,4] | 43,5 [43,2 ; 43,8] | 42,9 [42,7 ; 43,4] | 44,5 [43,8 ; 45,3] | 44,7 [43,9 ; 45,7] | 44,5 [43,8 ; 45,3] | 44,8 [44,3 ; 45,2] | 49,7 [48,8 ; 50,5] | 42,7 [42,7 ; 42,7] |
 | Prélèvements obligatoires **nets des transferts reversés aux ménages** (notre système seul, § 5) | — | — | — | — | — | — | — | 46,3 [45,5 ; 47,1] | — |
-| Déficit public 2038 (% du PIB, intérêts compris) | 7,0 [5,9 ; 8,0] | 8,9 [8,5 ; 9,2] | 8,4 [8,4 ; 8,4] | 10,4 [9,4 ; 11,1] | 19,0 [17,4 ; 20,6] | 9,7 [8,6 ; 10,5] | 8,9 [8,3 ; 9,4] | 5,9 [4,9 ; 7,0] | 8,2 [8,2 ; 8,2] |
+| Déficit public 2038 (% du PIB, intérêts compris) | 7,0 [5,9 ; 8,0] | 8,9 [8,5 ; 9,2] | 8,4 [8,4 ; 8,4] | 10,4 [9,4 ; 11,1] | 19,0 [17,4 ; 20,6] | 9,7 [8,6 ; 10,5] | 8,9 [8,3 ; 9,4] | 5,9 [4,8 ; 6,9] | 8,2 [8,2 ; 8,2] |
 | **Dette publique 2032 (% du PIB)** | 133 [129 ; 136] | 138 [137 ; 140] | 143 [142 ; 143] | 144 [141 ; 146] | 169 [164 ; 174] | 142 [138 ; 145] | 139 [137 ; 141] | 135 [133 ; 137] | 136 [136 ; 136] |
 | Dette à la fin de la 5e année du mandat (2032 ; 2033 pour notre système) | 133 [129 ; 136] | 138 [137 ; 140] | 143 [142 ; 143] | 144 [141 ; 146] | 169 [164 ; 174] | 142 [138 ; 145] | 139 [137 ; 141] | 138 [135 ; 141] | 136 [136 ; 136] |
-| **Dette publique 2038 (% du PIB)** | 149 [140 ; 156] | 163 [160 ; 166] | 164 [163 ; 165] | 175 [168 ; 181] | 241 [228 ; 254] | 170 [161 ; 177] | 164 [159 ; 168] | 148 [141 ; 155] | 157 [157 ; 157] |
-| Dette publique 2058 (% du PIB) | 212 [184 ; 237] | 257 [247 ; 265] | 248 [247 ; 248] | 295 [271 ; 314] | 506 [466 ; 546] | 278 [251 ; 299] | 258 [244 ; 272] | 184 [159 ; 210] | 240 [240 ; 240] |
+| **Dette publique 2038 (% du PIB)** | 149 [140 ; 156] | 163 [160 ; 166] | 164 [163 ; 165] | 175 [168 ; 181] | 241 [228 ; 254] | 170 [161 ; 177] | 164 [159 ; 168] | 148 [141 ; 154] | 157 [157 ; 157] |
+| Dette publique 2058 (% du PIB) | 212 [184 ; 237] | 257 [247 ; 265] | 248 [247 ; 248] | 295 [271 ; 314] | 506 [466 ; 546] | 278 [251 ; 299] | 258 [244 ; 272] | 183 [159 ; 209] | 240 [240 ; 240] |
 | Dette 2038, macro prudente (croissance 2,5 %) | 162 [153 ; 170] | 177 [174 ; 180] | 178 [178 ; 179] | 190 [182 ; 196] | 258 [245 ; 271] | 184 [175 ; 192] | 178 [173 ; 183] | 161 [155 ; 168] | 171 [171 ; 171] |
 | **Trajectoire : année du passage sous 3 % de déficit (taux fixe)** | jamais avant 2058 en médiane (0,0 % des tirages y arrivent) | jamais avant 2058 en médiane (0,0 % des tirages y arrivent) | jamais avant 2058 en médiane (0,0 % des tirages y arrivent) | jamais avant 2058 en médiane (0,0 % des tirages y arrivent) | jamais avant 2058 en médiane (0,0 % des tirages y arrivent) | jamais avant 2058 en médiane (0,0 % des tirages y arrivent) | jamais avant 2058 en médiane (0,0 % des tirages y arrivent) | jamais avant 2058 en médiane (0,1 % des tirages y arrivent) | jamais avant 2058 en médiane (0,0 % des tirages y arrivent) |
 | Déficit médian le plus bas sur 2028-2045 (année) | 6,0 % (2029) | 6,8 % (2028) | 7,5 % (2028) | 7,9 % (2028) | 8,8 % (2028) | 7,5 % (2028) | 7,0 % (2028) | 5,9 % (2038) | 6,3 % (2028) |
 | **Taux endogène : dette 2038 (% du PIB)** | 168 [156 ; 178] | 186 [182 ; 190] | 190 [188 ; 191] | 204 [194 ; 213] | 311 [287 ; 336] | 197 [184 ; 207] | 188 [181 ; 194] | 168 [160 ; 176] | 179 [179 ; 179] |
-| Taux endogène : dette 2058 (% du PIB) | 896 [579 ; 1210] | 1480 [1346 ; 1604] | 1496 [1467 ; 1529] | 2053 [1711 ; 2323] | 5140 [4540 ; 5750] | 1804 [1399 ; 2114] | 1525 [1319 ; 1724] | 737 [488 ; 1030] | 1243 [1243 ; 1243] |
+| Taux endogène : dette 2058 (% du PIB) | 896 [579 ; 1210] | 1480 [1346 ; 1604] | 1496 [1467 ; 1529] | 2053 [1711 ; 2323] | 5140 [4540 ; 5750] | 1804 [1399 ; 2114] | 1525 [1319 ; 1724] | 730 [482 ; 1025] | 1243 [1243 ; 1243] |
 | Taux endogène : part des tirages en zone de crise avant 2058 | 100 % | 100 % | 100 % | 100 % | 100 % | 100 % | 100 % | 100 % | 100 % |
 | Taux endogène : année du passage sous 3 % de déficit | jamais avant 2058 en médiane (0,0 % des tirages y arrivent) | jamais avant 2058 en médiane (0,0 % des tirages y arrivent) | jamais avant 2058 en médiane (0,0 % des tirages y arrivent) | jamais avant 2058 en médiane (0,0 % des tirages y arrivent) | jamais avant 2058 en médiane (0,0 % des tirages y arrivent) | jamais avant 2058 en médiane (0,0 % des tirages y arrivent) | jamais avant 2058 en médiane (0,0 % des tirages y arrivent) | jamais avant 2058 en médiane (0,0 % des tirages y arrivent) | jamais avant 2058 en médiane (0,0 % des tirages y arrivent) |
 
-Lecture. (1) **Notre système baisse nettement** : 62 Md€ de solde en 2038 contre 97 en v1, dette 2038 de 148 contre 139 %. C'est attendu (la v1 ne lui appliquait aucun filtre) ; rien n'a été retouché pour le faire remonter.
-(2) Classement par dette 2038 (du plus bas au plus haut) : Notre système 148 % < LR (Retailleau) 149 % < Fil de l'eau 157 % < PS et Place publique 163 % < Horizons (Philippe), lecture de notre simulateur 164 % < Glucksmann, livret climat (chiffrage partiel) 164 % < LFI, contre-budget 2027 (sensibilité) 170 % < RN 175 % < LFI (programme complet) 241 %. À 2058, notre système est à 184 % (v1 : 149 %).
+Lecture. (1) **Notre système baisse nettement** : 63 Md€ de solde en 2038 contre 97 en v1, dette 2038 de 148 contre 139 %. C'est attendu (la v1 ne lui appliquait aucun filtre) ; rien n'a été retouché pour le faire remonter.
+(2) Classement par dette 2038 (du plus bas au plus haut) : Notre système 148 % < LR (Retailleau) 149 % < Fil de l'eau 157 % < PS et Place publique 163 % < Horizons (Philippe), lecture de notre simulateur 164 % < Glucksmann, livret climat (chiffrage partiel) 164 % < LFI, contre-budget 2027 (sensibilité) 170 % < RN 175 % < LFI (programme complet) 241 %. À 2058, notre système est à 183 % (v1 : 149 %).
 (3) **Aucun programme ne passe sous 3 % de déficit** avant 2058 en médiane, à taux fixe comme à taux endogène (seul notre système y arrive dans 0,1 % des tirages, à taux fixe : le déficit comprend les intérêts d'une dette de 124 % du PIB).
 (4) La dette n'est stable après 2038 que dans 0,8 % des tirages de notre système (52 % en v1) : le calage des leviers votés (dette stable dès 2038) a été supprimé le 11/11/2026 (§ 11) ; la valeur est donc ici un résultat, plus un objectif.
 
@@ -62,13 +62,13 @@ Médiane des 10 000 tirages, mêmes tirages et même règle de faisabilité pour
 
 | | LR (Retailleau) | PS et Place publique | Glucksmann, livret climat (chiffrage partiel) | RN | LFI (programme complet) | LFI, contre-budget 2027 (sensibilité) | Horizons (Philippe), lecture de notre simulateur | Notre système | Fil de l'eau |
 |---|---|---|---|---|---|---|---|---|---|
-| **2032** : effet sur le solde (Md€) | 27 | −15 | −42 | −50 | −249 | −35 | −19 | 16 | 0 |
-| 2032 : déficit public (% du PIB) | 6,1 | 7,7 | 8,7 | 9,0 | 16,1 | 8,4 | 7,8 | 6,6 | 7,1 |
+| **2032** : effet sur le solde (Md€) | 27 | −15 | −42 | −50 | −249 | −35 | −19 | 17 | 0 |
+| 2032 : déficit public (% du PIB) | 6,1 | 7,7 | 8,7 | 9,0 | 16,1 | 8,4 | 7,8 | 6,5 | 7,1 |
 | 2032 : dette, taux fixe (% du PIB) | 133 [129 ; 136] | 138 [137 ; 140] | 143 [142 ; 143] | 144 [141 ; 146] | 169 [164 ; 174] | 142 [138 ; 145] | 139 [137 ; 141] | 135 [133 ; 137] | 136 [136 ; 136] |
-| 2032 : dette, taux endogène (% du PIB) | 138 [134 ; 141] | 144 [143 ; 145] | 149 [148 ; 150] | 150 [147 ; 153] | 177 [171 ; 183] | 148 [143 ; 151] | 145 [143 ; 147] | 141 [139 ; 143] | 141 [141 ; 141] |
-| **2038** : effet sur le solde (Md€) | 27 | −15 | 0 | −50 | −254 | −35 | −15 | 62 | 0 |
+| 2032 : dette, taux endogène (% du PIB) | 138 [134 ; 141] | 144 [143 ; 145] | 149 [148 ; 150] | 150 [147 ; 153] | 177 [171 ; 183] | 148 [143 ; 151] | 145 [143 ; 147] | 141 [138 ; 143] | 141 [141 ; 141] |
+| **2038** : effet sur le solde (Md€) | 27 | −15 | 0 | −50 | −254 | −35 | −15 | 63 | 0 |
 | 2038 : déficit public (% du PIB) | 7,0 | 8,9 | 8,4 | 10,4 | 19,0 | 9,7 | 8,9 | 5,9 | 8,2 |
-| 2038 : dette, taux fixe (% du PIB) | 149 [140 ; 156] | 163 [160 ; 166] | 164 [163 ; 165] | 175 [168 ; 181] | 241 [228 ; 254] | 170 [161 ; 177] | 164 [159 ; 168] | 148 [141 ; 155] | 157 [157 ; 157] |
+| 2038 : dette, taux fixe (% du PIB) | 149 [140 ; 156] | 163 [160 ; 166] | 164 [163 ; 165] | 175 [168 ; 181] | 241 [228 ; 254] | 170 [161 ; 177] | 164 [159 ; 168] | 148 [141 ; 154] | 157 [157 ; 157] |
 | 2038 : dette, taux endogène (% du PIB) | 168 [156 ; 178] | 186 [182 ; 190] | 190 [188 ; 191] | 204 [194 ; 213] | 311 [287 ; 336] | 197 [184 ; 207] | 188 [181 ; 194] | 168 [160 ; 176] | 179 [179 ; 179] |
 | Prélèvements obligatoires bruts (% du PIB) | 45,5 [44,6 ; 46,4] | 43,5 [43,2 ; 43,8] | 42,9 [42,7 ; 43,4] | 44,5 [43,8 ; 45,3] | 44,7 [43,9 ; 45,7] | 44,5 [43,8 ; 45,3] | 44,8 [44,3 ; 45,2] | 49,7 [48,8 ; 50,5] | 42,7 [42,7 ; 42,7] |
 | Prélèvements obligatoires nets des transferts (% du PIB) | — | — | — | — | — | — | — | 46,3 [45,5 ; 47,1] | — |
@@ -139,12 +139,12 @@ Médiane des 10 000 tirages, mêmes tirages et même règle de faisabilité pour
 
 | Indicateur | v1 | v2 |
 |---|---|---|
-| Effet sur le solde en régime (Md€) | 97 [60 ; 135] | 62 [35 ; 88] |
+| Effet sur le solde en régime (Md€) | 97 [60 ; 135] | 63 [36 ; 89] |
 | Déficit restant en régime (% du PIB de 2025) | 2,4 [1,1 ; 3,7] | 3,6 [2,7 ; 4,5] |
-| Déficit public 2038 (% du PIB) | 4,5 [3,0 ; 6,0] | 5,9 [4,9 ; 7,0] |
+| Déficit public 2038 (% du PIB) | 4,5 [3,0 ; 6,0] | 5,9 [4,8 ; 6,9] |
 | Dette 2032 (% du PIB) | 132 [130 ; 135] | 135 [133 ; 137] |
-| Dette 2038 (% du PIB) | 139 [130 ; 148] | 148 [141 ; 155] |
-| Dette 2058 (% du PIB) | 149 [109 ; 187] | 184 [159 ; 210] |
+| Dette 2038 (% du PIB) | 139 [130 ; 148] | 148 [141 ; 154] |
+| Dette 2058 (% du PIB) | 149 [109 ; 187] | 183 [159 ; 209] |
 | Prélèvements obligatoires bruts en régime (% du PIB) | 50,1 [49,2 ; 51,1] | 49,7 [48,8 ; 50,5] |
 
 Fil de l'eau : inchangé (aucune mesure). Dette 2038 : 157 %.
@@ -183,8 +183,8 @@ La ligne qui pèse le plus est **M-PAT** (fonction du patrimoine, 62,5 Md€ au 
 | LFI, contre-budget 2027 (sensibilité) : déficit | 7,5 | 7,9 | 8,4 | 8,9 | 9,3 | 9,7 | 10,1 | 11,1 |
 | Horizons (Philippe), lecture de notre simulateur : effet sur le solde | −21 | −22 | −19 | −15 | −15 | −15 | −15 | −15 |
 | Horizons (Philippe), lecture de notre simulateur : déficit | 7,0 | 7,5 | 7,8 | 8,1 | 8,5 | 8,9 | 9,3 | 10,2 |
-| Notre système : effet sur le solde | 0 | 3 | 16 | 32 | 47 | 62 | 63 | 66 |
-| Notre système : déficit | 6,3 | 6,6 | 6,6 | 6,4 | 6,1 | 5,9 | 6,0 | 6,4 |
+| Notre système : effet sur le solde | 0 | 4 | 17 | 32 | 48 | 63 | 64 | 66 |
+| Notre système : déficit | 6,3 | 6,6 | 6,5 | 6,4 | 6,1 | 5,9 | 6,0 | 6,4 |
 | Fil de l'eau : effet sur le solde | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Fil de l'eau : déficit | 6,3 | 6,7 | 7,1 | 7,5 | 7,8 | 8,2 | 8,5 | 9,3 |
 
@@ -205,21 +205,21 @@ Le chiffre de **49,7 % du PIB** (brut) est le niveau des prélèvements obligato
 
 | Variante | Solde 2038 (Md€) | Dette 2038 (%) | Dette 2038, taux endogène (%) |
 |---|---|---|---|
-| Règle complète (contrôle de la v2 avec 3 000 tirages) | 62 [36 ; 88] | 148 [142 ; 155] | 168 [160 ; 177] |
-| M-PAT classé 2 au lieu de 1 (impôt annuel sur le patrimoine jugé constitutionnel) | 57 [30 ; 83] | 149 [143 ; 156] | 170 [162 ; 179] |
-| M-PAT et socle sans filtre | 71 [44 ; 97] | 145 [138 ; 152] | 164 [156 ; 173] |
-| Socle non filtré | 69 [43 ; 96] | 145 [139 ; 152] | 164 [156 ; 173] |
-| Socle classé 1 au lieu de 2 | 55 [29 ; 81] | 150 [144 ; 157] | 171 [163 ; 180] |
-| Sans le plancher commun sur les coûts | 64 [40 ; 89] | 147 [142 ; 153] | 167 [160 ; 174] |
-| Aucun filtre (parts à 100 %, coûts élargis : retrouve à peu près la v1) | 91 [57 ; 125] | 140 [132 ; 149] | 159 [148 ; 170] |
-| Sans le dispositif retraites (M-V6 : pénibilité et sous-indexation de la loi de 2023 gardée), règle complète | 60 [33 ; 87] | 148 [142 ; 155] | 168 [160 ; 177] |
+| Règle complète (contrôle de la v2 avec 3 000 tirages) | 63 [36 ; 89] | 147 [141 ; 154] | 167 [160 ; 176] |
+| M-PAT classé 2 au lieu de 1 (impôt annuel sur le patrimoine jugé constitutionnel) | 58 [31 ; 84] | 149 [143 ; 156] | 170 [162 ; 178] |
+| M-PAT et socle sans filtre | 71 [45 ; 97] | 145 [138 ; 151] | 164 [156 ; 172] |
+| Socle non filtré | 70 [44 ; 96] | 145 [139 ; 152] | 164 [156 ; 173] |
+| Socle classé 1 au lieu de 2 | 56 [29 ; 82] | 150 [144 ; 157] | 171 [163 ; 180] |
+| Sans le plancher commun sur les coûts | 65 [40 ; 89] | 147 [141 ; 152] | 167 [160 ; 174] |
+| Aucun filtre (parts à 100 %, coûts élargis : retrouve à peu près la v1) | 91 [57 ; 126] | 140 [131 ; 149] | 158 [147 ; 169] |
+| Sans le dispositif retraites (M-V6 : pénibilité et sous-indexation de la loi de 2023 gardée), règle complète | 60 [34 ; 87] | 148 [142 ; 155] | 168 [160 ; 177] |
 
 ## 6 bis. Sensibilité à la grille : alignée sur les médianes de la v1 (3 : 60 %, 2 : 36 %, 1 : 25 %, 0 : 18 %), pour tous les programmes
 
 | | LR (Retailleau) | PS et Place publique | Glucksmann, livret climat (chiffrage partiel) | RN | LFI (programme complet) | LFI, contre-budget 2027 (sensibilité) | Horizons (Philippe), lecture de notre simulateur | Notre système | Fil de l'eau |
 |---|---|---|---|---|---|---|---|---|---|
 | Effet sur le solde en régime (Md€) | 3 [−13 ; 21] | −24 [−31 ; −17] | −33 [−39 ; −26] | −56 [−67 ; −44] | −270 [−304 ; −237] | −56 [−68 ; −39] | −41 [−52 ; −26] | 17 [−6 ; 45] | 0 [0 ; 0] |
-| Dette 2038 (%) : grille de la v2 | 149 [140 ; 156] | 163 [160 ; 166] | 164 [163 ; 165] | 175 [168 ; 181] | 241 [228 ; 254] | 170 [161 ; 177] | 164 [159 ; 168] | 148 [141 ; 155] | 157 [157 ; 157] |
+| Dette 2038 (%) : grille de la v2 | 149 [140 ; 156] | 163 [160 ; 166] | 164 [163 ; 165] | 175 [168 ; 181] | 241 [228 ; 254] | 170 [161 ; 177] | 164 [159 ; 168] | 148 [141 ; 154] | 157 [157 ; 157] |
 | Dette 2038 (%) : grille alignée sur la v1 | 156 [151 ; 162] | 166 [163 ; 168] | 164 [163 ; 165] | 178 [173 ; 181] | 249 [238 ; 260] | 178 [172 ; 182] | 172 [167 ; 176] | 158 [152 ; 164] | 157 [157 ; 157] |
 | Taux endogène, dette 2038 (%) : grille alignée sur la v1 | 178 [170 ; 185] | 191 [187 ; 194] | 189 [188 ; 191] | 208 [202 ; 213] | 327 [306 ; 349] | 208 [199 ; 215] | 200 [193 ; 206] | 181 [173 ; 189] | 179 [179 ; 179] |
 
@@ -404,9 +404,47 @@ Ce qui reste incertain pour le RN : (1) le dossier ne donne que les montants de 
 | Année de passage durable sous 3 % de déficit | 2038 | — | aucune avant 2058 |
 | Macro prudente (croissance 2,5 %) : dette 2038 ; déficit 2038 | 138,0 ; 3,7 | | 152,3 ; 5,5 |
 
-**Classement par dette 2038 (médiane, taux fixe)** : Notre système 147,7 % ; LR (Retailleau) 148,6 % ; Fil de l'eau 157,1 % ; PS et Place publique 162,7 % ; Horizons (Philippe), lecture de notre simulateur 163,8 % ; Glucksmann, livret climat (chiffrage partiel) 163,9 % ; LFI, contre-budget 2027 (sensibilité) 170,0 % ; RN 175,5 % ; LFI (programme complet) 240,8 %.
+**Classement par dette 2038 (médiane, taux fixe)** : Notre système 147,5 % ; LR (Retailleau) 148,6 % ; Fil de l'eau 157,1 % ; PS et Place publique 162,7 % ; Horizons (Philippe), lecture de notre simulateur 163,8 % ; Glucksmann, livret climat (chiffrage partiel) 163,9 % ; LFI, contre-budget 2027 (sensibilité) 170,0 % ; RN 175,5 % ; LFI (programme complet) 240,8 %.
 
 **Sans complaisance.** (1) Dans le modèle central, retirer ≈ 41,6 Md€ de recette par an coûte environ 1,8 points de PIB de déficit ; le passage sous 3 % (2038 avant) **disparaît** du modèle central. (2) La médiane du banc bouge **beaucoup moins** que le central (dette 2038 : 146,7 → 147,7 %) : l'ancienne ligne M-PAT à 62,5 Md€ était classée 1 et donc décotée par la règle commune (médiane de 22,2 Md€) ; la nouvelle, plus petite, est classée 3 et presque intacte (médiane de 20,3 Md€). La médiane du banc est ainsi surtout un effet du classement : **c'est le jugement M/J/E, relu par personne d'autre, qui porte le résultat**. (3) Notre système et LR sont à moins de 1 point de dette 2038 avec des intervalles qui se recouvrent : le rang n'est pas significatif. (4) Le grand ménage est classé (0, 1, 0) comme les autres économies de fonctionnement ; il pèse peu (central 1,9 Md€ en 2038, jusqu'à 9,4 Md€ au scénario haut). (5) Hypothèses fragiles : recette de croisière dès 2029 sans montée en charge ni délai d'établissement de l'assiette ; plafonnement à 75 % simulé par −15 % (HB1, ⚠️ V-PAT5) ; départs non intégrés au tirage (ordres de grandeur dans le balayage) ; les variantes « modèles moins sévères » (§ 10 de `resultats.md`) reposent encore sur le patrimoine à 3 % et ne sont pas rejouées ici.
+
+## 14. 13/11/2026, fonction unique des revenus (premier euro à 38 %)
+
+**Décision de l'auteur (13/11/2026)** : le minimum garanti est fondu dans la fonction des revenus, C(R) = a·R − P − (a − μ)·K_P·(1 − e^(−R/K_P)), avec μ = 0,38 (premier euro à 38 %), P = 877 € avec loyer et 627 € sans loyer ; le filet retiré à 25 centimes par euro disparaît (`modeles/systeme-ideal/fonction-unique-1311.md`). Couche datée `DECISIONS1311` (`modeles/systeme-ideal/decisions_1311.js`, tests `test_decisions_1311.js`) au-dessus de `DECISIONS1111D`, sans l'écraser. Leviers F (33,3 Md€) et coefficient a (0,6515) inchangés ; prélèvements obligatoires inchangés (le plancher est une dépense). Même règle de faisabilité, mêmes tirages (graine 20261108, 10000) ; « avant » = banc du § 13 (`donnees/avant-1311-langagement.json`).
+
+**Ce que fait la couche** (modèle, Md€ de 2025 par an dès 2029, + améliore le solde ; favorable / central / défavorable) : (FU01) **correction de convention** : le bilan comptait le complément de la zone de retrait à 877 € pour tous et ne retirait la part logement (ligne PL01) qu'aux bénéficiaires à revenu nul, alors que la règle la retire à quiconque ne paie pas de loyer : 2,61 / **1,95** / 0,74 ; (FU02) **la décision** (fonction unique au lieu du filet, part logement traitée pareil des deux côtés) : −1,51 / **−1,07** / −0,55 ; **net : 1,10 / 0,88 / 0,19**. Les deux lignes sont rattachées au module M-PL (même mécanisme, même score de faisabilité, 2).
+
+| Notre système, médiane [intervalle à 80 %] | Avant (§ 13) | Après (fonction unique) | Écart de la médiane |
+|---|---|---|---|
+| Solde en régime (2038), Md€ de 2025 | 62 [35 ; 88] | 63 [36 ; 89] | 0,5 |
+| Dette 2032, % du PIB | 135,2 [133,2 ; 137,4] | 135,1 [133,1 ; 137,3] | −0,07 |
+| Dette 2038, % du PIB | 147,7 [141,5 ; 154,5] | 147,5 [141,3 ; 154,3] | −0,17 |
+| Dette 2058, % du PIB | 183,7 [159,2 ; 209,7] | 183,1 [158,7 ; 209,1] | −0,59 |
+| Déficit 2038, % du PIB | 5,9 [4,9 ; 7,0] | 5,9 [4,8 ; 6,9] | −0,02 |
+| Effet médian de la ligne M-PL en régime (Md€) | 1,1 [0,2 ; 1,9] | 1,6 [0,4 ; 2,7] | |
+
+**Trajectoire année par année** (médiane ; taux fixe) :
+
+| | 2028 | 2029 | 2030 | 2031 | 2032 | 2033 | 2034 | 2035 | 2036 | 2037 | 2038 | 2040 | 2045 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Effet sur le solde, avant | 0,0 | −9,1 | 3,5 | 10,0 | 16,4 | 23,5 | 31,8 | 39,6 | 47,3 | 55,0 | 62,3 | 63,4 | 65,7 |
+| Effet sur le solde, après | 0,0 | −8,5 | 4,0 | 10,5 | 16,9 | 24,0 | 32,3 | 40,1 | 47,8 | 55,5 | 62,8 | 63,9 | 66,2 |
+| Déficit (% du PIB), avant | 6,3 | 6,8 | 6,6 | 6,6 | 6,6 | 6,5 | 6,4 | 6,3 | 6,1 | 6,0 | 5,9 | 6,0 | 6,4 |
+| Déficit (% du PIB), après | 6,3 | 6,8 | 6,6 | 6,6 | 6,5 | 6,5 | 6,4 | 6,2 | 6,1 | 6,0 | 5,9 | 6,0 | 6,4 |
+
+**Lecture au central, sans tirage ni filtre** (modèle, taux fixe, macro de référence) :
+
+| | Avant (§ 13) | Après (fonction unique) |
+|---|---|---|
+| 2029 : dette ; déficit (% du PIB) | 126,1 ; 6,17 | 126,1 ; 6,14 |
+| 2032 : dette ; déficit (% du PIB) | 132,3 ; 5,73 | 132,1 ; 5,69 |
+| 2038 : dette ; déficit (% du PIB) | 138,9 ; 4,52 | 138,6 ; 4,48 |
+| 2043 : dette ; déficit (% du PIB) | 141,7 ; 4,68 | 141,2 ; 4,64 |
+| 2058 : dette ; déficit (% du PIB) | 150,4 ; 4,92 | 149,5 ; 4,86 |
+| Macro prudente : dette 2038 ; déficit 2038 | 152,3 ; 5,5 | 152,0 ; 5,5 |
+| Année de passage durable sous 3 % de déficit | aucune avant 2058 | aucune avant 2058 |
+
+**Sans complaisance.** (1) La décision **coûte** (−1,07 Md€ par an au central) ; le solde s'améliore seulement parce que la même couche corrige une surestimation de la dépense du plancher (1,95 Md€), qui existait avant la décision et aurait dû être corrigée de toute façon. (2) Les deux montants reposent sur un calage du plancher (k) fait pour l'ancienne règle et sur la part de personnes sans loyer des allocataires du RSA (19 % au central), appliquée à toute la zone de retrait (⚠️ H-FU6, H-FU7) ; aucune réaction de l'emploi n'est comptée. (3) L'effet est petit devant l'incertitude du banc (dette 2038 : 147,7 → 147,5 % en médiane, intervalle à 80 % large de 13 points) : il ne change aucun classement.
 
 ## 14. 13/11/2026 : Horizons (Édouard Philippe), lecture de notre simulateur
 
@@ -557,7 +595,7 @@ Les lignes issues d'un de nos modèles (ISF, plancher, successions, impôt sur l
 | Notre système | M-FIOUL | Taxe sur le fioul de chauffage : érosion du parc, au scénario | 1 | 1 | 1 | 3 | 0,2 | — | 100 % | taxe sur le fioul : taux et assiette connus |
 | Notre système | M-RESID | Résidu de la mesure de la v5.10 (bonus d'activité de 100 €, reprise du | 1 | 1 | 0 | 2 | 0,3 | — | 70 % | résidu du bonus d'activité : mécanisme précis, sans précédent |
 | Notre système | M-OM | Outre-mer : sur-rémunérations, prix alimentaires (OM01, OM02) | 0 | 1 | 0 | 1 | 0,2 | — | 35 % | sur-rémunérations outre-mer : non détaillé |
-| Notre système | M-PL | Plancher en deux parts (627 + 250 €) et coefficient de lieu (PL01, PL0 | 1 | 1 | 0 | 2 | 1,7 | — | 70 % | plancher en deux parts : mécanisme précis, sans précédent |
+| Notre système | M-PL | Plancher en deux parts (627 + 250 €) fondu dans la fonction unique des | 1 | 1 | 0 | 2 | 2,6 | — | 70 % | plancher en deux parts : mécanisme précis, sans précédent |
 | Notre système | F | Leviers votés (hausses de taux calées pour une dette stable) | 1 | 1 | 1 | 3 | 33,3 | — | 100 % | leviers votés calés (hausses de taux de nos fonctions) : paramètre de barème comme LFI R13 |
 | Notre système | TR03 | Impôt de suite sur la fonction du patrimoine (2,28 Md€) | 1 | 1 | 0 | 2 | 2,3 | — | 70 % | impôt de suite sur la fonction du patrimoine : mécanisme précis, sans précédent |
 | Notre système | M-M2 | Point d'indice : prix − 0,5 point pendant 4 ans | 1 | 1 | 1 | 3 | 3,8 | — | 100 % | gel relatif du point d'indice : précédent 2010-2016 |

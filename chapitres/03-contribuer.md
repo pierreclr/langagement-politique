@@ -27,7 +27,7 @@ Que chacun contribue selon ses moyens avec une seule règle, la même pour tous,
 
 ### Nos propositions
 
-- Remplacer l'impôt sur le revenu, la CSG et les cotisations par une contribution unique sur les revenus : une seule courbe pour tous les adultes, négative en bas (l'État verse environ 413 € par mois à qui n'a aucun revenu), nulle vers 1 200 €, puis croissante sans à-coup (392 € dus à 2 000 €, 956 € à 3 000 €). Pourquoi : un euro de plus ne fait jamais perdre d'argent.
+- Remplacer l'impôt sur le revenu, la CSG et les cotisations par une contribution unique sur les revenus : une seule courbe pour tous les adultes, qui intègre le minimum garanti : négative en bas (l'État verse 877 € par mois à une personne seule sans revenu qui paie un loyer, 627 € sans loyer), nulle vers 1 630 €, puis croissante sans à-coup (230 € dus à 2 000 €, 869 € à 3 000 €). Pourquoi : un euro de plus ne fait jamais perdre d'argent, et la part prise sur l'euro suivant ne redescend jamais.
 - Convertir en salaire les avantages versés par l'employeur (mutuelle, transport, titres-restaurant, chèques-vacances, bons d'achat). Pourquoi : deux salariés qui coûtent autant à leur employeur doivent payer autant, et chaque petit avantage a un coût, crée de la complexité et enrichit un intermédiaire.
 - Appliquer partout la doctrine des petits cadeaux : ce qui a un coût se paie une fois, par la contribution ; l'argent d'un avantage devient du salaire ; un service utile à tous est gratuit pour tous (transports urbains) ; une activité à soutenir l'est par un prix lisible (restauration à 5 %) ; plus aucune aide ne se demande (une aide exceptionnelle est versée automatiquement, sauf crise majeure où l'État compense le revenu perdu). Le tableau de la section « Les petits cadeaux de la loi » nomme chaque dispositif, son coût, ce qui le remplace et qui doit se réinventer.
 - Remplacer la taxe foncière et l'impôt sur la fortune immobilière par une contribution sur le patrimoine : 0,25 % de la valeur de la résidence principale jusqu'à 1 M€ (750 € par an pour 300 000 €), puis une courbe qui approche 3 % pour les très grands patrimoines. Pourquoi : les grands patrimoines contribuent plus, sans que personne vende sa maison pour payer.
@@ -68,35 +68,36 @@ Ce chapitre compte quatre fonctions. Deux sont les règles de base, sur les reve
 
 ### L'idée en une phrase
 
-- Revenus : plus on gagne, plus la part prélevée sur chaque euro supplémentaire monte, doucement, depuis 20 % sur le premier euro vers un plafond de 65,1 %, sans jamais faire de marche.
+- Revenus : plus on gagne, plus la part prélevée sur chaque euro supplémentaire monte, doucement, depuis 38 % sur le premier euro gagné vers un plafond de 65,1 %, sans jamais faire de marche ni redescendre. Le minimum garanti fait partie de la même courbe.
 - Patrimoine : la part prélevée chaque année sur un patrimoine part de zéro, monte, et s'approche de 3 % sans jamais l'atteindre.
 - Pensions : rien jusqu'à 2 000 € nets par mois, puis la même courbe que celle des revenus, avec un taux sur l'euro suivant qui part de zéro et ne dépasse jamais 41,8 %.
 - Héritages : rien jusqu'à 300 000 € reçus au cours d'une vie, puis un taux sur l'euro suivant qui monte vers 50 % sans le dépasser.
 
 ### Comment on construit la fonction des revenus
 
-On ne part pas de la contribution, on part du taux sur chaque euro. Nous voulons trois choses. Le premier euro est pris à un taux de départ, m0, que nous fixons à 20 %. Le taux monte sans marche quand le revenu monte. Il ne dépasse jamais un plafond, a, atteint seulement à l'infini.
+On ne part pas de la contribution, on part du taux sur chaque euro. Nous voulons trois choses. À revenu nul, la contribution verse le minimum garanti, P (877 € pour une personne seule qui paie un loyer, 627 € sans loyer). Le premier euro gagné est pris à un taux de départ, μ, que nous fixons à 38 %. Le taux monte sans marche quand le revenu monte, et ne redescend jamais. Il ne dépasse jamais un plafond, a, atteint seulement à l'infini.
 
-Entre m0 et a, il faut une courbe qui monte et se tasse. La plus simple est celle où l'écart au plafond fond d'une même fraction à chaque euro gagné : c'est une exponentielle, et elle n'a besoin que d'un réglage, la vitesse de la montée, que nous appelons K. Le taux sur l'euro suivant s'écrit alors :
+Entre μ et a, il faut une courbe qui monte et se tasse. La plus simple est celle où l'écart au plafond fond d'une même fraction à chaque euro gagné : c'est une exponentielle, et elle n'a besoin que d'un réglage, la vitesse de la montée, que nous appelons K_P. Le taux sur l'euro suivant s'écrit alors :
 
-> **C'(R) = a − (a − m0) × e^(−R / K)**
+> **C'(R) = a − (a − μ) × e^(−R / K_P)**
 
-À R = 0, il vaut m0 ; quand R grandit, il tend vers a. La contribution est la somme de tous ces taux, euro après euro, moins la somme versée à qui n'a aucun revenu, S. En faisant la somme (l'intégrale, au sens du lycée), on trouve la formule du chapitre :
+À R = 0, il vaut μ ; quand R grandit, il tend vers a. La contribution est la somme de tous ces taux, euro après euro, moins le minimum garanti versé à qui n'a aucun revenu, P. En faisant la somme (l'intégrale, au sens du lycée), on trouve la formule du chapitre :
 
-> **C(R) = a × R − S − (a − m0) × K × (1 − e^(−R / K))**
+> **C(R) = a × R − P − (a − μ) × K_P × (1 − e^(−R / K_P))**
 
-Avec a = 0,6515, S = 412,5 €, m0 = 0,20 et K = 1 500 €, le facteur (a − m0) × K vaut 677,25 €, d'où la ligne écrite plus loin. Il reste quatre réglages (S, m0, a, K) et on peut dire à voix haute ce que fait chacun, ce qui est difficile avec un barème à nombreuses tranches.
+Avec a = 0,6515 et μ = 0,38, la vitesse K_P est réglée pour que, tout en haut, la courbe soit exactement celle de la version précédente : K_P = (1 090 € − P) / (a − μ), soit 784 € pour P = 877 € et 1 704 € pour P = 627 €. Les hauts revenus paient donc exactement comme avant. Il reste trois réglages (P, μ, a) et on peut dire à voix haute ce que fait chacun, ce qui est difficile avec un barème à nombreuses tranches.
 
-::: graphique id=taux-revenus source=modeles/systeme-ideal/sorties/taux_revenus_0811.csv type=ligne x=revenu y=taux_euro_suivant_pct,taux_moyen_pct legende="Taux sur l'euro suivant,Taux moyen" titre="Revenus : la part prise sur l'euro suivant monte sans marche, la part moyenne la suit de loin" unite="%" note="Système arrêté du 08/11/2026, différé corrigé (a = 0,6515), `modeles/systeme-ideal/fonctions_csv_0811.py`. Le taux moyen n'est pas tracé tant que l'État verse (en dessous de 1 208 €)."
+Pourquoi une seule courbe. Dans la version précédente, un filet séparé complétait les bas revenus jusqu'au plancher et se retirait de 25 centimes par euro gagné, en plus de la contribution. Les deux pentes s'additionnaient : vers 3 560 € de coût employeur, la part prise sur l'euro suivant montait à 71 %, puis retombait à 61 % quand le filet s'éteignait, si bien qu'un revenu moyen payait plus sur l'euro suivant qu'un haut revenu. Fondre le minimum garanti dans la fonction supprime cette bosse. Coût : environ 1,1 Md€ par an (`modeles/systeme-ideal/fonction-unique-1311.md`, décision de l'auteur du 13/11/2026).
+
+::: graphique id=taux-revenus source=modeles/systeme-ideal/sorties/taux_revenus_1311.csv type=ligne x=revenu y=taux_euro_suivant_pct,taux_moyen_pct legende="Taux sur l'euro suivant,Taux moyen" titre="Revenus : la part prise sur l'euro suivant monte sans marche, la part moyenne la suit de loin" unite="%" note="Fonction unique du 13/11/2026 (a = 0,6515, premier euro à 38 %, minimum garanti de 877 € intégré), personne seule qui paie un loyer, `modeles/systeme-ideal/fonctions_csv_1311.py`. Le taux moyen n'est pas tracé tant que l'État verse (en dessous de 1 630 €)."
 
 ### Les réglages, un par un
 
 | Levier | Valeur | Ce qu'il règle | Si on l'augmente |
 |---|---|---|---|
-| Revenus : S | 412,5 € par mois | La somme reçue à revenu nul, avant le filet | Tout le monde reçoit plus, du même montant à tous les niveaux : +50 € de S, c'est −50 € de contribution à 2 000 € comme à 10 000 € |
-| Revenus : m0 | 20 % | Le taux sur le premier euro | Les revenus moyens paient plus (+5 points de m0 : +55 € à 2 000 €, +75 € à 10 000 €) ; le plafond ne bouge pas |
+| Revenus : P | 877 € par mois (627 € sans loyer) | Le minimum garanti, versé à revenu nul | Les bas revenus reçoivent plus ; avec K_P recalé, les hauts revenus ne changent pas |
+| Revenus : μ | 38 % | Le taux sur le premier euro gagné | Les bas revenus gardent moins de chaque euro gagné ; les hauts revenus ne changent pas |
 | Revenus : a | 0,6515 | Le taux sur l'euro suivant tout en haut | Surtout les hauts revenus paient plus (+0,01 : +9 € à 2 000 €, +85 € à 10 000 €) |
-| Revenus : K | 1 500 € | La vitesse de la montée du taux | La montée est plus lente et tous paient moins, de plus en plus jusqu'à un écart constant en haut (K porté à 2 000 € : −72 € à 2 000 €, −221 € à 10 000 €) |
 | Patrimoine : t∞ | 3 % par an | Le plafond du taux | Les grandes fortunes paient plus, les petits patrimoines presque pas plus |
 | Patrimoine : W0 | 400 000 € | Le patrimoine où le taux moyen est à mi-chemin du plafond (1,5 %) | La courbe monte plus lentement : les patrimoines moyens paient moins |
 | Pensions : seuil | 2 000 € nets par mois | Là où la courbe démarre | Plus de retraités ne paient rien |
@@ -105,13 +106,13 @@ Avec a = 0,6515, S = 412,5 €, m0 = 0,20 et K = 1 500 €, le facteur (a − m0
 | Héritages : K | 100 000 € | Le montant, au-delà de l'abattement, où le taux sur l'euro suivant est à mi-chemin du plafond (25 %) | La montée est plus lente : la recette baisse |
 | Héritages : plafond | 50 % | Le taux que l'on ne dépasse jamais | Les très gros héritages paient plus, mais la fuite grandit |
 
-Les valeurs de chaque fonction figurent déjà dans les tableaux des sections suivantes (revenus, patrimoine, héritages). Les écarts du tableau sont calculés par le script. Deux remarques sur les revenus. K a un effet qu'on voit mal d'abord : en haut, la courbe devient presque une droite, a × R − 1 090 €, et chaque 500 € de K en plus la descend d'environ 226 € pour tout le monde au-dessus. Et S ne mesure pas à lui seul ce que reçoit une personne sans revenu : le filet du chapitre 4 le complète jusqu'au plancher de 877 €.
+Les valeurs de chaque fonction figurent déjà dans les tableaux des sections suivantes (revenus, patrimoine, héritages). Les écarts du tableau sont calculés par le script. Une remarque sur les revenus : en haut, la courbe devient presque une droite, a × R − 1 090 €. Ce terme fixe, 1 090 €, est le même qu'avant la fusion avec le minimum garanti : c'est ce qui garantit que les hauts revenus ne paient ni plus ni moins.
 
 ### Trois exemples
 
 | Cas | Contribution | Taux moyen | Taux sur l'euro suivant |
 |---|---|---|---|
-| Salarié à 2 000 € de coût employeur par mois | 392 € par mois | 19,6 % | 53,2 % : sur un euro de plus, il garde 47 centimes |
+| Salarié seul, locataire, à 2 000 € de coût employeur par mois | 230 € par mois | 11,5 % | 63,0 % : sur un euro de plus, il garde 37 centimes |
 | Retraité à 4 000 € nets de pension par mois | 374 € par mois | 9,4 % | 30,8 % |
 | Héritier d'un million d'euros au cours de sa vie | 246 028 € une fois | 24,6 % | 43,8 % |
 
@@ -119,8 +120,8 @@ Le taux moyen est ce que l'on remarque sur sa fiche ; le taux sur l'euro suivant
 
 ### Les points à connaître pour les revenus
 
-- Le seuil. La contribution devient positive à 1 208 € par mois. En dessous, l'État verse, jusqu'à 412 € à revenu nul.
-- Les étapes de la montée. La montée est à moitié faite à K × ln 2, soit 1 040 €, où l'euro suivant est pris à 42,6 % (la moyenne exacte de 20 % et de 65,1 %). À R = K, soit 1 500 €, 63 % de la montée est faite (taux de 48,5 %). Le taux dépasse 50 % vers 1 638 € et 60 % vers 3 256 €. Il approche ensuite 65,1 % sans l'atteindre.
+- Le seuil. Pour une personne seule qui paie un loyer, la contribution devient positive vers 1 630 € par mois (1 350 € sans loyer). En dessous, l'État verse, jusqu'à 877 € à revenu nul (627 € sans loyer).
+- Les étapes de la montée (personne seule, locataire). La montée est à moitié faite à K_P × ln 2, soit 543 €, où l'euro suivant est pris à 51,6 % (la moyenne de 38 % et de 65,1 %). Le taux dépasse 50 % vers 460 € et 60 % vers 1 300 €. Il approche ensuite 65,1 % sans l'atteindre ni redescendre.
 - Un plancher de gain. Comme le taux est toujours sous a, chaque euro supplémentaire laisse au moins 34,9 centimes à celui qui le gagne. Pour les pensions, au moins 58,2 centimes. Aucun seuil ne peut donc faire perdre de l'argent en gagnant plus.
 
 ### Pourquoi pas des tranches
@@ -178,24 +179,24 @@ Les tableaux de valeurs de chaque fonction et leurs sources sont dans les sectio
 
 Chaque adulte a un revenu R, par mois. Pour un salarié, R est tout ce que son employeur dépense pour lui : le salaire, les cotisations aujourd'hui dites patronales, la part de mutuelle, la moitié du transport, les titres-restaurant. C'est le « coût employeur », le seul chiffre qui mesure ce que le travail a vraiment produit. Pour un indépendant, R est son chiffre d'affaires moins ses charges réelles. Pour un propriétaire bailleur ou un actionnaire, ce sont ses loyers et ses dividendes.
 
-Chaque mois, à la source, la personne verse la contribution C(R) donnée par la fonction. Quelques valeurs :
+Chaque mois, à la source, la personne verse la contribution C(R) donnée par la fonction. Quelques valeurs, pour une personne seule qui paie un loyer :
 
 | Revenu R (€/mois) | 0 | 1 000 | 2 000 | 3 000 | 5 000 | 10 000 | 50 000 |
 |---|---|---|---|---|---|---|---|
-| Contribution (négatif : l'État verse) | −413 | −91 | 392 | 956 | 2 192 | 5 426 | 31 485 |
-| Part de R | | | 19,6 % | 31,9 % | 43,8 % | 54,3 % | 63,0 % |
+| Contribution (négatif : l'État verse) | −877 | −379 | 230 | 869 | 2 168 | 5 425 | 31 485 |
+| Part de R | | | 11,5 % | 29,0 % | 43,4 % | 54,3 % | 63,0 % |
 
-Ces valeurs sont celles de la fonction réglée comme le prévoit la loi de bascule (taux du haut a = 0,6515, expliqué plus haut). Elle est négative en bas : l'État verse. Elle devient positive vers 1 208 €. Le taux sur chaque euro supplémentaire monte sans marche de 20 % à 65 %. Il n'y a ni tranche, ni seuil, donc aucune raison de décaler un revenu ou de le fractionner pour passer sous une marche.
+Ces valeurs sont celles de la fonction réglée comme le prévoit la loi de bascule (taux du haut a = 0,6515, expliqué plus haut). Elle est négative en bas : l'État verse. Elle devient positive vers 1 630 €. Le taux sur chaque euro supplémentaire monte sans marche de 38 % à 65 %, sans jamais redescendre. Il n'y a ni tranche, ni seuil, donc aucune raison de décaler un revenu ou de le fractionner pour passer sous une marche.
 
 La fonction s'écrit en une ligne, R étant le revenu du mois en coût employeur :
 
-> **C(R) = 0,6515 × R − 412,5 − 677,25 × (1 − e^(−R / 1 500))**
+> **C(R) = 0,6515 × R − P − 0,2715 × K_P × (1 − e^(−R / K_P))**, avec P = 877 € et K_P = 784 € pour une personne seule qui paie un loyer (627 € et 1 704 € sans loyer)
 
 À chaque revenu correspond un montant, sans marche. On peut la dessiner, la tester, et en changer un paramètre par un vote en sachant exactement ce que l'on change.
 
-::: graphique id=fonction-revenus source=modeles/systeme-ideal/sorties/fonction_revenus_0811.csv type=ligne x=revenu y=contribution,revenu_apres titre="La fonction des revenus : ce que l'on verse (ou reçoit) et ce qui reste, selon le revenu du mois" unite="€ par mois" note="Système arrêté du 08/11/2026, différé corrigé (a = 0,6515), `modeles/systeme-ideal/fonctions_csv_0811.py`. En dessous de zéro, l'État verse."
+::: graphique id=fonction-revenus source=modeles/systeme-ideal/sorties/fonction_revenus_1311.csv type=ligne x=revenu y=contribution,revenu_apres titre="La fonction des revenus : ce que l'on verse (ou reçoit) et ce qui reste, selon le revenu du mois" unite="€ par mois" note="Fonction unique du 13/11/2026 (a = 0,6515, premier euro à 38 %, minimum garanti de 877 € intégré), personne seule qui paie un loyer, `modeles/systeme-ideal/fonctions_csv_1311.py`. En dessous de zéro, l'État verse."
 
-Un filet par ménage complète les revenus les plus bas jusqu'à un plancher de 877 € pour une personne seule et de 1 316 € pour un couple. Il se retire à raison de 25 centimes par euro gagné. Le chapitre 4 le décrit, avec les montants par enfant.
+Le minimum garanti est dans la courbe : 877 € pour une personne seule qui paie un loyer, 627 € sans loyer, 1 316 € pour un couple. Il n'y a plus de filet séparé qui se retire à côté. Le chapitre 4 le décrit, avec les montants par enfant.
 
 ### Ce que cela change pour trois salariés
 
@@ -206,11 +207,11 @@ Prenons trois salariés seuls, sans enfant, locataires, couverts aujourd'hui par
 | Dépense de l'employeur (avant et après) | 1 991 | 3 994 | 14 212 |
 | Part de cette dépense qui ne revient pas au salarié, aujourd'hui | 16 % | 45 % | 56 % |
 | Ce que le salarié garde aujourd'hui, mutuelle payée | 1 674 | 2 209 | 6 230 |
-| Contribution dans le nouveau système | 387 | 1 560 | 8 169 |
-| Ce que le salarié garde demain, filet compris | 1 770 | 2 434 | 6 043 |
-| Écart | +96 (+5,8 %) | +225 (+10,2 %) | −187 (−3,0 %) |
+| Contribution dans le nouveau système | 224 | 1 514 | 8 169 |
+| Ce que le salarié garde demain | 1 767 | 2 480 | 6 043 |
+| Écart | +93 (+5,6 %) | +271 (+12,3 %) | −187 (−3,0 %) |
 
-Le salarié au Smic reçoit en plus un complément du filet, qui compense la contribution. Le salarié à 3 000 € brut gagne parce que la contribution remplace les cotisations, la CSG, l'impôt sur le revenu et la fin de la prime d'activité en un seul calcul. Le cadre à 10 000 € brut finance le système, parce que le haut de la courbe prend plus que l'ancien système. Le cas à 3 000 € est calculé avec la formule de C(R) et le taux du haut a = 0,6515, faute d'un calcul direct[^cas].
+Le salarié au Smic paie peu, parce que le minimum garanti est intégré à la courbe. Le salarié à 3 000 € brut gagne parce que la contribution remplace les cotisations, la CSG, l'impôt sur le revenu et la fin de la prime d'activité en un seul calcul. Le cadre à 10 000 € brut finance le système, parce que le haut de la courbe prend plus que l'ancien système. Le cas à 3 000 € est calculé avec la formule de C(R) et le taux du haut a = 0,6515, faute d'un calcul direct[^cas].
 
 Trois réserves. Ces gains supposent que l'employeur verse réellement en salaire sa part de mutuelle, ce que la loi de bascule doit lui imposer. Un salarié au Smic qui touche aujourd'hui des titres-restaurant gagne moins : 48 € au lieu de 97 avec la fonction de base (47 € au lieu de 96 avec le taux du haut réglé à 0,6515), parce que ce qui était exonéré devient du salaire. Enfin ces cas ne comptent pas les garanties de transition, décrites au chapitre 4.
 
@@ -230,13 +231,13 @@ Cette règle unique supprime la différence de traitement entre un salarié, un 
 
 La formule exacte. Avec R le coût employeur (ou le revenu total) par adulte et par mois, et a le taux de l'euro marginal tout en haut :
 
-C(R) = a × R − 412,5 − (a − 0,20) × 1 500 × (1 − e^(−R / 1 500))
+C(R) = a × R − P − (a − 0,38) × K_P × (1 − e^(−R / K_P)), avec K_P = (412,5 + (a − 0,20) × 1 500 − P) / (a − 0,38)
 
-Les trois autres paramètres sont fixés : 412,5 € est le versement à R = 0, 20 % le taux sur le premier euro, 1 500 € l'échelle sur laquelle le taux monte. Le taux marginal vaut a − (a − 0,20) × e^(−R / 1 500) : 20 % à R = 0, 42 % à 1 000 €, 53 % à 2 000 €, 64 % à 5 000 €, 65,1 % à 10 000 €. La base de travail prenait a = 0,65, d'où les valeurs −413 / −91 / 390 / 954 / 5 413 € que l'on trouve dans nos documents antérieurs.
+P est le minimum garanti (877 € pour une personne seule qui paie un loyer, 627 € sans loyer), 38 % le taux sur le premier euro gagné, K_P l'échelle sur laquelle le taux monte. Le taux marginal vaut a − (a − 0,38) × e^(−R / K_P) : pour une personne seule locataire, 38 % à R = 0, 57,6 % à 1 000 €, 63,0 % à 2 000 €, 65,1 % à 5 000 €. Version précédente (jusqu'au 13/11/2026) : C(R) = a × R − 412,5 − (a − 0,20) × 1 500 × (1 − e^(−R / 1 500)), complétée par un filet séparé retiré de 25 centimes par euro.
 
 Le taux du haut, a, est le seul paramètre que règle la règle de dette du chapitre 12. Il vaut 0,6515 dans l'hypothèse de référence avec les leviers de la loi de bascule en régime, 0,6947 dans l'hypothèse prudente sans clause, et se situe entre 0,6471 et 0,6670 aux bornes des dernières lignes chiffrées[^res0811]. Code : `modeles/systeme-ideal/decisions_0611_v74.js`, fonction `formule`, et `rapport_correction_0811.js`.
 
-Les cas types. Ils sont calculés avec OpenFisca-France (législation 2026) pour le système actuel, et avec la fonction ci-dessus pour le nouveau, en « revenu net santé » : le revenu disponible, moins la mutuelle payée par le ménage[^cas]. Le Smic est celui de 2026, 1 867 € brut. Le salarié à 10 000 € brut a un coût employeur de 14 212 € ; sa contribution vaut 14 212 × 0,6515 − 412,5 − 677 × (1 − e^(−9,475)) = 8 169 €.
+Les cas types. Ils sont calculés avec OpenFisca-France (législation 2026) pour le système actuel, et avec la fonction ci-dessus pour le nouveau, en « revenu net santé » : le revenu disponible, moins la mutuelle payée par le ménage[^cas]. Le Smic est celui de 2026, 1 867 € brut. Le salarié à 10 000 € brut a un coût employeur de 14 212 € ; sa contribution vaut 14 212 × 0,6515 − 877 − 213 × (1 − e^(−18,1)) = 8 169 €, exactement comme avec la version précédente de la fonction.
 
 Ce qui est converti en salaire. Le coût employeur est inchangé, mais ce que l'employeur versait en nature entre dans R : part patronale de mutuelle (13,09 Md€ par an, soit 23,8 Md€ de cotisations de mutuelle × 55 % de part employeur, PLFSS 2026, annexe 4), moitié de l'abonnement de transport (1,4 Md€, entre 0,8 et 2,0), titres-restaurant (6,8 Md€). L'assiette de la fonction des revenus s'accroît de 21,3 Md€ au total dans l'hypothèse de référence. L'effet sur le solde est de +4,2 Md€ (mutuelle +3,8, transport +0,4), nul à la borne prudente : on suppose que la moitié de la part de mutuelle est déjà dans la masse salariale des comptes nationaux[^bilan].
 

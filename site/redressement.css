@@ -115,7 +115,7 @@ footer{padding:40px 0 60px;color:var(--doux);font-size:.88rem}
 .noeud span{display:block;font-size:.85rem;color:var(--doux);line-height:1.4;margin-top:3px}
 .noeud.fort{border:2px solid var(--accent)}
 .noeud.peuple{border:2px solid var(--vert)}
-.noeud.fin{background:var(--accent);color:var(--fond);border-color:var(--accent)}
+.noeud.fin,.colonne.apres .noeud.fin{background:var(--accent);color:var(--fond);border-color:var(--accent)}
 .noeud.fin span{color:var(--fond);opacity:.85}
 .fleche{text-align:center;color:var(--doux);font-size:1.2rem;line-height:1;margin:6px 0}
 .fleche small{display:block;font-size:.75rem;letter-spacing:.04em;margin-top:2px}

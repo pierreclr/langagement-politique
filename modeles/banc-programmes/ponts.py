@@ -13,14 +13,14 @@ CACHE = os.path.join(ICI, 'donnees', 'cache')
 JSC = '/System/Library/Frameworks/JavaScriptCore.framework/Versions/Current/Helpers/jsc'
 VENV_OPENFISCA = os.environ.get('BANC_OPENFISCA_PYTHON', '<dossier temporaire>')
 
-# Ordre de chargement de correction_0811.js (couche du 08/11 nuit : un seul report d'encaissement, V32012 et V32018), qui suit decisions_0811.js (liste de test_base_0611.js, puis couches du 06/11, 07/11 et 08/11), depuis modeles/systeme-ideal/
+# Couche du 13/11/2026 en fin de liste : fonction unique des revenus (fonction_unique_1311.js, decisions_1311.js). Ordre de chargement de correction_0811.js (couche du 08/11 nuit : un seul report d'encaissement, V32012 et V32018), qui suit decisions_0811.js (liste de test_base_0611.js, puis couches du 06/11, 07/11 et 08/11), depuis modeles/systeme-ideal/
 LISTE_SYSTEME = ("modele.js fiscalite_actuelle.js voies.js sante.js optimisation.js retraites2.js palier1.js patrimoine_financier.js deces_realisation.js dvf_patrimoine.js "
     "patrimoine_immobilier.js taxe_patrimoine.js options_financement.js ../gagnants-perdants/cas_types_donnees.js ../gagnants-perdants/droit_actuel.js ../gagnants-perdants/modele.js "
     "../gagnants-perdants/palier1.js ../gagnants-perdants/correctifs.js ../capital-de-depart/modele.js ../capital-de-depart/continu.js optimum.js optimum_options_0411.js ../risques/stress.js "
     "decisions_0511.js decisions_0511b.js decisions_0511c.js grandes_fortunes_0511.js decisions_0511d.js ../retraites/modele.js ../retraites/age_libre.js decisions_0511e.js decisions_0511f.js "
     "../fiscalite-orientation/modele.js decisions_0511g.js decisions_0511h.js diagnostic_couple_smic.js hauts_revenus.js decisions_0511i.js decisions_0511j.js variante_dette_stable.js "
     "bareme_unique_v6.js bareme_deux_fonctions_v7.js bareme_v71.js decisions_0611_v72.js decisions_0611_v73.js decisions_0611_v74.js decisions_0611_v75.js base_0611.js cas_types_nets_0611.js "
-    "variante_nationalite_0611.js transmissions_0611.js retraites_aisees_0611.js consolidation_0611.js decisions_0711.js decisions_0811.js correction_0811.js decisions_1111.js decisions_1111b.js patrimoine_balayage_1111c.js decisions_1111c.js decisions_1111d.js").split()
+    "variante_nationalite_0611.js transmissions_0611.js retraites_aisees_0611.js consolidation_0611.js decisions_0711.js decisions_0811.js correction_0811.js decisions_1111.js decisions_1111b.js patrimoine_balayage_1111c.js decisions_1111c.js decisions_1111d.js fonction_unique_1311.js decisions_1311.js").split()
 
 
 def _lire(nom):

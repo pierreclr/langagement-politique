@@ -76,9 +76,9 @@ Le système actuel parle d'impôts, de cotisations, de contributions sociales, d
 
 Nous appelons parfois ces règles des barèmes, parce que le mot est familier. Ce sont en réalité des fonctions, au sens que l'on apprend au lycée : à chaque revenu, à chaque patrimoine, correspond un montant. On peut les dessiner, les tester, les contester. On peut aussi en changer les paramètres par un vote, en sachant exactement ce que l'on change. Le chapitre 2 explique pourquoi nous préférons des fonctions aux tranches. Les voici, telles que nous les proposons :
 
-> **Revenus**, par adulte et par mois, R étant le revenu : **C(R) = 0,6515 × R − 412,5 − 677,25 × (1 − e^(−R / 1 500))**
+> **Revenus**, par adulte et par mois, R étant le revenu : **C(R) = 0,6515 × R − P − 0,2715 × K_P × (1 − e^(−R / K_P))**, avec P le minimum garanti (877 € pour une personne seule qui paie un loyer, K_P = 784 €)
 >
-> **Patrimoine**, par an, W étant la valeur nette hors résidence principale : **P(W) = 3 % × W² / (W + 400 000 €)**
+> **Patrimoine**, par an, W étant la valeur nette hors résidence principale : **P(W) = 1,25 % × W² / (W + 700 000 €)**
 
 Le chapitre 3 les dessine et les explique, valeur par valeur.
 
@@ -110,9 +110,9 @@ Ce texte a été écrit par un humain et une intelligence artificielle, comme no
 
 > **Pour aller plus loin — les deux fonctions**
 >
-> Contribution sur les revenus, par adulte et par mois, R étant le revenu en coût employeur (pour un salarié, tout ce que l'employeur dépense pour lui) : C(R) = 0,6515 × R − 412,5 − 677,25 × (1 − e^(−R/1 500)). Négative en bas (l'État verse), positive au-dessus d'environ 1 208 €. Le taux sur chaque euro supplémentaire part de 20 % et tend vers 65,1 %. Valeurs : R = 0, on reçoit 413 € ; R = 1 000, on reçoit 91 € ; R = 2 000, on verse 392 € ; R = 3 000, 956 € ; R = 10 000, 5 426 € ; R = 50 000, 31 485 €. Le taux du haut, a = 0,6515, est celui de la version arrêtée, réglé pour tenir la trajectoire de dette (la version de base, à a = 0,65, plafonnait à 65 %).
+> Contribution sur les revenus, par adulte et par mois, R étant le revenu en coût employeur (pour un salarié, tout ce que l'employeur dépense pour lui) : C(R) = 0,6515 × R − P − 0,2715 × K_P × (1 − e^(−R/K_P)), avec P = 877 € et K_P = 784 € pour une personne seule qui paie un loyer (627 € et 1 704 € sans loyer) : le minimum garanti est dans la courbe. Négative en bas (l'État verse), positive au-dessus d'environ 1 630 €. Le taux sur chaque euro supplémentaire part de 38 % et tend vers 65,1 %, sans jamais redescendre. Valeurs : R = 0, on reçoit 877 € ; R = 1 000, on reçoit 379 € ; R = 2 000, on verse 230 € ; R = 3 000, 869 € ; R = 10 000, 5 425 € ; R = 50 000, 31 485 €. Le taux du haut, a = 0,6515, est celui de la version arrêtée, réglé pour tenir la trajectoire de dette (la version de base, à a = 0,65, plafonnait à 65 %).
 >
-> Contribution sur le patrimoine, par an, W étant la valeur nette hors résidence principale : P(W) = 3 % × W² / (W + 400 000 €). Valeurs : 100 000 € paient 600 € (0,60 %) ; 300 000 €, 3 857 € (1,29 %) ; 1 M€, 21 429 € (2,14 %) ; 10 M€, 288 462 € (2,88 %). La résidence principale paie 0,25 % de sa valeur jusqu'à 1 M€ par ménage. On déduit la contribution déjà versée sur les revenus du capital ; le paiement de l'année est plafonné à une part du revenu, et le reste est différé jusqu'à la vente ou la succession, garanti sur le bien.
+> Contribution sur le patrimoine, par an, W étant la valeur nette hors résidence principale : P(W) = 1,25 % × W² / (W + 700 000 €) (taux maximal ramené de 3 % à 1,25 % le 11/11/2026). Valeurs : 100 000 € paient 156 € (0,16 %) ; 300 000 €, 1 125 € (0,38 %) ; 1 M€, 7 353 € (0,74 %) ; 10 M€, 116 822 € (1,17 %). La résidence principale paie 0,25 % de sa valeur jusqu'à 1 M€ par ménage. On déduit la contribution déjà versée sur les revenus du capital ; le paiement de l'année est plafonné à une part du revenu, et le reste est différé jusqu'à la vente ou la succession, garanti sur le bien.
 >
 > Les cas du tableau supposent la garantie de transition à coût constant et la mise en place complète des efforts de la loi de bascule. Calcul : `modeles/systeme-ideal/resultats_decisions_0811.txt` ; code : `sources/calculs/bilan_global.py`.
 

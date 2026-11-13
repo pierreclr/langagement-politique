@@ -62,7 +62,7 @@ out.succession_params = { dmtg: T.S.dmtg, flux: T.S.flux, cohorte: T.S.cohorte }
 
 // --- 4. Trajectoire de notre système (S3, macro de référence et prudente) et droit actuel ---
 function serie(t, n) { return { ratio: t.ratio.slice(0, n), primaire: t.primaire ? t.primaire.slice(0, n) : null, deficit: t.deficit.slice(0, n), interets: t.interets ? t.interets.slice(0, n) : null }; }
-var s3 = this.Decisions1111D.s3();   // S3 avec grand ménage (central) et patrimoine à 1,25 % (DECISIONS1111D, 11/11/2026) ; avant : DECISIONS1111B ; S3 après décisions du 11/11 (DECISIONS1111) et gains d'abord au déficit (DECISIONS1111B : leviers F gardés à leur valeur d'avant le recalibrage)
+var s3 = this.Decisions1311.s3();   // S3 avec la fonction unique des revenus, premier euro à 38 % (DECISIONS1311, 13/11/2026) ; avant : DECISIONS1111D ;   // S3 avec grand ménage (central) et patrimoine à 1,25 % (DECISIONS1111D, 11/11/2026) ; avant : DECISIONS1111B ; S3 après décisions du 11/11 (DECISIONS1111) et gains d'abord au déficit (DECISIONS1111B : leviers F gardés à leur valeur d'avant le recalibrage)
 out.systeme = { F: s3.F, a: s3.a, revenus: s3.revenus, credit: s3.credit, transmissions: s3.transmissions, patrimoineNat: s3.patrimoineNat, pension: s3.pension, eco: s3.eco,
                 effetCouche: s3.effetCouche, po_md: s3.po.md, po_pct: s3.po.pct, po_elargi: s3.po.elargisPct, picAn: s3.picAn, pic: s3.pic,
                 reference: serie(s3.traj, 30), prudente: serie(s3.trajPrudente, 30), annee1: 2029 };
@@ -75,6 +75,10 @@ out.patrimoine_1125 = { ligne: this.Decisions1111D.ligne(), ecart: s3.ecartPatri
 out.avant_1111 = { F: s3av.F, a: s3av.a, po_pct: s3av.po.pct, picAn: s3av.picAn, pic: s3av.pic, reference: serie(s3av.traj, 30), prudente: serie(s3av.trajPrudente, 30) };
 out.leviers_inchanges_1111 = { F: s3fx.F, a: s3fx.a, po_pct: s3fx.po.pct, reference: serie(s3fx.traj, 30), prudente: serie(s3fx.trajPrudente, 30) };
 out.recalibre_1111 = { F: s3rc.F, a: s3rc.a, po_pct: s3rc.po.pct, picAn: s3rc.picAn, pic: s3rc.pic, sous3: this.Decisions1111B.sous3(s3rc.traj), reference: serie(s3rc.traj, 30), prudente: serie(s3rc.trajPrudente, 30) };
+// Fonction unique des revenus (DECISIONS1311, 13/11/2026) : la colonne d'avant (DECISIONS1111D) et le chiffrage de la couche
+var s3d = this.Decisions1111D.s3();
+out.avant_1311 = { F: s3d.F, a: s3d.a, po_pct: s3d.po.pct, po_md: s3d.po.md, reference: serie(s3d.traj, 30), prudente: serie(s3d.trajPrudente, 30), sous3: this.Decisions1111B.sous3(s3d.traj), sous3_prudente: this.Decisions1111B.sous3(s3d.trajPrudente) };
+out.fonction_unique_1311 = { chiffrage: this.Decisions1311.chiffrage(), ecart: s3.ecart1311, mu: s3.mu };
 out.sous3_central = this.Decisions1111B.sous3(s3.traj); out.sous3_prudente = this.Decisions1111B.sous3(s3.trajPrudente); out.sous3_modele = out.sous3_central;
 out.v6_avant_2038 = this.Decisions0511g.v6('central', 2038); out.v6_apres_2038 = this.Decisions1111.v6('central', 2038); out.delta_2038 = this.Decisions1111.delta('central', 2038);
 var ECO = ST.ECO;

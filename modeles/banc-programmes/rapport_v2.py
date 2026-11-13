@@ -368,7 +368,10 @@ def ecrire():
       'Incertain : le contre-budget est lu comme permanent (euros constants), sans dérive des coûts de retraite ; le plan BTP-logement (36 Md€ par an hors de l\'État, pôle public bancaire) n\'est pas compté.\n' % (
           fr(pc_['serie_eff_mediane']['2032']), fr(P['lfi']['serie_eff_mediane']['2032']), fr(100 * pc_['dette2032']['p50']), fr(100 * pc_['dette2038']['p50']), fr(100 * P['lfi']['dette2032']['p50']), fr(100 * P['lfi']['dette2038']['p50']), fr(pc_['recettes_regime']['p50'])))
     # ------------------------------------------------------------------ 13 : 11/11 d, patrimoine 1,25 % et grand ménage
-    SYS = SYSN; ap = apN
+    # § 13 : colonne « après » = banc d'avant la fonction unique du 13/11 (§ 14), lue dans donnees/avant-1311-langagement.json et dans le bloc avant_1311 de systeme.json
+    AV13 = json.load(open(os.path.join(ICI, 'donnees', 'avant-1311-langagement.json'), encoding='utf-8'))['langagement']
+    apN_1311 = apN; apN = AV13
+    SYS = dict(SYSN, systeme=dict(SYSN['systeme'], reference=SYSN['avant_1311']['reference'], prudente=SYSN['avant_1311']['prudente']), sous3_central=SYSN['avant_1311']['sous3']); ap = apN
     sn, sv, sg, pp = SYS['systeme'], SYS['avant_1111d'], SYS['avec_grand_menage_seul'], SYS['patrimoine_1125']
     lp = pp['ligne']
     A('## 13. 11/11/2026, impôt sur le patrimoine à 1,25 % et grand ménage branché\n')
@@ -414,6 +417,8 @@ def ecrire():
       'les variantes « modèles moins sévères » (§ 10 de `resultats.md`) reposent encore sur le patrimoine à 3 %% et ne sont pas rejouées ici.\n' % (
           fr(-pp['ecart'], 1), fr(100 * (sn['reference']['deficit'][9] - sg['reference']['deficit'][9]), 1),
           fr(100 * AVD['dette2038']['p50'], 1), fr(100 * apN['dette2038']['p50'], 1), fr(AVD['par_mesure']['M-PAT']['p50'], 1), fr(apN['par_mesure']['M-PAT']['p50'], 1)))
+    SYS = SYSN; apN = apN_1311; ap = apN
+    section_1311(A, P, SYS, AV13, ans)
     philippe_section(A, P)
     A('## 8. Les douze écarts de `memes-modeles.md` : statut\n')
     A('| N° | Écart | Statut v2 |\n|---|---|---|')
@@ -460,6 +465,48 @@ def ecrire():
         A('| Notre système | %s | %s | %s | %s | %s | %d | %s | — | %s | %s |' % (i, m['libelle'][:70].replace('|', '/'), *(['—'] * 3 if mm is None else [mm, jj, ee]), s, fr(m['central_2038'], 1), fr(100 * F.GRILLE[s][1]) + ' %', mot))
     A('\n---\n\nPage générée par `modeles/banc-programmes/rapport_v2.py` ; aucun chiffre n\'y est tapé à la main. Écrite par Claude (IA d\'Anthropic) pour l\'auteur ; conflit d\'intérêts déclaré.')
     return '\n'.join(L)
+
+
+def section_1311(A, P, SYS, AV, ans):
+    """§ 14 : fonction unique des revenus (couche DECISIONS1311, 13/11/2026) ; « avant » = banc du 11/11 après patrimoine 1,25 % et grand ménage (donnees/avant-1311-langagement.json)."""
+    ap, sn, sv, fu = P['langagement'], SYS['systeme'], SYS['avant_1311'], SYS['fonction_unique_1311']
+    ch = fu['chiffrage']
+    A('## 14. 13/11/2026, fonction unique des revenus (premier euro à 38 %)\n')
+    A('**Décision de l\'auteur (13/11/2026)** : le minimum garanti est fondu dans la fonction des revenus, C(R) = a·R − P − (a − μ)·K_P·(1 − e^(−R/K_P)), avec μ = %s (premier euro à %s %%), P = 877 € avec loyer et 627 € sans loyer ; le filet retiré à 25 centimes par euro disparaît (`modeles/systeme-ideal/fonction-unique-1311.md`). '
+      'Couche datée `DECISIONS1311` (`modeles/systeme-ideal/decisions_1311.js`, tests `test_decisions_1311.js`) au-dessus de `DECISIONS1111D`, sans l\'écraser. Leviers F (%s Md€) et coefficient a (%s) inchangés ; prélèvements obligatoires inchangés (le plancher est une dépense). '
+      'Même règle de faisabilité, mêmes tirages (graine %d, %s) ; « avant » = banc du § 13 (`donnees/avant-1311-langagement.json`).\n' % (
+          fr(fu['mu'], 2), fr(100 * fu['mu']), fr(sn['F'], 1), fr(sn['a'], 4), N['graine'], fr(N['tirages'])))
+    A('**Ce que fait la couche** (modèle, Md€ de 2025 par an dès 2029, + améliore le solde ; favorable / central / défavorable) : '
+      '(FU01) **correction de convention** : le bilan comptait le complément de la zone de retrait à 877 € pour tous et ne retirait la part logement (ligne PL01) qu\'aux bénéficiaires à revenu nul, alors que la règle la retire à quiconque ne paie pas de loyer : %s / **%s** / %s ; '
+      '(FU02) **la décision** (fonction unique au lieu du filet, part logement traitée pareil des deux côtés) : %s / **%s** / %s ; **net : %s / %s / %s**. Les deux lignes sont rattachées au module M-PL (même mécanisme, même score de faisabilité, 2).\n' % (
+          fr(ch['correctionPL01'][0], 2), fr(ch['correctionPL01'][1], 2), fr(ch['correctionPL01'][2], 2), fr(ch['decision'][0], 2), fr(ch['decision'][1], 2), fr(ch['decision'][2], 2),
+          fr(ch['net'][0], 2), fr(ch['net'][1], 2), fr(ch['net'][2], 2)))
+    lignes = [('Solde en régime (2038), Md€ de 2025', 'solde_regime', 'fr'), ('Dette 2032, % du PIB', 'dette2032', 'pc'), ('Dette 2038, % du PIB', 'dette2038', 'pc'), ('Dette 2058, % du PIB', 'dette2058', 'pc'),
+              ('Déficit 2038, % du PIB', 'deficit2038_pct', 'pc')]
+    A('| Notre système, médiane [intervalle à 80 %] | Avant (§ 13) | Après (fonction unique) | Écart de la médiane |\n|---|---|---|---|')
+    for lib, k, f in lignes:
+        a, b = AV.get(k), ap.get(k)
+        if a is None or b is None:
+            continue
+        k100 = 100.0 if f == 'pc' else 1.0
+        A('| %s | %s | %s | %s |' % (lib, iv(a, k100, 1 if f == 'pc' else 0), iv(b, k100, 1 if f == 'pc' else 0), fr((b['p50'] - a['p50']) * k100, 1 if f == 'fr' else 2)))
+    A('| Effet médian de la ligne M-PL en régime (Md€) | %s | %s | |' % (iv(AV['par_mesure']['M-PL'], 1, 1), iv(ap['par_mesure']['M-PL'], 1, 1)))
+    A('\n**Trajectoire année par année** (médiane ; taux fixe) :\n')
+    A('| | ' + ' | '.join(ans) + ' |\n|---|' + '---|' * len(ans))
+    for lib, key, fct in (('Effet sur le solde', 'serie_eff_mediane', 1.0), ('Déficit (% du PIB)', 'serie_deficit_mediane', 100.0)):
+        A('| %s, avant | %s |' % (lib, ' | '.join(fr(fct * AV[key][a], 1) for a in ans)))
+        A('| %s, après | %s |' % (lib, ' | '.join(fr(fct * ap[key][a], 1) for a in ans)))
+    A('\n**Lecture au central, sans tirage ni filtre** (modèle, taux fixe, macro de référence) :\n')
+    A('| | Avant (§ 13) | Après (fonction unique) |\n|---|---|---|')
+    for y in (2029, 2032, 2038, 2043, 2058):
+        i = y - 2029
+        A('| %d : dette ; déficit (%% du PIB) | %s ; %s | %s ; %s |' % (y, fr(100 * sv['reference']['ratio'][i], 1), fr(100 * sv['reference']['deficit'][i], 2), fr(100 * sn['reference']['ratio'][i], 1), fr(100 * sn['reference']['deficit'][i], 2)))
+    A('| Macro prudente : dette 2038 ; déficit 2038 | %s ; %s | %s ; %s |' % (fr(100 * sv['prudente']['ratio'][9], 1), fr(100 * sv['prudente']['deficit'][9], 1), fr(100 * sn['prudente']['ratio'][9], 1), fr(100 * sn['prudente']['deficit'][9], 1)))
+    A('| Année de passage durable sous 3 %% de déficit | %s | %s |' % (str(sv['sous3'] or 'aucune avant 2058'), str(SYS['sous3_central'] or 'aucune avant 2058')))
+    A('\n**Sans complaisance.** (1) La décision **coûte** (%s Md€ par an au central) ; le solde s\'améliore seulement parce que la même couche corrige une surestimation de la dépense du plancher (%s Md€), qui existait avant la décision et aurait dû être corrigée de toute façon. '
+      '(2) Les deux montants reposent sur un calage du plancher (k) fait pour l\'ancienne règle et sur la part de personnes sans loyer des allocataires du RSA (19 %% au central), appliquée à toute la zone de retrait (⚠️ H-FU6, H-FU7) ; aucune réaction de l\'emploi n\'est comptée. '
+      '(3) L\'effet est petit devant l\'incertitude du banc (dette 2038 : %s → %s %% en médiane, intervalle à 80 %% large de %s points) : il ne change aucun classement.\n' % (
+          fr(ch['decision'][1], 2), fr(ch['correctionPL01'][1], 2), fr(100 * AV['dette2038']['p50'], 1), fr(100 * ap['dette2038']['p50'], 1), fr(100 * (ap['dette2038']['p90'] - ap['dette2038']['p10']), 0)))
 
 
 def philippe_section(A, P):

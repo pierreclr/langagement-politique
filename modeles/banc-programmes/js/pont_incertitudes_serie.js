@@ -23,7 +23,7 @@ function sub(a, b) { return a.map(function (x, i) { return x - b[i]; }); }
 function zero() { return cst(0); }
 function fav(a, b) { var s = a.reduce(function (p, x) { return p + x; }, 0) >= b.reduce(function (p, x) { return p + x; }, 0); return s ? [a, b] : [b, a]; }   // [plus favorable, moins favorable]
 
-var CO = this.Correction0811, N1 = this.Decisions1111, N1B = this.Decisions1111B, N1D = this.Decisions1111D, s = N1D.s3(), mods = [], fixe = [];   // S3 après correction du double compte du différé (CORRECTION0811) et décisions du 11/11 (DECISIONS1111 : retraites de la loi de 2023, entreprise d'État à 1 Md€)
+var CO = this.Correction0811, N1 = this.Decisions1111, N1B = this.Decisions1111B, N1D = this.Decisions1111D, N13 = this.Decisions1311, s = N13.s3(), mods = [], fixe = [];   // S3 avec la fonction unique des revenus (DECISIONS1311, 13/11/2026 : lignes FU01, FU02 rattachées à M-PL) ;   // S3 après correction du double compte du différé (CORRECTION0811) et décisions du 11/11 (DECISIONS1111 : retraites de la loi de 2023, entreprise d'État à 1 Md€)
 function mod(id, lib, source, cote, facteur, lam, sens, profil, dFav, dDef, c, cs) {
   mods.push({ c_serie: cs || null, id: id, libelle: lib, source: source, cote: cote, facteur: facteur, lambda: lam, sens: sens, profil: profil, central: c === undefined ? null : c, d_fav: dFav, d_def: dDef });
 }
@@ -37,7 +37,7 @@ var GROUPES = [
   { id: 'M-FRP', lib: 'Frais professionnels au réel (DC03)', ids: ['DC03'], f: 'cout', l: 0.3, src: 'decisions_0711.js HYP.fraisReels' },
   { id: 'M-GA', lib: 'Grand âge : hébergement et aide à domicile (GA01, GA02)', ids: ['GA01', 'GA02'], f: 'cout', l: 0.5, src: 'modeles/grand-age/ (central, abattement 100 000 €), decisions_0811.js HE1-HE2' },
   { id: 'M-CS', lib: 'Conversions en salaire à coût employeur inchangé : mutuelle, transport (CS01, CS02)', ids: ['CS01', 'CS02'], f: 'comportement', l: 0.3, src: 'decisions_0811.js HE5' },
-  { id: 'M-PL', lib: 'Plancher en deux parts (627 + 250 €) et coefficient de lieu (PL01, PL02)', ids: ['PL01', 'PL02'], f: 'cout', l: 0.3, src: 'decisions_0811.js HE6-HE7 (DREES)' },
+  { id: 'M-PL', lib: 'Plancher en deux parts (627 + 250 €) fondu dans la fonction unique des revenus (premier euro à 38 %) et coefficient de lieu (PL01, PL02, FU01, FU02)', ids: ['PL01', 'PL02', 'FU01', 'FU02'], f: 'cout', l: 0.3, src: 'decisions_0811.js HE6-HE7 (DREES) ; decisions_1311.js (fonction_unique_1311.js recette, μ = 0,38)' },
   { id: 'M-OM', lib: 'Outre-mer : sur-rémunérations, prix alimentaires (OM01, OM02)', ids: ['OM01', 'OM02'], f: 'cout', l: 0.3, src: 'decisions_0811.js HE8 (Cour des comptes 2020, Insee)' },
   { id: 'M-08', lib: 'Chiffrage du 08/11 : collectivités, justice, protection de l\'enfance, imprévus, retenue victimes, artificialisation (CL01, JU01, EN01, IM01, VI01, ZA01, ZA02)', ids: ['CL01', 'JU01', 'EN01', 'IM01', 'VI01', 'ZA01', 'ZA02'], f: 'cout', l: 0.5, src: 'sources/chiffrage-decisions-0811.md via decisions_0811.js HE9' }
 ];
