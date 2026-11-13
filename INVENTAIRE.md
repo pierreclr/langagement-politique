@@ -2,7 +2,7 @@
 
 Liste des fichiers publiés dans ce dépôt (générée automatiquement : ne pas modifier à la main).
 
-1572 fichiers, 42.4 Mo.
+1575 fichiers, 42.5 Mo.
 
 | Dossier | Fichiers | Taille (Ko) |
 |---|---|---|
@@ -52,7 +52,7 @@ Liste des fichiers publiés dans ce dépôt (générée automatiquement : ne pas
 | `outils/droit` | 7 | 117 |
 | `prototypes` | 16 | 341 |
 | `registre-anomalies` | 465 | 3022 |
-| `site` | 37 | 581 |
+| `site` | 40 | 602 |
 | `sources` | 174 | 9763 |
 | `sources/calculs` | 52 | 872 |
 
@@ -1419,7 +1419,10 @@ Ces fichiers sont cités par un lien relatif mais ne sont pas (encore) dans le d
 - `site/qui-suis-je.html`
 - `site/redressement.css`
 - `site/theme-site.js`
+- `site/tribunes/decider-nous-memes.html`
+- `site/tribunes/deux-proprietes.html`
 - `site/tribunes/etat-systeme-information.html`
+- `site/tribunes/orienter-sans-interdire.html`
 - `site/verifier/index.html`
 - `sources/architecture-democratique.md`
 - `sources/assurances-dossier.md`
