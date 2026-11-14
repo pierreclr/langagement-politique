@@ -13,7 +13,7 @@ Liste des fichiers publiés dans ce dépôt (générée automatiquement : ne pas
 | `LICENSE-TEXTE.md` | 1 | 0 |
 | `README.md` | 1 | 15 |
 | `atelier-modele` | 11 | 13 |
-| `chapitres` | 17 | 702 |
+| `chapitres` | 17 | 703 |
 | `donnees-brutes` | 7 | 1095 |
 | `modeles/acceleration` | 14 | 132 |
 | `modeles/agriculture` | 15 | 126 |
