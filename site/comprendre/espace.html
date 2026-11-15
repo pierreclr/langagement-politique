@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SpaceX, l'Europe et l'espace</title>
+<meta name="description" content="Combien coûtent vraiment Falcon 9, Starship et Ariane 6, qui les a payés (argent public, commande publique, capital privé), leur prix au kilo, leur cadence, leur empreinte carbone, et ce que l'on sait de la Chine et de la Russie.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Source+Serif+4:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/redressement.css">
+<link rel="stylesheet" href="/graphiques-site.css">
+<script src="/graphiques-site.js"></script>
+<style>
+.lignes{display:grid;gap:12px;margin-top:20px}
+.lignes div{background:var(--surface);border:1px solid var(--trait);border-radius:12px;padding:14px 16px}
+.lignes .dit{font-family:var(--serif);font-size:1.08rem;margin:0 0 6px}
+.lignes p{margin:6px 0 0;font-size:.97rem}
+.trois{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:18px}
+.trois div{background:var(--surface);border:1px solid var(--trait);border-radius:12px;padding:14px 16px}
+.trois b{display:block;font-family:var(--serif);margin-bottom:6px}
+@media (max-width:760px){.trois{grid-template-columns:1fr}}
+.tableau{overflow-x:auto;margin-top:16px}
+.tableau table{border-collapse:collapse;width:100%;font-size:.92rem;min-width:620px}
+.tableau th,.tableau td{border-bottom:1px solid var(--trait);padding:8px 6px;text-align:left;vertical-align:top}
+.tableau th{font-weight:700}
+.grille{counter-reset:g;list-style:none;padding:0;display:grid;gap:8px;margin-top:14px}
+.grille li{counter-increment:g;background:var(--surface);border:1px solid var(--trait);border-radius:10px;padding:10px 14px}
+.grille li::before{content:counter(g) ". ";font-weight:700;color:var(--accent)}
+.sources li{font-size:.9rem;margin-bottom:6px;overflow-wrap:anywhere}
+</style>
+</head>
+<body>
+<div class="proto">Dossier publié le 15/11/2026. Une erreur ? <a href="https://github.com/pierreclr/langagement-politique/issues">Signalez-la</a>, on corrige.</div>
+<header><div class="page large">
+  <a class="marque" href="/">Langagement politique</a>
+  <nav></nav>
+</div></header>
+<main>
+<section class="ouverture"><div class="page">
+  <p class="etiq">Comprendre</p>
+  <h1>SpaceX, l'Europe et l'espace : ce que coûtent vraiment les fusées.</h1>
+  <p class="doux">On entend tout et son contraire : « SpaceX vit de l'argent public », « Falcon 9 a coûté 15 milliards », « Ariane 6 est dépassée ». Ce dossier applique la même règle de calcul à tous les programmes, sépare les fusées des vaisseaux qu'elles emportent, et dit ce qu'on sait, ce qu'on estime et ce qu'on ignore.</p>
+</div></section>
+
+<section class="bloc" id="en-bref"><div class="page">
+  <p class="etiq">1. En bref</p>
+  <h2>Cinq phrases.</h2>
+  <p>Falcon 9 n'a pas coûté 15 milliards de dollars : ce chiffre est celui de Starship ; Falcon 9 a coûté environ 300 millions de dollars de 2011 à développer selon SpaceX (430 millions de 2025), quand la méthode classique de la NASA en prévoyait jusqu'à quatre milliards. Ariane 6 a coûté environ 4,4 milliards d'euros de 2025, payés à près de 90 % par les États européens, et elle reçoit en plus jusqu'à 340 millions d'euros par an pour son exploitation. À mission comparable, une agence publique paie à peu près le même prix pour un lancement d'Ariane 62 ou de Falcon 9, mais Falcon 9 emporte deux fois plus et revient deux fois moins cher au kilo. En 2025, SpaceX a fait 165 lancements de Falcon, dont 122 pour ses propres satellites Starlink, qu'elle se facture à prix coûtant ; l'Europe en a fait 4 avec Ariane 6. Côté climat, nos estimations donnent environ 30 à 45 kg de CO₂ par kilo mis en orbite pour Falcon 9, et deux à trois fois plus pour Ariane 6, avec une forte incertitude.</p>
+</div></section>
+
+<section class="bloc" id="methode"><div class="page">
+  <p class="etiq">2. La méthode</p>
+  <h2>Les mêmes règles pour tout le monde.</h2>
+  <p><b>Règle 1 : classer chaque euro ou dollar selon d'où il vient.</b> Pour chaque programme, chaque flux d'argent est rangé dans une de ces sept catégories :</p>
+  <ol class="grille">
+    <li>Financement public du développement, sans service en échange (ex. : les États qui paient le développement d'Ariane 6).</li>
+    <li>Commande publique au prix du marché : un client public achète un lancement au prix qu'un client privé paierait.</li>
+    <li>Commande publique au-dessus du prix du marché : l'écart avec le prix commercial le plus bas est compté comme une subvention cachée.</li>
+    <li>Soutien public à l'exploitation : de l'argent versé chaque année pour faire voler une fusée.</li>
+    <li>Aides indirectes : terrains, bases, avantages fiscaux ou locaux.</li>
+    <li>Capital privé : l'argent des fondateurs et des investisseurs.</li>
+    <li>Revenus commerciaux : ce que paient les clients privés.</li>
+  </ol>
+  <p><b>Règle 2 : comparer en monnaie constante.</b> Un million de 2008 ne vaut pas un million de 2025. Chaque montant est corrigé de l'inflation : indice des prix américain pour les dollars (×1,50 pour 2008, ×1,36 pour 2014, ×1,24 pour 2020), indice des prix de la zone euro pour les euros (×1,29 pour 2015). Pour comparer euros et dollars, on prend le taux moyen de 2025 : 1 € = 1,13 $.</p>
+  <p><b>Règle 3 : séparer la fusée de ce qu'elle emporte.</b> La capsule Dragon, qui ravitaille la station spatiale et y emmène des astronautes, est un programme à part : la plupart des contrats de la NASA avec SpaceX la financent, elle, et pas la fusée. On compare donc les lanceurs entre eux, puis les vaisseaux entre eux.</p>
+  <p><b>Règle 4 : regarder ce qu'un programme facture, pas seulement ce qu'il coûte.</b> Un lanceur cher mais rentable n'a pas le même poids pour le contribuable qu'un lanceur qu'il faut soutenir chaque année.</p>
+</div></section>
+
+<section class="bloc" id="lanceurs"><div class="page">
+  <p class="etiq">3. Les lanceurs</p>
+  <h2>Coût, financement, prix, cadence.</h2>
+
+  <h3>Coût de développement (milliards de dollars de 2025)</h3>
+  <svg data-graph="barres" data-lw="230" data-max="16" data-lignes='[["Falcon 9 (déclaré par SpaceX)",0.43,"var(--vert)",null,"≈ 0,43"],["Falcon 9, estimation NASA",5.87,"var(--ambre)",null,"≈ 5,9 (estimation NASA, 2011)"],["Falcon Heavy",0.64,"var(--vert)",null,"plus de 0,6 (déclaré)"],["Ariane 6",5.0,"var(--ambre)",null,"≈ 5,0 (4,4 Md€)"],["Starship (à ce jour)",15,"var(--rouge)",null,"plus de 15"]]' viewBox="0 0 640 216"></svg>
+  <p class="src">Falcon 9 : témoignage de Gwynne Shotwell (SpaceX) au Sénat américain, 2011 (environ 300 M$), et étude NASA « NAFCOM » d'août 2011 (3,98 Md$ en méthode traditionnelle). Falcon Heavy : déclaration d'Elon Musk (non vérifiable). Ariane 6 : 2,8 Md€ publics et 0,4 Md€ industriels prévus en 2015, plus 0,23 Md€ en 2020 (presse spécialisée). Starship : dossier d'introduction en Bourse de SpaceX (SEC, juin 2026), « plus de 15 milliards » investis, en dollars courants.</p>
+
+  <h3>Part publique du coût de développement</h3>
+  <svg data-graph="barres" data-lw="230" data-max="100" data-lignes='[["Ariane 6",88,"var(--rouge)",null,"≈ 88 %"],["Falcon 9",50,"var(--ambre)",null,"≈ 33 à 66 % (estimation)"],["Starship",20,"var(--vert)",null,"20 % au plus"],["Falcon Heavy",0,"var(--vert)",null,"0 % (déclaré)"]]' viewBox="0 0 640 176"></svg>
+  <p class="src">Ariane 6 : contributions des États à l'Agence spatiale européenne rapportées au total (presse). Falcon 9 : le contrat NASA de démonstration cargo (396 M$) finançait à la fois Falcon 9 et Dragon ; nous attribuons à la fusée entre un tiers et deux tiers de son coût, selon la clé de répartition (estimation). Starship : le contrat d'atterrisseur lunaire de la NASA (environ 3 Md$) finance un véhicule distinct ; rapporté aux 15 Md$, c'est une borne haute.</p>
+
+  <h3>Prix au kilo en orbite basse (dollars, capacité maximale)</h3>
+  <svg data-graph="barres" data-lw="230" data-max="10000" data-lignes='[["Falcon 9, étage récupéré",4229,"var(--vert)",null,"≈ 4 200 $"],["Longue Marche 2C",4600,"var(--ambre)",null,"≈ 4 600 $ (source peu sûre)"],["Ariane 62",8960,"var(--rouge)",null,"≈ 9 000 $"]]' viewBox="0 0 640 136"></svg>
+  <p class="src">Prix catalogue de Falcon 9 (74 M$ en 2026, étage récupéré) divisé par sa capacité dans cette configuration (17,5 t) ; le prix d'un vol où l'étage est jeté n'est pas publié ; Ariane 62 : 82,07 M€ payés par l'ESA pour le satellite Sentinel-1D (novembre 2025), divisés par 10,35 t ; Longue Marche 2C : contrat de 2022 rapporté par un dirigeant d'une entreprise concurrente. Une fusée vole rarement pleine : le prix réel au kilo d'un satellite donné est plus élevé.</p>
+  <p>À mission comparable, le prix payé se ressemble : la NASA a payé 94 millions de dollars en 2022 (103 millions de 2025) un Falcon 9 pour son satellite Sentinel-6B, l'ESA 93 millions de dollars un Ariane 62 en 2025. L'écart n'est pas dans le prix d'un lancement, il est dans la capacité, et dans le soutien annuel que l'Europe verse en plus.</p>
+
+  <h3>Lancements en 2025</h3>
+  <svg data-graph="barres" data-lw="230" data-max="170" data-lignes='[["SpaceX, Falcon (total)",165,"var(--vert)",null,"165"],["dont pour ses satellites Starlink",122,"var(--vert)",null,"122"],["dont pour des clients",43,"var(--vert)",null,"43"],["Chine (toutes fusées)",92,"var(--ambre)",null,"92"],["Russie",17,"var(--ambre)",null,"17"],["Europe, Ariane 6",4,"var(--rouge)",null,"4"]]' viewBox="0 0 640 256"></svg>
+  <p class="src">SpaceX : dossier d'introduction en Bourse (SEC, 2026). Chine : agence spatiale chinoise, via la presse d'État (source d'acteur). Russie et Ariane 6 : décomptes publics des lancements.</p>
+
+  <h3>Argent public d'exploitation, par lancement (millions, monnaie de 2025)</h3>
+  <svg data-graph="barres" data-lw="230" data-max="100" data-lignes='[["Ariane 6, à 9 vols par an",38,"var(--ambre)",null,"≈ 38 M€"],["Ariane 6, à 4 vols par an",85,"var(--rouge)",null,"≈ 85 M€"],["SpaceX, missions militaires",47,"var(--ambre)",null,"jusqu’à 47 M$ d’écart (borne haute)"],["SpaceX, autres lancements",0,"var(--vert)",null,"aucun soutien identifié"]]' viewBox="0 0 640 176"></svg>
+  <p class="src">Ariane 6 : soutien des États membres de l'ESA allant jusqu'à 340 M€ par an du 16e au 42e vol (accord de novembre 2023, presse), divisé par le nombre de vols ; c'est un plafond. SpaceX : l'armée américaine a payé en moyenne 120,8 M$ par mission en 2025, contre 74 M$ au catalogue ; une partie de l'écart tient aux exigences militaires (orbites, sécurité), d'où une borne haute.</p>
+</div></section>
+
+<section class="bloc" id="spacex-comptes"><div class="page">
+  <p class="etiq">4. Ce que disent les comptes de SpaceX</p>
+  <h2>Starlink paie ses lancements à prix coûtant.</h2>
+  <p>En 2026, SpaceX a publié ses comptes pour entrer en Bourse. Ils sont découpés en trois activités : l'espace (fusées, Dragon), la connectivité (Starlink) et l'intelligence artificielle (xAI, fusionnée en 2026).</p>
+  <svg data-graph="barres" data-lw="230" data-max="12000" data-lignes='[["Starlink : chiffre d’affaires 2025",11387,"var(--vert)",null,"11,4 Md$"],["Starlink : résultat d’exploitation",4423,"var(--vert)",null,"+4,4 Md$"],["Espace : chiffre d’affaires 2025",4086,"var(--ambre)",null,"4,1 Md$"],["Espace : recherche",3004,"var(--rouge)",null,"3,0 Md$"],["Espace : perte d’exploitation",657,"var(--rouge)",null,"perte de 0,66 Md$"]]' viewBox="0 0 640 216"></svg>
+  <p class="src">Space Exploration Technologies Corp., formulaire S-1/A déposé à la SEC le 03/06/2026, notes des états financiers (comptes audités), dollars courants.</p>
+  <div class="lignes">
+    <div><p class="dit">Les lancements Starlink ne rapportent rien à l'activité « espace »</p><p>Les comptes le disent : pour les lancements de satellites Starlink, aucun chiffre d'affaires interne n'est enregistré, et leur coût est ajouté à la valeur des satellites. Starlink paie donc ses lancements à prix coûtant, sans marge. Si les deux activités étaient deux entreprises séparées, Starlink paierait plus cher et l'activité « espace » gagnerait plus.</p></div>
+    <div><p class="dit">L'activité « espace » porte seule la recherche sur Starship</p><p>Elle perd 657 millions de dollars en 2025, mais elle finance 3 milliards de recherche, surtout pour Starship, qui servira d'abord à lancer les nouveaux satellites Starlink. Sans cette recherche, elle dégagerait environ 2,3 milliards de résultat (notre calcul). Lire sa perte comme « les fusées ne sont pas rentables » serait donc trompeur.</p></div>
+    <div><p class="dit">Ce qui finance SpaceX aujourd'hui, c'est surtout Starlink</p><p>En 2025, Starlink représente 61 % du chiffre d'affaires de l'entreprise. Les lancements pour des clients restent stables (43 en 2025), et les contrats publics pluriannuels (ravitaillement de la station, vols habités, défense) font un peu plus du tiers du chiffre d'affaires de l'activité « espace ».</p></div>
+  </div>
+</div></section>
+
+<section class="bloc" id="vaisseaux"><div class="page">
+  <p class="etiq">5. Les vaisseaux</p>
+  <h2>Envoyer des humains : ce que l'Europe n'a pas.</h2>
+  <h3>Prix d'un siège vers la station spatiale (millions de dollars de 2025)</h3>
+  <svg data-graph="barres" data-lw="230" data-max="130" data-lignes='[["Crew Dragon (SpaceX)",69,"var(--vert)",null,"≈ 69 (estimation 2019)"],["Starliner (Boeing)",113,"var(--rouge)",null,"≈ 113 (estimation 2019)"],["Soyouz (Russie)",112,"var(--rouge)",null,"≈ 112 (prix 2020)"]]' viewBox="0 0 640 136"></svg>
+  <p class="src">Crew Dragon et Starliner : estimations de l'inspecteur général de la NASA (rapport IG-20-005, 2019 : 55 et 90 M$), via la presse spécialisée. Soyouz : 90,25 M$ par siège en 2020 (presse spécialisée). Corrigés de l'inflation américaine.</p>
+  <div class="lignes">
+    <div><p class="dit">La NASA a acheté un service, à deux fournisseurs</p><p>En 2014, la NASA a confié à Boeing (4,2 milliards de dollars) et à SpaceX (2,6 milliards) le même service : emmener ses astronautes. SpaceX vole depuis 2020 ; Starliner a accumulé les retards. La mise en concurrence, avec un paiement par étape réussie, a fait de la NASA un client plutôt qu'un maître d'œuvre.</p></div>
+    <div><p class="dit">L'Europe : un cargo, puis plus rien</p><p>L'Europe a développé un cargo automatique pour la station, l'ATV (environ 1,35 milliard d'euros de 2008, soit 1,9 milliard de 2025), qui a volé cinq fois de 2008 à 2014. Elle n'a jamais eu de vaisseau habité : ses astronautes partent sur des vaisseaux américains ou russes. Des projets de cargo européen privés, comme la capsule Nyx de The Exploration Company, sont en cours.</p></div>
+  </div>
+</div></section>
+
+<section class="bloc" id="dependance"><div class="page">
+  <p class="etiq">6. Dépendance et concurrence</p>
+  <h2>Le vrai risque, c'est le fournisseur unique.</h2>
+  <p>On entend que SpaceX refuserait de lancer les satellites de ses concurrents. Les faits disent l'inverse : en 2022-2023, quand la Russie a cessé de lancer les satellites OneWeb (aujourd'hui Eutelsat OneWeb, concurrent de Starlink), SpaceX en a lancé 136 en quatre vols ; elle lance aussi, depuis juillet 2025, les satellites Kuiper d'Amazon, autre concurrent.</p>
+  <p>Le vrai sujet est ailleurs : entre la fin d'Ariane 5, les retards d'Ariane 6 et la perte des Soyouz après 2022, l'Europe a dû confier ses satellites à son concurrent direct, faute d'autre lanceur. Un fournisseur unique fixe ses prix et son calendrier, et pourrait un jour dire non. C'est l'argument le plus solide pour un lanceur européen, même plus cher. La future constellation européenne IRIS² (environ 10,6 milliards d'euros sur douze ans, 290 satellites, service visé en 2030-2031) posera la question : nous n'avons pas trouvé d'obligation écrite de la lancer sur des fusées européennes.</p>
+</div></section>
+
+<section class="bloc" id="infrastructures"><div class="page">
+  <p class="etiq">7. Les infrastructures</p>
+  <h2>Pas de tir, bases, navires.</h2>
+  <div class="lignes">
+    <div><p class="dit">Europe : Kourou, payé surtout par la France</p><p>Au Centre spatial guyanais, l'Agence spatiale européenne paie les deux tiers des coûts fixes et la France le tiers restant, plus les infrastructures de base : la France finance environ 55 % du budget total du centre (Cour des comptes, 2023). Le pas de tir d'Ariane 6 a coûté environ 840 millions d'euros de 2025 (presse). En amortissant ces équipements et en ajoutant le fonctionnement du centre, l'infrastructure pèserait 20 à 40 millions d'euros par lancement d'Ariane 6, selon qu'on en fait 6 ou 11 par an (estimation).</p></div>
+    <div><p class="dit">SpaceX : très peu de chiffres publics</p><p>On connaît un bail de vingt ans sur le pas de tir 39A de la NASA (2014, loyer non publié) et environ 21 millions de dollars de 2025 d'aides de l'État du Texas pour la base de Starbase. Le coût des barges et navires de récupération, des tours de lancement et des usines n'est pas publié. Avec plus de 160 lancements par an, le coût d'infrastructure par lancement est en tout cas bien plus faible qu'avec quatre à dix.</p></div>
+  </div>
+</div></section>
+
+<section class="bloc" id="climat"><div class="page">
+  <p class="etiq">8. Le climat</p>
+  <h2>Kilos de CO₂ par kilo mis en orbite.</h2>
+  <svg data-graph="barres" data-lw="230" data-max="160" data-lignes='[["Starship (combustion seule)",24,"var(--vert)",null,"≈ 19 à 28"],["Falcon 9, étage récupéré",42,"var(--ambre)",null,"≈ 37 à 48 avec fabrication"],["Ariane 64",81,"var(--rouge)",null,"≈ 60 à 102 (74 à 134 avec fabrication)"],["Ariane 62",98,"var(--rouge)",null,"≈ 74 à 122 (103 à 189 avec fabrication)"]]' viewBox="0 0 640 176"></svg>
+  <p class="src">Notre estimation : combustion des ergols, production des ergols (hydrogène fabriqué à partir de gaz naturel, kérosène, méthane, oxygène) et, quand c'est indiqué, fabrication du lanceur (amortie sur 10 à 30 vols si l'étage est réutilisé, entière s'il est jeté), rapportées à la capacité maximale. Les facteurs de production sont génériques : l'incertitude est forte, surtout pour Ariane 6. Méthode et hypothèses dans nos sources ouvertes.</p>
+  <div class="lignes">
+    <div><p class="dit">Pourquoi Ariane 6 émet plus par kilo</p><p>Ses moteurs principaux brûlent de l'hydrogène, qui ne rejette que de l'eau, mais cet hydrogène est fabriqué à partir de gaz naturel, ce qui émet du CO₂. Ses propulseurs d'appoint à poudre contiennent de l'aluminium, coûteux en énergie à produire. Et toute la fusée est jetée à chaque vol, pour une capacité moindre.</p></div>
+    <div><p class="dit">Ce que le CO₂ ne dit pas</p><p>Le kérosène de Falcon 9 rejette des suies, et les poudres d'Ariane 6 de l'alumine et du chlore, directement dans la haute atmosphère, où ils restent longtemps : leur effet sur le climat et la couche d'ozone pourrait compter davantage que le CO₂, et il est encore mal mesuré. Les infrastructures pèsent peu à côté : l'électricité de Kourou représenterait 0,2 à 1,4 kg de CO₂ par kilo mis en orbite, les navires de récupération de SpaceX 1 à 5 (estimations).</p></div>
+    <div><p class="dit">Une affaire de volume</p><p>À l'échelle mondiale, les lancements restent petits devant l'aviation. Mais un vol de Starship brûle environ dix fois plus qu'un Falcon 9 : si la cadence se multiplie, la question changera d'échelle.</p></div>
+  </div>
+</div></section>
+
+<section class="bloc" id="chine-russie"><div class="page">
+  <p class="etiq">9. La Chine et la Russie</p>
+  <h2>L'opacité est déjà un résultat.</h2>
+  <p>Ni la Chine ni la Russie ne publient le coût de développement de leurs fusées ni de prix officiel. La même grille ne peut donc être remplie qu'en ordres de grandeur.</p>
+  <div class="lignes">
+    <div><p class="dit">Chine : un budget estimé, une cadence qui monte</p><p>Le budget spatial public est estimé à 15 à 20 milliards de dollars par an par des cabinets d'études ; il n'existe aucune ligne budgétaire publique. 92 lancements en 2025, contre 68 en 2024. Des entreprises privées lèvent des fonds (par exemple LandSpace, qui fait voler une fusée au méthane), souvent avec des investisseurs liés à l'État. Plusieurs fusées anciennes brûlent encore des ergols très toxiques, et des étages sont retombés sur des villages (Guizhou, juin 2024).</p></div>
+    <div><p class="dit">Russie : un programme qui recule</p><p>Les dépenses spatiales russes ont baissé de près de moitié en dollars constants entre 2013 et 2020, surtout à cause de la chute du rouble en 2014 ; l'agence Roscosmos perd de l'argent chaque année. 17 lancements en 2025. La Russie vendait ses sièges Soyouz à la NASA jusqu'à 90 millions de dollars en 2020 ; ce marché s'est arrêté avec l'arrivée de Crew Dragon.</p></div>
+  </div>
+</div></section>
+
+<section class="bloc" id="etabli"><div class="page">
+  <p class="etiq">10. Établi, débattu, inconnu</p>
+  <h2>Trois colonnes.</h2>
+  <div class="trois">
+    <div><b>Établi</b>Falcon 9 a coûté quelques centaines de millions à développer, pas 15 milliards. Ariane 6 a été payée à près de 90 % par les États et reçoit un soutien annuel. SpaceX lance quarante fois plus qu'Ariane 6, dont trois quarts pour Starlink, facturé à prix coûtant. SpaceX lance aussi les satellites de ses concurrents.</div>
+    <div><b>Débattu</b>Faut-il payer plus cher pour garder un lanceur européen ? Le coût de l'autonomie est réel, le risque de dépendance aussi. La part de la NASA dans le succès de SpaceX : petite en montants, décisive en 2008, quand le contrat de ravitaillement l'a sauvée de la faillite.</div>
+    <div><b>Inconnu</b>Le coût final d'Ariane 6 et la part de la France. Le coût des infrastructures de SpaceX. Le coût d'un lancement interne de SpaceX. Les vrais chiffres chinois et russes. L'effet des suies et de l'alumine sur le climat.</div>
+  </div>
+</div></section>
+
+<section class="bloc" id="fragile"><div class="page">
+  <p class="etiq">11. Ce qui reste fragile</p>
+  <h2>Ce que nous n'avons pas pu vérifier à la source.</h2>
+  <div class="lignes">
+    <div><p class="dit">Les chiffres européens viennent surtout de la presse</p><p>Le coût final d'Ariane 6, la part payée par la France, le montant exact du soutien annuel (340 ou 350 millions d'euros selon les sources) et le coût du pas de tir d'Ariane 6 ne sont pas publiés dans un document officiel que nous avons pu lire. Le budget annuel du Centre spatial guyanais n'a pas été trouvé.</p></div>
+    <div><p class="dit">Les chiffres de CO₂ sont nos estimations</p><p>Ils reposent sur des facteurs génériques pour la production de l'hydrogène, du kérosène, du méthane et de l'aluminium, et sur la capacité maximale des fusées. L'écart entre le bas et le haut de chaque fourchette est large, surtout pour Ariane 6. La masse d'ergols de Starship n'a pas été lue à la source.</p></div>
+    <div><p class="dit">La part publique de Falcon 9 dépend d'une clé de répartition</p><p>Le contrat de démonstration de la NASA finançait à la fois Falcon 9 et Dragon : nous attribuons à la fusée entre un tiers et deux tiers de son montant. Le coût de Falcon Heavy est une déclaration d'Elon Musk, non vérifiable.</p></div>
+    <div><p class="dit">Les comptes de SpaceX ne disent pas tout</p><p>Ils sont audités, mais ne publient ni le coût d'un lancement interne, ni la part de chiffre d'affaires venant de l'État américain dans les pages que nous avons lues, ni le coût des barges, des tours et des usines.</p></div>
+    <div><p class="dit">Les écarts de prix ne sont pas à mission identique</p><p>Comparer une mission militaire américaine au prix catalogue de Falcon 9, ou un Ariane 62 à un Falcon 9, mélange des fusées de capacités différentes et des exigences différentes : ces écarts sont des bornes, pas des subventions mesurées.</p></div>
+    <div><p class="dit">La Chine et la Russie restent opaques</p><p>Presque tous leurs chiffres viennent de la presse, de cabinets d'études ou de sources d'État, sans recoupement officiel possible.</p></div>
+  </div>
+  <p>Vous avez une source officielle sur un de ces points ? <a href="https://github.com/pierreclr/langagement-politique/issues">Envoyez-la</a> : nous corrigerons.</p>
+</div></section>
+
+<section class="bloc" id="video"><div class="page">
+  <p class="etiq">12. La vidéo</p>
+  <div class="lignes">
+    <div><p class="dit">La vidéo de ce dossier arrive bientôt.</p><p>Elle reprendra l'essentiel de cette page en quelques minutes. Revenez voir : le lien sera ajouté ici.</p></div>
+  </div>
+</div></section>
+
+<section class="bloc" id="sources"><div class="page">
+  <p class="etiq">13. Sources</p>
+  <h2>Où vérifier.</h2>
+  <ul class="sources">
+    <li>(A pour les comptes, C pour le récit) Space Exploration Technologies Corp., formulaire S-1/A n° 2, SEC, 03/06/2026 : https://www.sec.gov/Archives/edgar/data/1181412/000162828026040364/spaceexplorationtechnologib.htm (lu le 15/11/2026). Conflit d'intérêts : document rédigé par l'entreprise pour vendre ses actions ; seuls les états financiers sont audités.</li>
+    <li>(A) NASA, <em>Falcon 9 Launch Vehicle NAFCOM Cost Estimates</em>, août 2011 ; témoignage de Gwynne Shotwell (SpaceX) devant le Sénat américain, 26/05/2011 (déclaratif).</li>
+    <li>(A) Cour des comptes, rapport sur le CNES et le Centre spatial guyanais, 2023.</li>
+    <li>(B) Inspecteur général de la NASA, rapport IG-20-005 (2019) sur les vols habités commerciaux, via la presse spécialisée.</li>
+    <li>(C) Presse spécialisée (European Spaceflight, SpaceNews, Spaceflight Now, Futura, space.com) et communiqués de l'armée américaine pour les prix d'Ariane 62, de Falcon 9 et des missions militaires, le soutien à Ariane 6, le coût du pas de tir d'Ariane 6 et la constellation IRIS².</li>
+    <li>(C) Chine et Russie : estimations de cabinets (Novaspace), Foreign Policy Research Institute (juillet 2024, d'après le ministère russe des Finances), presse d'État chinoise (source d'acteur), CNN (retombées d'étages, 2024).</li>
+    <li>(A) Inflation : indice des prix américain (Bureau of Labor Statistics) et indice des prix harmonisé de la zone euro (Eurostat) ; taux de change moyen 2025 (Eurostat, d'après la BCE).</li>
+    <li>(C) Kukreja, Oughton, Linares, analyse de cycle de vie de dix lanceurs, préprint arXiv 2504.15291, 2025 (utilisé pour comparer, ratios par kilo écartés).</li>
+  </ul>
+  <p class="note">Dernière mise à jour : 15/11/2026. Méthode : chiffres relevés dans des sources publiques, estimations signalées comme telles ; beaucoup de chiffres européens, chinois et russes viennent de la presse faute de publication officielle. Rédaction faite avec l'aide d'une IA (Claude, d'Anthropic) ; les choix sont ceux de l'auteur.</p>
+</div></section>
+</main>
+<footer class="page" style="padding:28px 16px;color:var(--doux);font-size:.85rem">Texte sous licence CC BY-SA 4.0. Version de travail.</footer>
+</body>
+</html>

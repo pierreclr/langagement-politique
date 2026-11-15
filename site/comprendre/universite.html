@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>L'université, les filières et les débouchés</title>
+<meta name="description" content="Comment l'État fixe les places à l'université, ce que demandent les lycéens, et ce que deviennent les diplômés de chaque filière : droit, psychologie, sociologie, histoire, langues, arts, informatique, sciences.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Source+Serif+4:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/redressement.css">
+<link rel="stylesheet" href="/graphiques-site.css">
+<script src="/graphiques-site.js"></script>
+<style>
+.lignes{display:grid;gap:12px;margin-top:20px}
+.lignes div{background:var(--surface);border:1px solid var(--trait);border-radius:12px;padding:14px 16px}
+.lignes .dit{font-family:var(--serif);font-size:1.08rem;margin:0 0 6px}
+.lignes p{margin:6px 0 0;font-size:.97rem}
+.trois{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:18px}
+.trois div{background:var(--surface);border:1px solid var(--trait);border-radius:12px;padding:14px 16px}
+.trois b{display:block;font-family:var(--serif);margin-bottom:6px}
+@media (max-width:760px){.trois{grid-template-columns:1fr}}
+.tableau{overflow-x:auto;margin-top:16px}
+.tableau table{border-collapse:collapse;width:100%;font-size:.92rem;min-width:620px}
+.tableau th,.tableau td{border-bottom:1px solid var(--trait);padding:8px 6px;text-align:left;vertical-align:top}
+.tableau th{font-weight:700}
+.opinion{border-left:4px solid var(--accent);background:var(--surface);border-radius:0 12px 12px 0;padding:16px 18px;margin-top:16px}
+.sources li{font-size:.9rem;margin-bottom:6px;overflow-wrap:anywhere}
+</style>
+</head>
+<body>
+<div class="proto">Dossier publié le 15/11/2026. Une erreur ? <a href="https://github.com/pierreclr/langagement-politique/issues">Signalez-la</a>, on corrige.</div>
+<header><div class="page large">
+  <a class="marque" href="/">Langagement politique</a>
+  <nav></nav>
+</div></header>
+<main>
+<section class="ouverture"><div class="page">
+  <p class="etiq">Comprendre</p>
+  <h1>L'université, les filières et les débouchés.</h1>
+  <p class="doux">Faire les études qui vous plaisent, c'est légitime. Savoir, avant d'entrer, ce que deviennent ceux qui en sortent, ça devrait l'être aussi. Ce dossier montre comment l'État fixe les places, ce que demandent les lycéens, et ce que deviennent les diplômés de chaque filière.</p>
+</div></section>
+
+<section class="bloc" id="en-bref"><div class="page">
+  <p class="etiq">1. En bref</p>
+  <h2>Cinq phrases.</h2>
+  <p>La loi demande depuis 2018 de fixer les places en licence en tenant compte des débouchés, mais en pratique les rectorats ont surtout reconduit les effectifs de l'année précédente et suivi la pression des vœux : la Cour des comptes juge les créations de places « décorrélées des besoins ». La licence est presque ouverte à tous, et le vrai tri se fait trois ans plus tard, à l'entrée du master : jusqu'à 30 candidatures par place en psychologie. Dix-huit mois après un master, la part de diplômés en emploi salarié va de 48 % en langues à 77 % en psychologie, mais l'emploi stable varie bien plus : 37 % en histoire, 92 % en informatique. Les vœux des lycéens ne vont pas vers les métiers qui manquent de bras : les écoles d'infirmiers reçoivent 47 vœux par place alors que ce besoin est couvert, et l'enseignement, où il manque le plus de monde, peine à recruter. Depuis 2023, les débouchés commencent à peser dans le financement des universités, mais sur moins de 1 % de leur subvention.</p>
+</div></section>
+
+<section class="bloc" id="chiffres"><div class="page">
+  <p class="etiq">2. Chiffres clés en graphiques</p>
+  <h2>Trois séries à retenir.</h2>
+
+  <h3>Dix-huit mois après un master : en emploi salarié, et dont en emploi stable (%)</h3>
+  <svg data-graph="barres" data-lw="190" data-max="100" data-lignes='[["Informatique",71.5,"var(--vert)",null,"71,5 % (stable : 91,5 %)"],["Gestion, économie",71.6,"var(--vert)",null,"71,6 % (stable : 83,7 %)"],["Psychologie",77.1,"var(--vert)",null,"77,1 % (stable : 59,1 %)"],["Droit",67.9,"var(--ambre)",null,"67,9 % (stable : 57,8 %)"],["Sociologie",67.1,"var(--ambre)",null,"67,1 % (stable : 50,0 %)"],["Histoire",61.3,"var(--ambre)",null,"61,3 % (stable : 37,0 %)"],["Lettres",60.5,"var(--ambre)",null,"60,5 % (stable : 51,4 %)"],["Arts",54.9,"var(--rouge)",null,"54,9 % (stable : 48,2 %)"],["Langues et littératures",48.0,"var(--rouge)",null,"48,0 % (stable : 60,5 %)"]]' viewBox="0 0 640 380"></svg>
+  <p class="src">Ministère de l'Enseignement supérieur, dispositif InserSup, diplômés de master de 2023, emploi salarié en France 18 mois après le diplôme, parmi ceux qui ne poursuivent pas d'études. « Stable » : part des emplois en contrat à durée indéterminée ou fonctionnaire parmi ceux en emploi. Ne compte ni les indépendants, ni l'étranger. Les formations publiées couvrent environ 29 % des sortants.</p>
+
+  <h3>Entrée en master : candidatures par place (2025)</h3>
+  <svg data-graph="barres" data-lw="190" data-max="40" data-lignes='[["Science politique",35.6,"var(--rouge)",null,"35,6"],["Psychologie",29.9,"var(--rouge)",null,"29,9"],["Informatique",28.2,"var(--rouge)",null,"28,2"],["Gestion",23.7,"var(--ambre)",null,"23,7"],["Droit",23.6,"var(--ambre)",null,"23,6"],["Sociologie",10.7,"var(--vert)",null,"10,7"],["Histoire",7.6,"var(--vert)",null,"7,6"],["Langues et littératures",3.9,"var(--vert)",null,"3,9"]]' viewBox="0 0 640 340"></svg>
+  <p class="src">Plateforme Mon Master 2025 (258 289 candidats), candidatures de la phase principale divisées par les places offertes. Un candidat dépose plusieurs candidatures : ce n'est pas un nombre de candidats par place.</p>
+
+  <h3>Entrée en licence : acceptations pour 100 places (2025)</h3>
+  <svg data-graph="barres" data-lw="190" data-max="110" data-lignes='[["Psychologie",100,"var(--vert)",null,"100"],["Droit",99,"var(--vert)",null,"99"],["Sociologie",99,"var(--vert)",null,"99"],["STAPS",99,"var(--vert)",null,"99"],["Arts",90,"var(--ambre)",null,"90"],["Histoire",85,"var(--ambre)",null,"85"],["Lettres",80,"var(--rouge)",null,"80"],["Langues et littératures",76,"var(--rouge)",null,"76"]]' viewBox="0 0 640 340"></svg>
+  <p class="src">Parcoursup 2025, open data du ministère. Sous 100, des places restent vides : environ 7 600 en langues et littératures étrangères, sur 32 077.</p>
+</div></section>
+
+<section class="bloc" id="fonctionnement"><div class="page">
+  <p class="etiq">3. Comment ça marche</p>
+  <h2>Qui décide du nombre de places, et sur quelle base.</h2>
+  <div class="lignes">
+    <div><p class="dit">En licence : le recteur, sur trois critères</p><p>Depuis la loi de 2018 (Parcoursup), le recteur fixe les places de chaque licence en tenant compte des débouchés, des vœux des candidats et du projet de l'université. En pratique, selon la Cour des comptes (2020), les rectorats ont surtout regardé les effectifs de l'année précédente et les salles disponibles, et la pression des vœux a été « le moteur principal ». Il n'existe pas de méthode commune.</p></div>
+    <div><p class="dit">En master : l'université, après sélection</p><p>Depuis 2016, l'entrée en master est sélective. C'est là que se fait le vrai tri : en droit, plus de 540 000 candidatures pour environ 23 000 places en 2025. Un étudiant peut donc réussir sa licence et se retrouver sans place dans la filière qu'il visait.</p></div>
+    <div><p class="dit">Dans les BTS et les BUT : le rectorat, la région, l'IUT</p><p>Les places sont plus encadrées. En 2018, environ 18 000 places de BTS restaient pourtant vides, pendant que des bacheliers professionnels étaient placés par défaut en licence (Cour des comptes, 2020).</p></div>
+    <div><p class="dit">Par l'argent : un début de pilotage depuis 2023</p><p>Les nouveaux contrats entre l'État et chaque université récompensent les formations vers les « métiers d'avenir ou en tension », et l'outil Quadrant désigne les formations « à transformer, voire fermer ». Mais ces contrats portent en moyenne sur 0,8 % de la subvention (environ 14 milliards d'euros en 2023), avec des données de trois ans d'âge, et ne voient que le salariat en France (Cour des comptes, 2025).</p></div>
+  </div>
+
+  <h3>Où l'on forme, où l'on manque (quelques filières)</h3>
+  <div class="tableau"><table>
+    <tr><th>Filière</th><th>Places en licence (2025)</th><th>Vœux par place</th><th>Master : emploi à 18 mois</th><th>Métiers visés : besoins / jeunes débutants, 2019-2030</th></tr>
+    <tr><td>Psychologie</td><td>17 303</td><td>19,0</td><td>77 % (dont 59 % stable)</td><td>action sociale : 102 000 / 137 000</td></tr>
+    <tr><td>Sociologie</td><td>7 014</td><td>8,5</td><td>67 % (dont 50 % stable)</td><td>action sociale : 102 000 / 137 000</td></tr>
+    <tr><td>Histoire</td><td>16 739</td><td>7,8</td><td>61 % (dont 37 % stable)</td><td>enseignants : 329 000 / 261 000</td></tr>
+    <tr><td>Arts</td><td>10 765</td><td>7,5</td><td>55 % (dont 48 % stable)</td><td>arts et spectacles : 113 000 / 128 000</td></tr>
+    <tr><td>Langues et littératures</td><td>32 077</td><td>5,5</td><td>48 % (dont 61 % stable)</td><td>enseignants : 329 000 / 261 000</td></tr>
+    <tr><td>Droit</td><td>48 324</td><td>11,0</td><td>68 % (dont 58 % stable)</td><td>juristes : 36 000 / 41 000</td></tr>
+    <tr><td>Informatique</td><td>5 970</td><td>14,4</td><td>72 % (dont 92 % stable)</td><td>ingénieurs : 190 000 / 156 000 ; techniciens : en excédent</td></tr>
+  </table></div>
+  <p class="src">Parcoursup 2025, InserSup (diplômés de master de 2023), France Stratégie et Dares, <em>Les métiers en 2030</em> (2022). La correspondance entre une filière et des métiers est approximative (un diplômé d'histoire ne devient pas forcément enseignant). Quand les jeunes débutants dépassent les besoins, la concurrence à l'embauche est plus forte.</p>
+  <p>À lire avec une précaution : en licence générale, 67 à 92 % des diplômés poursuivent leurs études. Le taux d'emploi juste après une licence ne dit donc pas grand-chose ; c'est après le master qu'il faut regarder.</p>
+</div></section>
+
+<section class="bloc" id="etabli"><div class="page">
+  <p class="etiq">4. Établi, débattu, inconnu</p>
+  <h2>Trois colonnes.</h2>
+  <div class="trois">
+    <div><b>Établi</b>Les écarts d'insertion entre filières existent, surtout sur l'emploi stable. La licence est presque ouverte et le tri se fait au master. Seuls 41 % des néobacheliers obtiennent leur licence en 3 ou 4 ans (cohorte entrée en 2012, la dernière publiée). Une année d'études coûte environ 13 000 € par étudiant à l'État.</div>
+    <div><b>Débattu</b>Faut-il fermer des places là où l'insertion est faible ? Les prévisions de métiers se trompent souvent : aux États-Unis, de 15 à 28 % par métier sur dix ans. Le Danemark a réduit les places en lettres et sciences humaines depuis 2015, sans évaluation publique de l'effet sur l'emploi. Et l'intelligence artificielle rend incertains les besoins futurs, y compris en informatique.</div>
+    <div><b>Inconnu</b>Le salaire par filière n'est pas publié en France. L'emploi des indépendants et à l'étranger n'est pas mesuré, ce qui pénalise les arts et les langues. Les tensions de recrutement les plus récentes, métier par métier, n'ont pas pu être lues.</div>
+  </div>
+</div></section>
+
+<section class="bloc" id="ailleurs"><div class="page">
+  <p class="etiq">5. Ce que font d'autres pays</p>
+  <h2>Informer, ou réguler.</h2>
+  <div class="lignes">
+    <div><p class="dit">Royaume-Uni : informer</p><p>Pas de plafond par filière, mais l'État publie, filière par filière, ce que gagnent les diplômés un, trois, cinq et dix ans après, en croisant les données fiscales et universitaires. Médecine et dentaire sont en haut, les arts du spectacle en bas.</p></div>
+    <div><p class="dit">Danemark : réguler</p><p>Depuis 2015, l'État plafonne les places des filières dont les diplômés ont le plus de chômage, surtout en lettres et sciences humaines. Les inscriptions en licence ont baissé d'environ 16 % en dix ans. L'effet sur l'emploi n'a pas fait l'objet d'une évaluation officielle publiée.</p></div>
+    <div><p class="dit">France : un peu des deux, rien complètement</p><p>Les taux d'insertion existent par formation, mais sans salaire et sans être affichés là où les lycéens choisissent. Le pilotage par l'argent reste marginal.</p></div>
+  </div>
+  <div class="opinion">
+    <p><b>Notre piste (opinion de l'auteur, pas un constat).</b> Faire les études qui vous plaisent doit rester possible. Mais chaque formation devrait afficher, au moment du choix, son taux d'emploi, son emploi stable, son salaire et son taux de réussite. Et l'État devrait piloter réellement le nombre de places d'après la demande de main-d'œuvre : en ouvrir là où l'on manque durablement de bras (enseignement, soin, ingénierie), en réduire progressivement là où les diplômés ne trouvent pas d'emploi. Avec une prudence : sur les métiers que l'intelligence artificielle transforme, l'informatique en tête, les besoins de demain sont incertains et une prévision ne doit pas fermer des portes trop vite.</p>
+  </div>
+</div></section>
+
+<section class="bloc" id="plus-loin"><div class="page">
+  <p class="etiq">6. Pour aller plus loin</p>
+  <h2>Sur le site.</h2>
+  <p><a href="/comprendre/">Les autres dossiers « Comprendre »</a>, dont la démographie, qui décide du nombre de jeunes à former dans les années qui viennent. L'étude complète « Filières, places et débouchés », avec ses données et son code, sera publiée dans « Nos études » après relecture.</p>
+</div></section>
+
+<section class="bloc" id="video"><div class="page">
+  <p class="etiq">7. La vidéo</p>
+  <div class="lignes">
+    <div><p class="dit">La vidéo de ce dossier arrive bientôt.</p><p>Elle reprendra l'essentiel de cette page en quelques minutes. Revenez voir : le lien sera ajouté ici.</p></div>
+  </div>
+</div></section>
+
+<section class="bloc" id="sources"><div class="page">
+  <p class="etiq">8. Sources</p>
+  <h2>Où vérifier.</h2>
+  <ul class="sources">
+    <li>(A) Ministère de l'Enseignement supérieur, open data : Parcoursup 2020 à 2025, Mon Master 2025, InserSup (diplômés 2023), effectifs et diplômés par discipline (SISE), réussite en licence : https://data.enseignementsup-recherche.gouv.fr/ (consulté le 15/11/2026). Conflit d'intérêts : le ministère évalue ses propres formations.</li>
+    <li>(A) Cour des comptes, <em>Un premier bilan de l'accès à l'enseignement supérieur dans le cadre de la loi ORE</em>, 27/02/2020 : https://www.ccomptes.fr/system/files/2020-03/20200227-rapport-premier-bilan-loi-ORE-3.pdf</li>
+    <li>(A) Cour des comptes, <em>Les contrats d'objectifs, de moyens et de performance</em>, mars 2025 : https://www.ccomptes.fr/sites/default/files/2025-03/20250314-Les-contrats-d-objectifs-de-moyens-et-de-performance-COMP.pdf</li>
+    <li>(B) France Stratégie et Dares, <em>Les métiers en 2030</em>, mars 2022 : https://www.strategie.gouv.fr/files/files/Publications/2021%20SP/2022-03-10%20-%20Les%20m%C3%A9tiers%20en%202030/fs-2022-pmq-rapport-mars_4.pdf (projections, pas des prévisions).</li>
+    <li>(A) Ministère de l'Éducation britannique, <em>LEO graduate and postgraduate outcomes</em>, 2022-23 : https://explore-education-statistics.service.gov.uk/find-statistics/leo-graduate-and-postgraduate-outcomes/2022-23</li>
+    <li>(C) Danemark : Times Higher Education, sur la réduction des places : https://timeshighereducation.com/cn/node/648059 (presse spécialisée ; à recouper avec les sources danoises).</li>
+  </ul>
+  <p class="note">Dernière mise à jour : 15/11/2026. Méthode : chiffres relevés dans des sources publiques ; points non vérifiés signalés comme tels. Rédaction faite avec l'aide d'une IA (Claude, d'Anthropic) ; les choix sont ceux de l'auteur.</p>
+</div></section>
+</main>
+<footer class="page" style="padding:28px 16px;color:var(--doux);font-size:.85rem">Texte sous licence CC BY-SA 4.0. Version de travail.</footer>
+</body>
+</html>

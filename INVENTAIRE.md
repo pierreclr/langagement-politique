@@ -2,7 +2,7 @@
 
 Liste des fichiers publiés dans ce dépôt (générée automatiquement : ne pas modifier à la main).
 
-1595 fichiers, 42.9 Mo.
+1597 fichiers, 42.9 Mo.
 
 | Dossier | Fichiers | Taille (Ko) |
 |---|---|---|
@@ -52,7 +52,7 @@ Liste des fichiers publiés dans ce dépôt (générée automatiquement : ne pas
 | `outils/droit` | 7 | 117 |
 | `prototypes` | 16 | 341 |
 | `registre-anomalies` | 465 | 3022 |
-| `site` | 47 | 717 |
+| `site` | 49 | 761 |
 | `sources` | 174 | 9773 |
 | `sources/calculs` | 52 | 872 |
 
@@ -1402,6 +1402,7 @@ Ces fichiers sont cités par un lien relatif mais ne sont pas (encore) dans le d
 - `site/comprendre/demographie.html`
 - `site/comprendre/dette.html`
 - `site/comprendre/electorat.html`
+- `site/comprendre/espace.html`
 - `site/comprendre/grece.html`
 - `site/comprendre/index.html`
 - `site/comprendre/patrimoine.html`
@@ -1413,6 +1414,7 @@ Ces fichiers sont cités par un lien relatif mais ne sont pas (encore) dans le d
 - `site/comprendre/programme-rn.html`
 - `site/comprendre/qui-paie.html`
 - `site/comprendre/retraites.html`
+- `site/comprendre/universite.html`
 - `site/constat.html`
 - `site/detail.html`
 - `site/donnees/etudes.json`
