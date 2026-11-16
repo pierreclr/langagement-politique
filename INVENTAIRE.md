@@ -52,7 +52,7 @@ Liste des fichiers publiés dans ce dépôt (générée automatiquement : ne pas
 | `outils/droit` | 7 | 117 |
 | `prototypes` | 16 | 341 |
 | `registre-anomalies` | 465 | 3022 |
-| `site` | 49 | 764 |
+| `site` | 49 | 769 |
 | `sources` | 174 | 9773 |
 | `sources/calculs` | 52 | 872 |
 
