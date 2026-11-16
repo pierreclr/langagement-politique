@@ -2,7 +2,7 @@
 
 Liste des fichiers publiés dans ce dépôt (générée automatiquement : ne pas modifier à la main).
 
-1597 fichiers, 42.9 Mo.
+1602 fichiers, 43.4 Mo.
 
 | Dossier | Fichiers | Taille (Ko) |
 |---|---|---|
@@ -52,7 +52,7 @@ Liste des fichiers publiés dans ce dépôt (générée automatiquement : ne pas
 | `outils/droit` | 7 | 117 |
 | `prototypes` | 16 | 341 |
 | `registre-anomalies` | 465 | 3022 |
-| `site` | 49 | 769 |
+| `site` | 54 | 1213 |
 | `sources` | 174 | 9773 |
 | `sources/calculs` | 52 | 872 |
 
@@ -1401,6 +1401,7 @@ Ces fichiers sont cités par un lien relatif mais ne sont pas (encore) dans le d
 - `site/comparer.html`
 - `site/comprendre/demographie.html`
 - `site/comprendre/dette.html`
+- `site/comprendre/deux-vies.html`
 - `site/comprendre/electorat.html`
 - `site/comprendre/espace.html`
 - `site/comprendre/grece.html`
@@ -1431,6 +1432,10 @@ Ces fichiers sont cités par un lien relatif mais ne sont pas (encore) dans le d
 - `site/graphiques-site.css`
 - `site/graphiques-site.js`
 - `site/grece.html`
+- `site/images/vignettes/comprendre-deux-vies-carre.png`
+- `site/images/vignettes/comprendre-deux-vies.png`
+- `site/images/vignettes/comprendre-retraites-carre.png`
+- `site/images/vignettes/comprendre-retraites.png`
 - `site/index.html`
 - `site/programme.html`
 - `site/qui-suis-je.html`

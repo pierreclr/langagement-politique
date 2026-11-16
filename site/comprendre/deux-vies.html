@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Deux vies, deux systèmes : cotiser ou placer</title>
+<meta name="description" content="Une même personne, les mêmes salaires, les mêmes cotisations de 1978 à 2019 : ce qu'elle touche avec la retraite par répartition, et ce qu'elle aurait eu si ces cotisations avaient été placées. Avec tout ce que ce calcul ne dit pas.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Source+Serif+4:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/redressement.css">
+<link rel="stylesheet" href="/graphiques-site.css">
+<script src="/graphiques-site.js"></script>
+<style>
+.verdict{display:inline-block;font-size:.78rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase;border-radius:999px;padding:2px 10px;white-space:nowrap}
+.v-juste{background:var(--vert-doux);color:var(--vert)}
+.v-faux{background:#fbe9ec;color:var(--rouge)}
+.v-partie{background:var(--ambre-doux);color:var(--ambre)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="clair"]) .v-faux{background:#2a1b1e}}
+.lignes{display:grid;gap:12px;margin-top:20px}
+.lignes div{background:var(--surface);border:1px solid var(--trait);border-radius:12px;padding:14px 16px}
+.lignes .dit{font-family:var(--serif);font-size:1.08rem;margin:0 0 6px}
+.lignes p{margin:6px 0 0;font-size:.97rem}
+.sources li{font-size:.9rem;margin-bottom:6px;overflow-wrap:anywhere}
+</style>
+<!-- vignette : début (écrit par vignettes.py) -->
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Langagement politique">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="Deux vies, deux systèmes : cotiser ou placer ?">
+<meta property="og:description" content="Une même carrière de 1978 à 2019 : la pension obtenue en répartition, ce qu&#x27;auraient donné les mêmes cotisations placées, et tout ce que ce calcul ne dit pas.">
+<meta property="og:url" content="https://langagement-politique.vercel.app/comprendre/deux-vies">
+<meta property="og:image" content="https://langagement-politique.vercel.app/images/vignettes/comprendre-deux-vies.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Une salariée née en 1958 : 1 570 euros de pension par mois en répartition ; environ 4 100 euros si les mêmes cotisations avaient été placées de 1978 à 2019 ; égalité entre les deux à 2,6 % de rendement par an au-dessus de l&#x27;inflation.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Deux vies, deux systèmes : cotiser ou placer ?">
+<meta name="twitter:description" content="Une même carrière de 1978 à 2019 : la pension obtenue en répartition, ce qu&#x27;auraient donné les mêmes cotisations placées, et tout ce que ce calcul ne dit pas.">
+<meta name="twitter:image" content="https://langagement-politique.vercel.app/images/vignettes/comprendre-deux-vies.png">
+<meta name="twitter:image:alt" content="Une salariée née en 1958 : 1 570 euros de pension par mois en répartition ; environ 4 100 euros si les mêmes cotisations avaient été placées de 1978 à 2019 ; égalité entre les deux à 2,6 % de rendement par an au-dessus de l&#x27;inflation.">
+<!-- vignette : fin -->
+</head>
+<body>
+<div class="proto">Dossier mis à jour le 16/11/2026. Une erreur ? <a href="https://github.com/pierreclr/langagement-politique/issues">Signalez-la</a>, on corrige.</div>
+<header><div class="page large">
+  <a class="marque" href="/">Langagement politique</a>
+  <nav></nav>
+</div></header>
+<main>
+<section class="ouverture"><div class="page">
+  <p class="etiq">Comprendre</p>
+  <h1>Deux vies, deux systèmes : cotiser ou placer.</h1>
+  <p class="doux">On prend une personne, on lui donne deux vies identiques : mêmes salaires, mêmes cotisations retraite, mêmes dates. Dans la première, ses cotisations paient les retraités de l'époque, comme cela s'est passé. Dans la seconde, elles sont placées. On compare ce qu'elle a à 62 ans. Ce dossier complète <a href="/comprendre/retraites.html">celui sur les retraites</a>.</p>
+</div></section>
+
+<section class="bloc" id="en-bref"><div class="page">
+  <p class="etiq">1. En bref</p>
+  <h2>Quatre phrases.</h2>
+  <p>Une salariée née en 1958, payée autour du salaire médian pendant 42 ans, touche avec le système actuel une pension d'environ 1 570 euros brut par mois. Si les mêmes cotisations avaient été placées de 1978 à 2019 dans un portefeuille mondial, elle aurait à 62 ans un capital d'environ 1,1 million d'euros, soit une rente d'environ 4 100 euros par mois : 2,6 fois plus. Mais cette génération a traversé les meilleures années connues des marchés : avec un rendement de 3,5 % par an au-dessus de l'inflation, l'écart tombe à 1,2 fois, et il s'annule à 2,6 % par an. Et ce calcul compare deux systèmes installés : il ne dit rien du prix à payer pour passer de l'un à l'autre.</p>
+  <div class="lignes">
+    <div><p class="dit">À lire avant les chiffres</p><p>Les cotisations de cette personne ont payé les retraités de 1978 à 2019. Dans la seconde vie, quelqu'un d'autre aurait dû les payer. Ce coût est chiffré dans <a href="/comprendre/retraites.html#fonctionnement">le dossier sur les retraites</a> : environ 45 milliards d'euros par an au plus haut pour placer seulement 10 % des cotisations.</p></div>
+  </div>
+</div></section>
+
+<section class="bloc" id="personne"><div class="page">
+  <p class="etiq">2. La personne</p>
+  <h2>Une carrière complète, autour du salaire médian.</h2>
+  <ul>
+    <li>Née en 1958, salariée non-cadre du secteur privé.</li>
+    <li>Elle travaille 42 ans sans interruption, de 1978 à 2019, et part le 1er janvier 2020, à 62 ans, au taux plein.</li>
+    <li>Son salaire brut vaut chaque année 75 % du plafond de la Sécurité sociale : 2 533 euros par mois en 2019, un niveau de l'ordre du salaire médian à temps complet.</li>
+    <li>Le taux de cotisation retraite, parts salariale et patronale réunies, passe de 15,6 % du salaire brut en 1978 à 27,8 % en 2019.</li>
+    <li>Sur toute sa carrière, 258 100 euros de cotisations retraite ont été versés pour elle, en euros de 2019 : 24,1 % de ses salaires bruts.</li>
+  </ul>
+  <p class="note">Tous les montants de ce dossier sont bruts, avant prélèvements sociaux et impôt. Le niveau de salaire choisi ne change pas le rapport entre les deux vies, tant qu'il reste sous le plafond.</p>
+</div></section>
+
+<section class="bloc" id="vie-a"><div class="page">
+  <p class="etiq">3. Première vie : la répartition</p>
+  <h2>Ce qui s'est passé.</h2>
+  <p>Ses cotisations ont servi, chaque mois, à payer les pensions du moment. En échange, elle a acquis des droits. Calculée avec les règles en vigueur à son départ :</p>
+  <ul>
+    <li>pension du régime général : 13 764 euros par an (la moitié de la moyenne de ses 25 meilleures années revalorisées) ;</li>
+    <li>pension complémentaire : 5 075 euros par an (3 991 points) ;</li>
+    <li><strong>au total 18 838 euros par an, soit 1 570 euros par mois</strong>, 62 % de son dernier salaire brut.</li>
+  </ul>
+  <p>Versée pendant 24 ans et indexée sur les prix, cette pension vaut 426 110 euros au moment du départ. Rapportée à ce qu'elle a cotisé, c'est un rendement de 1,8 % par an au-dessus de l'inflation.</p>
+</div></section>
+
+<section class="bloc" id="vie-b"><div class="page">
+  <p class="etiq">4. Seconde vie : les mêmes cotisations, placées</p>
+  <h2>Ce qui ne s'est pas passé.</h2>
+  <p>Les mêmes sommes, aux mêmes dates, sont placées. On retire 0,3 % de frais par an. À 62 ans, le capital est converti en rente indexée sur les prix, versée 24 ans.</p>
+  <h3>Rente obtenue, par rapport à la pension de la première vie (1 = égalité)</h3>
+  <svg data-graph="barres" data-lw="250" data-max="3" data-lignes='[["Actions du monde (18 pays)",2.6,"var(--accent)",null,"2,6 fois"],["70 % actions, 30 % obligations",2.7,"var(--accent)",null,"2,7 fois"],["40 % actions, 60 % obligations",2.6,"var(--accent)",null,"2,6 fois"],["Actions françaises seules",2.7,"var(--ambre)",null,"2,7 fois"],["Obligations françaises seules",2.1,"var(--ambre)",null,"2,1 fois"],["Actions japonaises seules",1.0,"var(--rouge)",null,"1,0 fois"]]' viewBox="0 0 640 256"></svg>
+  <p class="src">Notre modèle « cotiser ou placer », carrière de 1978 à 2019. Rendements annuels : base Jordà-Schularick-Taylor. Les placements étrangers sont vus de France, sans couverture du change.</p>
+  <table>
+    <thead><tr><th>Placement</th><th>Capital à 62 ans</th><th>Rente par mois</th><th>Rendement réel par an</th><th>Pire baisse en cours de route</th></tr></thead>
+    <tbody>
+      <tr><td>Actions du monde (18 pays)</td><td>1 122 182 €</td><td>4 134 €</td><td>6,8 %</td><td>−43 %</td></tr>
+      <tr><td>70 % actions du monde, 30 % obligations françaises</td><td>1 158 858 €</td><td>4 269 €</td><td>6,9 %</td><td>−27 %</td></tr>
+      <tr><td>40 % actions du monde, 60 % obligations françaises</td><td>1 093 869 €</td><td>4 030 €</td><td>6,7 %</td><td>−15 %</td></tr>
+      <tr><td>Actions françaises seules</td><td>1 170 746 €</td><td>4 313 €</td><td>6,9 %</td><td>−45 %</td></tr>
+      <tr><td>Obligations françaises seules</td><td>898 043 €</td><td>3 309 €</td><td>5,9 %</td><td>−35 %</td></tr>
+      <tr><td>Actions japonaises seules</td><td>445 065 €</td><td>1 640 €</td><td>2,8 %</td><td>−65 %</td></tr>
+    </tbody>
+  </table>
+  <p class="note">« Pire baisse » : plus forte perte de pouvoir d'achat du placement entre deux fins d'année, sur la période. Avec un portefeuille tout en actions, cette personne a vu son épargne perdre 43 % de sa valeur à un moment de sa carrière.</p>
+</div></section>
+
+<section class="bloc" id="limites"><div class="page">
+  <p class="etiq">5. Ce que ce calcul ne dit pas</p>
+  <h2>Cinq réserves, dont une décisive.</h2>
+  <div class="lignes">
+    <div><p class="dit">1. Quelqu'un d'autre aurait dû payer les retraités.</p><p>De 1978 à 2019, ses cotisations ont payé les pensions de ses aînés. Si elles avaient été placées, il aurait fallu trouver cet argent ailleurs : impôt, dette ou pensions plus basses. La comparaison montre ce que rapporte un système par capitalisation une fois installé, pas ce que coûte d'y arriver.</p></div>
+    <div><p class="dit">2. Cette génération a eu les meilleures années connues.</p><p>Pendant sa carrière, les taux d'intérêt sont passés de plus de 10 % à zéro : actions et obligations ont monté ensemble. La partie 6 montre ce que donnent d'autres périodes.</p></div>
+    <div><p class="dit">3. La première vie contient des assurances que la seconde n'a pas.</p><p>Pension de réversion pour le conjoint, trimestres validés pendant le chômage, la maladie ou un congé de maternité, majorations pour enfants, minimum garanti. Une partie des cotisations paie ces protections. Nous n'avons pas chiffré leur poids ici.</p></div>
+    <div><p class="dit">4. Un indice n'est pas un épargnant.</p><p>Les rendements sont ceux d'indices, sans impôt, sur 18 pays qui sont les gagnants économiques du XXe siècle. L'épargnant investi au Japon seulement n'a rien gagné par rapport à la répartition.</p></div>
+    <div><p class="dit">5. La rente est calculée sans assureur.</p><p>Durée fixe de 24 ans, pas de marge, pas de réversion. Une vraie rente viagère coûte plus cher.</p></div>
+  </div>
+</div></section>
+
+<section class="bloc" id="perspective"><div class="page">
+  <p class="etiq">6. Remettre le résultat à sa place</p>
+  <h2>Trois façons de le tester.</h2>
+
+  <h3>Avec un rendement constant</h3>
+  <p>Même carrière, mêmes cotisations, mais un rendement identique chaque année, au-dessus de l'inflation et net de frais. Rente obtenue par rapport à la pension de la première vie :</p>
+  <svg data-graph="barres" data-lw="120" data-max="2.5" data-lignes='[["0 % par an",0.61,"var(--rouge)",null,"0,61 fois"],["1 %",0.73,"var(--rouge)",null,"0,73 fois"],["2 %",0.89,"var(--rouge)",null,"0,89 fois"],["3,5 %",1.22,"var(--vert)",null,"1,22 fois"],["4,64 %",1.57,"var(--vert)",null,"1,57 fois"],["6 %",2.17,"var(--vert)",null,"2,17 fois"]]' viewBox="0 0 640 256"></svg>
+  <p class="src">Notre modèle. L'égalité se fait à 2,6 % par an. Repères : 3,5 % est le scénario central de notre modèle de fonds de retraite ; 4,64 % est le rendement réel des actions de 16 pays de 1870 à 2015 (Jordà et coauteurs).</p>
+
+  <h3>Selon la période</h3>
+  <p>Rendement par an au-dessus de l'inflation, vu de France, avant frais :</p>
+  <table>
+    <thead><tr><th>Placement</th><th>1978-2019 (sa carrière)</th><th>1951-1977</th><th>1966-1982</th><th>2000-2019</th></tr></thead>
+    <tbody>
+      <tr><td>Actions du monde (18 pays)</td><td>7,7 %</td><td>6,0 %</td><td>1,7 %</td><td>3,0 %</td></tr>
+      <tr><td>70 % actions, 30 % obligations</td><td>7,4 %</td><td>4,0 %</td><td>0,0 %</td><td>4,2 %</td></tr>
+      <tr><td>Actions françaises seules</td><td>7,8 %</td><td>−1,8 %</td><td>−5,4 %</td><td>2,7 %</td></tr>
+      <tr><td>Obligations françaises seules</td><td>5,5 %</td><td>−1,6 %</td><td>−4,6 %</td><td>5,1 %</td></tr>
+    </tbody>
+  </table>
+  <p>De 1966 à 1982, un épargnant français investi dans les seules actions françaises a perdu 5,4 % de pouvoir d'achat par an pendant dix-sept ans.</p>
+
+  <h3>Selon l'année de départ</h3>
+  <p>Des carrières de 42 ans qui finissent à des dates différentes, avec la même cotisation de 25 % du salaire pour toutes les époques : on compare ici les marchés, pas les règles de retraite. Rente obtenue avec les actions du monde, en part du dernier salaire brut :</p>
+  <svg data-graph="barres" data-lw="150" data-max="250" data-lignes='[["Départ début 1993",96,"var(--ambre)",null,"96 %"],["Départ début 2000",229,"var(--vert)",null,"229 %"],["Départ début 2003",123,"var(--ambre)",null,"123 %"],["Départ début 2008",166,"var(--vert)",null,"166 %"],["Départ début 2009",101,"var(--rouge)",null,"101 %"],["Départ début 2020",194,"var(--vert)",null,"194 %"]]' viewBox="0 0 640 256"></svg>
+  <p class="src">Notre modèle, salaire au plafond de la Sécurité sociale, rente sur 24 ans. Sur tous les départs de 1993 à 2020, les actions du monde donnent de 96 % à 229 % du dernier salaire ; les actions françaises seules de 53 % à 202 % ; les obligations françaises seules de 44 % à 161 %. La pension de la première vie vaut 62 % du dernier salaire, pour une cotisation moyenne de 24,1 %.</p>
+  <p>Celui qui part début 2009, juste après le krach, obtient moins de la moitié de celui qui est parti début 2000. Le niveau moyen est plus haut qu'en répartition ; l'écart entre deux voisins de génération est beaucoup plus grand.</p>
+</div></section>
+
+<section class="bloc" id="etabli"><div class="page">
+  <p class="etiq">7. Établi, débattu, inconnu</p>
+  <h2>Trois colonnes.</h2>
+  <div class="lignes">
+    <div><p class="dit">Établi</p><p>Sur les soixante-dix ans de données, les placements diversifiés ont rapporté plus que la croissance des salaires, qui fixe le rendement de la répartition. Pour la génération 1958, l'écart est de 1,8 % à environ 6,8 % par an. La capitalisation expose à la date de départ : du simple au double entre deux années proches.</p></div>
+    <div><p class="dit">Débattu</p><p>Le rendement à attendre demain : les quarante dernières années ne se répéteront pas à l'identique. La part du gain qui paie un risque réel. La façon de protéger ceux qui partent une mauvaise année : lissage, fonds collectif, part garantie.</p></div>
+    <div><p class="dit">Inconnu ou non chiffré ici</p><p>Le poids des protections de la première vie (réversion, périodes validées sans cotisation, minimum). Ce qu'aurait donné la même comparaison pour une carrière hachée, un temps partiel ou une personne qui meurt tôt. L'effet, sur les rendements, d'un pays entier qui se mettrait à placer.</p></div>
+  </div>
+</div></section>
+
+<section class="bloc" id="methode"><div class="page">
+  <p class="etiq">8. Méthode</p>
+  <h2>Comment le calcul est fait.</h2>
+  <ul>
+    <li><strong>Cotisations</strong> : tout ce qui finance la retraite sous le plafond, parts salariale et patronale : vieillesse, retraite complémentaire au taux appelé, et les contributions qui financent le départ avant 65 ans dans les régimes complémentaires. Les allègements de cotisations patronales ne sont pas déduits.</li>
+    <li><strong>Première vie</strong> : règles du régime général et du régime complémentaire à la date du départ. La baisse temporaire de 10 % de la pension complémentaire pendant trois ans, prévue par l'accord de 2015, n'est pas appliquée : la pension est donc un peu surestimée au début.</li>
+    <li><strong>Seconde vie</strong> : la cotisation de l'année est versée en milieu d'année. Le portefeuille « monde » pondère 18 pays par leur PIB.</li>
+    <li><strong>Rente</strong> : 24 ans de versement, indexée sur les prix, taux de 0,5 % par an au-dessus de l'inflation.</li>
+    <li><strong>Points non vérifiés</strong> : le niveau exact du salaire médian (sans effet sur le rapport entre les deux vies), et la durée de 24 ans, arrondie à partir de l'espérance de vie à 60 ans publiée par l'Insee.</li>
+  </ul>
+  <p class="note">Ce modèle a été écrit le 16/11/2026 et n'a pas encore été relu par un tiers. Ce sont des ordres de grandeur sous hypothèses, pas des prédictions. Le code et les données seront publiés avec les autres modèles du site après relecture.</p>
+</div></section>
+
+<section class="bloc" id="aller-plus-loin"><div class="page">
+  <p class="etiq">9. Pour aller plus loin</p>
+  <h2>Deux pages du site.</h2>
+  <p><a class="bouton" href="/comprendre/retraites.html">Les retraites : répartition, capitalisation, nos voisins →</a></p>
+  <p><a class="bouton" href="/etudes.html#modeles">Nos études et leurs modèles →</a></p>
+</div></section>
+
+<section class="bloc" id="sources"><div class="page">
+  <p class="etiq">10. Sources</p>
+  <h2>Où vérifier.</h2>
+  <p class="doux">Consultées le 16/11/2026. Fiabilité : A = statistique publique, texte officiel ou publication à comité de lecture, B = institution reconnue, C = presse, think tank ou cabinet, D = communication commerciale, militante ou document du parti concerné.</p>
+  <ul class="sources">
+    <li>(A) OpenFisca-France, paramètres de la législation (plafond de la Sécurité sociale et taux de cotisation depuis 1950, repris des textes officiels) : https://github.com/openfisca/openfisca-france</li>
+    <li>(A) Institut des politiques publiques, Barèmes IPP, retraites (revalorisation des salaires portés au compte, salaire de référence et valeur du point des régimes complémentaires) : https://www.ipp.eu/baremes-ipp/</li>
+    <li>(A) Jordà, Schularick et Taylor, Macrohistory Database, version 6 (rendements annuels des actions et des obligations, prix, change, PIB, 18 pays) : https://www.macrohistory.net/database/</li>
+    <li>(A) Jordà, Knoll, Kuvshinov, Schularick et Taylor, « The Rate of Return on Everything, 1870-2015 » (rendement réel des actions de 16 pays : 4,64 % par an) : https://www.frbsf.org/wp-content/uploads/wp2017-25.pdf</li>
+    <li>(B) Conseil d'orientation des retraites, rapport annuel de juin 2026, partie 3 (cas type du non-cadre du privé, taux de rendement interne par génération ; sert de point de comparaison, valeurs non reprises ici ; conflit d'intérêts : organisme placé auprès du Premier ministre) : https://www.cor-retraites.fr/sites/default/files/2026-06/RA_Part3_Chap1.pdf</li>
+    <li>(B) Notre modèle « cotiser ou placer » (hypothèses ci-dessus ; non encore publié) et notre modèle « capital commun et retraite » pour le coût de la bascule : https://langagement-politique.vercel.app/etudes.html#modeles</li>
+  </ul>
+  <p class="note">Dernière mise à jour : 16/11/2026. Méthode : calculs de notre modèle à partir de bases publiques ; points non vérifiés signalés comme tels. Rédaction faite avec l'aide d'une IA (Claude, d'Anthropic) ; les choix sont ceux de l'auteur.</p>
+</div></section>
+</main>
+<footer class="page" style="padding:28px 16px;color:var(--doux);font-size:.85rem">Texte sous licence CC BY-SA 4.0. Version de travail.</footer>
+</body>
+</html>
