@@ -2,7 +2,7 @@
 
 Liste des fichiers publiés dans ce dépôt (générée automatiquement : ne pas modifier à la main).
 
-1602 fichiers, 43.4 Mo.
+1604 fichiers, 43.4 Mo.
 
 | Dossier | Fichiers | Taille (Ko) |
 |---|---|---|
@@ -52,7 +52,7 @@ Liste des fichiers publiés dans ce dépôt (générée automatiquement : ne pas
 | `outils/droit` | 7 | 117 |
 | `prototypes` | 16 | 341 |
 | `registre-anomalies` | 465 | 3022 |
-| `site` | 54 | 1213 |
+| `site` | 56 | 1253 |
 | `sources` | 174 | 9773 |
 | `sources/calculs` | 52 | 872 |
 
@@ -1445,9 +1445,11 @@ Ces fichiers sont cités par un lien relatif mais ne sont pas (encore) dans le d
 - `site/tribunes/deux-proprietes.html`
 - `site/tribunes/etat-systeme-information.html`
 - `site/tribunes/orienter-sans-interdire.html`
+- `site/verifier/allocation-jeunes-heritage-melenchon.html`
 - `site/verifier/immigres-pauvrete-retailleau.html`
 - `site/verifier/index.html`
 - `site/verifier/premier-emploi-27-ans-bardella.html`
+- `site/verifier/relance-retraites-melenchon.html`
 - `site/verifier/smic-5-euros-tondelier.html`
 - `site/verifier/smic-emplois-farandou.html`
 - `site/verifier/smic-europe-melenchon.html`
